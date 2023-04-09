@@ -14,8 +14,7 @@ do
     git config --local user.name "Github Action"
     git pull
     python3 python/scrape_wbb_schedules.py -s $i -e $i
-    # python3 python/scrape_wbb_json.py -s $i -e $i -r $RESCRAPE
-    python3 python/add_game_links_to_schedule.py -s $i -e $i
+    python3 python/scrape_wbb_json.py -s $i -e $i -r $RESCRAPE
     git pull
     git add .
     git pull  >> /dev/null

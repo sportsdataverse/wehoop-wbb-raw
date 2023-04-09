@@ -1,0 +1,16 @@
+on: [push, workflow_dispatch]
+
+name: wehoop WBB Data trigger
+
+jobs:
+    wehoop_wbb_data_trigger:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Trigger wehoop WBB Data
+              uses: peter-evans/repository-dispatch@v2
+              with:
+                  token: ${{ secrets.SDV_GH_TOKEN }}
+                  repository: sportsdataverse/wehoop-wbb-data
+                  event-type: daily_wbb_data
+                  client-payload: '{"ref": "refs/heads/main",
+                                    "event_name": "daily_wbb_data"}'

@@ -18369,6 +18369,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -18379,27 +18380,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/18126589"
+"href": "http://api-app.espn.com/v1/video/clips/18126589"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=18126589&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=18126589",
 "short": {
-"href": "http://www.espn.com/video/clip?id=18126589"
+"href": "https://es.pn/2gimRmX"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=18126589&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=18126589"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2016/1124/dm_161124_NCW_Northwestern_State_v_Texas_Highlight/dm_161124_NCW_Northwestern_State_v_Texas_Highlight.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2016/1124/dm_161124_NCW_Northwestern_State_v_Texas_Highlight/dm_161124_NCW_Northwestern_State_v_Texas_Highlight.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1124/dm_161124_NCW_Northwestern_State_v_Texas_Highlight/dm_161124_NCW_Northwestern_State_v_Texas_Highlight.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2016/1124/dm_161124_NCW_Northwestern_State_v_Texas_Highlight/dm_161124_NCW_Northwestern_State_v_Texas_Highlight_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2016/1124/dm_161124_NCW_Northwestern_State_v_Texas_Highlight/dm_161124_NCW_Northwestern_State_v_Texas_Highlight_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2016/1124/dm_161124_NCW_Northwestern_State_v_Texas_Highlight/dm_161124_NCW_Northwestern_State_v_Texas_Highlight/playlist.m3u8",
@@ -18417,10 +18418,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=18126589&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=18126589"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1124/dm_161124_NCW_Northwestern_State_v_Texas_Highlight/dm_161124_NCW_Northwestern_State_v_Texas_Highlight.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/62b3c06a-57b1-4c16-af55-9780df20dd35/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18126589",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/62b3c06a-57b1-4c16-af55-9780df20dd35/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18126589"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/62b3c06a-57b1-4c16-af55-9780df20dd35/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18126589"
 }
 }
 }

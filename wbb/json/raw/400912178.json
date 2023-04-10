@@ -14880,6 +14880,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop"
 ]
 },
@@ -14888,27 +14889,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/18657028"
+"href": "http://api-app.espn.com/v1/video/clips/18657028"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=18657028&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=18657028",
 "short": {
-"href": "http://www.espn.com/video/clip?id=18657028"
+"href": "https://es.pn/2kVtSQv"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=18657028&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=18657028"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2017/0210/dm_170210_NCW_Florida_State_Wake_Forest_Highlight/dm_170210_NCW_Florida_State_Wake_Forest_Highlight.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2017/0210/dm_170210_NCW_Florida_State_Wake_Forest_Highlight/dm_170210_NCW_Florida_State_Wake_Forest_Highlight.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2017/0210/dm_170210_NCW_Florida_State_Wake_Forest_Highlight/dm_170210_NCW_Florida_State_Wake_Forest_Highlight.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2017/0210/dm_170210_NCW_Florida_State_Wake_Forest_Highlight/dm_170210_NCW_Florida_State_Wake_Forest_Highlight_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2017/0210/dm_170210_NCW_Florida_State_Wake_Forest_Highlight/dm_170210_NCW_Florida_State_Wake_Forest_Highlight_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2017/0210/dm_170210_NCW_Florida_State_Wake_Forest_Highlight/dm_170210_NCW_Florida_State_Wake_Forest_Highlight/playlist.m3u8",
@@ -14926,7 +14927,7 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=18657028&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=18657028"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2017/0210/dm_170210_NCW_Florida_State_Wake_Forest_Highlight/dm_170210_NCW_Florida_State_Wake_Forest_Highlight.mp4"

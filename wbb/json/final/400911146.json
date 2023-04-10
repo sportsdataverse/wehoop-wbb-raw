@@ -22425,6 +22425,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -22435,27 +22436,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/18456637"
+"href": "http://api-app.espn.com/v1/video/clips/18456637"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=18456637&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=18456637",
 "short": {
-"href": "http://www.espn.com/video/clip?id=18456637"
+"href": "https://es.pn/2jxDlt4"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=18456637&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=18456637"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2017/0112/dm_170112_ncw_kansas_kansasstate/dm_170112_ncw_kansas_kansasstate.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2017/0112/dm_170112_ncw_kansas_kansasstate/dm_170112_ncw_kansas_kansasstate.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2017/0112/dm_170112_ncw_kansas_kansasstate/dm_170112_ncw_kansas_kansasstate.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2017/0112/dm_170112_ncw_kansas_kansasstate/dm_170112_ncw_kansas_kansasstate_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2017/0112/dm_170112_ncw_kansas_kansasstate/dm_170112_ncw_kansas_kansasstate_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2017/0112/dm_170112_ncw_kansas_kansasstate/dm_170112_ncw_kansas_kansasstate/playlist.m3u8",
@@ -22473,10 +22474,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=18456637&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=18456637"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2017/0112/dm_170112_ncw_kansas_kansasstate/dm_170112_ncw_kansas_kansasstate.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/abc8b933-6fd3-4880-aaab-16920738f7f2/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18456637",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/abc8b933-6fd3-4880-aaab-16920738f7f2/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18456637"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/abc8b933-6fd3-4880-aaab-16920738f7f2/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18456637"
 }
 }
 }

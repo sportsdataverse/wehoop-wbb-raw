@@ -15991,6 +15991,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -16001,27 +16002,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/18069349"
+"href": "http://api-app.espn.com/v1/video/clips/18069349"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=18069349&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=18069349",
 "short": {
-"href": "http://www.espn.com/video/clip?id=18069349"
+"href": "https://es.pn/2f6HBAw"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=18069349&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=18069349"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2016/1117/dm_161117_ncw_houstonbaptist_texas/dm_161117_ncw_houstonbaptist_texas.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2016/1117/dm_161117_ncw_houstonbaptist_texas/dm_161117_ncw_houstonbaptist_texas.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1117/dm_161117_ncw_houstonbaptist_texas/dm_161117_ncw_houstonbaptist_texas.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2016/1117/dm_161117_ncw_houstonbaptist_texas/dm_161117_ncw_houstonbaptist_texas_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2016/1117/dm_161117_ncw_houstonbaptist_texas/dm_161117_ncw_houstonbaptist_texas_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2016/1117/dm_161117_ncw_houstonbaptist_texas/dm_161117_ncw_houstonbaptist_texas/playlist.m3u8",
@@ -16039,7 +16040,7 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=18069349&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=18069349"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1117/dm_161117_ncw_houstonbaptist_texas/dm_161117_ncw_houstonbaptist_texas.mp4"

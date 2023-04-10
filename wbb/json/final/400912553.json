@@ -21041,6 +21041,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -21051,27 +21052,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/18282920"
+"href": "http://api-app.espn.com/v1/video/clips/18282920"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=18282920&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=18282920",
 "short": {
-"href": "http://www.espn.com/video/clip?id=18282920"
+"href": "https://es.pn/2h2OYrb"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=18282920&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=18282920"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2016/1215/dm_161215_NCW_Oregon_v_Ole_Miss_Highlight/dm_161215_NCW_Oregon_v_Ole_Miss_Highlight.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2016/1215/dm_161215_NCW_Oregon_v_Ole_Miss_Highlight/dm_161215_NCW_Oregon_v_Ole_Miss_Highlight.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1215/dm_161215_NCW_Oregon_v_Ole_Miss_Highlight/dm_161215_NCW_Oregon_v_Ole_Miss_Highlight.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2016/1215/dm_161215_NCW_Oregon_v_Ole_Miss_Highlight/dm_161215_NCW_Oregon_v_Ole_Miss_Highlight_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2016/1215/dm_161215_NCW_Oregon_v_Ole_Miss_Highlight/dm_161215_NCW_Oregon_v_Ole_Miss_Highlight_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2016/1215/dm_161215_NCW_Oregon_v_Ole_Miss_Highlight/dm_161215_NCW_Oregon_v_Ole_Miss_Highlight/playlist.m3u8",
@@ -21089,10 +21090,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=18282920&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=18282920"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1215/dm_161215_NCW_Oregon_v_Ole_Miss_Highlight/dm_161215_NCW_Oregon_v_Ole_Miss_Highlight.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/0ade96b6-8985-4f06-8779-ed7933b48998/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18282920",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/0ade96b6-8985-4f06-8779-ed7933b48998/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18282920"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/0ade96b6-8985-4f06-8779-ed7933b48998/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18282920"
 }
 }
 }

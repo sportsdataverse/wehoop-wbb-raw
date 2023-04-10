@@ -21102,6 +21102,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -21112,27 +21113,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/18483276"
+"href": "http://api-app.espn.com/v1/video/clips/18483276"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=18483276&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=18483276",
 "short": {
-"href": "http://www.espn.com/video/clip?id=18483276"
+"href": "https://es.pn/2jOPbzb"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=18483276&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=18483276"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2017/0115/dm_170115_ncw_fsu_clemson_hl/dm_170115_ncw_fsu_clemson_hl.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2017/0115/dm_170115_ncw_fsu_clemson_hl/dm_170115_ncw_fsu_clemson_hl.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2017/0115/dm_170115_ncw_fsu_clemson_hl/dm_170115_ncw_fsu_clemson_hl.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2017/0115/dm_170115_ncw_fsu_clemson_hl/dm_170115_ncw_fsu_clemson_hl_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2017/0115/dm_170115_ncw_fsu_clemson_hl/dm_170115_ncw_fsu_clemson_hl_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2017/0115/dm_170115_ncw_fsu_clemson_hl/dm_170115_ncw_fsu_clemson_hl/playlist.m3u8",
@@ -21150,10 +21151,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=18483276&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=18483276"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2017/0115/dm_170115_ncw_fsu_clemson_hl/dm_170115_ncw_fsu_clemson_hl.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/2c198775-6519-4316-b6dd-5941e7b8c012/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18483276",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/2c198775-6519-4316-b6dd-5941e7b8c012/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18483276"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/2c198775-6519-4316-b6dd-5941e7b8c012/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18483276"
 }
 }
 }

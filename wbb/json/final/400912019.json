@@ -22569,6 +22569,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -22579,27 +22580,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/18185086"
+"href": "http://api-app.espn.com/v1/video/clips/18185086"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=18185086&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=18185086",
 "short": {
-"href": "http://www.espn.com/video/clip?id=18185086"
+"href": "https://es.pn/2gSQFH3"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=18185086&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=18185086"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2016/1202/dm_161202_NCW_Maryland_v_Louisville_Highlight/dm_161202_NCW_Maryland_v_Louisville_Highlight.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2016/1202/dm_161202_NCW_Maryland_v_Louisville_Highlight/dm_161202_NCW_Maryland_v_Louisville_Highlight.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1202/dm_161202_NCW_Maryland_v_Louisville_Highlight/dm_161202_NCW_Maryland_v_Louisville_Highlight.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2016/1202/dm_161202_NCW_Maryland_v_Louisville_Highlight/dm_161202_NCW_Maryland_v_Louisville_Highlight_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2016/1202/dm_161202_NCW_Maryland_v_Louisville_Highlight/dm_161202_NCW_Maryland_v_Louisville_Highlight_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2016/1202/dm_161202_NCW_Maryland_v_Louisville_Highlight/dm_161202_NCW_Maryland_v_Louisville_Highlight/playlist.m3u8",
@@ -22617,10 +22618,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=18185086&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=18185086"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1202/dm_161202_NCW_Maryland_v_Louisville_Highlight/dm_161202_NCW_Maryland_v_Louisville_Highlight.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/b1a1c1b8-02eb-4e5f-87ff-29c91c7f35e8/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18185086",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/b1a1c1b8-02eb-4e5f-87ff-29c91c7f35e8/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18185086"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/b1a1c1b8-02eb-4e5f-87ff-29c91c7f35e8/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18185086"
 }
 }
 }

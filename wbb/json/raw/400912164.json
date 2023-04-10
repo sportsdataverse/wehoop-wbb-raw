@@ -15112,17 +15112,12 @@
 "id": 18609722,
 "headline": "NC State sinks Louisville at buzzer of OT",
 "description": "Tied at 70-70 in the final seconds of overtime, Miah Spencer sinks a shot at the buzzer and NC State defeats Louisville in a thriller 72-70.",
-"ad": {
-"sport": "ncw",
-"bundle": "espnw"
-},
 "tracking": {
 "sportName": "ncw",
 "leagueName": "No League",
 "coverageType": "Final Game Highlight",
 "trackingName": "COM_NCW Highlight (NC State-Louisville) 2017/2/2 ESHEET espnW"
 },
-"cerebroId": "5893fa14e4b0ff4d8df0ebb8",
 "lastModified": "2017-02-03T04:58:27Z",
 "originalPublishDate": "2017-02-03T03:31:48Z",
 "timeRestrictions": {
@@ -15133,6 +15128,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -15143,27 +15139,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/18609722"
+"href": "http://api-app.espn.com/v1/video/clips/18609722"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=18609722&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=18609722",
 "short": {
-"href": "http://www.espn.com/video/clip?id=18609722"
+"href": "https://es.pn/2jJlWx8"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=18609722&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=18609722"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2017/0202/dm_170202_NCW_NC_State_Louisville/dm_170202_NCW_NC_State_Louisville.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2017/0202/dm_170202_NCW_NC_State_Louisville/dm_170202_NCW_NC_State_Louisville.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2017/0202/dm_170202_NCW_NC_State_Louisville/dm_170202_NCW_NC_State_Louisville.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2017/0202/dm_170202_NCW_NC_State_Louisville/dm_170202_NCW_NC_State_Louisville_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2017/0202/dm_170202_NCW_NC_State_Louisville/dm_170202_NCW_NC_State_Louisville_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2017/0202/dm_170202_NCW_NC_State_Louisville/dm_170202_NCW_NC_State_Louisville/playlist.m3u8",
@@ -15181,10 +15177,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=18609722&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=18609722"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2017/0202/dm_170202_NCW_NC_State_Louisville/dm_170202_NCW_NC_State_Louisville.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/fc240051-aab1-4ab9-894b-228b2b77c6cb/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18609722",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/fc240051-aab1-4ab9-894b-228b2b77c6cb/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18609722"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/fc240051-aab1-4ab9-894b-228b2b77c6cb/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18609722"
 }
 }
 }

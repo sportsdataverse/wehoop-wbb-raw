@@ -13771,6 +13771,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -13781,27 +13782,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/18119208"
+"href": "http://api-app.espn.com/v1/video/clips/18119208"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=18119208&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=18119208",
 "short": {
-"href": "http://www.espn.com/video/clip?id=18119208"
+"href": "https://es.pn/2gA5keh"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=18119208&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=18119208"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2016/1123/dm_161123_NCW_Highlight_Saint_Peters_South_Carolina/dm_161123_NCW_Highlight_Saint_Peters_South_Carolina.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2016/1123/dm_161123_NCW_Highlight_Saint_Peters_South_Carolina/dm_161123_NCW_Highlight_Saint_Peters_South_Carolina.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1123/dm_161123_NCW_Highlight_Saint_Peters_South_Carolina/dm_161123_NCW_Highlight_Saint_Peters_South_Carolina.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2016/1123/dm_161123_NCW_Highlight_Saint_Peters_South_Carolina/dm_161123_NCW_Highlight_Saint_Peters_South_Carolina_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2016/1123/dm_161123_NCW_Highlight_Saint_Peters_South_Carolina/dm_161123_NCW_Highlight_Saint_Peters_South_Carolina_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2016/1123/dm_161123_NCW_Highlight_Saint_Peters_South_Carolina/dm_161123_NCW_Highlight_Saint_Peters_South_Carolina/playlist.m3u8",
@@ -13819,10 +13820,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=18119208&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=18119208"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1123/dm_161123_NCW_Highlight_Saint_Peters_South_Carolina/dm_161123_NCW_Highlight_Saint_Peters_South_Carolina.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/5de1ef29-c08e-429e-8239-57d7fb92a299/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18119208",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/5de1ef29-c08e-429e-8239-57d7fb92a299/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18119208"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/5de1ef29-c08e-429e-8239-57d7fb92a299/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18119208"
 }
 }
 }

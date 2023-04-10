@@ -21609,6 +21609,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -21619,27 +21620,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/18052535"
+"href": "http://api-app.espn.com/v1/video/clips/18052535"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=18052535&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=18052535",
 "short": {
-"href": "http://www.espn.com/video/clip?id=18052535"
+"href": "https://es.pn/2gcdyt1"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=18052535&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=18052535"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2016/1115/dm_161115_NCW_UCLA_v_Baylor_Highlight/dm_161115_NCW_UCLA_v_Baylor_Highlight.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2016/1115/dm_161115_NCW_UCLA_v_Baylor_Highlight/dm_161115_NCW_UCLA_v_Baylor_Highlight.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1115/dm_161115_NCW_UCLA_v_Baylor_Highlight/dm_161115_NCW_UCLA_v_Baylor_Highlight.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2016/1115/dm_161115_NCW_UCLA_v_Baylor_Highlight/dm_161115_NCW_UCLA_v_Baylor_Highlight_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2016/1115/dm_161115_NCW_UCLA_v_Baylor_Highlight/dm_161115_NCW_UCLA_v_Baylor_Highlight_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2016/1115/dm_161115_NCW_UCLA_v_Baylor_Highlight/dm_161115_NCW_UCLA_v_Baylor_Highlight/playlist.m3u8",
@@ -21657,10 +21658,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=18052535&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=18052535"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1115/dm_161115_NCW_UCLA_v_Baylor_Highlight/dm_161115_NCW_UCLA_v_Baylor_Highlight.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/ad667d59-ee94-42f3-8a8f-81f2da7a8535/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18052535",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/ad667d59-ee94-42f3-8a8f-81f2da7a8535/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18052535"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/ad667d59-ee94-42f3-8a8f-81f2da7a8535/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18052535"
 }
 }
 }

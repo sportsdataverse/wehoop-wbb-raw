@@ -22552,6 +22552,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -22562,27 +22563,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/18198977"
+"href": "http://api-app.espn.com/v1/video/clips/18198977"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=18198977&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=18198977",
 "short": {
-"href": "http://www.espn.com/video/clip?id=18198977"
+"href": "https://es.pn/2fYviDm"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=18198977&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=18198977"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2016/1204/dm_161204_NCW_Idaho_State_v_Colorado/dm_161204_NCW_Idaho_State_v_Colorado.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2016/1204/dm_161204_NCW_Idaho_State_v_Colorado/dm_161204_NCW_Idaho_State_v_Colorado.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1204/dm_161204_NCW_Idaho_State_v_Colorado/dm_161204_NCW_Idaho_State_v_Colorado.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2016/1204/dm_161204_NCW_Idaho_State_v_Colorado/dm_161204_NCW_Idaho_State_v_Colorado_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2016/1204/dm_161204_NCW_Idaho_State_v_Colorado/dm_161204_NCW_Idaho_State_v_Colorado_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2016/1204/dm_161204_NCW_Idaho_State_v_Colorado/dm_161204_NCW_Idaho_State_v_Colorado/playlist.m3u8",
@@ -22600,10 +22601,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=18198977&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=18198977"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1204/dm_161204_NCW_Idaho_State_v_Colorado/dm_161204_NCW_Idaho_State_v_Colorado.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/a62d7ae9-dffd-4eec-bb44-ea7c81e074e6/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18198977",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/a62d7ae9-dffd-4eec-bb44-ea7c81e074e6/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18198977"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/a62d7ae9-dffd-4eec-bb44-ea7c81e074e6/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18198977"
 }
 }
 }

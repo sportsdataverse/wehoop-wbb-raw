@@ -25972,6 +25972,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -25982,27 +25983,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/18296007"
+"href": "http://api-app.espn.com/v1/video/clips/18296007"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=18296007&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=18296007",
 "short": {
-"href": "http://www.espn.com/video/clip?id=18296007"
+"href": "https://es.pn/2gULf2N"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=18296007&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=18296007"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2016/1217/dm_161217_NCW_Louisville_v_Charleston_Highlight/dm_161217_NCW_Louisville_v_Charleston_Highlight.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2016/1217/dm_161217_NCW_Louisville_v_Charleston_Highlight/dm_161217_NCW_Louisville_v_Charleston_Highlight.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1217/dm_161217_NCW_Louisville_v_Charleston_Highlight/dm_161217_NCW_Louisville_v_Charleston_Highlight.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2016/1217/dm_161217_NCW_Louisville_v_Charleston_Highlight/dm_161217_NCW_Louisville_v_Charleston_Highlight_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2016/1217/dm_161217_NCW_Louisville_v_Charleston_Highlight/dm_161217_NCW_Louisville_v_Charleston_Highlight_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2016/1217/dm_161217_NCW_Louisville_v_Charleston_Highlight/dm_161217_NCW_Louisville_v_Charleston_Highlight/playlist.m3u8",
@@ -26020,10 +26021,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=18296007&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=18296007"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1217/dm_161217_NCW_Louisville_v_Charleston_Highlight/dm_161217_NCW_Louisville_v_Charleston_Highlight.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/b0552bed-6c37-4764-ba67-ba4c066e5833/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18296007",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/b0552bed-6c37-4764-ba67-ba4c066e5833/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18296007"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/b0552bed-6c37-4764-ba67-ba4c066e5833/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18296007"
 }
 }
 }

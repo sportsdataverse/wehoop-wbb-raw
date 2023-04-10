@@ -13638,6 +13638,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -13648,27 +13649,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/18259262"
+"href": "http://api-app.espn.com/v1/video/clips/18259262"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=18259262&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=18259262",
 "short": {
-"href": "http://www.espn.com/video/clip?id=18259262"
+"href": "https://es.pn/2gqn8UM"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=18259262&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=18259262"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2016/1211/dm_161211_NCW_Louisville_v_Western_Kentucky_Highlight/dm_161211_NCW_Louisville_v_Western_Kentucky_Highlight.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2016/1211/dm_161211_NCW_Louisville_v_Western_Kentucky_Highlight/dm_161211_NCW_Louisville_v_Western_Kentucky_Highlight.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1211/dm_161211_NCW_Louisville_v_Western_Kentucky_Highlight/dm_161211_NCW_Louisville_v_Western_Kentucky_Highlight.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2016/1211/dm_161211_NCW_Louisville_v_Western_Kentucky_Highlight/dm_161211_NCW_Louisville_v_Western_Kentucky_Highlight_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2016/1211/dm_161211_NCW_Louisville_v_Western_Kentucky_Highlight/dm_161211_NCW_Louisville_v_Western_Kentucky_Highlight_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2016/1211/dm_161211_NCW_Louisville_v_Western_Kentucky_Highlight/dm_161211_NCW_Louisville_v_Western_Kentucky_Highlight/playlist.m3u8",
@@ -13686,10 +13687,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=18259262&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=18259262"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2016/1211/dm_161211_NCW_Louisville_v_Western_Kentucky_Highlight/dm_161211_NCW_Louisville_v_Western_Kentucky_Highlight.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/40c3eae3-9191-4de2-b5ad-ee0127b5dc6d/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18259262",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/40c3eae3-9191-4de2-b5ad-ee0127b5dc6d/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18259262"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/40c3eae3-9191-4de2-b5ad-ee0127b5dc6d/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=18259262"
 }
 }
 }

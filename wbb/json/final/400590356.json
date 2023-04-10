@@ -3389,6 +3389,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -3399,21 +3400,21 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/11895438"
+"href": "http://api-app.espn.com/v1/video/clips/11895438"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=11895438&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=11895438",
 "short": {
 "href": "http://es.pn/1uBF0QG"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=11895438&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=11895438"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2014/1117/dm_141117_ncb_uconn_stan/dm_141117_ncb_uconn_stan.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2014/1117/dm_141117_ncb_uconn_stan/dm_141117_ncb_uconn_stan.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2014/1117/dm_141117_ncb_uconn_stan/dm_141117_ncb_uconn_stan.smil"
@@ -3434,10 +3435,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=11895438&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=11895438"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2014/1117/dm_141117_ncb_uconn_stan/dm_141117_ncb_uconn_stan.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/cf95d047-8e0e-46d1-80d2-9bf518e44e93/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=11895438",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/cf95d047-8e0e-46d1-80d2-9bf518e44e93/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=11895438"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/cf95d047-8e0e-46d1-80d2-9bf518e44e93/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=11895438"
 }
 }
 }

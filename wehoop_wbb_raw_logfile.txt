@@ -1111,3 +1111,35 @@ Traceback (most recent call last):
 KeyError: 'abbreviation'
 INFO:__main__:8.529007844130199 minutes to download 5603 game play-by-plays.
 INFO:__main__:Finished WBB PBP for 2015...
+INFO:__main__:Scraping WBB schedules for year 2016...
+INFO:__main__:2.575418674945831 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping WBB PBP for 2016...
+INFO:__main__:Number of Games: 5619
+ERROR:__main__:KeyError: game_id =  game_id = 400823550
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+ERROR:__main__:KeyError: game_id =  game_id = 400849312
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 96, in helper_wbb_pbp
+    homeTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][0]['team']['abbreviation'])
+KeyError: 'abbreviation'
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 96, in helper_wbb_pbp
+    homeTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][0]['team']['abbreviation'])
+KeyError: 'abbreviation'
+INFO:__main__:8.89611363808314 minutes to download 5619 game play-by-plays.
+INFO:__main__:Finished WBB PBP for 2016...

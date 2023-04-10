@@ -3472,6 +3472,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -3482,27 +3483,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/14910151"
+"href": "http://api-app.espn.com/v1/video/clips/14910151"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=14910151&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=14910151",
 "short": {
 "href": "http://es.pn/1QtDHNa"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=14910151&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=14910151"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2016/0305/dm_160305_Northwestern_Maryland_Highlight/dm_160305_Northwestern_Maryland_Highlight.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2016/0305/dm_160305_Northwestern_Maryland_Highlight/dm_160305_Northwestern_Maryland_Highlight.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2016/0305/dm_160305_Northwestern_Maryland_Highlight/dm_160305_Northwestern_Maryland_Highlight.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2016/0305/dm_160305_Northwestern_Maryland_Highlight/dm_160305_Northwestern_Maryland_Highlight_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2016/0305/dm_160305_Northwestern_Maryland_Highlight/dm_160305_Northwestern_Maryland_Highlight_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2016/0305/dm_160305_Northwestern_Maryland_Highlight/dm_160305_Northwestern_Maryland_Highlight/playlist.m3u8",
@@ -3520,10 +3521,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=14910151&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=14910151"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2016/0305/dm_160305_Northwestern_Maryland_Highlight/dm_160305_Northwestern_Maryland_Highlight.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/17b87d9e-f844-401f-b633-506fffd37e2d/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=14910151",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/17b87d9e-f844-401f-b633-506fffd37e2d/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=14910151"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/17b87d9e-f844-401f-b633-506fffd37e2d/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=14910151"
 }
 }
 }

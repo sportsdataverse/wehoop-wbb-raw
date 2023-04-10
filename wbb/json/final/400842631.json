@@ -24210,6 +24210,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset"
 ]
@@ -24219,27 +24220,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/14848728"
+"href": "http://api-app.espn.com/v1/video/clips/14848728"
 }
 },
 "web": {
-"href": "http://espn.go.com/video/clip?id=14848728&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=14848728",
 "short": {
 "href": "http://es.pn/1TCmFP3"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=14848728&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=14848728"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2016/0226/dm_160226_Louisville_Miami_Highlight/dm_160226_Louisville_Miami_Highlight.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2016/0226/dm_160226_Louisville_Miami_Highlight/dm_160226_Louisville_Miami_Highlight.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2016/0226/dm_160226_Louisville_Miami_Highlight/dm_160226_Louisville_Miami_Highlight.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2016/0226/dm_160226_Louisville_Miami_Highlight/dm_160226_Louisville_Miami_Highlight_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2016/0226/dm_160226_Louisville_Miami_Highlight/dm_160226_Louisville_Miami_Highlight_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2016/0226/dm_160226_Louisville_Miami_Highlight/dm_160226_Louisville_Miami_Highlight/playlist.m3u8",
@@ -24257,10 +24258,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=14848728&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=14848728"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2016/0226/dm_160226_Louisville_Miami_Highlight/dm_160226_Louisville_Miami_Highlight.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/fbb90444-9e50-4c2c-a6e9-dc5f464dc726/content.once?UMADPARAMreferer=http://espn.go.com/video/clip?id=14848728",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/fbb90444-9e50-4c2c-a6e9-dc5f464dc726/content.once?UMADPARAMreferer=http://espn.go.com/video/clip?id=14848728"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/fbb90444-9e50-4c2c-a6e9-dc5f464dc726/content.once?UMADPARAMreferer=http://espn.go.com/video/clip?id=14848728"
 }
 }
 }

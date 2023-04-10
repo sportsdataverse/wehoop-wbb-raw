@@ -555,3 +555,35 @@ Traceback (most recent call last):
 KeyError: 'abbreviation'
 INFO:__main__:6.430828134218852 minutes to download 5430 game play-by-plays.
 INFO:__main__:Finished WBB PBP for 2009...
+INFO:__main__:Scraping WBB schedules for year 2010...
+INFO:__main__:1.719402821858724 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping WBB PBP for 2010...
+INFO:__main__:Number of Games: 5450
+ERROR:__main__:KeyError: game_id =  game_id = 293540233
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+ERROR:__main__:KeyError: game_id =  game_id = 293640349
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+INFO:__main__:5.640522650877634 minutes to download 5450 game play-by-plays.
+INFO:__main__:Finished WBB PBP for 2010...

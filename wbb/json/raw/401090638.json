@@ -4355,6 +4355,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -4365,30 +4366,30 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/26018807"
+"href": "http://api-app.espn.com/v1/video/clips/26018807"
 },
 "artwork": {
 "href": "https://artwork.api.espn.com/artwork/collections/media/d1d8f6fc-aa0b-4f61-90d4-b7137f769913"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=26018807&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=26018807",
 "short": {
-"href": "http://www.espn.com/video/clip?id=26018807"
+"href": "https://es.pn/2GuSxGO"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=26018807&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=26018807"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2019/0217/dm_190217_ncaaw_uconn_crystal_dangerfield/dm_190217_ncaaw_uconn_crystal_dangerfield.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2019/0217/dm_190217_ncaaw_uconn_crystal_dangerfield/dm_190217_ncaaw_uconn_crystal_dangerfield.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2019/0217/dm_190217_ncaaw_uconn_crystal_dangerfield/dm_190217_ncaaw_uconn_crystal_dangerfield.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2019/0217/dm_190217_ncaaw_uconn_crystal_dangerfield/dm_190217_ncaaw_uconn_crystal_dangerfield_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2019/0217/dm_190217_ncaaw_uconn_crystal_dangerfield/dm_190217_ncaaw_uconn_crystal_dangerfield_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2019/0217/dm_190217_ncaaw_uconn_crystal_dangerfield/dm_190217_ncaaw_uconn_crystal_dangerfield/playlist.m3u8",
@@ -4406,17 +4407,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=26018807&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=26018807"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2019/0217/dm_190217_ncaaw_uconn_crystal_dangerfield/dm_190217_ncaaw_uconn_crystal_dangerfield.mp4"
 },
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/d1d8f6fc-aa0b-4f61-90d4-b7137f769913/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=26018807&ex_cid=espnapi_internal",
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/d7719a7e-5826-41fe-b3a1-57632e6e2800/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=26018807",
 "streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/d1d8f6fc-aa0b-4f61-90d4-b7137f769913/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=26018807&ex_cid=espnapi_internal"
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/d7719a7e-5826-41fe-b3a1-57632e6e2800/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=26018807"
 },
 "progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/d1d8f6fc-aa0b-4f61-90d4-b7137f769913/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=26018807&ex_cid=espnapi_internal"
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/d7719a7e-5826-41fe-b3a1-57632e6e2800/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=26018807"
 }
 }
 }

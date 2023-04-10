@@ -3703,6 +3703,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -3713,30 +3714,30 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/26343605"
+"href": "http://api-app.espn.com/v1/video/clips/26343605"
 },
 "artwork": {
 "href": "https://artwork.api.espn.com/artwork/collections/media/a870338d-0140-4a95-838d-f1a7082708ee"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=26343605&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=26343605",
 "short": {
-"href": "http://www.espn.com/video/clip?id=26343605"
+"href": "https://es.pn/2OlKnBT"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=26343605&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=26343605"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2019/0323/dm_190323_WNCB_highlight/dm_190323_WNCB_highlight.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2019/0323/dm_190323_WNCB_highlight/dm_190323_WNCB_highlight.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2019/0323/dm_190323_WNCB_highlight/dm_190323_WNCB_highlight.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2019/0323/dm_190323_WNCB_highlight/dm_190323_WNCB_highlight_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2019/0323/dm_190323_WNCB_highlight/dm_190323_WNCB_highlight_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2019/0323/dm_190323_WNCB_highlight/dm_190323_WNCB_highlight/playlist.m3u8",
@@ -3754,17 +3755,10 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=26343605&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=26343605"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2019/0323/dm_190323_WNCB_highlight/dm_190323_WNCB_highlight.mp4"
-},
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/a870338d-0140-4a95-838d-f1a7082708ee/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=26343605&ex_cid=espnapi_internal",
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/a870338d-0140-4a95-838d-f1a7082708ee/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=26343605&ex_cid=espnapi_internal"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/a870338d-0140-4a95-838d-f1a7082708ee/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=26343605&ex_cid=espnapi_internal"
 }
 }
 }

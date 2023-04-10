@@ -1181,3 +1181,39 @@ Traceback (most recent call last):
 KeyError: 'abbreviation'
 INFO:__main__:9.14263511498769 minutes to download 5630 game play-by-plays.
 INFO:__main__:Finished WBB PBP for 2018...
+INFO:__main__:Scraping WBB schedules for year 2019...
+INFO:__main__:2.1599151372909544 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping WBB PBP for 2019...
+INFO:__main__:Number of Games: 5658
+ERROR:__main__:KeyError: game_id =  game_id = 401097252
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+ERROR:__main__:TypeError: game_id = 401093990
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 50, in download_game
+    g = sdv.wbb.espn_wbb_pbp(game_id = game, raw = True)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 29, in espn_wbb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 50, in download_game
+    g = sdv.wbb.espn_wbb_pbp(game_id = game, raw = True)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 29, in espn_wbb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+INFO:__main__:9.170674792925517 minutes to download 5658 game play-by-plays.
+INFO:__main__:Finished WBB PBP for 2019...

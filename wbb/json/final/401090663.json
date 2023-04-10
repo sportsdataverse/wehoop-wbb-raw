@@ -3379,6 +3379,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -3389,30 +3390,30 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/26087884"
+"href": "http://api-app.espn.com/v1/video/clips/26087884"
 },
 "artwork": {
 "href": "https://artwork.api.espn.com/artwork/collections/media/08035a59-1066-4429-b69c-5770312dd41b"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=26087884&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=26087884",
 "short": {
-"href": "http://www.espn.com/video/clip?id=26087884"
+"href": "https://es.pn/2UavAfe"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=26087884&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=26087884"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2019/0226/evc_ncw_20190226_conn__wich_c3630535_1be3_4047_be47_90e85492d549_481/evc_ncw_20190226_conn__wich_c3630535_1be3_4047_be47_90e85492d549_481.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/fastclipper/2019/0226/evc_ncw_20190226_conn__wich_c3630535_1be3_4047_be47_90e85492d549_481/evc_ncw_20190226_conn__wich_c3630535_1be3_4047_be47_90e85492d549_481.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2019/0226/evc_ncw_20190226_conn__wich_c3630535_1be3_4047_be47_90e85492d549_481/evc_ncw_20190226_conn__wich_c3630535_1be3_4047_be47_90e85492d549_481.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2019/0226/evc_ncw_20190226_conn__wich_c3630535_1be3_4047_be47_90e85492d549_481/evc_ncw_20190226_conn__wich_c3630535_1be3_4047_be47_90e85492d549_481_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/fastclipper/2019/0226/evc_ncw_20190226_conn__wich_c3630535_1be3_4047_be47_90e85492d549_481/evc_ncw_20190226_conn__wich_c3630535_1be3_4047_be47_90e85492d549_481_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/fastclipper/2019/0226/evc_ncw_20190226_conn__wich_c3630535_1be3_4047_be47_90e85492d549_481/evc_ncw_20190226_conn__wich_c3630535_1be3_4047_be47_90e85492d549_481/playlist.m3u8",
@@ -3430,17 +3431,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=26087884&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=26087884"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2019/0226/evc_ncw_20190226_conn__wich_c3630535_1be3_4047_be47_90e85492d549_481/evc_ncw_20190226_conn__wich_c3630535_1be3_4047_be47_90e85492d549_481.mp4"
 },
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/08035a59-1066-4429-b69c-5770312dd41b/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=26087884&ex_cid=espnapi_internal",
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/767bca47-4d49-42ab-ab0b-32ced0789013/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=26087884",
 "streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/08035a59-1066-4429-b69c-5770312dd41b/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=26087884&ex_cid=espnapi_internal"
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/767bca47-4d49-42ab-ab0b-32ced0789013/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=26087884"
 },
 "progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/08035a59-1066-4429-b69c-5770312dd41b/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=26087884&ex_cid=espnapi_internal"
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/767bca47-4d49-42ab-ab0b-32ced0789013/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=26087884"
 }
 }
 }

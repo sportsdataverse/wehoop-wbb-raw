@@ -4010,6 +4010,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -4020,30 +4021,30 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/26451761"
+"href": "http://api-app.espn.com/v1/video/clips/26451761"
 },
 "artwork": {
 "href": "https://artwork.api.espn.com/artwork/collections/media/8f35e51e-fcad-4a4e-ba50-cca051b3d603"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=26451761&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=26451761",
 "short": {
-"href": "http://www.espn.com/video/clip?id=26451761"
+"href": "https://es.pn/2Vp3OMJ"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=26451761&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=26451761"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2019/0405/dm_190405_Baylors_size_too_much_for_Oregon/dm_190405_Baylors_size_too_much_for_Oregon.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2019/0405/dm_190405_Baylors_size_too_much_for_Oregon/dm_190405_Baylors_size_too_much_for_Oregon.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2019/0405/dm_190405_Baylors_size_too_much_for_Oregon/dm_190405_Baylors_size_too_much_for_Oregon.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2019/0405/dm_190405_Baylors_size_too_much_for_Oregon/dm_190405_Baylors_size_too_much_for_Oregon_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2019/0405/dm_190405_Baylors_size_too_much_for_Oregon/dm_190405_Baylors_size_too_much_for_Oregon_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2019/0405/dm_190405_Baylors_size_too_much_for_Oregon/dm_190405_Baylors_size_too_much_for_Oregon/playlist.m3u8",
@@ -4061,17 +4062,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=26451761&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=26451761"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2019/0405/dm_190405_Baylors_size_too_much_for_Oregon/dm_190405_Baylors_size_too_much_for_Oregon.mp4"
 },
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/8f35e51e-fcad-4a4e-ba50-cca051b3d603/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=26451761&ex_cid=espnapi_internal",
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/0e5b57a7-0ca5-41e3-8ea6-656e83043855/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=26451761",
 "streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/8f35e51e-fcad-4a4e-ba50-cca051b3d603/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=26451761&ex_cid=espnapi_internal"
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/0e5b57a7-0ca5-41e3-8ea6-656e83043855/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=26451761"
 },
 "progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/8f35e51e-fcad-4a4e-ba50-cca051b3d603/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=26451761&ex_cid=espnapi_internal"
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/0e5b57a7-0ca5-41e3-8ea6-656e83043855/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=26451761"
 }
 }
 }

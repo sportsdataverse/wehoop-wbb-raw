@@ -13,4 +13,6 @@ jobs:
                   repository: sportsdataverse/wehoop-wbb-data
                   event-type: daily_wbb_data
                   client-payload: '{"ref": "refs/heads/main",
-                                    "event_name": "daily_wbb_data"}'
+                                    "event_name": "daily_wbb_data",
+                                    "commit_message": "${{ github.event.head_commit.message }}"
+                                    }'

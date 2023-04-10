@@ -16498,6 +16498,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -16508,27 +16509,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/22599205"
+"href": "http://api-app.espn.com/v1/video/clips/22599205"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=22599205&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=22599205",
 "short": {
-"href": "http://www.espn.com/video/clip?id=22599205"
+"href": "https://es.pn/2GOCcc9"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=22599205&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=22599205"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2018/0227/dm_180227_WCBB_Texas_Oklahoma_highlight/dm_180227_WCBB_Texas_Oklahoma_highlight.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2018/0227/dm_180227_WCBB_Texas_Oklahoma_highlight/dm_180227_WCBB_Texas_Oklahoma_highlight.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2018/0227/dm_180227_WCBB_Texas_Oklahoma_highlight/dm_180227_WCBB_Texas_Oklahoma_highlight.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2018/0227/dm_180227_WCBB_Texas_Oklahoma_highlight/dm_180227_WCBB_Texas_Oklahoma_highlight_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2018/0227/dm_180227_WCBB_Texas_Oklahoma_highlight/dm_180227_WCBB_Texas_Oklahoma_highlight_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2018/0227/dm_180227_WCBB_Texas_Oklahoma_highlight/dm_180227_WCBB_Texas_Oklahoma_highlight/playlist.m3u8",
@@ -16546,10 +16547,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=22599205&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=22599205"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2018/0227/dm_180227_WCBB_Texas_Oklahoma_highlight/dm_180227_WCBB_Texas_Oklahoma_highlight.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/18484873-cb25-4f31-b10c-ceea6eeb192f/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=22599205",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/18484873-cb25-4f31-b10c-ceea6eeb192f/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=22599205"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/18484873-cb25-4f31-b10c-ceea6eeb192f/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=22599205"
 }
 }
 }

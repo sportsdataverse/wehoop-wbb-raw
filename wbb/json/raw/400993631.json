@@ -17135,6 +17135,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -17145,27 +17146,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/21963392"
+"href": "http://api-app.espn.com/v1/video/clips/21963392"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=21963392&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=21963392",
 "short": {
-"href": "http://www.espn.com/video/clip?id=21963392"
+"href": "https://es.pn/2EXIZjJ"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=21963392&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=21963392"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2018/0104/dm_180104_ncw_iowa_maryland_hl/dm_180104_ncw_iowa_maryland_hl.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2018/0104/dm_180104_ncw_iowa_maryland_hl/dm_180104_ncw_iowa_maryland_hl.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2018/0104/dm_180104_ncw_iowa_maryland_hl/dm_180104_ncw_iowa_maryland_hl.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2018/0104/dm_180104_ncw_iowa_maryland_hl/dm_180104_ncw_iowa_maryland_hl_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2018/0104/dm_180104_ncw_iowa_maryland_hl/dm_180104_ncw_iowa_maryland_hl_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2018/0104/dm_180104_ncw_iowa_maryland_hl/dm_180104_ncw_iowa_maryland_hl/playlist.m3u8",
@@ -17183,10 +17184,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=21963392&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=21963392"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2018/0104/dm_180104_ncw_iowa_maryland_hl/dm_180104_ncw_iowa_maryland_hl.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/0ad3b890-ed3a-4140-bc14-a69f45fc6772/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=21963392",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/0ad3b890-ed3a-4140-bc14-a69f45fc6772/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=21963392"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/0ad3b890-ed3a-4140-bc14-a69f45fc6772/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=21963392"
 }
 }
 }

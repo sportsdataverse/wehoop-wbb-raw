@@ -3354,6 +3354,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -3364,27 +3365,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/22796617"
+"href": "http://api-app.espn.com/v1/video/clips/22796617"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=22796617&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=22796617",
 "short": {
-"href": "http://www.espn.com/video/clip?id=22796617"
+"href": "https://es.pn/2HGMIT8"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=22796617&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=22796617"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2018/0316/evc_ncw_20180316_elon__ncst_42fe609a_5928_4b1b_a5a0_049db2995362/evc_ncw_20180316_elon__ncst_42fe609a_5928_4b1b_a5a0_049db2995362.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/fastclipper/2018/0316/evc_ncw_20180316_elon__ncst_42fe609a_5928_4b1b_a5a0_049db2995362/evc_ncw_20180316_elon__ncst_42fe609a_5928_4b1b_a5a0_049db2995362.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2018/0316/evc_ncw_20180316_elon__ncst_42fe609a_5928_4b1b_a5a0_049db2995362/evc_ncw_20180316_elon__ncst_42fe609a_5928_4b1b_a5a0_049db2995362.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2018/0316/evc_ncw_20180316_elon__ncst_42fe609a_5928_4b1b_a5a0_049db2995362/evc_ncw_20180316_elon__ncst_42fe609a_5928_4b1b_a5a0_049db2995362_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/fastclipper/2018/0316/evc_ncw_20180316_elon__ncst_42fe609a_5928_4b1b_a5a0_049db2995362/evc_ncw_20180316_elon__ncst_42fe609a_5928_4b1b_a5a0_049db2995362_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/fastclipper/2018/0316/evc_ncw_20180316_elon__ncst_42fe609a_5928_4b1b_a5a0_049db2995362/evc_ncw_20180316_elon__ncst_42fe609a_5928_4b1b_a5a0_049db2995362/playlist.m3u8",
@@ -3402,10 +3403,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=22796617&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=22796617"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2018/0316/evc_ncw_20180316_elon__ncst_42fe609a_5928_4b1b_a5a0_049db2995362/evc_ncw_20180316_elon__ncst_42fe609a_5928_4b1b_a5a0_049db2995362.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/11a698dc-3c5c-4e2d-8df2-ad1594bc8974/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=22796617",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/11a698dc-3c5c-4e2d-8df2-ad1594bc8974/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=22796617"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/11a698dc-3c5c-4e2d-8df2-ad1594bc8974/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=22796617"
 }
 }
 }

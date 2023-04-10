@@ -2923,6 +2923,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -2933,27 +2934,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/22648279"
+"href": "http://api-app.espn.com/v1/video/clips/22648279"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=22648279&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=22648279",
 "short": {
-"href": "http://www.espn.com/video/clip?id=22648279"
+"href": "https://es.pn/2FS7WxM"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=22648279&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=22648279"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2018/0304/dm_180304_NCW_Highlight_Maryland_Ohio_State/dm_180304_NCW_Highlight_Maryland_Ohio_State.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2018/0304/dm_180304_NCW_Highlight_Maryland_Ohio_State/dm_180304_NCW_Highlight_Maryland_Ohio_State.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2018/0304/dm_180304_NCW_Highlight_Maryland_Ohio_State/dm_180304_NCW_Highlight_Maryland_Ohio_State.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2018/0304/dm_180304_NCW_Highlight_Maryland_Ohio_State/dm_180304_NCW_Highlight_Maryland_Ohio_State_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2018/0304/dm_180304_NCW_Highlight_Maryland_Ohio_State/dm_180304_NCW_Highlight_Maryland_Ohio_State_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2018/0304/dm_180304_NCW_Highlight_Maryland_Ohio_State/dm_180304_NCW_Highlight_Maryland_Ohio_State/playlist.m3u8",
@@ -2971,10 +2972,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=22648279&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=22648279"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2018/0304/dm_180304_NCW_Highlight_Maryland_Ohio_State/dm_180304_NCW_Highlight_Maryland_Ohio_State.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/c5eadb67-e2cf-4b73-a737-8ee91af9f32e/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=22648279",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/c5eadb67-e2cf-4b73-a737-8ee91af9f32e/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=22648279"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/c5eadb67-e2cf-4b73-a737-8ee91af9f32e/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=22648279"
 }
 }
 }

@@ -3326,6 +3326,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -3336,27 +3337,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/22838760"
+"href": "http://api-app.espn.com/v1/video/clips/22838760"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=22838760&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=22838760",
 "short": {
-"href": "http://www.espn.com/video/clip?id=22838760"
+"href": "https://es.pn/2uaa1TR"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=22838760&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=22838760"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2018/0319/evc_ncw_20180319_asu__tex_61be801a_1e5e_447e_9962_cf04240f700f/evc_ncw_20180319_asu__tex_61be801a_1e5e_447e_9962_cf04240f700f.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/fastclipper/2018/0319/evc_ncw_20180319_asu__tex_61be801a_1e5e_447e_9962_cf04240f700f/evc_ncw_20180319_asu__tex_61be801a_1e5e_447e_9962_cf04240f700f.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2018/0319/evc_ncw_20180319_asu__tex_61be801a_1e5e_447e_9962_cf04240f700f/evc_ncw_20180319_asu__tex_61be801a_1e5e_447e_9962_cf04240f700f.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2018/0319/evc_ncw_20180319_asu__tex_61be801a_1e5e_447e_9962_cf04240f700f/evc_ncw_20180319_asu__tex_61be801a_1e5e_447e_9962_cf04240f700f_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/fastclipper/2018/0319/evc_ncw_20180319_asu__tex_61be801a_1e5e_447e_9962_cf04240f700f/evc_ncw_20180319_asu__tex_61be801a_1e5e_447e_9962_cf04240f700f_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/fastclipper/2018/0319/evc_ncw_20180319_asu__tex_61be801a_1e5e_447e_9962_cf04240f700f/evc_ncw_20180319_asu__tex_61be801a_1e5e_447e_9962_cf04240f700f/playlist.m3u8",
@@ -3374,7 +3375,7 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=22838760&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=22838760"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2018/0319/evc_ncw_20180319_asu__tex_61be801a_1e5e_447e_9962_cf04240f700f/evc_ncw_20180319_asu__tex_61be801a_1e5e_447e_9962_cf04240f700f.mp4"

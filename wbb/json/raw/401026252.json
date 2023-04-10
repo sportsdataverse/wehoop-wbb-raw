@@ -4679,6 +4679,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -4689,27 +4690,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/22838746"
+"href": "http://api-app.espn.com/v1/video/clips/22838746"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=22838746&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=22838746",
 "short": {
-"href": "http://www.espn.com/video/clip?id=22838746"
+"href": "https://es.pn/2GKGv9F"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=22838746&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=22838746"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2018/0319/evc_ncw_20180319_fgcu__stan_5beaa486_6afa_4429_96cd_ccedf53cc5f7/evc_ncw_20180319_fgcu__stan_5beaa486_6afa_4429_96cd_ccedf53cc5f7.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/fastclipper/2018/0319/evc_ncw_20180319_fgcu__stan_5beaa486_6afa_4429_96cd_ccedf53cc5f7/evc_ncw_20180319_fgcu__stan_5beaa486_6afa_4429_96cd_ccedf53cc5f7.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2018/0319/evc_ncw_20180319_fgcu__stan_5beaa486_6afa_4429_96cd_ccedf53cc5f7/evc_ncw_20180319_fgcu__stan_5beaa486_6afa_4429_96cd_ccedf53cc5f7.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2018/0319/evc_ncw_20180319_fgcu__stan_5beaa486_6afa_4429_96cd_ccedf53cc5f7/evc_ncw_20180319_fgcu__stan_5beaa486_6afa_4429_96cd_ccedf53cc5f7_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/fastclipper/2018/0319/evc_ncw_20180319_fgcu__stan_5beaa486_6afa_4429_96cd_ccedf53cc5f7/evc_ncw_20180319_fgcu__stan_5beaa486_6afa_4429_96cd_ccedf53cc5f7_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/fastclipper/2018/0319/evc_ncw_20180319_fgcu__stan_5beaa486_6afa_4429_96cd_ccedf53cc5f7/evc_ncw_20180319_fgcu__stan_5beaa486_6afa_4429_96cd_ccedf53cc5f7/playlist.m3u8",
@@ -4727,7 +4728,7 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=22838746&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=22838746"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2018/0319/evc_ncw_20180319_fgcu__stan_5beaa486_6afa_4429_96cd_ccedf53cc5f7/evc_ncw_20180319_fgcu__stan_5beaa486_6afa_4429_96cd_ccedf53cc5f7.mp4"

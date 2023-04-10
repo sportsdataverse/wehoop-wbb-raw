@@ -18359,6 +18359,7 @@
 "type": "whitelist",
 "devices": [
 "desktop",
+"ipad",
 "settop",
 "handset",
 "tablet"
@@ -18369,27 +18370,27 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api.espn.com/v1/video/clips/22068432"
+"href": "http://api-app.espn.com/v1/video/clips/22068432"
 }
 },
 "web": {
-"href": "http://www.espn.com/video/clip?id=22068432&ex_cid=espnapi_internal",
+"href": "http://espn.com/video/clip?id=22068432",
 "short": {
-"href": "http://www.espn.com/video/clip?id=22068432"
+"href": "https://es.pn/2qXksIB"
 },
 "self": {
-"href": "http://www.espn.com/video/clip?id=22068432&ex_cid=espnapi_internal"
+"href": "http://espn.com/video/clip?id=22068432"
 }
 },
 "source": {
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2018/0112/dm_180112_ncw_oregon_state_arizona_state/dm_180112_ncw_oregon_state_arizona_state.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2018/0112/dm_180112_ncw_oregon_state_arizona_state/dm_180112_ncw_oregon_state_arizona_state.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2018/0112/dm_180112_ncw_oregon_state_arizona_state/dm_180112_ncw_oregon_state_arizona_state.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2018/0112/dm_180112_ncw_oregon_state_arizona_state/dm_180112_ncw_oregon_state_arizona_state_rel.smil/manifest.f4m"
+"href": "http://hds.video-cdn.espn.com/z/motion/2018/0112/dm_180112_ncw_oregon_state_arizona_state/dm_180112_ncw_oregon_state_arizona_state_rel.smil/manifest.f4m"
 },
 "HLS": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2018/0112/dm_180112_ncw_oregon_state_arizona_state/dm_180112_ncw_oregon_state_arizona_state/playlist.m3u8",
@@ -18407,10 +18408,17 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=22068432&ex_cid=espnapi_internal"
+"href": "http://m.espn.com/general/video/videoAlert?vid=22068432"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2018/0112/dm_180112_ncw_oregon_state_arizona_state/dm_180112_ncw_oregon_state_arizona_state.mp4"
+},
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/be7394c0-8dee-4775-8a52-4bfe47dbe1ff/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=22068432",
+"streaming": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/be7394c0-8dee-4775-8a52-4bfe47dbe1ff/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=22068432"
+},
+"progressiveDownload": {
+"href": "http://once.unicornmedia.com/now/od/auto/4d993388-8b49-4f34-9e48-87906e690281/85957be9-026a-415e-a8ce-7bfdc19d5e23/be7394c0-8dee-4775-8a52-4bfe47dbe1ff/content.once?UMADPARAMreferer=http://www.espn.com/video/clip?id=22068432"
 }
 }
 }

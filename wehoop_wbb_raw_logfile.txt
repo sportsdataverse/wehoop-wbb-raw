@@ -593,3 +593,35 @@ INFO:__main__:Scraping WBB PBP for 2011...
 INFO:__main__:Number of Games: 5461
 INFO:__main__:4.762175198396047 minutes to download 5461 game play-by-plays.
 INFO:__main__:Finished WBB PBP for 2011...
+INFO:__main__:Scraping WBB schedules for year 2012...
+INFO:__main__:1.6681986649831135 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping WBB PBP for 2012...
+INFO:__main__:Number of Games: 5463
+ERROR:__main__:KeyError: game_id =  game_id = 313150301
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+ERROR:__main__:KeyError: game_id =  game_id = 313530082
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+INFO:__main__:7.587528312206269 minutes to download 5463 game play-by-plays.
+INFO:__main__:Finished WBB PBP for 2012...

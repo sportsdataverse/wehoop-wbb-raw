@@ -1,6 +1,5 @@
 # wehoop-wbb-raw
 
-
 ```mermaid
   graph LR;
     A[wehoop-wbb-raw]-->B[wehoop-wbb-data];

@@ -1261,3 +1261,74 @@ INFO:__main__:Scraping WBB PBP for 2022...
 INFO:__main__:Number of Games: 5534
 INFO:__main__:23.654425179958345 minutes to download 5534 game play-by-plays.
 INFO:__main__:Finished WBB PBP for 2022...
+INFO:__main__:Scraping WBB schedules for year 2023...
+INFO:__main__:2.5849284052848818 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping WBB PBP for 2023...
+INFO:__main__:Number of Games: 5828
+ERROR:__main__:KeyError: game_id =  game_id = 401487950
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+ERROR:__main__:KeyError: game_id =  game_id = 401481369
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+ERROR:__main__:KeyError: game_id =  game_id = 401493630
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+ERROR:__main__:KeyError: game_id =  game_id = 401486821
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+ERROR:__main__:KeyError: game_id =  game_id = 401493128
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+INFO:__main__:24.69532820781072 minutes to download 5828 game play-by-plays.
+INFO:__main__:Finished WBB PBP for 2023...

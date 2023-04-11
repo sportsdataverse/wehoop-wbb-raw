@@ -1217,3 +1217,35 @@ Traceback (most recent call last):
 TypeError: the JSON object must be str, bytes or bytearray, not NoneType
 INFO:__main__:9.170674792925517 minutes to download 5658 game play-by-plays.
 INFO:__main__:Finished WBB PBP for 2019...
+INFO:__main__:Scraping WBB schedules for year 2020...
+INFO:__main__:2.845194387435913 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping WBB PBP for 2020...
+INFO:__main__:Number of Games: 5434
+ERROR:__main__:KeyError: game_id =  game_id = 401180676
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+ERROR:__main__:KeyError: game_id =  game_id = 401180016
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 75, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 102, in helper_wbb_pbp
+    awayTeamAbbrev = str(pbp_txt['header']['competitions'][0]['competitors'][1]['team']['abbreviation'])
+KeyError: 'abbreviation'
+INFO:__main__:21.591418385505676 minutes to download 5434 game play-by-plays.
+INFO:__main__:Finished WBB PBP for 2020...

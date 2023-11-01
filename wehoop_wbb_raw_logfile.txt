@@ -1332,3 +1332,6 @@ Traceback (most recent call last):
 KeyError: 'abbreviation'
 INFO:__main__:24.69532820781072 minutes to download 5828 game play-by-plays.
 INFO:__main__:Finished WBB PBP for 2023...
+INFO:__main__:Scraping WBB schedules for year 2024...
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sports.core.api.espn.com:443
+DEBUG:urllib3.connectionpool:https://sports.core.api.espn.com:443 "GET /v2/sports/basketball/leagues/womens-college-basketball/seasons/2024/types/2/calendar/ondays HTTP/1.1" 200 None

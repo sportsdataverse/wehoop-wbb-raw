@@ -8976,7 +8976,7 @@
 "scoringPlay": false,
 "scoreValue": 0,
 "team.id": "2507",
-"participants.0.athlete.id": "5188319",
+"participants.0.athlete.id": "4400208",
 "participants.1.athlete.id": null,
 "wallclock": "2023-11-29T17:06:53Z",
 "shootingPlay": false,
@@ -18104,7 +18104,7 @@
 "scoringPlay": false,
 "scoreValue": 2,
 "team.id": "2507",
-"participants.0.athlete.id": "5188319",
+"participants.0.athlete.id": "4400208",
 "participants.1.athlete.id": null,
 "wallclock": "2023-11-29T17:55:05Z",
 "shootingPlay": true,
@@ -21549,6 +21549,50 @@
 {
 "active": false,
 "athlete": {
+"id": "5188319",
+"uid": "s:40~l:54~a:5188319",
+"guid": "754a5104-ccce-31e6-a5e1-b453d832dffb",
+"displayName": "Laryn Edwards",
+"shortName": "L. Edwards",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5188319/laryn-edwards",
+"text": "Player Card"
+}
+],
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"7",
+"0-1",
+"0-0",
+"0-0",
+"1",
+"0",
+"1",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0"
+]
+},
+{
+"active": false,
+"athlete": {
 "id": "5174969",
 "uid": "s:40~l:54~a:5174969",
 "guid": "4edfd6d4-1041-3e39-8fb3-034deb1091c3",
@@ -21696,50 +21740,6 @@
 {
 "active": false,
 "athlete": {
-"id": "5188319",
-"uid": "s:40~l:54~a:5188319",
-"guid": "754a5104-ccce-31e6-a5e1-b453d832dffb",
-"displayName": "Laryn Edwards",
-"shortName": "L. Edwards",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5188319/laryn-edwards",
-"text": "Player Card"
-}
-],
-"position": {
-"name": "Not Available",
-"displayName": "Not Available",
-"abbreviation": "NA"
-}
-},
-"starter": false,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"7",
-"0-1",
-"0-0",
-"0-0",
-"1",
-"0",
-"1",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0"
-]
-},
-{
-"active": false,
-"athlete": {
 "id": "5188320",
 "uid": "s:40~l:54~a:5188320",
 "guid": "470c9d62-ea27-37e9-8b12-31f9013eaae0",
@@ -21757,9 +21757,9 @@
 }
 ],
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
 }
 },
 "starter": false,
@@ -23646,6 +23646,70 @@
 ]
 },
 {
+"team": "Georgetown",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/46/georgetown-hoyas",
+"id": "46",
+"uid": "s:40~l:54~t:46",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-1",
+"displayValue": "6-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-12-09T15:57Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/46.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-12-09T15:58Z"
+}
+]
+},
+{
 "team": "Creighton",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/156/creighton-bluejays",
 "id": "156",
@@ -23710,70 +23774,6 @@
 ]
 },
 {
-"team": "Georgetown",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/46/georgetown-hoyas",
-"id": "46",
-"uid": "s:40~l:54~t:46",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "5-1",
-"displayValue": "5-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-12-09T15:57Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/46.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-12-09T15:58Z"
-}
-]
-},
-{
 "team": "Villanova",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/222/villanova-wildcats",
 "id": "222",
@@ -23787,8 +23787,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "4-1",
-"displayValue": "4-1"
+"summary": "5-1",
+"displayValue": "5-1"
 },
 {
 "name": "gamesBehind",
@@ -23966,70 +23966,6 @@
 ]
 },
 {
-"team": "DePaul",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/305/depaul-blue-demons",
-"id": "305",
-"uid": "s:40~l:54~t:305",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "4-3",
-"displayValue": "4-3"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/305.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-12-09T15:57Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/305.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-12-09T15:58Z"
-}
-]
-},
-{
 "team": "Seton Hall",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2550/seton-hall-pirates",
 "id": "2550",
@@ -24090,6 +24026,70 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "DePaul",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/305/depaul-blue-demons",
+"id": "305",
+"uid": "s:40~l:54~t:305",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-4",
+"displayValue": "4-4"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/305.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-12-09T15:57Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/305.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-12-09T15:58Z"
 }
 ]
 },
@@ -24614,70 +24614,6 @@
 ]
 },
 {
-"team": "Dartmouth",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/159/dartmouth-big-green",
-"id": "159",
-"uid": "s:40~l:54~t:159",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-2",
-"displayValue": "2-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/159.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "Cornell",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/172/cornell-big-red",
 "id": "172",
@@ -24730,6 +24666,70 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/172.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Dartmouth",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/159/dartmouth-big-green",
+"id": "159",
+"uid": "s:40~l:54~t:159",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-3",
+"displayValue": "2-3"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/159.png",
 "width": 500,
 "height": 500,
 "alt": "",

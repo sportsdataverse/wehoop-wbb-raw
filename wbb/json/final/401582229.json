@@ -18543,6 +18543,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "0",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "12",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "22",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "17",
 "abbreviation": "PF",
@@ -18554,7 +18572,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -18671,6 +18690,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "20",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "17",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "26",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "11",
 "abbreviation": "PF",
@@ -18682,7 +18719,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -19522,7 +19560,8 @@
 "50"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -20262,7 +20301,8 @@
 "82"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -21361,6 +21401,70 @@
 ]
 },
 {
+"team": "Charlotte",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2429/charlotte-49ers",
+"id": "2429",
+"uid": "s:40~l:54~t:2429",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-4",
+"displayValue": "6-4"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-06-23T18:29Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2429.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-06-23T18:30Z"
+}
+]
+},
+{
 "team": "Florida Atlantic",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2226/florida-atlantic-owls",
 "id": "2226",
@@ -21421,70 +21525,6 @@
 "dark"
 ],
 "lastUpdated": "2023-09-02T00:34Z"
-}
-]
-},
-{
-"team": "Charlotte",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2429/charlotte-49ers",
-"id": "2429",
-"uid": "s:40~l:54~t:2429",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "5-4",
-"displayValue": "5-4"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2020-06-23T18:29Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2429.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2020-06-23T18:30Z"
 }
 ]
 },

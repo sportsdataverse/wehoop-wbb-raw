@@ -116,6 +116,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "13",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "11",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "24",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "20",
 "abbreviation": "PF",
@@ -127,7 +145,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -244,6 +263,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "11",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "8",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "26",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "22",
 "abbreviation": "PF",
@@ -255,7 +292,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -969,7 +1007,8 @@
 "74"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -1425,7 +1464,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"0",
+"-",
 "0-0",
 "0-0",
 "0-0",
@@ -1744,7 +1783,8 @@
 "57"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -16002,8 +16042,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-2",
-"displayValue": "5-2"
+"summary": "6-2",
+"displayValue": "6-2"
 },
 {
 "name": "gamesBehind",
@@ -16194,8 +16234,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-5",
-"displayValue": "2-5"
+"summary": "3-5",
+"displayValue": "3-5"
 },
 {
 "name": "gamesBehind",

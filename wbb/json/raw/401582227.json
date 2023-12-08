@@ -116,12 +116,31 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "20",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "4",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "28",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "16",
 "abbreviation": "PF",
 "label": "Fouls"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -238,12 +257,31 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "13",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "6",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "44",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "10",
 "abbreviation": "PF",
 "label": "Fouls"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -985,7 +1023,8 @@
 "85"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -1714,7 +1753,8 @@
 "56"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -4196,8 +4236,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-6",
-"displayValue": "2-6"
+"summary": "2-7",
+"displayValue": "2-7"
 },
 {
 "name": "gamesBehind",

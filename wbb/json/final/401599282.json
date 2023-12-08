@@ -21654,6 +21654,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "11",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "5",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "16",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "17",
 "abbreviation": "PF",
@@ -21665,7 +21683,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -21782,6 +21801,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "33",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "18",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "34",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "12",
 "abbreviation": "PF",
@@ -21793,7 +21830,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -22468,7 +22506,8 @@
 "48"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -23266,7 +23305,8 @@
 "108"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -24757,6 +24797,70 @@
 ]
 },
 {
+"team": "Utah",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes",
+"id": "254",
+"uid": "s:40~l:54~t:254",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "8-1",
+"displayValue": "8-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/254.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+}
+]
+},
+{
 "team": "California",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/25/california-golden-bears",
 "id": "25",
@@ -24821,10 +24925,10 @@
 ]
 },
 {
-"team": "Utah",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes",
-"id": "254",
-"uid": "s:40~l:54~t:254",
+"team": "Arizona",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/12/arizona-wildcats",
+"id": "12",
+"uid": "s:40~l:54~t:12",
 "stats": [
 {
 "id": "0",
@@ -24834,8 +24938,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "7-1",
-"displayValue": "7-1"
+"summary": "7-2",
+"displayValue": "7-2"
 },
 {
 "name": "gamesBehind",
@@ -24861,7 +24965,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -24869,10 +24973,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2023-09-07T19:32Z"
+"lastUpdated": "2018-06-05T12:08Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/254.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/12.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -24880,7 +24984,7 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2023-09-07T19:32Z"
+"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },
@@ -24937,70 +25041,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/9.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Arizona",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/12/arizona-wildcats",
-"id": "12",
-"uid": "s:40~l:54~t:12",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "6-2",
-"displayValue": "6-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/12.png",
 "width": 500,
 "height": 500,
 "alt": "",

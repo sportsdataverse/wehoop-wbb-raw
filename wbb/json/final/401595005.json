@@ -16896,6 +16896,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "8",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "7",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "28",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "8",
 "abbreviation": "PF",
@@ -16907,7 +16925,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -17024,6 +17043,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "8",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "2",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "30",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "18",
 "abbreviation": "PF",
@@ -17035,7 +17072,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -17444,7 +17482,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"0",
+"-",
 "0-0",
 "0-0",
 "0-0",
@@ -17770,7 +17808,8 @@
 "63"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -18546,7 +18585,8 @@
 "54"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -19094,99 +19134,6 @@
 "videos": [
 {
 "source": "espn",
-"id": 39054767,
-"headline": "What a shot by Kelly Ratigan",
-"description": "What a shot by Kelly Ratigan, 12/06/2023",
-"ad": {
-"sport": "ncw",
-"bundle": "sportscenter"
-},
-"tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "OnePlay",
-"trackingName": "NCW_One-Play (What a shot by Kelly Ratigan) 2023/12/06 ESHEET",
-"trackingId": "dm_20231206_NCW_what_a_shot_by_kelly_ratigan"
-},
-"cerebroId": "65709d89ca84b73c03f2c911",
-"lastModified": "2023-12-06T16:14:16Z",
-"originalPublishDate": "2023-12-06T16:12:52Z",
-"timeRestrictions": {
-"embargoDate": "2023-12-06T16:12:52Z",
-"expirationDate": "2037-12-31T05:00:00Z"
-},
-"deviceRestrictions": {
-"type": "whitelist",
-"devices": [
-"desktop",
-"settop",
-"handset",
-"tablet"
-]
-},
-"duration": 16,
-"thumbnail": "https://a.espncdn.com/media/motion/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926.jpg",
-"links": {
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/39054767"
-},
-"artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/af7c50ac-12f8-48c4-8fd1-c538e68852e7"
-}
-},
-"web": {
-"href": "https://www.espn.com/video/clip?id=39054767&ex_cid=espnapi_internal",
-"short": {
-"href": "https://www.espn.com/video/clip?id=39054767"
-},
-"self": {
-"href": "https://www.espn.com/video/clip?id=39054767&ex_cid=espnapi_internal"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926.mp4"
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926.smil"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926_rel.smil/manifest.f4m"
-},
-"HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926/playlist.m3u8",
-"HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926/playlist.m3u8"
-}
-},
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926_720p30_2896k.mp4"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926_360p30_1464k.mp4"
-},
-"href": "https://media.video-cdn.espn.com/motion/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926_360p30_1464k.mp4"
-},
-"mobile": {
-"alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=39054767&ex_cid=espnapi_internal"
-},
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926.mp4"
-},
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/af7c50ac-12f8-48c4-8fd1-c538e68852e7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39054767",
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/af7c50ac-12f8-48c4-8fd1-c538e68852e7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39054767"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/af7c50ac-12f8-48c4-8fd1-c538e68852e7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39054767"
-}
-}
-}
-},
-{
-"source": "espn",
 "id": 39054903,
 "headline": "What a shot by Megan Bodziony",
 "description": "What a shot by Megan Bodziony, 12/06/2023",
@@ -19274,6 +19221,99 @@
 },
 "progressiveDownload": {
 "href": "https://watch.auth.api.espn.com/video/auth/brightcove/a4b6eb86-bcde-422a-b3f8-9369a8b77384/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39054903"
+}
+}
+}
+},
+{
+"source": "espn",
+"id": 39054767,
+"headline": "What a shot by Kelly Ratigan",
+"description": "What a shot by Kelly Ratigan, 12/06/2023",
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "OnePlay",
+"trackingName": "NCW_One-Play (What a shot by Kelly Ratigan) 2023/12/06 ESHEET",
+"trackingId": "dm_20231206_NCW_what_a_shot_by_kelly_ratigan"
+},
+"cerebroId": "65709d89ca84b73c03f2c911",
+"lastModified": "2023-12-06T16:14:16Z",
+"originalPublishDate": "2023-12-06T16:12:52Z",
+"timeRestrictions": {
+"embargoDate": "2023-12-06T16:12:52Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+]
+},
+"duration": 16,
+"thumbnail": "https://a.espncdn.com/media/motion/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926.jpg",
+"links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/39054767"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/af7c50ac-12f8-48c4-8fd1-c538e68852e7"
+}
+},
+"web": {
+"href": "https://www.espn.com/video/clip?id=39054767&ex_cid=espnapi_internal",
+"short": {
+"href": "https://www.espn.com/video/clip?id=39054767"
+},
+"self": {
+"href": "https://www.espn.com/video/clip?id=39054767&ex_cid=espnapi_internal"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926_360p30_1464k.mp4"
+},
+"mobile": {
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=39054767&ex_cid=espnapi_internal"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1206/ss_20231206_111258466_2421926/ss_20231206_111258466_2421926.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/af7c50ac-12f8-48c4-8fd1-c538e68852e7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39054767",
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/af7c50ac-12f8-48c4-8fd1-c538e68852e7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39054767"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/af7c50ac-12f8-48c4-8fd1-c538e68852e7/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39054767"
 }
 }
 }
@@ -20073,8 +20113,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "7-1",
-"displayValue": "7-1"
+"summary": "8-1",
+"displayValue": "8-1"
 },
 {
 "name": "gamesBehind",
@@ -20252,6 +20292,70 @@
 ]
 },
 {
+"team": "Holy Cross",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/107/holy-cross-crusaders",
+"id": "107",
+"uid": "s:40~l:54~t:107",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-4",
+"displayValue": "4-4"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/107.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/107.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "Loyola Maryland",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2352/loyola-maryland-greyhounds",
 "id": "2352",
@@ -20368,70 +20472,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/322.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Holy Cross",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/107/holy-cross-crusaders",
-"id": "107",
-"uid": "s:40~l:54~t:107",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-4",
-"displayValue": "3-4"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/107.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/107.png",
 "width": 500,
 "height": 500,
 "alt": "",

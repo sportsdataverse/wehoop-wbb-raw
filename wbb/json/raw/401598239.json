@@ -116,6 +116,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "7",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "0",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "14",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "21",
 "abbreviation": "PF",
@@ -127,7 +145,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -244,6 +263,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "14",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "7",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "42",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "15",
 "abbreviation": "PF",
@@ -255,7 +292,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -976,7 +1014,8 @@
 "44"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -1094,8 +1133,8 @@
 "0-0",
 "1-2",
 "2",
-"7",
-"9",
+"8",
+"10",
 "2",
 "1",
 "1",
@@ -1633,8 +1672,8 @@
 "0-1",
 "1-1",
 "4",
-"3",
-"7",
+"2",
+"6",
 "2",
 "0",
 "1",
@@ -1660,7 +1699,8 @@
 "77"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -1922,7 +1962,7 @@
 "displayName": "Rebounds",
 "leaders": [
 {
-"displayValue": "9",
+"displayValue": "10",
 "athlete": {
 "id": "4433643",
 "uid": "s:40~l:54~a:4433643",
@@ -1958,8 +1998,8 @@
 "shortDisplayName": "REB",
 "description": "The total number of rebounds (offensive and defensive).",
 "abbreviation": "REB",
-"value": 9.0,
-"displayValue": "9"
+"value": 10.0,
+"displayValue": "10"
 },
 {
 "name": "defensiveRebounds",
@@ -1967,8 +2007,8 @@
 "shortDisplayName": "DREB",
 "description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
 "abbreviation": "DR",
-"value": 7.0,
-"displayValue": "7"
+"value": 8.0,
+"displayValue": "8"
 },
 {
 "name": "offensiveRebounds",
@@ -13975,8 +14015,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "6-3",
-"displayValue": "6-3"
+"summary": "7-3",
+"displayValue": "7-3"
 },
 {
 "name": "gamesBehind",
@@ -14218,70 +14258,6 @@
 ]
 },
 {
-"team": "Jacksonville",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/294/jacksonville-dolphins",
-"id": "294",
-"uid": "s:40~l:54~t:294",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-4",
-"displayValue": "3-4"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-10-22T17:25Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/294.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-10-22T17:26Z"
-}
-]
-},
-{
 "team": "Kennesaw State",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/338/kennesaw-state-owls",
 "id": "338",
@@ -14406,6 +14382,70 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Jacksonville",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/294/jacksonville-dolphins",
+"id": "294",
+"uid": "s:40~l:54~t:294",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-5",
+"displayValue": "3-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-10-22T17:25Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/294.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-10-22T17:26Z"
 }
 ]
 },

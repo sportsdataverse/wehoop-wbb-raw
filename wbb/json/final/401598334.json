@@ -23116,6 +23116,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "12",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "21",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "42",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "18",
 "abbreviation": "PF",
@@ -23127,7 +23145,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -23244,6 +23263,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "19",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "0",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "20",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "24",
 "abbreviation": "PF",
@@ -23255,7 +23292,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -23584,55 +23622,6 @@
 {
 "active": false,
 "athlete": {
-"id": "4858658",
-"uid": "s:40~l:54~a:4858658",
-"guid": "d3efa1ad-1e46-3c71-ab2c-4577e53a8b97",
-"displayName": "Jada Gyamfi",
-"shortName": "J. Gyamfi",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4858658/jada-gyamfi",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4858658.png",
-"alt": "Jada Gyamfi"
-},
-"jersey": "23",
-"position": {
-"name": "Forward",
-"displayName": "Forward",
-"abbreviation": "F"
-}
-},
-"starter": false,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"0",
-"0-0",
-"0-0",
-"0-0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0"
-]
-},
-{
-"active": false,
-"athlete": {
 "id": "4597245",
 "uid": "s:40~l:54~a:4597245",
 "guid": "e7467404-bd6d-33bd-ae1f-1b785c21ff9b",
@@ -23815,6 +23804,41 @@
 {
 "active": false,
 "athlete": {
+"id": "4858658",
+"uid": "s:40~l:54~a:4858658",
+"guid": "d3efa1ad-1e46-3c71-ab2c-4577e53a8b97",
+"displayName": "Jada Gyamfi",
+"shortName": "J. Gyamfi",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4858658/jada-gyamfi",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4858658.png",
+"alt": "Jada Gyamfi"
+},
+"jersey": "23",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"ejected": false,
+"stats": []
+},
+{
+"active": false,
+"athlete": {
 "id": "4585713",
 "uid": "s:40~l:54~a:4585713",
 "guid": "6c4fb5c0-5336-3b5b-9f23-b283cbf3b5e3",
@@ -23969,7 +23993,8 @@
 "80"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -24376,7 +24401,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"0",
+"-",
 "0-0",
 "0-0",
 "0-0",
@@ -24611,7 +24636,8 @@
 "76"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -25150,6 +25176,99 @@
 },
 "broadcasts": [],
 "videos": [
+{
+"source": "espn",
+"id": 38859814,
+"headline": "Caitlin Clark's 44-point night helps Iowa hold off Virginia Tech",
+"description": "Caitlin Clark unleashes 44 points to help No. 3 Iowa defeat No. 8 Virginia Tech in Clark's ninth career 40-point game.",
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "COM_NCW Highlight (Caitlin Clark's 44-point night helps Iowa hold off Virginia Tech) 2023/11/10 ESHEET SOTFULL",
+"trackingId": "dm_20231110_NCW_caitlin_clarks_44point_night_helps_iowa_hold_off_virginia_tech"
+},
+"cerebroId": "654da03abe6ab32506d5d71c",
+"lastModified": "2023-11-10T03:18:52Z",
+"originalPublishDate": "2023-11-10T03:15:04Z",
+"timeRestrictions": {
+"embargoDate": "2023-11-10T03:15:04Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+]
+},
+"duration": 119,
+"thumbnail": "https://a.espncdn.com/media/motion/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349.jpg",
+"links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/38859814"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/2517e48c-c79f-49f1-a542-999d815f9299"
+}
+},
+"web": {
+"href": "https://www.espn.com/video/clip?id=38859814&ex_cid=espnapi_internal",
+"short": {
+"href": "https://www.espn.com/video/clip?id=38859814"
+},
+"self": {
+"href": "https://www.espn.com/video/clip?id=38859814&ex_cid=espnapi_internal"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349_360p30_1464k.mp4"
+},
+"mobile": {
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=38859814&ex_cid=espnapi_internal"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/2517e48c-c79f-49f1-a542-999d815f9299/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38859814",
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/2517e48c-c79f-49f1-a542-999d815f9299/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38859814"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/2517e48c-c79f-49f1-a542-999d815f9299/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38859814"
+}
+}
+}
+},
 {
 "source": "espn",
 "id": 38858676,
@@ -26451,99 +26570,6 @@
 }
 }
 }
-},
-{
-"source": "espn",
-"id": 38859814,
-"headline": "Caitlin Clark's 44-point night helps Iowa hold off Virginia Tech",
-"description": "Caitlin Clark unleashes 44 points to help No. 3 Iowa defeat No. 8 Virginia Tech in Clark's ninth career 40-point game.",
-"ad": {
-"sport": "ncw",
-"bundle": "espn_w"
-},
-"tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "Final Game Highlight",
-"trackingName": "COM_NCW Highlight (Caitlin Clark's 44-point night helps Iowa hold off Virginia Tech) 2023/11/10 ESHEET SOTFULL",
-"trackingId": "dm_20231110_NCW_caitlin_clarks_44point_night_helps_iowa_hold_off_virginia_tech"
-},
-"cerebroId": "654da03abe6ab32506d5d71c",
-"lastModified": "2023-11-10T03:18:52Z",
-"originalPublishDate": "2023-11-10T03:15:04Z",
-"timeRestrictions": {
-"embargoDate": "2023-11-10T03:15:04Z",
-"expirationDate": "2037-12-31T05:00:00Z"
-},
-"deviceRestrictions": {
-"type": "whitelist",
-"devices": [
-"desktop",
-"settop",
-"handset",
-"tablet"
-]
-},
-"duration": 119,
-"thumbnail": "https://a.espncdn.com/media/motion/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349.jpg",
-"links": {
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/38859814"
-},
-"artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/2517e48c-c79f-49f1-a542-999d815f9299"
-}
-},
-"web": {
-"href": "https://www.espn.com/video/clip?id=38859814&ex_cid=espnapi_internal",
-"short": {
-"href": "https://www.espn.com/video/clip?id=38859814"
-},
-"self": {
-"href": "https://www.espn.com/video/clip?id=38859814&ex_cid=espnapi_internal"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349.mp4"
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349.smil"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349_rel.smil/manifest.f4m"
-},
-"HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349/playlist.m3u8",
-"HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349/playlist.m3u8"
-}
-},
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349_720p30_2896k.mp4"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349_360p30_1464k.mp4"
-},
-"href": "https://media.video-cdn.espn.com/motion/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349_360p30_1464k.mp4"
-},
-"mobile": {
-"alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=38859814&ex_cid=espnapi_internal"
-},
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1109/ss_20231109_221507386_2390349/ss_20231109_221507386_2390349.mp4"
-},
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/2517e48c-c79f-49f1-a542-999d815f9299/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38859814",
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/2517e48c-c79f-49f1-a542-999d815f9299/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38859814"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/2517e48c-c79f-49f1-a542-999d815f9299/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38859814"
-}
-}
-}
 }
 ],
 "playByPlaySource": "full",
@@ -27461,6 +27487,70 @@
 "standings": {
 "entries": [
 {
+"team": "Clemson",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/228/clemson-tigers",
+"id": "228",
+"uid": "s:40~l:54~t:228",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-4",
+"displayValue": "6-4"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "1-0",
+"displayValue": "1-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/228.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "NC State",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/152/nc-state-wolfpack",
 "id": "152",
@@ -27484,8 +27574,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -27548,8 +27638,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -27612,8 +27702,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -27676,8 +27766,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -27740,8 +27830,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -27781,10 +27871,10 @@
 ]
 },
 {
-"team": "Virginia",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/258/virginia-cavaliers",
-"id": "258",
-"uid": "s:40~l:54~t:258",
+"team": "Florida State",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles",
+"id": "52",
+"uid": "s:40~l:54~t:52",
 "stats": [
 {
 "id": "0",
@@ -27804,72 +27894,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2020-09-16T19:21Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/258.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2020-06-16T14:21Z"
-}
-]
-},
-{
-"team": "Florida State",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles",
-"id": "52",
-"uid": "s:40~l:54~t:52",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "6-2",
-"displayValue": "6-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -27909,6 +27935,70 @@
 ]
 },
 {
+"team": "Virginia",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/258/virginia-cavaliers",
+"id": "258",
+"uid": "s:40~l:54~t:258",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "7-2",
+"displayValue": "7-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5,
+"displayValue": "0.5"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-09-16T19:21Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/258.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-06-16T14:21Z"
+}
+]
+},
+{
 "team": "Virginia Tech",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/259/virginia-tech-hokies",
 "id": "259",
@@ -27932,8 +28022,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -27996,8 +28086,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -28060,8 +28150,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -28101,134 +28191,6 @@
 ]
 },
 {
-"team": "Duke",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/150/duke-blue-devils",
-"id": "150",
-"uid": "s:40~l:54~t:150",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "5-3",
-"displayValue": "5-3"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/150.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-}
-]
-},
-{
-"team": "Clemson",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/228/clemson-tigers",
-"id": "228",
-"uid": "s:40~l:54~t:228",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "5-4",
-"displayValue": "5-4"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/228.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "Boston College",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/103/boston-college-eagles",
 "id": "103",
@@ -28252,8 +28214,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -28316,8 +28278,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -28370,8 +28332,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-6",
-"displayValue": "2-6"
+"summary": "2-7",
+"displayValue": "2-7"
 },
 {
 "name": "gamesBehind",
@@ -28380,8 +28342,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -28417,6 +28379,70 @@
 "dark"
 ],
 "lastUpdated": "2022-09-07T20:49Z"
+}
+]
+},
+{
+"team": "Duke",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/150/duke-blue-devils",
+"id": "150",
+"uid": "s:40~l:54~t:150",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "5-4",
+"displayValue": "5-4"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.0,
+"displayValue": "1"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-1",
+"displayValue": "0-1"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/150.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-07T19:32Z"
 }
 ]
 }

@@ -116,6 +116,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "17",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "11",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "48",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "15",
 "abbreviation": "PF",
@@ -127,7 +145,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -244,6 +263,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "6",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "2",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "22",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "18",
 "abbreviation": "PF",
@@ -255,7 +292,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -1046,7 +1084,8 @@
 "80"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -1404,7 +1443,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"0",
+"-",
 "0-0",
 "0-0",
 "0-0",
@@ -1688,7 +1727,8 @@
 "53"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -14818,99 +14858,6 @@
 "videos": [
 {
 "source": "espn",
-"id": 38906130,
-"headline": "Gardner-Webb Runnin' Bulldogs vs. Richmond Spiders - Game Highlights",
-"description": "Watch the Game Highlights from Gardner-Webb Runnin' Bulldogs vs. Richmond Spiders, 11/15/2023",
-"ad": {
-"sport": "ncw",
-"bundle": "sportscenter"
-},
-"tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "OnePlay",
-"trackingName": "NCW_One-Play (Gardner-Webb Runnin' Bulldogs vs. Richmond Spiders - Game Highlights) 2023/11/15 ESHEET",
-"trackingId": "dm_20231115_NCW_gardnerwebb_runnin_bulldogs_vs_richmond_spiders_game_highlights"
-},
-"cerebroId": "65550648ca84b73c03b18f4e",
-"lastModified": "2023-11-15T17:57:43Z",
-"originalPublishDate": "2023-11-15T17:56:20Z",
-"timeRestrictions": {
-"embargoDate": "2023-11-15T17:56:20Z",
-"expirationDate": "2037-12-31T05:00:00Z"
-},
-"deviceRestrictions": {
-"type": "whitelist",
-"devices": [
-"desktop",
-"settop",
-"handset",
-"tablet"
-]
-},
-"duration": 98,
-"thumbnail": "https://a.espncdn.com/media/motion/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621.jpg",
-"links": {
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/38906130"
-},
-"artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/c8620cc4-c853-4a64-936f-d5f09d4c739c"
-}
-},
-"web": {
-"href": "https://www.espn.com/video/clip?id=38906130&ex_cid=espnapi_internal",
-"short": {
-"href": "https://www.espn.com/video/clip?id=38906130"
-},
-"self": {
-"href": "https://www.espn.com/video/clip?id=38906130&ex_cid=espnapi_internal"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621.mp4"
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621.smil"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621_rel.smil/manifest.f4m"
-},
-"HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621/playlist.m3u8",
-"HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621/playlist.m3u8"
-}
-},
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621_720p30_2896k.mp4"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621_360p30_1464k.mp4"
-},
-"href": "https://media.video-cdn.espn.com/motion/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621_360p30_1464k.mp4"
-},
-"mobile": {
-"alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=38906130&ex_cid=espnapi_internal"
-},
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621.mp4"
-},
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/c8620cc4-c853-4a64-936f-d5f09d4c739c/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38906130",
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/c8620cc4-c853-4a64-936f-d5f09d4c739c/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38906130"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/c8620cc4-c853-4a64-936f-d5f09d4c739c/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38906130"
-}
-}
-}
-},
-{
-"source": "espn",
 "id": 38907066,
 "headline": "Richmond's Grace Townsend somehow gets the and-1 to fall",
 "description": "Richmond's Grace Townsend somehow gets the and-1 to fall.",
@@ -14998,6 +14945,99 @@
 },
 "progressiveDownload": {
 "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2ffb885d-094c-4835-a415-1fc65a410b78/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38907066"
+}
+}
+}
+},
+{
+"source": "espn",
+"id": 38906130,
+"headline": "Gardner-Webb Runnin' Bulldogs vs. Richmond Spiders - Game Highlights",
+"description": "Watch the Game Highlights from Gardner-Webb Runnin' Bulldogs vs. Richmond Spiders, 11/15/2023",
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "OnePlay",
+"trackingName": "NCW_One-Play (Gardner-Webb Runnin' Bulldogs vs. Richmond Spiders - Game Highlights) 2023/11/15 ESHEET",
+"trackingId": "dm_20231115_NCW_gardnerwebb_runnin_bulldogs_vs_richmond_spiders_game_highlights"
+},
+"cerebroId": "65550648ca84b73c03b18f4e",
+"lastModified": "2023-11-15T17:57:43Z",
+"originalPublishDate": "2023-11-15T17:56:20Z",
+"timeRestrictions": {
+"embargoDate": "2023-11-15T17:56:20Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+]
+},
+"duration": 98,
+"thumbnail": "https://a.espncdn.com/media/motion/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621.jpg",
+"links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/38906130"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/c8620cc4-c853-4a64-936f-d5f09d4c739c"
+}
+},
+"web": {
+"href": "https://www.espn.com/video/clip?id=38906130&ex_cid=espnapi_internal",
+"short": {
+"href": "https://www.espn.com/video/clip?id=38906130"
+},
+"self": {
+"href": "https://www.espn.com/video/clip?id=38906130&ex_cid=espnapi_internal"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621_360p30_1464k.mp4"
+},
+"mobile": {
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=38906130&ex_cid=espnapi_internal"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1115/ss_20231115_125626996_2397621/ss_20231115_125626996_2397621.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/c8620cc4-c853-4a64-936f-d5f09d4c739c/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38906130",
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/c8620cc4-c853-4a64-936f-d5f09d4c739c/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38906130"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/c8620cc4-c853-4a64-936f-d5f09d4c739c/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38906130"
 }
 }
 }
@@ -15154,8 +15194,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "8-0",
-"displayValue": "8-0"
+"summary": "8-1",
+"displayValue": "8-1"
 },
 {
 "name": "gamesBehind",
@@ -15666,8 +15706,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "3-5",
-"displayValue": "3-5"
+"summary": "3-6",
+"displayValue": "3-6"
 },
 {
 "name": "gamesBehind",
@@ -15858,8 +15898,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-4",
-"displayValue": "5-4"
+"summary": "5-5",
+"displayValue": "5-5"
 },
 {
 "name": "gamesBehind",
@@ -16506,8 +16546,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "0-7",
-"displayValue": "0-7"
+"summary": "0-8",
+"displayValue": "0-8"
 },
 {
 "name": "gamesBehind",

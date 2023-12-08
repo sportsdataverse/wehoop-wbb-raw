@@ -21227,6 +21227,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "17",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "2",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "22",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "17",
 "abbreviation": "PF",
@@ -21238,7 +21256,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -21355,6 +21374,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "16",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "2",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "30",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "26",
 "abbreviation": "PF",
@@ -21366,7 +21403,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -22094,7 +22132,8 @@
 "57"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -22848,7 +22887,8 @@
 "62"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -23369,8 +23409,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "7-0",
-"displayValue": "7-0"
+"summary": "8-0",
+"displayValue": "8-0"
 },
 {
 "name": "gamesBehind",
@@ -23753,8 +23793,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "6-3",
-"displayValue": "6-3"
+"summary": "7-3",
+"displayValue": "7-3"
 },
 {
 "name": "gamesBehind",
@@ -24580,70 +24620,6 @@
 ]
 },
 {
-"team": "North Dakota",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/155/north-dakota-fighting-hawks",
-"id": "155",
-"uid": "s:40~l:54~t:155",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-5",
-"displayValue": "3-5"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-01-20T22:36Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/155.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-01-20T22:35Z"
-}
-]
-},
-{
 "team": "St. Thomas (MN)",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2900/st-thomas-mn-tommies",
 "id": "2900",
@@ -24657,8 +24633,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "3-5",
-"displayValue": "3-5"
+"summary": "4-5",
+"displayValue": "4-5"
 },
 {
 "name": "gamesBehind",
@@ -24696,6 +24672,70 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2900.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-20T22:35Z"
+}
+]
+},
+{
+"team": "North Dakota",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/155/north-dakota-fighting-hawks",
+"id": "155",
+"uid": "s:40~l:54~t:155",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-6",
+"displayValue": "3-6"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-20T22:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/155.png",
 "width": 500,
 "height": 500,
 "alt": "",

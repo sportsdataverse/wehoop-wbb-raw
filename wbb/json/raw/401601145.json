@@ -113,6 +113,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "0",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "3",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "18",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "17",
 "abbreviation": "PF",
@@ -124,7 +142,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -240,6 +259,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "30",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "10",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "54",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "7",
 "abbreviation": "PF",
@@ -251,7 +288,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -1055,7 +1093,8 @@
 "32"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -1829,7 +1868,8 @@
 "88"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -14813,100 +14853,6 @@
 "videos": [
 {
 "source": "espn",
-"id": 38849856,
-"headline": "UC San Diego's Parker Montgomery nails a 3-pointer",
-"description": "Parker Montgomery nails a 3-point shot for UC San Diego.",
-"ad": {
-"sport": "ncw",
-"bundle": "espn_w"
-},
-"tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "OnePlay",
-"trackingName": "NCW_One-Play (UC San Diego's Parker Montgomery nails a 3-pointer) 2023/11/08",
-"trackingId": "evc_ncw_20231108_lifepac_@_ucsd_104260ab-f9e0-496c-b9ba-aa8de3a9d1fe_481"
-},
-"cerebroId": "654be908be6ab31c017cc79f",
-"lastModified": "2023-11-08T20:08:50Z",
-"originalPublishDate": "2023-11-08T19:56:08Z",
-"timeRestrictions": {
-"embargoDate": "2023-11-08T19:56:08Z",
-"expirationDate": "2037-04-30T04:00:00Z"
-},
-"deviceRestrictions": {
-"type": "whitelist",
-"devices": [
-"desktop",
-"settop",
-"handset",
-"tablet"
-]
-},
-"duration": 16,
-"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481.jpg",
-"links": {
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/38849856"
-},
-"artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/b2e38d80-314e-4559-ae13-7846e18aecb1"
-}
-},
-"web": {
-"href": "https://www.espn.com/video/clip?id=38849856&ex_cid=espnapi_internal",
-"short": {
-"href": "https://www.espn.com/video/clip?id=38849856"
-},
-"self": {
-"href": "https://www.espn.com/video/clip?id=38849856&ex_cid=espnapi_internal"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481.mp4"
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481.smil"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481_rel.smil/manifest.f4m"
-},
-"HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/playlist.m3u8",
-"HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/playlist.m3u8"
-}
-},
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481_720p30_2896k.mp4"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481_360p30_1464k.mp4"
-},
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481_360p30_1464k.mp4"
-},
-"mobile": {
-"alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=38849856&ex_cid=espnapi_internal"
-},
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481.mp4"
-},
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b2e38d80-314e-4559-ae13-7846e18aecb1/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38849856",
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b2e38d80-314e-4559-ae13-7846e18aecb1/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38849856"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b2e38d80-314e-4559-ae13-7846e18aecb1/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38849856"
-}
-}
-},
-"playId": "401601145102994601"
-},
-{
-"source": "espn",
 "id": 38850014,
 "headline": "Eri Blithikioti drains 3-pointer to extend UC San Diego's lead",
 "description": "UC San Diego's Eri Blithikioti drains a 3-point shot to extend the lead.",
@@ -14998,6 +14944,100 @@
 }
 },
 "playId": "401601145104939501"
+},
+{
+"source": "espn",
+"id": 38849856,
+"headline": "UC San Diego's Parker Montgomery nails a 3-pointer",
+"description": "Parker Montgomery nails a 3-point shot for UC San Diego.",
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "OnePlay",
+"trackingName": "NCW_One-Play (UC San Diego's Parker Montgomery nails a 3-pointer) 2023/11/08",
+"trackingId": "evc_ncw_20231108_lifepac_@_ucsd_104260ab-f9e0-496c-b9ba-aa8de3a9d1fe_481"
+},
+"cerebroId": "654be908be6ab31c017cc79f",
+"lastModified": "2023-11-08T20:08:50Z",
+"originalPublishDate": "2023-11-08T19:56:08Z",
+"timeRestrictions": {
+"embargoDate": "2023-11-08T19:56:08Z",
+"expirationDate": "2037-04-30T04:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+]
+},
+"duration": 16,
+"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481.jpg",
+"links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/38849856"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/b2e38d80-314e-4559-ae13-7846e18aecb1"
+}
+},
+"web": {
+"href": "https://www.espn.com/video/clip?id=38849856&ex_cid=espnapi_internal",
+"short": {
+"href": "https://www.espn.com/video/clip?id=38849856"
+},
+"self": {
+"href": "https://www.espn.com/video/clip?id=38849856&ex_cid=espnapi_internal"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481_360p30_1464k.mp4"
+},
+"mobile": {
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=38849856&ex_cid=espnapi_internal"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2023/1108/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481/evc_ncw_20231108_lifepac__ucsd_bd67a172_1532_4b5f_bb5b_48dedeb4a250_481.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b2e38d80-314e-4559-ae13-7846e18aecb1/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38849856",
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b2e38d80-314e-4559-ae13-7846e18aecb1/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38849856"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b2e38d80-314e-4559-ae13-7846e18aecb1/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38849856"
+}
+}
+},
+"playId": "401601145102994601"
 }
 ],
 "standings": {
@@ -15471,8 +15511,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "3-5",
-"displayValue": "3-5"
+"summary": "3-6",
+"displayValue": "3-6"
 },
 {
 "name": "gamesBehind",

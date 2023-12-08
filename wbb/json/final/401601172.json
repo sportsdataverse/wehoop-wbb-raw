@@ -20063,6 +20063,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "9",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "7",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "36",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "21",
 "abbreviation": "PF",
@@ -20074,7 +20092,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -20191,6 +20210,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "17",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "4",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "18",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "16",
 "abbreviation": "PF",
@@ -20202,7 +20239,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -20951,7 +20989,8 @@
 "64"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -21456,7 +21495,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"0",
+"-",
 "0-0",
 "0-0",
 "0-0",
@@ -21761,7 +21800,8 @@
 "59"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -22309,99 +22349,6 @@
 "videos": [
 {
 "source": "espn",
-"id": 38962225,
-"headline": "Amanda Blake sends the shot away",
-"description": "Amanda Blake sends the shot away, 11/22/2023",
-"ad": {
-"sport": "ncw",
-"bundle": "sportscenter"
-},
-"tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "OnePlay",
-"trackingName": "NCW_One-Play (Amanda Blake sends the shot away) 2023/11/23 ESHEET",
-"trackingId": "dm_20231123_NCW_amanda_blake_sends_the_shot_away"
-},
-"cerebroId": "655eacfcbe6ab32506fe8ae4",
-"lastModified": "2023-11-23T01:39:13Z",
-"originalPublishDate": "2023-11-23T01:38:02Z",
-"timeRestrictions": {
-"embargoDate": "2023-11-23T01:38:02Z",
-"expirationDate": "2037-12-31T05:00:00Z"
-},
-"deviceRestrictions": {
-"type": "whitelist",
-"devices": [
-"desktop",
-"settop",
-"handset",
-"tablet"
-]
-},
-"duration": 16,
-"thumbnail": "https://a.espncdn.com/media/motion/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415.jpg",
-"links": {
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/38962225"
-},
-"artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/80ad9965-0512-4d66-9b31-34c8b6c2f046"
-}
-},
-"web": {
-"href": "https://www.espn.com/video/clip?id=38962225&ex_cid=espnapi_internal",
-"short": {
-"href": "https://www.espn.com/video/clip?id=38962225"
-},
-"self": {
-"href": "https://www.espn.com/video/clip?id=38962225&ex_cid=espnapi_internal"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415.mp4"
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415.smil"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415_rel.smil/manifest.f4m"
-},
-"HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415/playlist.m3u8",
-"HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415/playlist.m3u8"
-}
-},
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415_720p30_2896k.mp4"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415_360p30_1464k.mp4"
-},
-"href": "https://media.video-cdn.espn.com/motion/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415_360p30_1464k.mp4"
-},
-"mobile": {
-"alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=38962225&ex_cid=espnapi_internal"
-},
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415.mp4"
-},
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/80ad9965-0512-4d66-9b31-34c8b6c2f046/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38962225",
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/80ad9965-0512-4d66-9b31-34c8b6c2f046/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38962225"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/80ad9965-0512-4d66-9b31-34c8b6c2f046/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38962225"
-}
-}
-}
-},
-{
-"source": "espn",
 "id": 38962654,
 "headline": "Northwestern State Lady Demons vs. Grambling Lady Tigers - Game Highlights",
 "description": "Watch the Game Highlights from Northwestern State Lady Demons vs. Grambling Lady Tigers, 11/22/2023",
@@ -22489,6 +22436,99 @@
 },
 "progressiveDownload": {
 "href": "https://watch.auth.api.espn.com/video/auth/brightcove/f7957f23-3596-4483-a7c4-b89e7052f878/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38962654"
+}
+}
+}
+},
+{
+"source": "espn",
+"id": 38962225,
+"headline": "Amanda Blake sends the shot away",
+"description": "Amanda Blake sends the shot away, 11/22/2023",
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "OnePlay",
+"trackingName": "NCW_One-Play (Amanda Blake sends the shot away) 2023/11/23 ESHEET",
+"trackingId": "dm_20231123_NCW_amanda_blake_sends_the_shot_away"
+},
+"cerebroId": "655eacfcbe6ab32506fe8ae4",
+"lastModified": "2023-11-23T01:39:13Z",
+"originalPublishDate": "2023-11-23T01:38:02Z",
+"timeRestrictions": {
+"embargoDate": "2023-11-23T01:38:02Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+]
+},
+"duration": 16,
+"thumbnail": "https://a.espncdn.com/media/motion/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415.jpg",
+"links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/38962225"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/80ad9965-0512-4d66-9b31-34c8b6c2f046"
+}
+},
+"web": {
+"href": "https://www.espn.com/video/clip?id=38962225&ex_cid=espnapi_internal",
+"short": {
+"href": "https://www.espn.com/video/clip?id=38962225"
+},
+"self": {
+"href": "https://www.espn.com/video/clip?id=38962225&ex_cid=espnapi_internal"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415_360p30_1464k.mp4"
+},
+"mobile": {
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=38962225&ex_cid=espnapi_internal"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1122/ss_20231122_203806064_2406415/ss_20231122_203806064_2406415.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/80ad9965-0512-4d66-9b31-34c8b6c2f046/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38962225",
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/80ad9965-0512-4d66-9b31-34c8b6c2f046/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38962225"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/80ad9965-0512-4d66-9b31-34c8b6c2f046/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38962225"
 }
 }
 }

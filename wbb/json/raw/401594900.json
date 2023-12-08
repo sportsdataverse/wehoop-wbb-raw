@@ -116,6 +116,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "16",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "6",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "40",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "22",
 "abbreviation": "PF",
@@ -127,7 +145,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -244,6 +263,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "13",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "21",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "54",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "22",
 "abbreviation": "PF",
@@ -255,7 +292,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -948,7 +986,8 @@
 "74"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -1688,7 +1727,8 @@
 "103"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -18130,6 +18170,99 @@
 "videos": [
 {
 "source": "espn",
+"id": 38883846,
+"headline": "Skylar Vann scores and draws the foul",
+"description": "Skylar Vann scores and draws the foul, 11/12/2023",
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Skylar Vann scores and draws the foul) 2023/11/12 ESHEET",
+"trackingId": "dm_20231112_NCW_skylar_vann_scores_and_draws_the_foul"
+},
+"cerebroId": "6551485fbe6ab32506de6752",
+"lastModified": "2023-11-12T21:55:44Z",
+"originalPublishDate": "2023-11-12T21:49:16Z",
+"timeRestrictions": {
+"embargoDate": "2023-11-12T21:49:16Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+]
+},
+"duration": 20,
+"thumbnail": "https://a.espncdn.com/media/motion/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015.jpg",
+"links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/38883846"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/7918136e-84a6-4866-a84c-790ac96219cd"
+}
+},
+"web": {
+"href": "https://www.espn.com/video/clip?id=38883846&ex_cid=espnapi_internal",
+"short": {
+"href": "https://www.espn.com/video/clip?id=38883846"
+},
+"self": {
+"href": "https://www.espn.com/video/clip?id=38883846&ex_cid=espnapi_internal"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015_360p30_1464k.mp4"
+},
+"mobile": {
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=38883846&ex_cid=espnapi_internal"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/7918136e-84a6-4866-a84c-790ac96219cd/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38883846",
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/7918136e-84a6-4866-a84c-790ac96219cd/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38883846"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/7918136e-84a6-4866-a84c-790ac96219cd/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38883846"
+}
+}
+}
+},
+{
+"source": "espn",
 "id": 38882472,
 "headline": "Emily Robinson with the hoop & harm",
 "description": "Emily Robinson with the hoop & harm, 11/12/2023",
@@ -18781,99 +18914,6 @@
 },
 {
 "source": "espn",
-"id": 38883846,
-"headline": "Skylar Vann scores and draws the foul",
-"description": "Skylar Vann scores and draws the foul, 11/12/2023",
-"ad": {
-"sport": "ncw",
-"bundle": "sportscenter"
-},
-"tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "Final Game Highlight",
-"trackingName": "NCW_One-Play (Skylar Vann scores and draws the foul) 2023/11/12 ESHEET",
-"trackingId": "dm_20231112_NCW_skylar_vann_scores_and_draws_the_foul"
-},
-"cerebroId": "6551485fbe6ab32506de6752",
-"lastModified": "2023-11-12T21:55:44Z",
-"originalPublishDate": "2023-11-12T21:49:16Z",
-"timeRestrictions": {
-"embargoDate": "2023-11-12T21:49:16Z",
-"expirationDate": "2037-12-31T05:00:00Z"
-},
-"deviceRestrictions": {
-"type": "whitelist",
-"devices": [
-"desktop",
-"settop",
-"handset",
-"tablet"
-]
-},
-"duration": 20,
-"thumbnail": "https://a.espncdn.com/media/motion/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015.jpg",
-"links": {
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/38883846"
-},
-"artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/7918136e-84a6-4866-a84c-790ac96219cd"
-}
-},
-"web": {
-"href": "https://www.espn.com/video/clip?id=38883846&ex_cid=espnapi_internal",
-"short": {
-"href": "https://www.espn.com/video/clip?id=38883846"
-},
-"self": {
-"href": "https://www.espn.com/video/clip?id=38883846&ex_cid=espnapi_internal"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015.mp4"
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015.smil"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015_rel.smil/manifest.f4m"
-},
-"HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015/playlist.m3u8",
-"HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015/playlist.m3u8"
-}
-},
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015_720p30_2896k.mp4"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015_360p30_1464k.mp4"
-},
-"href": "https://media.video-cdn.espn.com/motion/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015_360p30_1464k.mp4"
-},
-"mobile": {
-"alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=38883846&ex_cid=espnapi_internal"
-},
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1112/ss_20231112_164920197_2395015/ss_20231112_164920197_2395015.mp4"
-},
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/7918136e-84a6-4866-a84c-790ac96219cd/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38883846",
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/7918136e-84a6-4866-a84c-790ac96219cd/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38883846"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/7918136e-84a6-4866-a84c-790ac96219cd/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38883846"
-}
-}
-}
-},
-{
-"source": "espn",
 "id": 38884029,
 "headline": "Oklahoma Sooners vs. Oral Roberts Golden Eagles - Game Highlights",
 "description": "Watch the Game Highlights from Oklahoma Sooners vs. Oral Roberts Golden Eagles, 11/12/2023",
@@ -19296,70 +19336,6 @@
 ]
 },
 {
-"team": "North Dakota",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/155/north-dakota-fighting-hawks",
-"id": "155",
-"uid": "s:40~l:54~t:155",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-5",
-"displayValue": "3-5"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-01-20T22:36Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/155.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-01-20T22:35Z"
-}
-]
-},
-{
 "team": "St. Thomas (MN)",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2900/st-thomas-mn-tommies",
 "id": "2900",
@@ -19373,8 +19349,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "3-5",
-"displayValue": "3-5"
+"summary": "4-5",
+"displayValue": "4-5"
 },
 {
 "name": "gamesBehind",
@@ -19412,6 +19388,70 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2900.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-20T22:35Z"
+}
+]
+},
+{
+"team": "North Dakota",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/155/north-dakota-fighting-hawks",
+"id": "155",
+"uid": "s:40~l:54~t:155",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-6",
+"displayValue": "3-6"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-20T22:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/155.png",
 "width": 500,
 "height": 500,
 "alt": "",

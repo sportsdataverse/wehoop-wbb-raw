@@ -25370,6 +25370,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "18",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "6",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "28",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "23",
 "abbreviation": "PF",
@@ -25381,7 +25399,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -25498,6 +25517,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "16",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "18",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "18",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "19",
 "abbreviation": "PF",
@@ -25509,7 +25546,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -26311,7 +26349,8 @@
 "67"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -26811,7 +26850,7 @@
 "id": "5178135",
 "uid": "s:40~l:54~a:5178135",
 "guid": "ebcafea6-041e-3dd2-814e-db372e88d6d8",
-"displayName": "Esther Rodellar Bilbao",
+"displayName": "Esther Rodellar",
 "shortName": "E. Rodellar Bilbao",
 "links": [
 {
@@ -26820,7 +26859,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5178135/esther-rodellar-bilbao",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5178135/esther-rodellar",
 "text": "Player Card"
 }
 ],
@@ -26919,7 +26958,8 @@
 "64"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -28183,6 +28223,70 @@
 ]
 },
 {
+"team": "Iona",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/314/iona-gaels",
+"id": "314",
+"uid": "s:40~l:54~t:314",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-3",
+"displayValue": "4-3"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/314.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-03-16T22:10Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/314.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-03-16T22:10Z"
+}
+]
+},
+{
 "team": "Canisius",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2099/canisius-golden-griffins",
 "id": "2099",
@@ -28243,70 +28347,6 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Iona",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/314/iona-gaels",
-"id": "314",
-"uid": "s:40~l:54~t:314",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-3",
-"displayValue": "3-3"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/314.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-03-16T22:10Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/314.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-03-16T22:10Z"
 }
 ]
 },

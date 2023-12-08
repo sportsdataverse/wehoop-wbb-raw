@@ -116,6 +116,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "7",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "0",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "28",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "23",
 "abbreviation": "PF",
@@ -127,7 +145,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -157,29 +176,29 @@
 },
 {
 "name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-"displayValue": "3-21",
+"displayValue": "4-22",
 "label": "3PT"
 },
 {
 "name": "threePointFieldGoalPct",
-"displayValue": "14.3",
+"displayValue": "18.2",
 "abbreviation": "3P%",
 "label": "Three Point %"
 },
 {
 "name": "freeThrowsMade-freeThrowsAttempted",
-"displayValue": "17-21",
+"displayValue": "16-21",
 "label": "FT"
 },
 {
 "name": "freeThrowPct",
-"displayValue": "81.0",
+"displayValue": "76.2",
 "abbreviation": "FT%",
 "label": "Free Throw %"
 },
 {
 "name": "totalRebounds",
-"displayValue": "51",
+"displayValue": "52",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
@@ -191,7 +210,7 @@
 },
 {
 "name": "defensiveRebounds",
-"displayValue": "40",
+"displayValue": "41",
 "abbreviation": "DR",
 "label": "Defensive Rebounds"
 },
@@ -215,7 +234,7 @@
 },
 {
 "name": "turnovers",
-"displayValue": "15",
+"displayValue": "16",
 "abbreviation": "TO",
 "label": "Turnovers"
 },
@@ -227,7 +246,7 @@
 },
 {
 "name": "totalTurnovers",
-"displayValue": "15",
+"displayValue": "16",
 "abbreviation": "ToTO",
 "label": "Total Turnovers"
 },
@@ -244,6 +263,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "15",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "13",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "44",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "23",
 "abbreviation": "PF",
@@ -255,7 +292,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -948,7 +986,8 @@
 "61"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -1112,8 +1151,8 @@
 "stats": [
 "29",
 "6-17",
-"1-6",
-"2-2",
+"2-7",
+"1-2",
 "1",
 "6",
 "7",
@@ -1373,6 +1412,55 @@
 {
 "active": false,
 "athlete": {
+"id": "5174276",
+"uid": "s:40~l:54~a:5174276",
+"guid": "c81b1421-2208-3f0e-925d-ab71a5159bf0",
+"displayName": "Lucija Milkovic",
+"shortName": "L. Milkovic",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5174276/lucija-milkovic",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5174276.png",
+"alt": "Lucija Milkovic"
+},
+"jersey": "7",
+"position": {
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"-",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0"
+]
+},
+{
+"active": false,
+"athlete": {
 "id": "4595263",
 "uid": "s:40~l:54~a:4595263",
 "guid": "382b9810-b734-3b2f-b023-5400c41754d9",
@@ -1458,12 +1546,12 @@
 "1-4",
 "2-2",
 "1",
-"2",
 "3",
+"4",
 "0",
 "1",
 "1",
-"1",
+"2",
 "1",
 "7"
 ]
@@ -1590,41 +1678,6 @@
 {
 "active": false,
 "athlete": {
-"id": "5174276",
-"uid": "s:40~l:54~a:5174276",
-"guid": "c81b1421-2208-3f0e-925d-ab71a5159bf0",
-"displayName": "Lucija Milkovic",
-"shortName": "L. Milkovic",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5174276/lucija-milkovic",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5174276.png",
-"alt": "Lucija Milkovic"
-},
-"jersey": "7",
-"position": {
-"name": "Center",
-"displayName": "Center",
-"abbreviation": "C"
-}
-},
-"starter": false,
-"didNotPlay": true,
-"ejected": false,
-"stats": []
-},
-{
-"active": false,
-"athlete": {
 "id": "4858657",
 "uid": "s:40~l:54~a:4858657",
 "guid": "dbc39f9f-7dc9-3d37-9b01-3fbd100e492e",
@@ -1661,20 +1714,21 @@
 "totals": [
 "",
 "26-64",
-"3-21",
-"17-21",
+"4-22",
+"16-21",
 "11",
-"40",
-"51",
+"41",
+"52",
 "6",
 "7",
 "3",
-"15",
+"16",
 "23",
 "72"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -1849,8 +1903,8 @@
 "shortDisplayName": "FT",
 "description": "Free Throw makes and attempts.",
 "abbreviation": "FT",
-"value": 1.0,
-"displayValue": "2/2"
+"value": 0.5,
+"displayValue": "1/2"
 }
 ]
 }
@@ -17194,6 +17248,70 @@
 ]
 },
 {
+"team": "Valparaiso",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2674/valparaiso-beacons",
+"id": "2674",
+"uid": "s:40~l:54~t:2674",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-6",
+"displayValue": "1-6"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2674.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-09-01T17:30Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2674.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-09-01T17:29Z"
+}
+]
+},
+{
 "team": "Evansville",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/339/evansville-purple-aces",
 "id": "339",
@@ -17254,70 +17372,6 @@
 "dark"
 ],
 "lastUpdated": "2020-08-31T15:03Z"
-}
-]
-},
-{
-"team": "Valparaiso",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2674/valparaiso-beacons",
-"id": "2674",
-"uid": "s:40~l:54~t:2674",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-6",
-"displayValue": "0-6"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2674.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2020-09-01T17:30Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2674.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2020-09-01T17:29Z"
 }
 ]
 }
@@ -17390,6 +17444,70 @@
 "dark"
 ],
 "lastUpdated": "2023-02-17T21:14Z"
+}
+]
+},
+{
+"team": "Vanderbilt",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/238/vanderbilt-commodores",
+"id": "238",
+"uid": "s:40~l:54~t:238",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "9-1",
+"displayValue": "9-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-04-28T14:31Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/238.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-04-28T14:30Z"
 }
 ]
 },
@@ -17522,70 +17640,6 @@
 ]
 },
 {
-"team": "Vanderbilt",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/238/vanderbilt-commodores",
-"id": "238",
-"uid": "s:40~l:54~t:238",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "8-1",
-"displayValue": "8-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-04-28T14:31Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/238.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-04-28T14:30Z"
-}
-]
-},
-{
 "team": "Alabama",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/333/alabama-crimson-tide",
 "id": "333",
@@ -17650,6 +17704,70 @@
 ]
 },
 {
+"team": "Arkansas",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/8/arkansas-razorbacks",
+"id": "8",
+"uid": "s:40~l:54~t:8",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "8-2",
+"displayValue": "8-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-03-01T14:17Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/8.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-03-01T14:18Z"
+}
+]
+},
+{
 "team": "Mississippi State",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/344/mississippi-state-bulldogs",
 "id": "344",
@@ -17710,70 +17828,6 @@
 "dark"
 ],
 "lastUpdated": "2023-03-17T13:36Z"
-}
-]
-},
-{
-"team": "Arkansas",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/8/arkansas-razorbacks",
-"id": "8",
-"uid": "s:40~l:54~t:8",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "7-2",
-"displayValue": "7-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-03-01T14:17Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/8.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-03-01T14:18Z"
 }
 ]
 },

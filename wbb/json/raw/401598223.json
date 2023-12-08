@@ -116,6 +116,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "10",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "10",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "30",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "21",
 "abbreviation": "PF",
@@ -127,7 +145,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -244,6 +263,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "31",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "25",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "38",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "10",
 "abbreviation": "PF",
@@ -255,7 +292,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -913,7 +951,8 @@
 "65"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -1576,7 +1615,8 @@
 "83"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -15160,99 +15200,6 @@
 "videos": [
 {
 "source": "espn",
-"id": 39043267,
-"headline": "Leilani Kapinus nails it from behind the arc",
-"description": "Leilani Kapinus nails it from behind the arc, 12/04/2023",
-"ad": {
-"sport": "ncw",
-"bundle": "sportscenter"
-},
-"tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "OnePlay",
-"trackingName": "NCW_One-Play (Leilani Kapinus nails it from behind the arc) 2023/12/04 ESHEET",
-"trackingId": "dm_20231204_NCW_leilani_kapinus_nails_it_from_behind_the_arc"
-},
-"cerebroId": "656e5cb5ca84b73c03ed20d0",
-"lastModified": "2023-12-05T01:01:31Z",
-"originalPublishDate": "2023-12-04T23:11:45Z",
-"timeRestrictions": {
-"embargoDate": "2023-12-04T23:11:45Z",
-"expirationDate": "2037-12-31T05:00:00Z"
-},
-"deviceRestrictions": {
-"type": "whitelist",
-"devices": [
-"desktop",
-"settop",
-"handset",
-"tablet"
-]
-},
-"duration": 17,
-"thumbnail": "https://a.espncdn.com/media/motion/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544.jpg",
-"links": {
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/39043267"
-},
-"artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/614b44e3-fa80-4cc3-8d88-a4a1e422ff96"
-}
-},
-"web": {
-"href": "https://www.espn.com/video/clip?id=39043267&ex_cid=espnapi_internal",
-"short": {
-"href": "https://www.espn.com/video/clip?id=39043267"
-},
-"self": {
-"href": "https://www.espn.com/video/clip?id=39043267&ex_cid=espnapi_internal"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544.mp4"
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544.smil"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544_rel.smil/manifest.f4m"
-},
-"HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544/playlist.m3u8",
-"HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544/playlist.m3u8"
-}
-},
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544_720p30_2896k.mp4"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544_360p30_1464k.mp4"
-},
-"href": "https://media.video-cdn.espn.com/motion/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544_360p30_1464k.mp4"
-},
-"mobile": {
-"alert": {
-"href": "http://m.espn.go.com/general/video/videoAlert?vid=39043267&ex_cid=espnapi_internal"
-},
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544.mp4"
-},
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/614b44e3-fa80-4cc3-8d88-a4a1e422ff96/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39043267",
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/614b44e3-fa80-4cc3-8d88-a4a1e422ff96/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39043267"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/614b44e3-fa80-4cc3-8d88-a4a1e422ff96/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39043267"
-}
-}
-}
-},
-{
-"source": "espn",
 "id": 39043296,
 "headline": "What a shot by JJ Quinerly",
 "description": "What a shot by JJ Quinerly, 12/04/2023",
@@ -15340,6 +15287,99 @@
 },
 "progressiveDownload": {
 "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9c953b50-a11b-4673-84f9-34eac6d0deff/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39043296"
+}
+}
+}
+},
+{
+"source": "espn",
+"id": 39043267,
+"headline": "Leilani Kapinus nails it from behind the arc",
+"description": "Leilani Kapinus nails it from behind the arc, 12/04/2023",
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "OnePlay",
+"trackingName": "NCW_One-Play (Leilani Kapinus nails it from behind the arc) 2023/12/04 ESHEET",
+"trackingId": "dm_20231204_NCW_leilani_kapinus_nails_it_from_behind_the_arc"
+},
+"cerebroId": "656e5cb5ca84b73c03ed20d0",
+"lastModified": "2023-12-05T01:01:31Z",
+"originalPublishDate": "2023-12-04T23:11:45Z",
+"timeRestrictions": {
+"embargoDate": "2023-12-04T23:11:45Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+]
+},
+"duration": 17,
+"thumbnail": "https://a.espncdn.com/media/motion/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544.jpg",
+"links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/39043267"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/614b44e3-fa80-4cc3-8d88-a4a1e422ff96"
+}
+},
+"web": {
+"href": "https://www.espn.com/video/clip?id=39043267&ex_cid=espnapi_internal",
+"short": {
+"href": "https://www.espn.com/video/clip?id=39043267"
+},
+"self": {
+"href": "https://www.espn.com/video/clip?id=39043267&ex_cid=espnapi_internal"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544_360p30_1464k.mp4"
+},
+"mobile": {
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=39043267&ex_cid=espnapi_internal"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1204/ss_20231204_181151151_2420544/ss_20231204_181151151_2420544.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/614b44e3-fa80-4cc3-8d88-a4a1e422ff96/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39043267",
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/614b44e3-fa80-4cc3-8d88-a4a1e422ff96/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39043267"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/614b44e3-fa80-4cc3-8d88-a4a1e422ff96/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39043267"
 }
 }
 }

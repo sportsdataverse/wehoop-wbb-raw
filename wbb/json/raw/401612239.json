@@ -114,6 +114,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "8",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "4",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "18",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "14",
 "abbreviation": "PF",
@@ -125,7 +143,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -242,6 +261,24 @@
 "label": "Total Technical Fouls"
 },
 {
+"name": "turnoverPoints",
+"displayValue": "25",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "16",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "38",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
 "name": "fouls",
 "displayValue": "9",
 "abbreviation": "PF",
@@ -253,7 +290,8 @@
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
-]
+],
+"displayOrder": 2
 }
 ],
 "players": [
@@ -351,10 +389,11 @@
 "text": "Player Card"
 }
 ],
+"jersey": "24",
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
 }
 },
 "starter": true,
@@ -395,10 +434,11 @@
 "text": "Player Card"
 }
 ],
+"jersey": "12",
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
 }
 },
 "starter": true,
@@ -423,6 +463,51 @@
 {
 "active": false,
 "athlete": {
+"id": "5190093",
+"uid": "s:40~l:54~a:5190093",
+"guid": "e72cef05-b56c-36df-8d06-8b7affd15fc9",
+"displayName": "Taneshia Tucker",
+"shortName": "T. Tucker",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5190093/taneshia-tucker",
+"text": "Player Card"
+}
+],
+"jersey": "15",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"34",
+"0-8",
+"0-1",
+"5-6",
+"1",
+"3",
+"4",
+"3",
+"1",
+"2",
+"2",
+"2",
+"5"
+]
+},
+{
+"active": false,
+"athlete": {
 "id": "5190086",
 "uid": "s:40~l:54~a:5190086",
 "guid": "c15f4e4d-1ead-3d6d-8f86-5677b1e49b7c",
@@ -439,10 +524,11 @@
 "text": "Player Card"
 }
 ],
+"jersey": "2",
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
 }
 },
 "starter": true,
@@ -483,10 +569,11 @@
 "text": "Player Card"
 }
 ],
+"jersey": "1",
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
 }
 },
 "starter": true,
@@ -511,50 +598,6 @@
 {
 "active": false,
 "athlete": {
-"id": "5190093",
-"uid": "s:40~l:54~a:5190093",
-"guid": "e72cef05-b56c-36df-8d06-8b7affd15fc9",
-"displayName": "Taneshia Tucker",
-"shortName": "T. Tucker",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5190093/taneshia-tucker",
-"text": "Player Card"
-}
-],
-"position": {
-"name": "Not Available",
-"displayName": "Not Available",
-"abbreviation": "NA"
-}
-},
-"starter": true,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"34",
-"0-8",
-"0-1",
-"5-6",
-"1",
-"3",
-"4",
-"3",
-"1",
-"2",
-"2",
-"2",
-"5"
-]
-},
-{
-"active": false,
-"athlete": {
 "id": "5190096",
 "uid": "s:40~l:54~a:5190096",
 "guid": "89dfca0d-1c58-348a-a745-1f20d8006c61",
@@ -571,10 +614,11 @@
 "text": "Player Card"
 }
 ],
+"jersey": "23",
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
 }
 },
 "starter": false,
@@ -599,138 +643,6 @@
 {
 "active": false,
 "athlete": {
-"id": "5190090",
-"uid": "s:40~l:54~a:5190090",
-"guid": "9040d547-6931-324a-a970-7cf76ab8dc72",
-"displayName": "Erika Mercedes",
-"shortName": "E. Mercedes",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5190090/erika-mercedes",
-"text": "Player Card"
-}
-],
-"position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
-}
-},
-"starter": false,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"16",
-"1-5",
-"0-0",
-"0-0",
-"4",
-"1",
-"5",
-"2",
-"2",
-"1",
-"0",
-"0",
-"2"
-]
-},
-{
-"active": false,
-"athlete": {
-"id": "5190089",
-"uid": "s:40~l:54~a:5190089",
-"guid": "0118b765-11a5-3e98-9f00-1d88f2c177dd",
-"displayName": "Saja Alston",
-"shortName": "S. Alston",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5190089/saja-alston",
-"text": "Player Card"
-}
-],
-"position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
-}
-},
-"starter": false,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"19",
-"0-8",
-"0-1",
-"0-2",
-"1",
-"1",
-"2",
-"2",
-"0",
-"0",
-"0",
-"1",
-"0"
-]
-},
-{
-"active": false,
-"athlete": {
-"id": "5190088",
-"uid": "s:40~l:54~a:5190088",
-"guid": "af44c100-fd13-301a-9628-369174e188cf",
-"displayName": "Amath Chol",
-"shortName": "A. Chol",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5190088/amath-chol",
-"text": "Player Card"
-}
-],
-"position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
-}
-},
-"starter": false,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"11",
-"0-0",
-"0-0",
-"0-0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"1",
-"2",
-"2",
-"0"
-]
-},
-{
-"active": false,
-"athlete": {
 "id": "5190094",
 "uid": "s:40~l:54~a:5190094",
 "guid": "39c6f1da-0817-3bc0-8a48-5d7704852541",
@@ -747,10 +659,11 @@
 "text": "Player Card"
 }
 ],
+"jersey": "21",
 "position": {
-"name": "Not Available",
-"displayName": "Not Available",
-"abbreviation": "NA"
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
 }
 },
 "starter": false,
@@ -775,11 +688,11 @@
 {
 "active": false,
 "athlete": {
-"id": "5190098",
-"uid": "s:40~l:54~a:5190098",
-"guid": "0885e997-68df-3396-a9c3-c8c7ec055213",
-"displayName": "Tyrah Smith",
-"shortName": "T. Smith",
+"id": "5190090",
+"uid": "s:40~l:54~a:5190090",
+"guid": "9040d547-6931-324a-a970-7cf76ab8dc72",
+"displayName": "Erika Mercedes",
+"shortName": "E. Mercedes",
 "links": [
 {
 "rel": [
@@ -787,20 +700,125 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5190098/tyrah-smith",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5190090/erika-mercedes",
 "text": "Player Card"
 }
 ],
+"jersey": "11",
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
 }
 },
 "starter": false,
-"didNotPlay": true,
+"didNotPlay": false,
 "ejected": false,
-"stats": []
+"stats": [
+"16",
+"1-5",
+"0-0",
+"0-0",
+"4",
+"1",
+"5",
+"2",
+"2",
+"1",
+"0",
+"0",
+"2"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5190088",
+"uid": "s:40~l:54~a:5190088",
+"guid": "af44c100-fd13-301a-9628-369174e188cf",
+"displayName": "Amath Chol",
+"shortName": "A. Chol",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5190088/amath-chol",
+"text": "Player Card"
+}
+],
+"jersey": "4",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"11",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"1",
+"2",
+"2",
+"0"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5190089",
+"uid": "s:40~l:54~a:5190089",
+"guid": "0118b765-11a5-3e98-9f00-1d88f2c177dd",
+"displayName": "Saja Alston",
+"shortName": "S. Alston",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5190089/saja-alston",
+"text": "Player Card"
+}
+],
+"jersey": "10",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"19",
+"0-8",
+"0-1",
+"0-2",
+"1",
+"1",
+"2",
+"2",
+"0",
+"0",
+"0",
+"1",
+"0"
+]
 },
 {
 "active": false,
@@ -822,9 +840,9 @@
 }
 ],
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
 }
 },
 "starter": false,
@@ -838,7 +856,7 @@
 "id": "5190092",
 "uid": "s:40~l:54~a:5190092",
 "guid": "737e9286-1b61-380f-aa62-0efd2bf6b3e0",
-"displayName": "Jasmine Mcduffie",
+"displayName": "Jasmine McDuffie",
 "shortName": "J. Mcduffie",
 "links": [
 {
@@ -851,10 +869,11 @@
 "text": "Player Card"
 }
 ],
+"jersey": "14",
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
 }
 },
 "starter": false,
@@ -882,9 +901,40 @@
 }
 ],
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"ejected": false,
+"stats": []
+},
+{
+"active": false,
+"athlete": {
+"id": "5190098",
+"uid": "s:40~l:54~a:5190098",
+"guid": "0885e997-68df-3396-a9c3-c8c7ec055213",
+"displayName": "Tyrah Smith",
+"shortName": "T. Smith",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5190098/tyrah-smith",
+"text": "Player Card"
+}
+],
+"jersey": "30",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
 }
 },
 "starter": false,
@@ -909,7 +959,8 @@
 "38"
 ]
 }
-]
+],
+"displayOrder": 1
 },
 {
 "team": {
@@ -1677,7 +1728,8 @@
 "86"
 ]
 }
-]
+],
+"displayOrder": 2
 }
 ]
 },
@@ -2031,8 +2083,9 @@
 "text": "Player Card"
 }
 ],
+"jersey": "2",
 "position": {
-"abbreviation": "ATH"
+"abbreviation": "G"
 }
 },
 "statistics": [
@@ -2092,8 +2145,9 @@
 "text": "Player Card"
 }
 ],
+"jersey": "15",
 "position": {
-"abbreviation": "NA"
+"abbreviation": "G"
 }
 },
 "statistics": [
@@ -2162,8 +2216,9 @@
 "text": "Player Card"
 }
 ],
+"jersey": "2",
 "position": {
-"abbreviation": "ATH"
+"abbreviation": "G"
 }
 },
 "statistics": [

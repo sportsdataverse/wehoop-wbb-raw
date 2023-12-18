@@ -371,6 +371,51 @@
 {
 "active": false,
 "athlete": {
+"id": "5187617",
+"uid": "s:40~l:54~a:5187617",
+"guid": "249206c3-450c-3913-a42c-6c002ff3dc42",
+"displayName": "Shyann Morreo",
+"shortName": "S. Morreo",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5187617/shyann-morreo",
+"text": "Player Card"
+}
+],
+"jersey": "22",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"35",
+"2-8",
+"1-6",
+"0-0",
+"2",
+"2",
+"4",
+"0",
+"2",
+"0",
+"10",
+"4",
+"5"
+]
+},
+{
+"active": false,
+"athlete": {
 "id": "5187613",
 "uid": "s:40~l:54~a:5187613",
 "guid": "fbd6defa-dfe0-35eb-8329-cddb08dad4d8",
@@ -547,37 +592,6 @@
 "2",
 "17"
 ]
-},
-{
-"active": false,
-"athlete": {
-"id": "5187617",
-"uid": "s:40~l:54~a:5187617",
-"guid": "249206c3-450c-3913-a42c-6c002ff3dc42",
-"displayName": "Shyann Morreo",
-"shortName": "S. Morreo",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5187617/shyann-morreo",
-"text": "Player Card"
-}
-],
-"jersey": "22",
-"position": {
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G"
-}
-},
-"starter": true,
-"didNotPlay": true,
-"ejected": false,
-"stats": []
 },
 {
 "active": false,
@@ -16263,6 +16277,70 @@
 ]
 },
 {
+"team": "New Mexico",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/167/new-mexico-lobos",
+"id": "167",
+"uid": "s:40~l:54~t:167",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "9-3",
+"displayValue": "9-3"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/167.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "Boise State",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/68/boise-state-broncos",
 "id": "68",
@@ -16323,70 +16401,6 @@
 "dark"
 ],
 "lastUpdated": "2023-03-15T19:32Z"
-}
-]
-},
-{
-"team": "New Mexico",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/167/new-mexico-lobos",
-"id": "167",
-"uid": "s:40~l:54~t:167",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "8-3",
-"displayValue": "8-3"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/167.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },
@@ -16660,8 +16674,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "4-4",
-"displayValue": "4-4"
+"summary": "4-5",
+"displayValue": "4-5"
 },
 {
 "name": "gamesBehind",

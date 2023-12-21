@@ -216,7 +216,7 @@
 },
 {
 "name": "assists",
-"displayValue": "11",
+"displayValue": "12",
 "abbreviation": "AST",
 "label": "Assists"
 },
@@ -1205,7 +1205,7 @@
 "9",
 "9",
 "18",
-"6",
+"7",
 "4",
 "0",
 "3",
@@ -1248,7 +1248,7 @@
 "ejected": false,
 "stats": [
 "28",
-"4-8",
+"5-9",
 "0-2",
 "2-4",
 "1",
@@ -1259,7 +1259,7 @@
 "0",
 "2",
 "0",
-"10"
+"12"
 ]
 },
 {
@@ -1346,7 +1346,7 @@
 "ejected": false,
 "stats": [
 "28",
-"11-23",
+"10-22",
 "3-7",
 "1-2",
 "2",
@@ -1357,7 +1357,7 @@
 "0",
 "0",
 "1",
-"26"
+"24"
 ]
 },
 {
@@ -1866,7 +1866,7 @@
 "19",
 "31",
 "50",
-"11",
+"12",
 "11",
 "3",
 "19",
@@ -1985,7 +1985,7 @@
 "displayName": "Points",
 "leaders": [
 {
-"displayValue": "26",
+"displayValue": "24",
 "athlete": {
 "id": "4610162",
 "uid": "s:40~l:54~a:4610162",
@@ -2021,8 +2021,8 @@
 "shortDisplayName": "PTS",
 "description": "The number of points scored.",
 "abbreviation": "PTS",
-"value": 26.0,
-"displayValue": "26"
+"value": 24.0,
+"displayValue": "24"
 },
 {
 "name": "fieldGoals",
@@ -2030,8 +2030,8 @@
 "shortDisplayName": "FG",
 "description": "Field Goal makes and attempts.",
 "abbreviation": "FG",
-"value": 0.478261,
-"displayValue": "11/23"
+"value": 0.454545,
+"displayValue": "10/22"
 },
 {
 "name": "freeThrows",
@@ -2051,7 +2051,7 @@
 "displayName": "Assists",
 "leaders": [
 {
-"displayValue": "6",
+"displayValue": "7",
 "athlete": {
 "id": "4594957",
 "uid": "s:40~l:54~a:4594957",
@@ -2087,8 +2087,8 @@
 "shortDisplayName": "AST",
 "description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
 "abbreviation": "AST",
-"value": 6.0,
-"displayValue": "6"
+"value": 7.0,
+"displayValue": "7"
 },
 {
 "name": "turnovers",
@@ -2114,8 +2114,8 @@
 "shortDisplayName": "AST/TO",
 "description": "The average number of assists a player or team records per turnover",
 "abbreviation": "AST/TO",
-"value": 2.0,
-"displayValue": "2.0"
+"value": 2.3333333,
+"displayValue": "2.3"
 }
 ]
 }
@@ -16083,8 +16083,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-0",
-"displayValue": "11-0"
+"summary": "12-0",
+"displayValue": "12-0"
 },
 {
 "name": "gamesBehind",
@@ -16147,8 +16147,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-0",
-"displayValue": "11-0"
+"summary": "12-0",
+"displayValue": "12-0"
 },
 {
 "name": "gamesBehind",
@@ -16194,6 +16194,70 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Baylor",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/239/baylor-bears",
+"id": "239",
+"uid": "s:40~l:54~t:239",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "10-0",
+"displayValue": "10-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-02-17T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/239.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-02-17T21:14Z"
 }
 ]
 },
@@ -16262,70 +16326,6 @@
 ]
 },
 {
-"team": "Baylor",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/239/baylor-bears",
-"id": "239",
-"uid": "s:40~l:54~t:239",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "9-0",
-"displayValue": "9-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-02-17T21:15Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/239.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
 "team": "Kansas State",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2306/kansas-state-wildcats",
 "id": "2306",
@@ -16339,8 +16339,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-1",
-"displayValue": "11-1"
+"summary": "12-1",
+"displayValue": "12-1"
 },
 {
 "name": "gamesBehind",
@@ -16386,70 +16386,6 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Texas Tech",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2641/texas-tech-lady-raiders",
-"id": "2641",
-"uid": "s:40~l:54~t:2641",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "11-1",
-"displayValue": "11-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2641.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-07T19:32Z"
 }
 ]
 },
@@ -16518,10 +16454,10 @@
 ]
 },
 {
-"team": "BYU",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/252/byu-cougars",
-"id": "252",
-"uid": "s:40~l:54~t:252",
+"team": "Texas Tech",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2641/texas-tech-lady-raiders",
+"id": "2641",
+"uid": "s:40~l:54~t:2641",
 "stats": [
 {
 "id": "0",
@@ -16531,8 +16467,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "9-2",
-"displayValue": "9-2"
+"summary": "11-2",
+"displayValue": "11-2"
 },
 {
 "name": "gamesBehind",
@@ -16558,7 +16494,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -16566,10 +16502,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2023-10-06T14:34Z"
+"lastUpdated": "2023-09-07T19:32Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/252.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2641.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -16577,7 +16513,7 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2023-10-06T14:35Z"
+"lastUpdated": "2023-09-07T19:32Z"
 }
 ]
 },
@@ -16595,8 +16531,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "8-2",
-"displayValue": "8-2"
+"summary": "9-2",
+"displayValue": "9-2"
 },
 {
 "name": "gamesBehind",
@@ -16642,6 +16578,70 @@
 "dark"
 ],
 "lastUpdated": "2023-02-17T21:14Z"
+}
+]
+},
+{
+"team": "BYU",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/252/byu-cougars",
+"id": "252",
+"uid": "s:40~l:54~t:252",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "9-3",
+"displayValue": "9-3"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-10-06T14:34Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/252.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-10-06T14:35Z"
 }
 ]
 },
@@ -16723,8 +16723,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "6-3",
-"displayValue": "6-3"
+"summary": "7-3",
+"displayValue": "7-3"
 },
 {
 "name": "gamesBehind",
@@ -16787,8 +16787,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "6-4",
-"displayValue": "6-4"
+"summary": "7-4",
+"displayValue": "7-4"
 },
 {
 "name": "gamesBehind",
@@ -16851,8 +16851,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "6-4",
-"displayValue": "6-4"
+"summary": "7-4",
+"displayValue": "7-4"
 },
 {
 "name": "gamesBehind",

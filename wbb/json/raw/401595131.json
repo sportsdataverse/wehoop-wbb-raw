@@ -216,7 +216,7 @@
 },
 {
 "name": "assists",
-"displayValue": "16",
+"displayValue": "18",
 "abbreviation": "AST",
 "label": "Assists"
 },
@@ -1324,7 +1324,7 @@
 "1",
 "7",
 "8",
-"2",
+"4",
 "0",
 "1",
 "1",
@@ -1834,7 +1834,7 @@
 "11",
 "31",
 "42",
-"16",
+"18",
 "7",
 "5",
 "14",
@@ -2021,13 +2021,13 @@
 {
 "displayValue": "4",
 "athlete": {
-"id": "4900532",
-"uid": "s:40~l:54~a:4900532",
-"guid": "0483cf68-e92c-365a-b3fe-ee2651b7f5ca",
-"lastName": "Collins",
-"fullName": "Cecelia Collins",
-"displayName": "Cecelia Collins",
-"shortName": "C. Collins",
+"id": "4594973",
+"uid": "s:40~l:54~a:4594973",
+"guid": "bc29f221-8f62-3026-9acf-9b31837b31c0",
+"lastName": "Hsu",
+"fullName": "Abbey Hsu",
+"displayName": "Abbey Hsu",
+"shortName": "A. Hsu",
 "links": [
 {
 "rel": [
@@ -2035,15 +2035,15 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4900532/cecelia-collins",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4594973/abbey-hsu",
 "text": "Player Card"
 }
 ],
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4900532.png",
-"alt": "Cecelia Collins"
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4594973.png",
+"alt": "Abbey Hsu"
 },
-"jersey": "3",
+"jersey": "35",
 "position": {
 "abbreviation": "G"
 }
@@ -2073,8 +2073,8 @@
 "shortDisplayName": "MIN",
 "description": "The total number of minutes played.",
 "abbreviation": "MIN",
-"value": 23.0,
-"displayValue": "23"
+"value": 28.0,
+"displayValue": "28"
 },
 {
 "name": "assistTurnoverRatio",
@@ -14204,70 +14204,6 @@
 ]
 },
 {
-"team": "Drexel",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2182/drexel-dragons",
-"id": "2182",
-"uid": "s:40~l:54~t:2182",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "4-4",
-"displayValue": "4-4"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2182.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2182.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "North Carolina A&T",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2448/north-carolina-at-aggies",
 "id": "2448",
@@ -14281,8 +14217,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "4-5",
-"displayValue": "4-5"
+"summary": "5-5",
+"displayValue": "5-5"
 },
 {
 "name": "gamesBehind",
@@ -14320,6 +14256,70 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2448.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Drexel",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2182/drexel-dragons",
+"id": "2182",
+"uid": "s:40~l:54~t:2182",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-5",
+"displayValue": "4-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2182.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2182.png",
 "width": 500,
 "height": 500,
 "alt": "",

@@ -24859,7 +24859,7 @@
 },
 {
 "name": "assists",
-"displayValue": "17",
+"displayValue": "16",
 "abbreviation": "AST",
 "label": "Assists"
 },
@@ -25782,9 +25782,9 @@
 "2-3",
 "7-7",
 "3",
-"5",
 "8",
-"3",
+"11",
+"2",
 "0",
 "1",
 "0",
@@ -25974,8 +25974,8 @@
 "0-2",
 "0-0",
 "1",
+"0",
 "1",
-"2",
 "3",
 "0",
 "0",
@@ -26158,8 +26158,8 @@
 "0-3",
 "10-12",
 "2",
-"6",
-"8",
+"5",
+"7",
 "1",
 "1",
 "0",
@@ -26203,8 +26203,8 @@
 "0-7",
 "3-3",
 "3",
-"3",
-"6",
+"2",
+"5",
 "1",
 "1",
 "0",
@@ -26425,7 +26425,7 @@
 "17",
 "31",
 "48",
-"17",
+"16",
 "5",
 "3",
 "21",
@@ -28645,81 +28645,6 @@
 {
 "displayValue": "3",
 "athlete": {
-"id": "4705055",
-"uid": "s:40~l:54~a:4705055",
-"guid": "0dd80a5f-a83e-3360-b669-28c5dd22e804",
-"lastName": "Young",
-"fullName": "Katelyn Young",
-"displayName": "Katelyn Young",
-"shortName": "K. Young",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4705055/katelyn-young",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4705055.png",
-"alt": "Katelyn Young"
-},
-"jersey": "31",
-"position": {
-"abbreviation": "F"
-}
-},
-"statistics": [
-{
-"name": "assists",
-"displayName": "Assists",
-"shortDisplayName": "AST",
-"description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
-"abbreviation": "AST",
-"value": 3.0,
-"displayValue": "3"
-},
-{
-"name": "turnovers",
-"displayName": "Turnovers",
-"shortDisplayName": "TO",
-"description": "The number of times a player loses possession to the other team.",
-"abbreviation": "TO",
-"value": 0.0,
-"displayValue": "0"
-},
-{
-"name": "minutes",
-"displayName": "Minutes",
-"shortDisplayName": "MIN",
-"description": "The total number of minutes played.",
-"abbreviation": "MIN",
-"value": 23.0,
-"displayValue": "23"
-},
-{
-"name": "assistTurnoverRatio",
-"displayName": "Assist To Turnover Ratio",
-"shortDisplayName": "AST/TO",
-"description": "The average number of assists a player or team records per turnover",
-"abbreviation": "AST/TO",
-"value": 0.0,
-"displayValue": "INF"
-}
-]
-}
-]
-},
-{
-"name": "rebounds",
-"displayName": "Rebounds",
-"leaders": [
-{
-"displayValue": "9",
-"athlete": {
 "id": "4705053",
 "uid": "s:40~l:54~a:4705053",
 "guid": "ccbeda54-ea68-3254-bfdb-91627eac773e",
@@ -28749,13 +28674,88 @@
 },
 "statistics": [
 {
+"name": "assists",
+"displayName": "Assists",
+"shortDisplayName": "AST",
+"description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
+"abbreviation": "AST",
+"value": 3.0,
+"displayValue": "3"
+},
+{
+"name": "turnovers",
+"displayName": "Turnovers",
+"shortDisplayName": "TO",
+"description": "The number of times a player loses possession to the other team.",
+"abbreviation": "TO",
+"value": 4.0,
+"displayValue": "4"
+},
+{
+"name": "minutes",
+"displayName": "Minutes",
+"shortDisplayName": "MIN",
+"description": "The total number of minutes played.",
+"abbreviation": "MIN",
+"value": 30.0,
+"displayValue": "30"
+},
+{
+"name": "assistTurnoverRatio",
+"displayName": "Assist To Turnover Ratio",
+"shortDisplayName": "AST/TO",
+"description": "The average number of assists a player or team records per turnover",
+"abbreviation": "AST/TO",
+"value": 0.75,
+"displayValue": "0.8"
+}
+]
+}
+]
+},
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"leaders": [
+{
+"displayValue": "11",
+"athlete": {
+"id": "4705055",
+"uid": "s:40~l:54~a:4705055",
+"guid": "0dd80a5f-a83e-3360-b669-28c5dd22e804",
+"lastName": "Young",
+"fullName": "Katelyn Young",
+"displayName": "Katelyn Young",
+"shortName": "K. Young",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4705055/katelyn-young",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4705055.png",
+"alt": "Katelyn Young"
+},
+"jersey": "31",
+"position": {
+"abbreviation": "F"
+}
+},
+"statistics": [
+{
 "name": "rebounds",
 "displayName": "Rebounds",
 "shortDisplayName": "REB",
 "description": "The total number of rebounds (offensive and defensive).",
 "abbreviation": "REB",
-"value": 9.0,
-"displayValue": "9"
+"value": 11.0,
+"displayValue": "11"
 },
 {
 "name": "defensiveRebounds",
@@ -28772,8 +28772,8 @@
 "shortDisplayName": "OREB",
 "description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
 "abbreviation": "OR",
-"value": 1.0,
-"displayValue": "1"
+"value": 3.0,
+"displayValue": "3"
 }
 ]
 }

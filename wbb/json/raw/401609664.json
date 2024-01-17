@@ -75,7 +75,7 @@
 },
 {
 "name": "steals",
-"displayValue": "7",
+"displayValue": "8",
 "abbreviation": "STL",
 "label": "Steals"
 },
@@ -415,7 +415,7 @@
 "6",
 "10",
 "16",
-"4",
+"5",
 "2",
 "1",
 "2",
@@ -464,8 +464,8 @@
 "0",
 "7",
 "7",
+"3",
 "2",
-"1",
 "2",
 "3",
 "2",
@@ -513,7 +513,7 @@
 "0",
 "3",
 "3",
-"7",
+"6",
 "0",
 "0",
 "3",
@@ -611,7 +611,7 @@
 "0",
 "1",
 "1",
-"4",
+"3",
 "3",
 "0",
 "1",
@@ -662,7 +662,7 @@
 "3",
 "0",
 "0",
-"0",
+"1",
 "2",
 "1",
 "1"
@@ -711,7 +711,7 @@
 "2",
 "1",
 "0",
-"1",
+"0",
 "2",
 "4",
 "4"
@@ -930,7 +930,7 @@
 "29",
 "40",
 "19",
-"7",
+"8",
 "4",
 "14",
 "12",
@@ -1017,6 +1017,55 @@
 "Points"
 ],
 "athletes": [
+{
+"active": false,
+"athlete": {
+"id": "5105752",
+"uid": "s:40~l:54~a:5105752",
+"guid": "88aa02c1-9935-3c0d-98fa-f6c0b859e7dc",
+"displayName": "Alissa Pili",
+"shortName": "A. Pili",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5105752/alissa-pili",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5105752.png",
+"alt": "Alissa Pili"
+},
+"jersey": "35",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"33",
+"5-18",
+"2-8",
+"4-5",
+"1",
+"6",
+"7",
+"2",
+"3",
+"1",
+"4",
+"2",
+"16"
+]
+},
 {
 "active": false,
 "athlete": {
@@ -1113,55 +1162,6 @@
 "2",
 "2",
 "6"
-]
-},
-{
-"active": false,
-"athlete": {
-"id": "4433311",
-"uid": "s:40~l:54~a:4433311",
-"guid": "3dc539a9-acc2-3377-a234-0e969c2dc6e8",
-"displayName": "Alissa Pili",
-"shortName": "A. Pili",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433311/alissa-pili",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433311.png",
-"alt": "Alissa Pili"
-},
-"jersey": "35",
-"position": {
-"name": "Forward",
-"displayName": "Forward",
-"abbreviation": "F"
-}
-},
-"starter": true,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"33",
-"5-18",
-"2-8",
-"4-5",
-"1",
-"6",
-"7",
-"2",
-"3",
-"1",
-"4",
-"2",
-"16"
 ]
 },
 {
@@ -1795,9 +1795,9 @@
 {
 "displayValue": "16",
 "athlete": {
-"id": "4433311",
-"uid": "s:40~l:54~a:4433311",
-"guid": "3dc539a9-acc2-3377-a234-0e969c2dc6e8",
+"id": "5105752",
+"uid": "s:40~l:54~a:5105752",
+"guid": "88aa02c1-9935-3c0d-98fa-f6c0b859e7dc",
 "lastName": "Pili",
 "fullName": "Alissa Pili",
 "displayName": "Alissa Pili",
@@ -1809,12 +1809,12 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433311/alissa-pili",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5105752/alissa-pili",
 "text": "Player Card"
 }
 ],
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433311.png",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5105752.png",
 "alt": "Alissa Pili"
 },
 "jersey": "35",
@@ -2111,7 +2111,7 @@
 "displayName": "Assists",
 "leaders": [
 {
-"displayValue": "7",
+"displayValue": "6",
 "athlete": {
 "id": "5105739",
 "uid": "s:40~l:54~a:5105739",
@@ -2147,8 +2147,8 @@
 "shortDisplayName": "AST",
 "description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
 "abbreviation": "AST",
-"value": 7.0,
-"displayValue": "7"
+"value": 6.0,
+"displayValue": "6"
 },
 {
 "name": "turnovers",
@@ -2174,8 +2174,8 @@
 "shortDisplayName": "AST/TO",
 "description": "The average number of assists a player or team records per turnover",
 "abbreviation": "AST/TO",
-"value": 2.3333333,
-"displayValue": "2.3"
+"value": 2.0,
+"displayValue": "2.0"
 }
 ]
 }
@@ -4558,11 +4558,6 @@
 "participants": [
 {
 "athlete": {
-"id": "4433311"
-}
-},
-{
-"athlete": {
 "id": "4898901"
 }
 }
@@ -4777,11 +4772,6 @@
 "id": "254"
 },
 "participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-},
 {
 "athlete": {
 "id": "4898901"
@@ -5110,13 +5100,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:11:39Z",
 "shootingPlay": false,
 "coordinate": {
@@ -5146,13 +5129,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:11:46Z",
 "shootingPlay": true,
 "coordinate": {
@@ -5218,13 +5194,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:12:12Z",
 "shootingPlay": false,
 "coordinate": {
@@ -6824,13 +6793,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:27:39Z",
 "shootingPlay": false,
 "coordinate": {
@@ -7045,13 +7007,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:29:06Z",
 "shootingPlay": true,
 "coordinate": {
@@ -7259,13 +7214,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:30:28Z",
 "shootingPlay": true,
 "coordinate": {
@@ -8511,13 +8459,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:38:55Z",
 "shootingPlay": true,
 "coordinate": {
@@ -8617,13 +8558,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:40:07Z",
 "shootingPlay": true,
 "coordinate": {
@@ -8653,13 +8587,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:40:07Z",
 "shootingPlay": false,
 "coordinate": {
@@ -8689,13 +8616,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:40:13Z",
 "shootingPlay": true,
 "coordinate": {
@@ -8937,11 +8857,6 @@
 "participants": [
 {
 "athlete": {
-"id": "4433311"
-}
-},
-{
-"athlete": {
 "id": "4898897"
 }
 }
@@ -9011,13 +8926,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:41:09Z",
 "shootingPlay": true,
 "coordinate": {
@@ -9335,13 +9243,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:44:11Z",
 "shootingPlay": true,
 "coordinate": {
@@ -9371,13 +9272,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:44:11Z",
 "shootingPlay": true,
 "coordinate": {
@@ -9443,13 +9337,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:44:28Z",
 "shootingPlay": false,
 "coordinate": {
@@ -9551,13 +9438,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T01:44:37Z",
 "shootingPlay": false,
 "coordinate": {
@@ -9791,13 +9671,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:02:40Z",
 "shootingPlay": false,
 "coordinate": {
@@ -10305,13 +10178,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:05:22Z",
 "shootingPlay": false,
 "coordinate": {
@@ -10629,13 +10495,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:07:19Z",
 "shootingPlay": false,
 "coordinate": {
@@ -11018,13 +10877,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:12:12Z",
 "shootingPlay": true,
 "coordinate": {
@@ -11729,13 +11581,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:16:12Z",
 "shootingPlay": true,
 "coordinate": {
@@ -12051,13 +11896,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:18:14Z",
 "shootingPlay": true,
 "coordinate": {
@@ -12164,13 +12002,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:18:40Z",
 "shootingPlay": false,
 "coordinate": {
@@ -12296,13 +12127,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:22:31Z",
 "shootingPlay": true,
 "coordinate": {
@@ -12558,13 +12382,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:23:56Z",
 "shootingPlay": true,
 "coordinate": {
@@ -12700,13 +12517,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:27:18Z",
 "shootingPlay": true,
 "coordinate": {
@@ -12772,13 +12582,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:27:54Z",
 "shootingPlay": false,
 "coordinate": {
@@ -13267,13 +13070,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:34:14Z",
 "shootingPlay": false,
 "coordinate": {
@@ -13522,13 +13318,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:35:51Z",
 "shootingPlay": true,
 "coordinate": {
@@ -13940,13 +13729,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:38:03Z",
 "shootingPlay": false,
 "coordinate": {
@@ -14012,13 +13794,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:38:33Z",
 "shootingPlay": true,
 "coordinate": {
@@ -14048,13 +13823,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:38:33Z",
 "shootingPlay": true,
 "coordinate": {
@@ -14293,13 +14061,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:41:16Z",
 "shootingPlay": true,
 "coordinate": {
@@ -14495,13 +14256,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:51:16Z",
 "shootingPlay": false,
 "coordinate": {
@@ -14560,13 +14314,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:51:16Z",
 "shootingPlay": false,
 "coordinate": {
@@ -14870,13 +14617,6 @@
 "team": {
 "id": "254"
 },
-"participants": [
-{
-"athlete": {
-"id": "4433311"
-}
-}
-],
 "wallclock": "2024-01-13T02:51:16Z",
 "shootingPlay": true,
 "coordinate": {

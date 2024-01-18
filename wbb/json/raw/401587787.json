@@ -216,7 +216,7 @@
 },
 {
 "name": "assists",
-"displayValue": "9",
+"displayValue": "10",
 "abbreviation": "AST",
 "label": "Assists"
 },
@@ -1150,7 +1150,7 @@
 "ejected": false,
 "stats": [
 "22",
-"2-6",
+"3-7",
 "0-0",
 "2-2",
 "0",
@@ -1161,7 +1161,7 @@
 "0",
 "0",
 "4",
-"6"
+"8"
 ]
 },
 {
@@ -1248,7 +1248,7 @@
 "ejected": false,
 "stats": [
 "33",
-"9-13",
+"8-12",
 "1-2",
 "0-0",
 "1",
@@ -1259,7 +1259,7 @@
 "0",
 "1",
 "4",
-"19"
+"17"
 ]
 },
 {
@@ -1303,7 +1303,7 @@
 "0",
 "1",
 "1",
-"1",
+"2",
 "0",
 "0",
 "3",
@@ -1712,7 +1712,7 @@
 "6",
 "25",
 "31",
-"9",
+"10",
 "8",
 "0",
 "16",
@@ -1831,7 +1831,7 @@
 "displayName": "Points",
 "leaders": [
 {
-"displayValue": "19",
+"displayValue": "17",
 "athlete": {
 "id": "4711724",
 "uid": "s:40~l:54~a:4711724",
@@ -1867,8 +1867,8 @@
 "shortDisplayName": "PTS",
 "description": "The number of points scored.",
 "abbreviation": "PTS",
-"value": 19.0,
-"displayValue": "19"
+"value": 17.0,
+"displayValue": "17"
 },
 {
 "name": "fieldGoals",
@@ -1876,8 +1876,8 @@
 "shortDisplayName": "FG",
 "description": "Field Goal makes and attempts.",
 "abbreviation": "FG",
-"value": 0.692308,
-"displayValue": "9/13"
+"value": 0.666667,
+"displayValue": "8/12"
 },
 {
 "name": "freeThrows",
@@ -15413,8 +15413,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-3",
-"displayValue": "15-3"
+"summary": "16-3",
+"displayValue": "16-3"
 },
 {
 "name": "gamesBehind",
@@ -15423,8 +15423,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.0,
-"displayValue": "1"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -15434,8 +15434,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "6-1",
-"displayValue": "6-1"
+"summary": "7-1",
+"displayValue": "7-1"
 }
 ],
 "logo": [
@@ -15452,70 +15452,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/325.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Wright State",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2750/wright-state-raiders",
-"id": "2750",
-"uid": "s:40~l:54~t:2750",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "11-7",
-"displayValue": "11-7"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.0,
-"displayValue": "2"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "5-2",
-"displayValue": "5-2"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2750.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2750.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -15588,6 +15524,70 @@
 "dark"
 ],
 "lastUpdated": "2018-10-29T16:11Z"
+}
+]
+},
+{
+"team": "Wright State",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2750/wright-state-raiders",
+"id": "2750",
+"uid": "s:40~l:54~t:2750",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "11-8",
+"displayValue": "11-8"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.5,
+"displayValue": "2.5"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "5-3",
+"displayValue": "5-3"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2750.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2750.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },
@@ -15848,70 +15848,6 @@
 ]
 },
 {
-"team": "Robert Morris",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2523/robert-morris-colonials",
-"id": "2523",
-"uid": "s:40~l:54~t:2523",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "6-11",
-"displayValue": "6-11"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 5.5,
-"displayValue": "5.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "2-6",
-"displayValue": "2-6"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-12-08T21:37Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2523.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-12-08T21:36Z"
-}
-]
-},
-{
 "team": "Youngstown State",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2754/youngstown-state-penguins",
 "id": "2754",
@@ -15976,6 +15912,70 @@
 ]
 },
 {
+"team": "Robert Morris",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2523/robert-morris-colonials",
+"id": "2523",
+"uid": "s:40~l:54~t:2523",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-12",
+"displayValue": "6-12"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6.0,
+"displayValue": "6"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-7",
+"displayValue": "2-7"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-12-08T21:37Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2523.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-12-08T21:36Z"
+}
+]
+},
+{
 "team": "Northern Kentucky",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/94/northern-kentucky-norse",
 "id": "94",
@@ -15989,8 +15989,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-13",
-"displayValue": "2-13"
+"summary": "3-13",
+"displayValue": "3-13"
 },
 {
 "name": "gamesBehind",
@@ -15999,8 +15999,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5,
-"displayValue": "6.5"
+"value": 6.0,
+"displayValue": "6"
 },
 {
 "id": "9",
@@ -16010,8 +16010,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-6",
-"displayValue": "0-6"
+"summary": "1-6",
+"displayValue": "1-6"
 }
 ],
 "logo": [

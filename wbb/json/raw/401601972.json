@@ -867,6 +867,41 @@
 {
 "active": false,
 "athlete": {
+"id": "4704619",
+"uid": "s:40~l:54~a:4704619",
+"guid": "530c60f7-285e-3481-8474-3cb5887cb11d",
+"displayName": "Anna Ekerstedt",
+"shortName": "A. Ekerstedt",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704619/anna-ekerstedt",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704619.png",
+"alt": "Anna Ekerstedt"
+},
+"jersey": "9",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"ejected": false,
+"stats": []
+},
+{
+"active": false,
+"athlete": {
 "id": "5195794",
 "uid": "s:40~l:54~a:5195794",
 "guid": "29dc67a3-bf36-3895-9ab2-0db87b6379cb",
@@ -884,9 +919,9 @@
 }
 ],
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
 }
 },
 "starter": false,
@@ -914,9 +949,9 @@
 }
 ],
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
 }
 },
 "starter": false,
@@ -944,9 +979,9 @@
 }
 ],
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
 }
 },
 "starter": false,
@@ -974,9 +1009,9 @@
 }
 ],
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
 }
 },
 "starter": false,
@@ -1004,44 +1039,9 @@
 }
 ],
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
-}
-},
-"starter": false,
-"didNotPlay": true,
-"ejected": false,
-"stats": []
-},
-{
-"active": false,
-"athlete": {
-"id": "4704619",
-"uid": "s:40~l:54~a:4704619",
-"guid": "530c60f7-285e-3481-8474-3cb5887cb11d",
-"displayName": "Anna Ekerstedt",
-"shortName": "A. Ekerstedt",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704619/anna-ekerstedt",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704619.png",
-"alt": "Anna Ekerstedt"
-},
-"jersey": "9",
-"position": {
-"name": "Forward",
-"displayName": "Forward",
-"abbreviation": "F"
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
 }
 },
 "starter": false,
@@ -2613,7 +2613,7 @@
 "onWatchESPN": true,
 "recent": false,
 "boxscoreSource": "full",
-"playByPlaySource": "none",
+"playByPlaySource": "full",
 "competitors": [
 {
 "id": "218",
@@ -2852,6 +2852,18 @@
 },
 {
 "rel": [
+"pbp",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401601972",
+"text": "Play-by-Play",
+"shortText": "Play-by-Play",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
 "teamstats",
 "desktop",
 "event"
@@ -2988,7 +3000,12068 @@
 ]
 }
 },
-"plays": [],
+"plays": [
+{
+"id": "401601972101905701",
+"sequenceNumber": "101905701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Aleah Nelson made Three Point Jumper. Assisted by Ines Piper.",
+"awayScore": 0,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:42"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+},
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T18:03:57Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101908901",
+"sequenceNumber": "101908901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Olivia Porter made Three Point Jumper. Assisted by Tracey Hueston.",
+"awayScore": 3,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:10"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+},
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T18:03:57Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101915001",
+"sequenceNumber": "101915001",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Demi Washington Turnover.",
+"awayScore": 3,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T18:03:57Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101915002",
+"sequenceNumber": "101915002",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Dazia Lawrence Steal.",
+"awayScore": 3,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T18:03:57Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101915501",
+"sequenceNumber": "101915501",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Dazia Lawrence made Layup.",
+"awayScore": 5,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:44"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T18:03:57Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101916401",
+"sequenceNumber": "101916401",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Demi Washington missed Jumper.",
+"awayScore": 5,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:35"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T18:03:57Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101916701",
+"sequenceNumber": "101916701",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Olivia Porter Defensive Rebound.",
+"awayScore": 5,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:32"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:03:57Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101917201",
+"sequenceNumber": "101917201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Olivia Porter made Three Point Jumper. Assisted by Jacee Busick.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:27"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+},
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T18:04:01Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101924001",
+"sequenceNumber": "101924001",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Tiarra East missed Layup.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:59"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:04:30Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101924002",
+"sequenceNumber": "101924002",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "Tracey Hueston Block.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:59"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T18:04:30Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101924101",
+"sequenceNumber": "101924101",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Temple Offensive Rebound.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:58"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T18:04:30Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101924601",
+"sequenceNumber": "101924601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tiarra East missed Jumper.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:53"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:04:47Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101924701",
+"sequenceNumber": "101924701",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Charlotte Defensive Rebound.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T18:04:47Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101926301",
+"sequenceNumber": "101926301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Dazia Lawrence missed Jumper.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:36"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T18:05:12Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101926601",
+"sequenceNumber": "101926601",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Tracey Hueston Offensive Rebound.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T18:05:13Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101927001",
+"sequenceNumber": "101927001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tracey Hueston missed Jumper.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:29"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T18:05:16Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101927301",
+"sequenceNumber": "101927301",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Rayne Tucker Defensive Rebound.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:26"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T18:05:21Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101928101",
+"sequenceNumber": "101928101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Aleah Nelson missed Jumper.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:18"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T18:05:29Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101928401",
+"sequenceNumber": "101928401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Dazia Lawrence Defensive Rebound.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T18:05:31Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101929201",
+"sequenceNumber": "101929201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tracey Hueston missed Three Point Jumper.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:07"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T18:05:41Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101929301",
+"sequenceNumber": "101929301",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Tracey Hueston Offensive Rebound.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:06"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T18:05:41Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101929401",
+"sequenceNumber": "101929401",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tiarra East.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:05:41Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101934401",
+"sequenceNumber": "101934401",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Keanna Rembert Turnover.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:55"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:05:41Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101934402",
+"sequenceNumber": "101934402",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Rayne Tucker Steal.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:55"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T18:05:41Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101935801",
+"sequenceNumber": "101935801",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Dazia Lawrence.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T18:06:52Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101936701",
+"sequenceNumber": "101936701",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Aleah Nelson Turnover.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:32"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T18:07:16Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101938801",
+"sequenceNumber": "101938801",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tracey Hueston missed Jumper.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:11"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T18:07:48Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101939201",
+"sequenceNumber": "101939201",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ines Piper Defensive Rebound.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T18:07:51Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101945301",
+"sequenceNumber": "101945301",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Demi Washington missed Layup.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:46"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T18:08:13Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101945302",
+"sequenceNumber": "101945302",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "Keanna Rembert Block.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:08:13Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101945404",
+"sequenceNumber": "101945404",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Temple Offensive Rebound.",
+"awayScore": 8,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T18:08:13Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101945701",
+"sequenceNumber": "101945701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Ines Piper made Layup. Assisted by Aleah Nelson.",
+"awayScore": 8,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:42"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+},
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T18:08:41Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101946801",
+"sequenceNumber": "101946801",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Rayne Tucker.",
+"awayScore": 8,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T18:08:49Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101947701",
+"sequenceNumber": "101947701",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Olivia Porter Turnover.",
+"awayScore": 8,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:09:12Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101949701",
+"sequenceNumber": "101949701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tiarra East made Three Point Jumper. Assisted by Ines Piper.",
+"awayScore": 8,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:02"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+},
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T18:09:46Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101955101",
+"sequenceNumber": "101955101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tracey Hueston made Jumper. Assisted by Nia Young.",
+"awayScore": 10,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:48"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+},
+{
+"athlete": {
+"id": "4899073"
+}
+}
+],
+"wallclock": "2024-01-21T18:10:00Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101956401",
+"sequenceNumber": "101956401",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tracey Hueston.",
+"awayScore": 10,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T18:10:13Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101956402",
+"sequenceNumber": "101956402",
+"type": {
+"id": "580",
+"text": "OfficialTVTimeOut"
+},
+"text": " Official TV Timeout",
+"awayScore": 10,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2024-01-21T18:10:17Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101956403",
+"sequenceNumber": "101956403",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tiarra East missed Free Throw.",
+"awayScore": 10,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:35"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:10:17Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101956404",
+"sequenceNumber": "101956404",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Temple Offensive Rebound.",
+"awayScore": 10,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T18:10:17Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101956405",
+"sequenceNumber": "101956405",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tiarra East made Free Throw.",
+"awayScore": 10,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:35"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:10:17Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101957701",
+"sequenceNumber": "101957701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Nia Young missed Three Point Jumper.",
+"awayScore": 10,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:22"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899073"
+}
+}
+],
+"wallclock": "2024-01-21T18:14:13Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101958101",
+"sequenceNumber": "101958101",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Charlotte Offensive Rebound.",
+"awayScore": 10,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:18"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T18:14:16Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101959301",
+"sequenceNumber": "101959301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tracey Hueston missed Jumper.",
+"awayScore": 10,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:06"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T18:15:30Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101959401",
+"sequenceNumber": "101959401",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Keanna Rembert Offensive Rebound.",
+"awayScore": 10,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:15:30Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101959503",
+"sequenceNumber": "101959503",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Keanna Rembert missed Layup.",
+"awayScore": 10,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:04"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:14:43Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101959601",
+"sequenceNumber": "101959601",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Temple Defensive Rebound.",
+"awayScore": 10,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T18:15:14Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101965801",
+"sequenceNumber": "101965801",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Ines Piper Turnover.",
+"awayScore": 10,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T18:15:24Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101965802",
+"sequenceNumber": "101965802",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Imani Smith Steal.",
+"awayScore": 10,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T18:15:24Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101966601",
+"sequenceNumber": "101966601",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Tracey Hueston Turnover.",
+"awayScore": 10,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T18:15:30Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101967901",
+"sequenceNumber": "101967901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Ines Piper made Three Point Jumper. Assisted by Tarriyonna Gary.",
+"awayScore": 10,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:20"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+},
+{
+"athlete": {
+"id": "4705049"
+}
+}
+],
+"wallclock": "2024-01-21T18:16:07Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101974501",
+"sequenceNumber": "101974501",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Fatou Diakite missed Layup.",
+"awayScore": 10,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:54"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174733"
+}
+}
+],
+"wallclock": "2024-01-21T18:16:33Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101974801",
+"sequenceNumber": "101974801",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Aleah Nelson Defensive Rebound.",
+"awayScore": 10,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:51"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T18:16:33Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101975501",
+"sequenceNumber": "101975501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tarriyonna Gary missed Three Point Jumper.",
+"awayScore": 10,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:44"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4705049"
+}
+}
+],
+"wallclock": "2024-01-21T18:16:44Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101975801",
+"sequenceNumber": "101975801",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Tiarra East Offensive Rebound.",
+"awayScore": 10,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:16:44Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101976401",
+"sequenceNumber": "101976401",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Dazia Lawrence.",
+"awayScore": 10,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T18:16:50Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101976402",
+"sequenceNumber": "101976402",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tiarra East made Free Throw.",
+"awayScore": 10,
+"homeScore": 13,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:35"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:16:50Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101976403",
+"sequenceNumber": "101976403",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tiarra East made Free Throw.",
+"awayScore": 10,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:35"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:16:50Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101977501",
+"sequenceNumber": "101977501",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Fatou Diakite made Layup. Assisted by Olivia Porter.",
+"awayScore": 12,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:24"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174733"
+}
+},
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:17:47Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101979901",
+"sequenceNumber": "101979901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Aleah Nelson missed Jumper.",
+"awayScore": 12,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:00"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T18:18:11Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101984401",
+"sequenceNumber": "101984401",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Jaleesa Molina Offensive Rebound.",
+"awayScore": 12,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:55"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174754"
+}
+}
+],
+"wallclock": "2024-01-21T18:18:14Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101984701",
+"sequenceNumber": "101984701",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Aleah Nelson Turnover.",
+"awayScore": 12,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T18:18:19Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101984702",
+"sequenceNumber": "101984702",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Imani Smith Steal.",
+"awayScore": 12,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T18:18:21Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101985101",
+"sequenceNumber": "101985101",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Imani Smith Turnover.",
+"awayScore": 12,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T18:18:21Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101985102",
+"sequenceNumber": "101985102",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Tarriyonna Gary Steal.",
+"awayScore": 12,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4705049"
+}
+}
+],
+"wallclock": "2024-01-21T18:18:21Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101985601",
+"sequenceNumber": "101985601",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Tiarra East missed Layup.",
+"awayScore": 12,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:43"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:18:28Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101985701",
+"sequenceNumber": "101985701",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Jaleesa Molina Offensive Rebound.",
+"awayScore": 12,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:42"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174754"
+}
+}
+],
+"wallclock": "2024-01-21T18:18:26Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101985702",
+"sequenceNumber": "101985702",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Jaleesa Molina missed Layup.",
+"awayScore": 12,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:42"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174754"
+}
+}
+],
+"wallclock": "2024-01-21T18:18:26Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101985806",
+"sequenceNumber": "101985806",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Charlotte Defensive Rebound.",
+"awayScore": 12,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T18:18:28Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101987901",
+"sequenceNumber": "101987901",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Rayne Tucker.",
+"awayScore": 12,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T18:19:20Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101987902",
+"sequenceNumber": "101987902",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Keanna Rembert made Free Throw.",
+"awayScore": 13,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:20"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:19:20Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101987903",
+"sequenceNumber": "101987903",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Keanna Rembert missed Free Throw.",
+"awayScore": 13,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:20"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:19:20Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101988001",
+"sequenceNumber": "101988001",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Jaleesa Molina Defensive Rebound.",
+"awayScore": 13,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174754"
+}
+}
+],
+"wallclock": "2024-01-21T18:20:02Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101988701",
+"sequenceNumber": "101988701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Jaleesa Molina made Jumper.",
+"awayScore": 13,
+"homeScore": 16,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:12"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174754"
+}
+}
+],
+"wallclock": "2024-01-21T18:20:09Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101994001",
+"sequenceNumber": "101994001",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Olivia Porter Turnover.",
+"awayScore": 13,
+"homeScore": 16,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:59"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:20:22Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101996701",
+"sequenceNumber": "101996701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Jaleesa Molina made Layup. Assisted by Tristen Taylor.",
+"awayScore": 13,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:32"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174754"
+}
+},
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T18:20:59Z",
+"shootingPlay": true
+},
+{
+"id": "401601972101999801",
+"sequenceNumber": "101999801",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Charlotte  Turnover.",
+"awayScore": 13,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T18:20:59Z",
+"shootingPlay": false
+},
+{
+"id": "401601972101999901",
+"sequenceNumber": "101999901",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of 1st Quarter",
+"awayScore": 13,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2024-01-21T18:20:59Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102905601",
+"sequenceNumber": "102905601",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Tracey Hueston made Layup. Assisted by Olivia Porter.",
+"awayScore": 15,
+"homeScore": 18,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:43"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+},
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:25:13Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102907601",
+"sequenceNumber": "102907601",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Olivia Porter.",
+"awayScore": 15,
+"homeScore": 18,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:25:33Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102907602",
+"sequenceNumber": "102907602",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tristen Taylor made Free Throw.",
+"awayScore": 15,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:23"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T18:25:56Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102907603",
+"sequenceNumber": "102907603",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tristen Taylor made Free Throw.",
+"awayScore": 15,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:23"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T18:25:56Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102908301",
+"sequenceNumber": "102908301",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Olivia Porter Turnover.",
+"awayScore": 15,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:26:16Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102909701",
+"sequenceNumber": "102909701",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tracey Hueston.",
+"awayScore": 15,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T18:26:46Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102909702",
+"sequenceNumber": "102909702",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Demi Washington missed Free Throw.",
+"awayScore": 15,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:02"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T18:26:46Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102909703",
+"sequenceNumber": "102909703",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Temple Offensive Rebound.",
+"awayScore": 15,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T18:26:46Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102909704",
+"sequenceNumber": "102909704",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Demi Washington missed Free Throw.",
+"awayScore": 15,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:02"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T18:26:46Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102909901",
+"sequenceNumber": "102909901",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Fatou Diakite Defensive Rebound.",
+"awayScore": 15,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174733"
+}
+}
+],
+"wallclock": "2024-01-21T18:27:41Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102914601",
+"sequenceNumber": "102914601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Jacee Busick missed Three Point Jumper.",
+"awayScore": 15,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:53"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T18:27:47Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102914901",
+"sequenceNumber": "102914901",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Keanna Rembert Offensive Rebound.",
+"awayScore": 15,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:50"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:27:50Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102915301",
+"sequenceNumber": "102915301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Jacee Busick missed Jumper.",
+"awayScore": 15,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:46"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T18:27:53Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102915401",
+"sequenceNumber": "102915401",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Keanna Rembert Offensive Rebound.",
+"awayScore": 15,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:27:53Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102915402",
+"sequenceNumber": "102915402",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Denise Solis.",
+"awayScore": 15,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594361"
+}
+}
+],
+"wallclock": "2024-01-21T18:27:53Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102915601",
+"sequenceNumber": "102915601",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Keanna Rembert made Layup. Assisted by Imani Smith.",
+"awayScore": 17,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:43"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+},
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T18:28:16Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102917501",
+"sequenceNumber": "102917501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Demi Washington made Jumper.",
+"awayScore": 17,
+"homeScore": 22,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:24"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T18:28:35Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102919001",
+"sequenceNumber": "102919001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Imani Smith made Jumper.",
+"awayScore": 19,
+"homeScore": 22,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:09"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T18:28:50Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102925201",
+"sequenceNumber": "102925201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tristen Taylor missed Jumper.",
+"awayScore": 19,
+"homeScore": 22,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:47"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T18:29:11Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102925401",
+"sequenceNumber": "102925401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Jacee Busick Defensive Rebound.",
+"awayScore": 19,
+"homeScore": 22,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T18:29:11Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102925601",
+"sequenceNumber": "102925601",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Jacee Busick Turnover.",
+"awayScore": 19,
+"homeScore": 22,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:43"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T18:29:17Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102925602",
+"sequenceNumber": "102925602",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Tristen Taylor Steal.",
+"awayScore": 19,
+"homeScore": 22,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:43"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T18:29:17Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102925702",
+"sequenceNumber": "102925702",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Imani Smith.",
+"awayScore": 19,
+"homeScore": 22,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:42"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T18:29:14Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102925703",
+"sequenceNumber": "102925703",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tristen Taylor made Free Throw.",
+"awayScore": 19,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:42"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T18:29:14Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102925704",
+"sequenceNumber": "102925704",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tristen Taylor missed Free Throw.",
+"awayScore": 19,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:42"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T18:29:14Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102925801",
+"sequenceNumber": "102925801",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Temple Offensive Rebound.",
+"awayScore": 19,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T18:29:17Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102927301",
+"sequenceNumber": "102927301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Ines Piper missed Jumper.",
+"awayScore": 19,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:26"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T18:30:47Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102927401",
+"sequenceNumber": "102927401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Charlotte Defensive Rebound.",
+"awayScore": 19,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:25"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T18:30:47Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102927402",
+"sequenceNumber": "102927402",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Jaleesa Molina.",
+"awayScore": 19,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:25"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174754"
+}
+}
+],
+"wallclock": "2024-01-21T18:30:47Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102927901",
+"sequenceNumber": "102927901",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Jacee Busick Turnover.",
+"awayScore": 19,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T18:31:08Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102927902",
+"sequenceNumber": "102927902",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Tristen Taylor Steal.",
+"awayScore": 19,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T18:31:08Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102928301",
+"sequenceNumber": "102928301",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Tiarra East Turnover.",
+"awayScore": 19,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:31:13Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102929701",
+"sequenceNumber": "102929701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Fatou Diakite made Layup. Assisted by Keanna Rembert.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:02"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174733"
+}
+},
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:31:46Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102929702",
+"sequenceNumber": "102929702",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Jaleesa Molina.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174754"
+}
+}
+],
+"wallclock": "2024-01-21T18:31:45Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102929703",
+"sequenceNumber": "102929703",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Fatou Diakite missed Free Throw.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:02"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174733"
+}
+}
+],
+"wallclock": "2024-01-21T18:31:45Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102929901",
+"sequenceNumber": "102929901",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Charlotte Offensive Rebound.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T18:32:20Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102935501",
+"sequenceNumber": "102935501",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Fatou Diakite Turnover.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174733"
+}
+}
+],
+"wallclock": "2024-01-21T18:32:53Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102935502",
+"sequenceNumber": "102935502",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Denise Solis Steal.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594361"
+}
+}
+],
+"wallclock": "2024-01-21T18:32:53Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102936301",
+"sequenceNumber": "102936301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tiarra East missed Three Point Jumper.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:36"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:33:01Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102936402",
+"sequenceNumber": "102936402",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Temple Offensive Rebound.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T18:33:01Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102937301",
+"sequenceNumber": "102937301",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Denise Solis.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:26"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594361"
+}
+}
+],
+"wallclock": "2024-01-21T18:33:27Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102937302",
+"sequenceNumber": "102937302",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Denise Solis Turnover.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:26"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594361"
+}
+}
+],
+"wallclock": "2024-01-21T18:33:27Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102938201",
+"sequenceNumber": "102938201",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Olivia Porter Turnover.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:17"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:33:55Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102939301",
+"sequenceNumber": "102939301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Aleah Nelson missed Three Point Jumper.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:06"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T18:34:25Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102939601",
+"sequenceNumber": "102939601",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Imani Smith Defensive Rebound.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T18:34:25Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102939602",
+"sequenceNumber": "102939602",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Ines Piper.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T18:34:25Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102939603",
+"sequenceNumber": "102939603",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Imani Smith made Free Throw.",
+"awayScore": 22,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:03"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T18:34:25Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102939604",
+"sequenceNumber": "102939604",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Imani Smith made Free Throw.",
+"awayScore": 23,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:03"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T18:34:25Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102944501",
+"sequenceNumber": "102944501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tiarra East missed Jumper.",
+"awayScore": 23,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:54"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:35:23Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102945001",
+"sequenceNumber": "102945001",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Olivia Porter Defensive Rebound.",
+"awayScore": 23,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:35:25Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102945201",
+"sequenceNumber": "102945201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Olivia Porter missed Layup.",
+"awayScore": 23,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:47"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:35:31Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102945501",
+"sequenceNumber": "102945501",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ines Piper Defensive Rebound.",
+"awayScore": 23,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T18:35:31Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102945701",
+"sequenceNumber": "102945701",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Aleah Nelson Turnover.",
+"awayScore": 23,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:42"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T18:35:37Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102947101",
+"sequenceNumber": "102947101",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tristen Taylor.",
+"awayScore": 23,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:28"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T18:36:05Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102947102",
+"sequenceNumber": "102947102",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Imani Smith made Free Throw.",
+"awayScore": 24,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:28"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T18:36:05Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102947103",
+"sequenceNumber": "102947103",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Imani Smith made Free Throw.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:28"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T18:36:05Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102949801",
+"sequenceNumber": "102949801",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Aleah Nelson missed Three Point Jumper.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:01"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T18:37:23Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102949901",
+"sequenceNumber": "102949901",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Tiarra East Offensive Rebound.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:38:23Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102954701",
+"sequenceNumber": "102954701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Demi Washington missed Jumper.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:52"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T18:37:32Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102954901",
+"sequenceNumber": "102954901",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Keanna Rembert Defensive Rebound.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:50"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:37:35Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102956501",
+"sequenceNumber": "102956501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Imani Smith missed Three Point Jumper.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:34"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T18:37:51Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102956901",
+"sequenceNumber": "102956901",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Tarriyonna Gary Defensive Rebound.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4705049"
+}
+}
+],
+"wallclock": "2024-01-21T18:37:51Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102957601",
+"sequenceNumber": "102957601",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Ines Piper made Layup. Assisted by Tarriyonna Gary.",
+"awayScore": 25,
+"homeScore": 25,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:23"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+},
+{
+"athlete": {
+"id": "4705049"
+}
+}
+],
+"wallclock": "2024-01-21T18:38:01Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102959301",
+"sequenceNumber": "102959301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Fatou Diakite missed Three Point Jumper.",
+"awayScore": 25,
+"homeScore": 25,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:06"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174733"
+}
+}
+],
+"wallclock": "2024-01-21T18:38:18Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102959801",
+"sequenceNumber": "102959801",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Imani Smith Offensive Rebound.",
+"awayScore": 25,
+"homeScore": 25,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T18:38:20Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102964001",
+"sequenceNumber": "102964001",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Keanna Rembert.",
+"awayScore": 25,
+"homeScore": 25,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:59"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:38:23Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102964002",
+"sequenceNumber": "102964002",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Keanna Rembert Turnover.",
+"awayScore": 25,
+"homeScore": 25,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:59"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:38:23Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102964003",
+"sequenceNumber": "102964003",
+"type": {
+"id": "580",
+"text": "OfficialTVTimeOut"
+},
+"text": " Official TV Timeout",
+"awayScore": 25,
+"homeScore": 25,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:59"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2024-01-21T18:38:23Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102965901",
+"sequenceNumber": "102965901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tiarra East missed Three Point Jumper.",
+"awayScore": 25,
+"homeScore": 25,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:40"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:41:59Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102966401",
+"sequenceNumber": "102966401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Fatou Diakite Defensive Rebound.",
+"awayScore": 25,
+"homeScore": 25,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174733"
+}
+}
+],
+"wallclock": "2024-01-21T18:42:02Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102967701",
+"sequenceNumber": "102967701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Nia Young missed Layup.",
+"awayScore": 25,
+"homeScore": 25,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:22"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899073"
+}
+}
+],
+"wallclock": "2024-01-21T18:42:20Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102968101",
+"sequenceNumber": "102968101",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Rayne Tucker Defensive Rebound.",
+"awayScore": 25,
+"homeScore": 25,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:18"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T18:42:20Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102968701",
+"sequenceNumber": "102968701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Demi Washington made Jumper. Assisted by Tiarra East.",
+"awayScore": 25,
+"homeScore": 27,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:12"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+},
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:42:26Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102975101",
+"sequenceNumber": "102975101",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Demi Washington.",
+"awayScore": 25,
+"homeScore": 27,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T18:42:52Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102975102",
+"sequenceNumber": "102975102",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Jacee Busick made Free Throw.",
+"awayScore": 26,
+"homeScore": 27,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:48"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T18:42:52Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102975103",
+"sequenceNumber": "102975103",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Jacee Busick missed Free Throw.",
+"awayScore": 26,
+"homeScore": 27,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:48"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T18:42:52Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102975201",
+"sequenceNumber": "102975201",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Demi Washington Defensive Rebound.",
+"awayScore": 26,
+"homeScore": 27,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T18:43:25Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102977301",
+"sequenceNumber": "102977301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Kendall Currence missed Three Point Jumper.",
+"awayScore": 26,
+"homeScore": 27,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:26"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4400226"
+}
+}
+],
+"wallclock": "2024-01-21T18:43:48Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102977501",
+"sequenceNumber": "102977501",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Olivia Porter Defensive Rebound.",
+"awayScore": 26,
+"homeScore": 27,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:43:48Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102977502",
+"sequenceNumber": "102977502",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tiarra East.",
+"awayScore": 26,
+"homeScore": 27,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T18:43:48Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102977503",
+"sequenceNumber": "102977503",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Olivia Porter made Free Throw.",
+"awayScore": 27,
+"homeScore": 27,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:24"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:43:48Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102977504",
+"sequenceNumber": "102977504",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Olivia Porter missed Free Throw.",
+"awayScore": 27,
+"homeScore": 27,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:24"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:43:48Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102977701",
+"sequenceNumber": "102977701",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Rayne Tucker Defensive Rebound.",
+"awayScore": 27,
+"homeScore": 27,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T18:44:33Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102979201",
+"sequenceNumber": "102979201",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Jacee Busick.",
+"awayScore": 27,
+"homeScore": 27,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T18:44:51Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102979301",
+"sequenceNumber": "102979301",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tristen Taylor made Free Throw.",
+"awayScore": 27,
+"homeScore": 28,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:06"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T18:44:51Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102979302",
+"sequenceNumber": "102979302",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tristen Taylor made Free Throw.",
+"awayScore": 27,
+"homeScore": 29,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:06"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T18:44:51Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102979303",
+"sequenceNumber": "102979303",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tristen Taylor made Free Throw.",
+"awayScore": 27,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:06"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T18:44:51Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102984701",
+"sequenceNumber": "102984701",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Keanna Rembert.",
+"awayScore": 27,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:46:08Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102984702",
+"sequenceNumber": "102984702",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Keanna Rembert Turnover.",
+"awayScore": 27,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:46:08Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102986201",
+"sequenceNumber": "102986201",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Demi Washington.",
+"awayScore": 27,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:37"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T18:46:41Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102986202",
+"sequenceNumber": "102986202",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Demi Washington Turnover.",
+"awayScore": 27,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:37"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T18:46:41Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102988201",
+"sequenceNumber": "102988201",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Olivia Porter Turnover.",
+"awayScore": 27,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:17"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:47:14Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102988202",
+"sequenceNumber": "102988202",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Aleah Nelson Steal.",
+"awayScore": 27,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:17"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T18:47:14Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102989801",
+"sequenceNumber": "102989801",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Demi Washington missed Layup.",
+"awayScore": 27,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:01"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T18:47:44Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102989802",
+"sequenceNumber": "102989802",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "Keanna Rembert Block.",
+"awayScore": 27,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T18:47:47Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102994301",
+"sequenceNumber": "102994301",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Olivia Porter Defensive Rebound.",
+"awayScore": 27,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T18:47:47Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102995601",
+"sequenceNumber": "102995601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Imani Smith missed Three Point Jumper.",
+"awayScore": 27,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:43"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T18:48:01Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102995801",
+"sequenceNumber": "102995801",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Temple Defensive Rebound.",
+"awayScore": 27,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T18:48:01Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102997701",
+"sequenceNumber": "102997701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Aleah Nelson made Three Point Jumper. Assisted by Kendall Currence.",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:22"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+},
+{
+"athlete": {
+"id": "4400226"
+}
+}
+],
+"wallclock": "2024-01-21T18:48:32Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102999801",
+"sequenceNumber": "102999801",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Nia Young missed Jumper.",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:01"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899073"
+}
+}
+],
+"wallclock": "2024-01-21T18:48:32Z",
+"shootingPlay": true
+},
+{
+"id": "401601972102999902",
+"sequenceNumber": "102999902",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Charlotte Offensive Rebound.",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T18:48:32Z",
+"shootingPlay": false
+},
+{
+"id": "401601972102999901",
+"sequenceNumber": "102999901",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of 2nd Quarter",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2024-01-21T18:48:32Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103905501",
+"sequenceNumber": "103905501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Keanna Rembert missed Jumper.",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:44"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"shootingPlay": true
+},
+{
+"id": "401601972103905502",
+"sequenceNumber": "103905502",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "Ines Piper Block.",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:05:10Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103905701",
+"sequenceNumber": "103905701",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Tracey Hueston Offensive Rebound.",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:42"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:05:10Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103906001",
+"sequenceNumber": "103906001",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Tracey Hueston Turnover.",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:39"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:05:10Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103906002",
+"sequenceNumber": "103906002",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Demi Washington Steal.",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:39"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T19:05:10Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103907101",
+"sequenceNumber": "103907101",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tracey Hueston.",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:28"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:05:35Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103908201",
+"sequenceNumber": "103908201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Aleah Nelson missed Three Point Jumper.",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:17"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T19:06:13Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103908601",
+"sequenceNumber": "103908601",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Demi Washington Offensive Rebound.",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:13"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T19:06:21Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103909401",
+"sequenceNumber": "103909401",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Fatou Diakite.",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174733"
+}
+}
+],
+"wallclock": "2024-01-21T19:06:25Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103909402",
+"sequenceNumber": "103909402",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tiarra East missed Free Throw.",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:05"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T19:06:25Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103909403",
+"sequenceNumber": "103909403",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Temple Offensive Rebound.",
+"awayScore": 27,
+"homeScore": 33,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T19:06:25Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103909404",
+"sequenceNumber": "103909404",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tiarra East made Free Throw.",
+"awayScore": 27,
+"homeScore": 34,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:05"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T19:06:25Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103915001",
+"sequenceNumber": "103915001",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Aleah Nelson.",
+"awayScore": 27,
+"homeScore": 34,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T19:07:15Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103915002",
+"sequenceNumber": "103915002",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Olivia Porter missed Free Throw.",
+"awayScore": 27,
+"homeScore": 34,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:49"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T19:07:15Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103915003",
+"sequenceNumber": "103915003",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Charlotte Offensive Rebound.",
+"awayScore": 27,
+"homeScore": 34,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T19:07:15Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103915004",
+"sequenceNumber": "103915004",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Olivia Porter made Free Throw.",
+"awayScore": 28,
+"homeScore": 34,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:49"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T19:07:15Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103917201",
+"sequenceNumber": "103917201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Rayne Tucker missed Jumper.",
+"awayScore": 28,
+"homeScore": 34,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:27"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T19:08:18Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103917501",
+"sequenceNumber": "103917501",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Ines Piper Offensive Rebound.",
+"awayScore": 28,
+"homeScore": 34,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:08:20Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103917801",
+"sequenceNumber": "103917801",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Rayne Tucker made Jumper. Assisted by Aleah Nelson.",
+"awayScore": 28,
+"homeScore": 36,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:21"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+},
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T19:08:24Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103919901",
+"sequenceNumber": "103919901",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Fatou Diakite Turnover.",
+"awayScore": 28,
+"homeScore": 36,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174733"
+}
+}
+],
+"wallclock": "2024-01-21T19:08:52Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103925201",
+"sequenceNumber": "103925201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Rayne Tucker made Layup. Assisted by Demi Washington.",
+"awayScore": 28,
+"homeScore": 38,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:47"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+},
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T19:09:14Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103925901",
+"sequenceNumber": "103925901",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Charlotte  Timeout",
+"awayScore": 28,
+"homeScore": 38,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T19:09:23Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103925902",
+"sequenceNumber": "103925902",
+"type": {
+"id": "580",
+"text": "OfficialTVTimeOut"
+},
+"text": " Official TV Timeout",
+"awayScore": 28,
+"homeScore": 38,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2024-01-21T19:09:23Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103926801",
+"sequenceNumber": "103926801",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Dazia Lawrence Turnover.",
+"awayScore": 28,
+"homeScore": 38,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:12:52Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103926802",
+"sequenceNumber": "103926802",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Ines Piper Steal.",
+"awayScore": 28,
+"homeScore": 38,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:12:52Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103928501",
+"sequenceNumber": "103928501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Ines Piper made Jumper. Assisted by Tiarra East.",
+"awayScore": 28,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:14"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+},
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T19:13:09Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103929701",
+"sequenceNumber": "103929701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Keanna Rembert missed Jumper.",
+"awayScore": 28,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:02"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T19:13:22Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103934001",
+"sequenceNumber": "103934001",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ines Piper Defensive Rebound.",
+"awayScore": 28,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:59"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:13:25Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103936401",
+"sequenceNumber": "103936401",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Ines Piper missed Three Point Jumper.",
+"awayScore": 28,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:35"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:13:55Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103936701",
+"sequenceNumber": "103936701",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Olivia Porter Defensive Rebound.",
+"awayScore": 28,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:32"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T19:13:51Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103938301",
+"sequenceNumber": "103938301",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Ines Piper.",
+"awayScore": 28,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:14:07Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103938302",
+"sequenceNumber": "103938302",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Keanna Rembert made Free Throw.",
+"awayScore": 29,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:16"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T19:14:07Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103938303",
+"sequenceNumber": "103938303",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Keanna Rembert made Free Throw.",
+"awayScore": 30,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:16"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T19:14:07Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103944101",
+"sequenceNumber": "103944101",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Olivia Porter.",
+"awayScore": 30,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:58"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T19:15:10Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103945201",
+"sequenceNumber": "103945201",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Tiarra East Turnover.",
+"awayScore": 30,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T19:15:45Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103946501",
+"sequenceNumber": "103946501",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Rayne Tucker.",
+"awayScore": 30,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:34"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T19:16:12Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103947001",
+"sequenceNumber": "103947001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Dazia Lawrence missed Jumper.",
+"awayScore": 30,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:29"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:16:34Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103947201",
+"sequenceNumber": "103947201",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ines Piper Defensive Rebound.",
+"awayScore": 30,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:27"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:16:34Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103948001",
+"sequenceNumber": "103948001",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Aleah Nelson missed Layup.",
+"awayScore": 30,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:19"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T19:16:43Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103948002",
+"sequenceNumber": "103948002",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "Olivia Porter Block.",
+"awayScore": 30,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T19:16:46Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103948401",
+"sequenceNumber": "103948401",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Ines Piper Offensive Rebound.",
+"awayScore": 30,
+"homeScore": 40,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:16:46Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103948601",
+"sequenceNumber": "103948601",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Ines Piper made Layup.",
+"awayScore": 30,
+"homeScore": 42,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:13"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:16:48Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103949601",
+"sequenceNumber": "103949601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Olivia Porter missed Three Point Jumper.",
+"awayScore": 30,
+"homeScore": 42,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:03"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T19:16:59Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103954001",
+"sequenceNumber": "103954001",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Demi Washington Defensive Rebound.",
+"awayScore": 30,
+"homeScore": 42,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:59"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T19:17:02Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103954601",
+"sequenceNumber": "103954601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Ines Piper missed Three Point Jumper.",
+"awayScore": 30,
+"homeScore": 42,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:53"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:17:08Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103955401",
+"sequenceNumber": "103955401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Olivia Porter Defensive Rebound.",
+"awayScore": 30,
+"homeScore": 42,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T19:17:16Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103955701",
+"sequenceNumber": "103955701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Keanna Rembert made Layup. Assisted by Imani Smith.",
+"awayScore": 32,
+"homeScore": 42,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:42"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+},
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:17:19Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103957501",
+"sequenceNumber": "103957501",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Imani Smith.",
+"awayScore": 32,
+"homeScore": 42,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:17:38Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103957502",
+"sequenceNumber": "103957502",
+"type": {
+"id": "580",
+"text": "OfficialTVTimeOut"
+},
+"text": " Official TV Timeout",
+"awayScore": 32,
+"homeScore": 42,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2024-01-21T19:17:38Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103957503",
+"sequenceNumber": "103957503",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Aleah Nelson made Free Throw.",
+"awayScore": 32,
+"homeScore": 43,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:24"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T19:21:04Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103957504",
+"sequenceNumber": "103957504",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Aleah Nelson made Free Throw.",
+"awayScore": 32,
+"homeScore": 44,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:24"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T19:21:04Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103957901",
+"sequenceNumber": "103957901",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Olivia Porter Turnover.",
+"awayScore": 32,
+"homeScore": 44,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T19:21:45Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103957902",
+"sequenceNumber": "103957902",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Jaleesa Molina Steal.",
+"awayScore": 32,
+"homeScore": 44,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174754"
+}
+}
+],
+"wallclock": "2024-01-21T19:21:48Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103958301",
+"sequenceNumber": "103958301",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Jaleesa Molina made Layup.",
+"awayScore": 32,
+"homeScore": 46,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:16"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174754"
+}
+}
+],
+"wallclock": "2024-01-21T19:21:48Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103959701",
+"sequenceNumber": "103959701",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tristen Taylor.",
+"awayScore": 32,
+"homeScore": 46,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T19:22:04Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103959901",
+"sequenceNumber": "103959901",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Demi Washington.",
+"awayScore": 32,
+"homeScore": 46,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T19:22:19Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103959902",
+"sequenceNumber": "103959902",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tracey Hueston made Free Throw.",
+"awayScore": 33,
+"homeScore": 46,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:00"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:22:19Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103959903",
+"sequenceNumber": "103959903",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tracey Hueston made Free Throw.",
+"awayScore": 34,
+"homeScore": 46,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:00"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:22:19Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103965601",
+"sequenceNumber": "103965601",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Jaleesa Molina made Layup. Assisted by Rayne Tucker.",
+"awayScore": 34,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:43"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174754"
+}
+},
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T19:23:32Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103967401",
+"sequenceNumber": "103967401",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tracey Hueston made Jumper. Assisted by Dazia Lawrence.",
+"awayScore": 36,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:25"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+},
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:23:49Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103968801",
+"sequenceNumber": "103968801",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Jaleesa Molina Turnover.",
+"awayScore": 36,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174754"
+}
+}
+],
+"wallclock": "2024-01-21T19:24:03Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103974201",
+"sequenceNumber": "103974201",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Tracey Hueston Turnover.",
+"awayScore": 36,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:57"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:24:47Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103974202",
+"sequenceNumber": "103974202",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Ines Piper Steal.",
+"awayScore": 36,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:57"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:24:47Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103974801",
+"sequenceNumber": "103974801",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Tarriyonna Gary Turnover.",
+"awayScore": 36,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:51"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4705049"
+}
+}
+],
+"wallclock": "2024-01-21T19:24:53Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103974802",
+"sequenceNumber": "103974802",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Jacee Busick Steal.",
+"awayScore": 36,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:51"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T19:24:56Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103975201",
+"sequenceNumber": "103975201",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Ines Piper.",
+"awayScore": 36,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:24:57Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103975202",
+"sequenceNumber": "103975202",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Imani Smith missed Free Throw.",
+"awayScore": 36,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:47"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:24:57Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103975203",
+"sequenceNumber": "103975203",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Charlotte Offensive Rebound.",
+"awayScore": 36,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T19:24:57Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103975204",
+"sequenceNumber": "103975204",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Imani Smith missed Free Throw.",
+"awayScore": 36,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:47"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:24:57Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103975401",
+"sequenceNumber": "103975401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ines Piper Defensive Rebound.",
+"awayScore": 36,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:25:42Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103977901",
+"sequenceNumber": "103977901",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Keanna Rembert.",
+"awayScore": 36,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T19:26:06Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103977902",
+"sequenceNumber": "103977902",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tristen Taylor made Free Throw.",
+"awayScore": 36,
+"homeScore": 49,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:20"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T19:26:06Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103977903",
+"sequenceNumber": "103977903",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tristen Taylor made Free Throw.",
+"awayScore": 36,
+"homeScore": 50,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:20"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T19:26:06Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103979501",
+"sequenceNumber": "103979501",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Denise Solis.",
+"awayScore": 36,
+"homeScore": 50,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:04"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594361"
+}
+}
+],
+"wallclock": "2024-01-21T19:27:06Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103979502",
+"sequenceNumber": "103979502",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tracey Hueston made Free Throw.",
+"awayScore": 37,
+"homeScore": 50,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:04"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:27:32Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103979503",
+"sequenceNumber": "103979503",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tracey Hueston made Free Throw.",
+"awayScore": 38,
+"homeScore": 50,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:04"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:27:32Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103984901",
+"sequenceNumber": "103984901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tiarra East made Jumper.",
+"awayScore": 38,
+"homeScore": 52,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:50"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T19:28:11Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103986501",
+"sequenceNumber": "103986501",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Tracey Hueston Turnover.",
+"awayScore": 38,
+"homeScore": 52,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:34"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:28:26Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103986502",
+"sequenceNumber": "103986502",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Tristen Taylor Steal.",
+"awayScore": 38,
+"homeScore": 52,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:34"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T19:28:26Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103988201",
+"sequenceNumber": "103988201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Denise Solis missed Jumper.",
+"awayScore": 38,
+"homeScore": 52,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:17"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594361"
+}
+}
+],
+"wallclock": "2024-01-21T19:28:57Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103988401",
+"sequenceNumber": "103988401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Tracey Hueston Defensive Rebound.",
+"awayScore": 38,
+"homeScore": 52,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:29:01Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103989801",
+"sequenceNumber": "103989801",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Tracey Hueston Turnover.",
+"awayScore": 38,
+"homeScore": 52,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:29:14Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103995901",
+"sequenceNumber": "103995901",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tamia Davis.",
+"awayScore": 38,
+"homeScore": 52,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433660"
+}
+}
+],
+"wallclock": "2024-01-21T19:29:55Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103995902",
+"sequenceNumber": "103995902",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Kendall Currence missed Free Throw.",
+"awayScore": 38,
+"homeScore": 52,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:40"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4400226"
+}
+}
+],
+"wallclock": "2024-01-21T19:29:55Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103995903",
+"sequenceNumber": "103995903",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Temple Offensive Rebound.",
+"awayScore": 38,
+"homeScore": 52,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T19:29:55Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103995904",
+"sequenceNumber": "103995904",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Kendall Currence made Free Throw.",
+"awayScore": 38,
+"homeScore": 53,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:40"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4400226"
+}
+}
+],
+"wallclock": "2024-01-21T19:29:55Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103997201",
+"sequenceNumber": "103997201",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tristen Taylor.",
+"awayScore": 38,
+"homeScore": 53,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:27"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T19:30:48Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103997202",
+"sequenceNumber": "103997202",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Dazia Lawrence made Free Throw.",
+"awayScore": 39,
+"homeScore": 53,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:27"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:30:48Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103997203",
+"sequenceNumber": "103997203",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Dazia Lawrence made Free Throw.",
+"awayScore": 40,
+"homeScore": 53,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:27"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:30:48Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103999601",
+"sequenceNumber": "103999601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tiarra East missed Three Point Jumper.",
+"awayScore": 40,
+"homeScore": 53,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:03"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T19:31:51Z",
+"shootingPlay": true
+},
+{
+"id": "401601972103999903",
+"sequenceNumber": "103999903",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Dazia Lawrence Turnover.",
+"awayScore": 40,
+"homeScore": 53,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:31:51Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103999904",
+"sequenceNumber": "103999904",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Dazia Lawrence Defensive Rebound.",
+"awayScore": 40,
+"homeScore": 53,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:31:51Z",
+"shootingPlay": false
+},
+{
+"id": "401601972103999902",
+"sequenceNumber": "103999902",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of 3rd Quarter",
+"awayScore": 40,
+"homeScore": 53,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2024-01-21T19:31:51Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104905001",
+"sequenceNumber": "104905001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Dazia Lawrence made Three Point Jumper. Assisted by Tracey Hueston.",
+"awayScore": 43,
+"homeScore": 53,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:49"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+},
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:35:36Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104907701",
+"sequenceNumber": "104907701",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Jacee Busick.",
+"awayScore": 43,
+"homeScore": 53,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T19:36:03Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104907702",
+"sequenceNumber": "104907702",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tiarra East made Free Throw.",
+"awayScore": 43,
+"homeScore": 54,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:22"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T19:36:03Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104907703",
+"sequenceNumber": "104907703",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tiarra East made Free Throw.",
+"awayScore": 43,
+"homeScore": 55,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:22"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T19:36:03Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104907704",
+"sequenceNumber": "104907704",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tiarra East made Free Throw.",
+"awayScore": 43,
+"homeScore": 56,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:22"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T19:36:03Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104909401",
+"sequenceNumber": "104909401",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Rayne Tucker.",
+"awayScore": 43,
+"homeScore": 56,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T19:37:07Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104909402",
+"sequenceNumber": "104909402",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Keanna Rembert made Free Throw.",
+"awayScore": 44,
+"homeScore": 56,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:05"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T19:37:07Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104909403",
+"sequenceNumber": "104909403",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Keanna Rembert made Free Throw.",
+"awayScore": 45,
+"homeScore": 56,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:05"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T19:37:07Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104915201",
+"sequenceNumber": "104915201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Denise Solis made Layup. Assisted by Ines Piper.",
+"awayScore": 45,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:47"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594361"
+}
+},
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:38:12Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104915901",
+"sequenceNumber": "104915901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Dazia Lawrence missed Jumper.",
+"awayScore": 45,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:40"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:38:21Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104916201",
+"sequenceNumber": "104916201",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Temple Defensive Rebound.",
+"awayScore": 45,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:37"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T19:38:21Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104918401",
+"sequenceNumber": "104918401",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Denise Solis Turnover.",
+"awayScore": 45,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594361"
+}
+}
+],
+"wallclock": "2024-01-21T19:39:02Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104924701",
+"sequenceNumber": "104924701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Imani Smith missed Three Point Jumper.",
+"awayScore": 45,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:52"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:39:38Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104925001",
+"sequenceNumber": "104925001",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Charlotte Offensive Rebound.",
+"awayScore": 45,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T19:39:38Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104925501",
+"sequenceNumber": "104925501",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Dazia Lawrence missed Layup.",
+"awayScore": 45,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:44"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:40:04Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104925502",
+"sequenceNumber": "104925502",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "Tiarra East Block.",
+"awayScore": 45,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T19:40:04Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104925601",
+"sequenceNumber": "104925601",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Imani Smith Offensive Rebound.",
+"awayScore": 45,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:43"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:40:04Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104925602",
+"sequenceNumber": "104925602",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Aleah Nelson.",
+"awayScore": 45,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:43"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T19:40:04Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104925603",
+"sequenceNumber": "104925603",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Imani Smith made Free Throw.",
+"awayScore": 46,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:43"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:40:04Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104925604",
+"sequenceNumber": "104925604",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Imani Smith missed Free Throw.",
+"awayScore": 46,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:43"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:40:04Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104925701",
+"sequenceNumber": "104925701",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Demi Washington Defensive Rebound.",
+"awayScore": 46,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:42"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T19:40:46Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104926301",
+"sequenceNumber": "104926301",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Demi Washington Turnover.",
+"awayScore": 46,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:36"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T19:40:46Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104927201",
+"sequenceNumber": "104927201",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tiarra East.",
+"awayScore": 46,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:27"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T19:41:04Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104927801",
+"sequenceNumber": "104927801",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Dazia Lawrence Turnover.",
+"awayScore": 46,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:21"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:41:27Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104927802",
+"sequenceNumber": "104927802",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Aleah Nelson Steal.",
+"awayScore": 46,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:21"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T19:41:29Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104928501",
+"sequenceNumber": "104928501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Aleah Nelson missed Three Point Jumper.",
+"awayScore": 46,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:14"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T19:41:33Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104928601",
+"sequenceNumber": "104928601",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Charlotte Defensive Rebound.",
+"awayScore": 46,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:13"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T19:41:33Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104928602",
+"sequenceNumber": "104928602",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tiarra East.",
+"awayScore": 46,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:13"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T19:41:33Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104934201",
+"sequenceNumber": "104934201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Keanna Rembert made Layup. Assisted by Tracey Hueston.",
+"awayScore": 48,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:57"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+},
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:42:17Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104937101",
+"sequenceNumber": "104937101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Demi Washington missed Jumper.",
+"awayScore": 48,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:28"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T19:42:46Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104937401",
+"sequenceNumber": "104937401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Imani Smith Defensive Rebound.",
+"awayScore": 48,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:25"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:42:49Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104937801",
+"sequenceNumber": "104937801",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Dazia Lawrence made Layup. Assisted by Imani Smith.",
+"awayScore": 50,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:21"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+},
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:42:54Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104938601",
+"sequenceNumber": "104938601",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Temple  Timeout",
+"awayScore": 50,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:13"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T19:43:02Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104938602",
+"sequenceNumber": "104938602",
+"type": {
+"id": "580",
+"text": "OfficialTVTimeOut"
+},
+"text": " Official TV Timeout",
+"awayScore": 50,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:13"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2024-01-21T19:43:02Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104939801",
+"sequenceNumber": "104939801",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Rayne Tucker missed Layup.",
+"awayScore": 50,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:01"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T19:46:36Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104939802",
+"sequenceNumber": "104939802",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "Tracey Hueston Block.",
+"awayScore": 50,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:46:36Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104944301",
+"sequenceNumber": "104944301",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Aleah Nelson Offensive Rebound.",
+"awayScore": 50,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T19:46:36Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104944501",
+"sequenceNumber": "104944501",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tracey Hueston.",
+"awayScore": 50,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:46:40Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104944701",
+"sequenceNumber": "104944701",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Aleah Nelson Turnover.",
+"awayScore": 50,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T19:47:15Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104944702",
+"sequenceNumber": "104944702",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Imani Smith Steal.",
+"awayScore": 50,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:47:15Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104945301",
+"sequenceNumber": "104945301",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Kendall Currence.",
+"awayScore": 50,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4400226"
+}
+}
+],
+"wallclock": "2024-01-21T19:47:42Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104945302",
+"sequenceNumber": "104945302",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Imani Smith made Free Throw.",
+"awayScore": 51,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:46"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:47:42Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104945303",
+"sequenceNumber": "104945303",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Imani Smith made Free Throw.",
+"awayScore": 52,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:46"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:47:42Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104947001",
+"sequenceNumber": "104947001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tristen Taylor made Three Point Jumper. Assisted by Aleah Nelson.",
+"awayScore": 52,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:29"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+},
+{
+"athlete": {
+"id": "4433355"
+}
+}
+],
+"wallclock": "2024-01-21T19:48:37Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104948101",
+"sequenceNumber": "104948101",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Olivia Porter Turnover.",
+"awayScore": 52,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:18"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107856"
+}
+}
+],
+"wallclock": "2024-01-21T19:48:49Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104954501",
+"sequenceNumber": "104954501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tristen Taylor missed Three Point Jumper.",
+"awayScore": 52,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:54"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T19:49:30Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104955001",
+"sequenceNumber": "104955001",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Imani Smith Defensive Rebound.",
+"awayScore": 52,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:49:30Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104955601",
+"sequenceNumber": "104955601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Jacee Busick made Three Point Jumper. Assisted by Imani Smith.",
+"awayScore": 55,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:43"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+},
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:49:38Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104957401",
+"sequenceNumber": "104957401",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Kendall Currence missed Three Point Jumper.",
+"awayScore": 55,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:25"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4400226"
+}
+}
+],
+"wallclock": "2024-01-21T19:49:56Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104957701",
+"sequenceNumber": "104957701",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Rayne Tucker Offensive Rebound.",
+"awayScore": 55,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T19:49:56Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104957801",
+"sequenceNumber": "104957801",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Rayne Tucker missed Layup.",
+"awayScore": 55,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:21"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T19:49:59Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104958001",
+"sequenceNumber": "104958001",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Rayne Tucker Offensive Rebound.",
+"awayScore": 55,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T19:50:03Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104958201",
+"sequenceNumber": "104958201",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Rayne Tucker Turnover.",
+"awayScore": 55,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:17"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T19:50:06Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104958202",
+"sequenceNumber": "104958202",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Imani Smith Steal.",
+"awayScore": 55,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:17"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:50:06Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104959001",
+"sequenceNumber": "104959001",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Ines Piper.",
+"awayScore": 55,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:50:13Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104959002",
+"sequenceNumber": "104959002",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Dazia Lawrence made Free Throw.",
+"awayScore": 56,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:09"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:50:13Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104959003",
+"sequenceNumber": "104959003",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Dazia Lawrence missed Free Throw.",
+"awayScore": 56,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:09"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:50:13Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104959101",
+"sequenceNumber": "104959101",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Demi Washington Defensive Rebound.",
+"awayScore": 56,
+"homeScore": 61,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T19:50:55Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104965301",
+"sequenceNumber": "104965301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Aleah Nelson made Three Point Jumper. Assisted by Demi Washington.",
+"awayScore": 56,
+"homeScore": 64,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:46"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+},
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T19:51:28Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104966201",
+"sequenceNumber": "104966201",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Rayne Tucker.",
+"awayScore": 56,
+"homeScore": 64,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:37"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594725"
+}
+}
+],
+"wallclock": "2024-01-21T19:51:28Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104966202",
+"sequenceNumber": "104966202",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Dazia Lawrence made Free Throw.",
+"awayScore": 57,
+"homeScore": 64,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:37"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:51:28Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104966203",
+"sequenceNumber": "104966203",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Dazia Lawrence made Free Throw.",
+"awayScore": 58,
+"homeScore": 64,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:37"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:51:28Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104968501",
+"sequenceNumber": "104968501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Aleah Nelson made Three Point Jumper. Assisted by Tiarra East.",
+"awayScore": 58,
+"homeScore": 67,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:14"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433355"
+}
+},
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T19:52:41Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104974401",
+"sequenceNumber": "104974401",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Ines Piper.",
+"awayScore": 58,
+"homeScore": 67,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:55"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107578"
+}
+}
+],
+"wallclock": "2024-01-21T19:52:59Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104974402",
+"sequenceNumber": "104974402",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Jacee Busick made Free Throw.",
+"awayScore": 59,
+"homeScore": 67,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:55"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T19:52:59Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104974403",
+"sequenceNumber": "104974403",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Jacee Busick made Free Throw.",
+"awayScore": 60,
+"homeScore": 67,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:55"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T19:52:59Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104974404",
+"sequenceNumber": "104974404",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Jacee Busick made Free Throw.",
+"awayScore": 61,
+"homeScore": 67,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:55"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T19:52:59Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104976001",
+"sequenceNumber": "104976001",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Denise Solis made Layup. Assisted by Demi Washington.",
+"awayScore": 61,
+"homeScore": 69,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:39"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594361"
+}
+},
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T19:54:16Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104977501",
+"sequenceNumber": "104977501",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Tracey Hueston Turnover.",
+"awayScore": 61,
+"homeScore": 69,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T19:54:36Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104984101",
+"sequenceNumber": "104984101",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Demi Washington made Layup.",
+"awayScore": 61,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:58"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T19:55:12Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104985301",
+"sequenceNumber": "104985301",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Imani Smith missed Layup.",
+"awayScore": 61,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:46"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:55:22Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104985302",
+"sequenceNumber": "104985302",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "Denise Solis Block.",
+"awayScore": 61,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594361"
+}
+}
+],
+"wallclock": "2024-01-21T19:55:22Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104985401",
+"sequenceNumber": "104985401",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Charlotte Offensive Rebound.",
+"awayScore": 61,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T19:55:22Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104986501",
+"sequenceNumber": "104986501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Jacee Busick missed Three Point Jumper.",
+"awayScore": 61,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:34"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T19:55:57Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104986901",
+"sequenceNumber": "104986901",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Dazia Lawrence Offensive Rebound.",
+"awayScore": 61,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:56:00Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104987001",
+"sequenceNumber": "104987001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Dazia Lawrence made Three Point Jumper.",
+"awayScore": 64,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:29"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:56:04Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104987002",
+"sequenceNumber": "104987002",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Charlotte  Timeout",
+"awayScore": 64,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T19:56:04Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104988101",
+"sequenceNumber": "104988101",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Temple  Turnover.",
+"awayScore": 64,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:18"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T19:57:37Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104989101",
+"sequenceNumber": "104989101",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Denise Solis.",
+"awayScore": 64,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594361"
+}
+}
+],
+"wallclock": "2024-01-21T19:58:10Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104989102",
+"sequenceNumber": "104989102",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Dazia Lawrence made Free Throw.",
+"awayScore": 65,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:08"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:58:10Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104989103",
+"sequenceNumber": "104989103",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Dazia Lawrence missed Free Throw.",
+"awayScore": 65,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:08"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:58:10Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104989201",
+"sequenceNumber": "104989201",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Imani Smith Offensive Rebound.",
+"awayScore": 65,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:59:03Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104989401",
+"sequenceNumber": "104989401",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Jaleesa Molina.",
+"awayScore": 65,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174754"
+}
+}
+],
+"wallclock": "2024-01-21T19:59:11Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104989402",
+"sequenceNumber": "104989402",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Imani Smith made Free Throw.",
+"awayScore": 66,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:05"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:59:11Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104989403",
+"sequenceNumber": "104989403",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Imani Smith missed Free Throw.",
+"awayScore": 66,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:05"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T19:59:11Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104989601",
+"sequenceNumber": "104989601",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Dazia Lawrence Offensive Rebound.",
+"awayScore": 66,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T19:59:11Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104994301",
+"sequenceNumber": "104994301",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Denise Solis.",
+"awayScore": 66,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594361"
+}
+}
+],
+"wallclock": "2024-01-21T20:00:09Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104994302",
+"sequenceNumber": "104994302",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Keanna Rembert missed Free Throw.",
+"awayScore": 66,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:56"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T20:00:25Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104994303",
+"sequenceNumber": "104994303",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Charlotte Offensive Rebound.",
+"awayScore": 66,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T20:00:25Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104994304",
+"sequenceNumber": "104994304",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Keanna Rembert missed Free Throw.",
+"awayScore": 66,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:56"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899047"
+}
+}
+],
+"wallclock": "2024-01-21T20:00:25Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104994501",
+"sequenceNumber": "104994501",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Imani Smith Offensive Rebound.",
+"awayScore": 66,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T20:00:57Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104995201",
+"sequenceNumber": "104995201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Dazia Lawrence missed Layup.",
+"awayScore": 66,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:47"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T20:01:58Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104995301",
+"sequenceNumber": "104995301",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Temple Defensive Rebound.",
+"awayScore": 66,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T20:01:58Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104995302",
+"sequenceNumber": "104995302",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Temple  Timeout",
+"awayScore": 66,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T20:03:40Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104995303",
+"sequenceNumber": "104995303",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Temple  Turnover.",
+"awayScore": 66,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T20:03:40Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104995304",
+"sequenceNumber": "104995304",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Charlotte  Timeout",
+"awayScore": 66,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T20:03:40Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104995601",
+"sequenceNumber": "104995601",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tiarra East.",
+"awayScore": 66,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:43"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4691699"
+}
+}
+],
+"wallclock": "2024-01-21T20:06:05Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104995602",
+"sequenceNumber": "104995602",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tracey Hueston made Free Throw.",
+"awayScore": 67,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:43"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T20:06:05Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104995603",
+"sequenceNumber": "104995603",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tracey Hueston made Free Throw.",
+"awayScore": 68,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:43"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433984"
+}
+}
+],
+"wallclock": "2024-01-21T20:06:05Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104995604",
+"sequenceNumber": "104995604",
+"type": {
+"id": "578",
+"text": "RegularTimeOut"
+},
+"text": "Temple  Timeout",
+"awayScore": 68,
+"homeScore": 71,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:43"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T20:06:05Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104998101",
+"sequenceNumber": "104998101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tristen Taylor made Jumper.",
+"awayScore": 68,
+"homeScore": 73,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:18"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174755"
+}
+}
+],
+"wallclock": "2024-01-21T20:08:35Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104998102",
+"sequenceNumber": "104998102",
+"type": {
+"id": "578",
+"text": "RegularTimeOut"
+},
+"text": "Charlotte  Timeout",
+"awayScore": 68,
+"homeScore": 73,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:18"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"wallclock": "2024-01-21T20:08:35Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104998701",
+"sequenceNumber": "104998701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Jacee Busick missed Jumper.",
+"awayScore": 68,
+"homeScore": 73,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:12"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T20:10:12Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104998801",
+"sequenceNumber": "104998801",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Imani Smith Offensive Rebound.",
+"awayScore": 68,
+"homeScore": 73,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174731"
+}
+}
+],
+"wallclock": "2024-01-21T20:10:40Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104999201",
+"sequenceNumber": "104999201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Dazia Lawrence missed Three Point Jumper.",
+"awayScore": 68,
+"homeScore": 73,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:07"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594980"
+}
+}
+],
+"wallclock": "2024-01-21T20:10:44Z",
+"shootingPlay": true
+},
+{
+"id": "401601972104999401",
+"sequenceNumber": "104999401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Demi Washington Defensive Rebound.",
+"awayScore": 68,
+"homeScore": 73,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433002"
+}
+}
+],
+"wallclock": "2024-01-21T20:10:51Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104999701",
+"sequenceNumber": "104999701",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Jacee Busick.",
+"awayScore": 68,
+"homeScore": 73,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2429"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704499"
+}
+}
+],
+"wallclock": "2024-01-21T20:10:51Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104999702",
+"sequenceNumber": "104999702",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Temple  Timeout",
+"awayScore": 68,
+"homeScore": 73,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "218"
+},
+"wallclock": "2024-01-21T20:10:51Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104999901",
+"sequenceNumber": "104999901",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of 4th Quarter",
+"awayScore": 68,
+"homeScore": 73,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2024-01-21T20:11:27Z",
+"shootingPlay": false
+},
+{
+"id": "401601972104999902",
+"sequenceNumber": "104999902",
+"type": {
+"id": "402",
+"text": "End Game"
+},
+"text": "End of Game",
+"awayScore": 68,
+"homeScore": 73,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2024-01-21T20:11:27Z",
+"shootingPlay": false
+}
+],
 "article": [],
 "videos": [],
 "standings": {

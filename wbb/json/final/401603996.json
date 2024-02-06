@@ -16798,23 +16798,23 @@
 "statistics": [
 {
 "name": "fieldGoalsMade-fieldGoalsAttempted",
-"displayValue": "28-58",
+"displayValue": "28-59",
 "label": "FG"
 },
 {
 "name": "fieldGoalPct",
-"displayValue": "48.3",
+"displayValue": "47.5",
 "abbreviation": "FG%",
 "label": "Field Goal %"
 },
 {
 "name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-"displayValue": "9-23",
+"displayValue": "9-24",
 "label": "3PT"
 },
 {
 "name": "threePointFieldGoalPct",
-"displayValue": "39.1",
+"displayValue": "37.5",
 "abbreviation": "3P%",
 "label": "Three Point %"
 },
@@ -16831,13 +16831,13 @@
 },
 {
 "name": "totalRebounds",
-"displayValue": "31",
+"displayValue": "32",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
 {
 "name": "offensiveRebounds",
-"displayValue": "11",
+"displayValue": "12",
 "abbreviation": "OR",
 "label": "Offensive Rebounds"
 },
@@ -17192,10 +17192,10 @@
 "1-6",
 "0-0",
 "0-0",
-"1",
-"1",
 "2",
 "1",
+"3",
+"0",
 "1",
 "0",
 "2",
@@ -17238,13 +17238,13 @@
 "ejected": false,
 "stats": [
 "31",
-"1-4",
-"0-2",
+"1-5",
+"0-3",
 "0-0",
 "0",
 "6",
 "6",
-"2",
+"3",
 "1",
 "1",
 "0",
@@ -17678,12 +17678,12 @@
 ],
 "totals": [
 "",
-"28-58",
-"9-23",
+"28-59",
+"9-24",
 "7-8",
-"11",
+"12",
 "20",
-"31",
+"32",
 "15",
 "10",
 "4",
@@ -19394,70 +19394,6 @@
 "standings": {
 "entries": [
 {
-"team": "Louisville",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals",
-"id": "97",
-"uid": "s:40~l:54~t:97",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "19-3",
-"displayValue": "19-3"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "8-1",
-"displayValue": "8-1"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-03-01T14:17Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/97.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-03-01T14:18Z"
-}
-]
-},
-{
 "team": "Virginia Tech",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/259/virginia-tech-hokies",
 "id": "259",
@@ -19535,8 +19471,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "19-2",
-"displayValue": "19-2"
+"summary": "20-2",
+"displayValue": "20-2"
 },
 {
 "name": "gamesBehind",
@@ -19545,8 +19481,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.0,
-"displayValue": "1"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -19556,8 +19492,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "7-2",
-"displayValue": "7-2"
+"summary": "8-2",
+"displayValue": "8-2"
 }
 ],
 "logo": [
@@ -19582,6 +19518,70 @@
 "dark"
 ],
 "lastUpdated": "2018-09-05T22:10Z"
+}
+]
+},
+{
+"team": "Louisville",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals",
+"id": "97",
+"uid": "s:40~l:54~t:97",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "19-4",
+"displayValue": "19-4"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5,
+"displayValue": "0.5"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "8-2",
+"displayValue": "8-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-03-01T14:17Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/97.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-03-01T14:18Z"
 }
 ]
 },

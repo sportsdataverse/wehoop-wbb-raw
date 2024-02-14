@@ -51,13 +51,13 @@
 },
 {
 "name": "totalRebounds",
-"displayValue": "37",
+"displayValue": "36",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
 {
 "name": "offensiveRebounds",
-"displayValue": "12",
+"displayValue": "11",
 "abbreviation": "OR",
 "label": "Offensive Rebounds"
 },
@@ -377,6 +377,55 @@
 {
 "active": false,
 "athlete": {
+"id": "5178008",
+"uid": "s:40~l:54~a:5178008",
+"guid": "83c68530-5b26-3936-be8d-ce8a7e6f668d",
+"displayName": "Carter McCray",
+"shortName": "C. McCray",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5178008/carter-mccray",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5178008.png",
+"alt": "Carter McCray"
+},
+"jersey": "5",
+"position": {
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"31",
+"4-4",
+"0-0",
+"0-0",
+"2",
+"6",
+"8",
+"2",
+"2",
+"0",
+"4",
+"3",
+"8"
+]
+},
+{
+"active": false,
+"athlete": {
 "id": "5178007",
 "uid": "s:40~l:54~a:5178007",
 "guid": "3edca83b-4fbe-31a0-9bb4-92435ee5fafb",
@@ -475,55 +524,6 @@
 {
 "active": false,
 "athlete": {
-"id": "4899599",
-"uid": "s:40~l:54~a:4899599",
-"guid": "d567b6f3-1283-35c8-81ac-84db4192ccd3",
-"displayName": "Mya Meredith",
-"shortName": "M. Meredith",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4899599/mya-meredith",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4899599.png",
-"alt": "Mya Meredith"
-},
-"jersey": "5",
-"position": {
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G"
-}
-},
-"starter": true,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"31",
-"4-4",
-"0-0",
-"0-0",
-"2",
-"6",
-"8",
-"2",
-"2",
-"0",
-"4",
-"3",
-"8"
-]
-},
-{
-"active": false,
-"athlete": {
 "id": "4899215",
 "uid": "s:40~l:54~a:4899215",
 "guid": "a7f7ae23-da7c-338b-a68a-8ddaf2ebd135",
@@ -559,9 +559,9 @@
 "4-17",
 "0-3",
 "0-3",
-"4",
+"3",
 "6",
-"10",
+"9",
 "4",
 "2",
 "0",
@@ -902,41 +902,6 @@
 {
 "active": false,
 "athlete": {
-"id": "5178008",
-"uid": "s:40~l:54~a:5178008",
-"guid": "83c68530-5b26-3936-be8d-ce8a7e6f668d",
-"displayName": "Carter McCray",
-"shortName": "C. McCray",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5178008/carter-mccray",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5178008.png",
-"alt": "Carter McCray"
-},
-"jersey": "5",
-"position": {
-"name": "Center",
-"displayName": "Center",
-"abbreviation": "C"
-}
-},
-"starter": false,
-"didNotPlay": true,
-"ejected": false,
-"stats": []
-},
-{
-"active": false,
-"athlete": {
 "id": "5178006",
 "uid": "s:40~l:54~a:5178006",
 "guid": "60e70120-aceb-3942-8682-2a40bbc3f357",
@@ -968,6 +933,41 @@
 "didNotPlay": true,
 "ejected": false,
 "stats": []
+},
+{
+"active": false,
+"athlete": {
+"id": "4899599",
+"uid": "s:40~l:54~a:4899599",
+"guid": "d567b6f3-1283-35c8-81ac-84db4192ccd3",
+"displayName": "Mya Meredith",
+"shortName": "M. Meredith",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4899599/mya-meredith",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4899599.png",
+"alt": "Mya Meredith"
+},
+"jersey": "5",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"ejected": false,
+"stats": []
 }
 ],
 "totals": [
@@ -975,9 +975,9 @@
 "19-53",
 "7-26",
 "6-9",
-"12",
+"11",
 "25",
-"37",
+"36",
 "15",
 "5",
 "0",
@@ -2182,7 +2182,7 @@
 "displayName": "Rebounds",
 "leaders": [
 {
-"displayValue": "10",
+"displayValue": "9",
 "athlete": {
 "id": "4899215",
 "uid": "s:40~l:54~a:4899215",
@@ -2218,8 +2218,8 @@
 "shortDisplayName": "REB",
 "description": "The total number of rebounds (offensive and defensive).",
 "abbreviation": "REB",
-"value": 10.0,
-"displayValue": "10"
+"value": 9.0,
+"displayValue": "9"
 },
 {
 "name": "defensiveRebounds",
@@ -2236,8 +2236,8 @@
 "shortDisplayName": "OREB",
 "description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
 "abbreviation": "OR",
-"value": 4.0,
-"displayValue": "4"
+"value": 3.0,
+"displayValue": "3"
 }
 ]
 }

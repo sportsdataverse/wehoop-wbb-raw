@@ -16876,43 +16876,73 @@
 "video": [
 {
 "source": "espn",
-"id": 39579459,
-"dataSourceIdentifier": "131186640d3b8",
-"headline": "Gamecocks' Staley praises competitiveness of the SEC",
-"caption": "After defeating Alabama and winning the SEC regular season title, Dawn Staley highlights No. 1 South Carolina's commitment and resilience on the court.",
-"description": "After defeating Alabama and winning the SEC regular season title, Dawn Staley highlights No. 1 South Carolina's commitment and resilience on the court.",
+"id": 39578850,
+"headline": "What a shot by MiLaysia Fulwiley",
+"caption": "What a shot by MiLaysia Fulwiley",
+"description": "What a shot by MiLaysia Fulwiley",
 "premium": false,
 "ad": {
 "sport": "ncw",
-"bundle": "no_show"
+"bundle": "sportscenter"
 },
 "tracking": {
 "sportName": "ncw",
 "leagueName": "No League",
-"coverageType": "Interview",
-"trackingName": "SEC_NCW Interview (Dawn SC) 240222",
-"trackingId": "dm_240222_SEC_WCB_Interview_Dawn_SC_240222"
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (What a shot by MiLaysia Fulwiley) 2024/02/23 ESHEET",
+"trackingId": "dm_20240223_NCW_what_a_shot_by_milaysia_fulwiley"
 },
-"cerebroId": "65d807dcbe6ab36c370b50d9",
-"lastModified": "2024-02-24T01:07:38Z",
-"originalPublishDate": "2024-02-23T02:28:41Z",
+"cerebroId": "65d7f1daca84b75d6c2e3e13",
+"pccId": "4a61571c-9b50-4686-a866-7ab51c589965",
+"contributingPartner": "wsc",
+"contributingSystem": "wsc",
+"lastModified": "2024-02-23T02:02:52Z",
+"originalPublishDate": "2024-02-23T01:16:08Z",
 "timeRestrictions": {
-"embargoDate": "2024-02-23T02:28:41Z",
-"expirationDate": "2024-02-26T02:28:41Z"
+"embargoDate": "2024-02-23T01:16:08Z",
+"expirationDate": "2037-12-31T05:00:00Z"
 },
 "deviceRestrictions": {
 "type": "whitelist",
 "devices": [
 "desktop",
-"ipad",
 "settop",
 "handset",
 "tablet"
 ]
 },
 "syndicatable": true,
-"duration": 253,
+"duration": 20,
 "categories": [
+{
+"id": 132006,
+"description": "Alabama Crimson Tide",
+"type": "team",
+"sportId": 54,
+"teamId": 333,
+"team": {
+"id": 333,
+"description": "Alabama Crimson Tide",
+"links": {
+"api": {
+"teams": {
+"href": "http://api.espn.com/v1/sports/basketball/womens-college-basketball/teams/333"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-basketball/team/_/id/333/alabama-crimson-tide?ex_cid=espnapi_internal"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.go.com/ncw/clubhouse?teamId=333&ex_cid=espnapi_internal"
+}
+}
+}
+},
+"uid": "s:40~l:54~t:333"
+},
 {
 "id": 9578,
 "description": "Women's College Basketball",
@@ -16925,22 +16955,50 @@
 "links": {
 "api": {
 "leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
+"href": "http://api.espn.com/v1/sports/basketball/womens-college-basketball"
 }
 },
 "web": {
 "leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
+"href": "https://www.espn.com/womens-basketball/?ex_cid=espnapi_internal"
 }
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "http://m.espn.go.com/ncw/?ex_cid=espnapi_internal"
 }
 }
 }
 },
 "uid": "s:40~l:54"
+},
+{
+"id": 632707,
+"description": "MiLaysia Fulwiley",
+"type": "athlete",
+"sportId": 54,
+"athleteId": 5174285,
+"athlete": {
+"id": 5174285,
+"description": "MiLaysia Fulwiley",
+"links": {
+"api": {
+"athletes": {
+"href": "http://api.espn.com/v1/sports/basketball/womens-college-basketball/athletes/5174285"
+}
+},
+"web": {
+"athletes": {
+"href": "https://www.espn.com/womens-basketball/player/_/id/5174285/milaysia-fulwiley?ex_cid=espnapi_internal"
+}
+},
+"mobile": {
+"athletes": {
+"href": "http://m.espn.go.com/ncw/playercard?playerId=5174285&ex_cid=espnapi_internal"
+}
+}
+}
+}
 },
 {
 "id": 4943,
@@ -16954,17 +17012,17 @@
 "links": {
 "api": {
 "teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2579"
+"href": "http://api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2579"
 }
 },
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2579/south-carolina-gamecocks"
+"href": "https://www.espn.com/womens-basketball/team/_/id/2579/south-carolina-gamecocks?ex_cid=espnapi_internal"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2579"
+"href": "http://m.espn.go.com/ncw/clubhouse?teamId=2579&ex_cid=espnapi_internal"
 }
 }
 }
@@ -16972,58 +17030,35 @@
 "uid": "s:40~l:54~t:2579"
 },
 {
-"id": 126329,
-"description": "sec network",
+"id": 116550,
+"description": "espnw",
 "type": "topic",
 "sportId": 0,
-"topicId": 89
-},
-{
-"id": 14773,
-"description": "South Carolina Gamecocks",
-"type": "team",
-"sportId": 3170,
-"teamId": 2579,
-"team": {
-"id": 2579,
-"description": "South Carolina Gamecocks",
-"links": {
-"api": {
-"teams": {}
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/college-sports/team/_/name/:abbreviation/:location-:name"
-}
-},
-"mobile": {
-"teams": {}
-}
-}
-}
+"topicId": 5
 }
 ],
+"gameId": 401596753,
 "keywords": [],
 "posterImages": {
 "default": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222_default.jpg",
+"href": "https://media.video-cdn.espn.com/motion/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784_default.jpg",
 "width": 576,
 "height": 324
 },
 "full": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222.jpg"
+"href": "https://media.video-cdn.espn.com/motion/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784.jpg"
 },
 "wide": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222_5x2.jpg"
+"href": "https://media.video-cdn.espn.com/motion/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784_5x2.jpg"
 },
 "square": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222_1x1.jpg"
+"href": "https://media.video-cdn.espn.com/motion/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784_1x1.jpg"
 }
 },
 "images": [
 {
 "name": "Poster Image",
-"url": "https://media.video-cdn.espn.com/images/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222.jpg",
+"url": "https://media.video-cdn.espn.com/images/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784.jpg",
 "alt": "",
 "caption": "",
 "credit": "",
@@ -17031,63 +17066,65 @@
 "height": 324
 }
 ],
-"thumbnail": "https://a.espncdn.com/media/motion/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222.jpg",
+"thumbnail": "https://a.espncdn.com/media/motion/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784.jpg",
 "links": {
 "api": {
 "self": {
-"href": "http://api-app.espn.com/v1/video/clips/39579459"
+"href": "http://api.espn.com/v1/video/clips/39578850"
 },
 "artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/3b1c4108-aa57-4952-82cc-a197d6ab870e"
+"href": "https://artwork.api.espn.com/artwork/collections/media/4a61571c-9b50-4686-a866-7ab51c589965"
 }
 },
 "web": {
-"href": "http://espn.com/video/clip?id=39579459",
+"href": "https://www.espn.com/video/clip?id=39578850&ex_cid=espnapi_internal",
+"short": {
+"href": "https://www.espn.com/video/clip?id=39578850"
+},
 "self": {
-"href": "http://espn.com/video/clip?id=39579459"
+"href": "https://www.espn.com/video/clip?id=39578850&ex_cid=espnapi_internal"
 }
 },
 "source": {
 "mezzanine": {
-"href": "http://media.video-origin.espn.com/espnvideo/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222.mp4"
+"href": "https://media.video-origin.espn.com/espnvideo/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784.mp4"
 },
 "flash": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222.smil"
+"href": "https://media.video-cdn.espn.com/motion/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222_rel.smil/manifest.f4m"
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784/playlist.m3u8",
 "HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/playlist.m3u8"
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784/playlist.m3u8"
 }
 },
 "HD": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222_720p30_2896k.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784_720p30_2896k.mp4"
 },
 "full": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222_360p30_1464k.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784_360p30_1464k.mp4"
 },
-"href": "https://media.video-cdn.espn.com/motion/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222_360p30_1464k.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.com/general/video/videoAlert?vid=39579459"
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=39578850&ex_cid=espnapi_internal"
 },
 "source": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0222/ss_20240222_201612052_2498784/ss_20240222_201612052_2498784.mp4"
 },
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/3b1c4108-aa57-4952-82cc-a197d6ab870e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39579459",
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4a61571c-9b50-4686-a866-7ab51c589965/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39578850",
 "streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/3b1c4108-aa57-4952-82cc-a197d6ab870e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39579459"
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4a61571c-9b50-4686-a866-7ab51c589965/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39578850"
 },
 "progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/3b1c4108-aa57-4952-82cc-a197d6ab870e/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39579459"
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4a61571c-9b50-4686-a866-7ab51c589965/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39578850"
 }
 }
-},
-"title": "Gamecocks' Staley praises competitiveness of the SEC"
+}
 }
 ],
 "type": "Recap",
@@ -17208,16 +17245,7 @@
 ],
 "headline": "No. 1 South Carolina wins share of SEC regular-season title with 72-44 victory over Alabama",
 "gameId": "401596753",
-"images": [
-{
-"name": "Gamecocks' Staley praises competitiveness of the SEC",
-"width": 576,
-"alt": "",
-"caption": "After defeating Alabama and winning the SEC regular season title, Dawn Staley highlights No. 1 South Carolina's commitment and resilience on the court.",
-"url": "https://a.espncdn.com/media/motion/2024/0222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222/dm_240222_SEC_WCB_Interview_Dawn_SC_240222.jpg",
-"height": 324
-}
-],
+"images": [],
 "linkText": "No. 1 South Carolina wins share of SEC regular-season title with 72-44 victory over Alabama",
 "published": "2024-02-23T02:08:00Z",
 "allowComments": true,
@@ -17652,8 +17680,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "26-0",
-"displayValue": "26-0"
+"summary": "27-0",
+"displayValue": "27-0"
 },
 {
 "name": "gamesBehind",
@@ -17673,8 +17701,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "13-0",
-"displayValue": "13-0"
+"summary": "14-0",
+"displayValue": "14-0"
 }
 ],
 "logo": [
@@ -17716,8 +17744,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "23-4",
-"displayValue": "23-4"
+"summary": "24-4",
+"displayValue": "24-4"
 },
 {
 "name": "gamesBehind",
@@ -17737,8 +17765,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "10-3",
-"displayValue": "10-3"
+"summary": "11-3",
+"displayValue": "11-3"
 }
 ],
 "logo": [
@@ -17790,8 +17818,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.0,
-"displayValue": "4"
+"value": 4.5,
+"displayValue": "4.5"
 },
 {
 "id": "9",
@@ -17844,8 +17872,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "16-9",
-"displayValue": "16-9"
+"summary": "16-10",
+"displayValue": "16-10"
 },
 {
 "name": "gamesBehind",
@@ -17854,8 +17882,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.0,
-"displayValue": "4"
+"value": 5.0,
+"displayValue": "5"
 },
 {
 "id": "9",
@@ -17865,8 +17893,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "9-4",
-"displayValue": "9-4"
+"summary": "9-5",
+"displayValue": "9-5"
 }
 ],
 "logo": [
@@ -17908,8 +17936,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "20-8",
-"displayValue": "20-8"
+"summary": "21-8",
+"displayValue": "21-8"
 },
 {
 "name": "gamesBehind",
@@ -17929,8 +17957,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "7-6",
-"displayValue": "7-6"
+"summary": "8-6",
+"displayValue": "8-6"
 }
 ],
 "logo": [
@@ -17959,10 +17987,10 @@
 ]
 },
 {
-"team": "Mississippi State",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/344/mississippi-state-bulldogs",
-"id": "344",
-"uid": "s:40~l:54~t:344",
+"team": "Vanderbilt",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/238/vanderbilt-commodores",
+"id": "238",
+"uid": "s:40~l:54~t:238",
 "stats": [
 {
 "id": "0",
@@ -17982,70 +18010,6 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.0,
-"displayValue": "6"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "7-6",
-"displayValue": "7-6"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-03-17T13:35Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/344.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-03-17T13:36Z"
-}
-]
-},
-{
-"team": "Vanderbilt",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/238/vanderbilt-commodores",
-"id": "238",
-"uid": "s:40~l:54~t:238",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "19-8",
-"displayValue": "19-8"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
 "value": 7.0,
 "displayValue": "7"
 },
@@ -18057,8 +18021,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "6-7",
-"displayValue": "6-7"
+"summary": "7-7",
+"displayValue": "7-7"
 }
 ],
 "logo": [
@@ -18087,10 +18051,10 @@
 ]
 },
 {
-"team": "Texas A&M",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/245/texas-am-aggies",
-"id": "245",
-"uid": "s:40~l:54~t:245",
+"team": "Mississippi State",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/344/mississippi-state-bulldogs",
+"id": "344",
+"uid": "s:40~l:54~t:344",
 "stats": [
 {
 "id": "0",
@@ -18100,8 +18064,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "18-8",
-"displayValue": "18-8"
+"summary": "20-9",
+"displayValue": "20-9"
 },
 {
 "name": "gamesBehind",
@@ -18121,8 +18085,72 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "6-7",
-"displayValue": "6-7"
+"summary": "7-7",
+"displayValue": "7-7"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-03-17T13:35Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/344.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-03-17T13:36Z"
+}
+]
+},
+{
+"team": "Texas A&M",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/245/texas-am-aggies",
+"id": "245",
+"uid": "s:40~l:54~t:245",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "18-9",
+"displayValue": "18-9"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8.0,
+"displayValue": "8"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "6-8",
+"displayValue": "6-8"
 }
 ],
 "logo": [
@@ -18151,70 +18179,6 @@
 ]
 },
 {
-"team": "Arkansas",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/8/arkansas-razorbacks",
-"id": "8",
-"uid": "s:40~l:54~t:8",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "18-10",
-"displayValue": "18-10"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 7.0,
-"displayValue": "7"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "6-7",
-"displayValue": "6-7"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-03-01T14:17Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/8.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-03-01T14:18Z"
-}
-]
-},
-{
 "team": "Auburn",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2/auburn-tigers",
 "id": "2",
@@ -18228,8 +18192,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "16-10",
-"displayValue": "16-10"
+"summary": "17-10",
+"displayValue": "17-10"
 },
 {
 "name": "gamesBehind",
@@ -18249,8 +18213,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "5-8",
-"displayValue": "5-8"
+"summary": "6-8",
+"displayValue": "6-8"
 }
 ],
 "logo": [
@@ -18279,10 +18243,10 @@
 ]
 },
 {
-"team": "Florida",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/57/florida-gators",
-"id": "57",
-"uid": "s:40~l:54~t:57",
+"team": "Arkansas",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/8/arkansas-razorbacks",
+"id": "8",
+"uid": "s:40~l:54~t:8",
 "stats": [
 {
 "id": "0",
@@ -18292,8 +18256,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "14-11",
-"displayValue": "14-11"
+"summary": "18-11",
+"displayValue": "18-11"
 },
 {
 "name": "gamesBehind",
@@ -18313,8 +18277,72 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "5-8",
-"displayValue": "5-8"
+"summary": "6-8",
+"displayValue": "6-8"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-03-01T14:17Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/8.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-03-01T14:18Z"
+}
+]
+},
+{
+"team": "Florida",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/57/florida-gators",
+"id": "57",
+"uid": "s:40~l:54~t:57",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "14-12",
+"displayValue": "14-12"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 9.0,
+"displayValue": "9"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "5-9",
+"displayValue": "5-9"
 }
 ],
 "logo": [
@@ -18356,8 +18384,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-16",
-"displayValue": "11-16"
+"summary": "11-17",
+"displayValue": "11-17"
 },
 {
 "name": "gamesBehind",
@@ -18366,8 +18394,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9.0,
-"displayValue": "9"
+"value": 10.0,
+"displayValue": "10"
 },
 {
 "id": "9",
@@ -18377,8 +18405,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "4-9",
-"displayValue": "4-9"
+"summary": "4-10",
+"displayValue": "4-10"
 }
 ],
 "logo": [
@@ -18395,6 +18423,70 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/96.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+}
+]
+},
+{
+"team": "Georgia",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/61/georgia-lady-bulldogs",
+"id": "61",
+"uid": "s:40~l:54~t:61",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "12-15",
+"displayValue": "12-15"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "3-11",
+"displayValue": "3-11"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -18430,8 +18522,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11.0,
-"displayValue": "11"
+"value": 11.5,
+"displayValue": "11.5"
 },
 {
 "id": "9",
@@ -18467,70 +18559,6 @@
 "dark"
 ],
 "lastUpdated": "2023-03-15T19:32Z"
-}
-]
-},
-{
-"team": "Georgia",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/61/georgia-lady-bulldogs",
-"id": "61",
-"uid": "s:40~l:54~t:61",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "11-15",
-"displayValue": "11-15"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 11.0,
-"displayValue": "11"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "2-11",
-"displayValue": "2-11"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-07T19:32Z"
 }
 ]
 }

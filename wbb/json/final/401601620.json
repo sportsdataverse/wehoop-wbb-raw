@@ -23874,7 +23874,6 @@
 "type": "whitelist",
 "devices": [
 "desktop",
-"ipad",
 "settop",
 "handset",
 "tablet"
@@ -23885,21 +23884,24 @@
 "links": {
 "api": {
 "self": {
-"href": "http://api-app.espn.com/v1/video/clips/39646820"
+"href": "http://api.espn.com/v1/video/clips/39646820"
 },
 "artwork": {
 "href": "https://artwork.api.espn.com/artwork/collections/media/3bd0ed4b-c777-48f2-b2fa-688138a122c0"
 }
 },
 "web": {
-"href": "http://espn.com/video/clip?id=39646820",
+"href": "https://www.espn.com/video/clip?id=39646820&ex_cid=espnapi_internal",
+"short": {
+"href": "https://www.espn.com/video/clip?id=39646820"
+},
 "self": {
-"href": "http://espn.com/video/clip?id=39646820"
+"href": "https://www.espn.com/video/clip?id=39646820&ex_cid=espnapi_internal"
 }
 },
 "source": {
 "mezzanine": {
-"href": "http://media.video-origin.espn.com/espnvideo/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax.mp4"
+"href": "https://media.video-origin.espn.com/espnvideo/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax.mp4"
 },
 "flash": {
 "href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax.smil"
@@ -23923,7 +23925,7 @@
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.com/general/video/videoAlert?vid=39646820"
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=39646820&ex_cid=espnapi_internal"
 },
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax.mp4"
@@ -24860,29 +24862,29 @@
 "video": [
 {
 "source": "espn",
-"id": 39646820,
-"dataSourceIdentifier": "bba6c824ce5f5",
-"headline": "Creme: Caitlin Clark has changed women's basketball",
-"caption": "Charlie Creme reflects on Caitlin Clark's career after she breaks Pete Maravich's NCAA career scoring record.",
-"description": "Charlie Creme reflects on Caitlin Clark's career after she breaks Pete Maravich's NCAA career scoring record.",
+"id": 39646061,
+"dataSourceIdentifier": "3c5ae657ba823",
+"headline": "Caitlin Clark surprised by Maya Moore on 'College GameDay'",
+"caption": "Caitlin Clark's childhood role model, Maya Moore, makes a surprise trip to Iowa to surprise her on \"College GameDay.\"",
+"description": "Caitlin Clark's childhood role model, Maya Moore, makes a surprise trip to Iowa to surprise her on \"College GameDay.\"",
 "premium": false,
 "ad": {
 "sport": "ncw",
-"bundle": "espnw"
+"bundle": "womens_bracket_buzz"
 },
 "tracking": {
 "sportName": "ncw",
 "leagueName": "No League",
-"coverageType": "Analysis",
-"trackingName": "COM_NCW Analysis (Creme: Caitlin Clark has changed women's basketball) 2024/3/3",
-"trackingId": "dm_240303_wcbb_clark_record_reax"
+"coverageType": "Interview",
+"trackingName": "COM_NCW Interview (Caitlin Clark surprised by Maya Moore on 'College GameDay') 2024/3/3 CGD",
+"trackingId": "dm_240303_caitlin_maya"
 },
-"cerebroId": "65e4cbe9ca84b748b5aceecd",
-"lastModified": "2024-03-03T19:24:15Z",
-"originalPublishDate": "2024-03-03T19:10:04Z",
+"cerebroId": "65e4aaa0ca84b748b5acd312",
+"lastModified": "2024-03-04T15:27:25Z",
+"originalPublishDate": "2024-03-03T16:49:12Z",
 "timeRestrictions": {
-"embargoDate": "2024-03-03T19:10:04Z",
-"expirationDate": "2037-03-06T19:10:04Z"
+"embargoDate": "2024-03-03T16:49:12Z",
+"expirationDate": "2037-08-01T16:00:00Z"
 },
 "deviceRestrictions": {
 "type": "whitelist",
@@ -24895,7 +24897,7 @@
 ]
 },
 "syndicatable": true,
-"duration": 67,
+"duration": 119,
 "categories": [
 {
 "id": 9578,
@@ -24927,6 +24929,35 @@
 "uid": "s:40~l:54"
 },
 {
+"id": 4786,
+"description": "Iowa Hawkeyes",
+"type": "team",
+"sportId": 54,
+"teamId": 2294,
+"team": {
+"id": 2294,
+"description": "Iowa Hawkeyes",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2294"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=2294"
+}
+}
+}
+},
+"uid": "s:40~l:54~t:2294"
+},
+{
 "id": 557855,
 "description": "Caitlin Clark",
 "type": "athlete",
@@ -24956,56 +24987,166 @@
 "uid": "s:40~l:54~a:4433403"
 },
 {
-"id": 4786,
-"description": "Iowa Hawkeyes",
+"id": 76467,
+"description": "Maya Moore",
+"type": "athlete",
+"sportId": 59,
+"athleteId": 956,
+"athlete": {
+"id": 956,
+"description": "Maya Moore",
+"links": {
+"api": {
+"athletes": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba/athletes/956"
+}
+},
+"web": {
+"athletes": {
+"href": "https://www.espn.com/wnba/player/_/id/956/maya-moore"
+}
+},
+"mobile": {
+"athletes": {
+"href": "http://m.espn.com/wnba/playercard?playerId=956"
+}
+}
+}
+},
+"uid": "s:40~l:59~a:956"
+},
+{
+"id": 9579,
+"description": "WNBA",
+"type": "league",
+"sportId": 59,
+"leagueId": 59,
+"league": {
+"id": 59,
+"description": "WNBA",
+"links": {
+"api": {
+"leagues": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba"
+}
+},
+"web": {
+"leagues": {
+"href": "https://www.espn.com/wnba/"
+}
+},
+"mobile": {
+"leagues": {
+"href": "http://m.espn.com/wnba/"
+}
+}
+}
+},
+"uid": "s:40~l:59"
+},
+{
+"id": 154770,
+"description": "Women's Olympic Basketball",
+"type": "league",
+"sportId": 3767,
+"leagueId": 3767,
+"league": {
+"id": 3767,
+"description": "Women's Olympic Basketball",
+"links": {
+"api": {
+"leagues": {}
+},
+"web": {
+"leagues": {}
+},
+"mobile": {
+"leagues": {}
+}
+}
+},
+"uid": "s:3707~l:3767"
+},
+{
+"id": 5847,
+"description": "Minnesota Lynx",
 "type": "team",
-"sportId": 54,
-"teamId": 2294,
+"sportId": 59,
+"teamId": 8,
 "team": {
-"id": 2294,
-"description": "Iowa Hawkeyes",
+"id": 8,
+"description": "Minnesota Lynx",
 "links": {
 "api": {
 "teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2294"
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba/teams/8"
 }
 },
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
+"href": "https://www.espn.com/wnba/team/_/name/min/minnesota-lynx"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2294"
+"href": "http://m.espn.com/wnba/clubhouse?teamId=8"
 }
 }
 }
 },
-"uid": "s:40~l:54~t:2294"
+"uid": "s:40~l:59~t:8"
+},
+{
+"id": 4746,
+"description": "UConn Huskies",
+"type": "team",
+"sportId": 54,
+"teamId": 41,
+"team": {
+"id": 41,
+"description": "UConn Huskies",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/41"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/41/uconn-huskies"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=41"
+}
+}
+}
+},
+"uid": "s:40~l:54~t:41"
 }
 ],
 "keywords": [],
 "posterImages": {
 "default": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax_default.jpg",
+"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_caitlin_maya720/dm_240303_caitlin_maya720_default.jpg",
 "width": 576,
 "height": 324
 },
 "full": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax.jpg"
+"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_caitlin_maya720/dm_240303_caitlin_maya720.jpg"
 },
 "wide": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax_5x2.jpg"
+"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_caitlin_maya720/dm_240303_caitlin_maya720_5x2.jpg"
 },
 "square": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax_1x1.jpg"
+"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_caitlin_maya720/dm_240303_caitlin_maya720_1x1.jpg"
 }
 },
 "images": [
 {
 "name": "Poster Image",
-"url": "https://media.video-cdn.espn.com/images/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax.jpg",
+"url": "https://media.video-cdn.espn.com/images/2024/0303/dm_240303_caitlin_maya720/dm_240303_caitlin_maya720.jpg",
 "alt": "",
 "caption": "",
 "credit": "",
@@ -25013,63 +25154,63 @@
 "height": 324
 }
 ],
-"thumbnail": "https://a.espncdn.com/media/motion/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax.jpg",
+"thumbnail": "https://a.espncdn.com/media/motion/2024/0303/dm_240303_caitlin_maya720/dm_240303_caitlin_maya720.jpg",
 "links": {
 "api": {
 "self": {
-"href": "http://api-app.espn.com/v1/video/clips/39646820"
+"href": "http://api-app.espn.com/v1/video/clips/39646061"
 },
 "artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/3bd0ed4b-c777-48f2-b2fa-688138a122c0"
+"href": "https://artwork.api.espn.com/artwork/collections/media/09b4b76d-17ea-474d-ac52-208c0f30bce3"
 }
 },
 "web": {
-"href": "http://espn.com/video/clip?id=39646820",
+"href": "http://espn.com/video/clip?id=39646061",
 "self": {
-"href": "http://espn.com/video/clip?id=39646820"
+"href": "http://espn.com/video/clip?id=39646061"
 }
 },
 "source": {
 "mezzanine": {
-"href": "http://media.video-origin.espn.com/espnvideo/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax.mp4"
+"href": "http://media.video-origin.espn.com/espnvideo/2024/0303/dm_240303_caitlin_maya/dm_240303_caitlin_maya.mp4"
 },
 "flash": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax.smil"
+"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_caitlin_maya/dm_240303_caitlin_maya.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax_rel.smil/manifest.f4m"
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/0303/dm_240303_caitlin_maya/dm_240303_caitlin_maya_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0303/dm_240303_caitlin_maya/dm_240303_caitlin_maya/playlist.m3u8",
 "HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax/playlist.m3u8"
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0303/dm_240303_caitlin_maya/dm_240303_caitlin_maya/playlist.m3u8"
 }
 },
 "HD": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax_720p30_2896k.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_caitlin_maya/dm_240303_caitlin_maya_720p30_2896k.mp4"
 },
 "full": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax_360p30_1464k.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_caitlin_maya/dm_240303_caitlin_maya_360p30_1464k.mp4"
 },
-"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax_360p30_1464k.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_caitlin_maya/dm_240303_caitlin_maya_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.com/general/video/videoAlert?vid=39646820"
+"href": "http://m.espn.com/general/video/videoAlert?vid=39646061"
 },
 "source": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0303/dm_240303_caitlin_maya/dm_240303_caitlin_maya.mp4"
 },
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/3bd0ed4b-c777-48f2-b2fa-688138a122c0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39646820",
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/09b4b76d-17ea-474d-ac52-208c0f30bce3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39646061",
 "streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/3bd0ed4b-c777-48f2-b2fa-688138a122c0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39646820"
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/09b4b76d-17ea-474d-ac52-208c0f30bce3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39646061"
 },
 "progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/3bd0ed4b-c777-48f2-b2fa-688138a122c0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39646820"
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/09b4b76d-17ea-474d-ac52-208c0f30bce3/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39646061"
 }
 }
 },
-"title": "Creme: Caitlin Clark has changed women's basketball"
+"title": "Caitlin Clark surprised by Maya Moore on 'College GameDay'"
 }
 ],
 "type": "Recap",
@@ -25192,11 +25333,11 @@
 "gameId": "401601620",
 "images": [
 {
-"name": "Creme: Caitlin Clark has changed women's basketball",
+"name": "Caitlin Clark surprised by Maya Moore on 'College GameDay'",
 "width": 576,
 "alt": "",
-"caption": "Charlie Creme reflects on Caitlin Clark's career after she breaks Pete Maravich's NCAA career scoring record.",
-"url": "https://a.espncdn.com/media/motion/2024/0303/dm_240303_wcbb_clark_record_reax/dm_240303_wcbb_clark_record_reax.jpg",
+"caption": "Caitlin Clark's childhood role model, Maya Moore, makes a surprise trip to Iowa to surprise her on \"College GameDay.\"",
+"url": "https://a.espncdn.com/media/motion/2024/0303/dm_240303_caitlin_maya720/dm_240303_caitlin_maya720.jpg",
 "height": 324
 }
 ],

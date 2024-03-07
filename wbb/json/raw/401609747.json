@@ -81,7 +81,7 @@
 },
 {
 "name": "blocks",
-"displayValue": "3",
+"displayValue": "4",
 "abbreviation": "BLK",
 "label": "Blocks"
 },
@@ -165,23 +165,23 @@
 "statistics": [
 {
 "name": "fieldGoalsMade-fieldGoalsAttempted",
-"displayValue": "25-64",
+"displayValue": "25-65",
 "label": "FG"
 },
 {
 "name": "fieldGoalPct",
-"displayValue": "39.1",
+"displayValue": "38.5",
 "abbreviation": "FG%",
 "label": "Field Goal %"
 },
 {
 "name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-"displayValue": "8-29",
+"displayValue": "8-30",
 "label": "3PT"
 },
 {
 "name": "threePointFieldGoalPct",
-"displayValue": "27.6",
+"displayValue": "26.7",
 "abbreviation": "3P%",
 "label": "Three Point %"
 },
@@ -198,13 +198,13 @@
 },
 {
 "name": "totalRebounds",
-"displayValue": "31",
+"displayValue": "32",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
 {
 "name": "offensiveRebounds",
-"displayValue": "11",
+"displayValue": "12",
 "abbreviation": "OR",
 "label": "Offensive Rebounds"
 },
@@ -462,8 +462,8 @@
 "0-1",
 "3-3",
 "8",
-"15",
-"23",
+"16",
+"24",
 "4",
 "0",
 "1",
@@ -511,9 +511,9 @@
 "1-1",
 "2-2",
 "0",
-"2",
-"2",
 "1",
+"1",
+"2",
 "1",
 "0",
 "1",
@@ -611,9 +611,9 @@
 "1",
 "2",
 "3",
-"4",
+"2",
 "0",
-"0",
+"1",
 "1",
 "1",
 "4"
@@ -660,7 +660,7 @@
 "0",
 "0",
 "0",
-"2",
+"1",
 "0",
 "0",
 "0",
@@ -758,7 +758,7 @@
 "5",
 "1",
 "6",
-"1",
+"4",
 "0",
 "0",
 "0",
@@ -807,7 +807,7 @@
 "0",
 "1",
 "1",
-"1",
+"0",
 "1",
 "0",
 "0",
@@ -945,7 +945,7 @@
 "47",
 "19",
 "3",
-"3",
+"4",
 "12",
 "17",
 "67"
@@ -1458,8 +1458,8 @@
 "ejected": false,
 "stats": [
 "31",
-"1-6",
-"0-3",
+"1-7",
+"0-4",
 "0-0",
 "0",
 "3",
@@ -1629,12 +1629,12 @@
 ],
 "totals": [
 "",
-"25-64",
-"8-29",
+"25-65",
+"8-30",
 "5-8",
-"11",
+"12",
 "20",
-"31",
+"32",
 "12",
 "4",
 "4",
@@ -2158,7 +2158,7 @@
 "displayName": "Rebounds",
 "leaders": [
 {
-"displayValue": "23",
+"displayValue": "24",
 "athlete": {
 "id": "4433404",
 "uid": "s:40~l:54~a:4433404",
@@ -2194,8 +2194,8 @@
 "shortDisplayName": "REB",
 "description": "The total number of rebounds (offensive and defensive).",
 "abbreviation": "REB",
-"value": 23.0,
-"displayValue": "23"
+"value": 24.0,
+"displayValue": "24"
 },
 {
 "name": "defensiveRebounds",
@@ -2203,8 +2203,8 @@
 "shortDisplayName": "DREB",
 "description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
 "abbreviation": "DR",
-"value": 15.0,
-"displayValue": "15"
+"value": 16.0,
+"displayValue": "16"
 },
 {
 "name": "offensiveRebounds",
@@ -15582,8 +15582,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "21-8",
-"displayValue": "21-8"
+"summary": "22-8",
+"displayValue": "22-8"
 },
 {
 "name": "gamesBehind",
@@ -15646,8 +15646,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "21-9",
-"displayValue": "21-9"
+"summary": "22-9",
+"displayValue": "22-9"
 },
 {
 "name": "gamesBehind",
@@ -15710,8 +15710,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "16-14",
-"displayValue": "16-14"
+"summary": "17-14",
+"displayValue": "17-14"
 },
 {
 "name": "gamesBehind",
@@ -15761,70 +15761,6 @@
 ]
 },
 {
-"team": "Washington State",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/265/washington-state-cougars",
-"id": "265",
-"uid": "s:40~l:54~t:265",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "18-13",
-"displayValue": "18-13"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 8.0,
-"displayValue": "8"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "7-11",
-"displayValue": "7-11"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-10-06T14:34Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/265.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "California",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/25/california-golden-bears",
 "id": "25",
@@ -15838,8 +15774,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "17-13",
-"displayValue": "17-13"
+"summary": "18-13",
+"displayValue": "18-13"
 },
 {
 "name": "gamesBehind",
@@ -15889,6 +15825,70 @@
 ]
 },
 {
+"team": "Washington State",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/265/washington-state-cougars",
+"id": "265",
+"uid": "s:40~l:54~t:265",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "18-14",
+"displayValue": "18-14"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8.0,
+"displayValue": "8"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "7-11",
+"displayValue": "7-11"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-10-06T14:34Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/265.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "Washington",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/264/washington-huskies",
 "id": "264",
@@ -15902,8 +15902,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "16-13",
-"displayValue": "16-13"
+"summary": "16-14",
+"displayValue": "16-14"
 },
 {
 "name": "gamesBehind",
@@ -15966,8 +15966,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-19",
-"displayValue": "11-19"
+"summary": "11-20",
+"displayValue": "11-20"
 },
 {
 "name": "gamesBehind",
@@ -16030,8 +16030,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-20",
-"displayValue": "11-20"
+"summary": "11-21",
+"displayValue": "11-21"
 },
 {
 "name": "gamesBehind",

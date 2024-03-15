@@ -2344,7 +2344,21 @@
 "region": "us"
 }
 ],
-"predictor": [],
+"predictor": {
+"header": "Matchup Predictor",
+"homeTeam": {
+"id": "2638",
+"gameProjection": "66.6",
+"teamChanceLoss": "33.4",
+"teamChanceTie": "0.0"
+},
+"awayTeam": {
+"id": "2534",
+"gameProjection": "33.4",
+"teamChanceLoss": "66.6",
+"teamChanceTie": "0.0"
+}
+},
 "pickcenter": [],
 "againstTheSpread": [
 {
@@ -4372,7 +4386,7 @@
 }
 ]
 },
-"gameNote": "C-USA Championship - 1st Round"
+"gameNote": "CUSA Championship - 1st Round"
 },
 "plays": [
 {
@@ -14934,8 +14948,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "20-10",
-"displayValue": "20-10"
+"summary": "20-11",
+"displayValue": "20-11"
 },
 {
 "name": "gamesBehind",
@@ -15049,70 +15063,6 @@
 ]
 },
 {
-"team": "Jacksonville State",
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/55/jacksonville-state-gamecocks",
-"id": "55",
-"uid": "s:40~l:54~t:55",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "12-16",
-"displayValue": "12-16"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 9.0,
-"displayValue": "9"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "7-9",
-"displayValue": "7-9"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-02T00:59Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/55.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-02T00:34Z"
-}
-]
-},
-{
 "team": "Louisiana Tech",
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2348/louisiana-tech-lady-techsters",
 "id": "2348",
@@ -15126,8 +15076,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "13-18",
-"displayValue": "13-18"
+"summary": "14-18",
+"displayValue": "14-18"
 },
 {
 "name": "gamesBehind",
@@ -15173,6 +15123,70 @@
 "dark"
 ],
 "lastUpdated": "2019-07-30T18:16Z"
+}
+]
+},
+{
+"team": "Jacksonville State",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/55/jacksonville-state-gamecocks",
+"id": "55",
+"uid": "s:40~l:54~t:55",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "12-17",
+"displayValue": "12-17"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 9.0,
+"displayValue": "9"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "7-9",
+"displayValue": "7-9"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-02T00:59Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/55.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-02T00:34Z"
 }
 ]
 },
@@ -15254,8 +15268,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "12-17",
-"displayValue": "12-17"
+"summary": "13-17",
+"displayValue": "13-17"
 },
 {
 "name": "gamesBehind",

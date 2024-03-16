@@ -4478,6 +4478,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401629865",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 19,
@@ -15867,7 +15879,101 @@
 }
 ],
 "article": [],
-"videos": [],
+"videos": [
+{
+"source": "espn",
+"id": 39737312,
+"headline": "Kyla Deck buries the 3-pointer for SF Austin",
+"description": "Kyla Deck buries the 3-pointer for SF Austin",
+"ad": {
+"sport": "ncw",
+"bundle": "cbb_womens_champ_week_top_plays"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Kyla Deck buries the 3-pointer for SF Austin) 2024/03/14",
+"trackingId": "dm_240315_SF_Austin_3_pointer_NCAAW"
+},
+"cerebroId": "65f4492aca84b76cc7f4705b",
+"lastModified": "2024-03-15T13:13:17Z",
+"originalPublishDate": "2024-03-15T13:10:56Z",
+"timeRestrictions": {
+"embargoDate": "2024-03-15T13:10:56Z",
+"expirationDate": "2037-12-30T14:10:56Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+]
+},
+"duration": 16,
+"thumbnail": "https://a.espncdn.com/media/motion/2024/0315/dm_240315_SF_Austin_3_pointer_NCAAW/dm_240315_SF_Austin_3_pointer_NCAAW.jpg",
+"links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/39737312"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/3ba4b0a8-3749-4330-8f76-982f2a745a31"
+}
+},
+"web": {
+"href": "https://www.espn.com/video/clip?id=39737312&ex_cid=espnapi_internal",
+"short": {
+"href": "https://www.espn.com/video/clip?id=39737312"
+},
+"self": {
+"href": "https://www.espn.com/video/clip?id=39737312&ex_cid=espnapi_internal"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2024/0315/dm_240315_SF_Austin_3_pointer_NCAAW/dm_240315_SF_Austin_3_pointer_NCAAW.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/0315/dm_240315_SF_Austin_3_pointer_NCAAW/dm_240315_SF_Austin_3_pointer_NCAAW.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/0315/dm_240315_SF_Austin_3_pointer_NCAAW/dm_240315_SF_Austin_3_pointer_NCAAW_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0315/dm_240315_SF_Austin_3_pointer_NCAAW/dm_240315_SF_Austin_3_pointer_NCAAW/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0315/dm_240315_SF_Austin_3_pointer_NCAAW/dm_240315_SF_Austin_3_pointer_NCAAW/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/0315/dm_240315_SF_Austin_3_pointer_NCAAW/dm_240315_SF_Austin_3_pointer_NCAAW_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/0315/dm_240315_SF_Austin_3_pointer_NCAAW/dm_240315_SF_Austin_3_pointer_NCAAW_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/2024/0315/dm_240315_SF_Austin_3_pointer_NCAAW/dm_240315_SF_Austin_3_pointer_NCAAW_360p30_1464k.mp4"
+},
+"mobile": {
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=39737312&ex_cid=espnapi_internal"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/0315/dm_240315_SF_Austin_3_pointer_NCAAW/dm_240315_SF_Austin_3_pointer_NCAAW.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/3ba4b0a8-3749-4330-8f76-982f2a745a31/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39737312",
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/3ba4b0a8-3749-4330-8f76-982f2a745a31/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39737312"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/3ba4b0a8-3749-4330-8f76-982f2a745a31/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39737312"
+}
+}
+}
+}
+],
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",
@@ -15891,8 +15997,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "26-3",
-"displayValue": "26-3"
+"summary": "27-3",
+"displayValue": "27-3"
 },
 {
 "name": "gamesBehind",
@@ -15955,8 +16061,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "24-7",
-"displayValue": "24-7"
+"summary": "24-8",
+"displayValue": "24-8"
 },
 {
 "name": "gamesBehind",
@@ -16019,8 +16125,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "21-11",
-"displayValue": "21-11"
+"summary": "22-11",
+"displayValue": "22-11"
 },
 {
 "name": "gamesBehind",
@@ -16147,8 +16253,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "17-15",
-"displayValue": "17-15"
+"summary": "17-16",
+"displayValue": "17-16"
 },
 {
 "name": "gamesBehind",

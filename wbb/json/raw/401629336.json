@@ -4420,6 +4420,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401629336",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 19,
@@ -15756,7 +15768,101 @@
 }
 ],
 "article": [],
-"videos": [],
+"videos": [
+{
+"source": "espn",
+"id": 39737304,
+"headline": "Tova Sabel banks in the trey for UC Davis",
+"description": "Tova Sabel banks in the trey for UC Davis",
+"ad": {
+"sport": "ncw",
+"bundle": "cbb_womens_champ_week_top_plays"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Tova Sabel banks in the trey for UC Davis) 2024/03/14",
+"trackingId": "dm_240315_UC_Davis_one_play"
+},
+"cerebroId": "65f448e0ca84b76cc7f46705",
+"lastModified": "2024-03-15T13:12:12Z",
+"originalPublishDate": "2024-03-15T13:10:01Z",
+"timeRestrictions": {
+"embargoDate": "2024-03-15T13:10:01Z",
+"expirationDate": "2037-12-30T14:10:01Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+]
+},
+"duration": 17,
+"thumbnail": "https://a.espncdn.com/media/motion/2024/0315/dm_240315_UC_Davis_one_play/dm_240315_UC_Davis_one_play.jpg",
+"links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/39737304"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/83e1c872-e183-472e-9931-99fdf43e60aa"
+}
+},
+"web": {
+"href": "https://www.espn.com/video/clip?id=39737304&ex_cid=espnapi_internal",
+"short": {
+"href": "https://www.espn.com/video/clip?id=39737304"
+},
+"self": {
+"href": "https://www.espn.com/video/clip?id=39737304&ex_cid=espnapi_internal"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2024/0315/dm_240315_UC_Davis_one_play/dm_240315_UC_Davis_one_play.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/0315/dm_240315_UC_Davis_one_play/dm_240315_UC_Davis_one_play.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/0315/dm_240315_UC_Davis_one_play/dm_240315_UC_Davis_one_play_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0315/dm_240315_UC_Davis_one_play/dm_240315_UC_Davis_one_play/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0315/dm_240315_UC_Davis_one_play/dm_240315_UC_Davis_one_play/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/0315/dm_240315_UC_Davis_one_play/dm_240315_UC_Davis_one_play_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/0315/dm_240315_UC_Davis_one_play/dm_240315_UC_Davis_one_play_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/2024/0315/dm_240315_UC_Davis_one_play/dm_240315_UC_Davis_one_play_360p30_1464k.mp4"
+},
+"mobile": {
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=39737304&ex_cid=espnapi_internal"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/0315/dm_240315_UC_Davis_one_play/dm_240315_UC_Davis_one_play.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/83e1c872-e183-472e-9931-99fdf43e60aa/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39737304",
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/83e1c872-e183-472e-9931-99fdf43e60aa/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39737304"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/83e1c872-e183-472e-9931-99fdf43e60aa/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39737304"
+}
+}
+}
+}
+],
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",
@@ -15780,8 +15886,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "20-9",
-"displayValue": "20-9"
+"summary": "20-10",
+"displayValue": "20-10"
 },
 {
 "name": "gamesBehind",
@@ -15844,8 +15950,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "21-8",
-"displayValue": "21-8"
+"summary": "22-8",
+"displayValue": "22-8"
 },
 {
 "name": "gamesBehind",
@@ -15908,8 +16014,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "19-13",
-"displayValue": "19-13"
+"summary": "20-13",
+"displayValue": "20-13"
 },
 {
 "name": "gamesBehind",
@@ -16164,8 +16270,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-17",
-"displayValue": "15-17"
+"summary": "15-18",
+"displayValue": "15-18"
 },
 {
 "name": "gamesBehind",

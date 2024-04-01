@@ -24249,42 +24249,43 @@
 "video": [
 {
 "source": "espn",
-"id": 39232429,
-"dataSourceIdentifier": "874044d22c243",
-"headline": "Greenberg: Caitlin Clark makes most difficult things look so easy",
-"caption": "Seth Greenberg reacts to Caitlin Clark's game-winning 3-pointer vs. Michigan State.",
-"description": "Seth Greenberg reacts to Caitlin Clark's game-winning 3-pointer vs. Michigan State.",
+"id": 39232270,
+"headline": "Caitlin Clark drills a game-winning logo 3 at buzzer for Iowa",
+"caption": "Caitlin Clark gets her winning 3-pointer from the logo off just in time for Iowa.",
+"description": "Caitlin Clark gets her winning 3-pointer from the logo off just in time for Iowa.",
 "premium": false,
 "ad": {
 "sport": "ncw",
-"bundle": "sportscenter"
+"bundle": "espn_w"
 },
 "tracking": {
 "sportName": "ncw",
 "leagueName": "No League",
-"coverageType": "Analysis",
-"trackingName": "COM_NCW Analysis (Greenberg: Caitlin Clark makes most difficult things look so easy) 2024/1/2 ESHEET SC",
-"trackingId": "dm_240102_seth_clarknew"
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Caitlin Clark drills a game-winning logo 3 at buzzer for Iowa) 2024/01/03 ESHEET",
+"trackingId": "dm_20240103_NCW_caitlin_clark_drills_a_gamewinning_logo_3_at_buzzer_for_iowa"
 },
-"cerebroId": "6594e608be6ab31c1ba7b023",
-"lastModified": "2024-01-03T06:36:27Z",
-"originalPublishDate": "2024-01-03T04:40:52Z",
+"cerebroId": "6594d9b9be6ab31c1ba79677",
+"pccId": "b4657332-8649-4692-9a96-a3791e9c1812",
+"contributingPartner": "wsc",
+"contributingSystem": "wsc",
+"lastModified": "2024-01-03T04:08:46Z",
+"originalPublishDate": "2024-01-03T03:51:19Z",
 "timeRestrictions": {
-"embargoDate": "2024-01-03T04:40:52Z",
-"expirationDate": "2024-03-31T16:00:00Z"
+"embargoDate": "2024-01-03T03:51:19Z",
+"expirationDate": "2037-12-31T05:00:00Z"
 },
 "deviceRestrictions": {
 "type": "whitelist",
 "devices": [
 "desktop",
-"ipad",
 "settop",
 "handset",
 "tablet"
 ]
 },
 "syndicatable": true,
-"duration": 69,
+"duration": 28,
 "categories": [
 {
 "id": 4786,
@@ -24298,17 +24299,17 @@
 "links": {
 "api": {
 "teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2294"
+"href": "http://api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2294"
 }
 },
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
+"href": "https://www.espn.com/womens-basketball/team/_/id/2294/iowa-hawkeyes?ex_cid=espnapi_internal"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2294"
+"href": "http://m.espn.go.com/ncw/clubhouse?teamId=2294&ex_cid=espnapi_internal"
 }
 }
 }
@@ -24327,22 +24328,21 @@
 "links": {
 "api": {
 "athletes": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/athletes/4433403"
+"href": "http://api.espn.com/v1/sports/basketball/womens-college-basketball/athletes/4433403"
 }
 },
 "web": {
 "athletes": {
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433403/caitlin-clark"
+"href": "https://www.espn.com/womens-basketball/player/_/id/4433403/caitlin-clark?ex_cid=espnapi_internal"
 }
 },
 "mobile": {
 "athletes": {
-"href": "http://m.espn.com/ncw/playercard?playerId=4433403"
+"href": "http://m.espn.go.com/ncw/playercard?playerId=4433403&ex_cid=espnapi_internal"
 }
 }
 }
-},
-"uid": "s:40~l:54~a:4433403"
+}
 },
 {
 "id": 9578,
@@ -24356,22 +24356,51 @@
 "links": {
 "api": {
 "leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
+"href": "http://api.espn.com/v1/sports/basketball/womens-college-basketball"
 }
 },
 "web": {
 "leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
+"href": "https://www.espn.com/womens-basketball/?ex_cid=espnapi_internal"
 }
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "http://m.espn.go.com/ncw/?ex_cid=espnapi_internal"
 }
 }
 }
 },
 "uid": "s:40~l:54"
+},
+{
+"id": 4779,
+"description": "Michigan State Spartans",
+"type": "team",
+"sportId": 54,
+"teamId": 127,
+"team": {
+"id": 127,
+"description": "Michigan State Spartans",
+"links": {
+"api": {
+"teams": {
+"href": "http://api.espn.com/v1/sports/basketball/womens-college-basketball/teams/127"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-basketball/team/_/id/127/michigan-state-spartans?ex_cid=espnapi_internal"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.go.com/ncw/clubhouse?teamId=127&ex_cid=espnapi_internal"
+}
+}
+}
+},
+"uid": "s:40~l:54~t:127"
 },
 {
 "id": 116550,
@@ -24381,27 +24410,28 @@
 "topicId": 5
 }
 ],
+"gameId": 401601513,
 "keywords": [],
 "posterImages": {
 "default": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew_default.jpg",
+"href": "https://media.video-cdn.espn.com/motion/2024/0102/ss_20240102_225122481_24481061387/ss_20240102_225122481_24481061387_default.jpg",
 "width": 576,
 "height": 324
 },
 "full": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew.jpg"
+"href": "https://media.video-cdn.espn.com/motion/2024/0102/ss_20240102_225122481_24481061387/ss_20240102_225122481_24481061387.jpg"
 },
 "wide": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew_5x2.jpg"
+"href": "https://media.video-cdn.espn.com/motion/2024/0102/ss_20240102_225122481_24481061387/ss_20240102_225122481_24481061387_5x2.jpg"
 },
 "square": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew_1x1.jpg"
+"href": "https://media.video-cdn.espn.com/motion/2024/0102/ss_20240102_225122481_24481061387/ss_20240102_225122481_24481061387_1x1.jpg"
 }
 },
 "images": [
 {
 "name": "Poster Image",
-"url": "https://media.video-cdn.espn.com/images/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew.jpg",
+"url": "https://media.video-cdn.espn.com/images/2024/0102/ss_20240102_225122481_24481061387/ss_20240102_225122481_24481061387.jpg",
 "alt": "",
 "caption": "",
 "credit": "",
@@ -24409,63 +24439,65 @@
 "height": 324
 }
 ],
-"thumbnail": "https://a.espncdn.com/media/motion/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew.jpg",
+"thumbnail": "https://a.espncdn.com/media/motion/2024/0102/ss_20240102_225122481_24481061387/ss_20240102_225122481_24481061387.jpg",
 "links": {
 "api": {
 "self": {
-"href": "http://api-app.espn.com/v1/video/clips/39232429"
+"href": "http://api.espn.com/v1/video/clips/39232270"
 },
 "artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/15cdbe41-cbec-4a11-8cae-71f03641c7bf"
+"href": "https://artwork.api.espn.com/artwork/collections/media/b4657332-8649-4692-9a96-a3791e9c1812"
 }
 },
 "web": {
-"href": "http://espn.com/video/clip?id=39232429",
+"href": "https://www.espn.com/video/clip?id=39232270&ex_cid=espnapi_internal",
+"short": {
+"href": "https://www.espn.com/video/clip?id=39232270"
+},
 "self": {
-"href": "http://espn.com/video/clip?id=39232429"
+"href": "https://www.espn.com/video/clip?id=39232270&ex_cid=espnapi_internal"
 }
 },
 "source": {
 "mezzanine": {
-"href": "http://media.video-origin.espn.com/espnvideo/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew.mp4"
+"href": "https://media.video-origin.espn.com/espnvideo/2024/0102/ss_20240102_225122481_2448106/ss_20240102_225122481_2448106.mp4"
 },
 "flash": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew.smil"
+"href": "https://media.video-cdn.espn.com/motion/2024/0102/ss_20240102_225122481_2448106/ss_20240102_225122481_2448106.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew_rel.smil/manifest.f4m"
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/0102/ss_20240102_225122481_2448106/ss_20240102_225122481_2448106_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0102/ss_20240102_225122481_2448106/ss_20240102_225122481_2448106/playlist.m3u8",
 "HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew/playlist.m3u8"
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0102/ss_20240102_225122481_2448106/ss_20240102_225122481_2448106/playlist.m3u8"
 }
 },
 "HD": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew_720p30_2896k.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0102/ss_20240102_225122481_2448106/ss_20240102_225122481_2448106_720p30_2896k.mp4"
 },
 "full": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew_360p30_1464k.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0102/ss_20240102_225122481_2448106/ss_20240102_225122481_2448106_360p30_1464k.mp4"
 },
-"href": "https://media.video-cdn.espn.com/motion/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew_360p30_1464k.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0102/ss_20240102_225122481_2448106/ss_20240102_225122481_2448106_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.com/general/video/videoAlert?vid=39232429"
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=39232270&ex_cid=espnapi_internal"
 },
 "source": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0102/ss_20240102_225122481_2448106/ss_20240102_225122481_2448106.mp4"
 },
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/15cdbe41-cbec-4a11-8cae-71f03641c7bf/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39232429",
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b4657332-8649-4692-9a96-a3791e9c1812/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39232270",
 "streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/15cdbe41-cbec-4a11-8cae-71f03641c7bf/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39232429"
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b4657332-8649-4692-9a96-a3791e9c1812/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39232270"
 },
 "progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/15cdbe41-cbec-4a11-8cae-71f03641c7bf/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39232429"
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b4657332-8649-4692-9a96-a3791e9c1812/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39232270"
 }
 }
-},
-"title": "Greenberg: Caitlin Clark makes most difficult things look so easy"
+}
 }
 ],
 "type": "Recap",
@@ -24586,16 +24618,7 @@
 ],
 "headline": "Caitlin Clark hits long 3-pointer at the buzzer, scores 40 as No. 4 Iowa beats Michigan State 76-73",
 "gameId": "401601513",
-"images": [
-{
-"name": "Greenberg: Caitlin Clark makes most difficult things look so easy",
-"width": 576,
-"alt": "",
-"caption": "Seth Greenberg reacts to Caitlin Clark's game-winning 3-pointer vs. Michigan State.",
-"url": "https://a.espncdn.com/media/motion/2024/0102/dm_240102_seth_clarknew/dm_240102_seth_clarknew.jpg",
-"height": 324
-}
-],
+"images": [],
 "linkText": "Caitlin Clark hits long 3-pointer at the buzzer, scores 40 as No. 4 Iowa beats Michigan State 76-73",
 "published": "2024-01-03T04:06:55Z",
 "allowComments": true,

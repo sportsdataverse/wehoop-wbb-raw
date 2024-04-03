@@ -18523,11 +18523,10 @@
 "video": [
 {
 "source": "espn",
-"id": 39840873,
-"dataSourceIdentifier": "de591624433e8",
-"headline": "Kim Mulkey rips LA Times article in postgame news conference",
-"caption": "Kim Mulkey shares an impassioned response to the LA Times article previewing the matchup between UCLA and LSU.",
-"description": "Kim Mulkey shares an impassioned response to the LA Times article previewing the matchup between UCLA and LSU.",
+"id": 39840359,
+"headline": "LSU rides fourth-quarter run to clinch Elite Eight berth",
+"caption": "LSU lights it up in the fourth quarter to put UCLA away and clinch a berth in the Elite Eight.",
+"description": "LSU lights it up in the fourth quarter to put UCLA away and clinch a berth in the Elite Eight.",
 "premium": false,
 "ad": {
 "sport": "ncw",
@@ -18536,59 +18535,32 @@
 "tracking": {
 "sportName": "ncw",
 "leagueName": "No League",
-"coverageType": "PressConference",
-"trackingName": "*UNPUB 4/2 5PM* NCW_Presser (Kim Mulkey rips LA Times article in postgame news conference) 2024/3/30",
-"trackingId": "dm_240330_MULKEY_LA_TIMES"
+"coverageType": "Final Game Highlight",
+"trackingName": "COM_NCW_Highlight (LSU rides fourth-quarter run to clinch Elite Eight berth) 2024/03/30 ESHEET",
+"trackingId": "dm_20240330_NCW_lsu_rides_fourthquarter_run_run_to_clinch_elite_eight_berth"
 },
-"cerebroId": "660878e8b5cd2e034782d854",
-"lastModified": "2024-03-31T05:25:27Z",
-"originalPublishDate": "2024-03-30T20:37:30Z",
+"cerebroId": "660867efb5cd2e0347829525",
+"pccId": "7b24ef26-f05b-46a2-9a52-9ebc4d60ff36",
+"contributingPartner": "wsc",
+"contributingSystem": "wsc",
+"lastModified": "2024-03-30T20:25:10Z",
+"originalPublishDate": "2024-03-30T19:28:43Z",
 "timeRestrictions": {
-"embargoDate": "2024-03-30T20:37:30Z",
-"expirationDate": "2024-04-02T20:37:30Z"
+"embargoDate": "2024-03-30T19:28:43Z",
+"expirationDate": "2037-12-31T05:00:00Z"
 },
 "deviceRestrictions": {
 "type": "whitelist",
 "devices": [
 "desktop",
-"ipad",
 "settop",
 "handset",
 "tablet"
 ]
 },
 "syndicatable": true,
-"duration": 244,
+"duration": 89,
 "categories": [
-{
-"id": 9578,
-"description": "Women's College Basketball",
-"type": "league",
-"sportId": 54,
-"leagueId": 54,
-"league": {
-"id": 54,
-"description": "Women's College Basketball",
-"links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
-"web": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
-},
-"mobile": {
-"leagues": {
-"href": "http://m.espn.com/ncw/"
-}
-}
-}
-},
-"uid": "s:40~l:54"
-},
 {
 "id": 17051,
 "description": "LSU Tigers",
@@ -18601,45 +18573,194 @@
 "links": {
 "api": {
 "teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/99"
+"href": "http://api.espn.com/v1/sports/basketball/womens-college-basketball/teams/99"
 }
 },
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/99/lsu-tigers"
+"href": "https://www.espn.com/womens-basketball/team/_/id/99/lsu-tigers?ex_cid=espnapi_internal"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=99"
+"href": "http://m.espn.go.com/ncw/clubhouse?teamId=99&ex_cid=espnapi_internal"
 }
 }
 }
 },
 "uid": "s:40~l:54~t:99"
+},
+{
+"id": 560633,
+"description": "Aneesah Morrow",
+"type": "athlete",
+"sportId": 54,
+"athleteId": 4684384,
+"athlete": {
+"id": 4684384,
+"description": "Aneesah Morrow",
+"links": {
+"api": {
+"athletes": {
+"href": "http://api.espn.com/v1/sports/basketball/womens-college-basketball/athletes/4684384"
+}
+},
+"web": {
+"athletes": {
+"href": "https://www.espn.com/womens-basketball/player/_/id/4684384/aneesah-morrow?ex_cid=espnapi_internal"
+}
+},
+"mobile": {
+"athletes": {
+"href": "http://m.espn.go.com/ncw/playercard?playerId=4684384&ex_cid=espnapi_internal"
+}
+}
+}
+}
+},
+{
+"id": 568175,
+"description": "Flau'jae Johnson",
+"type": "athlete",
+"sportId": 54,
+"athleteId": 4698736,
+"athlete": {
+"id": 4698736,
+"description": "Flau'jae Johnson",
+"links": {
+"api": {
+"athletes": {
+"href": "http://api.espn.com/v1/sports/basketball/womens-college-basketball/athletes/4698736"
+}
+},
+"web": {
+"athletes": {
+"href": "https://www.espn.com/womens-basketball/player/_/id/4698736/flau'jae-johnson?ex_cid=espnapi_internal"
+}
+},
+"mobile": {
+"athletes": {
+"href": "http://m.espn.go.com/ncw/playercard?playerId=4698736&ex_cid=espnapi_internal"
+}
+}
+}
+}
+},
+{
+"id": 557856,
+"description": "Angel Reese",
+"type": "athlete",
+"sportId": 54,
+"athleteId": 4433402,
+"athlete": {
+"id": 4433402,
+"description": "Angel Reese",
+"links": {
+"api": {
+"athletes": {
+"href": "http://api.espn.com/v1/sports/basketball/womens-college-basketball/athletes/4433402"
+}
+},
+"web": {
+"athletes": {
+"href": "https://www.espn.com/womens-basketball/player/_/id/4433402/angel-reese?ex_cid=espnapi_internal"
+}
+},
+"mobile": {
+"athletes": {
+"href": "http://m.espn.go.com/ncw/playercard?playerId=4433402&ex_cid=espnapi_internal"
+}
+}
+}
+}
+},
+{
+"id": 9578,
+"description": "Women's College Basketball",
+"type": "league",
+"sportId": 54,
+"leagueId": 54,
+"league": {
+"id": 54,
+"description": "Women's College Basketball",
+"links": {
+"api": {
+"leagues": {
+"href": "http://api.espn.com/v1/sports/basketball/womens-college-basketball"
+}
+},
+"web": {
+"leagues": {
+"href": "https://www.espn.com/womens-basketball/?ex_cid=espnapi_internal"
+}
+},
+"mobile": {
+"leagues": {
+"href": "http://m.espn.go.com/ncw/?ex_cid=espnapi_internal"
+}
+}
+}
+},
+"uid": "s:40~l:54"
+},
+{
+"id": 632709,
+"description": "Mikaylah Williams",
+"type": "athlete",
+"sportId": 54,
+"athleteId": 5174267,
+"athlete": {
+"id": 5174267,
+"description": "Mikaylah Williams",
+"links": {
+"api": {
+"athletes": {
+"href": "http://api.espn.com/v1/sports/basketball/womens-college-basketball/athletes/5174267"
+}
+},
+"web": {
+"athletes": {
+"href": "https://www.espn.com/womens-basketball/player/_/id/5174267/mikaylah-williams?ex_cid=espnapi_internal"
+}
+},
+"mobile": {
+"athletes": {
+"href": "http://m.espn.go.com/ncw/playercard?playerId=5174267&ex_cid=espnapi_internal"
+}
+}
+}
+}
+},
+{
+"id": 116550,
+"description": "espnw",
+"type": "topic",
+"sportId": 0,
+"topicId": 5
 }
 ],
+"gameId": 401637605,
 "keywords": [],
 "posterImages": {
 "default": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES_default.jpg",
+"href": "https://media.video-cdn.espn.com/motion/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604_default.jpg",
 "width": 576,
 "height": 324
 },
 "full": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES.jpg"
+"href": "https://media.video-cdn.espn.com/motion/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604.jpg"
 },
 "wide": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES_5x2.jpg"
+"href": "https://media.video-cdn.espn.com/motion/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604_5x2.jpg"
 },
 "square": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES_1x1.jpg"
+"href": "https://media.video-cdn.espn.com/motion/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604_1x1.jpg"
 }
 },
 "images": [
 {
 "name": "Poster Image",
-"url": "https://media.video-cdn.espn.com/images/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES.jpg",
+"url": "https://media.video-cdn.espn.com/images/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604.jpg",
 "alt": "",
 "caption": "",
 "credit": "",
@@ -18647,63 +18768,65 @@
 "height": 324
 }
 ],
-"thumbnail": "https://a.espncdn.com/media/motion/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES.jpg",
+"thumbnail": "https://a.espncdn.com/media/motion/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604.jpg",
 "links": {
 "api": {
 "self": {
-"href": "http://api-app.espn.com/v1/video/clips/39840873"
+"href": "http://api.espn.com/v1/video/clips/39840359"
 },
 "artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/fd0ce4b2-2c2e-4941-abd9-da7dfa3a90a8"
+"href": "https://artwork.api.espn.com/artwork/collections/media/7b24ef26-f05b-46a2-9a52-9ebc4d60ff36"
 }
 },
 "web": {
-"href": "http://espn.com/video/clip?id=39840873",
+"href": "https://www.espn.com/video/clip?id=39840359&ex_cid=espnapi_internal",
+"short": {
+"href": "https://www.espn.com/video/clip?id=39840359"
+},
 "self": {
-"href": "http://espn.com/video/clip?id=39840873"
+"href": "https://www.espn.com/video/clip?id=39840359&ex_cid=espnapi_internal"
 }
 },
 "source": {
 "mezzanine": {
-"href": "http://media.video-origin.espn.com/espnvideo/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES.mp4"
+"href": "https://media.video-origin.espn.com/espnvideo/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604.mp4"
 },
 "flash": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES.smil"
+"href": "https://media.video-cdn.espn.com/motion/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES_rel.smil/manifest.f4m"
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604/playlist.m3u8",
 "HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES/playlist.m3u8"
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604/playlist.m3u8"
 }
 },
 "HD": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES_720p30_2896k.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604_720p30_2896k.mp4"
 },
 "full": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES_360p30_1464k.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604_360p30_1464k.mp4"
 },
-"href": "https://media.video-cdn.espn.com/motion/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES_360p30_1464k.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
-"href": "http://m.espn.com/general/video/videoAlert?vid=39840873"
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=39840359&ex_cid=espnapi_internal"
 },
 "source": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES.mp4"
+"href": "https://media.video-cdn.espn.com/motion/2024/0330/ss_20240330_152848565_2536604/ss_20240330_152848565_2536604.mp4"
 },
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/fd0ce4b2-2c2e-4941-abd9-da7dfa3a90a8/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39840873",
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/7b24ef26-f05b-46a2-9a52-9ebc4d60ff36/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39840359",
 "streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/fd0ce4b2-2c2e-4941-abd9-da7dfa3a90a8/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39840873"
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/7b24ef26-f05b-46a2-9a52-9ebc4d60ff36/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39840359"
 },
 "progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/fd0ce4b2-2c2e-4941-abd9-da7dfa3a90a8/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39840873"
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/7b24ef26-f05b-46a2-9a52-9ebc4d60ff36/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39840359"
 }
 }
-},
-"title": "Kim Mulkey rips LA Times article in postgame news conference"
+}
 }
 ],
 "type": "Recap",
@@ -18824,16 +18947,7 @@
 ],
 "headline": "Johnson, Reese lead defending champion LSU past UCLA 78-69 to reach Elite Eight",
 "gameId": "401637605",
-"images": [
-{
-"name": "Kim Mulkey rips LA Times article in postgame news conference",
-"width": 576,
-"alt": "",
-"caption": "Kim Mulkey shares an impassioned response to the LA Times article previewing the matchup between UCLA and LSU.",
-"url": "https://a.espncdn.com/media/motion/2024/0330/dm_240330_MULKEY_LA_TIMES/dm_240330_MULKEY_LA_TIMES.jpg",
-"height": 324
-}
-],
+"images": [],
 "linkText": "Johnson, Reese lead defending champion LSU past UCLA 78-69 to reach Elite Eight",
 "published": "2024-03-30T19:55:00Z",
 "allowComments": true,

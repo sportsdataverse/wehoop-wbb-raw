@@ -14229,54 +14229,62 @@
 }
 ],
 "article": {
-"dataSourceIdentifier": "415b5e2b0f424",
-"keywords": [],
-"description": "\u2014 Reserve Jayda Curry led a balanced attack with 15 points and No. 18 Louisville steadily pulled away for a 77-58 win over Pittsburgh on Sunday.",
-"source": "AP",
-"video": [],
-"type": "Recap",
+"id": 39411463,
 "nowId": "1-39411463",
-"premium": false,
-"related": [],
-"allowSearch": true,
+"contentKey": "39411463-1-21-1",
+"dataSourceIdentifier": "415b5e2b0f424",
+"type": "Recap",
+"gameId": "401603992",
+"headline": "Curry scores 15 points, No. 18 Louisville women defeat Pittsburgh 77-58",
+"description": "\u2014 Reserve Jayda Curry led a balanced attack with 15 points and No. 18 Louisville steadily pulled away for a 77-58 win over Pittsburgh on Sunday.",
+"linkText": "Curry scores 15 points, No. 18 Louisville women defeat Pittsburgh 77-58",
+"categorized": "2024-04-12T08:16:18Z",
+"originallyPosted": "2024-01-28T21:30:59Z",
+"lastModified": "2024-01-28T21:31:00Z",
+"published": "2024-01-28T21:30:59Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
+"categories": [
+{
+"id": 4752,
+"type": "team",
+"uid": "s:40~l:54~t:221",
+"guid": "f8d781eb-1362-5971-0b50-82493aa984fe",
+"description": "Pittsburgh Panthers",
+"sportId": 54,
+"teamId": 221,
+"team": {
+"id": 221,
+"description": "Pittsburgh Panthers",
 "links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39411463"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401603992"
-}
-},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401603992"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39411463"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/221/pittsburgh-panthers"
 }
 },
 "mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401603992&version=mobile"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/221/pittsburgh-panthers"
+}
+}
+}
 }
 },
-"id": 39411463,
-"categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -14284,110 +14292,127 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
+}
 },
 {
 "id": 4822,
-"description": "Louisville Cardinals",
 "type": "team",
+"uid": "s:40~l:54~t:97",
+"guid": "7cb9e31c-9f3f-8918-04f0-f88de96aa1cd",
+"description": "Louisville Cardinals",
 "sportId": 54,
 "teamId": 97,
 "team": {
 "id": 97,
 "description": "Louisville Cardinals",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/97"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=97"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals"
 }
 }
 }
-},
-"uid": "s:40~l:54~t:97"
+}
 },
 {
-"id": 4752,
-"description": "Pittsburgh Panthers",
-"type": "team",
-"sportId": 54,
-"teamId": 221,
-"team": {
-"id": 221,
-"description": "Pittsburgh Panthers",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/221"
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
 }
 },
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/221/pittsburgh-panthers"
-}
+{
+"type": "guid",
+"guid": "f8d781eb-1362-5971-0b50-82493aa984fe"
 },
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=221"
-}
-}
-}
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
 },
-"uid": "s:40~l:54~t:221"
+{
+"type": "guid",
+"guid": "7cb9e31c-9f3f-8918-04f0-f88de96aa1cd"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "fd510828-7cb1-3f80-ae54-66a90956edcd"
 }
 ],
-"headline": "Curry scores 15 points, No. 18 Louisville women defeat Pittsburgh 77-58",
-"gameId": "401603992",
-"images": [],
-"linkText": "Curry scores 15 points, No. 18 Louisville women defeat Pittsburgh 77-58",
-"published": "2024-01-28T21:30:59Z",
+"keywords": [
+"Pittsburgh Panthers",
+"NCAA Women's Basketball",
+"Louisville Cardinals",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401603992"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39411463",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=415b5e2b0f424"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39411463"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2024-01-28T21:31:00Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              LOUISVILLE, Ky. -- \u2014 Reserve Jayda Curry led a balanced attack with 15 points and No. 18 Louisville steadily pulled away for a 77-58 win over Pittsburgh on Sunday.\n\n\r\n              The Cardinals, who won the first matchup by 30, pulled away in the fourth quarter until the lead reached 77-56 with just over a minute to go.\n\n\r\n              Kiki Jefferson was the only other player in double figures with 12 points for Louisville (18-3, 7-1 Atlantic Coast Conference) and all 11 Cardinals scored. Nine players played at least 15 minutes, but no one played more than Curry's 26.\n\n\r\n              Curry was 6-of-9 shooting while the Cards were 30 of 62 (48%) and she had three 3-pointers on four attempts as Louisville was 7 of 20. \n\n\r\n              Jala Jordon had 17 points and 11 rebounds and Liatu King 16 with 14 rebounds for the Panthers (7-14, 1-7). Pitt shot 36%.\n\n\r\n              The turnover difference favored Louisville 18-12, but the Cardinals were more opportunistic with a 22-10 advantage in points after turnovers.\n\n\r\n              Curry made all five of her shots and had 12 points at halftime when the Cardinals took a 36-29 lead. The biggest difference was 11 Pitt turnovers that were turned into 11 points while Louisville had six turnovers for one point by the Panthers.\n\n\r\n              Curry had seven points in an 11-0 run to close the first quarter that have Louisville a 19-9 lead. \n\n\r\n              Russell had five points and Curry another 3 in a late 10-0 burst in the third quarter that helped push the lead to 16 and it was 62-48 at the end.\n\n\r\n              No. 22 Syracuse visits Louisville on Thursday when Duke is at Pittsburgh.\n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

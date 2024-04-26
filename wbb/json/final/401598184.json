@@ -28453,54 +28453,37 @@
 ]
 },
 "article": {
-"dataSourceIdentifier": "794f4a109642b",
-"keywords": [],
-"description": "\u2014 Kaitlyn Chen scored 21 points, Skye Belker added 18 and a key blocked shot, and No. 25 Princeton held off Seton Hall 75-71 in double overtime on Wednesday night.",
-"source": "AP",
-"video": [],
-"type": "Recap",
-"nowId": "1-39009714",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39009714"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401598184"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401598184"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39009714"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401598184&version=mobile"
-}
-},
 "id": 39009714,
+"nowId": "1-39009714",
+"contentKey": "39009714-1-21-1",
+"dataSourceIdentifier": "794f4a109642b",
+"type": "Recap",
+"gameId": "401598184",
+"headline": "No. 25 Princeton women hold off Seton Hall 75-71 in double overtime",
+"description": "\u2014 Kaitlyn Chen scored 21 points, Skye Belker added 18 and a key blocked shot, and No. 25 Princeton held off Seton Hall 75-71 in double overtime on Wednesday night.",
+"linkText": "No. 25 Princeton women hold off Seton Hall 75-71 in double overtime",
+"categorized": "2024-04-12T07:02:21Z",
+"originallyPosted": "2023-11-30T03:17:55Z",
+"lastModified": "2023-11-30T03:17:56Z",
+"published": "2023-11-30T03:17:55Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -28508,110 +28491,152 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
+}
 },
 {
 "id": 4837,
-"description": "Princeton Tigers",
 "type": "team",
+"uid": "s:40~l:54~t:163",
+"guid": "6be29cfc-5c5b-2bd5-d2c7-385728b8d946",
+"description": "Princeton Tigers",
 "sportId": 54,
 "teamId": 163,
 "team": {
 "id": 163,
 "description": "Princeton Tigers",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/163"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/163/princeton-tigers"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/163/princeton-tigers"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=163"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/163/princeton-tigers"
 }
 }
 }
-},
-"uid": "s:40~l:54~t:163"
+}
 },
 {
 "id": 4758,
-"description": "Seton Hall Pirates",
 "type": "team",
+"uid": "s:40~l:54~t:2550",
+"guid": "3269b59d-fd2b-4d8f-1025-2da9f0c1cf2e",
+"description": "Seton Hall Pirates",
 "sportId": 54,
 "teamId": 2550,
 "team": {
 "id": 2550,
 "description": "Seton Hall Pirates",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2550"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2550/seton-hall-pirates"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2550/seton-hall-pirates"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2550"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2550/seton-hall-pirates"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:2550"
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "6be29cfc-5c5b-2bd5-d2c7-385728b8d946"
+},
+{
+"type": "guid",
+"guid": "3269b59d-fd2b-4d8f-1025-2da9f0c1cf2e"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "ecd40193-8d59-303c-a803-b3111a17143f"
 }
 ],
-"headline": "No. 25 Princeton women hold off Seton Hall 75-71 in double overtime",
-"gameId": "401598184",
-"images": [],
-"linkText": "No. 25 Princeton women hold off Seton Hall 75-71 in double overtime",
-"published": "2023-11-30T03:17:55Z",
+"keywords": [
+"NCAA Women's Basketball",
+"Princeton Tigers",
+"Seton Hall Pirates",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401598184"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39009714",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=794f4a109642b"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39009714"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-11-30T03:17:56Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              PRINCETON, N.J. -- \u2014 Kaitlyn Chen scored 21 points, Skye Belker added 18 and a key blocked shot, and No. 25 Princeton held off Seton Hall 75-71 in double overtime on Wednesday night.\n\n\r\n              Belker hit the go-ahead jumper with 37 seconds left in the second overtime, and her blocked shot 23 seconds later helped seal the deal for the Tigers (5-2). Belker's jumper came after Azana Baines made two free throws with 53 seconds left, giving the Pirates their only lead of either overtime period.\n\n\r\n              Micah Gray scored a career-high 24 points, with seven 3-pointers for Seton Hall (4-3). Baines added 12 points and 11 rebounds.\n\n\r\n              In a frantic final five seconds to the fourth quarter, Gray missed a tying 3-pointer for Seton Hall, but the Pirates came up with a steal after a Princeton rebound. On a sideline inbounds play, <a href=\"https://twitter.com/SHUWBB/status/1730048409799934335\">Gray took the pass and banked a 3-pointer from just beyond the frontcourt hashmark to tie it at the buzzer</a>.\n\n\r\n              A 3-pointer by Gray tied the score at 67 with 1:20 left in the first overtime, but there were no final-minute dramatics as neither team scored.\n\n\r\n              Princeton, which finished last season ranked No. 25, is ranked for the first time this season.\n\n\r\n              Princeton plays at Rhode Island on Sunday. Seton Hall hosts Maryland-Eastern Shore on Saturday.\n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

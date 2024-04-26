@@ -15560,54 +15560,37 @@
 }
 ],
 "article": {
-"dataSourceIdentifier": "24e378ed7bef0",
-"keywords": [],
-"description": "\u2014 Laila Phelia scored 23 points and sixth-seeded Michigan beat 11th-seeded Minnesota 76-57 to earn a berth in the quarterfinals of the Big Ten Women's basketball tournament Thursday night.",
-"source": "AP",
-"video": [],
-"type": "Recap",
-"nowId": "1-39680730",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39680730"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401629346"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401629346"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39680730"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401629346&version=mobile"
-}
-},
 "id": 39680730,
+"nowId": "1-39680730",
+"contentKey": "39680730-1-21-1",
+"dataSourceIdentifier": "24e378ed7bef0",
+"type": "Recap",
+"gameId": "401629346",
+"headline": "Phelia's 23 points lead Michigan past Minnesota 76-57, advance to Big Ten quarterfinals",
+"description": "\u2014 Laila Phelia scored 23 points and sixth-seeded Michigan beat 11th-seeded Minnesota 76-57 to earn a berth in the quarterfinals of the Big Ten Women's basketball tournament Thursday night.",
+"linkText": "Phelia's 23 points lead Michigan past Minnesota 76-57, advance to Big Ten quarterfinals",
+"categorized": "2024-04-12T09:12:31Z",
+"originallyPosted": "2024-03-08T05:03:59Z",
+"lastModified": "2024-03-08T05:03:59Z",
+"published": "2024-03-08T05:03:59Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -15615,110 +15598,152 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
-},
-{
-"id": 4780,
-"description": "Michigan Wolverines",
-"type": "team",
-"sportId": 54,
-"teamId": 130,
-"team": {
-"id": 130,
-"description": "Michigan Wolverines",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/130"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/130/michigan-wolverines"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=130"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:130"
 },
 {
 "id": 4781,
-"description": "Minnesota Golden Gophers",
 "type": "team",
+"uid": "s:40~l:54~t:135",
+"guid": "d5b49537-de99-7ec2-4ae3-24ec4c668204",
+"description": "Minnesota Golden Gophers",
 "sportId": 54,
 "teamId": 135,
 "team": {
 "id": 135,
 "description": "Minnesota Golden Gophers",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/135"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/135/minnesota-golden-gophers"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/135/minnesota-golden-gophers"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=135"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/135/minnesota-golden-gophers"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:135"
+{
+"id": 4780,
+"type": "team",
+"uid": "s:40~l:54~t:130",
+"guid": "3f4fa041-bfb1-d8d9-663b-64b40a6b2263",
+"description": "Michigan Wolverines",
+"sportId": 54,
+"teamId": 130,
+"team": {
+"id": 130,
+"description": "Michigan Wolverines",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/130/michigan-wolverines"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/130/michigan-wolverines"
+}
+}
+}
+}
+},
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "d5b49537-de99-7ec2-4ae3-24ec4c668204"
+},
+{
+"type": "guid",
+"guid": "3f4fa041-bfb1-d8d9-663b-64b40a6b2263"
+},
+{
+"type": "guid",
+"guid": "ce9252eb-418e-3542-865b-5113dacb4bf4"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
 }
 ],
-"headline": "Phelia's 23 points lead Michigan past Minnesota 76-57, advance to Big Ten quarterfinals",
-"gameId": "401629346",
-"images": [],
-"linkText": "Phelia's 23 points lead Michigan past Minnesota 76-57, advance to Big Ten quarterfinals",
-"published": "2024-03-08T05:03:59Z",
+"keywords": [
+"NCAA Women's Basketball",
+"Minnesota Golden Gophers",
+"Michigan Wolverines",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401629346"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39680730",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=24e378ed7bef0"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39680730"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2024-03-08T05:03:59Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              MINNEAPOLIS -- \u2014 Laila Phelia scored 23 points and sixth-seeded Michigan beat 11th-seeded Minnesota 76-57 to earn a berth in the quarterfinals of the Big Ten Women's basketball tournament Thursday night. \n\n\r\n              Michigan takes on No. 3 seed and 12th-ranked Indiana in the quarterfinals on Friday night. \n\n\r\n              Lauren Hansen hit two 3-pointers and a jumper to help Michigan to a 12-5 lead to start the game and the Wolverines built an 11-point lead after one quarter and Elise Stuck's jumper with 15 seconds left sent them into intermisson with a 37-24 advantage. Phelia opened the second half with a layup, a 3-pointer and a jumper to push the lead to 44-27 and Michigan pulled away steadily.\n\n\r\n              Phelia hit 2 of 3 from beyond the arc and was 7 of 8 from the line to lead Michigan (19-12). Hansen added 14 points and dished six assists and Cameron Williams added 11 points off the bench. The Wolverines hit 7 of 18 from 3-point range and was 13 of 17 from the free-throw line.\n\n\r\n              Amaya Battle scored 22 points to lead Minnesota (16-15). Freshman Ayianna Johnson had 12 points and grabbed seven rebounds and freshman Ajok Madol came off the bench to hit 2 of 4 from distance and add 11 points. The Gophers were 28 of 64 from the field, including 4 of 17 from deep.\n\n\r\n              ------\n\n\r\n              Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a>\n\n\r\n              ------\n\n\r\n              AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

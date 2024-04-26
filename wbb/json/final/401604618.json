@@ -22159,54 +22159,87 @@
 ]
 },
 "article": {
-"dataSourceIdentifier": "7d12903e61c25",
-"keywords": [],
-"description": "\u2014 Liza Karlen scored 19 points on 8-of-9 shooting and No. 23 Marquette dominated inside to roll to a 78-47 win over DePaul on Saturday night.",
-"source": "AP",
-"video": [],
-"type": "Recap",
+"id": 39304227,
 "nowId": "1-39304227",
-"premium": false,
-"related": [],
-"allowSearch": true,
+"contentKey": "39304227-1-21-1",
+"dataSourceIdentifier": "7d12903e61c25",
+"type": "Recap",
+"gameId": "401604618",
+"headline": "Karlen scores 19, No. 23 Marquette women use hot start to defeat DePaul 78-47",
+"description": "\u2014 Liza Karlen scored 19 points on 8-of-9 shooting and No. 23 Marquette dominated inside to roll to a 78-47 win over DePaul on Saturday night.",
+"linkText": "Karlen scores 19, No. 23 Marquette women use hot start to defeat DePaul 78-47",
+"categorized": "2024-04-12T07:58:03Z",
+"originallyPosted": "2024-01-14T04:22:01Z",
+"lastModified": "2024-01-14T04:22:01Z",
+"published": "2024-01-14T04:22:01Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
+"categories": [
+{
+"id": 4827,
+"type": "team",
+"uid": "s:40~l:54~t:269",
+"guid": "8f9d8c94-4ca4-eb27-c69b-2c569267ff58",
+"description": "Marquette Golden Eagles",
+"sportId": 54,
+"teamId": 269,
+"team": {
+"id": 269,
+"description": "Marquette Golden Eagles",
 "links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39304227"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401604618"
-}
-},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401604618"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39304227"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/269/marquette-golden-eagles"
 }
 },
 "mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401604618&version=mobile"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/269/marquette-golden-eagles"
+}
+}
+}
 }
 },
-"id": 39304227,
-"categories": [
+{
+"id": 4828,
+"type": "team",
+"uid": "s:40~l:54~t:305",
+"guid": "6783fc62-f2ab-711d-8c0c-edcb584947b4",
+"description": "DePaul Blue Demons",
+"sportId": 54,
+"teamId": 305,
+"team": {
+"id": 305,
+"description": "DePaul Blue Demons",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/305/depaul-blue-demons"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/305/depaul-blue-demons"
+}
+}
+}
+}
+},
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -22214,110 +22247,102 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
+}
 },
 {
-"id": 4827,
-"description": "Marquette Golden Eagles",
-"type": "team",
-"sportId": 54,
-"teamId": 269,
-"team": {
-"id": 269,
-"description": "Marquette Golden Eagles",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/269"
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/269/marquette-golden-eagles"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=269"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:269"
 },
 {
-"id": 4828,
-"description": "DePaul Blue Demons",
-"type": "team",
-"sportId": 54,
-"teamId": 305,
-"team": {
-"id": 305,
-"description": "DePaul Blue Demons",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/305"
-}
+"type": "guid",
+"guid": "8f9d8c94-4ca4-eb27-c69b-2c569267ff58"
 },
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/305/depaul-blue-demons"
-}
+{
+"type": "guid",
+"guid": "6783fc62-f2ab-711d-8c0c-edcb584947b4"
 },
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=305"
-}
-}
-}
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
 },
-"uid": "s:40~l:54~t:305"
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "6318f266-cc7e-390a-af53-9dcc7e662e83"
 }
 ],
-"headline": "Karlen scores 19, No. 23 Marquette women use hot start to defeat DePaul 78-47",
-"gameId": "401604618",
-"images": [],
-"linkText": "Karlen scores 19, No. 23 Marquette women use hot start to defeat DePaul 78-47",
-"published": "2024-01-14T04:22:01Z",
+"keywords": [
+"Marquette Golden Eagles",
+"DePaul Blue Demons",
+"NCAA Women's Basketball",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401604618"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39304227",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=7d12903e61c25"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39304227"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2024-01-14T04:22:01Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              MILWAUKEE, Wis. -- \u2014 Liza Karlen scored 19 points on 8-of-9 shooting and No. 23 Marquette dominated inside to roll to a 78-47 win over DePaul on Saturday night.\n\n\r\n              The Golden Eagles shot 57% (32 of 56), had a 39-28 edge in rebounding and a 44-18 advantage in points in the paint. The inside-points edge in the first half was 22-2. The Golden Eagles took a 38-18 lead into halftime despite a long cold stretch to close out the second quarter.\n\n\r\n              Jordan King had 16 points for Marquette (15-2, 4-2 Big East Conference) and Rose Nkumu scored 12 with nine assists.\n\n\r\n              Shakara McCline had 13 points for the Blue Demons (9-9, 1-4) and Anaya Peoples had 10. DePaul shot 27% and had 20 turnovers.\n\n\r\n              Karlen had 10 points in the first quarter when the Golden Eagles sank 10 of 17 shots to race to a 24-9 lead.\n\n\r\n              McCline stopped an 8-0 Marquette run by closing the first quarter with a 3-pointer and hit another to open the second. But the Golden Eagles went on a 12-0 run for a 36-12 lead.\n\n\r\n              The second 3-pointer was DePaul's last basket of the half as the Blue Demons followed up 3-of-16 shooting in the first quarter with a 1-for-13 effort in the second, shooting 14% for the half. However, Marquette only had one basket after taking the 24-point lead and didn't score for the final 3:41. That still left the Golden Eagles at 52%.\n\n\r\n              The Golden Eagles rediscovered their shooting touch in the third quarter, making 9 of 14 shots, including three 3s, to stretch the lead to 61-33.\n\n\r\n              Marquette plays at Villanova on Wednesday. Xavier is at DePaul on Tuesday.\n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

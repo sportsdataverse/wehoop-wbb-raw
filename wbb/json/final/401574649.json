@@ -4077,54 +4077,37 @@
 ]
 },
 "article": {
-"dataSourceIdentifier": "d6a5d86484abf",
-"keywords": [],
-"description": "\u2014 North Carolina State is carrying forward the momentum from its win over then-No. 2 UConn and a return to the top 10 in The Associated Press Top 25.",
-"source": "AP",
-"video": [],
-"type": "Recap",
-"nowId": "1-38966579",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/38966579"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401574649"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401574649"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=38966579"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401574649&version=mobile"
-}
-},
 "id": 38966579,
+"nowId": "1-38966579",
+"contentKey": "38966579-1-21-1",
+"dataSourceIdentifier": "d6a5d86484abf",
+"type": "Recap",
+"gameId": "401574649",
+"headline": "No. 10 NC State takes command early, beats Kentucky 84-55 at Paradise Jam",
+"description": "\u2014 North Carolina State is carrying forward the momentum from its win over then-No. 2 UConn and a return to the top 10 in The Associated Press Top 25.",
+"linkText": "No. 10 NC State takes command early, beats Kentucky 84-55 at Paradise Jam",
+"categorized": "2024-04-12T06:55:21Z",
+"originallyPosted": "2023-11-23T22:45:54Z",
+"lastModified": "2023-11-23T23:04:02Z",
+"published": "2023-11-23T22:45:54Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -4132,110 +4115,152 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
-},
-{
-"id": 4729,
-"description": "NC State Wolfpack",
-"type": "team",
-"sportId": 54,
-"teamId": 152,
-"team": {
-"id": 152,
-"description": "NC State Wolfpack",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/152"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/152/nc-state-wolfpack"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=152"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:152"
 },
 {
 "id": 132063,
-"description": "Kentucky Wildcats",
 "type": "team",
+"uid": "s:40~l:54~t:96",
+"guid": "7b8166a0-b6df-d465-7e16-64d5933ba54c",
+"description": "Kentucky Wildcats",
 "sportId": 54,
 "teamId": 96,
 "team": {
 "id": 96,
 "description": "Kentucky Wildcats",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/96"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/96/kentucky-wildcats"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/96/kentucky-wildcats"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=96"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/96/kentucky-wildcats"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:96"
+{
+"id": 4729,
+"type": "team",
+"uid": "s:40~l:54~t:152",
+"guid": "b88f30e4-25c8-4010-c64b-87cccabdd6d4",
+"description": "NC State Wolfpack",
+"sportId": 54,
+"teamId": 152,
+"team": {
+"id": 152,
+"description": "NC State Wolfpack",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/152/nc-state-wolfpack"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/152/nc-state-wolfpack"
+}
+}
+}
+}
+},
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "7b8166a0-b6df-d465-7e16-64d5933ba54c"
+},
+{
+"type": "guid",
+"guid": "b88f30e4-25c8-4010-c64b-87cccabdd6d4"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "c44cb851-09e4-3e51-bf46-2bfaa92b33c9"
 }
 ],
-"headline": "No. 10 NC State takes command early, beats Kentucky 84-55 at Paradise Jam",
-"gameId": "401574649",
-"images": [],
-"linkText": "No. 10 NC State takes command early, beats Kentucky 84-55 at Paradise Jam",
-"published": "2023-11-23T22:45:54Z",
+"keywords": [
+"NCAA Women's Basketball",
+"Kentucky Wildcats",
+"NC State Wolfpack",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401574649"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=38966579",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=d6a5d86484abf"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=38966579"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-11-23T23:04:02Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              ST. THOMAS, U.S. Virgin Islands -- \u2014 North Carolina State is carrying forward the momentum from its win over then-No. 2 UConn and a return to the top 10 in The Associated Press Top 25.\n\n\r\n              Madison Hayes scored 15 points and No. 10 North Carolina State took command early in an 84-55 rout of Kentucky on Thursday at the Paradise Jam tournament.\n\n\r\n              Hayes made three 3-pointers and was 5 of 6 overall from the field for the undefeated Wolfpack (5-0), who had three other players score in double figures against the outmanned Wildcats (2-3).\n\n\r\n              \u201cDoing this against a Power 5 team is an accomplishment,\u201d Wolfpack head coach Wes Moore said. \u201cI\u2019m proud of the way they came out. You never know \u2014 they\u2019ve been here a couple days on a catamaran or by the pool, then you have to switch gears. But I\u2019m proud of the way they came out ready to play.\u201d\n\n\r\n              Saniya Rivers had 13 points for N.C. State, with River Baldwin adding 11 points and Mimi Collins 10 as the Wolfpack led by as many as 41 points late in the third quarter.\n\n\r\n              \u201cThey all came out ready to go,\u201d Moore said. \u201cThey really pull for each other, and have their teammates have some success. They\u2019re being very unselfish and playing well together. That makes this exciting.\u201d\n\n\r\n              Ajae Petty, Saniah Tyler and Eniya Russell each finished with nine points for Kentucky.\n\n\r\n              The Wolfpack shot a season-best 54.8% from the field (34 of 62) in building leads of 31-16 after the first quarter and 55-24 at the halftime break.\n\n\r\n              N.C. State\u2019s biggest lead came in the closing seconds of the third quarter when Rivers\u2019 layup put the Wolfpack ahead 76-34.\n\n\r\n              \u201cWe probably took quick shots early, and didn\u2019t settle in defensively,\u201d Wildcats head coach Kyra Elzy said. \u201cIt just took us too long to get in the flow offensively.\u201d\n\n\r\n              BIG PICTURE\n\n\r\n              N.C. State: A dominating performance for the Wolfpack, who made their return to the top 10 earlier this week. This was their third win of the season by 40 or more points.\n\n\r\n              Kentucky: The Wildcats looked out of sorts offensively and defensively in their first AP Top 25 matchup this season. Things will have to improve before they begin Southeastern Conference play in six weeks.\n\n\r\n              UP NEXT\n\n\r\n              N.C. State: Faces Cincinnati on Friday in the teams\u2019 second Island Division game at the Paradise Jam.\n\n\r\n              Kentucky: Takes on its first AP Top 25 team this season, playing No. 3 Colorado on Friday.\n\n\r\n              ------\n\n\r\n              Get poll alerts and updates on AP Top 25 basketball throughout the season. Sign up here\n\n\r\n              ------\n\n\r\n              AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

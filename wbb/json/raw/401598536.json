@@ -13734,54 +13734,37 @@
 }
 ],
 "article": {
-"dataSourceIdentifier": "2352166a62fb5",
-"keywords": [],
-"description": "\u2014 In high school just a few miles away from where she became a surprising Stanford star, Hannah Jump worked tirelessly to develop her quick release and signature hop she takes when releasing a 3-point shot.",
-"source": "AP",
-"video": [],
-"type": "Recap",
-"nowId": "1-39156921",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39156921"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401598536"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401598536"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39156921"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401598536&version=mobile"
-}
-},
 "id": 39156921,
+"nowId": "1-39156921",
+"contentKey": "39156921-1-21-1",
+"dataSourceIdentifier": "2352166a62fb5",
+"type": "Recap",
+"gameId": "401598536",
+"headline": "Hannah Jump becomes Stanford's career 3-point leader as No. 9 Cardinal top UC Davis 92-52",
+"description": "\u2014 In high school just a few miles away from where she became a surprising Stanford star, Hannah Jump worked tirelessly to develop her quick release and signature hop she takes when releasing a 3-point shot.",
+"linkText": "Hannah Jump becomes Stanford's career 3-point leader as No. 9 Cardinal top UC Davis 92-52",
+"categorized": "2024-04-12T07:29:27Z",
+"originallyPosted": "2023-12-20T22:49:54Z",
+"lastModified": "2023-12-20T23:34:04Z",
+"published": "2023-12-20T22:49:54Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -13789,110 +13772,152 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
-},
-{
-"id": 4917,
-"description": "Stanford Cardinal",
-"type": "team",
-"sportId": 54,
-"teamId": 24,
-"team": {
-"id": 24,
-"description": "Stanford Cardinal",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/24"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/24/stanford-cardinal"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=24"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:24"
 },
 {
 "id": 28488,
-"description": "UC Davis Aggies",
 "type": "team",
+"uid": "s:40~l:54~t:302",
+"guid": "62a0afcc-639d-4166-738b-0ef067a42f55",
+"description": "UC Davis Aggies",
 "sportId": 54,
 "teamId": 302,
 "team": {
 "id": 302,
 "description": "UC Davis Aggies",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/302"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/302/uc-davis-aggies"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/302/uc-davis-aggies"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=302"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/302/uc-davis-aggies"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:302"
+{
+"id": 4917,
+"type": "team",
+"uid": "s:40~l:54~t:24",
+"guid": "7fadb11c-86d6-4d16-b273-4948586be788",
+"description": "Stanford Cardinal",
+"sportId": 54,
+"teamId": 24,
+"team": {
+"id": 24,
+"description": "Stanford Cardinal",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/24/stanford-cardinal"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/24/stanford-cardinal"
+}
+}
+}
+}
+},
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "62a0afcc-639d-4166-738b-0ef067a42f55"
+},
+{
+"type": "guid",
+"guid": "7fadb11c-86d6-4d16-b273-4948586be788"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "35a5f96f-b31f-323b-8f1f-3da07c606fa5"
 }
 ],
-"headline": "Hannah Jump becomes Stanford's career 3-point leader as No. 9 Cardinal top UC Davis 92-52",
-"gameId": "401598536",
-"images": [],
-"linkText": "Hannah Jump becomes Stanford's career 3-point leader as No. 9 Cardinal top UC Davis 92-52",
-"published": "2023-12-20T22:49:54Z",
+"keywords": [
+"NCAA Women's Basketball",
+"UC Davis Aggies",
+"Stanford Cardinal",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401598536"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39156921",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=2352166a62fb5"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39156921"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-12-20T23:34:04Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              SAN FRANCISCO -- \u2014 In high school just a few miles away from where she became a surprising Stanford star, Hannah Jump worked tirelessly to develop her quick release and signature hop she takes when releasing a 3-point shot.\n\n\r\n              All of those things have helped make her elite from behind the arc.\n\n\r\n              Jump became Stanford's career 3-point leader when she hit from deep in the first quarter, and Kiki Iriafen had 20 points and 11 rebounds as No. 9 Stanford powered past Northern California neighbor UC Davis 92-52 on Wednesday. \n\n\r\n              \u201cThere\u2019s a lot of great shooters that have played at Stanford and it really is an honor to play after them,\u201d Jump said, \u201cand every time we play for them as well.\u201d\n\n\r\n              Her brother Sam, a medical school student at Penn State, was among her family and friends in the stands for the big day. \n\n\r\n              Cameron Brink added 21 points, four rebounds and two blocked shots as the Cardinal (10-1) moved Hall of Fame coach Tara VanDerveer seven victories from becoming the winningest college coach ever.\n\n\r\n              Elena Bosgana added 14 points and six rebounds as Stanford finished with six players scoring in double figures. The Cardinal used a 22-3 run to take control over 7 minutes, 16 seconds in the second quarter.\n\n\r\n              Jump connected at the 5:15 mark of the opening period to pass Kiana Williams for most 3s in Stanford history and is now 61 from breaking the Pac-12 record of 373 set by Sydney Wiese of Oregon State. \n\n\r\n              \u201cCongratulations to Hannah to break the Stanford 3-point record, which is just an incredible accomplishment considering all the great 3-point shooters we\u2019ve had at Stanford,\u201d VanDerveer said. \n\n\r\n              \u201cHannah decided that she wanted to be a great player. It wasn\u2019t my decision. She put the work in,\u201d she said.\n\n\r\n              Williams played 4,336 career minutes, while fifth-year guard Jump is now at 3,072. She is a grad student working toward a master's degree in communication and media studies. A congratulatory video message from Williams <a href=\"https://twitter.com/JanieMcCAP/status/1737586507823636709\">showed on the big screen</a> during a second-quarter timeout.\n\n\r\n              Evanne Turner scored 17 points to lead the cold-shooting Aggies (4-6), picked to place third in the Big West Conference. UC Davis committed seven turnovers over the final 7:46 off the first half and went 1 for 8 from the floor to fall behind 60-25 at intermission.\n\n\r\n              The Aggies then had a 1-for-10 stretch in the third. Second-leading scorer Tova Sabel, averaging 13.2 points come into the game, finished with 11 points on 4-of-15 shooting with three 3s.\n\n\r\n              Stanford converted 21 UC Davis turnovers into 24 points.\n\n\r\n              BIG PICTURE\n\n\r\n              VanDerveer earned her 1,196th career victory over 45 years as a head coach and in her 38th at Stanford. She is closing in on Mike Krzyzewski's record of 1,202 to become the all-time winningest coach \u2014 of men or women.\n\n\r\n              VanDerveer is 15-0 against UC Davis.\n\n\r\n              BRINK'S BLOCKS\n\n\r\n              Already Stanford's career blocked shot leader, Brink has swatted 36 shots this season and is the nation\u2019s active career blocks leader with 333.\n\n\r\n              UP NEXT\n\n\r\n              UC Davis: At UC Barbara on Dec. 28.\n\n\r\n              Stanford: At rival California in Berkeley on Dec. 29.\n\n\r\n              ------\n\n\r\n              AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

@@ -26695,3 +26695,219 @@ Error originated just after this operation:
 DF []; PROJECT */0 COLUMNS; SELECTION: "None"
 INFO:__main__:12.956002322832743 minutes to download 5908 game play-by-plays.
 INFO:__main__:Finished WBB PBP for 2024...
+INFO:__main__:Scraping WBB schedules for year 2024...
+INFO:__main__:2.7411179343859353 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping WBB PBP for 2024...
+INFO:__main__:Number of Games: 5908
+ERROR:__main__:Exception: game_id = 401603311
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 104, in helper_wbb_pbp
+    pbp_txt = helper_wbb_pbp_features(game_id, pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 231, in helper_wbb_pbp_features
+    pbp_txt["plays"]
+  File "/usr/local/lib/python3.8/dist-packages/polars/dataframe/frame.py", line 7631, in with_columns
+    self.lazy()
+  File "/usr/local/lib/python3.8/dist-packages/polars/utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/polars/lazyframe/frame.py", line 1695, in collect
+    return wrap_df(ldf.collect())
+exceptions.ColumnNotFoundError: id
+
+Error originated just after this operation:
+DF []; PROJECT */0 COLUMNS; SELECTION: "None"
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 104, in helper_wbb_pbp
+    pbp_txt = helper_wbb_pbp_features(game_id, pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 231, in helper_wbb_pbp_features
+    pbp_txt["plays"]
+  File "/usr/local/lib/python3.8/dist-packages/polars/dataframe/frame.py", line 7631, in with_columns
+    self.lazy()
+  File "/usr/local/lib/python3.8/dist-packages/polars/utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/polars/lazyframe/frame.py", line 1695, in collect
+    return wrap_df(ldf.collect())
+exceptions.ColumnNotFoundError: id
+
+Error originated just after this operation:
+DF []; PROJECT */0 COLUMNS; SELECTION: "None"
+ERROR:__main__:Exception: game_id = 401603314
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 104, in helper_wbb_pbp
+    pbp_txt = helper_wbb_pbp_features(game_id, pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 231, in helper_wbb_pbp_features
+    pbp_txt["plays"]
+  File "/usr/local/lib/python3.8/dist-packages/polars/dataframe/frame.py", line 7631, in with_columns
+    self.lazy()
+  File "/usr/local/lib/python3.8/dist-packages/polars/utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/polars/lazyframe/frame.py", line 1695, in collect
+    return wrap_df(ldf.collect())
+exceptions.ColumnNotFoundError: id
+
+Error originated just after this operation:
+DF []; PROJECT */0 COLUMNS; SELECTION: "None"
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 104, in helper_wbb_pbp
+    pbp_txt = helper_wbb_pbp_features(game_id, pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 231, in helper_wbb_pbp_features
+    pbp_txt["plays"]
+  File "/usr/local/lib/python3.8/dist-packages/polars/dataframe/frame.py", line 7631, in with_columns
+    self.lazy()
+  File "/usr/local/lib/python3.8/dist-packages/polars/utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/polars/lazyframe/frame.py", line 1695, in collect
+    return wrap_df(ldf.collect())
+exceptions.ColumnNotFoundError: id
+
+Error originated just after this operation:
+DF []; PROJECT */0 COLUMNS; SELECTION: "None"
+ERROR:__main__:Exception: game_id = 401573790
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 104, in helper_wbb_pbp
+    pbp_txt = helper_wbb_pbp_features(game_id, pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 231, in helper_wbb_pbp_features
+    pbp_txt["plays"]
+  File "/usr/local/lib/python3.8/dist-packages/polars/dataframe/frame.py", line 7631, in with_columns
+    self.lazy()
+  File "/usr/local/lib/python3.8/dist-packages/polars/utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/polars/lazyframe/frame.py", line 1695, in collect
+    return wrap_df(ldf.collect())
+exceptions.ColumnNotFoundError: id
+
+Error originated just after this operation:
+DF []; PROJECT */0 COLUMNS; SELECTION: "None"
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 104, in helper_wbb_pbp
+    pbp_txt = helper_wbb_pbp_features(game_id, pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 231, in helper_wbb_pbp_features
+    pbp_txt["plays"]
+  File "/usr/local/lib/python3.8/dist-packages/polars/dataframe/frame.py", line 7631, in with_columns
+    self.lazy()
+  File "/usr/local/lib/python3.8/dist-packages/polars/utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/polars/lazyframe/frame.py", line 1695, in collect
+    return wrap_df(ldf.collect())
+exceptions.ColumnNotFoundError: id
+
+Error originated just after this operation:
+DF []; PROJECT */0 COLUMNS; SELECTION: "None"
+ERROR:__main__:Exception: game_id = 401588256
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 104, in helper_wbb_pbp
+    pbp_txt = helper_wbb_pbp_features(game_id, pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 231, in helper_wbb_pbp_features
+    pbp_txt["plays"]
+  File "/usr/local/lib/python3.8/dist-packages/polars/dataframe/frame.py", line 7631, in with_columns
+    self.lazy()
+  File "/usr/local/lib/python3.8/dist-packages/polars/utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/polars/lazyframe/frame.py", line 1695, in collect
+    return wrap_df(ldf.collect())
+exceptions.ColumnNotFoundError: id
+
+Error originated just after this operation:
+DF []; PROJECT */0 COLUMNS; SELECTION: "None"
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 104, in helper_wbb_pbp
+    pbp_txt = helper_wbb_pbp_features(game_id, pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 231, in helper_wbb_pbp_features
+    pbp_txt["plays"]
+  File "/usr/local/lib/python3.8/dist-packages/polars/dataframe/frame.py", line 7631, in with_columns
+    self.lazy()
+  File "/usr/local/lib/python3.8/dist-packages/polars/utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/polars/lazyframe/frame.py", line 1695, in collect
+    return wrap_df(ldf.collect())
+exceptions.ColumnNotFoundError: id
+
+Error originated just after this operation:
+DF []; PROJECT */0 COLUMNS; SELECTION: "None"
+ERROR:__main__:Exception: game_id = 401600579
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 104, in helper_wbb_pbp
+    pbp_txt = helper_wbb_pbp_features(game_id, pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 231, in helper_wbb_pbp_features
+    pbp_txt["plays"]
+  File "/usr/local/lib/python3.8/dist-packages/polars/dataframe/frame.py", line 7631, in with_columns
+    self.lazy()
+  File "/usr/local/lib/python3.8/dist-packages/polars/utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/polars/lazyframe/frame.py", line 1695, in collect
+    return wrap_df(ldf.collect())
+exceptions.ColumnNotFoundError: id
+
+Error originated just after this operation:
+DF []; PROJECT */0 COLUMNS; SELECTION: "None"
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 104, in helper_wbb_pbp
+    pbp_txt = helper_wbb_pbp_features(game_id, pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 231, in helper_wbb_pbp_features
+    pbp_txt["plays"]
+  File "/usr/local/lib/python3.8/dist-packages/polars/dataframe/frame.py", line 7631, in with_columns
+    self.lazy()
+  File "/usr/local/lib/python3.8/dist-packages/polars/utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/polars/lazyframe/frame.py", line 1695, in collect
+    return wrap_df(ldf.collect())
+exceptions.ColumnNotFoundError: id
+
+Error originated just after this operation:
+DF []; PROJECT */0 COLUMNS; SELECTION: "None"
+ERROR:__main__:Exception: game_id = 401603640
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 104, in helper_wbb_pbp
+    pbp_txt = helper_wbb_pbp_features(game_id, pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 231, in helper_wbb_pbp_features
+    pbp_txt["plays"]
+  File "/usr/local/lib/python3.8/dist-packages/polars/dataframe/frame.py", line 7631, in with_columns
+    self.lazy()
+  File "/usr/local/lib/python3.8/dist-packages/polars/utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/polars/lazyframe/frame.py", line 1695, in collect
+    return wrap_df(ldf.collect())
+exceptions.ColumnNotFoundError: id
+
+Error originated just after this operation:
+DF []; PROJECT */0 COLUMNS; SELECTION: "None"
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 104, in helper_wbb_pbp
+    pbp_txt = helper_wbb_pbp_features(game_id, pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 231, in helper_wbb_pbp_features
+    pbp_txt["plays"]
+  File "/usr/local/lib/python3.8/dist-packages/polars/dataframe/frame.py", line 7631, in with_columns
+    self.lazy()
+  File "/usr/local/lib/python3.8/dist-packages/polars/utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/polars/lazyframe/frame.py", line 1695, in collect
+    return wrap_df(ldf.collect())
+exceptions.ColumnNotFoundError: id
+
+Error originated just after this operation:
+DF []; PROJECT */0 COLUMNS; SELECTION: "None"
+INFO:__main__:13.065119727452595 minutes to download 5908 game play-by-plays.
+INFO:__main__:Finished WBB PBP for 2024...

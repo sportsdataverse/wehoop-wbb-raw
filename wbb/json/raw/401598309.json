@@ -2742,54 +2742,37 @@
 },
 "plays": [],
 "article": {
-"dataSourceIdentifier": "05b9c662914fa",
-"keywords": [],
-"description": "\u2014 O\u2019Mariah Gordon scored 21 points, Makayla Timpson added 18 points and No. 18 Florida State began the season with a 99-63 victory over Charleston Southern on Monday night.",
-"source": "AP",
-"video": [],
-"type": "Recap",
-"nowId": "1-38835969",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/38835969"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401598309"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401598309"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=38835969"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401598309&version=mobile"
-}
-},
 "id": 38835969,
+"nowId": "1-38835969",
+"contentKey": "38835969-1-21-1",
+"dataSourceIdentifier": "05b9c662914fa",
+"type": "Recap",
+"gameId": "401598309",
+"headline": "No. 18 Florida State women begin season with 99-63 victory over Charleston Southern",
+"description": "\u2014 O\u2019Mariah Gordon scored 21 points, Makayla Timpson added 18 points and No. 18 Florida State began the season with a 99-63 victory over Charleston Southern on Monday night.",
+"linkText": "No. 18 Florida State women begin season with 99-63 victory over Charleston Southern",
+"categorized": "2024-04-12T06:34:03Z",
+"originallyPosted": "2023-11-07T01:20:54Z",
+"lastModified": "2023-11-07T01:20:55Z",
+"published": "2023-11-07T01:20:54Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -2797,110 +2780,152 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
+}
 },
 {
 "id": 4725,
-"description": "Florida State Seminoles",
 "type": "team",
+"uid": "s:40~l:54~t:52",
+"guid": "686a0ce2-669d-9094-be57-c24bbf71159b",
+"description": "Florida State Seminoles",
 "sportId": 54,
 "teamId": 52,
 "team": {
 "id": 52,
 "description": "Florida State Seminoles",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/52"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=52"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles"
 }
 }
 }
-},
-"uid": "s:40~l:54~t:52"
+}
 },
 {
 "id": 4770,
-"description": "Charleston Southern Buccaneers",
 "type": "team",
+"uid": "s:40~l:54~t:2127",
+"guid": "a9ee0b15-59f5-378f-0236-a08876a0c558",
+"description": "Charleston Southern Buccaneers",
 "sportId": 54,
 "teamId": 2127,
 "team": {
 "id": 2127,
 "description": "Charleston Southern Buccaneers",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2127"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2127/charleston-southern-buccaneers"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2127/charleston-southern-buccaneers"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2127"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2127/charleston-southern-buccaneers"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:2127"
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "686a0ce2-669d-9094-be57-c24bbf71159b"
+},
+{
+"type": "guid",
+"guid": "a9ee0b15-59f5-378f-0236-a08876a0c558"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "4a3c31b0-a449-388c-9e52-e34625f049dc"
 }
 ],
-"headline": "No. 18 Florida State women begin season with 99-63 victory over Charleston Southern",
-"gameId": "401598309",
-"images": [],
-"linkText": "No. 18 Florida State women begin season with 99-63 victory over Charleston Southern",
-"published": "2023-11-07T01:20:54Z",
+"keywords": [
+"NCAA Women's Basketball",
+"Florida State Seminoles",
+"Charleston Southern Buccaneers",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401598309"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=38835969",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=05b9c662914fa"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=38835969"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-11-07T01:20:55Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              TALLAHASSEE, Fla. -- \u2014 O\u2019Mariah Gordon scored 21 points, Makayla Timpson added 18 points and No. 18 Florida State began the season with a 99-63 victory over Charleston Southern on Monday night.\n\n\r\n              FSU has won 29 of its last 30 season openers and is 42-10 all-time in season-opening games. The Seminoles lead Charleston Southern 4-0 all-time, including an 83-32 victory in the last meeting during the 2021 season.\n\n\r\n              Amaya Bonner had 15 points, Alexis Tucker scored 14 and Sara Bejedi added 10 for Florida State. Gordon finished in double-figure scoring for the 18th time in her career.\n\n\r\n              Florida State scored 11 unanswered points in the first quarter to build a 29-13 lead. Bonner scored five straight points to begin a 10-0 run in the second quarter to make it 44-17. The Seminoles extended their lead to 43 points after opening the third on a 12-2 run to make it 70-27.\n\n\r\n              Alba Garcia led Charlston Southern with 19 points.\n\n\r\n              The Seminoles host No. 11 Tennessee on Thursday. Charleston Southern faces another Power Five program on Friday against Clemson.\n\n\r\n              ------\n\n\r\n              Get poll alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a>\n\n\r\n              ------\n\n\r\n              AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

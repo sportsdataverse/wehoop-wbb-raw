@@ -15559,54 +15559,37 @@
 }
 ],
 "article": {
-"dataSourceIdentifier": "f90a2cefeb082",
-"keywords": [],
-"description": "\u2014 Bella Murekatete scored 10 of her 16 points in the first quarter, Eleonora Villa added 12 points and No. 24 Washington State beat Idaho State 64-47 Sunday.",
-"source": "AP",
-"video": [],
-"type": "Recap",
-"nowId": "1-38886000",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/38886000"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401601120"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401601120"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=38886000"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401601120&version=mobile"
-}
-},
 "id": 38886000,
+"nowId": "1-38886000",
+"contentKey": "38886000-1-21-1",
+"dataSourceIdentifier": "f90a2cefeb082",
+"type": "Recap",
+"gameId": "401601120",
+"headline": "Bella Murekatete scores 16, No. 24 Washington St. women beat Idaho State 64-47",
+"description": "\u2014 Bella Murekatete scored 10 of her 16 points in the first quarter, Eleonora Villa added 12 points and No. 24 Washington State beat Idaho State 64-47 Sunday.",
+"linkText": "Bella Murekatete scores 16, No. 24 Washington St. women beat Idaho State 64-47",
+"categorized": "2024-04-12T06:41:46Z",
+"originallyPosted": "2023-11-13T00:53:54Z",
+"lastModified": "2023-11-13T01:08:55Z",
+"published": "2023-11-13T00:53:54Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -15614,110 +15597,152 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
-},
-{
-"id": 4923,
-"description": "Washington State Cougars",
-"type": "team",
-"sportId": 54,
-"teamId": 265,
-"team": {
-"id": 265,
-"description": "Washington State Cougars",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/265"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/265/washington-state-cougars"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=265"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:265"
 },
 {
 "id": 4763,
-"description": "Idaho State Bengals",
 "type": "team",
+"uid": "s:40~l:54~t:304",
+"guid": "37814bbd-ed2e-5e4c-08ee-7110f9f7b235",
+"description": "Idaho State Bengals",
 "sportId": 54,
 "teamId": 304,
 "team": {
 "id": 304,
 "description": "Idaho State Bengals",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/304"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/304/idaho-state-bengals"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/304/idaho-state-bengals"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=304"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/304/idaho-state-bengals"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:304"
+{
+"id": 4923,
+"type": "team",
+"uid": "s:40~l:54~t:265",
+"guid": "38bff782-82d4-a032-5363-bfacd1da4ec2",
+"description": "Washington State Cougars",
+"sportId": 54,
+"teamId": 265,
+"team": {
+"id": 265,
+"description": "Washington State Cougars",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/265/washington-state-cougars"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/265/washington-state-cougars"
+}
+}
+}
+}
+},
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "37814bbd-ed2e-5e4c-08ee-7110f9f7b235"
+},
+{
+"type": "guid",
+"guid": "38bff782-82d4-a032-5363-bfacd1da4ec2"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "23be0b21-5187-3311-8b3a-38be97c39fb4"
 }
 ],
-"headline": "Bella Murekatete scores 16, No. 24 Washington St. women beat Idaho State 64-47",
-"gameId": "401601120",
-"images": [],
-"linkText": "Bella Murekatete scores 16, No. 24 Washington St. women beat Idaho State 64-47",
-"published": "2023-11-13T00:53:54Z",
+"keywords": [
+"NCAA Women's Basketball",
+"Idaho State Bengals",
+"Washington State Cougars",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401601120"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=38886000",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=f90a2cefeb082"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=38886000"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-11-13T01:08:55Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              PULLMAN, Wash. -- \u2014 Bella Murekatete scored 10 of her 16 points in the first quarter, Eleonora Villa added 12 points and No. 24 Washington State beat Idaho State 64-47 Sunday. \n\n\r\n              Murekatete made 7 of 12 from the field and finished with seven rebounds, three steals and two blocks. Tara Wallack added 10 points and five assists for Washington State (3-0). \n\n\r\n              Tasia Jordan scored in the lane for Idaho State 13 seconds into the game before Murekatete scored six points and Beyonce Bea made back-to-back baskets in a 13-2 run that gave Washington State a nine-point lead when Charlisse Leger-Walker made 1 of 2 from the free-throw line with 4:47 left in the first quarter. Alex Covill scored in the paint to make it 23-13 at the end of the period and the Cougars led by double figures the rest of the way. \n\n\r\n              Idaho State (1-1) shot just 1 of 11 from the field, committed five turnovers and was outscored 15-4 in the second quarter. Kyra Gardner hit a 3-pointer that made it 38-17 going into halftime and the Bengals trailed by at least 20 throughout the second half.\n\n\r\n              Jordan led Idaho State with 10 points and Laura Bello grabbed 11 rebounds with nine points and two steals. \n\n\r\n              Leger-Walker scored six points on 2-of-10 shooting, 0 for 7 from 3-point range. The three-time first-team all-Pac-12 selection has scored in single digits twice this season, matching her total from last season. The 5-foot-10 senior has 1,503 career points and moved past Jonni Gray, who scored 1,500 from 1985-89, into sixth on program's all-time list. \n\n\r\n              Idaho State returns home to play UC Santa Barbara on Wednesday. Washington State plays its first road game of the season Tuesday at Montana. \n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

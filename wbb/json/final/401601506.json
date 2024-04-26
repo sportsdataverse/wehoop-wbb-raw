@@ -25419,54 +25419,87 @@
 ]
 },
 "article": {
-"dataSourceIdentifier": "2cc0a1c90bc35",
-"keywords": [],
-"description": "\u2014 Caitlin Clark has so many awards, she's not sure where all of them are at.",
-"source": "AP",
-"video": [],
-"type": "Recap",
+"id": 39211126,
 "nowId": "1-39211126",
-"premium": false,
-"related": [],
-"allowSearch": true,
+"contentKey": "39211126-1-21-1",
+"dataSourceIdentifier": "2cc0a1c90bc35",
+"type": "Recap",
+"gameId": "401601506",
+"headline": "Caitlin Clark becomes Big Ten's all-time assist leader, No. 4 Iowa women beat Minnesota 94-71",
+"description": "\u2014 Caitlin Clark has so many awards, she's not sure where all of them are at.",
+"linkText": "Caitlin Clark becomes Big Ten's all-time assist leader, No. 4 Iowa women beat Minnesota 94-71",
+"categorized": "2024-04-12T07:39:59Z",
+"originallyPosted": "2023-12-30T21:17:57Z",
+"lastModified": "2023-12-30T22:54:55Z",
+"published": "2023-12-30T21:17:57Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
+"categories": [
+{
+"id": 4781,
+"type": "team",
+"uid": "s:40~l:54~t:135",
+"guid": "d5b49537-de99-7ec2-4ae3-24ec4c668204",
+"description": "Minnesota Golden Gophers",
+"sportId": 54,
+"teamId": 135,
+"team": {
+"id": 135,
+"description": "Minnesota Golden Gophers",
 "links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39211126"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401601506"
-}
-},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401601506"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39211126"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/135/minnesota-golden-gophers"
 }
 },
 "mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401601506&version=mobile"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/135/minnesota-golden-gophers"
+}
+}
+}
 }
 },
-"id": 39211126,
-"categories": [
+{
+"id": 4786,
+"type": "team",
+"uid": "s:40~l:54~t:2294",
+"guid": "9bed1254-7827-ba24-ba79-d07a473d1591",
+"description": "Iowa Hawkeyes",
+"sportId": 54,
+"teamId": 2294,
+"team": {
+"id": 2294,
+"description": "Iowa Hawkeyes",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
+}
+}
+}
+}
+},
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -25474,110 +25507,102 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
+}
 },
 {
-"id": 4786,
-"description": "Iowa Hawkeyes",
-"type": "team",
-"sportId": 54,
-"teamId": 2294,
-"team": {
-"id": 2294,
-"description": "Iowa Hawkeyes",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2294"
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2294"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:2294"
 },
 {
-"id": 4781,
-"description": "Minnesota Golden Gophers",
-"type": "team",
-"sportId": 54,
-"teamId": 135,
-"team": {
-"id": 135,
-"description": "Minnesota Golden Gophers",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/135"
-}
+"type": "guid",
+"guid": "d5b49537-de99-7ec2-4ae3-24ec4c668204"
 },
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/135/minnesota-golden-gophers"
-}
+{
+"type": "guid",
+"guid": "9bed1254-7827-ba24-ba79-d07a473d1591"
 },
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=135"
-}
-}
-}
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
 },
-"uid": "s:40~l:54~t:135"
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "6554cb5b-cabd-35bb-84a4-4c9923278680"
 }
 ],
-"headline": "Caitlin Clark becomes Big Ten's all-time assist leader, No. 4 Iowa women beat Minnesota 94-71",
-"gameId": "401601506",
-"images": [],
-"linkText": "Caitlin Clark becomes Big Ten's all-time assist leader, No. 4 Iowa women beat Minnesota 94-71",
-"published": "2023-12-30T21:17:57Z",
+"keywords": [
+"Minnesota Golden Gophers",
+"Iowa Hawkeyes",
+"NCAA Women's Basketball",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401601506"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39211126",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=2cc0a1c90bc35"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39211126"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-12-30T22:54:55Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              IOWA CITY, Iowa -- \u2014 Caitlin Clark has so many awards, she's not sure where all of them are at.\n\n\r\n              She's going to add a couple more commemorative basketballs after the fourth-ranked Iowa women defeated Minnesota 94-71 on Saturday.\n\n\r\n              Clark recorded her sixth double-double of the season and 49th of her career with 35 points and 10 assists \u2014 and she became the Big Ten's all-time assist leader.\n\n\r\n              She also became the first Division I player \u2014 man or woman \u2014 to have 3,000-plus points, 900 or more assists and 800 or more rebounds in a career. And she moved into fifth place all-time on the NCAA Division I career scoring list with 3,149 points.\n\n\r\n              \u201cI have a couple of storage units back home my parents put stuff in,\u201d said Clark, whose 904 assists surpassed Samantha Prahalis' 901. \u201cThe 3,000-point ball is just sitting in our locker room. Sometimes it gets lost in my locker, I don\u2019t know, until I clean it out, or until I make one of my teammates clean it out. They get so annoyed, they clean it for me.\u201d\n\n\r\n              \u201cIt needs to be cleaned,\u201d coach Lisa Bluder quickly added.\n\n\r\n              The record-breaking assist came on a pass that Hannah Stuelke, who had 19 points, turned into a layup with 47 seconds left in the third quarter.\n\n\r\n              \u201cCaitlin always finds me,\u201d Stuelke said.\n\n\r\n              All of Clark's milestones, though, are something Bluder has grown to appreciate.\n\n\r\n              \u201cI relish it,\u201d Bluder said. \u201cIt\u2019s so much fun. I want her to get double-doubles, I want her to break records. To me, it\u2019s so much fun to watch her do that. I never get tired of her passing.\u201d\n\n\r\n              Clark immediately interrupted.\n\n\r\n              \u201cDo you ever get tired of my shooting, though?\u201d she said, smiling.\n\n\r\n              \u201cNo,\u201d Bluder said, who then smiled as she added, \u201cWell, sometimes.\u201d\n\n\r\n              Clark was good with her shooting in this game, going 13 of 22 from the field, including 8 of 16 on 3-pointers.\n\n\r\n              Iowa (13-1, 2-0 Big Ten) extended its winning streak to 10 games, the program's longest streak since the 2004-05 team opened the season with 13 consecutive wins.\n\n\r\n              Amaya Battle had 16 points for Minnesota (11-2, 1-1).\n\n\r\n              \u201cIowa's a great team, and any time you give a great team a little bit, they can go far with it,\u201d Battle said. \u201cWe didn't come out hard, and they took advantage of that.\u201d\n\n\r\n              Mara Braun had 15 points and Sophie Hart added 13 for the Golden Gophers.\n\n\r\n              \u201cObviously, Iowa played at a really high level and did good things,\u201d Minnesota coach Dawn Plitzuweit said. \u201cThey outcompeted us early on and we dug ourselves a hole. They attacked and got to the rim, and for whatever reason, we didn\u2019t help each other a lot.\u201d\n\n\r\n              BIG PICTURE\n\n\r\n              Minnesota: The Golden Gophers came in on an eight-game winning streak, with their only loss this season coming to No. 15 Connecticut. But they were taken out of this game with Iowa\u2019s early run. Minnesota is one of the youngest teams in the Big Ten, and it showed against the experienced Hawkeyes.\n\n\r\n              Iowa: The Hawkeyes hadn\u2019t played since a December 21 win over Loyola Chicago, but showed the long layoff wasn\u2019t going to be a problem with a strong start. Iowa coach Lisa Bluder tightened the rotation to just eight players in the first half and got contributions from everyone.\n\n\r\n              UP NEXT\n\n\r\n              Minnesota: Hosts Maryland on Wednesday.\n\n\r\n              Iowa: Hosts Michigan State on Tuesday.\n\n\r\n              ------\n\n\r\n              Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a>.\n\n\r\n              ------\n\n\r\n              AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

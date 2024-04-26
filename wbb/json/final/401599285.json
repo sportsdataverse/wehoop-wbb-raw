@@ -19603,54 +19603,37 @@
 ]
 },
 "article": {
-"dataSourceIdentifier": "cfeab5260068f",
-"keywords": [],
-"description": "\u2014 Alissa Pili scored 20 points, Gianna Kneepkens added 19 points and No. 12 Utah beat NAIA-member Carroll College 100-44 on Tuesday for its 20th straight home win.",
-"source": "AP",
-"video": [],
-"type": "Recap",
-"nowId": "1-38999703",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/38999703"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401599285"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401599285"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=38999703"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401599285&version=mobile"
-}
-},
 "id": 38999703,
+"nowId": "1-38999703",
+"contentKey": "38999703-1-21-1",
+"dataSourceIdentifier": "cfeab5260068f",
+"type": "Recap",
+"gameId": "401599285",
+"headline": "No. 12 Utah women beat NAIA-member Carroll College 100-44 for 20th straight home win",
+"description": "\u2014 Alissa Pili scored 20 points, Gianna Kneepkens added 19 points and No. 12 Utah beat NAIA-member Carroll College 100-44 on Tuesday for its 20th straight home win.",
+"linkText": "No. 12 Utah women beat NAIA-member Carroll College 100-44 for 20th straight home win",
+"categorized": "2024-04-12T07:00:38Z",
+"originallyPosted": "2023-11-28T19:57:56Z",
+"lastModified": "2023-11-28T19:57:55Z",
+"published": "2023-11-28T19:57:54Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -19658,110 +19641,140 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
+}
 },
 {
 "id": 5015,
-"description": "Utah Utes",
 "type": "team",
+"uid": "s:40~l:54~t:254",
+"guid": "6893bfec-1fb5-df64-b341-826fe1526156",
+"description": "Utah Utes",
 "sportId": 54,
 "teamId": 254,
 "team": {
 "id": 254,
 "description": "Utah Utes",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/254"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=254"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes"
 }
 }
 }
-},
-"uid": "s:40~l:54~t:254"
+}
 },
 {
 "id": 159474,
-"description": "Carroll (MT) Fighting Saints",
 "type": "team",
+"uid": "s:40~l:54~t:2104",
+"guid": "dde4ef4f-9be2-20e1-3b6a-07e2e2665081",
+"description": "Carroll (MT) Fighting Saints",
 "sportId": 54,
 "teamId": 2104,
 "team": {
 "id": 2104,
-"description": "Carroll (MT) Fighting Saints",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2104"
+"description": "Carroll (MT) Fighting Saints"
 }
 },
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2104/carroll-(mt)-fighting-saints"
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
 }
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "6893bfec-1fb5-df64-b341-826fe1526156"
+},
+{
+"type": "guid",
+"guid": "dde4ef4f-9be2-20e1-3b6a-07e2e2665081"
+},
+{
+"type": "guid",
+"guid": "17d87258-da27-3c36-915c-9ee4ee61f320"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+}
+],
+"keywords": [
+"NCAA Women's Basketball",
+"Utah Utes",
+"Carroll (MT) Fighting Saints",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401599285"
 },
 "mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2104"
+"href": "http://m.espn.go.com/ncw/story?storyId=38999703",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=cfeab5260068f"
 }
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=38999703"
 }
 }
 },
-"uid": "s:40~l:54~t:2104"
-}
-],
-"headline": "No. 12 Utah women beat NAIA-member Carroll College 100-44 for 20th straight home win",
-"gameId": "401599285",
-"images": [],
-"linkText": "No. 12 Utah women beat NAIA-member Carroll College 100-44 for 20th straight home win",
-"published": "2023-11-28T19:57:54Z",
 "allowComments": true,
-"lastModified": "2023-11-28T19:57:55Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              SALT LAKE CITY -- \u2014 Alissa Pili scored 20 points, Gianna Kneepkens added 19 points and No. 12 Utah beat NAIA-member Carroll College 100-44 on Tuesday for its 20th straight home win.\n\n\r\n              Utah (6-1) reached the 100-point mark for the fifth time this season. The Utes also scored 98 points in a 64-point victory against Merrimack College on Friday. \n\n\r\n              Utah led 75-36 after three quarters. The Utes were shooting 70% from the field entering the fourth, including 12 of 17 from 3-point range. Carroll was 12 of 39 from the field with 13 turnovers. Utah also made its first 3-pointer of the fourth.\n\n\r\n              The Utes finished at 67% shooting with a 40-18 rebounding advantage. \n\n\r\n              Kneepkens, in her second season, became the 31st player in program history to reach the 1,000-point club after making 8 of 8 field goals, including three 3-pointers. Pili made 8 of 10 shots and freshman Reese Ross hit 6 of 6 to reach 16 points. \n\n\r\n              Jenna Johnson added 15 points for Utah (6-1). Kennady McQueen, who made six 3-pointers against Merrimack, had two of Utah's 14 3-pointers.\n\n\r\n              Jamie Pickens, who averages 18.8 and 10.5 rebounds, was one of three players to score eight points for Carroll. The Fighting Saints played the game as an exhibition. \n\n\r\n              Utah will host in-state rival BYU on Saturday before hitting the road to take on St. Joseph\u2019s. The Utes will take on No. 1 South Carolina in the Basketball Hall of Fame Showcase on Dec. 10. \n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

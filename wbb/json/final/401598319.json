@@ -3754,54 +3754,62 @@
 ]
 },
 "article": {
-"dataSourceIdentifier": "05aa08fdc6066",
-"keywords": [],
-"description": "\u2014 Kiki Jefferson scored 21 points, Nina Rickards added 16 on 8-of-8 shooting and No. 20 Louisville pulled away for an 81-70 win over Gonzaga on Sunday to win the Betty Chancellor Classic.",
-"source": "AP",
-"video": [],
-"type": "Recap",
+"id": 38985962,
 "nowId": "1-38985962",
-"premium": false,
-"related": [],
-"allowSearch": true,
+"contentKey": "38985962-1-21-1",
+"dataSourceIdentifier": "05aa08fdc6066",
+"type": "Recap",
+"gameId": "401598319",
+"headline": "Jefferson, Rickards lead No. 20 Louisville to 81-70 win over Gonzaga to win tourney in Texas",
+"description": "\u2014 Kiki Jefferson scored 21 points, Nina Rickards added 16 on 8-of-8 shooting and No. 20 Louisville pulled away for an 81-70 win over Gonzaga on Sunday to win the Betty Chancellor Classic.",
+"linkText": "Jefferson, Rickards lead No. 20 Louisville to 81-70 win over Gonzaga to win tourney in Texas",
+"categorized": "2024-04-12T06:58:24Z",
+"originallyPosted": "2023-11-26T21:19:54Z",
+"lastModified": "2023-11-26T21:19:55Z",
+"published": "2023-11-26T21:19:54Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
+"categories": [
+{
+"id": 4822,
+"type": "team",
+"uid": "s:40~l:54~t:97",
+"guid": "7cb9e31c-9f3f-8918-04f0-f88de96aa1cd",
+"description": "Louisville Cardinals",
+"sportId": 54,
+"teamId": 97,
+"team": {
+"id": 97,
+"description": "Louisville Cardinals",
 "links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/38985962"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401598319"
-}
-},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401598319"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=38985962"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals"
 }
 },
 "mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401598319&version=mobile"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals"
+}
+}
+}
 }
 },
-"id": 38985962,
-"categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -3809,110 +3817,127 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
-},
-{
-"id": 4822,
-"description": "Louisville Cardinals",
-"type": "team",
-"sportId": 54,
-"teamId": 97,
-"team": {
-"id": 97,
-"description": "Louisville Cardinals",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/97"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=97"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:97"
 },
 {
 "id": 4988,
-"description": "Gonzaga Bulldogs",
 "type": "team",
+"uid": "s:40~l:54~t:2250",
+"guid": "3eba6f35-53bd-7603-34b2-8dfe152248b5",
+"description": "Gonzaga Bulldogs",
 "sportId": 54,
 "teamId": 2250,
 "team": {
 "id": 2250,
 "description": "Gonzaga Bulldogs",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2250"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2250/gonzaga-bulldogs"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2250/gonzaga-bulldogs"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2250"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2250/gonzaga-bulldogs"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:2250"
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "7cb9e31c-9f3f-8918-04f0-f88de96aa1cd"
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "3eba6f35-53bd-7603-34b2-8dfe152248b5"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "80a20268-39fd-38d8-9924-c87d18faa3fd"
 }
 ],
-"headline": "Jefferson, Rickards lead No. 20 Louisville to 81-70 win over Gonzaga to win tourney in Texas",
-"gameId": "401598319",
-"images": [],
-"linkText": "Jefferson, Rickards lead No. 20 Louisville to 81-70 win over Gonzaga to win tourney in Texas",
-"published": "2023-11-26T21:19:54Z",
+"keywords": [
+"Louisville Cardinals",
+"NCAA Women's Basketball",
+"Gonzaga Bulldogs",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401598319"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=38985962",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=05aa08fdc6066"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=38985962"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-11-26T21:19:55Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              KATY, Texas -- \u2014 Kiki Jefferson scored 21 points, Nina Rickards added 16 on 8-of-8 shooting and No. 20 Louisville pulled away for an 81-70 win over Gonzaga on Sunday to win the Betty Chancellor Classic.\n\n\r\n              The Cardinals outscored the Bulldogs 20-6 in the first 5 1/2 minutes of the fourth quarter to pull away. \n\n\r\n              The Bulldogs were 1 of 4 with six turnovers while Rickards scored six points and Jefferson five. Jayda Curry and Merissah Russell combined for the last nine points for a 79-62 lead with 4:33 to play.\n\n\r\n              The Cardinals won the tournament because of a point differential tiebreak as Alabama also went 2-1 in the four-team round-robin.\n\n\r\n              Curry finished with 13 points for the Cardinals (6-1), who overcame early foul trouble with 59% shooting (34 of 58), including 7 of 19 on 3-pointers.\n\n\r\n              Yvonne Ejim led Gonzaga (6-2) with 23 points on 8-of-10 shooting, making all seven free throws, and seven rebounds. Brynna Maxwell added 16 points, Kaylynne Truong had 11 and Kayleigh Truong had 10 with seven assists.\n\n\r\n              The Bulldogs, whose other loss was at ranked Washington State in overtime, shot 55% with seven 3s and a 19 of 23 performance from the foul line. But Louisville turned 21 turnovers into 27 points with many of the 10 steals leading to uncontested layups.\n\n\r\n              Jefferson scored 10 points in the second quarter when the Cardinals made 11 of 19 shots with four 3s and outscored Gonzaga 28-15 for a 47-36 halftime lead.\n\n\r\n              Gonzaga couldn't capitalize on Louisville foul trouble in the first quarter, when three Cards had two fouls. The Zags made 9 of 10 free throws but the Cardinals were 9 of 15 from the field and only trailed 21-19.\n\n\r\n              The game was tied at 27 but the Cardinals had a 12-2 run to take control. They had 14 points off 12 turnovers, a 17-2 difference in bench scoring and 24-8 advantage inside.\n\n\r\n               In the last minute of the third quarter Ejim converted a three-point play and Maxwell hit a jumper in the lane and Gonzaga pulled within 59-56.\n\n\r\n              Louisville goes to Mississippi for the ACC-SEC Challenge on Wednesday. The Rebels will be without KK Deans, who is awaiting season-ending knee surgery. Gonzaga is home against Eastern Washington on Wednesday.\n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

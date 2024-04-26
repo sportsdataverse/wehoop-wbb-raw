@@ -13838,54 +13838,62 @@
 }
 ],
 "article": {
-"dataSourceIdentifier": "4084148e4a618",
-"keywords": [],
-"description": "\u2014 JuJu Watkins scored 15 points, Rayah Marshall had a strong double-double, and No. 8 USC held off Seton Hall 64-54 at the Baha Mar Pink Flamingo Championship on Monday night.",
-"source": "AP",
-"video": [],
-"type": "Recap",
+"id": 38949311,
 "nowId": "1-38949311",
-"premium": false,
-"related": [],
-"allowSearch": true,
+"contentKey": "38949311-1-21-1",
+"dataSourceIdentifier": "4084148e4a618",
+"type": "Recap",
+"gameId": "401594921",
+"headline": "Watkins, Marshall lead No. 8 USC women in 64-54 win over Seton Hall in Bahamas",
+"description": "\u2014 JuJu Watkins scored 15 points, Rayah Marshall had a strong double-double, and No. 8 USC held off Seton Hall 64-54 at the Baha Mar Pink Flamingo Championship on Monday night.",
+"linkText": "Watkins, Marshall lead No. 8 USC women in 64-54 win over Seton Hall in Bahamas",
+"categorized": "2024-04-12T06:52:12Z",
+"originallyPosted": "2023-11-21T04:36:55Z",
+"lastModified": "2023-11-21T04:36:55Z",
+"published": "2023-11-21T04:36:55Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
+"categories": [
+{
+"id": 4920,
+"type": "team",
+"uid": "s:40~l:54~t:30",
+"guid": "e2b5504a-e678-c474-854b-ada56e39f8c2",
+"description": "USC Trojans",
+"sportId": 54,
+"teamId": 30,
+"team": {
+"id": 30,
+"description": "USC Trojans",
 "links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/38949311"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401594921"
-}
-},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401594921"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=38949311"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/30/usc-trojans"
 }
 },
 "mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401594921&version=mobile"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/30/usc-trojans"
+}
+}
+}
 }
 },
-"id": 38949311,
-"categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -13893,110 +13901,127 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
-},
-{
-"id": 4920,
-"description": "USC Trojans",
-"type": "team",
-"sportId": 54,
-"teamId": 30,
-"team": {
-"id": 30,
-"description": "USC Trojans",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/30"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/30/usc-trojans"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=30"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:30"
 },
 {
 "id": 4758,
-"description": "Seton Hall Pirates",
 "type": "team",
+"uid": "s:40~l:54~t:2550",
+"guid": "3269b59d-fd2b-4d8f-1025-2da9f0c1cf2e",
+"description": "Seton Hall Pirates",
 "sportId": 54,
 "teamId": 2550,
 "team": {
 "id": 2550,
 "description": "Seton Hall Pirates",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2550"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2550/seton-hall-pirates"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2550/seton-hall-pirates"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2550"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2550/seton-hall-pirates"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:2550"
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "e2b5504a-e678-c474-854b-ada56e39f8c2"
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "3269b59d-fd2b-4d8f-1025-2da9f0c1cf2e"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "0f72836a-c5a6-344c-b53b-c50fe7084a21"
 }
 ],
-"headline": "Watkins, Marshall lead No. 8 USC women in 64-54 win over Seton Hall in Bahamas",
-"gameId": "401594921",
-"images": [],
-"linkText": "Watkins, Marshall lead No. 8 USC women in 64-54 win over Seton Hall in Bahamas",
-"published": "2023-11-21T04:36:55Z",
+"keywords": [
+"USC Trojans",
+"NCAA Women's Basketball",
+"Seton Hall Pirates",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401594921"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=38949311",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=4084148e4a618"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=38949311"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-11-21T04:36:55Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              NASSAU, Bahamas -- \u2014 JuJu Watkins scored 15 points, Rayah Marshall had a strong double-double, and No. 8 USC held off Seton Hall 64-54 at the Baha Mar Pink Flamingo Championship on Monday night.\n\n\r\n              Marshall had 14 points and 14 rebounds for the Women of Troy (4-0) and the freshman Watkins added seven rebounds. Kaitlyn Davis scored 13 points and McKenzie Forbes added 12.\n\n\r\n              USC built an 18-3 lead through the first 8 1/2 minutes of play and took a 23-7 lead into the second quarter. The Pirates cut it to single digits at 24-16 but went scoreless over the final four minutes of the period.\n\n\r\n              USC extended its 38-23 halftime lead to 56-36 through the third quarter, then struggled to score in the fourth. Makennah White had six points and Micah Gray hit a 3-pointer in a 13-4 run that got Seton Hall within 60-49 with three minutes remaining. Marshall scored in the paint and the Women of Troy added a couple of free throws to close out the win despite being outscored 18-8 in the fourth.\n\n\r\n              Azana Baines scored 16 points and Gray added 14 for the Pirates (3-2).\n\n\r\n              The Women of Troy celebrated a victory on a big day for the Pac-12, which placed five teams in the top 10 of the Associated Press Top 25 poll. They are No. 2 UCLA, No. 3 Colorado, No. 4 Stanford, USC at No. 8, and No. 10 Utah. Washington State is 23rd, for good measure.\n\n\r\n              The tournament resumes on Wednesday. USC will play Penn State, and Seton Hall will face East Carolina.\n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

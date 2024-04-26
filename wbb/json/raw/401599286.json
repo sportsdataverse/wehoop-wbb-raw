@@ -13736,54 +13736,87 @@
 }
 ],
 "article": {
-"dataSourceIdentifier": "ebfe6da52ef90",
-"keywords": [],
-"description": "\u2014 Alissa Pili scored 23 points and No. 12 Utah cruised to an 87-68 victory over BYU on Saturday night.",
-"source": "AP",
-"video": [],
-"type": "Recap",
+"id": 39030857,
 "nowId": "1-39030857",
-"premium": false,
-"related": [],
-"allowSearch": true,
+"contentKey": "39030857-1-21-1",
+"dataSourceIdentifier": "ebfe6da52ef90",
+"type": "Recap",
+"gameId": "401599286",
+"headline": "Pili leads No. 12 Utah women to 87-68 victory over BYU",
+"description": "\u2014 Alissa Pili scored 23 points and No. 12 Utah cruised to an 87-68 victory over BYU on Saturday night.",
+"linkText": "Pili leads No. 12 Utah women to 87-68 victory over BYU",
+"categorized": "2024-04-12T07:05:50Z",
+"originallyPosted": "2023-12-03T04:03:54Z",
+"lastModified": "2023-12-03T04:03:55Z",
+"published": "2023-12-03T04:03:54Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
+"categories": [
+{
+"id": 5015,
+"type": "team",
+"uid": "s:40~l:54~t:254",
+"guid": "6893bfec-1fb5-df64-b341-826fe1526156",
+"description": "Utah Utes",
+"sportId": 54,
+"teamId": 254,
+"team": {
+"id": 254,
+"description": "Utah Utes",
 "links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39030857"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401599286"
-}
-},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401599286"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39030857"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes"
 }
 },
 "mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401599286&version=mobile"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes"
+}
+}
+}
 }
 },
-"id": 39030857,
-"categories": [
+{
+"id": 5014,
+"type": "team",
+"uid": "s:40~l:54~t:252",
+"guid": "6d1194c8-e867-0a81-2c12-7704c94c4cae",
+"description": "BYU Cougars",
+"sportId": 54,
+"teamId": 252,
+"team": {
+"id": 252,
+"description": "BYU Cougars",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/252/byu-cougars"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/252/byu-cougars"
+}
+}
+}
+}
+},
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -13791,110 +13824,102 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
+}
 },
 {
-"id": 5015,
-"description": "Utah Utes",
-"type": "team",
-"sportId": 54,
-"teamId": 254,
-"team": {
-"id": 254,
-"description": "Utah Utes",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/254"
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=254"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:254"
 },
 {
-"id": 5014,
-"description": "BYU Cougars",
-"type": "team",
-"sportId": 54,
-"teamId": 252,
-"team": {
-"id": 252,
-"description": "BYU Cougars",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/252"
-}
+"type": "guid",
+"guid": "6893bfec-1fb5-df64-b341-826fe1526156"
 },
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/252/byu-cougars"
-}
+{
+"type": "guid",
+"guid": "6d1194c8-e867-0a81-2c12-7704c94c4cae"
 },
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=252"
-}
-}
-}
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
 },
-"uid": "s:40~l:54~t:252"
+{
+"type": "guid",
+"guid": "3ac18cb6-836b-327f-a4f7-558155384a87"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
 }
 ],
-"headline": "Pili leads No. 12 Utah women to 87-68 victory over BYU",
-"gameId": "401599286",
-"images": [],
-"linkText": "Pili leads No. 12 Utah women to 87-68 victory over BYU",
-"published": "2023-12-03T04:03:54Z",
+"keywords": [
+"Utah Utes",
+"BYU Cougars",
+"NCAA Women's Basketball",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401599286"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39030857",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=ebfe6da52ef90"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39030857"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-12-03T04:03:55Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              SALT LAKE CITY -- \u2014 Alissa Pili scored 23 points and No. 12 Utah cruised to an 87-68 victory over BYU on Saturday night.\n\n\r\n              Pili, the reigning Pac-12 Conference player of the year, made 9 of 12 shots from the floor, including 5 of 7 from 3-point range for Utah (7-1). She added six rebounds and five assists in guiding the Utes to their fifth straight win. Kennady McQueen scored 18, while Gianna Kneepkens had 17 points and six boards. Ines Vieira pitched in with 12 assists to go with five points and five rebounds.\n\n\r\n              McQueen hit four 3-pointers and scored 16 points to lead four starters in first-half double figures and Utah turned a 10-point first-quarter lead into a 52-32 advantage at halftime. The Utes shot 54.5% and sank 10 of 22 from 3-point range in the first 20 minutes.\n\n\r\n              Lauren Gustin and freshman Kailey Woolston led the Cougars (6-2) with 17 points apiece. Gustin also grabbed 13 rebounds for her sixth double-double this season. Emma Calvert scored 12 off the bench.\n\n\r\n              Utah, which returned all five starters from last season's team, is 5-0 at home this season and has won 21 straight there.\n\n\r\n              The Utes, who shot 53.4% overall and made half of their 34 3-pointers, handed BYU its second straight loss and improved to 68-43 in the all-time series.\n\n\r\n              Utah travels to play Saint Joseph's on Thursday before heading to Uncasville, Conn., on Dec. 10 to play No. 1 South Carolina in the Basktball Hall of Fame Showcase. BYU returns home to host Utah State on Tuesday.\n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

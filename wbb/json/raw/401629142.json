@@ -17190,10 +17190,22 @@
 }
 ],
 "article": {
+"id": 39688716,
+"nowId": "1-39688716",
+"contentKey": "39688716-1-21-1",
 "dataSourceIdentifier": "16e21b7155f66",
-"keywords": [],
+"type": "Recap",
+"gameId": "401629142",
+"headline": "Latson, Gordon lead Florida State women past No. 20 Syracuse 78-65 in ACC quarterfinal",
 "description": "\u2014 Ta'Niya Latson scored 25 points and O\u2019Mariah Gordon put up a career-high 24 to lead Florida State to a 78-65 win over No. 20 Syracuse in an Atlantic Coast Conference Tournament quarterfinal Friday night.",
+"linkText": "Latson, Gordon lead Florida State women past No. 20 Syracuse 78-65 in ACC quarterfinal",
+"categorized": "2024-04-12T09:14:26Z",
+"originallyPosted": "2024-03-09T03:16:00Z",
+"lastModified": "2024-03-09T03:15:59Z",
+"published": "2024-03-09T03:15:58Z",
+"section": "Women's College Basketball",
 "source": "AP",
+"images": [],
 "video": [
 {
 "source": "espn",
@@ -17560,49 +17572,70 @@
 }
 }
 ],
-"type": "Recap",
-"nowId": "1-39688716",
-"premium": false,
-"related": [],
-"allowSearch": true,
+"categories": [
+{
+"id": 16041,
+"type": "team",
+"uid": "s:40~l:54~t:183",
+"guid": "bdab99c4-5bc6-d4b1-d62a-4aca2d58dffc",
+"description": "Syracuse Orange",
+"sportId": 54,
+"teamId": 183,
+"team": {
+"id": 183,
+"description": "Syracuse Orange",
 "links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39688716"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401629142"
-}
-},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401629142"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39688716"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/183/syracuse-orange"
 }
 },
 "mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401629142&version=mobile"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/183/syracuse-orange"
+}
+}
+}
 }
 },
-"id": 39688716,
-"categories": [
+{
+"id": 4725,
+"type": "team",
+"uid": "s:40~l:54~t:52",
+"guid": "686a0ce2-669d-9094-be57-c24bbf71159b",
+"description": "Florida State Seminoles",
+"sportId": 54,
+"teamId": 52,
+"team": {
+"id": 52,
+"description": "Florida State Seminoles",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles"
+}
+}
+}
+}
+},
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -17610,110 +17643,102 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
+}
 },
 {
-"id": 16041,
-"description": "Syracuse Orange",
-"type": "team",
-"sportId": 54,
-"teamId": 183,
-"team": {
-"id": 183,
-"description": "Syracuse Orange",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/183"
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/183/syracuse-orange"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=183"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:183"
 },
 {
-"id": 4725,
-"description": "Florida State Seminoles",
-"type": "team",
-"sportId": 54,
-"teamId": 52,
-"team": {
-"id": 52,
-"description": "Florida State Seminoles",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/52"
-}
+"type": "guid",
+"guid": "bdab99c4-5bc6-d4b1-d62a-4aca2d58dffc"
 },
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles"
-}
+{
+"type": "guid",
+"guid": "686a0ce2-669d-9094-be57-c24bbf71159b"
 },
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=52"
-}
-}
-}
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
 },
-"uid": "s:40~l:54~t:52"
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "efb985e6-fc78-3169-a88d-4bb0ed723a13"
 }
 ],
-"headline": "Latson, Gordon lead Florida State women past No. 20 Syracuse 78-65 in ACC quarterfinal",
-"gameId": "401629142",
-"images": [],
-"linkText": "Latson, Gordon lead Florida State women past No. 20 Syracuse 78-65 in ACC quarterfinal",
-"published": "2024-03-09T03:15:58Z",
+"keywords": [
+"Syracuse Orange",
+"Florida State Seminoles",
+"NCAA Women's Basketball",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401629142"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39688716",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=16e21b7155f66"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39688716"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2024-03-09T03:15:59Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              GREENSBORO, N.C. -- \u2014 Ta'Niya Latson scored 25 points and O\u2019Mariah Gordon put up a career-high 24 to lead Florida State to a 78-65 win over No. 20 Syracuse in an Atlantic Coast Conference Tournament quarterfinal Friday night.\n\n\r\n              Florida State (23-9), the tournament's sixth seed, will face second-seeded and No. 10-ranked North Carolina State in Saturday's semifinal round. \n\n\r\n              The Seminoles' decisive win was payback after the teams met in the tournament quarterfinals in 2021, when the Orange's Kamilla Cardoso rolled in a follow shot at the buzzer for an 86-85 win to deny the Seminoles a berth in the semifinals for the third time in four seasons. \n\n\r\n              The Seminoles, who lost at Syracuse 79-73 on Jan. 18, never trailed in the game, building a 23-18 lead after one quarter and leading by as many as 27 in the fourth. \n\n\r\n              Florida State outrebounded the Orange 50-35 including 21 offensive boards to score 24 second-chance points. Makayla Timpson led the Seminoles with 18 rebounds to go with her 10 points. \n\n\r\n              Latson shot 10 of 18 from the floor before fouling out midway through the fourth quarter. Gordon was 9 of 16 from the floor and 2 of 3 from long range. Sara Bejedi contributed 10 points. \n\n\r\n              Dyaisha Fair scored 23 points and grabbed nine rebounds to lead Syracuse (23-7). Georgia Woolley and Alaina Rice each scored 10 points. \n\n\r\n              ------\n\n\r\n              Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a>\n\n\r\n              ------\n\n\r\n              AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [

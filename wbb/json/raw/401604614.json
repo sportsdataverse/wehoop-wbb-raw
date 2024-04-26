@@ -13130,54 +13130,37 @@
 }
 ],
 "article": {
-"dataSourceIdentifier": "d0808b9d78616",
-"keywords": [],
-"description": "\u2014 <a href=\"https://twitter.com/CreightonWBB/status/1745249038390141187\">Emma Ronsiek scored 25 points</a> and No. 22 Creighton hit 12 3-pointers in rolling to an 89-53 win over Butler on Wednesday night.",
-"source": "AP",
-"video": [],
-"type": "Recap",
-"nowId": "1-39282811",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39282811"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401604614"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401604614"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39282811"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401604614&version=mobile"
-}
-},
 "id": 39282811,
+"nowId": "1-39282811",
+"contentKey": "39282811-1-21-1",
+"dataSourceIdentifier": "d0808b9d78616",
+"type": "Recap",
+"gameId": "401604614",
+"headline": "Emma Ronsiek scores 25, No. 22 Creighton rolls to 89-53 win over Butler",
+"description": "\u2014 Emma Ronsiek scored 25 points and No. 22 Creighton hit 12 3-pointers in rolling to an 89-53 win over Butler on Wednesday night.",
+"linkText": "Emma Ronsiek scores 25, No. 22 Creighton rolls to 89-53 win over Butler",
+"categorized": "2024-04-12T07:53:32Z",
+"originallyPosted": "2024-01-11T02:06:11Z",
+"lastModified": "2024-01-11T02:06:11Z",
+"published": "2024-01-11T02:06:11Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -13185,110 +13168,152 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
-},
-{
-"id": 4886,
-"description": "Creighton Bluejays",
-"type": "team",
-"sportId": 54,
-"teamId": 156,
-"team": {
-"id": 156,
-"description": "Creighton Bluejays",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/156"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/156/creighton-bluejays"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=156"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:156"
 },
 {
 "id": 5022,
-"description": "Butler Bulldogs",
 "type": "team",
+"uid": "s:40~l:54~t:2086",
+"guid": "dad184f1-b626-6e5e-5de3-3a6786aee129",
+"description": "Butler Bulldogs",
 "sportId": 54,
 "teamId": 2086,
 "team": {
 "id": 2086,
 "description": "Butler Bulldogs",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2086"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2086/butler-bulldogs"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2086/butler-bulldogs"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2086"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2086/butler-bulldogs"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:2086"
+{
+"id": 4886,
+"type": "team",
+"uid": "s:40~l:54~t:156",
+"guid": "8edab7c4-1b14-09da-907e-bf2b46e669fa",
+"description": "Creighton Bluejays",
+"sportId": 54,
+"teamId": 156,
+"team": {
+"id": 156,
+"description": "Creighton Bluejays",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/156/creighton-bluejays"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/156/creighton-bluejays"
+}
+}
+}
+}
+},
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "dad184f1-b626-6e5e-5de3-3a6786aee129"
+},
+{
+"type": "guid",
+"guid": "8edab7c4-1b14-09da-907e-bf2b46e669fa"
+},
+{
+"type": "guid",
+"guid": "ed48873a-9c61-3874-adad-eaabe30d59a0"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
 }
 ],
-"headline": "Emma Ronsiek scores 25, No. 22 Creighton rolls to 89-53 win over Butler",
-"gameId": "401604614",
-"images": [],
-"linkText": "Emma Ronsiek scores 25, No. 22 Creighton rolls to 89-53 win over Butler",
-"published": "2024-01-11T02:06:11Z",
+"keywords": [
+"NCAA Women's Basketball",
+"Butler Bulldogs",
+"Creighton Bluejays",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401604614"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39282811",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=d0808b9d78616"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39282811"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2024-01-11T02:06:11Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              OMAHA, Neb. -- \u2014 <a href=\"https://twitter.com/CreightonWBB/status/1745249038390141187\">Emma Ronsiek scored 25 points</a> and No. 22 Creighton hit 12 3-pointers in rolling to an 89-53 win over Butler on Wednesday night.\n\n\r\n              Ronsiek was 10-of-12 shooting to help the Bluejays (12-3, 3-2 Big East Conference) shoot 55% (36 of 65). Lauren Jensen added 14 points, making three 3-pointers to lead the team that went 12 of 23 behind the line. Mallory Brake had 12 points.\n\n\r\n              Creighton had a 41-30 rebounding advantage and had 21 assists \u2014 eight by Molly Mogensen \u2014 on 36 baskets. \n\n\r\n              The Bluejays broke to a quick 14-4 lead but settled for an 18-11 advantage after one quarter. The Bulldogs got the deficit to one early in the second quarter, but Ronsiek had six points in a 13-1 run to help Creighton take a 37-25 lead into the break.\n\n\r\n              An 11-2 surge to open the second half, with Jensen converting a three-point play and hitting a 3, broke the game open and Maly's shot at the buzzer made it 66-36 going into the fourth quarter. Creighton had four 3s and went 12 of 17 in the third while Butler was 4 of 13.\n\n\r\n              Rachel Kent had 10 points to lead the Bulldogs (8-7, 0-4), who shot 32% (18 of 57).\n\n\r\n              Providence is at Creighton on Sunday. Villanova visits Butler on Saturday.\n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

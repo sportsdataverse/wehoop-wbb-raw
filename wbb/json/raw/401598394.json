@@ -13390,54 +13390,37 @@
 }
 ],
 "article": {
-"dataSourceIdentifier": "f0d4e8ce42dde",
-"keywords": [],
-"description": "\u2014 Cameron Brink had 25 points, 12 rebounds and three blocked shots in 25 minutes for No. 3 Stanford, which routed San Diego State 85-44 on Friday and moved Hall of Fame coach Tara VanDerveer one victory closer to history.",
-"source": "AP",
-"video": [],
-"type": "Recap",
-"nowId": "1-39021627",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39021627"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401598394"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401598394"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39021627"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401598394&version=mobile"
-}
-},
 "id": 39021627,
+"nowId": "1-39021627",
+"contentKey": "39021627-1-21-1",
+"dataSourceIdentifier": "f0d4e8ce42dde",
+"type": "Recap",
+"gameId": "401598394",
+"headline": "Brink's 25 points and 12 rebounds carry No. 3 Stanford to 85-44 rout of San Diego State",
+"description": "\u2014 Cameron Brink had 25 points, 12 rebounds and three blocked shots in 25 minutes for No. 3 Stanford, which routed San Diego State 85-44 on Friday and moved Hall of Fame coach Tara VanDerveer one victory closer to history.",
+"linkText": "Brink's 25 points and 12 rebounds carry No. 3 Stanford to 85-44 rout of San Diego State",
+"categorized": "2024-04-12T07:04:21Z",
+"originallyPosted": "2023-12-01T21:01:55Z",
+"lastModified": "2023-12-01T21:26:55Z",
+"published": "2023-12-01T21:01:55Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -13445,110 +13428,152 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
-},
-{
-"id": 5011,
-"description": "San Diego State Aztecs",
-"type": "team",
-"sportId": 54,
-"teamId": 21,
-"team": {
-"id": 21,
-"description": "San Diego State Aztecs",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/21"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/21/san-diego-state-aztecs"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=21"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:21"
 },
 {
 "id": 4917,
-"description": "Stanford Cardinal",
 "type": "team",
+"uid": "s:40~l:54~t:24",
+"guid": "7fadb11c-86d6-4d16-b273-4948586be788",
+"description": "Stanford Cardinal",
 "sportId": 54,
 "teamId": 24,
 "team": {
 "id": 24,
 "description": "Stanford Cardinal",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/24"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/24/stanford-cardinal"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/24/stanford-cardinal"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=24"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/24/stanford-cardinal"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:24"
+{
+"id": 5011,
+"type": "team",
+"uid": "s:40~l:54~t:21",
+"guid": "41181aed-b66e-aa13-fde2-7b0fafec9dfc",
+"description": "San Diego State Aztecs",
+"sportId": 54,
+"teamId": 21,
+"team": {
+"id": 21,
+"description": "San Diego State Aztecs",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/21/san-diego-state-aztecs"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/21/san-diego-state-aztecs"
+}
+}
+}
+}
+},
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "7fadb11c-86d6-4d16-b273-4948586be788"
+},
+{
+"type": "guid",
+"guid": "41181aed-b66e-aa13-fde2-7b0fafec9dfc"
+},
+{
+"type": "guid",
+"guid": "f70d8616-3170-3ffb-9c5b-df6ab98412ff"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
 }
 ],
-"headline": "Brink's 25 points and 12 rebounds carry No. 3 Stanford to 85-44 rout of San Diego State",
-"gameId": "401598394",
-"images": [],
-"linkText": "Brink's 25 points and 12 rebounds carry No. 3 Stanford to 85-44 rout of San Diego State",
-"published": "2023-12-01T21:01:55Z",
+"keywords": [
+"NCAA Women's Basketball",
+"Stanford Cardinal",
+"San Diego State Aztecs",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401598394"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39021627",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=f0d4e8ce42dde"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39021627"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-12-01T21:26:55Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              SAN DIEGO -- \u2014 Cameron Brink had 25 points, 12 rebounds and three blocked shots in 25 minutes for No. 3 Stanford, which routed San Diego State 85-44 on Friday and moved Hall of Fame coach Tara VanDerveer one victory closer to history.\n\n\r\n              VanDerveer is already the winningest women's coach in history and her 1,194th career victory moved her within nine wins of breaking Mike Krzyzewski\u2019s all-time record of 1,202.\n\n\r\n              Brink, a 6-foot-4 senior forward, had her fifth double-double of the season and 37th of her career. She was subbed out during a timeout with 2:51 to go in the third quarter with the Cardinal up by 36 points and watched the rest of the game from the bench, with a towel around her neck. \n\n\r\n              Hannah Jump scored 13 and Nunu Agara 11 for the taller Cardinal while Kiki Iriafen had 11 rebounds.\n\n\r\n              \u201cIt's not just the height. Cam is really a very special player,\u201d VanDerveer said. \u201cThis wasn't Kiki's best game, but she's been playing brilliant basketball.\u201d\n\n\r\n              <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">Stanford (8-0)</a> dominated from the opening tip and raced to leads of 13-0 and 18-2. Brink hit a 3-pointer and two inside shots during that run, while Elena Bosgana opened the game with consecutive inside shots.\n\n\r\n              \u201cThey\u2019re a physical team so they try to make up for that height difference with physicality, but I think we did a good job playing through that and I think our guards did a great job getting it inside,\" Brink said. \u201cIt\u2019s such an underrated skill of being able to lob it over defenses, so they did a really good job of finding me. Without them I wouldn\u2019t score what I did.\u201d\n\n\r\n              The Aztecs knew it would be tough trying to slow down Brink.\n\n\r\n              \u201cNo single person can guard her, so we had two on her the majority of the time,\" coach Stacie Terry-Hutson said. \"It\u2019s challenging. How do you game plan? You don\u2019t. you hope you can contain and keep her off the glass.\u201d\n\n\r\n              San Diego State didn't get its first points until Adryana Quezada made an inside shot with 3:49 to go in the first quarter to make it 13-2.\n\n\r\n              \u201cI thought we improved during the game,\u201d VanDerveer said. \u201cA lot of teams that we play have to decide how they are going to guard our team because Cam and Kiki are so good. They double them and leave people open. In the beginning of the game those people that were being left open were kind of impatient, and then as the game went on we became more patient and got better shots.\u201d\n\n\r\n              Quezada scored 12 and Kim Villalobos 10 for SDSU (4-4).\n\n\r\n              BIG PICTURE\n\n\r\n              Stanford was just too big and talented for the Aztecs, particularly Brink and Iriafen, who dominated inside. The Cardinal outrebounded SDSU 53-22.\n\n\r\n              Former Stanford running back and outfielder Tyler Gaffney, who went to San Diego's Cathedral Catholic High, sat courtside cheering for the Cardinal and then spoke to the team after the game.\n\n\r\n              San Diego State was hosting a top-three opponent for the first time since Dec. 21, 2007, when it lost 85-53 to No. 2 UConn.\n\n\r\n              UP NEXT\n\n\r\n              Stanford plays at Gonzaga on Sunday afternoon.\n\n\r\n              San Diego State hosts Cal State Los Angeles on Monday night.\n\n\r\n              ------\n\n\r\n              Get poll alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a>.\n\n\r\n              ------\n\n\r\n              AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

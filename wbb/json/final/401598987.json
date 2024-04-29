@@ -22261,37 +22261,54 @@
 ]
 },
 "article": {
-"id": 38873706,
-"nowId": "1-38873706",
-"contentKey": "38873706-1-21-1",
 "dataSourceIdentifier": "8d4c5e80ecb4a",
-"type": "Recap",
-"gameId": "401598987",
-"headline": "Karlin, King lead Marquette women to 71-67 win over No. 23 Illinois",
+"keywords": [],
 "description": "\u2014 Liza Karlen scored 22 points, Jordan King added 19 with clutch free throws in the closing seconds and Marquette beat No. 23 Illinois 71-67 on Saturday.",
-"linkText": "Karlin, King lead Marquette women to 71-67 win over No. 23 Illinois",
-"categorized": "2024-04-12T06:40:16Z",
-"originallyPosted": "2023-11-11T22:37:55Z",
-"lastModified": "2023-11-11T22:37:55Z",
-"published": "2023-11-11T22:37:55Z",
-"section": "Women's College Basketball",
 "source": "AP",
-"images": [],
 "video": [],
+"type": "Recap",
+"nowId": "1-38873706",
+"premium": false,
+"related": [],
+"allowSearch": true,
+"links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/38873706"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401598987"
+}
+},
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401598987"
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=38873706"
+}
+},
+"mobile": {
+"href": "http://scores.espn.com/ncw/gamecast?gameId=401598987&version=mobile"
+}
+},
+"id": 38873706,
 "categories": [
 {
 "id": 9578,
+"description": "Women's College Basketball",
 "type": "league",
-"uid": "s:40~l:54",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
-"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "NCAA Women's Basketball",
-"abbreviation": "NCAAW",
+"description": "Women's College Basketball",
 "links": {
+"api": {
+"leagues": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
+}
+},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -22299,152 +22316,110 @@
 },
 "mobile": {
 "leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
+"href": "http://m.espn.com/ncw/"
 }
 }
 }
 },
-{
-"id": 4785,
-"type": "team",
-"uid": "s:40~l:54~t:356",
-"guid": "42c2729e-7f54-baac-0aec-495409dec44b",
-"description": "Illinois Fighting Illini",
-"sportId": 54,
-"teamId": 356,
-"team": {
-"id": 356,
-"description": "Illinois Fighting Illini",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/356/illinois-fighting-illini"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/356/illinois-fighting-illini"
-}
-}
-}
-}
+"uid": "s:40~l:54"
 },
 {
 "id": 4827,
-"type": "team",
-"uid": "s:40~l:54~t:269",
-"guid": "8f9d8c94-4ca4-eb27-c69b-2c569267ff58",
 "description": "Marquette Golden Eagles",
+"type": "team",
 "sportId": 54,
 "teamId": 269,
 "team": {
 "id": 269,
 "description": "Marquette Golden Eagles",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/269"
+}
+},
 "web": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/269/marquette-golden-eagles"
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/269/marquette-golden-eagles"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/269/marquette-golden-eagles"
-}
+"href": "http://m.espn.com/ncw/clubhouse?teamId=269"
 }
 }
 }
 },
-{
-"id": 0,
-"type": "league",
-"uid": "s:1",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
-"description": "Baseball",
-"sportId": 1,
-"leagueId": 1,
-"league": {
-"id": 1,
-"description": "Baseball"
-}
+"uid": "s:40~l:54~t:269"
 },
 {
-"type": "guid",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
-},
-{
-"type": "guid",
-"guid": "42c2729e-7f54-baac-0aec-495409dec44b"
-},
-{
-"type": "guid",
-"guid": "8f9d8c94-4ca4-eb27-c69b-2c569267ff58"
-},
-{
-"type": "guid",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
-},
-{
-"type": "guid",
-"guid": "fc149c94-153e-322f-b93d-f08c2e3136f5"
-}
-],
-"keywords": [
-"NCAA Women's Basketball",
-"Illinois Fighting Illini",
-"Marquette Golden Eagles",
-"Baseball"
-],
-"premium": false,
+"id": 4785,
+"description": "Illinois Fighting Illini",
+"type": "team",
+"sportId": 54,
+"teamId": 356,
+"team": {
+"id": 356,
+"description": "Illinois Fighting Illini",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/356"
+}
+},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401598987"
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/356/illinois-fighting-illini"
+}
 },
 "mobile": {
-"href": "http://m.espn.go.com/ncw/story?storyId=38873706",
-"dsi": {
-"href": "http://m.espn.go.com/ncw/story?storyId=8d4c5e80ecb4a"
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=356"
 }
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=38873706"
 }
 }
 },
+"uid": "s:40~l:54~t:356"
+}
+],
+"headline": "Karlin, King lead Marquette women to 71-67 win over No. 23 Illinois",
+"gameId": "401598987",
+"images": [],
+"linkText": "Karlin, King lead Marquette women to 71-67 win over No. 23 Illinois",
+"published": "2023-11-11T22:37:55Z",
 "allowComments": true,
-"allowSearch": true,
-"allowContentReactions": false,
+"lastModified": "2023-11-11T22:37:55Z",
 "metrics": [
 {
-"type": "views",
-"count": 0
+"count": 0,
+"type": "views"
 },
 {
-"type": "fShares",
-"count": 0
+"count": 0,
+"type": "fShares"
 },
 {
-"type": "tweets",
-"count": 0
+"count": 0,
+"type": "tweets"
 },
 {
-"type": "comments",
-"count": 0
+"count": 0,
+"type": "comments"
 },
 {
-"type": "emails",
-"count": 0
+"count": 0,
+"type": "emails"
 },
 {
-"type": "votes",
-"count": 0
+"count": 0,
+"type": "votes"
 },
 {
-"type": "popularity",
-"count": 0
+"count": 0,
+"type": "popularity"
 }
 ],
+"inlines": [],
 "story": "\r\n              MILWAUKEE -- \u2014 Liza Karlen scored 22 points, Jordan King added 19 with clutch free throws in the closing seconds and Marquette beat No. 23 Illinois 71-67 on Saturday.\n\n\r\n              The Golden Eagles (2-0) took the lead for good early in the second quarter and were up by nine late in the third quarter but didn't ice the game until King's final free throw with 3.1 seconds left.\n\n\r\n              Genesis Bryant hit 3-pointers on back-to-back possessions to pull the Illini within 62-61 with seven minutes left in the game but they could never get the ball to drop for the lead. Camille Hobby made a layup with just under 20 seconds left to make it 68-67 but King hit two from the line at 14.1.\n\n\r\n              Bryant couldn't connect on a tying 3-pointer before King, who was 9 of 10 from the line, finished it off.\n\n\r\n              Rose Nkumu had 12 points and Frannie Hottinger 11 with eight rebounds for Marquette.\n\n\r\n              Hobby had 18 points and seven rebounds for Illinois (1-1), Kendall Bostics added 14 and Bryant had 11. \n\n\r\n              The Illini shot 52% from the field despite going 2 of 10 from distance. Marquette made five 3s and shot 50%.\n\n\r\n              Both teams play again Wednesday, Illinois at home against St. Peter's while Marquette goes to IUPUI.\n\n\r\n              ---- Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

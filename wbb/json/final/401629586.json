@@ -20190,37 +20190,54 @@
 ]
 },
 "article": {
-"id": 39720026,
-"nowId": "1-39720026",
-"contentKey": "39720026-1-21-1",
 "dataSourceIdentifier": "729ae2821d8f7",
-"type": "Recap",
-"gameId": "401629586",
-"headline": "No. 21 UNLV women reach MWC championship sinking Colorado State 62-52",
+"keywords": [],
 "description": "\u2014 Reserve Amarachi Simpson scored 18 points, Kiara Jackson scored 12 points and No. 21-ranked UNLV advanced to the Mountain West Conference Tournament championship game by beating Colorado State 62-52 on Tuesday night.",
-"linkText": "No. 21 UNLV women reach MWC championship sinking Colorado State 62-52",
-"categorized": "2024-04-12T09:22:42Z",
-"originallyPosted": "2024-03-13T03:26:59Z",
-"lastModified": "2024-03-13T03:26:59Z",
-"published": "2024-03-13T03:26:59Z",
-"section": "Women's College Basketball",
 "source": "AP",
-"images": [],
 "video": [],
+"type": "Recap",
+"nowId": "1-39720026",
+"premium": false,
+"related": [],
+"allowSearch": true,
+"links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/39720026"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401629586"
+}
+},
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401629586"
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39720026"
+}
+},
+"mobile": {
+"href": "http://scores.espn.com/ncw/gamecast?gameId=401629586&version=mobile"
+}
+},
+"id": 39720026,
 "categories": [
 {
 "id": 9578,
+"description": "Women's College Basketball",
 "type": "league",
-"uid": "s:40~l:54",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
-"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "NCAA Women's Basketball",
-"abbreviation": "NCAAW",
+"description": "Women's College Basketball",
 "links": {
+"api": {
+"leagues": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
+}
+},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -20228,152 +20245,110 @@
 },
 "mobile": {
 "leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
+"href": "http://m.espn.com/ncw/"
 }
 }
 }
 },
-{
-"id": 5012,
-"type": "team",
-"uid": "s:40~l:54~t:36",
-"guid": "0d091396-25ea-1b3c-c1f7-c248d6b32e85",
-"description": "Colorado State Rams",
-"sportId": 54,
-"teamId": 36,
-"team": {
-"id": 36,
-"description": "Colorado State Rams",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/36/colorado-state-rams"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/36/colorado-state-rams"
-}
-}
-}
-}
+"uid": "s:40~l:54"
 },
 {
 "id": 5017,
-"type": "team",
-"uid": "s:40~l:54~t:2439",
-"guid": "18ada018-b940-3482-19ce-76c92117b1c3",
 "description": "UNLV Lady Rebels",
+"type": "team",
 "sportId": 54,
 "teamId": 2439,
 "team": {
 "id": 2439,
 "description": "UNLV Lady Rebels",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2439"
+}
+},
 "web": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/2439/unlv-lady-rebels"
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/2439/unlv-lady-rebels"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/2439/unlv-lady-rebels"
-}
+"href": "http://m.espn.com/ncw/clubhouse?teamId=2439"
 }
 }
 }
 },
-{
-"id": 0,
-"type": "league",
-"uid": "s:1",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
-"description": "Baseball",
-"sportId": 1,
-"leagueId": 1,
-"league": {
-"id": 1,
-"description": "Baseball"
-}
+"uid": "s:40~l:54~t:2439"
 },
 {
-"type": "guid",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
-},
-{
-"type": "guid",
-"guid": "0d091396-25ea-1b3c-c1f7-c248d6b32e85"
-},
-{
-"type": "guid",
-"guid": "18ada018-b940-3482-19ce-76c92117b1c3"
-},
-{
-"type": "guid",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
-},
-{
-"type": "guid",
-"guid": "647a5925-e2f9-351a-8fed-8e473918d362"
-}
-],
-"keywords": [
-"NCAA Women's Basketball",
-"Colorado State Rams",
-"UNLV Lady Rebels",
-"Baseball"
-],
-"premium": false,
+"id": 5012,
+"description": "Colorado State Rams",
+"type": "team",
+"sportId": 54,
+"teamId": 36,
+"team": {
+"id": 36,
+"description": "Colorado State Rams",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/36"
+}
+},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401629586"
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/36/colorado-state-rams"
+}
 },
 "mobile": {
-"href": "http://m.espn.go.com/ncw/story?storyId=39720026",
-"dsi": {
-"href": "http://m.espn.go.com/ncw/story?storyId=729ae2821d8f7"
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=36"
 }
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39720026"
 }
 }
 },
+"uid": "s:40~l:54~t:36"
+}
+],
+"headline": "No. 21 UNLV women reach MWC championship sinking Colorado State 62-52",
+"gameId": "401629586",
+"images": [],
+"linkText": "No. 21 UNLV women reach MWC championship sinking Colorado State 62-52",
+"published": "2024-03-13T03:26:59Z",
 "allowComments": true,
-"allowSearch": true,
-"allowContentReactions": false,
+"lastModified": "2024-03-13T03:26:59Z",
 "metrics": [
 {
-"type": "views",
-"count": 0
+"count": 0,
+"type": "views"
 },
 {
-"type": "fShares",
-"count": 0
+"count": 0,
+"type": "fShares"
 },
 {
-"type": "tweets",
-"count": 0
+"count": 0,
+"type": "tweets"
 },
 {
-"type": "comments",
-"count": 0
+"count": 0,
+"type": "comments"
 },
 {
-"type": "emails",
-"count": 0
+"count": 0,
+"type": "emails"
 },
 {
-"type": "votes",
-"count": 0
+"count": 0,
+"type": "votes"
 },
 {
-"type": "popularity",
-"count": 0
+"count": 0,
+"type": "popularity"
 }
 ],
+"inlines": [],
 "story": "\r\n              LAS VEGAS -- \u2014 Reserve Amarachi Simpson scored 18 points, Kiara Jackson scored 12 points and No. 21-ranked UNLV advanced to the Mountain West Conference Tournament championship game by beating Colorado State 62-52 on Tuesday night.\n\n\r\n              The top seed to the post-season tourney, the Rebels (29-2) face the winner of the other semifinal between Boise State and San Diego State. UNLV is on a 14-game win streak and the Rebels haven't loss since New Mexico beat them 69-66 on Jan. 20.\n\n\r\n              Desi-Rae Young grabbed 13 rebounds and Alyssa Brown collared 10 boards for the Rebels.\n\n\r\n              Marta Leimane scored 15 points for Colorado State (20-11).\n\n\r\n              UNLV outscored Colorado State 14-7 in the last three-and-a-half minutes to preserve the win after Sydney Mech's layup with 3:48 left got the Rams within 48-45.\n\n\r\n              Following two foul shots by UNLV's Brown, Kimpson made a layup and converted a three-point play to set the Rebels up for a championship appearance.\n\n\r\n              The Rebels built an 8-0 lead and extended it to 13-2 on Nneka Obiazor's 3-pointer with 3:40 left in the first quarter and ended it with a 16-7 advantage.\n\n\r\n              Despite a nearly 5-minute scoring spell to start the second, Ashley Scoggin made a 3 for a 19-11 UNLV lead before the fifth-seed Rams narrowed their deficit to 26-21 at halftime.\n\n\r\n              UNLV started the second half with a 9-0 run and seemed ready to break it open, but Colorado State reeled the Rebels back in and McKenna Hofschild's jump shot with 1:11 left in the third got the Rams within 39-33.\n\n\r\n              ---- Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

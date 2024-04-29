@@ -14015,46 +14015,35 @@
 }
 ],
 "article": {
-"id": 39553969,
-"nowId": "1-39553969",
-"contentKey": "39553969-1-21-1",
 "dataSourceIdentifier": "759279ce1609d",
-"type": "Recap",
-"gameId": "401604032",
-"headline": "No. 12 Virginia Tech women get double-doubles from Kitley and Amoore in 86-70 win over Louisville",
+"keywords": [],
 "description": "\u2014 Elizabeth Kitley and Georgia Amoore each recorded double-doubles and No. 12 Virginia Tech beat 18th-ranked Louisville 86-70 on Sunday.",
-"linkText": "No. 12 Virginia Tech women get double-doubles from Kitley and Amoore in 86-70 win over Louisville",
-"categorized": "2024-04-12T08:44:46Z",
-"originallyPosted": "2024-02-18T21:43:00Z",
-"lastModified": "2024-02-18T21:42:59Z",
-"published": "2024-02-18T21:42:58Z",
-"section": "Women's College Basketball",
 "source": "AP",
-"images": [
-{
-"type": "Media",
-"name": "Georgia Amoore sinks a smooth reverse layup",
-"caption": "Georgia Amoore makes a reverse layup to extend Virginia Tech's lead.",
-"height": 324,
-"width": 576,
-"url": "https://a.espncdn.com/media/motion/2024/0218/ss_20240218_154230324_2495918/ss_20240218_154230324_2495918.jpg"
-}
-],
 "video": [
 {
+"source": "espn",
 "id": 39553604,
 "dataSourceIdentifier": "023911ddc2bdf",
-"cerebroId": "65d26bb5ca84b707ca530dae",
-"source": "espn",
 "headline": "Georgia Amoore sinks a smooth reverse layup",
 "caption": "Georgia Amoore makes a reverse layup to extend Virginia Tech's lead.",
-"title": "Georgia Amoore sinks a smooth reverse layup",
 "description": "Georgia Amoore makes a reverse layup to extend Virginia Tech's lead.",
-"lastModified": "2024-02-18T20:50:00Z",
-"originalPublishDate": "2024-02-18T20:42:27Z",
 "premium": false,
-"syndicatable": true,
-"duration": 17,
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Georgia Amoore sinks a smooth reverse layup) 2024/02/18 ESHEET",
+"trackingId": "dm_20240218_NCW_georgia_amoore_sinks_a_smooth_reverse_layup"
+},
+"cerebroId": "65d26bb5ca84b707ca530dae",
+"contributingPartner": "wsc",
+"contributingSystem": "wsc",
+"lastModified": "2024-02-18T20:50:02Z",
+"originalPublishDate": "2024-02-18T20:42:27Z",
 "timeRestrictions": {
 "embargoDate": "2024-02-18T20:42:27Z",
 "expirationDate": "2037-12-31T05:00:00Z"
@@ -14069,18 +14058,134 @@
 "tablet"
 ]
 },
-"thumbnail": "https://a.espncdn.com/media/motion/2024/0218/ss_20240218_154230324_2495918/ss_20240218_154230324_2495918.jpg",
-"images": [
+"syndicatable": true,
+"duration": 17,
+"categories": [
 {
-"name": "Poster Image",
-"caption": "",
-"alt": "",
-"credit": "",
-"height": 324,
-"width": 576,
-"url": "https://media.video-cdn.espn.com/images/2024/0218/ss_20240218_154230324_2495918/ss_20240218_154230324_2495918.jpg"
+"id": 4754,
+"description": "Virginia Tech Hokies",
+"type": "team",
+"sportId": 54,
+"teamId": 259,
+"team": {
+"id": 259,
+"description": "Virginia Tech Hokies",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/259"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/259/virginia-tech-hokies"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=259"
+}
+}
+}
+},
+"uid": "s:40~l:54~t:259"
+},
+{
+"id": 559162,
+"description": "Georgia Amoore",
+"type": "athlete",
+"sportId": 54,
+"athleteId": 4704180,
+"athlete": {
+"id": 4704180,
+"description": "Georgia Amoore",
+"links": {
+"api": {
+"athletes": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/athletes/4704180"
+}
+},
+"web": {
+"athletes": {
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704180/georgia-amoore"
+}
+},
+"mobile": {
+"athletes": {
+"href": "http://m.espn.com/ncw/playercard?playerId=4704180"
+}
+}
+}
+},
+"uid": "s:40~l:54~a:4704180"
+},
+{
+"id": 4822,
+"description": "Louisville Cardinals",
+"type": "team",
+"sportId": 54,
+"teamId": 97,
+"team": {
+"id": 97,
+"description": "Louisville Cardinals",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/97"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=97"
+}
+}
+}
+},
+"uid": "s:40~l:54~t:97"
+},
+{
+"id": 9578,
+"description": "Women's College Basketball",
+"type": "league",
+"sportId": 54,
+"leagueId": 54,
+"league": {
+"id": 54,
+"description": "Women's College Basketball",
+"links": {
+"api": {
+"leagues": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
+}
+},
+"web": {
+"leagues": {
+"href": "https://www.espn.com/womens-college-basketball/"
+}
+},
+"mobile": {
+"leagues": {
+"href": "http://m.espn.com/ncw/"
+}
+}
+}
+},
+"uid": "s:40~l:54"
+},
+{
+"id": 116550,
+"description": "espnw",
+"type": "topic",
+"sportId": 0,
+"topicId": 5
 }
 ],
+"keywords": [],
 "posterImages": {
 "default": {
 "href": "https://media.video-cdn.espn.com/motion/2024/0218/ss_20240218_154230324_2495918/ss_20240218_154230324_2495918_default.jpg",
@@ -14097,37 +14202,19 @@
 "href": "https://media.video-cdn.espn.com/motion/2024/0218/ss_20240218_154230324_2495918/ss_20240218_154230324_2495918_1x1.jpg"
 }
 },
+"images": [
+{
+"name": "Poster Image",
+"url": "https://media.video-cdn.espn.com/images/2024/0218/ss_20240218_154230324_2495918/ss_20240218_154230324_2495918.jpg",
+"alt": "",
+"caption": "",
+"credit": "",
+"width": 576,
+"height": 324
+}
+],
+"thumbnail": "https://a.espncdn.com/media/motion/2024/0218/ss_20240218_154230324_2495918/ss_20240218_154230324_2495918.jpg",
 "links": {
-"web": {
-"href": "http://espn.com/video/clip?id=39553604",
-"self": {
-"href": "http://espn.com/video/clip?id=39553604",
-"dsi": {
-"href": "http://espn.com/video/clip?id=023911ddc2bdf"
-}
-},
-"seo": {
-"href": "http://espn.com/video/clip/_/id/39553604"
-},
-"dsi": {
-"href": "http://espn.com/video/clip?id=023911ddc2bdf"
-}
-},
-"mobile": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/fed034d0-8a77-4cf2-8382-aa46c1e42037/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39553604",
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0218/ss_20240218_154230324_2495918/ss_20240218_154230324_2495918.mp4"
-},
-"alert": {
-"href": "http://m.espn.com/general/video/videoAlert?vid=39553604"
-},
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/fed034d0-8a77-4cf2-8382-aa46c1e42037/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39553604"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/fed034d0-8a77-4cf2-8382-aa46c1e42037/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39553604"
-}
-},
 "api": {
 "self": {
 "href": "http://api-app.espn.com/v1/video/clips/39553604"
@@ -14136,8 +14223,13 @@
 "href": "https://artwork.api.espn.com/artwork/collections/media/fed034d0-8a77-4cf2-8382-aa46c1e42037"
 }
 },
+"web": {
+"href": "http://espn.com/video/clip?id=39553604",
+"self": {
+"href": "http://espn.com/video/clip?id=39553604"
+}
+},
 "source": {
-"href": "https://media.video-cdn.espn.com/motion/2024/0218/ss_20240218_154230324_2495918/ss_20240218_154230324_2495918_360p30_1464k.mp4",
 "mezzanine": {
 "href": "http://media.video-origin.espn.com/espnvideo/2024/0218/ss_20240218_154230324_2495918/ss_20240218_154230324_2495918.mp4"
 },
@@ -14158,346 +14250,191 @@
 },
 "full": {
 "href": "https://media.video-cdn.espn.com/motion/2024/0218/ss_20240218_154230324_2495918/ss_20240218_154230324_2495918_360p30_1464k.mp4"
-}
 },
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showVideo?videoID=39553604&videoDSI=023911ddc2bdf"
-}
-},
-"categories": [
-{
-"id": 9578,
-"type": "league",
-"uid": "s:40~l:54",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
-"description": "NCAA Women's Basketball",
-"sportId": 54,
-"leagueId": 54,
-"league": {
-"id": 54,
-"description": "NCAA Women's Basketball",
-"abbreviation": "NCAAW",
-"links": {
-"web": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
+"href": "https://media.video-cdn.espn.com/motion/2024/0218/ss_20240218_154230324_2495918/ss_20240218_154230324_2495918_360p30_1464k.mp4"
 },
 "mobile": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
-}
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=39553604"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/0218/ss_20240218_154230324_2495918/ss_20240218_154230324_2495918.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/fed034d0-8a77-4cf2-8382-aa46c1e42037/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39553604",
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/fed034d0-8a77-4cf2-8382-aa46c1e42037/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39553604"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/fed034d0-8a77-4cf2-8382-aa46c1e42037/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39553604"
 }
 }
 },
-{
-"id": 116550,
-"type": "topic",
-"guid": "fe879255-6324-4784-385f-a1a18c22b5cc",
-"description": "espnw",
-"sportId": 0,
-"topicId": 5
-},
-{
-"id": 4754,
-"type": "team",
-"uid": "s:40~l:54~t:259",
-"guid": "ef08a0fc-caa6-dfd0-5f5f-c3161b95a4a4",
-"description": "Virginia Tech Hokies",
-"sportId": 54,
-"teamId": 259,
-"team": {
-"id": 259,
-"description": "Virginia Tech Hokies",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/259/virginia-tech-hokies"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/259/virginia-tech-hokies"
-}
-}
-}
-}
-},
-{
-"id": 4822,
-"type": "team",
-"uid": "s:40~l:54~t:97",
-"guid": "7cb9e31c-9f3f-8918-04f0-f88de96aa1cd",
-"description": "Louisville Cardinals",
-"sportId": 54,
-"teamId": 97,
-"team": {
-"id": 97,
-"description": "Louisville Cardinals",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals"
-}
-}
-}
-}
-},
-{
-"id": 559162,
-"type": "athlete",
-"uid": "s:40~l:54~a:4704180",
-"guid": "a9d1aaa5-c146-30df-9cf6-927d1b93d32c",
-"description": "Georgia Amoore",
-"sportId": 54,
-"athleteId": 4704180,
-"athlete": {
-"id": 4704180,
-"description": "Georgia Amoore",
-"links": {
-"web": {
-"athletes": {
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704180/georgia-amoore"
-}
-},
-"mobile": {
-"athletes": {
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704180/georgia-amoore"
-}
-}
-}
-}
-},
-{
-"id": 0,
-"type": "league",
-"uid": "s:1",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
-"description": "Baseball",
-"sportId": 1,
-"leagueId": 1,
-"league": {
-"id": 1,
-"description": "Baseball"
-}
-},
-{
-"type": "guid",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
-},
-{
-"type": "guid",
-"guid": "fe879255-6324-4784-385f-a1a18c22b5cc"
-},
-{
-"type": "guid",
-"guid": "ef08a0fc-caa6-dfd0-5f5f-c3161b95a4a4"
-},
-{
-"type": "guid",
-"guid": "7cb9e31c-9f3f-8918-04f0-f88de96aa1cd"
-},
-{
-"type": "guid",
-"guid": "a9d1aaa5-c146-30df-9cf6-927d1b93d32c"
-},
-{
-"type": "guid",
-"guid": "da2ec85a-5236-3e74-8c56-8a646320432f"
-},
-{
-"type": "guid",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+"title": "Georgia Amoore sinks a smooth reverse layup"
 }
 ],
-"ad": {
-"sport": "ncw",
-"bundle": "espn_w"
-},
-"tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "Final Game Highlight",
-"trackingName": "NCW_One-Play (Georgia Amoore sinks a smooth reverse layup) 2024/02/18 ESHEET",
-"trackingId": "dm_20240218_NCW_georgia_amoore_sinks_a_smooth_reverse_layup"
-},
-"contributingPartner": "wsc",
-"contributingSystem": "wsc"
-}
-],
-"categories": [
-{
-"id": 4754,
-"type": "team",
-"uid": "s:40~l:54~t:259",
-"guid": "ef08a0fc-caa6-dfd0-5f5f-c3161b95a4a4",
-"description": "Virginia Tech Hokies",
-"sportId": 54,
-"teamId": 259,
-"team": {
-"id": 259,
-"description": "Virginia Tech Hokies",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/259/virginia-tech-hokies"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/259/virginia-tech-hokies"
-}
-}
-}
-}
-},
-{
-"id": 4822,
-"type": "team",
-"uid": "s:40~l:54~t:97",
-"guid": "7cb9e31c-9f3f-8918-04f0-f88de96aa1cd",
-"description": "Louisville Cardinals",
-"sportId": 54,
-"teamId": 97,
-"team": {
-"id": 97,
-"description": "Louisville Cardinals",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals"
-}
-}
-}
-}
-},
-{
-"id": 9578,
-"type": "league",
-"uid": "s:40~l:54",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
-"description": "NCAA Women's Basketball",
-"sportId": 54,
-"leagueId": 54,
-"league": {
-"id": 54,
-"description": "NCAA Women's Basketball",
-"abbreviation": "NCAAW",
-"links": {
-"web": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
-},
-"mobile": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
-}
-}
-}
-},
-{
-"id": 0,
-"type": "league",
-"uid": "s:1",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
-"description": "Baseball",
-"sportId": 1,
-"leagueId": 1,
-"league": {
-"id": 1,
-"description": "Baseball"
-}
-},
-{
-"type": "guid",
-"guid": "ef08a0fc-caa6-dfd0-5f5f-c3161b95a4a4"
-},
-{
-"type": "guid",
-"guid": "7cb9e31c-9f3f-8918-04f0-f88de96aa1cd"
-},
-{
-"type": "guid",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
-},
-{
-"type": "guid",
-"guid": "da2ec85a-5236-3e74-8c56-8a646320432f"
-},
-{
-"type": "guid",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
-}
-],
-"keywords": [
-"Virginia Tech Hokies",
-"Louisville Cardinals",
-"NCAA Women's Basketball",
-"Baseball"
-],
+"type": "Recap",
+"nowId": "1-39553969",
 "premium": false,
+"related": [],
+"allowSearch": true,
 "links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/39553969"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401604032"
+}
+},
 "web": {
 "href": "http://www.espn.com/ncw/recap?gameId=401604032"
-},
-"mobile": {
-"href": "http://m.espn.go.com/ncw/story?storyId=39553969",
-"dsi": {
-"href": "http://m.espn.go.com/ncw/story?storyId=759279ce1609d"
-}
 },
 "app": {
 "sportscenter": {
 "href": "sportscenter://x-callback-url/showStory?uid=39553969"
 }
+},
+"mobile": {
+"href": "http://scores.espn.com/ncw/gamecast?gameId=401604032&version=mobile"
 }
 },
-"allowComments": true,
-"allowSearch": true,
-"allowContentReactions": false,
-"metrics": [
+"id": 39553969,
+"categories": [
 {
-"type": "views",
-"count": 0
+"id": 9578,
+"description": "Women's College Basketball",
+"type": "league",
+"sportId": 54,
+"leagueId": 54,
+"league": {
+"id": 54,
+"description": "Women's College Basketball",
+"links": {
+"api": {
+"leagues": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
+}
+},
+"web": {
+"leagues": {
+"href": "https://www.espn.com/womens-college-basketball/"
+}
+},
+"mobile": {
+"leagues": {
+"href": "http://m.espn.com/ncw/"
+}
+}
+}
+},
+"uid": "s:40~l:54"
 },
 {
-"type": "fShares",
-"count": 0
+"id": 4822,
+"description": "Louisville Cardinals",
+"type": "team",
+"sportId": 54,
+"teamId": 97,
+"team": {
+"id": 97,
+"description": "Louisville Cardinals",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/97"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=97"
+}
+}
+}
+},
+"uid": "s:40~l:54~t:97"
 },
 {
-"type": "tweets",
-"count": 0
+"id": 4754,
+"description": "Virginia Tech Hokies",
+"type": "team",
+"sportId": 54,
+"teamId": 259,
+"team": {
+"id": 259,
+"description": "Virginia Tech Hokies",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/259"
+}
 },
-{
-"type": "comments",
-"count": 0
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/259/virginia-tech-hokies"
+}
 },
-{
-"type": "emails",
-"count": 0
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=259"
+}
+}
+}
 },
-{
-"type": "votes",
-"count": 0
-},
-{
-"type": "popularity",
-"count": 0
+"uid": "s:40~l:54~t:259"
 }
 ],
+"headline": "No. 12 Virginia Tech women get double-doubles from Kitley and Amoore in 86-70 win over Louisville",
+"gameId": "401604032",
+"images": [
+{
+"name": "Georgia Amoore sinks a smooth reverse layup",
+"width": 576,
+"alt": "",
+"caption": "Georgia Amoore makes a reverse layup to extend Virginia Tech's lead.",
+"url": "https://a.espncdn.com/media/motion/2024/0218/ss_20240218_154230324_2495918/ss_20240218_154230324_2495918.jpg",
+"height": 324
+}
+],
+"linkText": "No. 12 Virginia Tech women get double-doubles from Kitley and Amoore in 86-70 win over Louisville",
+"published": "2024-02-18T21:42:58Z",
+"allowComments": true,
+"lastModified": "2024-02-18T21:42:59Z",
+"metrics": [
+{
+"count": 0,
+"type": "views"
+},
+{
+"count": 0,
+"type": "fShares"
+},
+{
+"count": 0,
+"type": "tweets"
+},
+{
+"count": 0,
+"type": "comments"
+},
+{
+"count": 0,
+"type": "emails"
+},
+{
+"count": 0,
+"type": "votes"
+},
+{
+"count": 0,
+"type": "popularity"
+}
+],
+"inlines": [],
 "story": "\r\n              LOUISVILLE, Ky. -- \u2014 Elizabeth Kitley and Georgia Amoore each recorded double-doubles and No. 12 Virginia Tech beat 18th-ranked Louisville 86-70 on Sunday.\n\n\r\n              Kitley scored 26 points shooting 12 of 16 and grabbed 13 rebounds while Amoore scored 23 points shooting 9 of 11 \u2014 including 3 of 4 from 3-point range \u2014 and distributed 10 assists. \n\n\r\n              Matilda Ekh contributed 12 points, shooting 5 for 7, for Virginia Tech which finished shooting 65.4% (34 of 52), including 43.5% (10 of 23) from 3-point range.\n\n\r\n              The Hokies' 65.4% shooting mark represents a program best in ACC play. Virginia Tech's ninth-straight win marks another program best.\n\n\r\n              Kiki Jefferson scored 19 points, reserve Jayda Curry 13 and Nyla Harris and Nina Rickards 10 apiece for Louisville (21-6, 11-4 ACC).\n\n\r\n              Kitley scored nine of Virginia Tech's first 11 points to set the Hokies' (22-4, 13-2) offensive tone. Merissah Russell's jump shot brought the Cardinals within 11-9 with 2:19 left before the end of the first quarter, but the Hokies closed the quarter with a 9-4 blitz to go up 20-13.\n\n\r\n              Ekh started the second with consecutive 3s for a 26-13 advantage and the Hokies stayed ahead by double digits through the remainder.\n\n\r\n              The Hokies shot 63.3% (19 of 30), including 46.7% (7 of 15) from beyond the arc in the first half. Kitley nearly had a double-double before the break with 15 points and eight rebounds as Virginia Tech built a 48-35 lead at intermission.\n\n\r\n               Louisville travels to Georgia Tech on Thursday. Virginia Tech hosts North Carolina on Feb. 25.\n\n\r\n              ---- Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [

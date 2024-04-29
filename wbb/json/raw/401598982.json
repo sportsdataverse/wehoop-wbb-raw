@@ -2903,190 +2903,165 @@
 },
 "plays": [],
 "article": {
-"id": 38919168,
-"nowId": "1-38919168",
-"contentKey": "38919168-1-21-1",
 "dataSourceIdentifier": "186e0f89b5736",
-"type": "Recap",
-"gameId": "401598982",
-"headline": "McMahon scores 24 points, No. 13 Ohio State women start fast to defeat Boston College 88-66",
+"keywords": [],
 "description": "\u2014 Cotie McMahon scored 24 point and No. 13 Ohio State used a quick start to roll to an 88-66 win over Boston College on Thursday night.",
-"linkText": "McMahon scores 24 points, No. 13 Ohio State women start fast to defeat Boston College 88-66",
-"categorized": "2024-04-12T06:47:32Z",
-"originallyPosted": "2023-11-17T12:24:58Z",
-"lastModified": "2023-11-17T12:24:59Z",
-"published": "2023-11-17T12:24:58Z",
-"section": "Women's College Basketball",
 "source": "AP",
-"images": [],
 "video": [],
+"type": "Recap",
+"nowId": "1-38919168",
+"premium": false,
+"related": [],
+"allowSearch": true,
+"links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/38919168"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401598982"
+}
+},
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401598982"
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=38919168"
+}
+},
+"mobile": {
+"href": "http://scores.espn.com/ncw/gamecast?gameId=401598982&version=mobile"
+}
+},
+"id": 38919168,
 "categories": [
 {
+"id": 9578,
+"description": "Women's College Basketball",
+"type": "league",
+"sportId": 54,
+"leagueId": 54,
+"league": {
+"id": 54,
+"description": "Women's College Basketball",
+"links": {
+"api": {
+"leagues": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
+}
+},
+"web": {
+"leagues": {
+"href": "https://www.espn.com/womens-college-basketball/"
+}
+},
+"mobile": {
+"leagues": {
+"href": "http://m.espn.com/ncw/"
+}
+}
+}
+},
+"uid": "s:40~l:54"
+},
+{
 "id": 4782,
-"type": "team",
-"uid": "s:40~l:54~t:194",
-"guid": "64786fce-2762-6b90-c273-daa2d8b68e1e",
 "description": "Ohio State Buckeyes",
+"type": "team",
 "sportId": 54,
 "teamId": 194,
 "team": {
 "id": 194,
 "description": "Ohio State Buckeyes",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/194"
+}
+},
 "web": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/194/ohio-state-buckeyes"
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/194/ohio-state-buckeyes"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/194/ohio-state-buckeyes"
-}
+"href": "http://m.espn.com/ncw/clubhouse?teamId=194"
 }
 }
 }
 },
-{
-"id": 9578,
-"type": "league",
-"uid": "s:40~l:54",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
-"description": "NCAA Women's Basketball",
-"sportId": 54,
-"leagueId": 54,
-"league": {
-"id": 54,
-"description": "NCAA Women's Basketball",
-"abbreviation": "NCAAW",
-"links": {
-"web": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
-},
-"mobile": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
-}
-}
-}
+"uid": "s:40~l:54~t:194"
 },
 {
 "id": 4749,
-"type": "team",
-"uid": "s:40~l:54~t:103",
-"guid": "03ee57e2-030d-63ba-be02-3cbaae910357",
 "description": "Boston College Eagles",
+"type": "team",
 "sportId": 54,
 "teamId": 103,
 "team": {
 "id": 103,
 "description": "Boston College Eagles",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/103"
+}
+},
 "web": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/103/boston-college-eagles"
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/103/boston-college-eagles"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/103/boston-college-eagles"
+"href": "http://m.espn.com/ncw/clubhouse?teamId=103"
 }
 }
 }
-}
 },
-{
-"id": 0,
-"type": "league",
-"uid": "s:1",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
-"description": "Baseball",
-"sportId": 1,
-"leagueId": 1,
-"league": {
-"id": 1,
-"description": "Baseball"
-}
-},
-{
-"type": "guid",
-"guid": "64786fce-2762-6b90-c273-daa2d8b68e1e"
-},
-{
-"type": "guid",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
-},
-{
-"type": "guid",
-"guid": "03ee57e2-030d-63ba-be02-3cbaae910357"
-},
-{
-"type": "guid",
-"guid": "88d41152-f195-3051-bd72-2012bf6b899b"
-},
-{
-"type": "guid",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+"uid": "s:40~l:54~t:103"
 }
 ],
-"keywords": [
-"Ohio State Buckeyes",
-"NCAA Women's Basketball",
-"Boston College Eagles",
-"Baseball"
-],
-"premium": false,
-"links": {
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401598982"
-},
-"mobile": {
-"href": "http://m.espn.go.com/ncw/story?storyId=38919168",
-"dsi": {
-"href": "http://m.espn.go.com/ncw/story?storyId=186e0f89b5736"
-}
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=38919168"
-}
-}
-},
+"headline": "McMahon scores 24 points, No. 13 Ohio State women start fast to defeat Boston College 88-66",
+"gameId": "401598982",
+"images": [],
+"linkText": "McMahon scores 24 points, No. 13 Ohio State women start fast to defeat Boston College 88-66",
+"published": "2023-11-17T12:24:58Z",
 "allowComments": true,
-"allowSearch": true,
-"allowContentReactions": false,
+"lastModified": "2023-11-17T12:24:59Z",
 "metrics": [
 {
-"type": "views",
-"count": 0
+"count": 0,
+"type": "views"
 },
 {
-"type": "fShares",
-"count": 0
+"count": 0,
+"type": "fShares"
 },
 {
-"type": "tweets",
-"count": 0
+"count": 0,
+"type": "tweets"
 },
 {
-"type": "comments",
-"count": 0
+"count": 0,
+"type": "comments"
 },
 {
-"type": "emails",
-"count": 0
+"count": 0,
+"type": "emails"
 },
 {
-"type": "votes",
-"count": 0
+"count": 0,
+"type": "votes"
 },
 {
-"type": "popularity",
-"count": 0
+"count": 0,
+"type": "popularity"
 }
 ],
+"inlines": [],
 "story": "\r\n              COLUMBUS, Ohio -- \u2014 Cotie McMahon scored 24 point and No. 13 Ohio State used a quick start to roll to an 88-66 win over Boston College on Thursday night.\n\n\r\n              Taylor Thierry added 18 points and eight rebounds for the Buckeyes (3-1) and Jacy Sheldon had 16 points.\n\n\r\n              The Buckeyes made 13 of 17 shots in the first quarter for a 32-11 lead and finished the half up 55-26 after shooting 71% (22 of 31). McMahon had 11 in the first quarter and 18 at the half with Thierry adding 14 and Sheldon 11.\n\n\r\n              Emma Shumate hit a 3-pointer to close the third quarter to push the lead to 75-38. \n\n\r\n              T'yana Todd scored 16 points for the Eagles (2-2) and Andrea Daley and Teya Sidberry had 14 each.\n\n\r\n              McMahon was 8 of 10 from the field and 8 of 12 from the foul line. The Buckeyes shot 61% (35 of 57) despite going 5 of 12 in the fourth quarter when they were outscored 28-13. OSU was 6 of 12 from 3-point range.\n\n\r\n              Ohio State goes to the Pink Flamingo Championship in the Bahamas, facing East Carolina on Monday and Oklahoma State on Wednesday. The Eagles play at Providence on Sunday.\n\n\r\n              ---- Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

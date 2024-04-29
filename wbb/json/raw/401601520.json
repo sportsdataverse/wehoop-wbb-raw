@@ -14540,37 +14540,54 @@
 }
 ],
 "article": {
-"id": 39250283,
-"nowId": "1-39250283",
-"contentKey": "39250283-1-21-1",
 "dataSourceIdentifier": "f25641239a962",
-"type": "Recap",
-"gameId": "401601520",
-"headline": "No. 20 Ohio State women beat Northwestern 90-60 for its fourth straight win in the series",
+"keywords": [],
 "description": "\u2014 Jacy Sheldon scored 18 points, Celeste Taylor added 15 points and No. 20 Ohio State beat Northwestern 90-60 on Friday night for its fourth straight win in the series.",
-"linkText": "No. 20 Ohio State women beat Northwestern 90-60 for its fourth straight win in the series",
-"categorized": "2024-04-12T07:47:40Z",
-"originallyPosted": "2024-01-06T03:39:56Z",
-"lastModified": "2024-01-06T03:39:55Z",
-"published": "2024-01-06T03:39:54Z",
-"section": "Women's College Basketball",
 "source": "AP",
-"images": [],
 "video": [],
+"type": "Recap",
+"nowId": "1-39250283",
+"premium": false,
+"related": [],
+"allowSearch": true,
+"links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/39250283"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401601520"
+}
+},
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401601520"
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39250283"
+}
+},
+"mobile": {
+"href": "http://scores.espn.com/ncw/gamecast?gameId=401601520&version=mobile"
+}
+},
+"id": 39250283,
 "categories": [
 {
 "id": 9578,
+"description": "Women's College Basketball",
 "type": "league",
-"uid": "s:40~l:54",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
-"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "NCAA Women's Basketball",
-"abbreviation": "NCAAW",
+"description": "Women's College Basketball",
 "links": {
+"api": {
+"leagues": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
+}
+},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -14578,152 +14595,110 @@
 },
 "mobile": {
 "leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
+"href": "http://m.espn.com/ncw/"
 }
 }
 }
 },
-{
-"id": 4782,
-"type": "team",
-"uid": "s:40~l:54~t:194",
-"guid": "64786fce-2762-6b90-c273-daa2d8b68e1e",
-"description": "Ohio State Buckeyes",
-"sportId": 54,
-"teamId": 194,
-"team": {
-"id": 194,
-"description": "Ohio State Buckeyes",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/194/ohio-state-buckeyes"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/194/ohio-state-buckeyes"
-}
-}
-}
-}
+"uid": "s:40~l:54"
 },
 {
 "id": 4777,
-"type": "team",
-"uid": "s:40~l:54~t:77",
-"guid": "38956adf-657a-552e-313b-a815b16995d6",
 "description": "Northwestern Wildcats",
+"type": "team",
 "sportId": 54,
 "teamId": 77,
 "team": {
 "id": 77,
 "description": "Northwestern Wildcats",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/77"
+}
+},
 "web": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/77/northwestern-wildcats"
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/77/northwestern-wildcats"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/77/northwestern-wildcats"
-}
+"href": "http://m.espn.com/ncw/clubhouse?teamId=77"
 }
 }
 }
 },
-{
-"id": 0,
-"type": "league",
-"uid": "s:1",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
-"description": "Baseball",
-"sportId": 1,
-"leagueId": 1,
-"league": {
-"id": 1,
-"description": "Baseball"
-}
+"uid": "s:40~l:54~t:77"
 },
 {
-"type": "guid",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
-},
-{
-"type": "guid",
-"guid": "64786fce-2762-6b90-c273-daa2d8b68e1e"
-},
-{
-"type": "guid",
-"guid": "38956adf-657a-552e-313b-a815b16995d6"
-},
-{
-"type": "guid",
-"guid": "cc2c5e4a-0f32-3d84-ae04-215e5a3f18cc"
-},
-{
-"type": "guid",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
-}
-],
-"keywords": [
-"NCAA Women's Basketball",
-"Ohio State Buckeyes",
-"Northwestern Wildcats",
-"Baseball"
-],
-"premium": false,
+"id": 4782,
+"description": "Ohio State Buckeyes",
+"type": "team",
+"sportId": 54,
+"teamId": 194,
+"team": {
+"id": 194,
+"description": "Ohio State Buckeyes",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/194"
+}
+},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401601520"
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/194/ohio-state-buckeyes"
+}
 },
 "mobile": {
-"href": "http://m.espn.go.com/ncw/story?storyId=39250283",
-"dsi": {
-"href": "http://m.espn.go.com/ncw/story?storyId=f25641239a962"
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=194"
 }
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39250283"
 }
 }
 },
+"uid": "s:40~l:54~t:194"
+}
+],
+"headline": "No. 20 Ohio State women beat Northwestern 90-60 for its fourth straight win in the series",
+"gameId": "401601520",
+"images": [],
+"linkText": "No. 20 Ohio State women beat Northwestern 90-60 for its fourth straight win in the series",
+"published": "2024-01-06T03:39:54Z",
 "allowComments": true,
-"allowSearch": true,
-"allowContentReactions": false,
+"lastModified": "2024-01-06T03:39:55Z",
 "metrics": [
 {
-"type": "views",
-"count": 0
+"count": 0,
+"type": "views"
 },
 {
-"type": "fShares",
-"count": 0
+"count": 0,
+"type": "fShares"
 },
 {
-"type": "tweets",
-"count": 0
+"count": 0,
+"type": "tweets"
 },
 {
-"type": "comments",
-"count": 0
+"count": 0,
+"type": "comments"
 },
 {
-"type": "emails",
-"count": 0
+"count": 0,
+"type": "emails"
 },
 {
-"type": "votes",
-"count": 0
+"count": 0,
+"type": "votes"
 },
 {
-"type": "popularity",
-"count": 0
+"count": 0,
+"type": "popularity"
 }
 ],
+"inlines": [],
 "story": "\r\n              EVANSTON, Ill. -- \u2014 Jacy Sheldon scored 18 points, Celeste Taylor added 15 points and No. 20 Ohio State beat Northwestern 90-60 on Friday night for its fourth straight win in the series.\n\n\r\n              All five starters scored in double figures \u2014 and Diana Collins added a career-high 10 points off the bench \u2014 for Ohio State (11-3, 2-1 Big Ten Conference). Eboni Walker had 11 points, and Taylor Thierry and Cotie McMahon each scored 10. Rebeka Mikulasikova, averaging 8.5 points per game, did not play due to an illness.\n\n\r\n              Ohio State scored the opening eight points of the game before Northwestern made four straight 3-pointers. The Buckeyes pulled away in the second quarter, outscoring the Wildcats 22-9 for a 14-point lead at the break. \n\n\r\n              Ohio State shot 52% from the field in the second half and made all 10 of its free-throw attempts to stay ahead. Northwestern finished with 28 turnovers, leading to 37 points by the Buckeyes. \n\n\r\n              Caileigh Walsh led Northwestern (6-9, 1-3) with 14 points, scoring 10 of the team's first 21 points. Paige Mot added 10 points. Melannie Daley, averaging a team-high 13.4 points per game, was held to two points.\n\n\r\n              Ohio State has the weekend off before hosting Rutgers on Thursday. Northwestern plays at Wisconsin on Wednesday. \n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

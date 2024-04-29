@@ -23609,46 +23609,33 @@
 ]
 },
 "article": {
-"id": 38972750,
-"nowId": "1-38972750",
-"contentKey": "38972750-1-21-1",
 "dataSourceIdentifier": "072f832649294",
-"type": "Recap",
-"gameId": "401594811",
-"headline": "No. 2 UCLA holds off No. 6 UConn 78-67",
+"keywords": [],
 "description": "\u2014 Kiki Rice scored 24 points and No. 2 UCLA held off No, 6 UConn 78-67 on Friday in the Cayman Islands Classic.",
-"linkText": "No. 2 UCLA holds off No. 6 UConn 78-67",
-"categorized": "2024-04-12T06:56:38Z",
-"originallyPosted": "2023-11-25T02:36:54Z",
-"lastModified": "2023-11-25T06:30:56Z",
-"published": "2023-11-25T02:36:54Z",
-"section": "Women's College Basketball",
 "source": "AP",
-"images": [
-{
-"type": "Media",
-"name": "UCLA catches fire with a dozen 3-pointers to top UConn",
-"caption": "Charisma Osborne hits six 3-pointers in No. 2 UCLA's 78-67 win over No. 6 UConn.",
-"height": 324,
-"width": 576,
-"url": "https://a.espncdn.com/media/motion/2023/1124/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag.jpg"
-}
-],
 "video": [
 {
+"source": "espn",
 "id": 38972910,
 "dataSourceIdentifier": "78f4b98b73f1f",
-"cerebroId": "65616220be6ab3250603c233",
-"source": "espn",
 "headline": "UCLA catches fire with a dozen 3-pointers to top UConn",
 "caption": "Charisma Osborne hits six 3-pointers in No. 2 UCLA's 78-67 win over No. 6 UConn.",
-"title": "UCLA catches fire with a dozen 3-pointers to top UConn",
 "description": "Charisma Osborne hits six 3-pointers in No. 2 UCLA's 78-67 win over No. 6 UConn.",
+"premium": false,
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "COM_NCW Highlight (UCLA catches fire with a dozen 3-pointers to top UConn) 2023/11/24 ESHEET SOTFULL",
+"trackingId": "dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag"
+},
+"cerebroId": "65616220be6ab3250603c233",
 "lastModified": "2023-11-25T02:56:11Z",
 "originalPublishDate": "2023-11-25T02:51:12Z",
-"premium": false,
-"syndicatable": true,
-"duration": 24,
 "timeRestrictions": {
 "embargoDate": "2023-11-25T02:51:12Z",
 "expirationDate": "2024-05-31T16:00:00Z"
@@ -23663,18 +23650,112 @@
 "tablet"
 ]
 },
-"thumbnail": "https://a.espncdn.com/media/motion/2023/1124/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag.jpg",
-"images": [
+"syndicatable": true,
+"duration": 24,
+"categories": [
 {
-"name": "Poster Image",
-"caption": "",
-"alt": "",
-"credit": "",
-"height": 324,
-"width": 576,
-"url": "https://media.video-cdn.espn.com/images/2023/1124/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag.jpg"
+"id": 116550,
+"description": "espnw",
+"type": "topic",
+"sportId": 0,
+"topicId": 5
+},
+{
+"id": 9578,
+"description": "Women's College Basketball",
+"type": "league",
+"sportId": 54,
+"leagueId": 54,
+"league": {
+"id": 54,
+"description": "Women's College Basketball",
+"links": {
+"api": {
+"leagues": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
+}
+},
+"web": {
+"leagues": {
+"href": "https://www.espn.com/womens-college-basketball/"
+}
+},
+"mobile": {
+"leagues": {
+"href": "http://m.espn.com/ncw/"
+}
+}
+}
+},
+"uid": "s:40~l:54"
+},
+{
+"id": 145735,
+"description": "espnw - sports",
+"type": "topic",
+"sportId": 0,
+"topicId": 385
+},
+{
+"id": 4919,
+"description": "UCLA Bruins",
+"type": "team",
+"sportId": 54,
+"teamId": 26,
+"team": {
+"id": 26,
+"description": "UCLA Bruins",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/26"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/26/ucla-bruins"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=26"
+}
+}
+}
+},
+"uid": "s:40~l:54~t:26"
+},
+{
+"id": 4746,
+"description": "UConn Huskies",
+"type": "team",
+"sportId": 54,
+"teamId": 41,
+"team": {
+"id": 41,
+"description": "UConn Huskies",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/41"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/41/uconn-huskies"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=41"
+}
+}
+}
+},
+"uid": "s:40~l:54~t:41"
 }
 ],
+"keywords": [],
 "posterImages": {
 "default": {
 "href": "https://media.video-cdn.espn.com/motion/2023/1124/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag_default.jpg",
@@ -23691,37 +23772,19 @@
 "href": "https://media.video-cdn.espn.com/motion/2023/1124/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag_1x1.jpg"
 }
 },
+"images": [
+{
+"name": "Poster Image",
+"url": "https://media.video-cdn.espn.com/images/2023/1124/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag.jpg",
+"alt": "",
+"caption": "",
+"credit": "",
+"width": 576,
+"height": 324
+}
+],
+"thumbnail": "https://a.espncdn.com/media/motion/2023/1124/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag.jpg",
 "links": {
-"web": {
-"href": "http://espn.com/video/clip?id=38972910",
-"self": {
-"href": "http://espn.com/video/clip?id=38972910",
-"dsi": {
-"href": "http://espn.com/video/clip?id=78f4b98b73f1f"
-}
-},
-"seo": {
-"href": "http://espn.com/video/clip/_/id/38972910"
-},
-"dsi": {
-"href": "http://espn.com/video/clip?id=78f4b98b73f1f"
-}
-},
-"mobile": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/006c0b5b-43d8-4d95-9482-1c13609902b0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38972910",
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1124/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag.mp4"
-},
-"alert": {
-"href": "http://m.espn.com/general/video/videoAlert?vid=38972910"
-},
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/006c0b5b-43d8-4d95-9482-1c13609902b0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38972910"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/006c0b5b-43d8-4d95-9482-1c13609902b0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38972910"
-}
-},
 "api": {
 "self": {
 "href": "http://api-app.espn.com/v1/video/clips/38972910"
@@ -23730,8 +23793,13 @@
 "href": "https://artwork.api.espn.com/artwork/collections/media/006c0b5b-43d8-4d95-9482-1c13609902b0"
 }
 },
+"web": {
+"href": "http://espn.com/video/clip?id=38972910",
+"self": {
+"href": "http://espn.com/video/clip?id=38972910"
+}
+},
 "source": {
-"href": "https://media.video-cdn.espn.com/motion/2023/1124/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag_360p30_1464k.mp4",
 "mezzanine": {
 "href": "http://media.video-origin.espn.com/espnvideo/2023/1124/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag.mp4"
 },
@@ -23752,339 +23820,191 @@
 },
 "full": {
 "href": "https://media.video-cdn.espn.com/motion/2023/1124/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag_360p30_1464k.mp4"
-}
 },
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showVideo?videoID=38972910&videoDSI=78f4b98b73f1f"
-}
-},
-"categories": [
-{
-"id": 4746,
-"type": "team",
-"uid": "s:40~l:54~t:41",
-"guid": "179cc0cf-4aff-5dd9-80cb-c4bbf21c5442",
-"description": "UConn Huskies",
-"sportId": 54,
-"teamId": 41,
-"team": {
-"id": 41,
-"description": "UConn Huskies",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/41/uconn-huskies"
-}
+"href": "https://media.video-cdn.espn.com/motion/2023/1124/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag_360p30_1464k.mp4"
 },
 "mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/41/uconn-huskies"
-}
-}
-}
-}
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=38972910"
 },
-{
-"id": 116550,
-"type": "topic",
-"guid": "fe879255-6324-4784-385f-a1a18c22b5cc",
-"description": "espnw",
-"sportId": 0,
-"topicId": 5
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2023/1124/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag.mp4"
 },
-{
-"id": 9578,
-"type": "league",
-"uid": "s:40~l:54",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
-"description": "NCAA Women's Basketball",
-"sportId": 54,
-"leagueId": 54,
-"league": {
-"id": 54,
-"description": "NCAA Women's Basketball",
-"abbreviation": "NCAAW",
-"links": {
-"web": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/006c0b5b-43d8-4d95-9482-1c13609902b0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38972910",
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/006c0b5b-43d8-4d95-9482-1c13609902b0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38972910"
 },
-"mobile": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
-}
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/006c0b5b-43d8-4d95-9482-1c13609902b0/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=38972910"
 }
 }
 },
-{
-"id": 128110,
-"type": "topic",
-"guid": "cf7d8580-5e4d-5fc2-4877-11791f7c3a90",
-"description": "news - frontpage",
-"sportId": 0,
-"topicId": 92
-},
-{
-"id": 4919,
-"type": "team",
-"uid": "s:40~l:54~t:26",
-"guid": "f430852b-8bf3-6f5f-f713-a28d18e7697d",
-"description": "UCLA Bruins",
-"sportId": 54,
-"teamId": 26,
-"team": {
-"id": 26,
-"description": "UCLA Bruins",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/26/ucla-bruins"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/26/ucla-bruins"
-}
-}
-}
-}
-},
-{
-"id": 145735,
-"type": "topic",
-"guid": "4ef13d07-6321-66b2-1545-7accd81e7618",
-"description": "espnw - sports",
-"sportId": 0,
-"topicId": 385
-},
-{
-"id": 0,
-"type": "league",
-"uid": "s:1",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
-"description": "Baseball",
-"sportId": 1,
-"leagueId": 1,
-"league": {
-"id": 1,
-"description": "Baseball"
-}
-},
-{
-"type": "guid",
-"guid": "179cc0cf-4aff-5dd9-80cb-c4bbf21c5442"
-},
-{
-"type": "guid",
-"guid": "fe879255-6324-4784-385f-a1a18c22b5cc"
-},
-{
-"type": "guid",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
-},
-{
-"type": "guid",
-"guid": "cf7d8580-5e4d-5fc2-4877-11791f7c3a90"
-},
-{
-"type": "guid",
-"guid": "f430852b-8bf3-6f5f-f713-a28d18e7697d"
-},
-{
-"type": "guid",
-"guid": "4ef13d07-6321-66b2-1545-7accd81e7618"
-},
-{
-"type": "guid",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
-},
-{
-"type": "guid",
-"guid": "c0d398c1-ecc6-367d-8445-b24593b88d13"
+"title": "UCLA catches fire with a dozen 3-pointers to top UConn"
 }
 ],
-"ad": {
-"sport": "ncw",
-"bundle": "espn_w"
-},
-"tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "Final Game Highlight",
-"trackingName": "COM_NCW Highlight (UCLA catches fire with a dozen 3-pointers to top UConn) 2023/11/24 ESHEET SOTFULL",
-"trackingId": "dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag"
-}
-}
-],
-"categories": [
-{
-"id": 4919,
-"type": "team",
-"uid": "s:40~l:54~t:26",
-"guid": "f430852b-8bf3-6f5f-f713-a28d18e7697d",
-"description": "UCLA Bruins",
-"sportId": 54,
-"teamId": 26,
-"team": {
-"id": 26,
-"description": "UCLA Bruins",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/26/ucla-bruins"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/26/ucla-bruins"
-}
-}
-}
-}
-},
-{
-"id": 4746,
-"type": "team",
-"uid": "s:40~l:54~t:41",
-"guid": "179cc0cf-4aff-5dd9-80cb-c4bbf21c5442",
-"description": "UConn Huskies",
-"sportId": 54,
-"teamId": 41,
-"team": {
-"id": 41,
-"description": "UConn Huskies",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/41/uconn-huskies"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/41/uconn-huskies"
-}
-}
-}
-}
-},
-{
-"id": 9578,
-"type": "league",
-"uid": "s:40~l:54",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
-"description": "NCAA Women's Basketball",
-"sportId": 54,
-"leagueId": 54,
-"league": {
-"id": 54,
-"description": "NCAA Women's Basketball",
-"abbreviation": "NCAAW",
-"links": {
-"web": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
-},
-"mobile": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
-}
-}
-}
-},
-{
-"id": 0,
-"type": "league",
-"uid": "s:1",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
-"description": "Baseball",
-"sportId": 1,
-"leagueId": 1,
-"league": {
-"id": 1,
-"description": "Baseball"
-}
-},
-{
-"type": "guid",
-"guid": "f430852b-8bf3-6f5f-f713-a28d18e7697d"
-},
-{
-"type": "guid",
-"guid": "179cc0cf-4aff-5dd9-80cb-c4bbf21c5442"
-},
-{
-"type": "guid",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
-},
-{
-"type": "guid",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
-},
-{
-"type": "guid",
-"guid": "c0d398c1-ecc6-367d-8445-b24593b88d13"
-}
-],
-"keywords": [
-"UCLA Bruins",
-"UConn Huskies",
-"NCAA Women's Basketball",
-"Baseball"
-],
+"type": "Recap",
+"nowId": "1-38972750",
 "premium": false,
+"related": [],
+"allowSearch": true,
 "links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/38972750"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401594811"
+}
+},
 "web": {
 "href": "http://www.espn.com/ncw/recap?gameId=401594811"
-},
-"mobile": {
-"href": "http://m.espn.go.com/ncw/story?storyId=38972750",
-"dsi": {
-"href": "http://m.espn.go.com/ncw/story?storyId=072f832649294"
-}
 },
 "app": {
 "sportscenter": {
 "href": "sportscenter://x-callback-url/showStory?uid=38972750"
 }
+},
+"mobile": {
+"href": "http://scores.espn.com/ncw/gamecast?gameId=401594811&version=mobile"
 }
 },
-"allowComments": true,
-"allowSearch": true,
-"allowContentReactions": false,
-"metrics": [
+"id": 38972750,
+"categories": [
 {
-"type": "views",
-"count": 0
+"id": 9578,
+"description": "Women's College Basketball",
+"type": "league",
+"sportId": 54,
+"leagueId": 54,
+"league": {
+"id": 54,
+"description": "Women's College Basketball",
+"links": {
+"api": {
+"leagues": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
+}
+},
+"web": {
+"leagues": {
+"href": "https://www.espn.com/womens-college-basketball/"
+}
+},
+"mobile": {
+"leagues": {
+"href": "http://m.espn.com/ncw/"
+}
+}
+}
+},
+"uid": "s:40~l:54"
 },
 {
-"type": "fShares",
-"count": 0
+"id": 4746,
+"description": "UConn Huskies",
+"type": "team",
+"sportId": 54,
+"teamId": 41,
+"team": {
+"id": 41,
+"description": "UConn Huskies",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/41"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/41/uconn-huskies"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=41"
+}
+}
+}
+},
+"uid": "s:40~l:54~t:41"
 },
 {
-"type": "tweets",
-"count": 0
+"id": 4919,
+"description": "UCLA Bruins",
+"type": "team",
+"sportId": 54,
+"teamId": 26,
+"team": {
+"id": 26,
+"description": "UCLA Bruins",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/26"
+}
 },
-{
-"type": "comments",
-"count": 0
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/26/ucla-bruins"
+}
 },
-{
-"type": "emails",
-"count": 0
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=26"
+}
+}
+}
 },
-{
-"type": "votes",
-"count": 0
-},
-{
-"type": "popularity",
-"count": 0
+"uid": "s:40~l:54~t:26"
 }
 ],
+"headline": "No. 2 UCLA holds off No. 6 UConn 78-67",
+"gameId": "401594811",
+"images": [
+{
+"name": "UCLA catches fire with a dozen 3-pointers to top UConn",
+"width": 576,
+"alt": "",
+"caption": "Charisma Osborne hits six 3-pointers in No. 2 UCLA's 78-67 win over No. 6 UConn.",
+"url": "https://a.espncdn.com/media/motion/2023/1124/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag/dm_231124_dm_231124_NCW_UCLA_UCONN_HL_pub2tag.jpg",
+"height": 324
+}
+],
+"linkText": "No. 2 UCLA holds off No. 6 UConn 78-67",
+"published": "2023-11-25T02:36:54Z",
+"allowComments": true,
+"lastModified": "2023-11-25T06:30:56Z",
+"metrics": [
+{
+"count": 0,
+"type": "views"
+},
+{
+"count": 0,
+"type": "fShares"
+},
+{
+"count": 0,
+"type": "tweets"
+},
+{
+"count": 0,
+"type": "comments"
+},
+{
+"count": 0,
+"type": "emails"
+},
+{
+"count": 0,
+"type": "votes"
+},
+{
+"count": 0,
+"type": "popularity"
+}
+],
+"inlines": [],
 "story": "\r\n              GEORGE TOWN, Cayman Islands -- \u2014 Kiki Rice scored 24 points and No. 2 UCLA held off No, 6 UConn 78-67 on Friday in the Cayman Islands Classic.\n\n\r\n              Rice also had 11 rebounds and eight assists for the Bruins (5-0), who led by as many as 23 points in the second half. Charisma Osborne added 18 points and Lauren Betts had 13 points.\n\n\r\n              \u201cWe really were confident that if we executed the game plan, that we were going to win,\u201d UCLA coach Cori Close said. \u201cI say that with great respect (for UConn) but I really believe in what this team is building. I didn\u2019t think we played our best basketball \u2014 we really had some moments we really need to clean up \u2014 but really proud of this next step and who we\u2019re becoming.\u201d \n\n\r\n              It's the first time that the Bruins had beaten the Huskies.\n\n\r\n              Paige Bueckers led all scorers with 31 points for UConn (3-2).\n\n\r\n              \u201cYou can\u2019t beat a really good team with one player,\u201d UConn coach Geno Auriemma said. \u201cIt was disappointing that we didn\u2019t get more contributions from more people. Our combinations are all screwed up right now, so that\u2019s got to get sorted out.. We struggled, we had our runs, we just didn\u2019t have enough.\u201d\n\n\r\n              UCLA led by as many as 19 points in the first half before the Huskies cut that to five at halftime.\n\n\r\n              But the Bruins scored the first seven points of the second half and outscored the Huskies 22-8 in the third period. A 3-point play by Lauren Betts gave the Bruins their first 20-point lead at 57-37 and they led by 21 after three.\n\n\r\n              The Huskies made a run in the fourth quarter, and cut the lead to 74-65 on a 3-pointer by Bueckers with just over 2 minutes left.\n\n\r\n              But that was a close as they would get.\n\n\r\n              UCLA scored the game\u2019s first 10 points and led 28-12 after Camryn Brown\u2019s 3-pointer to end the first period.\n\n\r\n              Osborne\u2019s 3-pointer to open the second quarter extended that lead to 19 points.\n\n\r\n              But Bueckers had 18 points in the first half to keep UConn in the game. She led the Huskies on a 13-0 run to bring Connecticut back to within three at 37-34\n\n\r\n              Rice had 14 of her points in the first half and UCLA went into the break up 39-34.\n\n\r\n              BIG PICTURE\n\n\r\n              UCLA: The Bruins No. 2 ranking is the highest in program history. Five Bruins came into the game averaging double figures, led by Betts at 19.5 points per game.\n\n\r\n              UConn: Injuries have left the Huskies with just 10 healthy players for the tournament. They lost star guard Azzi Fudd last week to a knee injury and were also without starter Caroline Ducharme who has been battling concussion issues and was suffering from neck problems. Freshman center Jana El Alfy suffered a torn Achilles in the preseason and won\u2019t play this year.\n\n\r\n              UP NEXT\n\n\r\n              UCLA: The Bruins face Niagara on Saturday\n\n\r\n              UConn: The Huskies play Kansas on Saturday.\n\n\r\n              ---- Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

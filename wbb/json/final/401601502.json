@@ -25531,37 +25531,54 @@
 ]
 },
 "article": {
-"id": 39084956,
-"nowId": "1-39084956",
-"contentKey": "39084956-1-21-1",
 "dataSourceIdentifier": "8e0532aaa3456",
-"type": "Recap",
-"gameId": "401601502",
-"headline": "Caitlin Clark scores 28 points to help No. 4 Iowa beat Wisconsin 87-65",
+"keywords": [],
 "description": "\u2014 Caitlin Clark scored 28 points, Hannah Stuelke added 21 and No. 4 Iowa beat Wisconsin 87-65 on Sunday in the Big Ten opener for each team.",
-"linkText": "Caitlin Clark scores 28 points to help No. 4 Iowa beat Wisconsin 87-65",
-"categorized": "2024-04-12T07:15:49Z",
-"originallyPosted": "2023-12-10T21:33:56Z",
-"lastModified": "2023-12-10T22:49:01Z",
-"published": "2023-12-10T21:33:56Z",
-"section": "Women's College Basketball",
 "source": "AP",
-"images": [],
 "video": [],
+"type": "Recap",
+"nowId": "1-39084956",
+"premium": false,
+"related": [],
+"allowSearch": true,
+"links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/39084956"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401601502"
+}
+},
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401601502"
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39084956"
+}
+},
+"mobile": {
+"href": "http://scores.espn.com/ncw/gamecast?gameId=401601502&version=mobile"
+}
+},
+"id": 39084956,
 "categories": [
 {
 "id": 9578,
+"description": "Women's College Basketball",
 "type": "league",
-"uid": "s:40~l:54",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
-"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "NCAA Women's Basketball",
-"abbreviation": "NCAAW",
+"description": "Women's College Basketball",
 "links": {
+"api": {
+"leagues": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
+}
+},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -25569,152 +25586,110 @@
 },
 "mobile": {
 "leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
+"href": "http://m.espn.com/ncw/"
 }
 }
 }
 },
-{
-"id": 4786,
-"type": "team",
-"uid": "s:40~l:54~t:2294",
-"guid": "9bed1254-7827-ba24-ba79-d07a473d1591",
-"description": "Iowa Hawkeyes",
-"sportId": 54,
-"teamId": 2294,
-"team": {
-"id": 2294,
-"description": "Iowa Hawkeyes",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
-}
-}
-}
-}
+"uid": "s:40~l:54"
 },
 {
 "id": 4784,
-"type": "team",
-"uid": "s:40~l:54~t:275",
-"guid": "0ece4274-c949-d515-5c22-d99acaaefeb0",
 "description": "Wisconsin Badgers",
+"type": "team",
 "sportId": 54,
 "teamId": 275,
 "team": {
 "id": 275,
 "description": "Wisconsin Badgers",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/275"
+}
+},
 "web": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/275/wisconsin-badgers"
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/275/wisconsin-badgers"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/275/wisconsin-badgers"
-}
+"href": "http://m.espn.com/ncw/clubhouse?teamId=275"
 }
 }
 }
 },
-{
-"id": 0,
-"type": "league",
-"uid": "s:1",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
-"description": "Baseball",
-"sportId": 1,
-"leagueId": 1,
-"league": {
-"id": 1,
-"description": "Baseball"
-}
+"uid": "s:40~l:54~t:275"
 },
 {
-"type": "guid",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
-},
-{
-"type": "guid",
-"guid": "9bed1254-7827-ba24-ba79-d07a473d1591"
-},
-{
-"type": "guid",
-"guid": "0ece4274-c949-d515-5c22-d99acaaefeb0"
-},
-{
-"type": "guid",
-"guid": "b9d6fe82-335b-3ea8-9d56-7ce281dcdf8b"
-},
-{
-"type": "guid",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
-}
-],
-"keywords": [
-"NCAA Women's Basketball",
-"Iowa Hawkeyes",
-"Wisconsin Badgers",
-"Baseball"
-],
-"premium": false,
+"id": 4786,
+"description": "Iowa Hawkeyes",
+"type": "team",
+"sportId": 54,
+"teamId": 2294,
+"team": {
+"id": 2294,
+"description": "Iowa Hawkeyes",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2294"
+}
+},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401601502"
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
+}
 },
 "mobile": {
-"href": "http://m.espn.go.com/ncw/story?storyId=39084956",
-"dsi": {
-"href": "http://m.espn.go.com/ncw/story?storyId=8e0532aaa3456"
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=2294"
 }
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39084956"
 }
 }
 },
+"uid": "s:40~l:54~t:2294"
+}
+],
+"headline": "Caitlin Clark scores 28 points to help No. 4 Iowa beat Wisconsin 87-65",
+"gameId": "401601502",
+"images": [],
+"linkText": "Caitlin Clark scores 28 points to help No. 4 Iowa beat Wisconsin 87-65",
+"published": "2023-12-10T21:33:56Z",
 "allowComments": true,
-"allowSearch": true,
-"allowContentReactions": false,
+"lastModified": "2023-12-10T22:49:01Z",
 "metrics": [
 {
-"type": "views",
-"count": 0
+"count": 0,
+"type": "views"
 },
 {
-"type": "fShares",
-"count": 0
+"count": 0,
+"type": "fShares"
 },
 {
-"type": "tweets",
-"count": 0
+"count": 0,
+"type": "tweets"
 },
 {
-"type": "comments",
-"count": 0
+"count": 0,
+"type": "comments"
 },
 {
-"type": "emails",
-"count": 0
+"count": 0,
+"type": "emails"
 },
 {
-"type": "votes",
-"count": 0
+"count": 0,
+"type": "votes"
 },
 {
-"type": "popularity",
-"count": 0
+"count": 0,
+"type": "popularity"
 }
 ],
+"inlines": [],
 "story": "\r\n              MADISON, Wis. -- \u2014 Caitlin Clark scored 28 points, Hannah Stuelke added 21 and No. 4 Iowa beat Wisconsin 87-65 on Sunday in the Big Ten opener for each team. \n\n\r\n              Iowa (10-1, 1-0) has won seven straight. It gained control with a 12-2 run midway through the third quarter, going in front 57-41 on Kylie Feuerbach\u2019s 3-pointer. The Hawkeyes pushed the lead to 70-51 entering the final period en route to their 28th consecutive victory over Wisconsin.\n\n\r\n              Clark, the reigning Player of the Year, hit 11 of 19 shots, including 4 of 8 beyond the arc, and had nine rebounds. Sydney Affolter had 12 rebounds for the Hawkeyes.\n\n\r\n              \u201cOne of the things we talked about is, you\u2019re not going to stop a kid like Caitlin,\u201d Wisconsin coach Marisa Moseley said. \u201cShe can score at all three levels. But I think you\u2019ve got to try to contain her, and then you\u2019ve got to make sure that you guard the other people on the team, too. Because as much as a scorer she is, she\u2019s also has excellent vision.\u201d\n\n\r\n              Clark now has 3,041 career points, moving into No. 10 on the all-time Division 1 women\u2019s scoring list. She passed Elena Delle Donne (3,039), Maya Moore (3,036), Chamique Holdsclaw (3,025) and Cheryl Miller (3,018) on Sunday.\n\n\r\n              Ronnie Porter had 17 points, Serah Williams 15 and Sania Copeland 13 for Wisconsin (5-4, 0-1), which lost its second consecutive game. The Badgers had no field goals over the final 5 minutes.\n\n\r\n              The Badgers entered leading the Big Ten in opponent field goal percentage at 34%, but the Hawkeyes shot 50%, hitting 33 of 66 shots. Iowa shot 60.7% in the second half, connecting on 17 of 28.\n\n\r\n              \u201cReally happy with the way we shot the ball, especially in the second half,\u201d Iowa coach Lisa Bluder said. \u201cOur defense I thought in the second quarter was really good. It gave us that cushion going into halftime and then we just kind of kept the momentum going into that third quarter.\u201d\n\n\r\n              Clark\u2019s first 3-pointer after four misses with 9 seconds left in the second quarter put Iowa up 43-33 at the break. It also extended to 69 her NCAA-record streak of consecutive games with a 3-pointer.\n\n\r\n              \u201cYou go in with a 10-point cushion instead of just a couple, mentally it just helps you so much,\u201d Bruder said. \u201cBut I thought our clock management was really good in that last minute, too.\u201d\n\n\r\n              BIG PICTURE\n\n\r\n              Iowa: Clark has scored at least 20 points in all 11 games this season, but the Hawkeyes also got a huge contribution off the bench, outscoring Wisconsin 44-11.\n\n\r\n              Wisconsin: The Badgers, whose 5-3 start was their best since the 2019-20 season, have just two seniors on their roster \u2014 starters Brooke Schramek and Natalie Leuzinger. Eight of their top 10 rotation players are freshman or sophomores.\n\n\r\n              UP NEXT\n\n\r\n              Iowa hosts Cleveland State in a nonconference game Saturday.\n\n\r\n              Wisconsin is at St. Thomas in a nonconference game Wednesday.\n\n\r\n              ------\n\n\r\n              Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------\n\n\r\n              AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

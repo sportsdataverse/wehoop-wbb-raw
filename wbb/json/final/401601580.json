@@ -31413,37 +31413,54 @@
 ]
 },
 "article": {
-"id": 39488807,
-"nowId": "1-39488807",
-"contentKey": "39488807-1-21-1",
 "dataSourceIdentifier": "16e72b8edc564",
-"type": "Recap",
-"gameId": "401601580",
-"headline": "Hannah Stuelke drops 47, Caitlin Clark within 39 points of scoring record as No. 2 Iowa tops Penn St",
+"keywords": [],
 "description": "\u2014 Hannah Stuelke scored a career-high 47 points and Caitlin Clark added 27 points in her quest for the scoring record as No. 2 Iowa defeated Penn State 111-93 on Thursday night.",
-"linkText": "Hannah Stuelke drops 47, Caitlin Clark within 39 points of scoring record as No. 2 Iowa tops Penn St",
-"categorized": "2024-04-12T08:30:58Z",
-"originallyPosted": "2024-02-09T04:44:59Z",
-"lastModified": "2024-02-09T15:34:59Z",
-"published": "2024-02-09T04:44:59Z",
-"section": "Women's College Basketball",
 "source": "AP",
-"images": [],
 "video": [],
+"type": "Recap",
+"nowId": "1-39488807",
+"premium": false,
+"related": [],
+"allowSearch": true,
+"links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/39488807"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401601580"
+}
+},
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401601580"
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39488807"
+}
+},
+"mobile": {
+"href": "http://scores.espn.com/ncw/gamecast?gameId=401601580&version=mobile"
+}
+},
+"id": 39488807,
 "categories": [
 {
 "id": 9578,
+"description": "Women's College Basketball",
 "type": "league",
-"uid": "s:40~l:54",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
-"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "NCAA Women's Basketball",
-"abbreviation": "NCAAW",
+"description": "Women's College Basketball",
 "links": {
+"api": {
+"leagues": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
+}
+},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -31451,152 +31468,110 @@
 },
 "mobile": {
 "leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
+"href": "http://m.espn.com/ncw/"
 }
 }
 }
 },
-{
-"id": 17053,
-"type": "team",
-"uid": "s:40~l:54~t:213",
-"guid": "17d5eae0-66ed-90c7-7660-1b2b03793d50",
-"description": "Penn State Lady Lions",
-"sportId": 54,
-"teamId": 213,
-"team": {
-"id": 213,
-"description": "Penn State Lady Lions",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/213/penn-state-lady-lions"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/213/penn-state-lady-lions"
-}
-}
-}
-}
+"uid": "s:40~l:54"
 },
 {
 "id": 4786,
-"type": "team",
-"uid": "s:40~l:54~t:2294",
-"guid": "9bed1254-7827-ba24-ba79-d07a473d1591",
 "description": "Iowa Hawkeyes",
+"type": "team",
 "sportId": 54,
 "teamId": 2294,
 "team": {
 "id": 2294,
 "description": "Iowa Hawkeyes",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2294"
+}
+},
 "web": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
-}
+"href": "http://m.espn.com/ncw/clubhouse?teamId=2294"
 }
 }
 }
 },
-{
-"id": 0,
-"type": "league",
-"uid": "s:1",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
-"description": "Baseball",
-"sportId": 1,
-"leagueId": 1,
-"league": {
-"id": 1,
-"description": "Baseball"
-}
+"uid": "s:40~l:54~t:2294"
 },
 {
-"type": "guid",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
-},
-{
-"type": "guid",
-"guid": "17d5eae0-66ed-90c7-7660-1b2b03793d50"
-},
-{
-"type": "guid",
-"guid": "9bed1254-7827-ba24-ba79-d07a473d1591"
-},
-{
-"type": "guid",
-"guid": "249ce498-4d76-38b6-8c05-666a8ef95105"
-},
-{
-"type": "guid",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
-}
-],
-"keywords": [
-"NCAA Women's Basketball",
-"Penn State Lady Lions",
-"Iowa Hawkeyes",
-"Baseball"
-],
-"premium": false,
+"id": 17053,
+"description": "Penn State Lady Lions",
+"type": "team",
+"sportId": 54,
+"teamId": 213,
+"team": {
+"id": 213,
+"description": "Penn State Lady Lions",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/213"
+}
+},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401601580"
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/213/penn-state-lady-lions"
+}
 },
 "mobile": {
-"href": "http://m.espn.go.com/ncw/story?storyId=39488807",
-"dsi": {
-"href": "http://m.espn.go.com/ncw/story?storyId=16e72b8edc564"
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=213"
 }
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39488807"
 }
 }
 },
+"uid": "s:40~l:54~t:213"
+}
+],
+"headline": "Hannah Stuelke drops 47, Caitlin Clark within 39 points of scoring record as No. 2 Iowa tops Penn St",
+"gameId": "401601580",
+"images": [],
+"linkText": "Hannah Stuelke drops 47, Caitlin Clark within 39 points of scoring record as No. 2 Iowa tops Penn St",
+"published": "2024-02-09T04:44:59Z",
 "allowComments": true,
-"allowSearch": true,
-"allowContentReactions": false,
+"lastModified": "2024-02-09T15:34:59Z",
 "metrics": [
 {
-"type": "views",
-"count": 0
+"count": 0,
+"type": "views"
 },
 {
-"type": "fShares",
-"count": 0
+"count": 0,
+"type": "fShares"
 },
 {
-"type": "tweets",
-"count": 0
+"count": 0,
+"type": "tweets"
 },
 {
-"type": "comments",
-"count": 0
+"count": 0,
+"type": "comments"
 },
 {
-"type": "emails",
-"count": 0
+"count": 0,
+"type": "emails"
 },
 {
-"type": "votes",
-"count": 0
+"count": 0,
+"type": "votes"
 },
 {
-"type": "popularity",
-"count": 0
+"count": 0,
+"type": "popularity"
 }
 ],
+"inlines": [],
 "story": "\r\n              IOWA CITY, Iowa -- \u2014 Hannah Stuelke scored a career-high 47 points and Caitlin Clark added 27 points in her quest for the scoring record as No. 2 Iowa defeated Penn State 111-93 on Thursday night.\n\n\r\n              Clark now has 3,489 career points and needs just 39 more to break the <a href=\"https://apnews.com/article/caitlin-clark-scoring-record-stats-16528f3863be82ace94532d7c687093f\">NCAA women\u2019s basketball career scoring record held by Kelsey Plum</a>. \n\n\r\n              \u201cWe were just trying to win the game,\u201d said Iowa coach Lisa Bluder when asked about Clark's pursuit of the record. \u201cIt's going to happen. That's not important. It's important to win this game.\u201d\n\n\r\n              Iowa plays at Nebraska on Sunday before hosting Michigan next Thursday,\n\n\r\n              \u201cI would rather she break it at home,\u201d Bluder said. \u201cOur fans deserve that. But believe me, our No. 1 priority will be to win the game at Nebraska.\u201d\n\n\r\n              Clark, who was 8 of 23 from the field, had 15 assists for her 56th career double-double. She also committed a career-high 12 turnovers.\n\n\r\n              Although Clark wasn't made available in the postgame press conference, she told the Big Ten Network regarding the scoring record: \u201cWhenever it happens, it happens. We've got a good Nebraska team (next), so we'll be ready for them.\" \n\n\r\n              Against Penn State, Clark made sure to get the ball inside to Stuelke, providing 11 assists on her teammate's 17 field goals on 20 attempts. \n\n\r\n              \u201cI'm happy for Hannah, she deserves it,\u201d Clark said. \u201cWe just gotta keep it rolling.\u201d\n\n\r\n              Clark had a message for Stuelke when she left the court. \u201cShe said, \u2018I expect you do this every game,\u2019\u201d Stuelke said, laughing.\n\n\r\n              Stuelke registered the second-highest scoring game in program history. Megan Gustafson, who plays for the WNBA\u2019s Las Vegas Aces, scored 48 points against Minnesota in 2018. Clark\u2019s career high is 46 points against Michigan in 2022. \n\n\r\n              A 6-foot-2 sophomore, Stuelke went 13 of 21 from the free-throw line. She came into the game averaging 12.7 points. \n\n\r\n              \u201cI think my confidence is going to come up a lot,\u201d she said. \u201cNow I can be more aggressive offensively, so that's exciting.\u201d\n\n\r\n              Stuelke got behind Penn State's defense to get easy baskets.\n\n\r\n              \u201cObviously, she's a great rim-runner,\u201d said Penn State coach Carolyn Kieger. \u201cWe were switching ball screens, and she continuously rolled down on our guards. She was, obviously, certainly efficient.\u201d\n\n\r\n              Stuelke credits her track days for quickly getting up the court. \n\n\r\n              \u201cI just turn and go,\u201d Stuelke said. \u201cI ran track in high school, so I'm pretty fast. Just turn and go, get down there as fast as I can.\u201d\n\n\r\n              Iowa (22-2, 11-1 Big Ten) won its fourth consecutive game to stay tied with Ohio State at the top of the conference standings.\n\n\r\n              Ashley Owusu led Penn State (16-7, 7-5) with 18 points. Leilani Kapinus and Makenna Marisa had 12 points. \n\n\r\n              Clark struggled in the first quarter, picking up two fouls while shooting just 2 of 7 from the field and committing five turnovers.\n\n\r\n              \u201cI thought our team did a pretty decent job on Caitlin in the first quarter,\u201d Kieger said. \u201cWe got her in foul trouble and tried attacking her in the second quarter to get her the third foul, but we never really picked it up.\u201d\n\n\r\n              Clark hit a 3-pointer that started a 12-3 run early in the second quarter for a 35-30 Iowa lead. The Hawkeyes stayed in front after that, closing the half with a 14-5 run to take a 55-44 advantage at intermission.\n\n\r\n              Stuelke scored Iowa's first seven points of the second half as the Hawkeyes opened a 68-49 lead with 6:19 to go in the third quarter.\n\n\r\n              Kate Martin added 16 points and 16 rebounds for the Hawkeyes.\n\n\r\n              BIG PICTURE\n\n\r\n              Penn State: The Nittany Lions could have used a road win over a top-5 team to help solidify their NCAA tournament resume. But they couldn\u2019t get away from the Hawkeyes early when Clark was struggling.\n\n\r\n              Iowa: Clark seemed out of sorts in the first quarter, but settled down when she started making shots in the second quarter. Stuelke helped the Hawkeyes keep pace with the Nittany Lions until Clark got going and continued to dominate Penn State inside in the second half.\n\n\r\n              UP NEXT\n\n\r\n              Penn State: At Wisconsin on Sunday.\n\n\r\n              Iowa: At Nebraska on Sunday.\n\n\r\n              ------\n\n\r\n              Get poll alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here.</a>\n\n\r\n              ------\n\n\r\n              AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

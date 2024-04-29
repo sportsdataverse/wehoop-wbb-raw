@@ -23187,37 +23187,54 @@
 ]
 },
 "article": {
-"id": 39010397,
-"nowId": "1-39010397",
-"contentKey": "39010397-1-21-1",
 "dataSourceIdentifier": "40bde044d35b8",
-"type": "Recap",
-"gameId": "401598280",
-"headline": "Karlen scores 21 points, No. 23 Marquette women pull away from Memphis for 88-59 win",
+"keywords": [],
 "description": "\u2014 Liza Karlen scored 21 points and No. 23 Marquette continued the best start in program history with an 88-59 win over Memphis on Wednesday night.",
-"linkText": "Karlen scores 21 points, No. 23 Marquette women pull away from Memphis for 88-59 win",
-"categorized": "2024-04-12T07:02:24Z",
-"originallyPosted": "2023-11-30T04:58:56Z",
-"lastModified": "2023-11-30T04:58:55Z",
-"published": "2023-11-30T04:58:54Z",
-"section": "Women's College Basketball",
 "source": "AP",
-"images": [],
 "video": [],
+"type": "Recap",
+"nowId": "1-39010397",
+"premium": false,
+"related": [],
+"allowSearch": true,
+"links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/39010397"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401598280"
+}
+},
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401598280"
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39010397"
+}
+},
+"mobile": {
+"href": "http://scores.espn.com/ncw/gamecast?gameId=401598280&version=mobile"
+}
+},
+"id": 39010397,
 "categories": [
 {
 "id": 9578,
+"description": "Women's College Basketball",
 "type": "league",
-"uid": "s:40~l:54",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
-"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "NCAA Women's Basketball",
-"abbreviation": "NCAAW",
+"description": "Women's College Basketball",
 "links": {
+"api": {
+"leagues": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
+}
+},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -23225,152 +23242,110 @@
 },
 "mobile": {
 "leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
+"href": "http://m.espn.com/ncw/"
 }
 }
 }
 },
-{
-"id": 4825,
-"type": "team",
-"uid": "s:40~l:54~t:235",
-"guid": "5ee85786-0271-035b-f4c7-a13d8d539d01",
-"description": "Memphis Tigers",
-"sportId": 54,
-"teamId": 235,
-"team": {
-"id": 235,
-"description": "Memphis Tigers",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/235/memphis-tigers"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/235/memphis-tigers"
-}
-}
-}
-}
+"uid": "s:40~l:54"
 },
 {
 "id": 4827,
-"type": "team",
-"uid": "s:40~l:54~t:269",
-"guid": "8f9d8c94-4ca4-eb27-c69b-2c569267ff58",
 "description": "Marquette Golden Eagles",
+"type": "team",
 "sportId": 54,
 "teamId": 269,
 "team": {
 "id": 269,
 "description": "Marquette Golden Eagles",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/269"
+}
+},
 "web": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/269/marquette-golden-eagles"
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/269/marquette-golden-eagles"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/269/marquette-golden-eagles"
-}
+"href": "http://m.espn.com/ncw/clubhouse?teamId=269"
 }
 }
 }
 },
-{
-"id": 0,
-"type": "league",
-"uid": "s:1",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
-"description": "Baseball",
-"sportId": 1,
-"leagueId": 1,
-"league": {
-"id": 1,
-"description": "Baseball"
-}
+"uid": "s:40~l:54~t:269"
 },
 {
-"type": "guid",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
-},
-{
-"type": "guid",
-"guid": "5ee85786-0271-035b-f4c7-a13d8d539d01"
-},
-{
-"type": "guid",
-"guid": "8f9d8c94-4ca4-eb27-c69b-2c569267ff58"
-},
-{
-"type": "guid",
-"guid": "3152b774-c65f-33f6-a0d6-75c31d6afe0a"
-},
-{
-"type": "guid",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
-}
-],
-"keywords": [
-"NCAA Women's Basketball",
-"Memphis Tigers",
-"Marquette Golden Eagles",
-"Baseball"
-],
-"premium": false,
+"id": 4825,
+"description": "Memphis Tigers",
+"type": "team",
+"sportId": 54,
+"teamId": 235,
+"team": {
+"id": 235,
+"description": "Memphis Tigers",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/235"
+}
+},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401598280"
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/235/memphis-tigers"
+}
 },
 "mobile": {
-"href": "http://m.espn.go.com/ncw/story?storyId=39010397",
-"dsi": {
-"href": "http://m.espn.go.com/ncw/story?storyId=40bde044d35b8"
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=235"
 }
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39010397"
 }
 }
 },
+"uid": "s:40~l:54~t:235"
+}
+],
+"headline": "Karlen scores 21 points, No. 23 Marquette women pull away from Memphis for 88-59 win",
+"gameId": "401598280",
+"images": [],
+"linkText": "Karlen scores 21 points, No. 23 Marquette women pull away from Memphis for 88-59 win",
+"published": "2023-11-30T04:58:54Z",
 "allowComments": true,
-"allowSearch": true,
-"allowContentReactions": false,
+"lastModified": "2023-11-30T04:58:55Z",
 "metrics": [
 {
-"type": "views",
-"count": 0
+"count": 0,
+"type": "views"
 },
 {
-"type": "fShares",
-"count": 0
+"count": 0,
+"type": "fShares"
 },
 {
-"type": "tweets",
-"count": 0
+"count": 0,
+"type": "tweets"
 },
 {
-"type": "comments",
-"count": 0
+"count": 0,
+"type": "comments"
 },
 {
-"type": "emails",
-"count": 0
+"count": 0,
+"type": "emails"
 },
 {
-"type": "votes",
-"count": 0
+"count": 0,
+"type": "votes"
 },
 {
-"type": "popularity",
-"count": 0
+"count": 0,
+"type": "popularity"
 }
 ],
+"inlines": [],
 "story": "\r\n              MILWAUKEE -- \u2014 Liza Karlen scored 21 points and No. 23 Marquette continued the best start in program history with an 88-59 win over Memphis on Wednesday night.\n\n\r\n              The Golden Eagles (7-0), who are ranked for the first time in a year, got 17 points apiece from Mackenzie Hare and Rose Nkuma and 14 from Jordan King. <a href=\"https://twitter.com/MarquetteWBB/status/1730053761052061942\">It was a career-high for Nkuma.</a>\n\n\r\n              Marquette trailed 21-20 after one quarter but outscored the Tigers (2-5) 23-6 in the second quarter. A 23-13 difference in the fourth quarter turned the game into a rout as the Golden Eagles went 10 of 26 (62.5%) from 3-point range and shot 54% overall (33 of 61). Hare finished 5 of 6 behind the arc.\n\n\r\n              Kai Carter scored 18 points and Madison Griggs 16 for Memphis.\n\n\r\n              Karlen made 5 of 7 shots and the Golden Eagles shot 55% to take a 43-27 lead at the half. Marquette was 6 of 8 behind the arc with Hare going 3 of 4. The Tigers shot 36% and only four players scored, led by Smith with 10.\n\n\r\n              King and Hare hit back-to-back 3-pointers in the middle of the second quarter to cap a 10-0 run that allowed Marquette to open a 34-23 lead.\n\n\r\n              Marquette is home against Penn on Sunday. Troy is at Memphis on Saturday.\n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

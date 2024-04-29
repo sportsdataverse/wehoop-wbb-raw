@@ -23127,37 +23127,54 @@
 ]
 },
 "article": {
-"id": 39134720,
-"nowId": "1-39134720",
-"contentKey": "39134720-1-21-1",
 "dataSourceIdentifier": "efb16df18f48f",
-"type": "Recap",
-"gameId": "401598313",
-"headline": "Latson leads No. 22 Florida State women to 76-56 victory over Drexel",
+"keywords": [],
 "description": "\u2014 Ta'Niya Latson scored 22 points to guide No. 22 Florida State to a 76-56 victory over Drexel on Sunday.",
-"linkText": "Latson leads No. 22 Florida State women to 76-56 victory over Drexel",
-"categorized": "2024-04-12T07:25:13Z",
-"originallyPosted": "2023-12-17T21:17:54Z",
-"lastModified": "2023-12-17T21:17:55Z",
-"published": "2023-12-17T21:17:54Z",
-"section": "Women's College Basketball",
 "source": "AP",
-"images": [],
 "video": [],
+"type": "Recap",
+"nowId": "1-39134720",
+"premium": false,
+"related": [],
+"allowSearch": true,
+"links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/39134720"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401598313"
+}
+},
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401598313"
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39134720"
+}
+},
+"mobile": {
+"href": "http://scores.espn.com/ncw/gamecast?gameId=401598313&version=mobile"
+}
+},
+"id": 39134720,
 "categories": [
 {
 "id": 9578,
+"description": "Women's College Basketball",
 "type": "league",
-"uid": "s:40~l:54",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
-"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "NCAA Women's Basketball",
-"abbreviation": "NCAAW",
+"description": "Women's College Basketball",
 "links": {
+"api": {
+"leagues": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
+}
+},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -23165,152 +23182,110 @@
 },
 "mobile": {
 "leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
+"href": "http://m.espn.com/ncw/"
 }
 }
 }
 },
-{
-"id": 4725,
-"type": "team",
-"uid": "s:40~l:54~t:52",
-"guid": "686a0ce2-669d-9094-be57-c24bbf71159b",
-"description": "Florida State Seminoles",
-"sportId": 54,
-"teamId": 52,
-"team": {
-"id": 52,
-"description": "Florida State Seminoles",
-"links": {
-"web": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles"
-}
-}
-}
-}
+"uid": "s:40~l:54"
 },
 {
 "id": 4815,
-"type": "team",
-"uid": "s:40~l:54~t:2182",
-"guid": "41feb10b-e9bd-8783-8fb3-5cf96f9cc691",
 "description": "Drexel Dragons",
+"type": "team",
 "sportId": 54,
 "teamId": 2182,
 "team": {
 "id": 2182,
 "description": "Drexel Dragons",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2182"
+}
+},
 "web": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/2182/drexel-dragons"
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/2182/drexel-dragons"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://www.espn.com/womens-college-basketball/team/_/id/2182/drexel-dragons"
-}
+"href": "http://m.espn.com/ncw/clubhouse?teamId=2182"
 }
 }
 }
 },
-{
-"id": 0,
-"type": "league",
-"uid": "s:1",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
-"description": "Baseball",
-"sportId": 1,
-"leagueId": 1,
-"league": {
-"id": 1,
-"description": "Baseball"
-}
+"uid": "s:40~l:54~t:2182"
 },
 {
-"type": "guid",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
-},
-{
-"type": "guid",
-"guid": "686a0ce2-669d-9094-be57-c24bbf71159b"
-},
-{
-"type": "guid",
-"guid": "41feb10b-e9bd-8783-8fb3-5cf96f9cc691"
-},
-{
-"type": "guid",
-"guid": "3e801116-fafe-3fd6-b0f6-a0169fd45a29"
-},
-{
-"type": "guid",
-"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
-}
-],
-"keywords": [
-"NCAA Women's Basketball",
-"Florida State Seminoles",
-"Drexel Dragons",
-"Baseball"
-],
-"premium": false,
+"id": 4725,
+"description": "Florida State Seminoles",
+"type": "team",
+"sportId": 54,
+"teamId": 52,
+"team": {
+"id": 52,
+"description": "Florida State Seminoles",
 "links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/52"
+}
+},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401598313"
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles"
+}
 },
 "mobile": {
-"href": "http://m.espn.go.com/ncw/story?storyId=39134720",
-"dsi": {
-"href": "http://m.espn.go.com/ncw/story?storyId=efb16df18f48f"
+"teams": {
+"href": "http://m.espn.com/ncw/clubhouse?teamId=52"
 }
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39134720"
 }
 }
 },
+"uid": "s:40~l:54~t:52"
+}
+],
+"headline": "Latson leads No. 22 Florida State women to 76-56 victory over Drexel",
+"gameId": "401598313",
+"images": [],
+"linkText": "Latson leads No. 22 Florida State women to 76-56 victory over Drexel",
+"published": "2023-12-17T21:17:54Z",
 "allowComments": true,
-"allowSearch": true,
-"allowContentReactions": false,
+"lastModified": "2023-12-17T21:17:55Z",
 "metrics": [
 {
-"type": "views",
-"count": 0
+"count": 0,
+"type": "views"
 },
 {
-"type": "fShares",
-"count": 0
+"count": 0,
+"type": "fShares"
 },
 {
-"type": "tweets",
-"count": 0
+"count": 0,
+"type": "tweets"
 },
 {
-"type": "comments",
-"count": 0
+"count": 0,
+"type": "comments"
 },
 {
-"type": "emails",
-"count": 0
+"count": 0,
+"type": "emails"
 },
 {
-"type": "votes",
-"count": 0
+"count": 0,
+"type": "votes"
 },
 {
-"type": "popularity",
-"count": 0
+"count": 0,
+"type": "popularity"
 }
 ],
+"inlines": [],
 "story": "\r\n              PHILADELPHIA -- \u2014 Ta'Niya Latson scored 22 points to guide No. 22 Florida State to a 76-56 victory over Drexel on Sunday.\n\n\r\n              Latson made 7 of 16 shots with a 3-pointer and 7 of 9 free throws for the Seminoles (8-3). She added three assists, three steals and blocked two shots. O'Mariah Gordon finished with 14 points and seven assists. Sara Bejedi scored 11 and Makayla Timpson had 10 points and six rebounds.\n\n\r\n              Latson had 10 points, Gordon scored nine and Florida State turned a three-point lead after one quarter into a 36-23 advantage at halftime. The Seminoles shot 48% from the floor before intermission but made just 1 of 5 from 3-point range. Drexel shot 27.8% overall and made 1 of 7 from distance.\n\n\r\n              Florida State's lead reached 20 points at 53-33 on a 3-pointer from Carla Viegas with 1:47 remaining in the third quarter. The Seminoles twice led by as many as 25, the last time at 71-46 on Gordon's 3-pointer with 3:45 left to play.\n\n\r\n              Brooke Mullin sank three 3-pointers and scored 11 to lead the Dragons (4-4). She added eight rebounds and six assists. Chloe Hodges scored 10.\n\n\r\n              It was the first time the Seminoles played in Philadelphia since a 66-62 victory over Temple in March 2014. Current FSU coach Brooke Wyckoff was in her fourth season as a Seminoles assistant in the win over the Owls.\n\n\r\n              It also marked the first time Florida State and Drexel squared off in any sport since the Seminoles swept a softball doubleheader in March 1992.\n\n\r\n              Florida State returns home to host Alabama State on Wednesday. Drexel travels to play Florida Gulf Coast on Wednesday.\n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

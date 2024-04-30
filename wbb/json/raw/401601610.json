@@ -13905,54 +13905,62 @@
 }
 ],
 "article": {
-"dataSourceIdentifier": "b091dce0fbe50",
-"keywords": [],
-"description": "\u2014 Celeste Taylor scored 20 points and No. 2 Ohio State clinched at least a share of the Big Ten title and the No. 1 seed in the conference tournament with a 79-66 win over Maryland on Sunday.",
-"source": "AP",
-"video": [],
-"type": "Recap",
+"id": 39599272,
 "nowId": "1-39599272",
-"premium": false,
-"related": [],
-"allowSearch": true,
+"contentKey": "39599272-1-21-1",
+"dataSourceIdentifier": "b091dce0fbe50",
+"type": "Recap",
+"gameId": "401601610",
+"headline": "Celeste Taylor scores 20 as No. 2 Ohio State beats Maryland 79-66 to claim share of Big Ten title",
+"description": "\u2014 Celeste Taylor scored 20 points and No. 2 Ohio State clinched at least a share of the Big Ten title and the No. 1 seed in the conference tournament with a 79-66 win over Maryland on Sunday.",
+"linkText": "Celeste Taylor scores 20 as No. 2 Ohio State beats Maryland 79-66 to claim share of Big Ten title",
+"categorized": "2024-04-12T08:53:16Z",
+"originallyPosted": "2024-02-25T21:11:59Z",
+"lastModified": "2024-02-25T22:00:12Z",
+"published": "2024-02-25T21:11:59Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
+"categories": [
+{
+"id": 4782,
+"type": "team",
+"uid": "s:40~l:54~t:194",
+"guid": "64786fce-2762-6b90-c273-daa2d8b68e1e",
+"description": "Ohio State Buckeyes",
+"sportId": 54,
+"teamId": 194,
+"team": {
+"id": 194,
+"description": "Ohio State Buckeyes",
 "links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39599272"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401601610"
-}
-},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401601610"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39599272"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/194/ohio-state-buckeyes"
 }
 },
 "mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401601610&version=mobile"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/194/ohio-state-buckeyes"
+}
+}
+}
 }
 },
-"id": 39599272,
-"categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -13960,110 +13968,127 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
-},
-{
-"id": 4782,
-"description": "Ohio State Buckeyes",
-"type": "team",
-"sportId": 54,
-"teamId": 194,
-"team": {
-"id": 194,
-"description": "Ohio State Buckeyes",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/194"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/194/ohio-state-buckeyes"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=194"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:194"
 },
 {
 "id": 4727,
-"description": "Maryland Terrapins",
 "type": "team",
+"uid": "s:40~l:54~t:120",
+"guid": "a988d662-ef82-d907-32bd-9ea740fc0cca",
+"description": "Maryland Terrapins",
 "sportId": 54,
 "teamId": 120,
 "team": {
 "id": 120,
 "description": "Maryland Terrapins",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/120"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/120/maryland-terrapins"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/120/maryland-terrapins"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=120"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/120/maryland-terrapins"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:120"
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "64786fce-2762-6b90-c273-daa2d8b68e1e"
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "a988d662-ef82-d907-32bd-9ea740fc0cca"
+},
+{
+"type": "guid",
+"guid": "2d354ad9-020c-3705-9cd6-c978f3f50013"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
 }
 ],
-"headline": "Celeste Taylor scores 20 as No. 2 Ohio State beats Maryland 79-66 to claim share of Big Ten title",
-"gameId": "401601610",
-"images": [],
-"linkText": "Celeste Taylor scores 20 as No. 2 Ohio State beats Maryland 79-66 to claim share of Big Ten title",
-"published": "2024-02-25T21:11:59Z",
+"keywords": [
+"Ohio State Buckeyes",
+"NCAA Women's Basketball",
+"Maryland Terrapins",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401601610"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39599272",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=b091dce0fbe50"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39599272"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2024-02-25T22:00:12Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              COLUMBUS, Ohio -- \u2014 Celeste Taylor scored 20 points and No. 2 Ohio State clinched at least a share of the Big Ten title and the No. 1 seed in the conference tournament with a 79-66 win over Maryland on Sunday.\n\n\r\n              Jacy Sheldon had 17 points and three more players scored in double figures for the surging Buckeyes (24-4, 15-1 Big Ten), who won their 14th straight game with two to go in the regular season. They can capture the conference title outright with a win in either.\n\n\r\n              Cotie McMahon finished with 15 points despite picking up her fourth foul on a technical in the third period and spending considerable time on the bench. She scored five, including a 3-pointer, and had three rebounds after re-entering the game with 6:13 left.\n\n\r\n              \u201cMaryland played great. They really had some great stretches there,\u201d Ohio State coach Kevin McGuff said. \u201cBut I was really proud of our kids for making sure we had the poise to execute and do the things necessary to come away with the win.\u201d\n\n\r\n              Bri McDaniel had 21 points and Brinae Alexander added 16 for the Terrapins (16-11, 8-8), who had their four-game win streak snapped.\n\n\r\n              Taylor scored 13 points, going 3 for 4 from 3-point range, as the Buckeyes led 44-31 at the half. Ohio State was 7 for 14 from beyond the arc in the first half.\n\n\r\n              Ohio State led by as many as 15 in the third quarter, but Maryland closed the deficit, with Jakia Brown-Turner's fast-break layup reducing the lead to five at the end of the period. But the Buckeyes slowly opened it back up in the fourth.\n\n\r\n              \u201cI really thought we won it on the offensive end,\u201d McGuff said. \u201cWe had a stretch there where we settled for way too many 3s, and we got a little more balanced in our offense down the stretch and just some better shots.\u201d\n\n\r\n              BIG PICTURE\n\n\r\n              Maryland: The Terps haven't been able to beat a team ranked in the AP Top 25 all season. They had the Buckeyes in range but were overpowered down the stretch.\n\n\r\n              \u201cOhio State just wore us out,\u201d Maryland coach Brenda Frese said. \n\n\r\n              Ohio State: Before the conference tournament, the Buckeyes will look for revenge against Michigan, which dealt them their last loss on Dec. 30. The finale will be a big one \u2014 at No. 4 Iowa against Caitlin Clark and the Hawkeyes. Ohio State beat then-No. 2 Iowa 100-92 in overtime Jan. 21 in Columbus.\n\n\r\n              \u201cWe want to outright win it, so we're just trying to stay focused,\" Taylor said. \u201cIt's pretty cool right now. Honestly, we didn't talk about it. But I think it's just getting back into the gym and working in practice and getting ready to beat a team that we have our only loss to in the conference.\u201d\n\n\r\n              UP NEXT\n\n\r\n              Maryland: Hosts Wisconsin on Thursday.\n\n\r\n              Ohio State: Hosts Michigan on Wednesday.\n\n\r\n              ------\n\n\r\n              AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fapnews.com%2Fhub%2Fwomens-college-basketball&data=05%7C01%7Cmstacy%40ap.org%7C592942d924914ff3a97908dbcf2df3d7%7Ce442e1abfd6b4ba3abf3b020eb50df37%7C1%7C0%7C638331568502781407%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=Im%2B2bccOlKA%2FkVkCWVup5tORjsX%2FBfRjju0xfL4civM%3D&reserved=0\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

@@ -14237,54 +14237,37 @@
 }
 ],
 "article": {
-"dataSourceIdentifier": "97483a35c06a4",
-"keywords": [],
-"description": "\u2014 Alissa Pili scored 28 points, Gianna Kneepkens 23 and Ines Vieira added 20 to help No. 4 Utah beat Eastern Kentucky 117-72 Sunday night to win the Great Alaska Shootout championship.",
-"source": "AP",
-"video": [],
-"type": "Recap",
-"nowId": "1-38942225",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/38942225"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401604413"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401604413"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=38942225"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401604413&version=mobile"
-}
-},
 "id": 38942225,
+"nowId": "1-38942225",
+"contentKey": "38942225-1-21-1",
+"dataSourceIdentifier": "97483a35c06a4",
+"type": "Recap",
+"gameId": "401604413",
+"headline": "Pili, No. 4 Utah women beat E. Kentucky 117-72, win Great Alaska Shootout title.",
+"description": "\u2014 Alissa Pili scored 28 points, Gianna Kneepkens 23 and Ines Vieira added 20 to help No. 4 Utah beat Eastern Kentucky 117-72 Sunday night to win the Great Alaska Shootout championship.",
+"linkText": "Pili, No. 4 Utah women beat E. Kentucky 117-72, win Great Alaska Shootout title.",
+"categorized": "2024-04-12T06:51:11Z",
+"originallyPosted": "2023-11-20T06:46:54Z",
+"lastModified": "2023-11-20T06:46:55Z",
+"published": "2023-11-20T06:46:54Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -14292,110 +14275,152 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
-},
-{
-"id": 5015,
-"description": "Utah Utes",
-"type": "team",
-"sportId": 54,
-"teamId": 254,
-"team": {
-"id": 254,
-"description": "Utah Utes",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/254"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=254"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:254"
 },
 {
 "id": 4909,
-"description": "Eastern Kentucky Colonels",
 "type": "team",
+"uid": "s:40~l:54~t:2198",
+"guid": "6940568b-e1c9-91be-29c6-df8bb67e4f83",
+"description": "Eastern Kentucky Colonels",
 "sportId": 54,
 "teamId": 2198,
 "team": {
 "id": 2198,
 "description": "Eastern Kentucky Colonels",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2198"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2198/eastern-kentucky-colonels"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2198/eastern-kentucky-colonels"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2198"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2198/eastern-kentucky-colonels"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:2198"
+{
+"id": 5015,
+"type": "team",
+"uid": "s:40~l:54~t:254",
+"guid": "6893bfec-1fb5-df64-b341-826fe1526156",
+"description": "Utah Utes",
+"sportId": 54,
+"teamId": 254,
+"team": {
+"id": 254,
+"description": "Utah Utes",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes"
+}
+}
+}
+}
+},
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "6940568b-e1c9-91be-29c6-df8bb67e4f83"
+},
+{
+"type": "guid",
+"guid": "6893bfec-1fb5-df64-b341-826fe1526156"
+},
+{
+"type": "guid",
+"guid": "c1e67aec-cc46-3a8b-84ab-c4fccd9b260b"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
 }
 ],
-"headline": "Pili, No. 4 Utah women beat E. Kentucky 117-72, win Great Alaska Shootout title.",
-"gameId": "401604413",
-"images": [],
-"linkText": "Pili, No. 4 Utah women beat E. Kentucky 117-72, win Great Alaska Shootout title.",
-"published": "2023-11-20T06:46:54Z",
+"keywords": [
+"NCAA Women's Basketball",
+"Eastern Kentucky Colonels",
+"Utah Utes",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401604413"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=38942225",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=97483a35c06a4"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=38942225"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-11-20T06:46:55Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              ANCHORAGE, Alaska -- \u2014 Alissa Pili scored 28 points, Gianna Kneepkens 23 and Ines Vieira added 20 to help No. 4 Utah beat Eastern Kentucky 117-72 Sunday night to win the Great Alaska Shootout championship.\n\n\r\n              Pili, a native of Anchorage playing in front of dozens of friends and family, made 11 of 18 from the field and finished with eight rebounds, six assists, two steals and two blocks. Keenpkens was 8-of-10 shooting, made 5 of 7 from 3-point range and grabbed eight rebounds and Vieira hit 7 of 8 from the field, made 6 of 6 from behind the arc and had seven assists. \n\n\r\n              Pili scored inside to made it 12-11 with 4:47 left in the first quarter and Utah led the rest of the way. The Utes scored 27 first-quarter points and took a 51-32 lead into halftime. \n\n\r\n              Antwainette Walker led Eastern Kentucky (5-1) with 29 points, Raphaela Toussaint scored 12 and Althea Kara Angeles added 11. Ivy Turner had nine assists to go with eight points. \n\n\r\n              Utah shot 65.7% (44 of 67) from the field, made 18 of 28 (64.3%) from 3-point range, and hit 11of 12 (91.7%) from the free-throw line. The Utes had 30 assists, 10 steals and outrebounded EKU 35-18. \n\n\r\n              Utah has scored at least 100 points in each of its wins this season. The Utes' lone blemish was an 84-77 loss at No. 21 Baylor. \n\n\r\n              Utah returns home to play Merrimack on Friday. Eastern Kentucky plays host to Campbellsville Harrodsburg on Saturday. \n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketballNo.\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

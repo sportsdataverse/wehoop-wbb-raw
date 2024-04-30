@@ -24817,54 +24817,37 @@
 ]
 },
 "article": {
-"dataSourceIdentifier": "f1988961582f1",
-"keywords": [],
-"description": "\u2014 Caitlin Clark faked the defender off her feet, took a dribble to her left and then released a 3-pointer.",
-"source": "AP",
-"video": [],
-"type": "Recap",
-"nowId": "1-39454929",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39454929"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401601569"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401601569"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39454929"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401601569&version=mobile"
-}
-},
 "id": 39454929,
+"nowId": "1-39454929",
+"contentKey": "39454929-1-21-1",
+"dataSourceIdentifier": "f1988961582f1",
+"type": "Recap",
+"gameId": "401601569",
+"headline": "Caitlin Clark drops 38 points for No. 3 Iowa vs upset-minded Maryland and sellout crowd of 17,950",
+"description": "\u2014 Caitlin Clark faked the defender off her feet, took a dribble to her left and then released a 3-pointer.",
+"linkText": "Caitlin Clark drops 38 points for No. 3 Iowa vs upset-minded Maryland and sellout crowd of 17,950",
+"categorized": "2024-04-12T08:24:52Z",
+"originallyPosted": "2024-02-04T03:23:00Z",
+"lastModified": "2024-02-04T13:15:59Z",
+"published": "2024-02-04T03:23:00Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -24872,110 +24855,152 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
-},
-{
-"id": 4727,
-"description": "Maryland Terrapins",
-"type": "team",
-"sportId": 54,
-"teamId": 120,
-"team": {
-"id": 120,
-"description": "Maryland Terrapins",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/120"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/120/maryland-terrapins"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=120"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:120"
 },
 {
 "id": 4786,
-"description": "Iowa Hawkeyes",
 "type": "team",
+"uid": "s:40~l:54~t:2294",
+"guid": "9bed1254-7827-ba24-ba79-d07a473d1591",
+"description": "Iowa Hawkeyes",
 "sportId": 54,
 "teamId": 2294,
 "team": {
 "id": 2294,
 "description": "Iowa Hawkeyes",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2294"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2294"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:2294"
+{
+"id": 4727,
+"type": "team",
+"uid": "s:40~l:54~t:120",
+"guid": "a988d662-ef82-d907-32bd-9ea740fc0cca",
+"description": "Maryland Terrapins",
+"sportId": 54,
+"teamId": 120,
+"team": {
+"id": 120,
+"description": "Maryland Terrapins",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/120/maryland-terrapins"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/120/maryland-terrapins"
+}
+}
+}
+}
+},
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "9bed1254-7827-ba24-ba79-d07a473d1591"
+},
+{
+"type": "guid",
+"guid": "a988d662-ef82-d907-32bd-9ea740fc0cca"
+},
+{
+"type": "guid",
+"guid": "afd431c6-4878-3265-980d-1f3dbab1735f"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
 }
 ],
-"headline": "Caitlin Clark drops 38 points for No. 3 Iowa vs upset-minded Maryland and sellout crowd of 17,950",
-"gameId": "401601569",
-"images": [],
-"linkText": "Caitlin Clark drops 38 points for No. 3 Iowa vs upset-minded Maryland and sellout crowd of 17,950",
-"published": "2024-02-04T03:23:00Z",
+"keywords": [
+"NCAA Women's Basketball",
+"Iowa Hawkeyes",
+"Maryland Terrapins",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401601569"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39454929",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=f1988961582f1"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39454929"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2024-02-04T13:15:59Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              COLLEGE PARK, Md. -- \u2014 Caitlin Clark faked the defender off her feet, took a dribble to her left and then released a 3-pointer.\n\n\r\n              It was no surprise when <a href=\"https://twitter.com/CBBonFOX/status/1753974307179389259\">the ball dropped in</a>, and Iowa was ahead to stay.\n\n\r\n              \u201cThat was probably the loudest the crowd was at that point, all night,\u201d Clark said of the sellout of 17,950 at the Xfinity Center. \u201cThat was a huge shot, and then I think Sydney (Affolter) gets that layup, get a couple stops on defense that we string together.\u201d \n\n\r\n              Clark had 38 points and 12 assists, and No. 3 Iowa withstood a gritty effort by Maryland, outlasting the Terrapins 93-85 on Saturday night. The Terps rallied from an 18-point third-quarter deficit, but Clark and the Hawkeyes had enough answers down the stretch.\n\n\r\n              The Hawkeyes (21-2, 10-1 Big Ten) won at Maryland for the first time since December 1992, when the Terps were in the ACC.\n\n\r\n              \u201cThis is the first time I\u2019ve ever been happy in this press room,\u201d Iowa coach Lisa Bluder said afterward.\n\n\r\n              Clark now needs 66 points to pass Kelsey Plum atop <a href=\"https://apnews.com/article/caitlin-clark-scoring-record-stats-16528f3863be82ace94532d7c687093f\">the NCAA career scoring list</a> for women\u2019s basketball.\n\n\r\n              Molly Davis scored 17 points for Iowa, and Kate Martin had 15 points and 10 rebounds.\n\n\r\n              \u201cCaitlin did natural Caitlin things, which are spectacular, but I thought Molly Davis really had a great game as well,\" Bluder said.\n\n\r\n              A packed crowd in College Park had clearly come to watch Clark \u2014 but most of the fans were also cheering for the Terps. Maryland went on a 23-3 run to take a two-point lead in the third. Clark even shot an air ball from the left wing, to the delight of the crowd.\n\n\r\n              \u201cI didn't expect them to shrink an 18-point lead in about four minutes, but we fouled too much,\u201d Clark said.\n\n\r\n              The Terps were up 65-63 before Iowa outscored them 10-1 the rest of the quarter. Clark made a 3-pointer and a layup and also assisted on two layups during that run.\n\n\r\n              The Terps, struggling through an unusually tough season that has them on the NCAA Tournament bubble, kept it close in the fourth. It was tied at 76 before Clark freed herself with that smooth pump fake and connected from 3-point range. She then fed Affolter for a layup, and Maryland could never pull even again.\n\n\r\n              \u201cThis game felt like March,\u201d Terps coach Brenda Frese said. \u201cJust super proud of this group and how we competed with the No. 3 team in the country, with the best player in the country. There's no doubt that we're an NCAA Tournament team.\u201d\n\n\r\n              Clark would have finished with an even 40 points if she hadn't missed a wide-open layup on a breakaway in the final minute, but with Iowa comfortably ahead, she could afford to smile.\n\n\r\n              After Clark began the game with a 3-pointer, Maryland ran off the next 11 points to take an early lead, and the Iowa star was called for a couple traveling violations.\n\n\r\n              The Terps (12-10, 4-7) couldn't keep Clark under control for long. A <a href=\"https://twitter.com/CBBonFOX/status/1753952664801448272\">particularly deep 3-pointer</a> from the left wing \u2014 beyond former Maryland men's coach Gary Williams' signature on the court \u2014 capped a 14-2 run by Iowa. She made four of her seven 3-pointers in the opening quarter.\n\n\r\n              Clark did her damage inside the arc in the second, including a spin move for a three-point play. Iowa led 52-38 at halftime.\n\n\r\n              Clark now has 3,462 points. Plum scored 3,527 at Washington from 2013-17. Former Kansas star Lynette Woodard holds the women\u2019s major college basketball record with 3,649 points from 1978-81 \u2014 before the NCAA took over women\u2019s sports from the Association for Intercollegiate Athletics for Women.\n\n\r\n              BIG PICTURE\n\n\r\n              Iowa: Clark showed off her all-around game, and one benefit to her popularity is that the Hawkeyes have plenty of experience playing before big crowds in tough road environments. They were also able to close the game out with Clark scoring only five points in the final quarter.\n\n\r\n              Maryland: The Terps have lost four straight, but this was an inspired effort in the second half. In addition to Clark's scoring, Maryland had a hard time with Iowa's rebounding \u2014 the Hawkeyes had 17 at the offensive end.\n\n\r\n              EFFICIENT\n\n\r\n              Maryland's Jakia Brown-Turner scored 25 points on 9-of-14 shooting, and Bri McDaniel added 22.\n\n\r\n              UP NEXT\n\n\r\n              Iowa: Hosts Penn State on Thursday night.\n\n\r\n              Maryland: At Rutgers on Tuesday night.\n\n\r\n              ------ AP college basketball: <a href=\"https://apnews.com/hub/ap-top-25-college-basketball-poll\">https://apnews.com/hub/ap-top-25-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/college-basketball\">https://apnews.com/hub/college-basketball</a>\n\n\r\n"
 },
 "leaders": [

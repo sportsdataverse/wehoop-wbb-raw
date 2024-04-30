@@ -16882,10 +16882,22 @@
 }
 ],
 "article": {
+"id": 39579163,
+"nowId": "1-39579163",
+"contentKey": "39579163-1-21-1",
 "dataSourceIdentifier": "73ddc9cd1fd3f",
-"keywords": [],
+"type": "Recap",
+"gameId": "401596753",
+"headline": "No. 1 South Carolina wins share of SEC regular-season title with 72-44 victory over Alabama",
 "description": "\u2014 Ashlyn Watkins had no clue South Carolina would be as good as it is before the season began. Now that the top-ranked Gamecocks have rolled to another Southeastern Conference title, they plan to keep chasing down championships.",
+"linkText": "No. 1 South Carolina wins share of SEC regular-season title with 72-44 victory over Alabama",
+"categorized": "2024-04-12T08:49:54Z",
+"originallyPosted": "2024-02-23T02:08:00Z",
+"lastModified": "2024-02-23T03:34:06Z",
+"published": "2024-02-23T02:08:00Z",
+"section": "Women's College Basketball",
 "source": "AP",
+"images": [],
 "video": [
 {
 "source": "espn",
@@ -17140,49 +17152,20 @@
 }
 }
 ],
-"type": "Recap",
-"nowId": "1-39579163",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39579163"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401596753"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401596753"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39579163"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401596753&version=mobile"
-}
-},
-"id": 39579163,
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -17190,110 +17173,152 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
-},
-{
-"id": 4943,
-"description": "South Carolina Gamecocks",
-"type": "team",
-"sportId": 54,
-"teamId": 2579,
-"team": {
-"id": 2579,
-"description": "South Carolina Gamecocks",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2579"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2579/south-carolina-gamecocks"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2579"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:2579"
 },
 {
 "id": 132006,
-"description": "Alabama Crimson Tide",
 "type": "team",
+"uid": "s:40~l:54~t:333",
+"guid": "122f40f7-90f7-f4d9-934a-41bc8c1646d1",
+"description": "Alabama Crimson Tide",
 "sportId": 54,
 "teamId": 333,
 "team": {
 "id": 333,
 "description": "Alabama Crimson Tide",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/333"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/333/alabama-crimson-tide"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/333/alabama-crimson-tide"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=333"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/333/alabama-crimson-tide"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:333"
+{
+"id": 4943,
+"type": "team",
+"uid": "s:40~l:54~t:2579",
+"guid": "f136e3f6-bfeb-c813-7b33-9e873ff1eda1",
+"description": "South Carolina Gamecocks",
+"sportId": 54,
+"teamId": 2579,
+"team": {
+"id": 2579,
+"description": "South Carolina Gamecocks",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2579/south-carolina-gamecocks"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2579/south-carolina-gamecocks"
+}
+}
+}
+}
+},
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "122f40f7-90f7-f4d9-934a-41bc8c1646d1"
+},
+{
+"type": "guid",
+"guid": "f136e3f6-bfeb-c813-7b33-9e873ff1eda1"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "3de3d83f-a3ef-3069-944e-7bd4b940c785"
 }
 ],
-"headline": "No. 1 South Carolina wins share of SEC regular-season title with 72-44 victory over Alabama",
-"gameId": "401596753",
-"images": [],
-"linkText": "No. 1 South Carolina wins share of SEC regular-season title with 72-44 victory over Alabama",
-"published": "2024-02-23T02:08:00Z",
+"keywords": [
+"NCAA Women's Basketball",
+"Alabama Crimson Tide",
+"South Carolina Gamecocks",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401596753"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39579163",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=73ddc9cd1fd3f"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39579163"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2024-02-23T03:34:06Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              COLUMBIA, S.C. -- \u2014 Ashlyn Watkins had no clue South Carolina would be as good as it is before the season began. Now that the top-ranked Gamecocks have rolled to another Southeastern Conference title, they plan to keep chasing down championships. \n\n\r\n              \u201cWe lost seven people, that's a lot of people to lose especially off a good season\u201d and a third straight Final Four, Watkins said. \u201cWe didn't expect to be this good, but once we saw that we were this good, we never looked back.\u201d \n\n\r\n              Watkins had 14 points and 10 rebounds as South Carolina defeated Alabama 72-44 for coach Dawn Staley's 600th career victory and a share of the SEC crown. \n\n\r\n              \u201cWe raised our standards,\u201d said Bree Hall, a reserve the past two years before moving to a starting role this season. \u201cWe knew we could do this.\u201d \n\n\r\n              The Gamecocks (26-0, 13-0 SEC) cruised without top scorer and rebounder Kamilla Cardoso, who felt sore after the team beat Georgia this past Sunday and got the game off.\n\n\r\n              Staley said Cardoso was worn down from her travel to Brazil to help her home country in an Olympic qualifier, playing three games there, then coming back to campus right after that tournament ended. Staley expects Cardoso to play next time out against Kentucky, but will defer to the senior and likely SEC player of the year. \n\n\r\n              But not having the 6-foot-7 dominator did not slow down South Carolina as it extended its SEC mark with its 44th regular-season league win and its 56th straight at home. \n\n\r\n              Neither team started strongly, combining to make just two of 19 attempts over the first five minutes. \n\n\r\n              Soon enough, though, the Gamecocks' offensive rhythm kicked in and they pulled away with a 22-5 run in the second quarter. \n\n\r\n              South Carolina held Alabama (20-8, 7-6) to just five field goals and 15.6% shooting in the first 20 minutes. Crimson Tide coach Kristy Curry tried to regroup her players with a couple of time outs, but nothing worked as South Carolina won its 22nd straight in the series \u2014 all since Staley took over in the 2008-09 season. \n\n\r\n              Jessica Timmons led Alabama with 20 points as its leading scorer, Sarah Ashlee Barker, was hurt and held to four points, 13 below her average. \n\n\r\n              Hall had 13 points for South Carolina while Tessa Johnson added 12. It was Watkins' seventh double-double this season. \n\n\r\n              SEC Commissioner Greg Sankey was on hand to present South Carolina its latest SEC trophy, the eighth in the past 11 seasons. \n\n\r\n              \u201cWe'll see if there's more trophies in the future, right?\u201d Sankey told the team. \n\n\r\n              THE BIG PICTURE\n\n\r\n              Alabama: The Crimson Tide picked the wrong game to have a bad shooting night. It was the fewest points any SEC team has had in a half and the fewest Alabama has ever scored in a half in program history. Still, the team is in a strong position for its second straight NCAA Tournament bid. \n\n\r\n              South Carolina: The Gamecocks are more disjointed on offense without Cardoso to dominate down low. They will need her to be ready and focused when they try for their second straight SEC Tournament crown and another run to the Final Four next month. \n\n\r\n              INJURED BARKER\n\n\r\n              Curry was unsure how seriously hurt leading scorer Barker was after the loss. Barker went just 2 of 11. She came out with 5:55 left in the third quarter and did not return, sitting on the bench with sweatshirt on. \u201cWe're evaluating,\u201d was all Curry would say. \n\n\r\n              UP NEXT \n\n\r\n              Alabama returns home to play Mississippi State on Sunday.\n\n\r\n              South Carolina heads to Kentucky on Sunday. \n\n\r\n              ------\n\n\r\n              Get poll alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a>\n\n\r\n              ------\n\n\r\n              AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [

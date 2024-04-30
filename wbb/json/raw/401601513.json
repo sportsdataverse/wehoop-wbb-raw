@@ -16227,10 +16227,22 @@
 }
 ],
 "article": {
+"id": 39232348,
+"nowId": "1-39232348",
+"contentKey": "39232348-1-21-1",
 "dataSourceIdentifier": "4862138df8fc1",
-"keywords": [],
-"description": "\u2014 Caitlin Clark knew her shot at the buzzer was going in, even though she launched it from the <a href=\"https://x.com/IowaWBB/status/1742393708018802788?s=20\">Hawkeyes logo near midcourt. </a>",
+"type": "Recap",
+"gameId": "401601513",
+"headline": "Caitlin Clark hits long 3-pointer at the buzzer, scores 40 as No. 4 Iowa beats Michigan State 76-73",
+"description": "\u2014 Caitlin Clark knew her shot at the buzzer was going in, even though she launched it from the Hawkeyes logo near midcourt.",
+"linkText": "Caitlin Clark hits long 3-pointer at the buzzer, scores 40 as No. 4 Iowa beats Michigan State 76-73",
+"categorized": "2024-04-12T07:44:00Z",
+"originallyPosted": "2024-01-03T04:06:55Z",
+"lastModified": "2024-01-03T04:57:55Z",
+"published": "2024-01-03T04:06:55Z",
+"section": "Women's College Basketball",
 "source": "AP",
+"images": [],
 "video": [
 {
 "source": "espn",
@@ -16485,49 +16497,70 @@
 }
 }
 ],
-"type": "Recap",
-"nowId": "1-39232348",
-"premium": false,
-"related": [],
-"allowSearch": true,
+"categories": [
+{
+"id": 4786,
+"type": "team",
+"uid": "s:40~l:54~t:2294",
+"guid": "9bed1254-7827-ba24-ba79-d07a473d1591",
+"description": "Iowa Hawkeyes",
+"sportId": 54,
+"teamId": 2294,
+"team": {
+"id": 2294,
+"description": "Iowa Hawkeyes",
 "links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39232348"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401601513"
-}
-},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401601513"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39232348"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
 }
 },
 "mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401601513&version=mobile"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
+}
+}
+}
 }
 },
-"id": 39232348,
-"categories": [
+{
+"id": 4779,
+"type": "team",
+"uid": "s:40~l:54~t:127",
+"guid": "8ff40803-336e-44d6-3695-cc5a115c8430",
+"description": "Michigan State Spartans",
+"sportId": 54,
+"teamId": 127,
+"team": {
+"id": 127,
+"description": "Michigan State Spartans",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/127/michigan-state-spartans"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/127/michigan-state-spartans"
+}
+}
+}
+}
+},
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -16535,110 +16568,102 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
+}
 },
 {
-"id": 4786,
-"description": "Iowa Hawkeyes",
-"type": "team",
-"sportId": 54,
-"teamId": 2294,
-"team": {
-"id": 2294,
-"description": "Iowa Hawkeyes",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2294"
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2294"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:2294"
 },
 {
-"id": 4779,
-"description": "Michigan State Spartans",
-"type": "team",
-"sportId": 54,
-"teamId": 127,
-"team": {
-"id": 127,
-"description": "Michigan State Spartans",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/127"
-}
+"type": "guid",
+"guid": "9bed1254-7827-ba24-ba79-d07a473d1591"
 },
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/127/michigan-state-spartans"
-}
+{
+"type": "guid",
+"guid": "8ff40803-336e-44d6-3695-cc5a115c8430"
 },
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=127"
-}
-}
-}
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
 },
-"uid": "s:40~l:54~t:127"
+{
+"type": "guid",
+"guid": "653e2418-d6c9-3d55-8b37-bb2c1f1253f5"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
 }
 ],
-"headline": "Caitlin Clark hits long 3-pointer at the buzzer, scores 40 as No. 4 Iowa beats Michigan State 76-73",
-"gameId": "401601513",
-"images": [],
-"linkText": "Caitlin Clark hits long 3-pointer at the buzzer, scores 40 as No. 4 Iowa beats Michigan State 76-73",
-"published": "2024-01-03T04:06:55Z",
+"keywords": [
+"Iowa Hawkeyes",
+"Michigan State Spartans",
+"NCAA Women's Basketball",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401601513"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39232348",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=4862138df8fc1"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39232348"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2024-01-03T04:57:55Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              IOWA CITY, Iowa -- \u2014 Caitlin Clark knew her shot at the buzzer was going in, even though she launched it from the <a href=\"https://x.com/IowaWBB/status/1742393708018802788?s=20\">Hawkeyes logo near midcourt. </a>\n\n\r\n              So did her coach.\n\n\r\n              \u201cCaitlin has ice in her veins,\u201d Iowa's Lisa Bluder said. \u201cEverybody knows it.\u201d\n\n\r\n              Clark proved it again with her long 3-pointer as time expired, giving her 40 points and the No. 4 Hawkeyes a 76-73 victory over Michigan State on Tuesday night.\n\n\r\n              Clark, the nation's leading scorer, was 14 of 34 from the field and went more than 14 minutes without a point in a stretch in the second and third quarters. The Hawkeyes were able to get her the ball in the final seconds \u2014 though a long way from the basket \u2014 as Clark took the pass from Hannah Stuelke and hit from 30 feet as the buzzer sounded.\n\n\r\n              \u201cHonestly, when it left my hand, I knew it was going in,\u201d Clark said. \n\n\r\n              The Hawkeyes (14-1, 3-0 Big Ten) extended their winning streak to 11 games behind Clark and Stuelke, who had 15 points.\n\n\r\n              Michigan State (11-3, 1-2) had tied the game at 73 on DeeDee Hagemann\u2019s layup with 22 seconds left. After a timeout, the Hawkeyes worked the clock down. Stuelke lost the ball momentarily, but recovered to get it to Clark.\n\n\r\n              That bobble, Clark said, might have made the difference.\n\n\r\n              \u201cI think it almost kind of worked out in my favor, because my girl (Michigan State's Moira Joiner) almost went for the steal a little bit,\u201d Clark said. \u201cI was able to get to my step-back to the left, which is my favorite shot.\u201d\n\n\r\n              Clark hit a similar buzzer-beater against Indiana in last year's regular-season finale. This time, she ran to the opposite end of the court with her arms outstretched as the sellout crowd celebrated.\n\n\r\n              \u201cI almost started laughing,\u201d Clark said. \u201cI think everybody was like, \u2018Oh, thank God, this game's over with, we don\u2019t have to go to overtime.' You know, it was ugly, but it was a win, and that's what matters at the end of the day.\u201d\n\n\r\n              Michigan State coach Robyn Fralick said the Spartans defended the final play well.\n\n\r\n              \"She made a really hard shot,\u201d Fralick said.\n\n\r\n              Clark had 19 of Iowa\u2019s first 33 points, but went from the six-minute mark of the second quarter to the 1:32 mark of the third without a point as the Spartans built a six-point lead with 2:23 left in the third quarter. She then scored eight points in the span of 70 seconds, and the teams were tied at 55 at the end of the quarter.\n\n\r\n              Michigan State opened the game with an 8-0 run that was answered by Iowa\u2019s 14-0 run. The Hawkeyes built a 10-point lead late in the first quarter, but their offense struggled after that. Iowa shot just 25% in the second quarter, and the Spartans closed the half with a 9-0 run to lead 37-35.\n\n\r\n              \u201cThat second quarter was one of the worst ones I\u2019ve seen of Iowa basketball,\u201d Bluder said. \u201cI was kind of frustrated we quit running our offense in the second quarter, and that allowed them to get back in the game.\u201d\n\n\r\n              Julia Ayrault had 16 points for the Spartans. Hagemann had 14 points. Joiner and Tory Ozment each had 10 points.\n\n\r\n              BIG PICTURE\n\n\r\n              Michigan State: The Spartans, who came into the game on a four-game winning streak, kept pace with the Hawkeyes on their home court, a good sign for a team in its first season under Fralick. \n\n\r\n              \"We played toe-to-toe with a team that played in the national championship game last year,\u201d Fralick said. \u201cWe'll get better and learn from this.\u201d\n\n\r\n              Iowa: The Hawkeyes struggled from the field midway through the game \u2014 the 10-point second quarter was their lowest output in a quarter this season. But Clark recovered from the scoreless stretch and delivered big shots late in the game. \n\n\r\n              UP NEXT\n\n\r\n              Michigan State: Hosts Maryland next Tuesday\n\n\r\n              Iowa: At Rutgers on Friday\n\n\r\n"
 },
 "videos": [

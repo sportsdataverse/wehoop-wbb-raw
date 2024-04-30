@@ -21816,54 +21816,37 @@
 ]
 },
 "article": {
-"dataSourceIdentifier": "88d3bc6231381",
-"keywords": [],
-"description": "\u2014 Sara Scalia scored 28 points with five 3-pointers, Mackenzie Holmes had 20 points and eight rebounds, and No. 21 Indiana beat Princeton 72-63 on Saturday in the Fort Myers Tip-Off.",
-"source": "AP",
-"video": [],
-"type": "Recap",
-"nowId": "1-38976719",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/38976719"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401578073"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401578073"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=38976719"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401578073&version=mobile"
-}
-},
 "id": 38976719,
+"nowId": "1-38976719",
+"contentKey": "38976719-1-21-1",
+"dataSourceIdentifier": "88d3bc6231381",
+"type": "Recap",
+"gameId": "401578073",
+"headline": "Mackenzie Holmes reaches 2,000 career points and No. 21 Indiana women beat Princeton 72-63",
+"description": "\u2014 Sara Scalia scored 28 points with five 3-pointers, Mackenzie Holmes had 20 points and eight rebounds, and No. 21 Indiana beat Princeton 72-63 on Saturday in the Fort Myers Tip-Off.",
+"linkText": "Mackenzie Holmes reaches 2,000 career points and No. 21 Indiana women beat Princeton 72-63",
+"categorized": "2024-04-12T06:57:18Z",
+"originallyPosted": "2023-11-25T18:14:55Z",
+"lastModified": "2023-11-25T18:14:55Z",
+"published": "2023-11-25T18:14:55Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -21871,110 +21854,152 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
-},
-{
-"id": 4778,
-"description": "Indiana Hoosiers",
-"type": "team",
-"sportId": 54,
-"teamId": 84,
-"team": {
-"id": 84,
-"description": "Indiana Hoosiers",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/84"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/84/indiana-hoosiers"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=84"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:84"
 },
 {
 "id": 4837,
-"description": "Princeton Tigers",
 "type": "team",
+"uid": "s:40~l:54~t:163",
+"guid": "6be29cfc-5c5b-2bd5-d2c7-385728b8d946",
+"description": "Princeton Tigers",
 "sportId": 54,
 "teamId": 163,
 "team": {
 "id": 163,
 "description": "Princeton Tigers",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/163"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/163/princeton-tigers"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/163/princeton-tigers"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=163"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/163/princeton-tigers"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:163"
+{
+"id": 4778,
+"type": "team",
+"uid": "s:40~l:54~t:84",
+"guid": "3790dfa0-5341-3438-d2dc-983f831a045c",
+"description": "Indiana Hoosiers",
+"sportId": 54,
+"teamId": 84,
+"team": {
+"id": 84,
+"description": "Indiana Hoosiers",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/84/indiana-hoosiers"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/84/indiana-hoosiers"
+}
+}
+}
+}
+},
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "6be29cfc-5c5b-2bd5-d2c7-385728b8d946"
+},
+{
+"type": "guid",
+"guid": "3790dfa0-5341-3438-d2dc-983f831a045c"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "43b5ee5e-9109-34f8-b1df-a9ae7627f8cc"
 }
 ],
-"headline": "Mackenzie Holmes reaches 2,000 career points and No. 21 Indiana women beat Princeton 72-63",
-"gameId": "401578073",
-"images": [],
-"linkText": "Mackenzie Holmes reaches 2,000 career points and No. 21 Indiana women beat Princeton 72-63",
-"published": "2023-11-25T18:14:55Z",
+"keywords": [
+"NCAA Women's Basketball",
+"Princeton Tigers",
+"Indiana Hoosiers",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401578073"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=38976719",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=88d3bc6231381"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=38976719"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-11-25T18:14:55Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              FORT MYERS, Fla. -- \u2014 Sara Scalia scored 28 points with five 3-pointers, Mackenzie Holmes had 20 points and eight rebounds, and No. 21 Indiana beat Princeton 72-63 on Saturday in the Fort Myers Tip-Off.\n\n\r\n              Holmes became the second player in program history to reach 2,000 career points. She's trailing Tyra Buss' mark of 2,364 points from 2014-18.\n\n\r\n              Yarden Garzon, who scored a career-high 23 points in a 71-55 victory over No. 19 Tennessee on Thursday, scored eight points for Indiana (5-1). Scalia, who was named the Big Ten player of the week for her two 20-plus point performances last week, was 10 of 17 from the field, including 5 of 9 behind the arc.\n\n\r\n              The Hoosiers scored 25 points in the second quarter to take a 41-24 lead at the break. Scalia scored nine points in a 16-2 second-quarter run and finished the half with 18. Holmes added 15.\n\n\r\n              Princeton twice got within six points in the fourth quarter but Chloe Moore-McNeil helped Indiana stay in front by scoring six of her nine points.\n\n\r\n              Kaitlyn Chen scored 16 points for Princeton (4-2), which was coming off a 77-63 win over Oklahoma on Thursday. Ellie Mitchell and Madison St. Rose each had 11 points. Mitchell also had 16 rebounds, three blocks and three steals.\n\n\r\n              The Hoosiers travel to Portland, Maine to take on the Black Bears on Thursday in a homecoming game for Holmes.\n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

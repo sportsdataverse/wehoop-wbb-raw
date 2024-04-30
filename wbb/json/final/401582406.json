@@ -23934,54 +23934,87 @@
 ]
 },
 "article": {
-"dataSourceIdentifier": "2867cfeb13b65",
-"keywords": [],
-"description": "\u2014 Alissa Pili scored 22 points and collected six rebounds to lead No. 10 Utah to a 98-34 victory over Merrimack on Friday night.",
-"source": "AP",
-"video": [],
-"type": "Recap",
+"id": 38973505,
 "nowId": "1-38973505",
-"premium": false,
-"related": [],
-"allowSearch": true,
+"contentKey": "38973505-1-21-1",
+"dataSourceIdentifier": "2867cfeb13b65",
+"type": "Recap",
+"gameId": "401582406",
+"headline": "Alissa Pili's 22 points leads No. 10 Utah over Merrimack 98-34",
+"description": "\u2014 Alissa Pili scored 22 points and collected six rebounds to lead No. 10 Utah to a 98-34 victory over Merrimack on Friday night.",
+"linkText": "Alissa Pili's 22 points leads No. 10 Utah over Merrimack 98-34",
+"categorized": "2024-04-12T06:56:47Z",
+"originallyPosted": "2023-11-25T04:32:56Z",
+"lastModified": "2023-11-25T05:16:55Z",
+"published": "2023-11-25T04:32:56Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
+"categories": [
+{
+"id": 159161,
+"type": "team",
+"uid": "s:40~l:54~t:2771",
+"guid": "2e2c53a2-db3f-864a-c248-568984297cf5",
+"description": "Merrimack Warriors",
+"sportId": 54,
+"teamId": 2771,
+"team": {
+"id": 2771,
+"description": "Merrimack Warriors",
 "links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/38973505"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401582406"
-}
-},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401582406"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=38973505"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2771/merrimack-warriors"
 }
 },
 "mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401582406&version=mobile"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2771/merrimack-warriors"
+}
+}
+}
 }
 },
-"id": 38973505,
-"categories": [
+{
+"id": 5015,
+"type": "team",
+"uid": "s:40~l:54~t:254",
+"guid": "6893bfec-1fb5-df64-b341-826fe1526156",
+"description": "Utah Utes",
+"sportId": 54,
+"teamId": 254,
+"team": {
+"id": 254,
+"description": "Utah Utes",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes"
+}
+}
+}
+}
+},
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -23989,110 +24022,102 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
+}
 },
 {
-"id": 5015,
-"description": "Utah Utes",
-"type": "team",
-"sportId": 54,
-"teamId": 254,
-"team": {
-"id": 254,
-"description": "Utah Utes",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/254"
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=254"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:254"
 },
 {
-"id": 159161,
-"description": "Merrimack Warriors",
-"type": "team",
-"sportId": 54,
-"teamId": 2771,
-"team": {
-"id": 2771,
-"description": "Merrimack Warriors",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2771"
-}
+"type": "guid",
+"guid": "2e2c53a2-db3f-864a-c248-568984297cf5"
 },
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2771/merrimack-warriors"
-}
+{
+"type": "guid",
+"guid": "6893bfec-1fb5-df64-b341-826fe1526156"
 },
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2771"
-}
-}
-}
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
 },
-"uid": "s:40~l:54~t:2771"
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "00878347-8168-314b-a4dc-f79128d141a0"
 }
 ],
-"headline": "Alissa Pili's 22 points leads No. 10 Utah over Merrimack 98-34",
-"gameId": "401582406",
-"images": [],
-"linkText": "Alissa Pili's 22 points leads No. 10 Utah over Merrimack 98-34",
-"published": "2023-11-25T04:32:56Z",
+"keywords": [
+"Merrimack Warriors",
+"Utah Utes",
+"NCAA Women's Basketball",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401582406"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=38973505",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=2867cfeb13b65"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=38973505"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-11-25T05:16:55Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              SALT LAKE CITY -- \u2014 Alissa Pili scored 22 points and collected six rebounds to lead No. 10 Utah to a 98-34 victory over Merrimack on Friday night.\n\n\r\n              Kennady McQueen added a season-high 18 points on six 3-pointers for the Utes. Ines Vieira dished out 11 assists, finishing with double-digit assists for the second time in three games. Utah (5-1) finished with a 50-28 advantage in rebounds and outscored Merrimack 30-12 in the paint.\n\n\r\n              Cadence Johnson led the Warriors with eight points. Thalia Shepard added seven. Merrimack (1-5) made only 14 baskets while totaling the fewest points for a Utah opponent this season. The Utes scored 32 points off 25 turnovers.\n\n\r\n              \u201cThis is a great offensive team and we know what we\u2019re going to get on offense,\u201d Pili said. \u201cBut I think it\u2019s our defense that we need to key in on.\u201d\n\n\r\n              Utah had no trouble smothering Merrimack on both ends of the court from the opening tip.\n\n\r\n              Utah raced out to a double-digit lead after making seven 3-pointers in the first quarter while shooting 58% from the perimeter. Seven different players contributed an outside basket during the onslaught.\n\n\r\n              Their hot shooting allowed the Utes to quickly blow the game wide open. Utah built a 55-15 halftime lead after Pili and Young both made back-to-back baskets to fuel a 17-3 run to close the second quarter.\n\n\r\n              Turnovers complicated Merrimack\u2019s efforts to stay in the game. The Warriors committed 16 turnovers before halftime, which led to 21 points for the Utes.\n\n\r\n              Utah held Merrimack to a single basket in the third quarter, allowing the Warriors to shoot just 1-of-13 from the field. The Utes led by as many as 69 points in the second half.\n\n\r\n              Utah has made continued strides defensively since suffering its first loss at Baylor two weeks earlier. The Utes have now allowed just 42.3 points per game through three home contests.\n\n\r\n              \u201cThe Baylor game showed us (where to improve) and that\u2019s what we wanted,\u201d Utah coach Lynne Roberts said. \u201cThat\u2019s why we scheduled it. You want to see where your holes are and what you got to get better at and I think it showed us all that.\u201d\n\n\r\n              BIG PICTURE\n\n\r\n              Merrimack: The Warriors struggled to keep up with Utah from the opening tip. They had no answer for the Utes on either end of the court.\n\n\r\n              Utah: The Utes clamped down on defense and kept Merrimack from getting easy looks at the basket. Utah did not allow any offensive rebounds, points in the paint, second chance points or fastbreak points during the first half.\n\n\r\n              UP NEXT\n\n\r\n              Merrimack is at Siena on Tuesday.\n\n\r\n              Utah hosts Carroll College on Tuesday.\n\n\r\n              ------\n\n\r\n              AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "leaders": [

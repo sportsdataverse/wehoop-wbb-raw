@@ -16164,54 +16164,37 @@
 }
 ],
 "article": {
-"dataSourceIdentifier": "4b51eb1660536",
-"keywords": [],
-"description": "\u2014 Caitlin Clark had 35 points and 10 assists and Kate Martin had a career-high 25 points as No. 2 Iowa responded from its first loss of the season, beating Drake 113-90 on Sunday.",
-"source": "AP",
-"video": [],
-"type": "Recap",
-"nowId": "1-38940806",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/38940806"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401595072"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401595072"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=38940806"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401595072&version=mobile"
-}
-},
 "id": 38940806,
+"nowId": "1-38940806",
+"contentKey": "38940806-1-21-1",
+"dataSourceIdentifier": "4b51eb1660536",
+"type": "Recap",
+"gameId": "401595072",
+"headline": "Clark, No. 2 Iowa bounce back from first loss with 113-90 win over Drake",
+"description": "\u2014 Caitlin Clark had 35 points and 10 assists and Kate Martin had a career-high 25 points as No. 2 Iowa responded from its first loss of the season, beating Drake 113-90 on Sunday.",
+"linkText": "Clark, No. 2 Iowa bounce back from first loss with 113-90 win over Drake",
+"categorized": "2024-04-12T06:50:59Z",
+"originallyPosted": "2023-11-20T01:53:55Z",
+"lastModified": "2023-11-20T04:05:07Z",
+"published": "2023-11-20T01:53:55Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -16219,110 +16202,152 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
+}
 },
 {
 "id": 4786,
-"description": "Iowa Hawkeyes",
 "type": "team",
+"uid": "s:40~l:54~t:2294",
+"guid": "9bed1254-7827-ba24-ba79-d07a473d1591",
+"description": "Iowa Hawkeyes",
 "sportId": 54,
 "teamId": 2294,
 "team": {
 "id": 2294,
 "description": "Iowa Hawkeyes",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2294"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2294"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
 }
 }
 }
-},
-"uid": "s:40~l:54~t:2294"
+}
 },
 {
 "id": 4889,
-"description": "Drake Bulldogs",
 "type": "team",
+"uid": "s:40~l:54~t:2181",
+"guid": "b73a36ce-581d-22bf-cf2d-2d06c9a08f4b",
+"description": "Drake Bulldogs",
 "sportId": 54,
 "teamId": 2181,
 "team": {
 "id": 2181,
 "description": "Drake Bulldogs",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2181"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2181/drake-bulldogs"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2181/drake-bulldogs"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2181"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2181/drake-bulldogs"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:2181"
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "9bed1254-7827-ba24-ba79-d07a473d1591"
+},
+{
+"type": "guid",
+"guid": "b73a36ce-581d-22bf-cf2d-2d06c9a08f4b"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "efc0fdf4-8f31-321e-b775-7bc83fe1f787"
 }
 ],
-"headline": "Clark, No. 2 Iowa bounce back from first loss with 113-90 win over Drake",
-"gameId": "401595072",
-"images": [],
-"linkText": "Clark, No. 2 Iowa bounce back from first loss with 113-90 win over Drake",
-"published": "2023-11-20T01:53:55Z",
+"keywords": [
+"NCAA Women's Basketball",
+"Iowa Hawkeyes",
+"Drake Bulldogs",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401595072"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=38940806",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=4b51eb1660536"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=38940806"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-11-20T04:05:07Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              IOWA CITY, Iowa -- \u2014 Caitlin Clark had 35 points and 10 assists and Kate Martin had a career-high 25 points as No. 2 Iowa responded from its first loss of the season, beating Drake 113-90 on Sunday.\n\n\r\n              It was the 39th career 30-point game for Clark, passing Kelsey Plum for the most 30-point games by a player in Division I over the past 25 seasons, according to ESPN.\n\n\r\n              \u201cCoach Bluder challenged us when we came back to practice after the K-State game, and I thought we responded really well,\u201d Clark said.\n\n\r\n              The Hawkeyes (4-1), coming off a 65-58 loss to Kansas State on Thursday night, scored a program-record 64 points in the first half, shooting 75% in the first quarter and 65% in the first half. Iowa had 27 assists against 13 turnovers.\n\n\r\n              \u201cWe played a little bit better than we did on Thursday night, which I was thankful for,\u201d Iowa coach Lisa Bluder said. \u201cWe came out and resumed playing Iowa basketball \u2014 high assists, low turnovers.\"\n\n\r\n              Bluder said she felt like the Hawkeyes \u201cdidn't get into a groove\u201d in Thursday's game.\n\n\r\n              \u201cI just thought our energy level was a lot better out there tonight,\u201d Bluder said. \"We were more focused.\u201d\n\n\r\n              Clark, the reigning national player of the year and unanimous Associated Press preseason All-American, bounced back from one of the worst shooting nights of her college career, making 14 of 22 shots, including 5 of 11 3-pointers. Clark was just 9 of 32 from the field, 2 of 16 in 3-pointers, in Thursday\u2019s game.\n\n\r\n              \u201c\u201cMost of my threes I shot (against Kansas State) were good shots, there were a few that weren't good shots,\u201d Clark said. \u201cSometimes you have nights when they don't go in.\u201d\n\n\r\n              Martin had an even bigger turnaround. She went scoreless in Thursday\u2019s game, but was 10 of 12 from the field in this game.\n\n\r\n              \u201cI kind of shot it with confidence tonight,\u201d said Martin, whose three 3-pointers were her first of the season. \u201cAll week, my teammates had been building me up, all the coaches were building me up. It wasn't fun not making a three in the first four games. I was glad I could step up tonight and knock them down.\u201d\n\n\r\n              \u201cKate Martin had a special game for us,\u201d Bluder said. \u201cShe played like she had played in the summer, and I love to see that.\u201d\n\n\r\n              Drake coach Allison Pohlman was concerned that her team was catching the Hawkeyes at the wrong time coming off a loss.\n\n\r\n              \u201cYou said it. I don't have to say it,\u201d she said. \u201cIt's Captain Obvious. It's the white elephant in the room.\u201d\n\n\r\n              Sharon Goodman had 15 points and Molly Davis added 10 points for the Hawkeyes.\n\n\r\n              \u201cYou don\u2019t judge a team by one game, good or bad,\u201d Clark said. \u201cWe knew that wasn\u2019t a representation of who we are.\u201d\n\n\r\n              The Hawkeyes shot 64% for the game.\n\n\r\n              Grace Berg led Drake (3-1) with 19 points. Katie Dinnebier and Anna Miller each had 15 points. Taylor McAulay and Courtney Becker each had 10.\n\n\r\n              BIG PICTURE\n\n\r\n              Drake: The Bulldogs, coming off an 85-73 win over Iowa State last Sunday, ran with the Hawkeyes early, but cooled off as Iowa closed the first half with a 14-2 run. Drake was able to get inside shots in the first quarter before the Hawkeyes cut that off. \u201cI was proud of our team for coming in and not stop fighting,\u201d Pohlman said.\n\n\r\n              Iowa: Bluder was unhappy with the lack of post touches in Thursday\u2019s loss, so the Hawkeyes made an effort to get the ball inside, especially in the first half. Iowa had 36 points inside in the first half and 60 for the game after having just 30 for the entire game on Thursday. \n\n\r\n              UP NEXT\n\n\r\n              Drake: Hosts Louisiana Tech on Friday in the first round of the Vibrant Thanksgiving Classic..\n\n\r\n              Iowa: Plays Purdue-Fort Wayne in the Gulf Coast Showcase in Estero, Florida on Friday.\n\n\r\n              ------ Get alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a> ------ AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketballNo.\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

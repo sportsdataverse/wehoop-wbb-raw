@@ -17533,54 +17533,37 @@
 }
 ],
 "article": {
-"dataSourceIdentifier": "99ecc90348dee",
-"keywords": [],
-"description": "\u2014 Caitlin Clark scored 38 points and reached No. 9 on the all-time scoring list as No. 4 Iowa beat Cleveland State 104-75 on Saturday in the nightcap of a men's-women's doubleheader at Wells Fargo Arena.",
-"source": "AP",
-"video": [],
-"type": "Recap",
-"nowId": "1-39128537",
-"premium": false,
-"related": [],
-"allowSearch": true,
-"links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39128537"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401594897"
-}
-},
-"web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401594897"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39128537"
-}
-},
-"mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401594897&version=mobile"
-}
-},
 "id": 39128537,
+"nowId": "1-39128537",
+"contentKey": "39128537-1-21-1",
+"dataSourceIdentifier": "99ecc90348dee",
+"type": "Recap",
+"gameId": "401594897",
+"headline": "Caitlin Clark's 38 points leads No. 4 Iowa over Cleveland State 104-75",
+"description": "\u2014 Caitlin Clark scored 38 points and reached No. 9 on the all-time scoring list as No. 4 Iowa beat Cleveland State 104-75 on Saturday in the nightcap of a men's-women's doubleheader at Wells Fargo Arena.",
+"linkText": "Caitlin Clark's 38 points leads No. 4 Iowa over Cleveland State 104-75",
+"categorized": "2024-04-12T07:24:31Z",
+"originallyPosted": "2023-12-17T02:03:56Z",
+"lastModified": "2023-12-17T02:50:58Z",
+"published": "2023-12-17T02:03:56Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
 "categories": [
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -17588,110 +17571,152 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
+}
 },
 {
 "id": 4786,
-"description": "Iowa Hawkeyes",
 "type": "team",
+"uid": "s:40~l:54~t:2294",
+"guid": "9bed1254-7827-ba24-ba79-d07a473d1591",
+"description": "Iowa Hawkeyes",
 "sportId": 54,
 "teamId": 2294,
 "team": {
 "id": 2294,
 "description": "Iowa Hawkeyes",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2294"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2294"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
 }
 }
 }
-},
-"uid": "s:40~l:54~t:2294"
+}
 },
 {
 "id": 5021,
-"description": "Cleveland State Vikings",
 "type": "team",
+"uid": "s:40~l:54~t:325",
+"guid": "de3f11a1-42b1-f398-a5a2-537a683901fd",
+"description": "Cleveland State Vikings",
 "sportId": 54,
 "teamId": 325,
 "team": {
 "id": 325,
 "description": "Cleveland State Vikings",
 "links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/325"
-}
-},
 "web": {
 "teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/325/cleveland-state-vikings"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/325/cleveland-state-vikings"
 }
 },
 "mobile": {
 "teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=325"
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/325/cleveland-state-vikings"
+}
 }
 }
 }
 },
-"uid": "s:40~l:54~t:325"
+{
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
+}
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+},
+{
+"type": "guid",
+"guid": "9bed1254-7827-ba24-ba79-d07a473d1591"
+},
+{
+"type": "guid",
+"guid": "de3f11a1-42b1-f398-a5a2-537a683901fd"
+},
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "70feea68-c6e6-3fca-8e0e-972504245e35"
 }
 ],
-"headline": "Caitlin Clark's 38 points leads No. 4 Iowa over Cleveland State 104-75",
-"gameId": "401594897",
-"images": [],
-"linkText": "Caitlin Clark's 38 points leads No. 4 Iowa over Cleveland State 104-75",
-"published": "2023-12-17T02:03:56Z",
+"keywords": [
+"NCAA Women's Basketball",
+"Iowa Hawkeyes",
+"Cleveland State Vikings",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401594897"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39128537",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=99ecc90348dee"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39128537"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2023-12-17T02:50:58Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              DES MOINES, Iowa -- \u2014 Caitlin Clark scored 38 points and reached No. 9 on the all-time scoring list as No. 4 Iowa beat Cleveland State 104-75 on Saturday in the nightcap of a men's-women's doubleheader at Wells Fargo Arena.\n\n\r\n              Hannah Stuelke contributed 17 points for the Hawkeyes (11-1) and grabbed 13 rebounds.\n\n\r\n              \u201cI had chills when we ran out of the tunnel,\u201d Clark said of the ovation Iowa received from a crowd of 14,786, mostly clad in black and gold.\n\n\r\n              The loss snapped Cleveland State's nine-game winning streak. Mickayla Perdue led the Vikings (9-2) with 24 points.\n\n\r\n              Stuelke came off the bench and gave Iowa balance, establishing an offensive presence in the post and scoring 13 points in the first half.\n\n\r\n              \u201cThe ball was bouncing my way on the offensive rebounding side,\u201d Stuelke said.\n\n\r\n              With a basket in the third quarter, Clark moved past former Iowa State player Ashley Joens for No. 9 on the all-time scoring list. Joens finished her college career last season with 3,060 points. Clark\u2019s career total is now 3,079.\n\n\r\n              \u201cI think it just speaks to women's basketball in this state,\u201d Clark said. \u201cNot only recently, but the history of it and how good it is.\u201d\n\n\r\n              Clark hit 13 of 21 shots, including 9 of 16 from 3-point range.\n\n\r\n              \u201cProbably my best shooting performance I've ever had in Wells Fargo Arena,\u201d said Clark, who played state tournament games in the venue. \u201cI grew up coming to games here.\u201d\n\n\r\n              Clark drew a roar from fans when she exited the game with 5:27 left in the fourth quarter.\n\n\r\n              \u201cHow special is it for women's basketball,\u201d Cleveland State coach Chris Kielsmeier said. \u201cHow electric was this city, before the game even tipped. We were grateful and thankful to really be a part of that. They're really, really good and we've got to play better than we did to show who we really are.\u201d\n\n\r\n              Iowa made just two of its first 12 shots, but still held a 13-11 advantage due to its rebounding and ability to draw fouls.\n\n\r\n              The Hawkeyes went on to hit 26 of their first 28 free throws.\n\n\r\n              \u201cIt was just a great atmosphere,\u201d Iowa coach Lisa Bluder said. \u201cIt was a little bit like a tournament atmosphere. A lot of these people haven't been able to see us play live ... and I thought we did a nice job putting on a show.\u201d\n\n\r\n              BIG PICTURE\n\n\r\n              Iowa entered Saturday averaging 88.6 points per game and has now scored 100 or more four times this season. Cleveland State continues to adjust to the absence of leading scorer Destiny Leo, who has not played since Nov. 25 due to an unspecified leg injury. Leo was averaging 20.7 points and was last season's Horizon League player of the year.\n\n\r\n              PACKING THE PLACE\n\n\r\n              The Iowa women were making a rare appearance in Des Moines, about 90 minutes from campus, as part of a men's and women's Hawkeye Showcase. It was also a homecoming for Iowa star Clark, a top draw in college basketball and the primary reason Wells Fargo Arena was filled to capacity.\n\n\r\n              UP NEXT\n\n\r\n              Iowa hosts Loyola of Chicago on Thursday.\n\n\r\n              Cleveland State plays Southern Mississippi on Wednesday at Fort Meyers, Florida.\n\n\r\n              ------\n\n\r\n              Get poll alerts and updates on AP Top 25 basketball throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a>.\n\n\r\n              ------\n\n\r\n              AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

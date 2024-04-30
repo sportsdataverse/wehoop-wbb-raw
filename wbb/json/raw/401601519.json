@@ -17203,54 +17203,87 @@
 }
 ],
 "article": {
-"dataSourceIdentifier": "8cb5553962975",
-"keywords": [],
-"description": "\u2014 Caitlin Clark put on another show on the road much to the joy of her adoring fans.",
-"source": "AP",
-"video": [],
-"type": "Recap",
+"id": 39249393,
 "nowId": "1-39249393",
-"premium": false,
-"related": [],
-"allowSearch": true,
+"contentKey": "39249393-1-21-1",
+"dataSourceIdentifier": "8cb5553962975",
+"type": "Recap",
+"gameId": "401601519",
+"headline": "Caitlin Clark earns 14th career triple-double to lead No. 4 Iowa women to 103-69 rout of Rutgers",
+"description": "\u2014 Caitlin Clark put on another show on the road much to the joy of her adoring fans.",
+"linkText": "Caitlin Clark earns 14th career triple-double to lead No. 4 Iowa women to 103-69 rout of Rutgers",
+"categorized": "2024-04-12T07:47:29Z",
+"originallyPosted": "2024-01-06T01:00:56Z",
+"lastModified": "2024-01-06T16:14:01Z",
+"published": "2024-01-06T01:00:56Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [],
+"video": [],
+"categories": [
+{
+"id": 4750,
+"type": "team",
+"uid": "s:40~l:54~t:164",
+"guid": "48c3f789-1394-ab9f-40a7-df70714c77c6",
+"description": "Rutgers Scarlet Knights",
+"sportId": 54,
+"teamId": 164,
+"team": {
+"id": 164,
+"description": "Rutgers Scarlet Knights",
 "links": {
-"api": {
-"news": {
-"href": "http://now.core.api.espn.com/v1/sports/news/39249393"
-},
-"events": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/401601519"
-}
-},
 "web": {
-"href": "http://www.espn.com/ncw/recap?gameId=401601519"
-},
-"app": {
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showStory?uid=39249393"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/164/rutgers-scarlet-knights"
 }
 },
 "mobile": {
-"href": "http://scores.espn.com/ncw/gamecast?gameId=401601519&version=mobile"
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/164/rutgers-scarlet-knights"
+}
+}
+}
 }
 },
-"id": 39249393,
-"categories": [
+{
+"id": 4786,
+"type": "team",
+"uid": "s:40~l:54~t:2294",
+"guid": "9bed1254-7827-ba24-ba79-d07a473d1591",
+"description": "Iowa Hawkeyes",
+"sportId": 54,
+"teamId": 2294,
+"team": {
+"id": 2294,
+"description": "Iowa Hawkeyes",
+"links": {
+"web": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
+}
+}
+}
+}
+},
 {
 "id": 9578,
-"description": "Women's College Basketball",
 "type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
 "sportId": 54,
 "leagueId": 54,
 "league": {
 "id": 54,
-"description": "Women's College Basketball",
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
 "links": {
-"api": {
-"leagues": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball"
-}
-},
 "web": {
 "leagues": {
 "href": "https://www.espn.com/womens-college-basketball/"
@@ -17258,110 +17291,102 @@
 },
 "mobile": {
 "leagues": {
-"href": "http://m.espn.com/ncw/"
+"href": "https://www.espn.com/womens-college-basketball/"
 }
 }
 }
-},
-"uid": "s:40~l:54"
+}
 },
 {
-"id": 4750,
-"description": "Rutgers Scarlet Knights",
-"type": "team",
-"sportId": 54,
-"teamId": 164,
-"team": {
-"id": 164,
-"description": "Rutgers Scarlet Knights",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/164"
+"id": 0,
+"type": "league",
+"uid": "s:1",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0",
+"description": "Baseball",
+"sportId": 1,
+"leagueId": 1,
+"league": {
+"id": 1,
+"description": "Baseball"
 }
-},
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/164/rutgers-scarlet-knights"
-}
-},
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=164"
-}
-}
-}
-},
-"uid": "s:40~l:54~t:164"
 },
 {
-"id": 4786,
-"description": "Iowa Hawkeyes",
-"type": "team",
-"sportId": 54,
-"teamId": 2294,
-"team": {
-"id": 2294,
-"description": "Iowa Hawkeyes",
-"links": {
-"api": {
-"teams": {
-"href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/2294"
-}
+"type": "guid",
+"guid": "48c3f789-1394-ab9f-40a7-df70714c77c6"
 },
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes"
-}
+{
+"type": "guid",
+"guid": "9bed1254-7827-ba24-ba79-d07a473d1591"
 },
-"mobile": {
-"teams": {
-"href": "http://m.espn.com/ncw/clubhouse?teamId=2294"
-}
-}
-}
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
 },
-"uid": "s:40~l:54~t:2294"
+{
+"type": "guid",
+"guid": "e364bfcd-493d-3bfb-ac83-bd27d66fedd0"
+},
+{
+"type": "guid",
+"guid": "0a0db1fb-b489-3aba-8d44-39fbdb0d71aa"
 }
 ],
-"headline": "Caitlin Clark earns 14th career triple-double to lead No. 4 Iowa women to 103-69 rout of Rutgers",
-"gameId": "401601519",
-"images": [],
-"linkText": "Caitlin Clark earns 14th career triple-double to lead No. 4 Iowa women to 103-69 rout of Rutgers",
-"published": "2024-01-06T01:00:56Z",
+"keywords": [
+"Rutgers Scarlet Knights",
+"Iowa Hawkeyes",
+"NCAA Women's Basketball",
+"Baseball"
+],
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401601519"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=39249393",
+"dsi": {
+"href": "http://m.espn.go.com/ncw/story?storyId=8cb5553962975"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=39249393"
+}
+}
+},
 "allowComments": true,
-"lastModified": "2024-01-06T16:14:01Z",
+"allowSearch": true,
+"allowContentReactions": false,
 "metrics": [
 {
-"count": 0,
-"type": "views"
+"type": "views",
+"count": 0
 },
 {
-"count": 0,
-"type": "fShares"
+"type": "fShares",
+"count": 0
 },
 {
-"count": 0,
-"type": "tweets"
+"type": "tweets",
+"count": 0
 },
 {
-"count": 0,
-"type": "comments"
+"type": "comments",
+"count": 0
 },
 {
-"count": 0,
-"type": "emails"
+"type": "emails",
+"count": 0
 },
 {
-"count": 0,
-"type": "votes"
+"type": "votes",
+"count": 0
 },
 {
-"count": 0,
-"type": "popularity"
+"type": "popularity",
+"count": 0
 }
 ],
-"inlines": [],
 "story": "\r\n              PISCATAWAY, N.J. -- \u2014 Caitlin Clark put on another show on the road much to the joy of her adoring fans.\n\n\r\n              Clark had 29 points, 10 assists and 10 rebounds for her 14th career triple-double to lead No. 4 Iowa to a 103-69 win over Rutgers on Friday night.\n\n\r\n              Like many of Iowa\u2019s road contests this season, Friday\u2019s game was a sellout \u2014 the first for Rutgers since the team hosted UConn in 2006. Fans, many wearing Clark shirts and jerseys, <a href=\"https://x.com/PatLanniNJ/status/1743391181755600935?s=20\">lined up nearly two hours</a> before tip waiting to get in.\n\n\r\n              <a href=\"https://x.com/RutgersRivals/status/1743436504838668739?s=20\">They weren't disappointed</a>. \n\n\r\n              \u201cThe crowd was incredible,\u201d Clark said. \u201cThere were a lot of little girls, most I\u2019ve seen in a long time. We don\u2019t get to come out to the east coast much. It\u2019s really special the cheer I got when I ran off the court. Some moments you\u2019re never going to forget.\u201d\n\n\r\n              From deep 3-pointers to 30-foot bounce passes that led to layups, the reigning <a href=\"https://apnews.com/article/march-madness-caitlin-clark-player-of-year-ed943aa5f1e86a1bb04505497bd4c9b3\">AP Player of the Year</a> made her presence felt on the court and drew loud cheers nearly every time she touched the ball.\n\n\r\n              She had nine points, four rebounds and three assists in the opening quarter when Iowa (15-1, 4-0 Big Ten) led 25-19. The Hawkeyes put the game away in the second, outscoring Rutgers 30-11 to lead by 25 at the half.\n\n\r\n              \u201cOnce we started getting stops, we were able to push a little bit,\u201d Clark said. \n\n\r\n              The only drama in the second half was whether Clark would get her third triple-double of the season. She achieved it early in the fourth quarter when she secured her 10th rebound and then had consecutive assists to give her double digits in that category.\n\n\r\n              She exited the game with 6:20 left to a loud ovation from the crowd.\n\n\r\n              \u201cI think one of the things that makes Iowa such a dynamic team is the way that Caitlin\u2019s teammates play with her and around her,\u201d Rutgers coach Coquese Washington said. \u201cIt\u2019s pretty special when you have teammates who understand how to allow generational talent to be herself and to make you better. Play within the framework that makes everyone at their best. Her teammates do a great job of that.\u201d\n\n\r\n              Kate Martin added 17 points for the Hawkeyes, who had five players in double figures.\n\n\r\n              Iowa took the hour drive to New York on Thursday to take in a Broadway show and sightsee. The Hawkeyes went to <a href=\"https://x.com/IowaWBB/status/1743085420152332659?s=20\">Rockefeller Center</a> to see the Christmas tree and <a href=\"https://x.com/IowaWBB/status/1743094493052649523?s=20\">Times Square</a>.\n\n\r\n              Kassondra Brown had 12 points and 11 rebounds to lead Rutgers (6-11, 0-4).\n\n\r\n              HONORING A LEGEND\n\n\r\n              Former Rutgers Hall of Fame coach C. Vivian Stringer <a href=\"https://x.com/RUAthletics/status/1743409498239463544?s=20\">was honored before the game</a> for being named a 2024 Naismith Outstanding Contributor to Basketball. Stringer led Rutgers to the national championship game in 2007 and before that had a successful career coaching at Iowa. Hawkeyes coach Lisa Bluder presented Stringer with flowers before both teams gathered at center court behind the former coach.\n\n\r\n              \u201cCoach Stringer is a legend in our game,\" Washington said. \"All that she's accomplished taking three teams to the Final Four and being a trailblazer as a woman and a Black woman.\u201d\n\n\r\n              SCORING HUNT\n\n\r\n              Clark now has 3,218 points and is 309 behind Kelsey Plum for the all-time scoring record in women's college basketball. Plum finished her illustrious career at Washington with 3,527 points. Clark is currently fifth and climbing, also trailing Kelsey Mitchell (3,402), Jackie Stiles (3,393) and Brittney Griner (3,283).\n\n\r\n              SCHOOL SHOOTING\n\n\r\n              There was a moment of silence before the game to honor those who were killed in the <a href=\"https://apnews.com/article/perry-high-school-shooting-iowa-5346218f2646bec796ba28928a00c745\">school shooting in Perry, Iowa</a>, which is near where Clark grew up.\n\n\r\n              \u201cI grew up 40 minutes away and you know it gave me chills in that moment of silence,\u201d Clark said. \u201cThinking and praying for all those people affected and as you saw we were wearing blue ribbons and supporting them tonight.\u201d \n\n\r\n              UP NEXT:\n\n\r\n              Iowa: Visits Purdue on Wednesday.\n\n\r\n              Rutgers: Plays at No. 20 Ohio State on Thursday.\n\n\r\n              ------\n\n\r\n              Get poll alerts and updates on the AP Top 25 basketball polls throughout the season. <a href=\"https://link.apnews.com/join/6nr/newsletters-cbb\">Sign up here</a>.\n\n\r\n              ------\n\n\r\n              AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n"
 },
 "videos": [],

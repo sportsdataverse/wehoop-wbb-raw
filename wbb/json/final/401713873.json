@@ -3236,51 +3236,6 @@
 {
 "active": false,
 "athlete": {
-"id": "5246870",
-"uid": "s:40~l:54~a:5246870",
-"guid": "e7397fd6-f6bf-3e0c-bc74-d797c0f5e967",
-"displayName": "Cia Eklf",
-"shortName": "C. Eklf",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246870/cia-eklf",
-"text": "Player Card"
-}
-],
-"jersey": "45",
-"position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
-}
-},
-"starter": false,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"6",
-"0-2",
-"0-2",
-"0-0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"1",
-"1",
-"0"
-]
-},
-{
-"active": false,
-"athlete": {
 "id": "5246869",
 "uid": "s:40~l:54~a:5246869",
 "guid": "1d96c6eb-7446-3839-9e79-6ab364eb7fb6",
@@ -3299,9 +3254,9 @@
 ],
 "jersey": "19",
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
 }
 },
 "starter": false,
@@ -3321,6 +3276,51 @@
 "2",
 "1",
 "2"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5246870",
+"uid": "s:40~l:54~a:5246870",
+"guid": "e7397fd6-f6bf-3e0c-bc74-d797c0f5e967",
+"displayName": "Cia Eklof",
+"shortName": "C. Eklf",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246870/cia-eklof",
+"text": "Player Card"
+}
+],
+"jersey": "45",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"6",
+"0-2",
+"0-2",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"1",
+"1",
+"0"
 ]
 },
 {
@@ -3472,7 +3472,7 @@
 "id": "5240391",
 "uid": "s:40~l:54~a:5240391",
 "guid": "00619062-73a2-347c-be05-bb8b6cab50ca",
-"displayName": "MK Tshibuabua",
+"displayName": "Mary-Kate Tshibuabua",
 "shortName": "M. Tshibuabua",
 "links": [
 {
@@ -3481,7 +3481,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240391/mk-tshibuabua",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240391/mary-kate-tshibuabua",
 "text": "Player Card"
 }
 ],
@@ -4762,6 +4762,134 @@
 "standings": {
 "entries": [
 {
+"team": "Davidson",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2166/davidson-wildcats",
+"id": "2166",
+"uid": "s:40~l:54~t:2166",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-0",
+"displayValue": "1-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2166.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2024-08-13T19:01Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2166.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2024-08-13T19:01Z"
+}
+]
+},
+{
+"team": "Dayton",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2168/dayton-flyers",
+"id": "2168",
+"uid": "s:40~l:54~t:2168",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-0",
+"displayValue": "1-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2168.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2168.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "Duquesne",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2184/duquesne-dukes",
 "id": "2184",
@@ -5198,134 +5326,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/139.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Davidson",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2166/davidson-wildcats",
-"id": "2166",
-"uid": "s:40~l:54~t:2166",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-0",
-"displayValue": "0-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2166.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2024-08-13T19:01Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2166.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2024-08-13T19:01Z"
-}
-]
-},
-{
-"team": "Dayton",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2168/dayton-flyers",
-"id": "2168",
-"uid": "s:40~l:54~t:2168",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-0",
-"displayValue": "0-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2168.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2168.png",
 "width": 500,
 "height": 500,
 "alt": "",

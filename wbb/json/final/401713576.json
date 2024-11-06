@@ -2000,6 +2000,17 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop"
+],
+"href": "http://www.espn.com/womens-college-basketball/video/_/gameId/401713576",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 1,
@@ -2140,7 +2151,108 @@
 }
 },
 "broadcasts": [],
-"videos": [],
+"videos": [
+{
+"id": 42211670,
+"cerebroId": "672a583af965636cc9197612",
+"source": "espn",
+"headline": "No. 1 South Carolina avoids upset vs. Michigan",
+"description": "Check out the numbers behind South Carolina's 68-62 win vs. Michigan in the Hall of Fame Series.",
+"lastModified": "2024-11-05T17:40:52Z",
+"originalPublishDate": "2024-11-05T17:40:53Z",
+"duration": 37,
+"timeRestrictions": {
+"embargoDate": "2024-11-05T17:36:27Z",
+"expirationDate": "2025-04-01T16:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=42211670",
+"self": {
+"href": "http://espn.com/video/clip?id=42211670",
+"dsi": {
+"href": "http://espn.com/video/clip?id=c03c2d8453952"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/42211670"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/f8c245c3-35d0-4ade-8bc0-ab82eab1f2c1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42211670",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=42211670"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/f8c245c3-35d0-4ade-8bc0-ab82eab1f2c1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42211670"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/f8c245c3-35d0-4ade-8bc0-ab82eab1f2c1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42211670"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/42211670"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/f8c245c3-35d0-4ade-8bc0-ab82eab1f2c1"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=42211670&videoDSI=c03c2d8453952"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Analysis",
+"trackingName": "COM_NCW Analysis (No. 1 South Carolina avoids upset vs. Michigan) 2024/11/5 T2V",
+"trackingId": "dm_241105_ncw_south_carolina_v_michigan_t2v"
+}
+}
+],
 "playByPlaySource": "none",
 "standings": {
 "fullViewLink": {
@@ -2280,6 +2392,70 @@
 ]
 },
 {
+"team": "Michigan State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/127/michigan-state-spartans",
+"id": "127",
+"uid": "s:40~l:54~t:127",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-0",
+"displayValue": "1-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/127.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "Minnesota",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/135/minnesota-golden-gophers",
 "id": "135",
@@ -2404,6 +2580,70 @@
 "dark"
 ],
 "lastUpdated": "2023-10-12T17:04Z"
+}
+]
+},
+{
+"team": "Ohio State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/194/ohio-state-buckeyes",
+"id": "194",
+"uid": "s:40~l:54~t:194",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-0",
+"displayValue": "1-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-02-17T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/194.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-02-17T21:14Z"
 }
 ]
 },
@@ -2792,6 +3032,70 @@
 ]
 },
 {
+"team": "Wisconsin",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/275/wisconsin-badgers",
+"id": "275",
+"uid": "s:40~l:54~t:275",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-0",
+"displayValue": "1-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-09-02T17:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/275.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-09-02T17:08Z"
+}
+]
+},
+{
 "team": "Illinois",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/356/illinois-fighting-illini",
 "id": "356",
@@ -2920,70 +3224,6 @@
 ]
 },
 {
-"team": "Michigan State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/127/michigan-state-spartans",
-"id": "127",
-"uid": "s:40~l:54~t:127",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-0",
-"displayValue": "0-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/127.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "Northwestern",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/77/northwestern-wildcats",
 "id": "77",
@@ -3036,70 +3276,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/77.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
-"team": "Ohio State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/194/ohio-state-buckeyes",
-"id": "194",
-"uid": "s:40~l:54~t:194",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-0",
-"displayValue": "0-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-02-17T21:15Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/194.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -3172,70 +3348,6 @@
 "dark"
 ],
 "lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
-"team": "Wisconsin",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/275/wisconsin-badgers",
-"id": "275",
-"uid": "s:40~l:54~t:275",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-0",
-"displayValue": "0-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-09-02T17:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/275.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-09-02T17:08Z"
 }
 ]
 },
@@ -3824,6 +3936,70 @@
 ]
 },
 {
+"team": "Tennessee",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2633/tennessee-lady-volunteers",
+"id": "2633",
+"uid": "s:40~l:54~t:2633",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-0",
+"displayValue": "1-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633_ncw.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-08-31T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2633_ncw.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-08-31T21:15Z"
+}
+]
+},
+{
 "team": "Vanderbilt",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/238/vanderbilt-commodores",
 "id": "238",
@@ -3948,70 +4124,6 @@
 "dark"
 ],
 "lastUpdated": "2023-03-17T13:36Z"
-}
-]
-},
-{
-"team": "Tennessee",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2633/tennessee-lady-volunteers",
-"id": "2633",
-"uid": "s:40~l:54~t:2633",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-0",
-"displayValue": "0-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633_ncw.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-08-31T21:15Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2633_ncw.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-08-31T21:15Z"
 }
 ]
 },
@@ -4358,8 +4470,326 @@
 "published": "2024-11-05T03:23:14Z",
 "section": "Women's College Basketball",
 "source": "AP",
-"images": [],
-"video": [],
+"images": [
+{
+"type": "Media",
+"name": "No. 1 South Carolina avoids upset vs. Michigan",
+"caption": "Check out the numbers behind South Carolina's 68-62 win vs. Michigan in the Hall of Fame Series.",
+"height": 324,
+"width": 576,
+"url": "https://a.espncdn.com/media/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v.jpg"
+}
+],
+"video": [
+{
+"id": 42211670,
+"dataSourceIdentifier": "c03c2d8453952",
+"cerebroId": "672a583af965636cc9197612",
+"source": "espn",
+"headline": "No. 1 South Carolina avoids upset vs. Michigan",
+"caption": "Check out the numbers behind South Carolina's 68-62 win vs. Michigan in the Hall of Fame Series.",
+"title": "No. 1 South Carolina avoids upset vs. Michigan",
+"description": "Check out the numbers behind South Carolina's 68-62 win vs. Michigan in the Hall of Fame Series.",
+"lastModified": "2024-11-05T17:40:52Z",
+"originalPublishDate": "2024-11-05T17:40:53Z",
+"premium": false,
+"syndicatable": true,
+"duration": 37,
+"timeRestrictions": {
+"embargoDate": "2024-11-05T17:36:27Z",
+"expirationDate": "2025-04-01T16:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v.jpg",
+"images": [
+{
+"name": "Poster Image",
+"caption": "",
+"alt": "",
+"credit": "",
+"height": 324,
+"width": 576,
+"url": "https://media.video-cdn.espn.com/images/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v.jpg"
+}
+],
+"posterImages": {
+"default": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v_default.jpg",
+"width": 576,
+"height": 324
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v.jpg"
+},
+"wide": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v_5x2.jpg"
+},
+"square": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v_1x1.jpg"
+}
+},
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=42211670",
+"self": {
+"href": "http://espn.com/video/clip?id=42211670",
+"dsi": {
+"href": "http://espn.com/video/clip?id=c03c2d8453952"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/42211670"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/f8c245c3-35d0-4ade-8bc0-ab82eab1f2c1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42211670",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=42211670"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/f8c245c3-35d0-4ade-8bc0-ab82eab1f2c1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42211670"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/f8c245c3-35d0-4ade-8bc0-ab82eab1f2c1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42211670"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/42211670"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/f8c245c3-35d0-4ade-8bc0-ab82eab1f2c1"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/dm_241105_ncw_south_carolina_v_michigan_t2v/dm_241105_ncw_south_carolina_v_michigan_t2v_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=42211670&videoDSI=c03c2d8453952"
+}
+},
+"categories": [
+{
+"id": 4780,
+"type": "team",
+"uid": "s:40~l:54~t:130",
+"guid": "3f4fa041-bfb1-d8d9-663b-64b40a6b2263",
+"description": "Michigan Wolverines",
+"sportId": 54,
+"teamId": 130,
+"team": {
+"id": 130,
+"description": "Michigan Wolverines",
+"links": {
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/130/michigan-wolverines"
+}
+},
+"mobile": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/130/michigan-wolverines"
+}
+}
+}
+}
+},
+{
+"id": 99228,
+"type": "league",
+"guid": "47cd9cc2-7d84-4db9-ae45-c308e8afbc7e",
+"description": "Affiliate",
+"sportId": 0,
+"leagueId": 8200,
+"league": {
+"id": 8200,
+"description": "Affiliate",
+"links": {
+"web": {},
+"mobile": {}
+}
+}
+},
+{
+"id": 4943,
+"type": "team",
+"uid": "s:40~l:54~t:2579",
+"guid": "f136e3f6-bfeb-c813-7b33-9e873ff1eda1",
+"description": "South Carolina Gamecocks",
+"sportId": 54,
+"teamId": 2579,
+"team": {
+"id": 2579,
+"description": "South Carolina Gamecocks",
+"links": {
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/2579/south-carolina-gamecocks"
+}
+},
+"mobile": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/2579/south-carolina-gamecocks"
+}
+}
+}
+}
+},
+{
+"id": 9578,
+"type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
+"sportId": 54,
+"leagueId": 54,
+"league": {
+"id": 54,
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
+"logos": {
+"full": {
+"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
+"width": 500,
+"height": 500,
+"dark": {
+"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
+"width": 500,
+"height": 500
+}
+},
+"large": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=110&h=110",
+"width": 110,
+"height": 110,
+"dark": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=110&h=110",
+"width": 110,
+"height": 110
+}
+},
+"medium": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=80&h=80",
+"width": 80,
+"height": 80,
+"dark": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=80&h=80",
+"width": 80,
+"height": 80
+}
+},
+"small": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=50&h=50",
+"width": 50,
+"height": 50,
+"dark": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=50&h=50",
+"width": 50,
+"height": 50
+}
+},
+"xsmall": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=40&h=40",
+"width": 40,
+"height": 40,
+"dark": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=40&h=40",
+"width": 40,
+"height": 40
+}
+},
+"xxsmall": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=25&h=25",
+"width": 25,
+"height": 25,
+"dark": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=25&h=25",
+"width": 25,
+"height": 25
+}
+}
+},
+"links": {
+"web": {
+"leagues": {
+"href": "https://www.espn.com/womens-college-basketball/"
+}
+},
+"mobile": {
+"leagues": {
+"href": "https://www.espn.com/womens-college-basketball/"
+}
+}
+}
+}
+},
+{
+"type": "guid",
+"guid": "3f4fa041-bfb1-d8d9-663b-64b40a6b2263"
+},
+{
+"type": "guid",
+"guid": "47cd9cc2-7d84-4db9-ae45-c308e8afbc7e"
+},
+{
+"type": "guid",
+"guid": "f136e3f6-bfeb-c813-7b33-9e873ff1eda1"
+},
+{
+"type": "guid",
+"guid": "68690c37-5192-3976-885d-759e88da1db5"
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+}
+],
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Analysis",
+"trackingName": "COM_NCW Analysis (No. 1 South Carolina avoids upset vs. Michigan) 2024/11/5 T2V",
+"trackingId": "dm_241105_ncw_south_carolina_v_michigan_t2v"
+}
+}
+],
 "categories": [
 {
 "id": 4780,

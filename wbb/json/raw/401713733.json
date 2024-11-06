@@ -624,51 +624,6 @@
 {
 "active": false,
 "athlete": {
-"id": "5246927",
-"uid": "s:40~l:54~a:5246927",
-"guid": "308d8e21-12ec-3b1b-90a6-6b6904b1d0a7",
-"displayName": "Tilda Sjkvist",
-"shortName": "T. Sjkvist",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246927/tilda-sjkvist",
-"text": "Player Card"
-}
-],
-"jersey": "6",
-"position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
-}
-},
-"starter": false,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"8",
-"0-1",
-"0-0",
-"0-0",
-"0",
-"0",
-"0",
-"2",
-"0",
-"0",
-"1",
-"1",
-"0"
-]
-},
-{
-"active": false,
-"athlete": {
 "id": "5174275",
 "uid": "s:40~l:54~a:5174275",
 "guid": "ed148971-bdb7-353b-b8b1-3a3e16e3dd83",
@@ -909,6 +864,51 @@
 "2",
 "0",
 "2"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5246927",
+"uid": "s:40~l:54~a:5246927",
+"guid": "308d8e21-12ec-3b1b-90a6-6b6904b1d0a7",
+"displayName": "Tilda Sjokvist",
+"shortName": "T. Sjkvist",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246927/tilda-sjokvist",
+"text": "Player Card"
+}
+],
+"jersey": "6",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"8",
+"0-1",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"2",
+"0",
+"0",
+"1",
+"1",
+"0"
 ]
 },
 {
@@ -2345,10 +2345,10 @@
 "id": "5246927",
 "uid": "s:40~l:54~a:5246927",
 "guid": "308d8e21-12ec-3b1b-90a6-6b6904b1d0a7",
-"lastName": "Sjkvist",
-"fullName": "Tilda Sjkvist",
-"displayName": "Tilda Sjkvist",
-"shortName": "T. Sjkvist",
+"lastName": "Sjokvist",
+"fullName": "Tilda Sjokvist",
+"displayName": "Tilda Sjokvist",
+"shortName": "T. Sjokvist",
 "links": [
 {
 "rel": [
@@ -2356,19 +2356,19 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246927/tilda-sjkvist",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246927/tilda-sjokvist",
 "text": "Player Card"
 }
 ],
 "jersey": "6",
 "position": {
-"abbreviation": "ATH"
+"abbreviation": "G"
 },
 "status": {
-"id": "1",
-"name": "Active",
-"type": "active",
-"abbreviation": "Active"
+"id": "2",
+"name": "Inactive",
+"type": "inactive",
+"abbreviation": "Inactive"
 }
 },
 "statistics": [
@@ -13657,6 +13657,70 @@
 ]
 },
 {
+"team": "Tennessee",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2633/tennessee-lady-volunteers",
+"id": "2633",
+"uid": "s:40~l:54~t:2633",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-0",
+"displayValue": "1-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633_ncw.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-08-31T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2633_ncw.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-08-31T21:15Z"
+}
+]
+},
+{
 "team": "Vanderbilt",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/238/vanderbilt-commodores",
 "id": "238",
@@ -13781,70 +13845,6 @@
 "dark"
 ],
 "lastUpdated": "2023-03-17T13:36Z"
-}
-]
-},
-{
-"team": "Tennessee",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2633/tennessee-lady-volunteers",
-"id": "2633",
-"uid": "s:40~l:54~t:2633",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-0",
-"displayValue": "0-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633_ncw.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-08-31T21:15Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2633_ncw.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-08-31T21:15Z"
 }
 ]
 },

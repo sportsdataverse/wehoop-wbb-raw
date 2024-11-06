@@ -896,37 +896,6 @@
 {
 "active": false,
 "athlete": {
-"id": "5247929",
-"uid": "s:40~l:54~a:5247929",
-"guid": "279c17ae-3a88-3c6c-aed9-d19b47882f6c",
-"displayName": "Gemma Cutler",
-"shortName": "G. Cutler",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5247929/gemma-cutler",
-"text": "Player Card"
-}
-],
-"jersey": "12",
-"position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
-}
-},
-"starter": false,
-"didNotPlay": true,
-"ejected": false,
-"stats": []
-},
-{
-"active": false,
-"athlete": {
 "id": "5240779",
 "uid": "s:40~l:54~a:5240779",
 "guid": "b5a15686-619f-330e-9707-cecf47c8551d",
@@ -948,6 +917,37 @@
 "name": "Forward",
 "displayName": "Forward",
 "abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"ejected": false,
+"stats": []
+},
+{
+"active": false,
+"athlete": {
+"id": "5247929",
+"uid": "s:40~l:54~a:5247929",
+"guid": "279c17ae-3a88-3c6c-aed9-d19b47882f6c",
+"displayName": "Gemma Cutler",
+"shortName": "G. Cutler",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5247929/gemma-cutler",
+"text": "Player Card"
+}
+],
+"jersey": "12",
+"position": {
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C"
 }
 },
 "starter": false,
@@ -1514,9 +1514,9 @@
 ],
 "jersey": "33",
 "position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
 }
 },
 "starter": false,
@@ -12835,6 +12835,70 @@
 "standings": {
 "entries": [
 {
+"team": "Gonzaga",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2250/gonzaga-bulldogs",
+"id": "2250",
+"uid": "s:40~l:54~t:2250",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-0",
+"displayValue": "1-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-02-17T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2250.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-02-17T21:14Z"
+}
+]
+},
+{
 "team": "Pacific",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/279/pacific-tigers",
 "id": "279",
@@ -13087,70 +13151,6 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Gonzaga",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2250/gonzaga-bulldogs",
-"id": "2250",
-"uid": "s:40~l:54~t:2250",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-0",
-"displayValue": "0-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-02-17T21:15Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2250.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-02-17T21:14Z"
 }
 ]
 },

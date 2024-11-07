@@ -1354,51 +1354,6 @@
 {
 "active": false,
 "athlete": {
-"id": "5247126",
-"uid": "s:40~l:54~a:5247126",
-"guid": "2cfc331e-fd2b-31c0-b330-ce7fa1ce1137",
-"displayName": "Saige Glover",
-"shortName": "S. Glover",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5247126/saige-glover",
-"text": "Player Card"
-}
-],
-"jersey": "25",
-"position": {
-"name": "Forward",
-"displayName": "Forward",
-"abbreviation": "F"
-}
-},
-"starter": false,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"25",
-"4-8",
-"0-0",
-"6-10",
-"4",
-"3",
-"7",
-"0",
-"1",
-"0",
-"1",
-"1",
-"14"
-]
-},
-{
-"active": false,
-"athlete": {
 "id": "5177783",
 "uid": "s:40~l:54~a:5177783",
 "guid": "7889fe8c-90e6-3b40-a542-fdde479a29a5",
@@ -1443,6 +1398,55 @@
 "4",
 "4",
 "10"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4704528",
+"uid": "s:40~l:54~a:4704528",
+"guid": "8640db87-d5fa-39d9-b8f8-938901fbc7d0",
+"displayName": "Saige Glover",
+"shortName": "S. Glove",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704528/saige-glover",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704528.png",
+"alt": "Saige Glover"
+},
+"jersey": "25",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"25",
+"4-8",
+"0-0",
+"6-10",
+"4",
+"3",
+"7",
+"0",
+"1",
+"0",
+"1",
+"1",
+"14"
 ]
 },
 {
@@ -1651,41 +1655,6 @@
 "alt": "Nashani Gilbert"
 },
 "jersey": "1",
-"position": {
-"name": "Forward",
-"displayName": "Forward",
-"abbreviation": "F"
-}
-},
-"starter": false,
-"didNotPlay": true,
-"ejected": false,
-"stats": []
-},
-{
-"active": false,
-"athlete": {
-"id": "4704528",
-"uid": "s:40~l:54~a:4704528",
-"guid": "8640db87-d5fa-39d9-b8f8-938901fbc7d0",
-"displayName": "Saige Glover",
-"shortName": "S. Glove",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704528/saige-glover",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704528.png",
-"alt": "Saige Glover"
-},
-"jersey": "25",
 "position": {
 "name": "Forward",
 "displayName": "Forward",
@@ -2719,8 +2688,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "0-0",
-"displayValue": "0-0"
+"summary": "0-1",
+"displayValue": "0-1"
 },
 {
 "name": "gamesBehind",
@@ -2906,6 +2875,70 @@
 "standings": {
 "entries": [
 {
+"team": "Alabama State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2011/alabama-state-lady-hornets",
+"id": "2011",
+"uid": "s:40~l:54~t:2011",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2011.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2011.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "Grambling",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2755/grambling-lady-tigers",
 "id": "2755",
@@ -3022,70 +3055,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2010.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Alabama State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2011/alabama-state-lady-hornets",
-"id": "2011",
-"uid": "s:40~l:54~t:2011",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-0",
-"displayValue": "0-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2011.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2011.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -3222,70 +3191,6 @@
 "dark"
 ],
 "lastUpdated": "2024-08-21T18:58Z"
-}
-]
-},
-{
-"team": "Arkansas-Pine Bluff",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2029/arkansas-pine-bluff-golden-lions",
-"id": "2029",
-"uid": "s:40~l:54~t:2029",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-1",
-"displayValue": "0-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-11-28T21:26Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2029.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-11-28T21:31Z"
 }
 ]
 },
@@ -3482,70 +3387,6 @@
 ]
 },
 {
-"team": "Mississippi Valley State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2400/mississippi-valley-state-devilettes",
-"id": "2400",
-"uid": "s:40~l:54~t:2400",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-1",
-"displayValue": "0-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2400.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2400.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "Southern",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2582/southern-jaguars",
 "id": "2582",
@@ -3670,6 +3511,134 @@
 "dark"
 ],
 "lastUpdated": "2023-12-13T21:30Z"
+}
+]
+},
+{
+"team": "Arkansas-Pine Bluff",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2029/arkansas-pine-bluff-golden-lions",
+"id": "2029",
+"uid": "s:40~l:54~t:2029",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "0-2",
+"displayValue": "0-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-11-28T21:26Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2029.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-11-28T21:31Z"
+}
+]
+},
+{
+"team": "Mississippi Valley State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2400/mississippi-valley-state-devilettes",
+"id": "2400",
+"uid": "s:40~l:54~t:2400",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "0-2",
+"displayValue": "0-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2400.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2400.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 }

@@ -775,6 +775,51 @@
 {
 "active": false,
 "athlete": {
+"id": "5247838",
+"uid": "s:40~l:54~a:5247838",
+"guid": "b6a946fa-6eb9-3b41-a1cc-0dc26ada863f",
+"displayName": "Maggie Spencer",
+"shortName": "M. Spencer",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5247838/maggie-spencer",
+"text": "Player Card"
+}
+],
+"jersey": "0",
+"position": {
+"name": "Athlete",
+"displayName": "Athlete",
+"abbreviation": "ATH"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"12",
+"0-3",
+"0-2",
+"0-0",
+"0",
+"2",
+"2",
+"0",
+"1",
+"0",
+"0",
+"1",
+"0"
+]
+},
+{
+"active": false,
+"athlete": {
 "id": "5190669",
 "uid": "s:40~l:54~a:5190669",
 "guid": "540d2467-7142-31ab-9ef4-b76d490a4b80",
@@ -1510,17 +1555,6 @@
 "displayName": "Guard",
 "abbreviation": "G"
 }
-},
-"starter": false,
-"didNotPlay": true,
-"ejected": false,
-"stats": []
-},
-{
-"active": false,
-"athlete": {
-"links": [],
-"shortName": "M. Spencer"
 },
 "starter": false,
 "didNotPlay": true,
@@ -2855,70 +2889,6 @@
 "standings": {
 "entries": [
 {
-"team": "Idaho State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/304/idaho-state-bengals",
-"id": "304",
-"uid": "s:40~l:54~t:304",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2019-08-22T15:06Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/304.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2019-08-22T15:06Z"
-}
-]
-},
-{
 "team": "Montana State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/147/montana-state-bobcats",
 "id": "147",
@@ -2932,8 +2902,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
+"summary": "2-0",
+"displayValue": "2-0"
 },
 {
 "name": "gamesBehind",
@@ -2983,6 +2953,134 @@
 ]
 },
 {
+"team": "Sacramento State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/16/sacramento-state-hornets",
+"id": "16",
+"uid": "s:40~l:54~t:16",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/16.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Idaho State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/304/idaho-state-bengals",
+"id": "304",
+"uid": "s:40~l:54~t:304",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-1",
+"displayValue": "1-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-08-22T15:06Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/304.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2019-08-22T15:06Z"
+}
+]
+},
+{
 "team": "Northern Arizona",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2464/northern-arizona-lumberjacks",
 "id": "2464",
@@ -2996,8 +3094,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
+"summary": "1-1",
+"displayValue": "1-1"
 },
 {
 "name": "gamesBehind",
@@ -3060,8 +3158,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
+"summary": "1-1",
+"displayValue": "1-1"
 },
 {
 "name": "gamesBehind",
@@ -3111,70 +3209,6 @@
 ]
 },
 {
-"team": "Sacramento State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/16/sacramento-state-hornets",
-"id": "16",
-"uid": "s:40~l:54~t:16",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/16.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "Weber State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2692/weber-state-wildcats",
 "id": "2692",
@@ -3188,8 +3222,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
+"summary": "1-1",
+"displayValue": "1-1"
 },
 {
 "name": "gamesBehind",

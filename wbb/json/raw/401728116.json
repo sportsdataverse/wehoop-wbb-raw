@@ -868,6 +868,51 @@
 {
 "active": false,
 "athlete": {
+"id": "5248246",
+"uid": "s:40~l:54~a:5248246",
+"guid": "c12668c9-09dd-3e02-b957-cfd478422a6a",
+"displayName": "Riani Benton",
+"shortName": "R. Benton",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5248246/riani-benton",
+"text": "Player Card"
+}
+],
+"jersey": "1",
+"position": {
+"name": "Athlete",
+"displayName": "Athlete",
+"abbreviation": "ATH"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"11",
+"0-1",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"1",
+"1",
+"0",
+"1",
+"0",
+"0"
+]
+},
+{
+"active": false,
+"athlete": {
 "id": "5182994",
 "uid": "s:40~l:54~a:5182994",
 "guid": "ab44e34e-5fa3-312e-9162-8a7a6a813e5c",
@@ -952,51 +997,6 @@
 "0",
 "1",
 "1",
-"0"
-]
-},
-{
-"active": false,
-"athlete": {
-"id": "5248246",
-"uid": "s:40~l:54~a:5248246",
-"guid": "c12668c9-09dd-3e02-b957-cfd478422a6a",
-"displayName": "Riani Benton",
-"shortName": "R. Benton",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5248246/riani-benton",
-"text": "Player Card"
-}
-],
-"position": {
-"name": "Not Available",
-"displayName": "Not Available",
-"abbreviation": "NA"
-},
-"jersey": "1"
-},
-"starter": false,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"11",
-"0-1",
-"0-0",
-"0-0",
-"0",
-"0",
-"0",
-"1",
-"1",
-"0",
-"1",
-"0",
 "0"
 ]
 },
@@ -16143,6 +16143,70 @@
 "standings": {
 "entries": [
 {
+"team": "McNeese",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2377/mcneese-cowgirls",
+"id": "2377",
+"uid": "s:40~l:54~t:2377",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2377.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-23T22:21Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2377.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-23T22:21Z"
+}
+]
+},
+{
 "team": "Lamar",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2320/lamar-cardinals",
 "id": "2320",
@@ -16203,70 +16267,6 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "McNeese",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2377/mcneese-cowgirls",
-"id": "2377",
-"uid": "s:40~l:54~t:2377",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2377.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-01-23T22:21Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2377.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-01-23T22:21Z"
 }
 ]
 },
@@ -16655,10 +16655,10 @@
 ]
 },
 {
-"team": "Houston Christian",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2277/houston-christian-huskies",
-"id": "2277",
-"uid": "s:40~l:54~t:2277",
+"team": "Nicholls",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2447/nicholls-colonels",
+"id": "2447",
+"uid": "s:40~l:54~t:2447",
 "stats": [
 {
 "id": "0",
@@ -16668,8 +16668,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "0-1",
-"displayValue": "0-1"
+"summary": "1-1",
+"displayValue": "1-1"
 },
 {
 "name": "gamesBehind",
@@ -16695,7 +16695,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -16703,10 +16703,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2023-11-21T19:01Z"
+"lastUpdated": "2018-06-05T12:08Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2277.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2447.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -16714,71 +16714,7 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2023-11-21T19:01Z"
-}
-]
-},
-{
-"team": "Incarnate Word",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2916/incarnate-word-cardinals",
-"id": "2916",
-"uid": "s:40~l:54~t:2916",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-1",
-"displayValue": "0-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2916.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-01-23T22:21Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2916.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-01-23T22:21Z"
+"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },
@@ -16847,10 +16783,10 @@
 ]
 },
 {
-"team": "Nicholls",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2447/nicholls-colonels",
-"id": "2447",
-"uid": "s:40~l:54~t:2447",
+"team": "Houston Christian",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2277/houston-christian-huskies",
+"id": "2277",
+"uid": "s:40~l:54~t:2277",
 "stats": [
 {
 "id": "0",
@@ -16860,8 +16796,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "0-1",
-"displayValue": "0-1"
+"summary": "0-2",
+"displayValue": "0-2"
 },
 {
 "name": "gamesBehind",
@@ -16887,7 +16823,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -16895,10 +16831,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2018-06-05T12:08Z"
+"lastUpdated": "2023-11-21T19:01Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2447.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2277.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -16906,7 +16842,71 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2018-06-05T12:08Z"
+"lastUpdated": "2023-11-21T19:01Z"
+}
+]
+},
+{
+"team": "Incarnate Word",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2916/incarnate-word-cardinals",
+"id": "2916",
+"uid": "s:40~l:54~t:2916",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "0-2",
+"displayValue": "0-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2916.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-23T22:21Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2916.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-23T22:21Z"
 }
 ]
 }

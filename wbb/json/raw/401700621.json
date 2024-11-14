@@ -377,17 +377,7 @@
 "guid": "e1f9c005-1956-3759-9bdd-24c14eb12db3",
 "displayName": "Laura Cobb",
 "shortName": "L. Cobb",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246689/laura-cobb",
-"text": "Player Card"
-}
-],
+"links": [],
 "jersey": "23",
 "position": {
 "name": "Athlete",
@@ -422,17 +412,7 @@
 "guid": "7ffe9429-d6bd-38a1-98c9-66ae6331688c",
 "displayName": "Sarahia Hurd",
 "shortName": "S. Hurd",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246688/sarahia-hurd",
-"text": "Player Card"
-}
-],
+"links": [],
 "jersey": "22",
 "position": {
 "name": "Athlete",
@@ -467,17 +447,7 @@
 "guid": "12520800-7f79-3bc0-aa25-4277bcdba606",
 "displayName": "Kylee Madden",
 "shortName": "K. Madden",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246687/kylee-madden",
-"text": "Player Card"
-}
-],
+"links": [],
 "jersey": "12",
 "position": {
 "name": "Athlete",
@@ -512,17 +482,7 @@
 "guid": "22562b3f-f099-3d20-a8f0-0aa5237ae37e",
 "displayName": "Sydney Coward",
 "shortName": "S. Coward",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246685/sydney-coward",
-"text": "Player Card"
-}
-],
+"links": [],
 "jersey": "4",
 "position": {
 "name": "Athlete",
@@ -557,17 +517,7 @@
 "guid": "0ae5748c-06cf-3619-90b7-d2a8a533367c",
 "displayName": "Breyonce' Jim",
 "shortName": "B. Jim",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246684/breyonce-jim",
-"text": "Player Card"
-}
-],
+"links": [],
 "jersey": "3",
 "position": {
 "name": "Athlete",
@@ -602,17 +552,7 @@
 "guid": "4854c08e-2967-3ead-9f0a-d2427bd45bd2",
 "displayName": "Sanaa Holmes",
 "shortName": "S. Holmes",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246686/sanaa-holmes",
-"text": "Player Card"
-}
-],
+"links": [],
 "jersey": "10",
 "position": {
 "name": "Athlete",
@@ -647,17 +587,7 @@
 "guid": "aa62d5b6-31a8-3fdc-b4e0-0576694308df",
 "displayName": "Avery Gwin",
 "shortName": "A. Gwin",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246683/avery-gwin",
-"text": "Player Card"
-}
-],
+"links": [],
 "jersey": "2",
 "position": {
 "name": "Athlete",
@@ -1833,12 +1763,12 @@
 "links": [
 {
 "rel": [
-"playercard",
+"stats",
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246685/sydney-coward",
-"text": "Player Card"
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5246685/sydney-coward",
+"text": "Stats"
 }
 ],
 "jersey": "4",
@@ -1901,12 +1831,12 @@
 "links": [
 {
 "rel": [
-"playercard",
+"stats",
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246687/kylee-madden",
-"text": "Player Card"
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5246687/kylee-madden",
+"text": "Stats"
 }
 ],
 "jersey": "12",
@@ -1978,12 +1908,12 @@
 "links": [
 {
 "rel": [
-"playercard",
+"stats",
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5246688/sarahia-hurd",
-"text": "Player Card"
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5246688/sarahia-hurd",
+"text": "Stats"
 }
 ],
 "jersey": "22",
@@ -16008,6 +15938,70 @@
 ]
 },
 {
+"team": "Nicholls",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2447/nicholls-colonels",
+"id": "2447",
+"uid": "s:40~l:54~t:2447",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-1",
+"displayValue": "2-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2447.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "Northwestern State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2466/northwestern-state-lady-demons",
 "id": "2466",
@@ -16060,70 +16054,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2466.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Nicholls",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2447/nicholls-colonels",
-"id": "2447",
-"uid": "s:40~l:54~t:2447",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-1",
-"displayValue": "1-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2447.png",
 "width": 500,
 "height": 500,
 "alt": "",

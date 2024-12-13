@@ -21785,7 +21785,7 @@
 },
 {
 "name": "assists",
-"displayValue": "12",
+"displayValue": "13",
 "abbreviation": "AST",
 "label": "Assists"
 },
@@ -21969,13 +21969,13 @@
 },
 {
 "name": "technicalFouls",
-"displayValue": "1",
+"displayValue": "0",
 "abbreviation": "TECH",
 "label": "Technical Fouls"
 },
 {
 "name": "totalTechnicalFouls",
-"displayValue": "1",
+"displayValue": "0",
 "abbreviation": "TECH",
 "label": "Total Technical Fouls"
 },
@@ -22133,7 +22133,7 @@
 "4",
 "9",
 "13",
-"2",
+"3",
 "0",
 "1",
 "4",
@@ -22176,12 +22176,12 @@
 "ejected": false,
 "stats": [
 "38",
-"6-16",
+"6-15",
 "3-10",
 "4-4",
-"0",
+"1",
 "4",
-"4",
+"5",
 "3",
 "1",
 "1",
@@ -22274,7 +22274,7 @@
 "ejected": false,
 "stats": [
 "41",
-"5-15",
+"5-16",
 "1-8",
 "5-6",
 "0",
@@ -22326,9 +22326,9 @@
 "5-10",
 "3-8",
 "2-2",
-"1",
+"0",
 "4",
-"5",
+"4",
 "1",
 "0",
 "0",
@@ -22371,7 +22371,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"10",
+"11",
 "0-0",
 "0-0",
 "0-0",
@@ -22420,7 +22420,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"8",
+"7",
 "1-2",
 "0-0",
 "0-0",
@@ -22691,7 +22691,7 @@
 "8",
 "34",
 "42",
-"12",
+"13",
 "2",
 "2",
 "15",
@@ -22862,7 +22862,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"38",
+"39",
 "4-12",
 "0-0",
 "0-0",
@@ -23107,7 +23107,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"3",
+"2",
 "0-1",
 "0-1",
 "0-0",
@@ -23156,7 +23156,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"3",
+"2",
 "0-0",
 "0-0",
 "0-0",
@@ -23254,7 +23254,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"6",
+"7",
 "0-2",
 "0-1",
 "0-0",
@@ -25343,8 +25343,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "7-2",
-"displayValue": "7-2"
+"summary": "8-2",
+"displayValue": "8-2"
 },
 {
 "name": "gamesBehind",
@@ -25906,6 +25906,70 @@
 ]
 },
 {
+"team": "Louisville",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals",
+"id": "97",
+"uid": "s:40~l:54~t:97",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-4",
+"displayValue": "6-4"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5,
+"displayValue": "0.5"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-03-01T14:17Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/97.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-03-01T14:18Z"
+}
+]
+},
+{
 "team": "Wake Forest",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/154/wake-forest-demon-deacons",
 "id": "154",
@@ -25966,70 +26030,6 @@
 "dark"
 ],
 "lastUpdated": "2022-09-07T20:49Z"
-}
-]
-},
-{
-"team": "Louisville",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals",
-"id": "97",
-"uid": "s:40~l:54~t:97",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "5-4",
-"displayValue": "5-4"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5,
-"displayValue": "0.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-03-01T14:17Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/97.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-03-01T14:18Z"
 }
 ]
 },
@@ -28506,13 +28506,13 @@
 {
 "displayValue": "3",
 "athlete": {
-"id": "4433513",
-"uid": "s:40~l:54~a:4433513",
-"guid": "3b8a6554-f75d-3e4b-ba74-e91e3d9cf8ff",
-"lastName": "Demetre",
-"fullName": "Brooke Demetre",
-"displayName": "Brooke Demetre",
-"shortName": "B. Demetre",
+"id": "5175934",
+"uid": "s:40~l:54~a:5175934",
+"guid": "a78e8ae4-f400-3359-92ac-471371932b80",
+"lastName": "Agara",
+"fullName": "Nunu Agara",
+"displayName": "Nunu Agara",
+"shortName": "N. Agara",
 "links": [
 {
 "rel": [
@@ -28520,15 +28520,15 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433513/brooke-demetre",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5175934/nunu-agara",
 "text": "Player Card"
 }
 ],
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433513.png",
-"alt": "Brooke Demetre"
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5175934.png",
+"alt": "Nunu Agara"
 },
-"jersey": "21",
+"jersey": "3",
 "position": {
 "abbreviation": "F"
 },
@@ -28555,8 +28555,8 @@
 "shortDisplayName": "TO",
 "description": "The number of times a player loses possession to the other team.",
 "abbreviation": "TO",
-"value": 1.0,
-"displayValue": "1"
+"value": 4.0,
+"displayValue": "4"
 },
 {
 "name": "minutes",
@@ -28573,8 +28573,8 @@
 "shortDisplayName": "AST/TO",
 "description": "The average number of assists a player or team records per turnover",
 "abbreviation": "AST/TO",
-"value": 3.0,
-"displayValue": "3.0"
+"value": 0.75,
+"displayValue": "0.8"
 }
 ]
 }

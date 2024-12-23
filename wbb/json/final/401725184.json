@@ -22410,37 +22410,6 @@
 {
 "active": false,
 "athlete": {
-"id": "5261204",
-"uid": "s:40~l:54~a:5261204",
-"guid": "d4d646eb-346c-3629-86cc-a2c670692641",
-"displayName": "Aliyah Matharu",
-"shortName": "A. Matharu",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5261204/aliyah-matharu",
-"text": "Player Card"
-}
-],
-"jersey": "9",
-"position": {
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH"
-}
-},
-"starter": false,
-"didNotPlay": true,
-"ejected": false,
-"stats": []
-},
-{
-"active": false,
-"athlete": {
 "id": "5239453",
 "uid": "s:40~l:54~a:5239453",
 "guid": "e82fd1cc-59e2-3225-a0d3-729157e8e66d",
@@ -22462,6 +22431,37 @@
 "name": "Forward",
 "displayName": "Forward",
 "abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"ejected": false,
+"stats": []
+},
+{
+"active": false,
+"athlete": {
+"id": "5261204",
+"uid": "s:40~l:54~a:5261204",
+"guid": "d4d646eb-346c-3629-86cc-a2c670692641",
+"displayName": "Aliyah Matharu",
+"shortName": "A. Matharu",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5261204/aliyah-matharu",
+"text": "Player Card"
+}
+],
+"jersey": "9",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
 }
 },
 "starter": false,
@@ -24583,6 +24583,70 @@
 "standings": {
 "entries": [
 {
+"team": "Kansas State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2306/kansas-state-wildcats",
+"id": "2306",
+"uid": "s:40~l:54~t:2306",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "13-1",
+"displayValue": "13-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "1-0",
+"displayValue": "1-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2306.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "TCU",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2628/tcu-horned-frogs",
 "id": "2628",
@@ -24967,70 +25031,6 @@
 ]
 },
 {
-"team": "Kansas State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2306/kansas-state-wildcats",
-"id": "2306",
-"uid": "s:40~l:54~t:2306",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "12-1",
-"displayValue": "12-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5,
-"displayValue": "0.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2306.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "Texas Tech",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2641/texas-tech-lady-raiders",
 "id": "2641",
@@ -25091,70 +25091,6 @@
 "dark"
 ],
 "lastUpdated": "2023-09-07T19:32Z"
-}
-]
-},
-{
-"team": "Cincinnati",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2132/cincinnati-bearcats",
-"id": "2132",
-"uid": "s:40~l:54~t:2132",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "8-2",
-"displayValue": "8-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5,
-"displayValue": "0.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-08-31T17:55Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2132.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-08-31T17:56Z"
 }
 ]
 },
@@ -25411,6 +25347,70 @@
 "dark"
 ],
 "lastUpdated": "2023-10-06T14:35Z"
+}
+]
+},
+{
+"team": "Cincinnati",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2132/cincinnati-bearcats",
+"id": "2132",
+"uid": "s:40~l:54~t:2132",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "8-3",
+"displayValue": "8-3"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.0,
+"displayValue": "1"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-1",
+"displayValue": "0-1"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-08-31T17:55Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2132.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-08-31T17:56Z"
 }
 ]
 },

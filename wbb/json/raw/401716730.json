@@ -69,7 +69,7 @@
 },
 {
 "name": "assists",
-"displayValue": "7",
+"displayValue": "10",
 "abbreviation": "AST",
 "label": "Assists"
 },
@@ -87,7 +87,7 @@
 },
 {
 "name": "turnovers",
-"displayValue": "18",
+"displayValue": "17",
 "abbreviation": "TO",
 "label": "Turnovers"
 },
@@ -99,7 +99,7 @@
 },
 {
 "name": "totalTurnovers",
-"displayValue": "18",
+"displayValue": "17",
 "abbreviation": "ToTO",
 "label": "Total Turnovers"
 },
@@ -199,19 +199,19 @@
 },
 {
 "name": "totalRebounds",
-"displayValue": "37",
+"displayValue": "41",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
 {
 "name": "offensiveRebounds",
-"displayValue": "8",
+"displayValue": "10",
 "abbreviation": "OR",
 "label": "Offensive Rebounds"
 },
 {
 "name": "defensiveRebounds",
-"displayValue": "29",
+"displayValue": "31",
 "abbreviation": "DR",
 "label": "Defensive Rebounds"
 },
@@ -223,7 +223,7 @@
 },
 {
 "name": "steals",
-"displayValue": "4",
+"displayValue": "3",
 "abbreviation": "STL",
 "label": "Steals"
 },
@@ -265,7 +265,7 @@
 },
 {
 "name": "turnoverPoints",
-"displayValue": "18",
+"displayValue": "15",
 "abbreviation": "PTS OFF TO",
 "label": "Points Off Turnovers"
 },
@@ -515,7 +515,7 @@
 "0",
 "4",
 "4",
-"3",
+"4",
 "1",
 "0",
 "3",
@@ -562,12 +562,12 @@
 "2-4",
 "2-2",
 "1",
+"2",
 "3",
-"4",
 "0",
 "0",
 "0",
-"4",
+"3",
 "4",
 "10"
 ]
@@ -613,7 +613,7 @@
 "0",
 "4",
 "4",
-"2",
+"3",
 "2",
 "1",
 "1",
@@ -760,7 +760,7 @@
 "0",
 "0",
 "0",
-"1",
+"2",
 "4",
 "0",
 "2",
@@ -855,9 +855,9 @@
 "0-3",
 "0-3",
 "0-0",
+"0",
 "1",
 "1",
-"2",
 "0",
 "0",
 "0",
@@ -904,9 +904,9 @@
 "0-1",
 "0-1",
 "0-0",
+"1",
 "0",
-"0",
-"0",
+"1",
 "0",
 "0",
 "0",
@@ -1064,10 +1064,10 @@
 "6",
 "23",
 "29",
-"7",
+"10",
 "10",
 "1",
-"18",
+"17",
 "22",
 "59"
 ]
@@ -1390,7 +1390,7 @@
 "9",
 "10",
 "10",
-"3",
+"2",
 "0",
 "4",
 "1",
@@ -1480,7 +1480,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"2",
+"1",
 "0-0",
 "0-0",
 "0-0",
@@ -1578,7 +1578,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"2",
+"3",
 "0-0",
 "0-0",
 "0-0",
@@ -1802,11 +1802,11 @@
 "20-51",
 "13-35",
 "14-21",
-"8",
-"29",
-"37",
+"10",
+"31",
+"41",
 "15",
-"4",
+"3",
 "5",
 "20",
 "24",
@@ -2265,7 +2265,7 @@
 "displayName": "Assists",
 "leaders": [
 {
-"displayValue": "3",
+"displayValue": "4",
 "athlete": {
 "id": "5178180",
 "uid": "s:40~l:54~a:5178180",
@@ -2307,8 +2307,8 @@
 "shortDisplayName": "AST",
 "description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
 "abbreviation": "AST",
-"value": 3.0,
-"displayValue": "3"
+"value": 4.0,
+"displayValue": "4"
 },
 {
 "name": "turnovers",
@@ -2334,8 +2334,8 @@
 "shortDisplayName": "AST/TO",
 "description": "The average number of assists a player or team records per turnover",
 "abbreviation": "AST/TO",
-"value": 1.0,
-"displayValue": "1.0"
+"value": 1.3333334,
+"displayValue": "1.3"
 }
 ]
 }

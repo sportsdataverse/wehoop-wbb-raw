@@ -51,19 +51,19 @@
 },
 {
 "name": "totalRebounds",
-"displayValue": "45",
+"displayValue": "50",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
 {
 "name": "offensiveRebounds",
-"displayValue": "13",
+"displayValue": "17",
 "abbreviation": "OR",
 "label": "Offensive Rebounds"
 },
 {
 "name": "defensiveRebounds",
-"displayValue": "32",
+"displayValue": "33",
 "abbreviation": "DR",
 "label": "Defensive Rebounds"
 },
@@ -87,19 +87,19 @@
 },
 {
 "name": "turnovers",
-"displayValue": "14",
+"displayValue": "15",
 "abbreviation": "TO",
 "label": "Turnovers"
 },
 {
 "name": "teamTurnovers",
-"displayValue": "0",
+"displayValue": "1",
 "abbreviation": "TTO",
 "label": "Team Turnovers"
 },
 {
 "name": "totalTurnovers",
-"displayValue": "14",
+"displayValue": "15",
 "abbreviation": "ToTO",
 "label": "Total Turnovers"
 },
@@ -199,19 +199,19 @@
 },
 {
 "name": "totalRebounds",
-"displayValue": "37",
+"displayValue": "40",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
 {
 "name": "offensiveRebounds",
-"displayValue": "5",
+"displayValue": "6",
 "abbreviation": "OR",
 "label": "Offensive Rebounds"
 },
 {
 "name": "defensiveRebounds",
-"displayValue": "32",
+"displayValue": "34",
 "abbreviation": "DR",
 "label": "Defensive Rebounds"
 },
@@ -1054,13 +1054,13 @@
 "22-71",
 "6-22",
 "4-8",
-"13",
-"32",
-"45",
+"17",
+"33",
+"50",
 "7",
 "4",
 "3",
-"14",
+"15",
 "22",
 "54"
 ]
@@ -1768,9 +1768,9 @@
 "18-56",
 "4-17",
 "21-23",
-"5",
-"32",
-"37",
+"6",
+"34",
+"40",
 "10",
 "9",
 "4",
@@ -15559,8 +15559,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "8-6",
-"displayValue": "8-6"
+"summary": "9-6",
+"displayValue": "9-6"
 },
 {
 "name": "gamesBehind",
@@ -15751,8 +15751,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "4-9",
-"displayValue": "4-9"
+"summary": "4-10",
+"displayValue": "4-10"
 },
 {
 "name": "gamesBehind",
@@ -16002,6 +16002,70 @@
 "standings": {
 "entries": [
 {
+"team": "Oral Roberts",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/198/oral-roberts-golden-eagles",
+"id": "198",
+"uid": "s:40~l:54~t:198",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "10-3",
+"displayValue": "10-3"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/198.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-03-15T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/198.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-03-15T19:32Z"
+}
+]
+},
+{
 "team": "South Dakota State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2571/south-dakota-state-jackrabbits",
 "id": "2571",
@@ -16062,70 +16126,6 @@
 "dark"
 ],
 "lastUpdated": "2023-03-01T14:18Z"
-}
-]
-},
-{
-"team": "Oral Roberts",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/198/oral-roberts-golden-eagles",
-"id": "198",
-"uid": "s:40~l:54~t:198",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "9-3",
-"displayValue": "9-3"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/198.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-03-15T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/198.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-03-15T19:32Z"
 }
 ]
 },
@@ -16194,6 +16194,70 @@
 ]
 },
 {
+"team": "St. Thomas-Minnesota",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2900/st-thomas-minnesota-tommies",
+"id": "2900",
+"uid": "s:40~l:54~t:2900",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "8-5",
+"displayValue": "8-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2900.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-20T22:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2900.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-20T22:35Z"
+}
+]
+},
+{
 "team": "North Dakota State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2449/north-dakota-state-bison",
 "id": "2449",
@@ -16246,70 +16310,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2449.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-01-20T22:35Z"
-}
-]
-},
-{
-"team": "St. Thomas-Minnesota",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2900/st-thomas-minnesota-tommies",
-"id": "2900",
-"uid": "s:40~l:54~t:2900",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "7-5",
-"displayValue": "7-5"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2900.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-01-20T22:36Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2900.png",
 "width": 500,
 "height": 500,
 "alt": "",

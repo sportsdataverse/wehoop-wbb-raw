@@ -2531,6 +2531,17 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop"
+],
+"href": "http://www.espn.com/womens-college-basketball/video/_/gameId/401708179",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 9,
@@ -2670,7 +2681,108 @@
 }
 },
 "broadcasts": [],
-"videos": [],
+"videos": [
+{
+"id": 43272028,
+"cerebroId": "6777fbef1d41c95e6a745123",
+"source": "espn",
+"headline": "No. 2 South Carolina cruises past Missouri",
+"description": "MiLaysia Fulwiley leads the way for South Carolina with 17 points and two blocks in a 31-point win over Missouri.",
+"lastModified": "2025-01-03T15:03:00Z",
+"originalPublishDate": "2025-01-03T15:00:27Z",
+"duration": 65,
+"timeRestrictions": {
+"embargoDate": "2025-01-03T15:00:27Z",
+"expirationDate": "2025-04-30T14:00:27Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2025/0103/dm_250103_ncw_sc_hl/dm_250103_ncw_sc_hl.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=43272028",
+"self": {
+"href": "http://espn.com/video/clip?id=43272028",
+"dsi": {
+"href": "http://espn.com/video/clip?id=ee5e6f6e48ff8"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/43272028"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/85a5b82d-1ea4-4174-9812-7becfd3d92c0/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43272028",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0103/dm_250103_ncw_sc_hl/dm_250103_ncw_sc_hl.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=43272028"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/85a5b82d-1ea4-4174-9812-7becfd3d92c0/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43272028"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/85a5b82d-1ea4-4174-9812-7becfd3d92c0/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43272028"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/43272028"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/85a5b82d-1ea4-4174-9812-7becfd3d92c0"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0103/dm_250103_ncw_sc_hl/dm_250103_ncw_sc_hl_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2025/0103/dm_250103_ncw_sc_hl/dm_250103_ncw_sc_hl.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0103/dm_250103_ncw_sc_hl/dm_250103_ncw_sc_hl.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2025/0103/dm_250103_ncw_sc_hl/dm_250103_ncw_sc_hl_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0103/dm_250103_ncw_sc_hl/dm_250103_ncw_sc_hl/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0103/dm_250103_ncw_sc_hl/dm_250103_ncw_sc_hl/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0103/dm_250103_ncw_sc_hl/dm_250103_ncw_sc_hl_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0103/dm_250103_ncw_sc_hl/dm_250103_ncw_sc_hl_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=43272028&videoDSI=ee5e6f6e48ff8"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "COM_NCW Highlight (No. 2 South Carolina cruises past Missouri) 2025/01/03 ESHEET SC",
+"trackingId": "dm_250103_ncw_sc_hl"
+}
+}
+],
 "playByPlaySource": "none",
 "standings": {
 "fullViewLink": {

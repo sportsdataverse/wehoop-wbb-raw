@@ -138,12 +138,6 @@
 "displayValue": "17",
 "abbreviation": "PF",
 "label": "Fouls"
-},
-{
-"name": "largestLead",
-"displayValue": "11",
-"abbreviation": "LL",
-"label": "Largest Lead"
 }
 ],
 "displayOrder": 1,
@@ -286,12 +280,6 @@
 "displayValue": "13",
 "abbreviation": "PF",
 "label": "Fouls"
-},
-{
-"name": "largestLead",
-"displayValue": "7",
-"abbreviation": "LL",
-"label": "Largest Lead"
 }
 ],
 "displayOrder": 2,
@@ -406,7 +394,7 @@
 "abbreviation": "F"
 }
 },
-"starter": true,
+"starter": false,
 "didNotPlay": false,
 "ejected": false,
 "stats": [
@@ -423,202 +411,6 @@
 "4",
 "3",
 "4"
-]
-},
-{
-"active": false,
-"athlete": {
-"id": "4433773",
-"uid": "s:40~l:54~a:4433773",
-"guid": "ff23d3a7-aef2-39a5-914e-b891d3ab6f6a",
-"displayName": "Bella Smuda",
-"shortName": "B. Smuda",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433773/bella-smuda",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433773.png",
-"alt": "Bella Smuda"
-},
-"jersey": "31",
-"position": {
-"name": "Center",
-"displayName": "Center",
-"abbreviation": "C"
-}
-},
-"starter": true,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"33",
-"7-11",
-"0-0",
-"0-2",
-"1",
-"8",
-"9",
-"1",
-"0",
-"2",
-"0",
-"1",
-"14"
-]
-},
-{
-"active": false,
-"athlete": {
-"id": "5177067",
-"uid": "s:40~l:54~a:5177067",
-"guid": "22edc0af-4a17-3ea7-9577-f323845feb4a",
-"displayName": "Asia Boone",
-"shortName": "A. Boone",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5177067/asia-boone",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5177067.png",
-"alt": "Asia Boone"
-},
-"jersey": "12",
-"position": {
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G"
-}
-},
-"starter": true,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"26",
-"4-8",
-"2-3",
-"2-2",
-"3",
-"3",
-"6",
-"4",
-"1",
-"0",
-"1",
-"4",
-"12"
-]
-},
-{
-"active": false,
-"athlete": {
-"id": "4898940",
-"uid": "s:40~l:54~a:4898940",
-"guid": "fad3bae5-9645-366c-8b64-76ba6cf2f54d",
-"displayName": "Jordan Hodges",
-"shortName": "J. Hodges",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4898940/jordan-hodges",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4898940.png",
-"alt": "Jordan Hodges"
-},
-"jersey": "0",
-"position": {
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G"
-}
-},
-"starter": true,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"30",
-"4-9",
-"4-5",
-"0-0",
-"0",
-"1",
-"1",
-"5",
-"0",
-"0",
-"3",
-"4",
-"12"
-]
-},
-{
-"active": false,
-"athlete": {
-"id": "4898939",
-"uid": "s:40~l:54~a:4898939",
-"guid": "53f93b63-89f8-3274-8151-c5893f33d41b",
-"displayName": "Emma Hess",
-"shortName": "E. Hess",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4898939/emma-hess",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4898939.png",
-"alt": "Emma Hess"
-},
-"jersey": "23",
-"position": {
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G"
-}
-},
-"starter": true,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"31",
-"5-8",
-"3-6",
-"3-4",
-"0",
-"3",
-"3",
-"3",
-"0",
-"1",
-"3",
-"0",
-"16"
 ]
 },
 {
@@ -668,6 +460,55 @@
 "1",
 "1",
 "0"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4433773",
+"uid": "s:40~l:54~a:4433773",
+"guid": "ff23d3a7-aef2-39a5-914e-b891d3ab6f6a",
+"displayName": "Bella Smuda",
+"shortName": "B. Smuda",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433773/bella-smuda",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433773.png",
+"alt": "Bella Smuda"
+},
+"jersey": "31",
+"position": {
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"33",
+"7-11",
+"0-0",
+"0-2",
+"1",
+"8",
+"9",
+"1",
+"0",
+"2",
+"0",
+"1",
+"14"
 ]
 },
 {
@@ -766,6 +607,55 @@
 "1",
 "0",
 "5"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5177067",
+"uid": "s:40~l:54~a:5177067",
+"guid": "22edc0af-4a17-3ea7-9577-f323845feb4a",
+"displayName": "Asia Boone",
+"shortName": "A. Boone",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5177067/asia-boone",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5177067.png",
+"alt": "Asia Boone"
+},
+"jersey": "12",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"26",
+"4-8",
+"2-3",
+"2-2",
+"3",
+"3",
+"6",
+"4",
+"1",
+"0",
+"1",
+"4",
+"12"
 ]
 },
 {
@@ -913,6 +803,104 @@
 "1",
 "0",
 "6"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4898940",
+"uid": "s:40~l:54~a:4898940",
+"guid": "fad3bae5-9645-366c-8b64-76ba6cf2f54d",
+"displayName": "Jordan Hodges",
+"shortName": "J. Hodges",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4898940/jordan-hodges",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4898940.png",
+"alt": "Jordan Hodges"
+},
+"jersey": "0",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"30",
+"4-9",
+"4-5",
+"0-0",
+"0",
+"1",
+"1",
+"5",
+"0",
+"0",
+"3",
+"4",
+"12"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4898939",
+"uid": "s:40~l:54~a:4898939",
+"guid": "53f93b63-89f8-3274-8151-c5893f33d41b",
+"displayName": "Emma Hess",
+"shortName": "E. Hess",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4898939/emma-hess",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4898939.png",
+"alt": "Emma Hess"
+},
+"jersey": "23",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"31",
+"5-8",
+"3-6",
+"3-4",
+"0",
+"3",
+"3",
+"3",
+"0",
+"1",
+"3",
+"0",
+"16"
 ]
 },
 {
@@ -1190,251 +1178,6 @@
 {
 "active": false,
 "athlete": {
-"id": "5106154",
-"uid": "s:40~l:54~a:5106154",
-"guid": "88590f1e-f081-33c0-922b-8612ae160cb5",
-"displayName": "Zsofia Telegdy",
-"shortName": "Z. Telegdy",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5106154/zsofia-telegdy",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5106154.png",
-"alt": "Zsofia Telegdy"
-},
-"jersey": "23",
-"position": {
-"name": "Forward",
-"displayName": "Forward",
-"abbreviation": "F"
-}
-},
-"starter": true,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"30",
-"4-10",
-"3-6",
-"0-0",
-"1",
-"2",
-"3",
-"3",
-"1",
-"0",
-"1",
-"1",
-"11"
-]
-},
-{
-"active": false,
-"athlete": {
-"id": "5108356",
-"uid": "s:40~l:54~a:5108356",
-"guid": "d49f2039-f912-3d14-aa2a-fcd76bab9050",
-"displayName": "Acacia Hayes",
-"shortName": "A. Hayes",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5108356/acacia-hayes",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5108356.png",
-"alt": "Acacia Hayes"
-},
-"jersey": "10",
-"position": {
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G"
-}
-},
-"starter": true,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"34",
-"4-10",
-"1-3",
-"4-4",
-"0",
-"4",
-"4",
-"1",
-"0",
-"0",
-"2",
-"2",
-"13"
-]
-},
-{
-"active": false,
-"athlete": {
-"id": "5108355",
-"uid": "s:40~l:54~a:5108355",
-"guid": "d34ef6fb-d061-3e74-aaba-4ec754968345",
-"displayName": "Josie Gilvin",
-"shortName": "J. Gilvin",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5108355/josie-gilvin",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5108355.png",
-"alt": "Josie Gilvin"
-},
-"jersey": "33",
-"position": {
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G"
-}
-},
-"starter": true,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"33",
-"1-4",
-"1-2",
-"1-2",
-"2",
-"6",
-"8",
-"1",
-"2",
-"2",
-"2",
-"4",
-"4"
-]
-},
-{
-"active": false,
-"athlete": {
-"id": "4899598",
-"uid": "s:40~l:54~a:4899598",
-"guid": "a136cc69-f7af-34d1-a0d9-bed05fda1587",
-"displayName": "Alexis Mead",
-"shortName": "A. Mead",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4899598/alexis-mead",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4899598.png",
-"alt": "Alexis Mead"
-},
-"jersey": "3",
-"position": {
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G"
-}
-},
-"starter": true,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"32",
-"3-11",
-"2-7",
-"4-5",
-"2",
-"1",
-"3",
-"6",
-"5",
-"0",
-"0",
-"3",
-"12"
-]
-},
-{
-"active": false,
-"athlete": {
-"id": "4433770",
-"uid": "s:40~l:54~a:4433770",
-"guid": "4ff6fe2d-9a08-3666-8737-c743eb1a3869",
-"displayName": "Destiny Salary",
-"shortName": "D. Salary",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433770/destiny-salary",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433770.png",
-"alt": "Destiny Salary"
-},
-"jersey": "1",
-"position": {
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G"
-}
-},
-"starter": true,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"37",
-"7-13",
-"1-3",
-"4-5",
-"0",
-"1",
-"1",
-"3",
-"1",
-"1",
-"2",
-"1",
-"19"
-]
-},
-{
-"active": false,
-"athlete": {
 "id": "5177894",
 "uid": "s:40~l:54~a:5177894",
 "guid": "c5ea5b8b-081e-3a79-b00e-5d9eafe70c06",
@@ -1479,6 +1222,55 @@
 "0",
 "0",
 "0"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5106154",
+"uid": "s:40~l:54~a:5106154",
+"guid": "88590f1e-f081-33c0-922b-8612ae160cb5",
+"displayName": "Zsofia Telegdy",
+"shortName": "Z. Telegdy",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5106154/zsofia-telegdy",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5106154.png",
+"alt": "Zsofia Telegdy"
+},
+"jersey": "23",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"30",
+"4-10",
+"3-6",
+"0-0",
+"1",
+"2",
+"3",
+"3",
+"1",
+"0",
+"1",
+"1",
+"11"
 ]
 },
 {
@@ -1622,6 +1414,202 @@
 "0",
 "0",
 "0"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5108356",
+"uid": "s:40~l:54~a:5108356",
+"guid": "d49f2039-f912-3d14-aa2a-fcd76bab9050",
+"displayName": "Acacia Hayes",
+"shortName": "A. Hayes",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5108356/acacia-hayes",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5108356.png",
+"alt": "Acacia Hayes"
+},
+"jersey": "10",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"34",
+"4-10",
+"1-3",
+"4-4",
+"0",
+"4",
+"4",
+"1",
+"0",
+"0",
+"2",
+"2",
+"13"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5108355",
+"uid": "s:40~l:54~a:5108355",
+"guid": "d34ef6fb-d061-3e74-aaba-4ec754968345",
+"displayName": "Josie Gilvin",
+"shortName": "J. Gilvin",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5108355/josie-gilvin",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5108355.png",
+"alt": "Josie Gilvin"
+},
+"jersey": "33",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"33",
+"1-4",
+"1-2",
+"1-2",
+"2",
+"6",
+"8",
+"1",
+"2",
+"2",
+"2",
+"4",
+"4"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4899598",
+"uid": "s:40~l:54~a:4899598",
+"guid": "a136cc69-f7af-34d1-a0d9-bed05fda1587",
+"displayName": "Alexis Mead",
+"shortName": "A. Mead",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4899598/alexis-mead",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4899598.png",
+"alt": "Alexis Mead"
+},
+"jersey": "3",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"32",
+"3-11",
+"2-7",
+"4-5",
+"2",
+"1",
+"3",
+"6",
+"5",
+"0",
+"0",
+"3",
+"12"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4433770",
+"uid": "s:40~l:54~a:4433770",
+"guid": "4ff6fe2d-9a08-3666-8737-c743eb1a3869",
+"displayName": "Destiny Salary",
+"shortName": "D. Salary",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433770/destiny-salary",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433770.png",
+"alt": "Destiny Salary"
+},
+"jersey": "1",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"37",
+"7-13",
+"1-3",
+"4-5",
+"0",
+"1",
+"1",
+"3",
+"1",
+"1",
+"2",
+"1",
+"19"
 ]
 },
 {
@@ -1839,7 +1827,39 @@
 "grass": false,
 "images": []
 },
-"attendance": 788
+"attendance": 788,
+"officials": [
+{
+"fullName": "Carla Fountain",
+"displayName": "Carla Fountain",
+"position": {
+"name": "Referee",
+"displayName": "Referee",
+"id": "40"
+},
+"order": 1
+},
+{
+"fullName": "Kylie  Galloway",
+"displayName": "Kylie  Galloway",
+"position": {
+"name": "Referee",
+"displayName": "Referee",
+"id": "40"
+},
+"order": 2
+},
+{
+"fullName": "Jamie Broderick",
+"displayName": "Jamie Broderick",
+"position": {
+"name": "Referee",
+"displayName": "Referee",
+"id": "40"
+},
+"order": 3
+}
+]
 },
 "leaders": [
 {
@@ -2537,7 +2557,7 @@
 "onWatchESPN": true,
 "recent": false,
 "boxscoreSource": "full",
-"playByPlaySource": "none",
+"playByPlaySource": "full",
 "competitors": [
 {
 "id": "98",
@@ -2947,6 +2967,18 @@
 "href": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401700474",
 "text": "Box Score",
 "shortText": "Box Score",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"pbp",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401700474",
+"text": "Play-by-Play",
+"shortText": "Play-by-Play",
 "isExternal": false,
 "isPremium": false
 },

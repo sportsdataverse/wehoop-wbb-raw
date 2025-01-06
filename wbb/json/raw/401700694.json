@@ -137,12 +137,6 @@
 "displayValue": "9",
 "abbreviation": "PF",
 "label": "Fouls"
-},
-{
-"name": "largestLead",
-"displayValue": "0",
-"abbreviation": "LL",
-"label": "Largest Lead"
 }
 ],
 "displayOrder": 1,
@@ -285,12 +279,6 @@
 "displayValue": "10",
 "abbreviation": "PF",
 "label": "Fouls"
-},
-{
-"name": "largestLead",
-"displayValue": "47",
-"abbreviation": "LL",
-"label": "Largest Lead"
 }
 ],
 "displayOrder": 2,
@@ -2435,7 +2423,7 @@
 "onWatchESPN": true,
 "recent": false,
 "boxscoreSource": "full",
-"playByPlaySource": "none",
+"playByPlaySource": "full",
 "competitors": [
 {
 "id": "2617",
@@ -2844,6 +2832,18 @@
 "href": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401700694",
 "text": "Box Score",
 "shortText": "Box Score",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"pbp",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401700694",
+"text": "Play-by-Play",
+"shortText": "Play-by-Play",
 "isExternal": false,
 "isPremium": false
 },

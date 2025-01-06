@@ -137,12 +137,6 @@
 "displayValue": "18",
 "abbreviation": "PF",
 "label": "Fouls"
-},
-{
-"name": "largestLead",
-"displayValue": "8",
-"abbreviation": "LL",
-"label": "Largest Lead"
 }
 ],
 "displayOrder": 1,
@@ -285,12 +279,6 @@
 "displayValue": "15",
 "abbreviation": "PF",
 "label": "Fouls"
-},
-{
-"name": "largestLead",
-"displayValue": "18",
-"abbreviation": "LL",
-"label": "Largest Lead"
 }
 ],
 "displayOrder": 2,
@@ -2575,7 +2563,7 @@
 "onWatchESPN": true,
 "recent": false,
 "boxscoreSource": "full",
-"playByPlaySource": "none",
+"playByPlaySource": "full",
 "competitors": [
 {
 "id": "2466",
@@ -2989,6 +2977,18 @@
 },
 {
 "rel": [
+"pbp",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401700631",
+"text": "Play-by-Play",
+"shortText": "Play-by-Play",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
 "teamstats",
 "desktop",
 "event"
@@ -3125,7 +3125,7797 @@
 ]
 }
 },
-"plays": [],
+"plays": [
+{
+"id": "401700631101904501",
+"sequenceNumber": "101904501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Paris Guillory missed Three Point Jumper.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:54"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101904901",
+"sequenceNumber": "101904901",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Sharna Ayres Defensive Rebound.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:50"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101905601",
+"sequenceNumber": "101905601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Sharna Ayres made Three Point Jumper. Assisted by Nia Hardison.",
+"awayScore": 0,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:43"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+},
+{
+"athlete": {
+"id": "5178018"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101907201",
+"sequenceNumber": "101907201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Wilnie Joseph missed Jumper.",
+"awayScore": 0,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:27"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5108643"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101907501",
+"sequenceNumber": "101907501",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Vernell Atamah Defensive Rebound.",
+"awayScore": 0,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101909901",
+"sequenceNumber": "101909901",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Jasmin Dixon made Layup. Assisted by Sharna Ayres.",
+"awayScore": 0,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:00"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704126"
+}
+},
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101915101",
+"sequenceNumber": "101915101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Paris Guillory made Jumper.",
+"awayScore": 2,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:48"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T00:37:18Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101915102",
+"sequenceNumber": "101915102",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Nia Hardison.",
+"awayScore": 2,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5178018"
+}
+}
+],
+"wallclock": "2025-01-03T00:37:18Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101915103",
+"sequenceNumber": "101915103",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Paris Guillory made Free Throw.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:48"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T00:37:18Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101916801",
+"sequenceNumber": "101916801",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Paris Guillory.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101918101",
+"sequenceNumber": "101918101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Sharna Ayres missed Three Point Jumper.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:18"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101918401",
+"sequenceNumber": "101918401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Paris Guillory Defensive Rebound.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101919501",
+"sequenceNumber": "101919501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Paris Guillory missed Three Point Jumper.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:04"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101919801",
+"sequenceNumber": "101919801",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Vernell Atamah Defensive Rebound.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101924701",
+"sequenceNumber": "101924701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Vernell Atamah missed Three Point Jumper.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:52"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101925001",
+"sequenceNumber": "101925001",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Tyrielle Williams Defensive Rebound.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900380"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101925601",
+"sequenceNumber": "101925601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tyrielle Williams missed Three Point Jumper.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:43"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900380"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101925901",
+"sequenceNumber": "101925901",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Jasmin Dixon Defensive Rebound.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704126"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101927701",
+"sequenceNumber": "101927701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Vernell Atamah missed Layup.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:22"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101928201",
+"sequenceNumber": "101928201",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Wilnie Joseph Defensive Rebound.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:17"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5108643"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101928701",
+"sequenceNumber": "101928701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Kiayra Ellis missed Three Point Jumper.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:12"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899923"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101929001",
+"sequenceNumber": "101929001",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Carla Celaya Defensive Rebound.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107679"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101929601",
+"sequenceNumber": "101929601",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Kiayra Ellis.",
+"awayScore": 3,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899923"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101929801",
+"sequenceNumber": "101929801",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Sharna Ayres made Free Throw.",
+"awayScore": 3,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:01"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101929802",
+"sequenceNumber": "101929802",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Sharna Ayres missed Free Throw.",
+"awayScore": 3,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:01"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101929803",
+"sequenceNumber": "101929803",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Kiayra Ellis Defensive Rebound.",
+"awayScore": 3,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899923"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101936101",
+"sequenceNumber": "101936101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Azjah Reeves made Three Point Jumper. Assisted by Kiayra Ellis.",
+"awayScore": 6,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:38"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177970"
+}
+},
+{
+"athlete": {
+"id": "4899923"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101939001",
+"sequenceNumber": "101939001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Mya Blake missed Three Point Jumper.",
+"awayScore": 6,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:09"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101939701",
+"sequenceNumber": "101939701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Sharna Ayres missed Three Point Jumper.",
+"awayScore": 6,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:02"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101945101",
+"sequenceNumber": "101945101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Azjah Reeves missed Three Point Jumper.",
+"awayScore": 6,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:48"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177970"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101946901",
+"sequenceNumber": "101946901",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Vernell Atamah made Layup. Assisted by Jasmin Dixon.",
+"awayScore": 6,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:30"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+},
+{
+"athlete": {
+"id": "4704126"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101946902",
+"sequenceNumber": "101946902",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Mireia Yespes.",
+"awayScore": 6,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900427"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101946903",
+"sequenceNumber": "101946903",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Vernell Atamah made Free Throw.",
+"awayScore": 6,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:30"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101954701",
+"sequenceNumber": "101954701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Mya Blake made Layup.",
+"awayScore": 8,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:52"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101956701",
+"sequenceNumber": "101956701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Wilnie Joseph missed Jumper.",
+"awayScore": 8,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:32"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5108643"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101959201",
+"sequenceNumber": "101959201",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Tyrielle Williams Defensive Rebound.",
+"awayScore": 11,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900380"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101959601",
+"sequenceNumber": "101959601",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Azjah Reeves Turnover.",
+"awayScore": 11,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177970"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101959701",
+"sequenceNumber": "101959701",
+"type": {
+"id": "580",
+"text": "OfficialTVTimeOut"
+},
+"text": " Official TV Timeout",
+"awayScore": 11,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2025-01-03T00:43:48Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101966201",
+"sequenceNumber": "101966201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Payton Miller missed Three Point Jumper.",
+"awayScore": 11,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:37"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243318"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101966601",
+"sequenceNumber": "101966601",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Sydney McQuietor Defensive Rebound.",
+"awayScore": 11,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4596540"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101968201",
+"sequenceNumber": "101968201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Azjah Reeves missed Jumper.",
+"awayScore": 11,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:17"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177970"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101968501",
+"sequenceNumber": "101968501",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Northwestern State Defensive Rebound.",
+"awayScore": 11,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101969801",
+"sequenceNumber": "101969801",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Carla Celaya Turnover.",
+"awayScore": 11,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107679"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101969802",
+"sequenceNumber": "101969802",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Kiayra Ellis Steal.",
+"awayScore": 11,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899923"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101996601",
+"sequenceNumber": "101996601",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Clarence Djuela Defensive Rebound.",
+"awayScore": 14,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243319"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101997101",
+"sequenceNumber": "101997101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Jermesha Frierson made Jumper.",
+"awayScore": 14,
+"homeScore": 16,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:28"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5178014"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101999401",
+"sequenceNumber": "101999401",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Wilnie Joseph missed Jumper.",
+"awayScore": 14,
+"homeScore": 16,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:05"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5108643"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": true
+},
+{
+"id": "401700631101999801",
+"sequenceNumber": "101999801",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Sharna Ayres Defensive Rebound.",
+"awayScore": 14,
+"homeScore": 16,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631101999901",
+"sequenceNumber": "101999901",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of 1st Quarter",
+"awayScore": 14,
+"homeScore": 16,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2025-01-03T00:48:36Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102905101",
+"sequenceNumber": "102905101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Mya Blake made Three Point Jumper.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:48"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102907801",
+"sequenceNumber": "102907801",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Wilnie Joseph Turnover.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:21"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5108643"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102909401",
+"sequenceNumber": "102909401",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Nia Hardison Turnover.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5178018"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102914501",
+"sequenceNumber": "102914501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tyrielle Williams missed Three Point Jumper.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:54"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900380"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102914801",
+"sequenceNumber": "102914801",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Jasmin Dixon Defensive Rebound.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:51"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704126"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102915401",
+"sequenceNumber": "102915401",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Mya Blake missed Jumper.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:45"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102915701",
+"sequenceNumber": "102915701",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Mya Blake Offensive Rebound.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:42"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102915702",
+"sequenceNumber": "102915702",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Mya Blake Turnover.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:42"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102915703",
+"sequenceNumber": "102915703",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Mireia Yespes Steal.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:42"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900427"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102917001",
+"sequenceNumber": "102917001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Kiayra Ellis missed Jumper.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:29"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899923"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102917301",
+"sequenceNumber": "102917301",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Sharna Ayres Defensive Rebound.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:26"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102919001",
+"sequenceNumber": "102919001",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Nia Hardison missed Layup.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:09"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5178018"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102919501",
+"sequenceNumber": "102919501",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Wilnie Joseph Defensive Rebound.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:04"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5108643"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102924701",
+"sequenceNumber": "102924701",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Mya Blake Defensive Rebound.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102926001",
+"sequenceNumber": "102926001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Sharna Ayres missed Three Point Jumper.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:39"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102926401",
+"sequenceNumber": "102926401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Tyrielle Williams Defensive Rebound.",
+"awayScore": 14,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900380"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102936601",
+"sequenceNumber": "102936601",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Tyrielle Williams Defensive Rebound.",
+"awayScore": 16,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900380"
+}
+}
+],
+"wallclock": "2025-01-03T00:57:32Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102944001",
+"sequenceNumber": "102944001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Carla Celaya missed Three Point Jumper.",
+"awayScore": 18,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:59"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107679"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102944601",
+"sequenceNumber": "102944601",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Jasmin Dixon Offensive Rebound.",
+"awayScore": 18,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:53"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704126"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102944901",
+"sequenceNumber": "102944901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Sharna Ayres missed Three Point Jumper.",
+"awayScore": 18,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:50"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102945301",
+"sequenceNumber": "102945301",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Mireia Yespes Defensive Rebound.",
+"awayScore": 18,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900427"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102945302",
+"sequenceNumber": "102945302",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Vernell Atamah.",
+"awayScore": 18,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102946301",
+"sequenceNumber": "102946301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Kyla Davis missed Three Point Jumper.",
+"awayScore": 18,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:36"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4705280"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102946601",
+"sequenceNumber": "102946601",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Mya Blake Defensive Rebound.",
+"awayScore": 18,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102947401",
+"sequenceNumber": "102947401",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Kyla Davis.",
+"awayScore": 18,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:25"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4705280"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102947402",
+"sequenceNumber": "102947402",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Carla Celaya made Free Throw.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:25"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107679"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102947403",
+"sequenceNumber": "102947403",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Carla Celaya missed Free Throw.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:25"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107679"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102947404",
+"sequenceNumber": "102947404",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Sydney McQuietor Defensive Rebound.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:25"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4596540"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102948101",
+"sequenceNumber": "102948101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Paris Guillory missed Jumper.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:18"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102948501",
+"sequenceNumber": "102948501",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Payton Miller Defensive Rebound.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243318"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102949401",
+"sequenceNumber": "102949401",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Payton Miller Turnover.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243318"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102954001",
+"sequenceNumber": "102954001",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Mireia Yespes missed Layup.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:59"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900427"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102957201",
+"sequenceNumber": "102957201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Paris Guillory made Three Point Jumper. Assisted by Mireia Yespes.",
+"awayScore": 21,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:27"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+},
+{
+"athlete": {
+"id": "4900427"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102957801",
+"sequenceNumber": "102957801",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Northwestern State  Timeout",
+"awayScore": 21,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:21"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102957802",
+"sequenceNumber": "102957802",
+"type": {
+"id": "580",
+"text": "OfficialTVTimeOut"
+},
+"text": " Official TV Timeout",
+"awayScore": 21,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:21"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102959201",
+"sequenceNumber": "102959201",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Sharna Ayres Turnover.",
+"awayScore": 21,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102964001",
+"sequenceNumber": "102964001",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Sydney McQuietor missed Layup.",
+"awayScore": 21,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:59"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4596540"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102964002",
+"sequenceNumber": "102964002",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "Jasmin Dixon Block.",
+"awayScore": 21,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:59"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704126"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102964601",
+"sequenceNumber": "102964601",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "McNeese Offensive Rebound.",
+"awayScore": 21,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:53"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102965401",
+"sequenceNumber": "102965401",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Sydney McQuietor made Jumper.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:45"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4596540"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102966501",
+"sequenceNumber": "102966501",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Mya Blake missed Layup.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:34"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102968201",
+"sequenceNumber": "102968201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Paris Guillory missed Layup.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:17"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102968701",
+"sequenceNumber": "102968701",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Jasmin Dixon Defensive Rebound.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:12"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704126"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102969301",
+"sequenceNumber": "102969301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Payton Miller missed Three Point Jumper.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:06"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243318"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102969701",
+"sequenceNumber": "102969701",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Paris Guillory Defensive Rebound.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102974001",
+"sequenceNumber": "102974001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Kiayra Ellis missed Jumper.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:59"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899923"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102974301",
+"sequenceNumber": "102974301",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Jasmin Dixon Defensive Rebound.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704126"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102975401",
+"sequenceNumber": "102975401",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Mya Blake missed Jumper.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:45"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102975901",
+"sequenceNumber": "102975901",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "McNeese Defensive Rebound.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102977101",
+"sequenceNumber": "102977101",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Paris Guillory missed Layup.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:28"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102977401",
+"sequenceNumber": "102977401",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Paris Guillory Offensive Rebound.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:25"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102977701",
+"sequenceNumber": "102977701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Paris Guillory missed Layup.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:22"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102978201",
+"sequenceNumber": "102978201",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Paris Guillory Offensive Rebound.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:17"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102978301",
+"sequenceNumber": "102978301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Azjah Reeves missed Three Point Jumper.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:16"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177970"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102978801",
+"sequenceNumber": "102978801",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Paris Guillory Offensive Rebound.",
+"awayScore": 23,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102979001",
+"sequenceNumber": "102979001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Paris Guillory made Three Point Jumper. Assisted by Azjah Reeves.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:09"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+},
+{
+"athlete": {
+"id": "5177970"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102979901",
+"sequenceNumber": "102979901",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Sharna Ayres missed Layup.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:00"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102984101",
+"sequenceNumber": "102984101",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Northwestern State Offensive Rebound.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:58"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102984601",
+"sequenceNumber": "102984601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Sharna Ayres missed Three Point Jumper.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:53"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102985101",
+"sequenceNumber": "102985101",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "McNeese Defensive Rebound.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102987701",
+"sequenceNumber": "102987701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tyrielle Williams missed Jumper.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:22"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900380"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102988101",
+"sequenceNumber": "102988101",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Sharna Ayres Defensive Rebound.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:18"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102988701",
+"sequenceNumber": "102988701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Zhane Thompson missed Three Point Jumper.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:12"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5108336"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102989201",
+"sequenceNumber": "102989201",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Jermesha Frierson Offensive Rebound.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5178014"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102994201",
+"sequenceNumber": "102994201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Jermesha Frierson missed Three Point Jumper.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:57"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5178014"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102994601",
+"sequenceNumber": "102994601",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Mireia Yespes Defensive Rebound.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:53"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900427"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102996101",
+"sequenceNumber": "102996101",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Mireia Yespes Turnover.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:38"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900427"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102998501",
+"sequenceNumber": "102998501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Mya Blake missed Three Point Jumper.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:14"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102998801",
+"sequenceNumber": "102998801",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Paris Guillory Defensive Rebound.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102999801",
+"sequenceNumber": "102999801",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Paris Guillory missed Layup.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:01"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": true
+},
+{
+"id": "401700631102999901",
+"sequenceNumber": "102999901",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Mya Blake Defensive Rebound.",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631102999902",
+"sequenceNumber": "102999902",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of 2nd Quarter",
+"awayScore": 26,
+"homeScore": 20,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2025-01-03T01:09:41Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103905701",
+"sequenceNumber": "103905701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Kiayra Ellis made Jumper.",
+"awayScore": 28,
+"homeScore": 20,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:42"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899923"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103908101",
+"sequenceNumber": "103908101",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Mireia Yespes.",
+"awayScore": 28,
+"homeScore": 20,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:18"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900427"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103908102",
+"sequenceNumber": "103908102",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Vernell Atamah made Free Throw.",
+"awayScore": 28,
+"homeScore": 21,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:18"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103908103",
+"sequenceNumber": "103908103",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Vernell Atamah made Free Throw.",
+"awayScore": 28,
+"homeScore": 22,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:18"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103914001",
+"sequenceNumber": "103914001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tyrielle Williams missed Three Point Jumper.",
+"awayScore": 28,
+"homeScore": 22,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:59"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900380"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103914401",
+"sequenceNumber": "103914401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Sharna Ayres Defensive Rebound.",
+"awayScore": 28,
+"homeScore": 22,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:55"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103914402",
+"sequenceNumber": "103914402",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Mireia Yespes.",
+"awayScore": 28,
+"homeScore": 22,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:55"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900427"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103915901",
+"sequenceNumber": "103915901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Mya Blake missed Three Point Jumper.",
+"awayScore": 28,
+"homeScore": 22,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:40"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103916401",
+"sequenceNumber": "103916401",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Mya Blake Offensive Rebound.",
+"awayScore": 28,
+"homeScore": 22,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103916701",
+"sequenceNumber": "103916701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Sharna Ayres missed Three Point Jumper.",
+"awayScore": 28,
+"homeScore": 22,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:32"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103917101",
+"sequenceNumber": "103917101",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "McNeese Defensive Rebound.",
+"awayScore": 28,
+"homeScore": 22,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:28"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103919501",
+"sequenceNumber": "103919501",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Wilnie Joseph made Layup. Assisted by Paris Guillory.",
+"awayScore": 30,
+"homeScore": 22,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:04"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5108643"
+}
+},
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103925001",
+"sequenceNumber": "103925001",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Kiayra Ellis.",
+"awayScore": 30,
+"homeScore": 22,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899923"
+}
+}
+],
+"wallclock": "2025-01-03T01:29:29Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103925201",
+"sequenceNumber": "103925201",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Azjah Reeves.",
+"awayScore": 30,
+"homeScore": 22,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177970"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103925202",
+"sequenceNumber": "103925202",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Vernell Atamah made Free Throw.",
+"awayScore": 30,
+"homeScore": 23,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:47"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103925203",
+"sequenceNumber": "103925203",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Vernell Atamah missed Free Throw.",
+"awayScore": 30,
+"homeScore": 23,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:47"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103925204",
+"sequenceNumber": "103925204",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Carla Celaya Offensive Rebound.",
+"awayScore": 30,
+"homeScore": 23,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107679"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103926101",
+"sequenceNumber": "103926101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Sharna Ayres made Three Point Jumper. Assisted by Mya Blake.",
+"awayScore": 30,
+"homeScore": 26,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:38"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+},
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103929101",
+"sequenceNumber": "103929101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Azjah Reeves missed Jumper.",
+"awayScore": 30,
+"homeScore": 26,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:08"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177970"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103929301",
+"sequenceNumber": "103929301",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Northwestern State Defensive Rebound.",
+"awayScore": 30,
+"homeScore": 26,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:06"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"wallclock": "2025-01-03T01:32:18Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103929302",
+"sequenceNumber": "103929302",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Wilnie Joseph.",
+"awayScore": 30,
+"homeScore": 26,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:06"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5108643"
+}
+}
+],
+"wallclock": "2025-01-03T01:32:18Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103929303",
+"sequenceNumber": "103929303",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Sharna Ayres made Free Throw.",
+"awayScore": 30,
+"homeScore": 27,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:06"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:32:18Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103929304",
+"sequenceNumber": "103929304",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Sharna Ayres made Free Throw.",
+"awayScore": 30,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:06"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:32:18Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103934501",
+"sequenceNumber": "103934501",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Paris Guillory Turnover.",
+"awayScore": 30,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103934502",
+"sequenceNumber": "103934502",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Vernell Atamah Steal.",
+"awayScore": 30,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103936001",
+"sequenceNumber": "103936001",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Vernell Atamah.",
+"awayScore": 30,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:39"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103936002",
+"sequenceNumber": "103936002",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Vernell Atamah Turnover.",
+"awayScore": 30,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:39"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103937401",
+"sequenceNumber": "103937401",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Kyla Davis missed Three Point Jumper.",
+"awayScore": 30,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:25"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4705280"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103937801",
+"sequenceNumber": "103937801",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Sharna Ayres Defensive Rebound.",
+"awayScore": 30,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:21"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103938301",
+"sequenceNumber": "103938301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Sharna Ayres made Three Point Jumper. Assisted by Mya Blake.",
+"awayScore": 30,
+"homeScore": 31,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:16"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+},
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103938601",
+"sequenceNumber": "103938601",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "McNeese  Timeout",
+"awayScore": 30,
+"homeScore": 31,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:13"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103938602",
+"sequenceNumber": "103938602",
+"type": {
+"id": "580",
+"text": "OfficialTVTimeOut"
+},
+"text": " Official TV Timeout",
+"awayScore": 30,
+"homeScore": 31,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:13"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103944401",
+"sequenceNumber": "103944401",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Paris Guillory missed Three Point Jumper.",
+"awayScore": 30,
+"homeScore": 31,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:55"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103944701",
+"sequenceNumber": "103944701",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Sharna Ayres Defensive Rebound.",
+"awayScore": 30,
+"homeScore": 31,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103945301",
+"sequenceNumber": "103945301",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Vernell Atamah made Layup. Assisted by Mya Blake.",
+"awayScore": 30,
+"homeScore": 33,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:46"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+},
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103947301",
+"sequenceNumber": "103947301",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Nia Hardison Defensive Rebound.",
+"awayScore": 30,
+"homeScore": 33,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:26"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5178018"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103948001",
+"sequenceNumber": "103948001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Mya Blake made Three Point Jumper. Assisted by Carla Celaya.",
+"awayScore": 30,
+"homeScore": 36,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:19"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+},
+{
+"athlete": {
+"id": "5107679"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103948801",
+"sequenceNumber": "103948801",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "McNeese  Timeout",
+"awayScore": 30,
+"homeScore": 36,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103948802",
+"sequenceNumber": "103948802",
+"type": {
+"id": "580",
+"text": "OfficialTVTimeOut"
+},
+"text": " Official TV Timeout",
+"awayScore": 30,
+"homeScore": 36,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103954001",
+"sequenceNumber": "103954001",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Sharna Ayres.",
+"awayScore": 30,
+"homeScore": 36,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:59"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:47:24Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103954501",
+"sequenceNumber": "103954501",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Wilnie Joseph.",
+"awayScore": 30,
+"homeScore": 36,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5108643"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103954502",
+"sequenceNumber": "103954502",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Wilnie Joseph Turnover.",
+"awayScore": 30,
+"homeScore": 36,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5108643"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103955901",
+"sequenceNumber": "103955901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Vernell Atamah missed Jumper.",
+"awayScore": 30,
+"homeScore": 36,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:40"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103956301",
+"sequenceNumber": "103956301",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Tyrielle Williams Defensive Rebound.",
+"awayScore": 30,
+"homeScore": 36,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:36"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900380"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103956701",
+"sequenceNumber": "103956701",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Tyrielle Williams Turnover.",
+"awayScore": 30,
+"homeScore": 36,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:32"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900380"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103974501",
+"sequenceNumber": "103974501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Paris Guillory missed Three Point Jumper.",
+"awayScore": 33,
+"homeScore": 43,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:54"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103974901",
+"sequenceNumber": "103974901",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Sharna Ayres Defensive Rebound.",
+"awayScore": 33,
+"homeScore": 43,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:50"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103975501",
+"sequenceNumber": "103975501",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Vernell Atamah.",
+"awayScore": 33,
+"homeScore": 43,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103975502",
+"sequenceNumber": "103975502",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Vernell Atamah Turnover.",
+"awayScore": 33,
+"homeScore": 43,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103976601",
+"sequenceNumber": "103976601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Kiayra Ellis missed Jumper.",
+"awayScore": 33,
+"homeScore": 43,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:33"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899923"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103977001",
+"sequenceNumber": "103977001",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Mya Blake Defensive Rebound.",
+"awayScore": 33,
+"homeScore": 43,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103977601",
+"sequenceNumber": "103977601",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Jasmin Dixon made Layup. Assisted by Mya Blake.",
+"awayScore": 33,
+"homeScore": 45,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:23"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704126"
+}
+},
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103979401",
+"sequenceNumber": "103979401",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Sydney McQuietor made Layup.",
+"awayScore": 35,
+"homeScore": 45,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:05"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4596540"
+}
+}
+],
+"wallclock": "2025-01-03T01:53:56Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103979402",
+"sequenceNumber": "103979402",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Jasmin Dixon.",
+"awayScore": 35,
+"homeScore": 45,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704126"
+}
+}
+],
+"wallclock": "2025-01-03T01:53:56Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103979403",
+"sequenceNumber": "103979403",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Sydney McQuietor missed Free Throw.",
+"awayScore": 35,
+"homeScore": 45,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:05"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4596540"
+}
+}
+],
+"wallclock": "2025-01-03T01:53:56Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103979404",
+"sequenceNumber": "103979404",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Carla Celaya Defensive Rebound.",
+"awayScore": 35,
+"homeScore": 45,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107679"
+}
+}
+],
+"wallclock": "2025-01-03T01:53:56Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103985001",
+"sequenceNumber": "103985001",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Mya Blake Turnover.",
+"awayScore": 35,
+"homeScore": 45,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103987601",
+"sequenceNumber": "103987601",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Kiayra Ellis made Layup.",
+"awayScore": 37,
+"homeScore": 45,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:23"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899923"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103989301",
+"sequenceNumber": "103989301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Nia Hardison missed Three Point Jumper.",
+"awayScore": 37,
+"homeScore": 45,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:06"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5178018"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103999704",
+"sequenceNumber": "103999704",
+"type": {
+"id": "449",
+"text": "Dead Ball Rebound"
+},
+"text": "McNeese Deadball Team Rebound.",
+"awayScore": 40,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631103999705",
+"sequenceNumber": "103999705",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Paris Guillory made Free Throw.",
+"awayScore": 41,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:02"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": true
+},
+{
+"id": "401700631103999901",
+"sequenceNumber": "103999901",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of 3rd Quarter",
+"awayScore": 41,
+"homeScore": 48,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2025-01-03T01:55:35Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104905501",
+"sequenceNumber": "104905501",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Mya Blake made Layup.",
+"awayScore": 41,
+"homeScore": 50,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:44"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104908201",
+"sequenceNumber": "104908201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Wilnie Joseph missed Layup.",
+"awayScore": 41,
+"homeScore": 50,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:17"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5108643"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104908501",
+"sequenceNumber": "104908501",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Vernell Atamah Defensive Rebound.",
+"awayScore": 41,
+"homeScore": 50,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104914001",
+"sequenceNumber": "104914001",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Mya Blake missed Layup.",
+"awayScore": 41,
+"homeScore": 50,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:59"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104918201",
+"sequenceNumber": "104918201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Mya Blake made Jumper.",
+"awayScore": 41,
+"homeScore": 52,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:17"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104924001",
+"sequenceNumber": "104924001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Paris Guillory missed Three Point Jumper.",
+"awayScore": 41,
+"homeScore": 52,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:59"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104924301",
+"sequenceNumber": "104924301",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Wilnie Joseph Offensive Rebound.",
+"awayScore": 41,
+"homeScore": 52,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5108643"
+}
+}
+],
+"wallclock": "2025-01-03T02:03:12Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104924302",
+"sequenceNumber": "104924302",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Jasmin Dixon.",
+"awayScore": 41,
+"homeScore": 52,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704126"
+}
+}
+],
+"wallclock": "2025-01-03T02:03:12Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104924801",
+"sequenceNumber": "104924801",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Vernell Atamah.",
+"awayScore": 41,
+"homeScore": 52,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:51"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T02:05:52Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104924802",
+"sequenceNumber": "104924802",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Paris Guillory made Free Throw.",
+"awayScore": 42,
+"homeScore": 52,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:51"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T02:05:52Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104924803",
+"sequenceNumber": "104924803",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Paris Guillory made Free Throw.",
+"awayScore": 43,
+"homeScore": 52,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:51"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T02:05:52Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104925901",
+"sequenceNumber": "104925901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Nia Hardison missed Jumper.",
+"awayScore": 43,
+"homeScore": 52,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:40"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5178018"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104927503",
+"sequenceNumber": "104927503",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Mireia Yespes made Free Throw.",
+"awayScore": 45,
+"homeScore": 52,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:24"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900427"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104929001",
+"sequenceNumber": "104929001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Carla Celaya missed Jumper.",
+"awayScore": 45,
+"homeScore": 52,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:09"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107679"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104929401",
+"sequenceNumber": "104929401",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Nia Hardison Offensive Rebound.",
+"awayScore": 45,
+"homeScore": 52,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5178018"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104935501",
+"sequenceNumber": "104935501",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Wilnie Joseph missed Layup.",
+"awayScore": 45,
+"homeScore": 54,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:44"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5108643"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104937001",
+"sequenceNumber": "104937001",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Jasmin Dixon Turnover.",
+"awayScore": 45,
+"homeScore": 54,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4704126"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104937002",
+"sequenceNumber": "104937002",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Sydney McQuietor Steal.",
+"awayScore": 45,
+"homeScore": 54,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4596540"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104944301",
+"sequenceNumber": "104944301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Mya Blake missed Three Point Jumper.",
+"awayScore": 45,
+"homeScore": 54,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:56"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104944701",
+"sequenceNumber": "104944701",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Mireia Yespes Defensive Rebound.",
+"awayScore": 45,
+"homeScore": 54,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900427"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104945001",
+"sequenceNumber": "104945001",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Mireia Yespes Turnover.",
+"awayScore": 45,
+"homeScore": 54,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900427"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104945002",
+"sequenceNumber": "104945002",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Mya Blake Steal.",
+"awayScore": 45,
+"homeScore": 54,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104945701",
+"sequenceNumber": "104945701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Mya Blake made Layup.",
+"awayScore": 45,
+"homeScore": 56,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:42"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104946701",
+"sequenceNumber": "104946701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Kyla Davis missed Jumper.",
+"awayScore": 45,
+"homeScore": 56,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:32"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4705280"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104947001",
+"sequenceNumber": "104947001",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Nia Hardison Defensive Rebound.",
+"awayScore": 45,
+"homeScore": 56,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5178018"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104948701",
+"sequenceNumber": "104948701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Clarence Djuela made Jumper. Assisted by Sharna Ayres.",
+"awayScore": 45,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:12"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243319"
+}
+},
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104954901",
+"sequenceNumber": "104954901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Kyla Davis missed Jumper.",
+"awayScore": 45,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:50"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4705280"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104955201",
+"sequenceNumber": "104955201",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Mya Blake Defensive Rebound.",
+"awayScore": 45,
+"homeScore": 58,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104955701",
+"sequenceNumber": "104955701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Carla Celaya made Layup. Assisted by Nia Hardison.",
+"awayScore": 45,
+"homeScore": 60,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:42"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107679"
+}
+},
+{
+"athlete": {
+"id": "5178018"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104956001",
+"sequenceNumber": "104956001",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "McNeese  Timeout",
+"awayScore": 45,
+"homeScore": 60,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:39"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"wallclock": "2025-01-03T02:10:06Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104956002",
+"sequenceNumber": "104956002",
+"type": {
+"id": "580",
+"text": "OfficialTVTimeOut"
+},
+"text": " Official TV Timeout",
+"awayScore": 45,
+"homeScore": 60,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:39"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2025-01-03T02:10:06Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104957601",
+"sequenceNumber": "104957601",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Tyrielle Williams Turnover.",
+"awayScore": 45,
+"homeScore": 60,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900380"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104958601",
+"sequenceNumber": "104958601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Carla Celaya made Three Point Jumper. Assisted by Nia Hardison.",
+"awayScore": 45,
+"homeScore": 63,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:13"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107679"
+}
+},
+{
+"athlete": {
+"id": "5178018"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104965001",
+"sequenceNumber": "104965001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Paris Guillory made Three Point Jumper. Assisted by Tyrielle Williams.",
+"awayScore": 48,
+"homeScore": 63,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:49"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+},
+{
+"athlete": {
+"id": "4900380"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104968301",
+"sequenceNumber": "104968301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Clarence Djuela missed Jumper.",
+"awayScore": 48,
+"homeScore": 63,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:16"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243319"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104968901",
+"sequenceNumber": "104968901",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Azjah Reeves Defensive Rebound.",
+"awayScore": 48,
+"homeScore": 63,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:10"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177970"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104969201",
+"sequenceNumber": "104969201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Azjah Reeves missed Layup.",
+"awayScore": 48,
+"homeScore": 63,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:07"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177970"
+}
+}
+],
+"wallclock": "2025-01-03T02:18:28Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104969202",
+"sequenceNumber": "104969202",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "Nia Hardison Block.",
+"awayScore": 48,
+"homeScore": 63,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5178018"
+}
+}
+],
+"wallclock": "2025-01-03T02:18:28Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104969401",
+"sequenceNumber": "104969401",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Mireia Yespes Offensive Rebound.",
+"awayScore": 48,
+"homeScore": 63,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4900427"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104969402",
+"sequenceNumber": "104969402",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Nia Hardison.",
+"awayScore": 48,
+"homeScore": 63,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5178018"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104969403",
+"sequenceNumber": "104969403",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Boston Berry missed Free Throw.",
+"awayScore": 48,
+"homeScore": 63,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:05"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177973"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104969404",
+"sequenceNumber": "104969404",
+"type": {
+"id": "449",
+"text": "Dead Ball Rebound"
+},
+"text": "McNeese Deadball Team Rebound.",
+"awayScore": 48,
+"homeScore": 63,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104969405",
+"sequenceNumber": "104969405",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Boston Berry made Free Throw.",
+"awayScore": 49,
+"homeScore": 63,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:05"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177973"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104974301",
+"sequenceNumber": "104974301",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Carla Celaya Turnover.",
+"awayScore": 49,
+"homeScore": 63,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107679"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104978802",
+"sequenceNumber": "104978802",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Northwestern State  Timeout",
+"awayScore": 51,
+"homeScore": 63,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"wallclock": "2025-01-03T02:18:28Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104979001",
+"sequenceNumber": "104979001",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Kiayra Ellis.",
+"awayScore": 51,
+"homeScore": 63,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "4899923"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104979002",
+"sequenceNumber": "104979002",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Vernell Atamah made Free Throw.",
+"awayScore": 51,
+"homeScore": 64,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:09"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104979003",
+"sequenceNumber": "104979003",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Vernell Atamah missed Free Throw.",
+"awayScore": 51,
+"homeScore": 64,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:09"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104979004",
+"sequenceNumber": "104979004",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Azjah Reeves Defensive Rebound.",
+"awayScore": 51,
+"homeScore": 64,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177970"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104979005",
+"sequenceNumber": "104979005",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Vernell Atamah.",
+"awayScore": 51,
+"homeScore": 64,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5243322"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104979006",
+"sequenceNumber": "104979006",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Azjah Reeves missed Free Throw.",
+"awayScore": 51,
+"homeScore": 64,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:09"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177970"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104979007",
+"sequenceNumber": "104979007",
+"type": {
+"id": "449",
+"text": "Dead Ball Rebound"
+},
+"text": "McNeese Deadball Team Rebound.",
+"awayScore": 51,
+"homeScore": 64,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2377"
+},
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104979008",
+"sequenceNumber": "104979008",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Azjah Reeves made Free Throw.",
+"awayScore": 52,
+"homeScore": 64,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:09"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177970"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104985701",
+"sequenceNumber": "104985701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Nia Hardison made Layup.",
+"awayScore": 52,
+"homeScore": 66,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:42"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5178018"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104987801",
+"sequenceNumber": "104987801",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Paris Guillory missed Jumper.",
+"awayScore": 52,
+"homeScore": 66,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:21"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104988501",
+"sequenceNumber": "104988501",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Carla Celaya.",
+"awayScore": 54,
+"homeScore": 66,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107679"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104988502",
+"sequenceNumber": "104988502",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Paris Guillory made Free Throw.",
+"awayScore": 55,
+"homeScore": 66,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:14"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2377"
+},
+"participants": [
+{
+"athlete": {
+"id": "5177805"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104994401",
+"sequenceNumber": "104994401",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Mya Blake missed Layup.",
+"awayScore": 55,
+"homeScore": 66,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:55"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104996502",
+"sequenceNumber": "104996502",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Sharna Ayres made Free Throw.",
+"awayScore": 55,
+"homeScore": 67,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:34"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104996503",
+"sequenceNumber": "104996503",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Sharna Ayres made Free Throw.",
+"awayScore": 55,
+"homeScore": 68,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:34"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595167"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104998401",
+"sequenceNumber": "104998401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Carla Celaya Defensive Rebound.",
+"awayScore": 55,
+"homeScore": 68,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107679"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+},
+{
+"id": "401700631104999202",
+"sequenceNumber": "104999202",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Mya Blake made Free Throw.",
+"awayScore": 55,
+"homeScore": 69,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:07"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104999203",
+"sequenceNumber": "104999203",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Mya Blake made Free Throw.",
+"awayScore": 55,
+"homeScore": 70,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:07"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2466"
+},
+"participants": [
+{
+"athlete": {
+"id": "5182299"
+}
+}
+],
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": true
+},
+{
+"id": "401700631104999901",
+"sequenceNumber": "104999901",
+"type": {
+"id": "402",
+"text": "End Game"
+},
+"text": "End of Game",
+"awayScore": 55,
+"homeScore": 70,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2025-01-03T02:24:39Z",
+"shootingPlay": false
+}
+],
 "article": [],
 "videos": [],
 "standings": {

@@ -141,7 +141,7 @@
 },
 {
 "name": "largestLead",
-"displayValue": "34",
+"displayValue": "4",
 "abbreviation": "LL",
 "label": "Largest Lead"
 }
@@ -2553,7 +2553,7 @@
 "onWatchESPN": true,
 "recent": false,
 "boxscoreSource": "full",
-"playByPlaySource": "none",
+"playByPlaySource": "full",
 "competitors": [
 {
 "id": "142",
@@ -2969,6 +2969,18 @@
 },
 {
 "rel": [
+"pbp",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401708179",
+"text": "Play-by-Play",
+"shortText": "Play-by-Play",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
 "teamstats",
 "desktop",
 "event"
@@ -2982,9 +2994,10 @@
 {
 "rel": [
 "videos",
-"desktop"
+"desktop",
+"event"
 ],
-"href": "http://www.espn.com/womens-college-basketball/video/_/gameId/401708179",
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401708179",
 "text": "Videos",
 "shortText": "Videos",
 "isExternal": false,
@@ -3116,7 +3129,10057 @@
 ]
 }
 },
-"plays": [],
+"plays": [
+{
+"id": "401708179101906201",
+"sequenceNumber": "101906201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Chloe Kitts missed Jumper.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:37"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5121055"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101906501",
+"sequenceNumber": "101906501",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ashton Judd Defensive Rebound.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:34"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T00:02:55Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101908101",
+"sequenceNumber": "101908101",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Angelique Ngalakulondi missed Layup.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:18"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594788"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101908301",
+"sequenceNumber": "101908301",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Sania Feagin Defensive Rebound.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433795"
+}
+}
+],
+"wallclock": "2025-01-03T00:03:13Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101908901",
+"sequenceNumber": "101908901",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Te-Hina Paopao missed Layup.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:10"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101909101",
+"sequenceNumber": "101909101",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Te-Hina Paopao Offensive Rebound.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101914101",
+"sequenceNumber": "101914101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Te-Hina Paopao made Three Point Jumper.",
+"awayScore": 3,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:58"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101915901",
+"sequenceNumber": "101915901",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Grace Slaughter missed Layup.",
+"awayScore": 3,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:40"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101916401",
+"sequenceNumber": "101916401",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Angelique Ngalakulondi Offensive Rebound.",
+"awayScore": 3,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594788"
+}
+}
+],
+"wallclock": "2025-01-03T00:03:55Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101916402",
+"sequenceNumber": "101916402",
+"type": {
+"id": "437",
+"text": "TipShot"
+},
+"text": "Angelique Ngalakulondi missed Two Point Tip Shot.",
+"awayScore": 3,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:35"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594788"
+}
+}
+],
+"wallclock": "2025-01-03T00:03:55Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101916501",
+"sequenceNumber": "101916501",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Bree Hall Defensive Rebound.",
+"awayScore": 3,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:34"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T00:03:57Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101916901",
+"sequenceNumber": "101916901",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Te-Hina Paopao.",
+"awayScore": 3,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+}
+],
+"wallclock": "2025-01-03T00:04:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101916902",
+"sequenceNumber": "101916902",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Te-Hina Paopao Turnover.",
+"awayScore": 3,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+}
+],
+"wallclock": "2025-01-03T00:04:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101918501",
+"sequenceNumber": "101918501",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Ashton Judd made Layup.",
+"awayScore": 3,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:14"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101919801",
+"sequenceNumber": "101919801",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Ashton Judd.",
+"awayScore": 3,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T00:05:03Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101924601",
+"sequenceNumber": "101924601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Raven Johnson made Three Point Jumper. Assisted by Chloe Kitts.",
+"awayScore": 6,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:53"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433797"
+}
+},
+{
+"athlete": {
+"id": "5121055"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101927301",
+"sequenceNumber": "101927301",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Te-Hina Paopao.",
+"awayScore": 6,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:26"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+}
+],
+"wallclock": "2025-01-03T00:05:56Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101927302",
+"sequenceNumber": "101927302",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Angelique Ngalakulondi made Free Throw.",
+"awayScore": 6,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:26"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594788"
+}
+}
+],
+"wallclock": "2025-01-03T00:05:56Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101927501",
+"sequenceNumber": "101927501",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Angelique Ngalakulondi missed Free Throw.",
+"awayScore": 6,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:24"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594788"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101927701",
+"sequenceNumber": "101927701",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Laniah Randle Offensive Rebound.",
+"awayScore": 6,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T00:06:19Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101927702",
+"sequenceNumber": "101927702",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Laniah Randle missed Layup.",
+"awayScore": 6,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:22"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T00:06:19Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101927703",
+"sequenceNumber": "101927703",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "South Carolina Defensive Rebound.",
+"awayScore": 6,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"wallclock": "2025-01-03T00:06:19Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101927704",
+"sequenceNumber": "101927704",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Angelique Ngalakulondi.",
+"awayScore": 6,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594788"
+}
+}
+],
+"wallclock": "2025-01-03T00:06:19Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101927705",
+"sequenceNumber": "101927705",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Angelique Ngalakulondi.",
+"awayScore": 6,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594788"
+}
+}
+],
+"wallclock": "2025-01-03T00:06:19Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101928001",
+"sequenceNumber": "101928001",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Bree Hall Turnover.",
+"awayScore": 6,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101928002",
+"sequenceNumber": "101928002",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Averi Kroenke Steal.",
+"awayScore": 6,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4858657"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101928901",
+"sequenceNumber": "101928901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Ashton Judd made Three Point Jumper. Assisted by Averi Kroenke.",
+"awayScore": 6,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:10"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+},
+{
+"athlete": {
+"id": "4858657"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101935301",
+"sequenceNumber": "101935301",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Angelique Ngalakulondi.",
+"awayScore": 6,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594788"
+}
+}
+],
+"wallclock": "2025-01-03T00:07:40Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101936401",
+"sequenceNumber": "101936401",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Grace Slaughter.",
+"awayScore": 6,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T00:07:55Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101938201",
+"sequenceNumber": "101938201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tessa Johnson missed Three Point Jumper.",
+"awayScore": 6,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:17"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101938301",
+"sequenceNumber": "101938301",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Bree Hall Offensive Rebound.",
+"awayScore": 6,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T00:08:40Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101938302",
+"sequenceNumber": "101938302",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Bree Hall Turnover.",
+"awayScore": 6,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T00:08:40Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101938303",
+"sequenceNumber": "101938303",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Laniah Randle Steal.",
+"awayScore": 6,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T00:08:40Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101944301",
+"sequenceNumber": "101944301",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Grace Slaughter made Layup.",
+"awayScore": 6,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:56"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101946801",
+"sequenceNumber": "101946801",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Raven Johnson made Jumper.",
+"awayScore": 8,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:31"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433797"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101949401",
+"sequenceNumber": "101949401",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Ashton Judd Turnover.",
+"awayScore": 8,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101949402",
+"sequenceNumber": "101949402",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Tessa Johnson Steal.",
+"awayScore": 8,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101955801",
+"sequenceNumber": "101955801",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Hannah Linthacum.",
+"awayScore": 8,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174278"
+}
+}
+],
+"wallclock": "2025-01-03T00:10:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101955802",
+"sequenceNumber": "101955802",
+"type": {
+"id": "580",
+"text": "OfficialTVTimeOut"
+},
+"text": " Official TV Timeout",
+"awayScore": 8,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"wallclock": "2025-01-03T00:10:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101955803",
+"sequenceNumber": "101955803",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tessa Johnson made Free Throw.",
+"awayScore": 9,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:41"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+}
+],
+"wallclock": "2025-01-03T00:10:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101955804",
+"sequenceNumber": "101955804",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tessa Johnson made Free Throw.",
+"awayScore": 10,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:41"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+}
+],
+"wallclock": "2025-01-03T00:10:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101958101",
+"sequenceNumber": "101958101",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Ashton Judd Turnover.",
+"awayScore": 10,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:18"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101959401",
+"sequenceNumber": "101959401",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Raven Johnson Turnover.",
+"awayScore": 10,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433797"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101959402",
+"sequenceNumber": "101959402",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Laniah Randle Steal.",
+"awayScore": 10,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101964601",
+"sequenceNumber": "101964601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Grace Slaughter missed Three Point Jumper.",
+"awayScore": 10,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:53"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101964801",
+"sequenceNumber": "101964801",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ashlyn Watkins Defensive Rebound.",
+"awayScore": 10,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:51"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101965301",
+"sequenceNumber": "101965301",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "MiLaysia Fulwiley missed Layup.",
+"awayScore": 10,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:46"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101965601",
+"sequenceNumber": "101965601",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Chloe Kitts Offensive Rebound.",
+"awayScore": 10,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:43"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5121055"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101965602",
+"sequenceNumber": "101965602",
+"type": {
+"id": "437",
+"text": "TipShot"
+},
+"text": "Chloe Kitts made Two Point Tip Shot.",
+"awayScore": 12,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:43"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5121055"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101966801",
+"sequenceNumber": "101966801",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Nyah Wilson Turnover.",
+"awayScore": 12,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433549"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101966802",
+"sequenceNumber": "101966802",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "MiLaysia Fulwiley Steal.",
+"awayScore": 12,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101967201",
+"sequenceNumber": "101967201",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Nyah Wilson.",
+"awayScore": 12,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:27"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433549"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101967202",
+"sequenceNumber": "101967202",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "MiLaysia Fulwiley missed Free Throw.",
+"awayScore": 12,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:27"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101967203",
+"sequenceNumber": "101967203",
+"type": {
+"id": "449",
+"text": "Dead Ball Rebound"
+},
+"text": "South Carolina Deadball Team Rebound.",
+"awayScore": 12,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:27"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101967204",
+"sequenceNumber": "101967204",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "MiLaysia Fulwiley made Free Throw.",
+"awayScore": 13,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:27"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101968301",
+"sequenceNumber": "101968301",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Nyah Wilson Turnover.",
+"awayScore": 13,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433549"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101968302",
+"sequenceNumber": "101968302",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Joyce Edwards Steal.",
+"awayScore": 13,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101969001",
+"sequenceNumber": "101969001",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Hannah Linthacum.",
+"awayScore": 13,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174278"
+}
+}
+],
+"wallclock": "2025-01-03T00:17:35Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101969002",
+"sequenceNumber": "101969002",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Ashlyn Watkins made Free Throw.",
+"awayScore": 14,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:09"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:17:35Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101969003",
+"sequenceNumber": "101969003",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Ashlyn Watkins made Free Throw.",
+"awayScore": 15,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:09"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:17:35Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101974201",
+"sequenceNumber": "101974201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Averi Kroenke missed Layup.",
+"awayScore": 15,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:57"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4858657"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101974501",
+"sequenceNumber": "101974501",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ashlyn Watkins Defensive Rebound.",
+"awayScore": 15,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101975101",
+"sequenceNumber": "101975101",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Ashlyn Watkins made Layup.",
+"awayScore": 17,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:48"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101975102",
+"sequenceNumber": "101975102",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Missouri  Timeout",
+"awayScore": 17,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101976901",
+"sequenceNumber": "101976901",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Joyce Edwards.",
+"awayScore": 17,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101976902",
+"sequenceNumber": "101976902",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Laniah Randle made Free Throw.",
+"awayScore": 17,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:30"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101976903",
+"sequenceNumber": "101976903",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Laniah Randle made Free Throw.",
+"awayScore": 17,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:30"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101978401",
+"sequenceNumber": "101978401",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tionna Herron.",
+"awayScore": 17,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4684184"
+}
+}
+],
+"wallclock": "2025-01-03T00:20:49Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101978402",
+"sequenceNumber": "101978402",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Ashlyn Watkins made Free Throw.",
+"awayScore": 18,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:15"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:20:49Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101978403",
+"sequenceNumber": "101978403",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Ashlyn Watkins made Free Throw.",
+"awayScore": 19,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:15"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:20:49Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101985001",
+"sequenceNumber": "101985001",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Grace Slaughter missed Layup.",
+"awayScore": 19,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:49"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101985301",
+"sequenceNumber": "101985301",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Tionna Herron Offensive Rebound.",
+"awayScore": 19,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4684184"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101985302",
+"sequenceNumber": "101985302",
+"type": {
+"id": "437",
+"text": "TipShot"
+},
+"text": "Tionna Herron missed Two Point Tip Shot.",
+"awayScore": 19,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:46"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4684184"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101985303",
+"sequenceNumber": "101985303",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "Joyce Edwards Block.",
+"awayScore": 19,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101985701",
+"sequenceNumber": "101985701",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ashlyn Watkins Defensive Rebound.",
+"awayScore": 19,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:42"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101987001",
+"sequenceNumber": "101987001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "MiLaysia Fulwiley made Jumper.",
+"awayScore": 21,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:29"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101988701",
+"sequenceNumber": "101988701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Laniah Randle made Layup.",
+"awayScore": 21,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:12"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101989801",
+"sequenceNumber": "101989801",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Ashlyn Watkins missed Jumper.",
+"awayScore": 21,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:01"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101994101",
+"sequenceNumber": "101994101",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Abbey Schreacke Defensive Rebound.",
+"awayScore": 21,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:58"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174277"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101995601",
+"sequenceNumber": "101995601",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Laniah Randle missed Layup.",
+"awayScore": 21,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:43"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101995901",
+"sequenceNumber": "101995901",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Tessa Johnson Defensive Rebound.",
+"awayScore": 21,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101996401",
+"sequenceNumber": "101996401",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Ashlyn Watkins missed Layup.",
+"awayScore": 21,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:35"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101996801",
+"sequenceNumber": "101996801",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Averi Kroenke Defensive Rebound.",
+"awayScore": 21,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4858657"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101997501",
+"sequenceNumber": "101997501",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tessa Johnson.",
+"awayScore": 21,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101997502",
+"sequenceNumber": "101997502",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Averi Kroenke missed Free Throw.",
+"awayScore": 21,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:24"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4858657"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101997503",
+"sequenceNumber": "101997503",
+"type": {
+"id": "449",
+"text": "Dead Ball Rebound"
+},
+"text": "Missouri Deadball Team Rebound.",
+"awayScore": 21,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101997504",
+"sequenceNumber": "101997504",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Averi Kroenke made Free Throw.",
+"awayScore": 21,
+"homeScore": 13,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:24"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4858657"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101998701",
+"sequenceNumber": "101998701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Joyce Edwards missed Layup.",
+"awayScore": 21,
+"homeScore": 13,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:12"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": true
+},
+{
+"id": "401708179101999101",
+"sequenceNumber": "101999101",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ashton Judd Defensive Rebound.",
+"awayScore": 21,
+"homeScore": 13,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179101999901",
+"sequenceNumber": "101999901",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of 1st Quarter",
+"awayScore": 21,
+"homeScore": 13,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2025-01-03T00:25:06Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102906301",
+"sequenceNumber": "102906301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "De'Myla Brown missed Jumper.",
+"awayScore": 21,
+"homeScore": 13,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:36"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595263"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102906501",
+"sequenceNumber": "102906501",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ashlyn Watkins Defensive Rebound.",
+"awayScore": 21,
+"homeScore": 13,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:34"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102907101",
+"sequenceNumber": "102907101",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Laniah Randle.",
+"awayScore": 21,
+"homeScore": 13,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:28"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T00:29:04Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102907102",
+"sequenceNumber": "102907102",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tessa Johnson made Free Throw.",
+"awayScore": 22,
+"homeScore": 13,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:28"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+}
+],
+"wallclock": "2025-01-03T00:29:04Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102907103",
+"sequenceNumber": "102907103",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tessa Johnson made Free Throw.",
+"awayScore": 23,
+"homeScore": 13,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:28"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+}
+],
+"wallclock": "2025-01-03T00:29:04Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102908901",
+"sequenceNumber": "102908901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Averi Kroenke missed Jumper.",
+"awayScore": 23,
+"homeScore": 13,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:10"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4858657"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102909101",
+"sequenceNumber": "102909101",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Chloe Kitts Defensive Rebound.",
+"awayScore": 23,
+"homeScore": 13,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5121055"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102915601",
+"sequenceNumber": "102915601",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Tessa Johnson Turnover.",
+"awayScore": 23,
+"homeScore": 13,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:43"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102917501",
+"sequenceNumber": "102917501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Grace Slaughter missed Three Point Jumper.",
+"awayScore": 23,
+"homeScore": 13,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:24"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102917701",
+"sequenceNumber": "102917701",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Bree Hall Defensive Rebound.",
+"awayScore": 23,
+"homeScore": 13,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102917702",
+"sequenceNumber": "102917702",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Laniah Randle.",
+"awayScore": 23,
+"homeScore": 13,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102919601",
+"sequenceNumber": "102919601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Te-Hina Paopao missed Three Point Jumper.",
+"awayScore": 23,
+"homeScore": 13,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:03"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+}
+],
+"wallclock": "2025-01-03T00:31:46Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102919602",
+"sequenceNumber": "102919602",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Missouri Defensive Rebound.",
+"awayScore": 23,
+"homeScore": 13,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"wallclock": "2025-01-03T00:31:46Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102919603",
+"sequenceNumber": "102919603",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Sania Feagin.",
+"awayScore": 23,
+"homeScore": 13,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "8:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433795"
+}
+}
+],
+"wallclock": "2025-01-03T00:31:46Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102925801",
+"sequenceNumber": "102925801",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Laniah Randle made Layup.",
+"awayScore": 23,
+"homeScore": 15,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:41"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102926801",
+"sequenceNumber": "102926801",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Bree Hall missed Jumper.",
+"awayScore": 23,
+"homeScore": 15,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:31"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102926802",
+"sequenceNumber": "102926802",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Missouri Defensive Rebound.",
+"awayScore": 23,
+"homeScore": 15,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102928801",
+"sequenceNumber": "102928801",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Grace Slaughter missed Layup.",
+"awayScore": 23,
+"homeScore": 15,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:11"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102929001",
+"sequenceNumber": "102929001",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Bree Hall Defensive Rebound.",
+"awayScore": 23,
+"homeScore": 15,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102929101",
+"sequenceNumber": "102929101",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Bree Hall made Layup.",
+"awayScore": 25,
+"homeScore": 15,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:08"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T00:35:07Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102929102",
+"sequenceNumber": "102929102",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Averi Kroenke.",
+"awayScore": 25,
+"homeScore": 15,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4858657"
+}
+}
+],
+"wallclock": "2025-01-03T00:35:07Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102929103",
+"sequenceNumber": "102929103",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Bree Hall missed Free Throw.",
+"awayScore": 25,
+"homeScore": 15,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:08"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T00:35:07Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102929301",
+"sequenceNumber": "102929301",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Sania Feagin Offensive Rebound.",
+"awayScore": 25,
+"homeScore": 15,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:06"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433795"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102929801",
+"sequenceNumber": "102929801",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Te-Hina Paopao missed Three Point Jumper.",
+"awayScore": 25,
+"homeScore": 15,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:01"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102929802",
+"sequenceNumber": "102929802",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ashton Judd Defensive Rebound.",
+"awayScore": 25,
+"homeScore": 15,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102929803",
+"sequenceNumber": "102929803",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Chloe Kitts.",
+"awayScore": 25,
+"homeScore": 15,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5121055"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102935201",
+"sequenceNumber": "102935201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Grace Slaughter made Layup. Assisted by Ashton Judd.",
+"awayScore": 25,
+"homeScore": 17,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:47"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+},
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102938001",
+"sequenceNumber": "102938001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Chloe Kitts missed Jumper.",
+"awayScore": 25,
+"homeScore": 17,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:19"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5121055"
+}
+}
+],
+"wallclock": "2025-01-03T00:35:07Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102938002",
+"sequenceNumber": "102938002",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Grace Slaughter Defensive Rebound.",
+"awayScore": 25,
+"homeScore": 17,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T00:35:07Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102938003",
+"sequenceNumber": "102938003",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Chloe Kitts.",
+"awayScore": 25,
+"homeScore": 17,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "6:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5121055"
+}
+}
+],
+"wallclock": "2025-01-03T00:35:07Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102944101",
+"sequenceNumber": "102944101",
+"type": {
+"id": "580",
+"text": "OfficialTVTimeOut"
+},
+"text": " Official TV Timeout",
+"awayScore": 25,
+"homeScore": 17,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:58"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2025-01-03T00:36:35Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102944501",
+"sequenceNumber": "102944501",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Grace Slaughter Turnover.",
+"awayScore": 25,
+"homeScore": 17,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102945801",
+"sequenceNumber": "102945801",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Laniah Randle.",
+"awayScore": 25,
+"homeScore": 17,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102946401",
+"sequenceNumber": "102946401",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Ashlyn Watkins missed Jumper.",
+"awayScore": 25,
+"homeScore": 17,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:35"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102946701",
+"sequenceNumber": "102946701",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ashton Judd Defensive Rebound.",
+"awayScore": 25,
+"homeScore": 17,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:32"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102947901",
+"sequenceNumber": "102947901",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Grace Slaughter made Layup. Assisted by Ashton Judd.",
+"awayScore": 25,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:20"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+},
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102954101",
+"sequenceNumber": "102954101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "MiLaysia Fulwiley missed Three Point Jumper.",
+"awayScore": 25,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:58"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102954401",
+"sequenceNumber": "102954401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ashton Judd Defensive Rebound.",
+"awayScore": 25,
+"homeScore": 19,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:55"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102954701",
+"sequenceNumber": "102954701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Grace Slaughter made Layup. Assisted by Laniah Randle.",
+"awayScore": 25,
+"homeScore": 21,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:52"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+},
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102955501",
+"sequenceNumber": "102955501",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Bree Hall Turnover.",
+"awayScore": 25,
+"homeScore": 21,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T00:41:52Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102957601",
+"sequenceNumber": "102957601",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Ashton Judd made Layup.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:23"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102959501",
+"sequenceNumber": "102959501",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "MiLaysia Fulwiley Turnover.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:04"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T00:46:38Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102964601",
+"sequenceNumber": "102964601",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Grace Slaughter Turnover.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:53"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102966101",
+"sequenceNumber": "102966101",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Raven Johnson Turnover.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:38"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433797"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102966102",
+"sequenceNumber": "102966102",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Ashton Judd Steal.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:38"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102969001",
+"sequenceNumber": "102969001",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Grace Slaughter missed Layup.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:09"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102969002",
+"sequenceNumber": "102969002",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "Ashlyn Watkins Block.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102969301",
+"sequenceNumber": "102969301",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ashlyn Watkins Defensive Rebound.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:06"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102974101",
+"sequenceNumber": "102974101",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tessa Johnson missed Three Point Jumper.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:58"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102974301",
+"sequenceNumber": "102974301",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Tilda Sjokvist Defensive Rebound.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107762"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102974701",
+"sequenceNumber": "102974701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Tilda Sjokvist missed Layup.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:52"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107762"
+}
+}
+],
+"wallclock": "2025-01-03T00:46:38Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102974702",
+"sequenceNumber": "102974702",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Joyce Edwards Defensive Rebound.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T00:46:38Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102974703",
+"sequenceNumber": "102974703",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Ashton Judd.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T00:46:38Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102974704",
+"sequenceNumber": "102974704",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Joyce Edwards made Free Throw.",
+"awayScore": 26,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:52"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T00:46:38Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102974705",
+"sequenceNumber": "102974705",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Joyce Edwards made Free Throw.",
+"awayScore": 27,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:52"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T00:46:38Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102977401",
+"sequenceNumber": "102977401",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Abbey Schreacke missed Three Point Jumper.",
+"awayScore": 27,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:25"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174277"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102977601",
+"sequenceNumber": "102977601",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Raven Johnson Defensive Rebound.",
+"awayScore": 27,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433797"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102977901",
+"sequenceNumber": "102977901",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Tessa Johnson made Layup. Assisted by Joyce Edwards.",
+"awayScore": 29,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:20"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+},
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102979201",
+"sequenceNumber": "102979201",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Raven Johnson.",
+"awayScore": 29,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433797"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102979701",
+"sequenceNumber": "102979701",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Abbey Schreacke Turnover.",
+"awayScore": 29,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174277"
+}
+}
+],
+"wallclock": "2025-01-03T00:47:50Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102979702",
+"sequenceNumber": "102979702",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "South Carolina  Timeout",
+"awayScore": 29,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"wallclock": "2025-01-03T00:47:50Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102985301",
+"sequenceNumber": "102985301",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Joyce Edwards missed Layup.",
+"awayScore": 29,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:46"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T00:49:37Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102985302",
+"sequenceNumber": "102985302",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Joyce Edwards Offensive Rebound.",
+"awayScore": 29,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T00:49:37Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102985303",
+"sequenceNumber": "102985303",
+"type": {
+"id": "437",
+"text": "TipShot"
+},
+"text": "Joyce Edwards made Two Point Tip Shot.",
+"awayScore": 31,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:46"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T00:49:37Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102985304",
+"sequenceNumber": "102985304",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tionna Herron.",
+"awayScore": 31,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4684184"
+}
+}
+],
+"wallclock": "2025-01-03T00:49:37Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102985305",
+"sequenceNumber": "102985305",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Joyce Edwards made Free Throw.",
+"awayScore": 32,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:46"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T00:49:37Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102987401",
+"sequenceNumber": "102987401",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Nyah Wilson missed Layup.",
+"awayScore": 32,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:25"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433549"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102987601",
+"sequenceNumber": "102987601",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Joyce Edwards Defensive Rebound.",
+"awayScore": 32,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102988001",
+"sequenceNumber": "102988001",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Tessa Johnson missed Layup.",
+"awayScore": 32,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:19"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102988501",
+"sequenceNumber": "102988501",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Ashlyn Watkins Offensive Rebound.",
+"awayScore": 32,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102988502",
+"sequenceNumber": "102988502",
+"type": {
+"id": "437",
+"text": "TipShot"
+},
+"text": "Ashlyn Watkins missed Two Point Tip Shot.",
+"awayScore": 32,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:14"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102988801",
+"sequenceNumber": "102988801",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Ashlyn Watkins Offensive Rebound.",
+"awayScore": 32,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102988802",
+"sequenceNumber": "102988802",
+"type": {
+"id": "437",
+"text": "TipShot"
+},
+"text": "Ashlyn Watkins missed Two Point Tip Shot.",
+"awayScore": 32,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:11"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102988803",
+"sequenceNumber": "102988803",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Joyce Edwards Offensive Rebound.",
+"awayScore": 32,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102988901",
+"sequenceNumber": "102988901",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Joyce Edwards made Layup. Assisted by Ashlyn Watkins.",
+"awayScore": 34,
+"homeScore": 23,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:10"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+},
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102994301",
+"sequenceNumber": "102994301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Abbey Schreacke made Three Point Jumper. Assisted by Tilda Sjokvist.",
+"awayScore": 34,
+"homeScore": 26,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:56"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174277"
+}
+},
+{
+"athlete": {
+"id": "5107762"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102995901",
+"sequenceNumber": "102995901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Tessa Johnson made Jumper.",
+"awayScore": 36,
+"homeScore": 26,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:40"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102999301",
+"sequenceNumber": "102999301",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Abbey Schreacke missed Three Point Jumper.",
+"awayScore": 36,
+"homeScore": 26,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:06"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174277"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102999501",
+"sequenceNumber": "102999501",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Raven Johnson Defensive Rebound.",
+"awayScore": 36,
+"homeScore": 26,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:04"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433797"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102999901",
+"sequenceNumber": "102999901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Raven Johnson missed Three Point Jumper.",
+"awayScore": 36,
+"homeScore": 26,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433797"
+}
+}
+],
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179102999902",
+"sequenceNumber": "102999902",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Missouri Defensive Rebound.",
+"awayScore": 36,
+"homeScore": 26,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179102999903",
+"sequenceNumber": "102999903",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of 2nd Quarter",
+"awayScore": 36,
+"homeScore": 26,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2025-01-03T00:51:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103905201",
+"sequenceNumber": "103905201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Sania Feagin missed Layup.",
+"awayScore": 36,
+"homeScore": 26,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:47"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433795"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103905401",
+"sequenceNumber": "103905401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Angelique Ngalakulondi Defensive Rebound.",
+"awayScore": 36,
+"homeScore": 26,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594788"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103907201",
+"sequenceNumber": "103907201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Grace Slaughter made Jumper.",
+"awayScore": 36,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:27"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103908801",
+"sequenceNumber": "103908801",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Te-Hina Paopao missed Three Point Jumper.",
+"awayScore": 36,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:11"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103908802",
+"sequenceNumber": "103908802",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Missouri Defensive Rebound.",
+"awayScore": 36,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103914601",
+"sequenceNumber": "103914601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Ashton Judd missed Three Point Jumper.",
+"awayScore": 36,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:53"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103914901",
+"sequenceNumber": "103914901",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Bree Hall Defensive Rebound.",
+"awayScore": 36,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:50"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T01:12:24Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103916401",
+"sequenceNumber": "103916401",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Chloe Kitts missed Jumper.",
+"awayScore": 36,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:35"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5121055"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103916402",
+"sequenceNumber": "103916402",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Averi Kroenke Defensive Rebound.",
+"awayScore": 36,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4858657"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103916403",
+"sequenceNumber": "103916403",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Sania Feagin.",
+"awayScore": 36,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433795"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103919401",
+"sequenceNumber": "103919401",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Averi Kroenke missed Layup.",
+"awayScore": 36,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4858657"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103919402",
+"sequenceNumber": "103919402",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "South Carolina Defensive Rebound.",
+"awayScore": 36,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103919403",
+"sequenceNumber": "103919403",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Angelique Ngalakulondi.",
+"awayScore": 36,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594788"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103925001",
+"sequenceNumber": "103925001",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Sania Feagin made Layup.",
+"awayScore": 38,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:49"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433795"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103926501",
+"sequenceNumber": "103926501",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Laniah Randle missed Layup.",
+"awayScore": 38,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:34"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103926502",
+"sequenceNumber": "103926502",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "Te-Hina Paopao Block.",
+"awayScore": 38,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:34"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103927001",
+"sequenceNumber": "103927001",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Raven Johnson Defensive Rebound.",
+"awayScore": 38,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433797"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103927601",
+"sequenceNumber": "103927601",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Angelique Ngalakulondi.",
+"awayScore": 38,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594788"
+}
+}
+],
+"wallclock": "2025-01-03T01:12:25Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103927602",
+"sequenceNumber": "103927602",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Sania Feagin made Free Throw.",
+"awayScore": 39,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:23"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433795"
+}
+}
+],
+"wallclock": "2025-01-03T01:12:25Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103927603",
+"sequenceNumber": "103927603",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Sania Feagin made Free Throw.",
+"awayScore": 40,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:23"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433795"
+}
+}
+],
+"wallclock": "2025-01-03T01:12:25Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103929301",
+"sequenceNumber": "103929301",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Sania Feagin.",
+"awayScore": 40,
+"homeScore": 28,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:06"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433795"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103929302",
+"sequenceNumber": "103929302",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Ashton Judd made Free Throw.",
+"awayScore": 40,
+"homeScore": 29,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:06"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103929303",
+"sequenceNumber": "103929303",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Ashton Judd made Free Throw.",
+"awayScore": 40,
+"homeScore": 30,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "7:06"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103935101",
+"sequenceNumber": "103935101",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Laniah Randle.",
+"awayScore": 40,
+"homeScore": 30,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103935102",
+"sequenceNumber": "103935102",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Te-Hina Paopao made Three Point Jumper.",
+"awayScore": 43,
+"homeScore": 30,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:48"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103936901",
+"sequenceNumber": "103936901",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Laniah Randle.",
+"awayScore": 43,
+"homeScore": 30,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T01:15:15Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103936902",
+"sequenceNumber": "103936902",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Laniah Randle Turnover.",
+"awayScore": 43,
+"homeScore": 30,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4664773"
+}
+}
+],
+"wallclock": "2025-01-03T01:15:15Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103938201",
+"sequenceNumber": "103938201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Bree Hall missed Layup.",
+"awayScore": 43,
+"homeScore": 30,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:17"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103938401",
+"sequenceNumber": "103938401",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Hannah Linthacum Defensive Rebound.",
+"awayScore": 43,
+"homeScore": 30,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174278"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103945201",
+"sequenceNumber": "103945201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Nyah Wilson missed Layup.",
+"awayScore": 43,
+"homeScore": 30,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:47"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433549"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103945301",
+"sequenceNumber": "103945301",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Hannah Linthacum Offensive Rebound.",
+"awayScore": 43,
+"homeScore": 30,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174278"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103945302",
+"sequenceNumber": "103945302",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Sania Feagin.",
+"awayScore": 43,
+"homeScore": 30,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433795"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103946201",
+"sequenceNumber": "103946201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Ashton Judd made Layup.",
+"awayScore": 43,
+"homeScore": 32,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:37"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103947901",
+"sequenceNumber": "103947901",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Ashlyn Watkins Turnover.",
+"awayScore": 43,
+"homeScore": 32,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103947902",
+"sequenceNumber": "103947902",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Averi Kroenke Steal.",
+"awayScore": 43,
+"homeScore": 32,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4858657"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103949001",
+"sequenceNumber": "103949001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Nyah Wilson made Jumper.",
+"awayScore": 43,
+"homeScore": 34,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:09"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433549"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103955001",
+"sequenceNumber": "103955001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Te-Hina Paopao made Three Point Jumper. Assisted by Chloe Kitts.",
+"awayScore": 46,
+"homeScore": 34,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:49"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+},
+{
+"athlete": {
+"id": "5121055"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103957301",
+"sequenceNumber": "103957301",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Ashton Judd missed Layup.",
+"awayScore": 46,
+"homeScore": 34,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:26"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103957501",
+"sequenceNumber": "103957501",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Te-Hina Paopao Defensive Rebound.",
+"awayScore": 46,
+"homeScore": 34,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103959801",
+"sequenceNumber": "103959801",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Ashlyn Watkins made Layup. Assisted by Tessa Johnson.",
+"awayScore": 48,
+"homeScore": 34,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:01"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+},
+{
+"athlete": {
+"id": "5174284"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103964201",
+"sequenceNumber": "103964201",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Missouri  Timeout",
+"awayScore": 48,
+"homeScore": 34,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:57"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"wallclock": "2025-01-03T01:25:47Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103965901",
+"sequenceNumber": "103965901",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Ashton Judd made Three Point Jumper.",
+"awayScore": 48,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:40"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103967901",
+"sequenceNumber": "103967901",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Nyah Wilson.",
+"awayScore": 48,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433549"
+}
+}
+],
+"wallclock": "2025-01-03T01:28:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103967902",
+"sequenceNumber": "103967902",
+"type": {
+"id": "580",
+"text": "OfficialTVTimeOut"
+},
+"text": " Official TV Timeout",
+"awayScore": 48,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2025-01-03T01:28:09Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103967903",
+"sequenceNumber": "103967903",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Te-Hina Paopao made Free Throw.",
+"awayScore": 49,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:20"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+}
+],
+"wallclock": "2025-01-03T01:28:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103967904",
+"sequenceNumber": "103967904",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Te-Hina Paopao made Free Throw.",
+"awayScore": 50,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:20"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433431"
+}
+}
+],
+"wallclock": "2025-01-03T01:28:09Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103969901",
+"sequenceNumber": "103969901",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Joyce Edwards.",
+"awayScore": 50,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103975001",
+"sequenceNumber": "103975001",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Ashton Judd missed Layup.",
+"awayScore": 50,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:49"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103975301",
+"sequenceNumber": "103975301",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ashlyn Watkins Defensive Rebound.",
+"awayScore": 50,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103975801",
+"sequenceNumber": "103975801",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "MiLaysia Fulwiley missed Jumper.",
+"awayScore": 50,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:41"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103976001",
+"sequenceNumber": "103976001",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ashton Judd Defensive Rebound.",
+"awayScore": 50,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:39"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103977701",
+"sequenceNumber": "103977701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Nyah Wilson missed Jumper.",
+"awayScore": 50,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:22"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433549"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103978001",
+"sequenceNumber": "103978001",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "MiLaysia Fulwiley Defensive Rebound.",
+"awayScore": 50,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103978201",
+"sequenceNumber": "103978201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Tessa Johnson made Layup. Assisted by MiLaysia Fulwiley.",
+"awayScore": 52,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:17"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+},
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103985201",
+"sequenceNumber": "103985201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Nyah Wilson missed Three Point Jumper.",
+"awayScore": 52,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:47"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433549"
+}
+}
+],
+"wallclock": "2025-01-03T01:30:05Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103985203",
+"sequenceNumber": "103985203",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Missouri Offensive Rebound.",
+"awayScore": 52,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"wallclock": "2025-01-03T01:30:05Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103985601",
+"sequenceNumber": "103985601",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Missouri  Turnover.",
+"awayScore": 52,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:43"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103987101",
+"sequenceNumber": "103987101",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "MiLaysia Fulwiley made Layup.",
+"awayScore": 54,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:28"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103987102",
+"sequenceNumber": "103987102",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Ashton Judd.",
+"awayScore": 54,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:28"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103989101",
+"sequenceNumber": "103989101",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Hannah Linthacum Turnover.",
+"awayScore": 55,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174278"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103994301",
+"sequenceNumber": "103994301",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "MiLaysia Fulwiley made Layup.",
+"awayScore": 57,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:56"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103996801",
+"sequenceNumber": "103996801",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Grace Slaughter Turnover.",
+"awayScore": 57,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103996802",
+"sequenceNumber": "103996802",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "MiLaysia Fulwiley Steal.",
+"awayScore": 57,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103997401",
+"sequenceNumber": "103997401",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Joyce Edwards made Layup. Assisted by MiLaysia Fulwiley.",
+"awayScore": 59,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:25"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+},
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103999801",
+"sequenceNumber": "103999801",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Ashton Judd missed Layup.",
+"awayScore": 59,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:01"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": true
+},
+{
+"id": "401708179103999802",
+"sequenceNumber": "103999802",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "MiLaysia Fulwiley Block.",
+"awayScore": 59,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179103999803",
+"sequenceNumber": "103999803",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "MiLaysia Fulwiley Defensive Rebound.",
+"awayScore": 59,
+"homeScore": 37,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T01:34:41Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104906501",
+"sequenceNumber": "104906501",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Abbey Schreacke.",
+"awayScore": 59,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:34"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174277"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104906502",
+"sequenceNumber": "104906502",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Abbey Schreacke Turnover.",
+"awayScore": 59,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:34"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174277"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104908002",
+"sequenceNumber": "104908002",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Joyce Edwards Offensive Rebound.",
+"awayScore": 59,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5239100"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104908003",
+"sequenceNumber": "104908003",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tilda Sjokvist.",
+"awayScore": 59,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107762"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104908201",
+"sequenceNumber": "104908201",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Raven Johnson Turnover.",
+"awayScore": 59,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:17"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433797"
+}
+}
+],
+"wallclock": "2025-01-03T01:39:43Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104908202",
+"sequenceNumber": "104908202",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "De'Myla Brown Steal.",
+"awayScore": 59,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:17"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595263"
+}
+}
+],
+"wallclock": "2025-01-03T01:39:43Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104914301",
+"sequenceNumber": "104914301",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Ashton Judd missed Layup.",
+"awayScore": 59,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:56"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104914601",
+"sequenceNumber": "104914601",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ashlyn Watkins Defensive Rebound.",
+"awayScore": 59,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:53"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104915001",
+"sequenceNumber": "104915001",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Tilda Sjokvist.",
+"awayScore": 59,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107762"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104915601",
+"sequenceNumber": "104915601",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "MiLaysia Fulwiley made Layup.",
+"awayScore": 61,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:43"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104917501",
+"sequenceNumber": "104917501",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Grace Slaughter Turnover.",
+"awayScore": 61,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104919001",
+"sequenceNumber": "104919001",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Angelique Ngalakulondi.",
+"awayScore": 61,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4594788"
+}
+}
+],
+"wallclock": "2025-01-03T01:45:16Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104919002",
+"sequenceNumber": "104919002",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Ashlyn Watkins missed Free Throw.",
+"awayScore": 61,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:09"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T01:45:16Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104919003",
+"sequenceNumber": "104919003",
+"type": {
+"id": "449",
+"text": "Dead Ball Rebound"
+},
+"text": "South Carolina Deadball Team Rebound.",
+"awayScore": 61,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"wallclock": "2025-01-03T01:45:16Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104919004",
+"sequenceNumber": "104919004",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Ashlyn Watkins made Free Throw.",
+"awayScore": 62,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:09"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T01:45:16Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104924901",
+"sequenceNumber": "104924901",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Grace Slaughter missed Layup.",
+"awayScore": 62,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:50"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104925304",
+"sequenceNumber": "104925304",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "MiLaysia Fulwiley missed Free Throw.",
+"awayScore": 63,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:46"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104925701",
+"sequenceNumber": "104925701",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Ashlyn Watkins Offensive Rebound.",
+"awayScore": 63,
+"homeScore": 37,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:42"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104934401",
+"sequenceNumber": "104934401",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "MiLaysia Fulwiley made Jumper.",
+"awayScore": 67,
+"homeScore": 40,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:55"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104936301",
+"sequenceNumber": "104936301",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "De'Myla Brown Turnover.",
+"awayScore": 67,
+"homeScore": 40,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:36"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595263"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104936302",
+"sequenceNumber": "104936302",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Raven Johnson Steal.",
+"awayScore": 67,
+"homeScore": 40,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:36"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433797"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104936701",
+"sequenceNumber": "104936701",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "MiLaysia Fulwiley made Layup. Assisted by Raven Johnson.",
+"awayScore": 69,
+"homeScore": 40,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:32"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174285"
+}
+},
+{
+"athlete": {
+"id": "4433797"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104938601",
+"sequenceNumber": "104938601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "De'Myla Brown missed Three Point Jumper.",
+"awayScore": 69,
+"homeScore": 40,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:13"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4595263"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104938901",
+"sequenceNumber": "104938901",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ashlyn Watkins Defensive Rebound.",
+"awayScore": 69,
+"homeScore": 40,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:10"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4565516"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104939101",
+"sequenceNumber": "104939101",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Averi Kroenke.",
+"awayScore": 69,
+"homeScore": 40,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4858657"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104939102",
+"sequenceNumber": "104939102",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Raven Johnson made Free Throw.",
+"awayScore": 70,
+"homeScore": 40,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:08"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433797"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104939103",
+"sequenceNumber": "104939103",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Raven Johnson made Free Throw.",
+"awayScore": 71,
+"homeScore": 40,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "6:08"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4433797"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104945001",
+"sequenceNumber": "104945001",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Hilke Feldrappe missed Jumper.",
+"awayScore": 71,
+"homeScore": 40,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:49"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174275"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104945201",
+"sequenceNumber": "104945201",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Maryam Dauda Defensive Rebound.",
+"awayScore": 71,
+"homeScore": 40,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4434019"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104945801",
+"sequenceNumber": "104945801",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Maryam Dauda Turnover.",
+"awayScore": 71,
+"homeScore": 40,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4434019"
+}
+}
+],
+"wallclock": "2025-01-03T01:47:15Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104947201",
+"sequenceNumber": "104947201",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Bree Hall.",
+"awayScore": 71,
+"homeScore": 40,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:27"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104948701",
+"sequenceNumber": "104948701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Abbey Schreacke made Three Point Jumper. Assisted by Hilke Feldrappe.",
+"awayScore": 71,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:12"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174277"
+}
+},
+{
+"athlete": {
+"id": "5174275"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104949801",
+"sequenceNumber": "104949801",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Hilke Feldrappe.",
+"awayScore": 71,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174275"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104949802",
+"sequenceNumber": "104949802",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Maryam Dauda made Free Throw.",
+"awayScore": 72,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:01"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4434019"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104949803",
+"sequenceNumber": "104949803",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Maryam Dauda missed Free Throw.",
+"awayScore": 72,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:01"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4434019"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104949901",
+"sequenceNumber": "104949901",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Averi Kroenke Defensive Rebound.",
+"awayScore": 72,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4858657"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104955401",
+"sequenceNumber": "104955401",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Maryam Dauda.",
+"awayScore": 72,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4434019"
+}
+}
+],
+"wallclock": "2025-01-03T01:49:13Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104956901",
+"sequenceNumber": "104956901",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Ashton Judd missed Layup.",
+"awayScore": 72,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:30"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104957201",
+"sequenceNumber": "104957201",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Adhel Tac Defensive Rebound.",
+"awayScore": 72,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:27"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5196144"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104957301",
+"sequenceNumber": "104957301",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Adhel Tac Turnover.",
+"awayScore": 72,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:26"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5196144"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104957302",
+"sequenceNumber": "104957302",
+"type": {
+"id": "607",
+"text": "Steal"
+},
+"text": "Averi Kroenke Steal.",
+"awayScore": 72,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:26"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "4858657"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104957601",
+"sequenceNumber": "104957601",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Abbey Schreacke missed Three Point Jumper.",
+"awayScore": 72,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:23"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174277"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104957602",
+"sequenceNumber": "104957602",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "South Carolina Defensive Rebound.",
+"awayScore": 72,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104958901",
+"sequenceNumber": "104958901",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Hilke Feldrappe.",
+"awayScore": 72,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:10"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174275"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:55Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104958902",
+"sequenceNumber": "104958902",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Adhel Tac missed Free Throw.",
+"awayScore": 72,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:10"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5196144"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:55Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104958903",
+"sequenceNumber": "104958903",
+"type": {
+"id": "449",
+"text": "Dead Ball Rebound"
+},
+"text": "South Carolina Deadball Team Rebound.",
+"awayScore": 72,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:10"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"wallclock": "2025-01-03T01:55:55Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104958904",
+"sequenceNumber": "104958904",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Adhel Tac made Free Throw.",
+"awayScore": 73,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "4:10"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5196144"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:55Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104964501",
+"sequenceNumber": "104964501",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Maryam Dauda.",
+"awayScore": 73,
+"homeScore": 43,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4434019"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104964502",
+"sequenceNumber": "104964502",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Ashton Judd made Free Throw.",
+"awayScore": 73,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:54"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104964701",
+"sequenceNumber": "104964701",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Ashton Judd missed Free Throw.",
+"awayScore": 73,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:52"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5105452"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104964801",
+"sequenceNumber": "104964801",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Tessa Johnson Defensive Rebound.",
+"awayScore": 73,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:51"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174284"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104965201",
+"sequenceNumber": "104965201",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Abbey Schreacke missed Three Point Jumper.",
+"awayScore": 73,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:47"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174277"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104965301",
+"sequenceNumber": "104965301",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Adhel Tac Defensive Rebound.",
+"awayScore": 73,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5196144"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:55Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104965302",
+"sequenceNumber": "104965302",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Hilke Feldrappe.",
+"awayScore": 73,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174275"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:55Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104965303",
+"sequenceNumber": "104965303",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Adhel Tac missed Free Throw.",
+"awayScore": 73,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:46"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5196144"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:55Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104965304",
+"sequenceNumber": "104965304",
+"type": {
+"id": "449",
+"text": "Dead Ball Rebound"
+},
+"text": "South Carolina Deadball Team Rebound.",
+"awayScore": 73,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"wallclock": "2025-01-03T01:55:55Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104965305",
+"sequenceNumber": "104965305",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Adhel Tac made Free Throw.",
+"awayScore": 74,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:46"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5196144"
+}
+}
+],
+"wallclock": "2025-01-03T01:55:55Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104966701",
+"sequenceNumber": "104966701",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Bree Hall.",
+"awayScore": 74,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:32"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104966702",
+"sequenceNumber": "104966702",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tilda Sjokvist missed Free Throw.",
+"awayScore": 74,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:32"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107762"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104966703",
+"sequenceNumber": "104966703",
+"type": {
+"id": "449",
+"text": "Dead Ball Rebound"
+},
+"text": "Missouri Deadball Team Rebound.",
+"awayScore": 74,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:32"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104966704",
+"sequenceNumber": "104966704",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Tilda Sjokvist missed Free Throw.",
+"awayScore": 74,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:32"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107762"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104966801",
+"sequenceNumber": "104966801",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Bree Hall Defensive Rebound.",
+"awayScore": 74,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4898383"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104968201",
+"sequenceNumber": "104968201",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Adhel Tac missed Layup.",
+"awayScore": 74,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:17"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5196144"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104968501",
+"sequenceNumber": "104968501",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Adhel Tac Offensive Rebound.",
+"awayScore": 74,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5196144"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104968502",
+"sequenceNumber": "104968502",
+"type": {
+"id": "437",
+"text": "TipShot"
+},
+"text": "Adhel Tac made Two Point Tip Shot.",
+"awayScore": 76,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:14"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5196144"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104969501",
+"sequenceNumber": "104969501",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Grace Slaughter missed Three Point Jumper.",
+"awayScore": 76,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:04"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104969701",
+"sequenceNumber": "104969701",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Hilke Feldrappe Offensive Rebound.",
+"awayScore": 76,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174275"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104969801",
+"sequenceNumber": "104969801",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Foul on Maryam Dauda.",
+"awayScore": 76,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4434019"
+}
+}
+],
+"wallclock": "2025-01-03T01:57:39Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104969802",
+"sequenceNumber": "104969802",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Grace Slaughter missed Free Throw.",
+"awayScore": 76,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:01"
+},
+"scoringPlay": false,
+"scoreValue": 1,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T01:57:39Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104969803",
+"sequenceNumber": "104969803",
+"type": {
+"id": "449",
+"text": "Dead Ball Rebound"
+},
+"text": "Missouri Deadball Team Rebound.",
+"awayScore": 76,
+"homeScore": 44,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "3:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"wallclock": "2025-01-03T01:57:39Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104984701",
+"sequenceNumber": "104984701",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Maryam Dauda missed Three Point Jumper.",
+"awayScore": 79,
+"homeScore": 45,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:52"
+},
+"scoringPlay": false,
+"scoreValue": 3,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "4434019"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104985101",
+"sequenceNumber": "104985101",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Tilda Sjokvist Defensive Rebound.",
+"awayScore": 79,
+"homeScore": 45,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5107762"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104986301",
+"sequenceNumber": "104986301",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Hilke Feldrappe made Layup.",
+"awayScore": 79,
+"homeScore": 47,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:36"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174275"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104989303",
+"sequenceNumber": "104989303",
+"type": {
+"id": "540",
+"text": "MadeFreeThrow"
+},
+"text": "Grace Slaughter made Free Throw.",
+"awayScore": 81,
+"homeScore": 49,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "1:06"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174274"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104994801",
+"sequenceNumber": "104994801",
+"type": {
+"id": "558",
+"text": "JumpShot"
+},
+"text": "Adhel Tac made Jumper.",
+"awayScore": 83,
+"homeScore": 49,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:51"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5196144"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104996601",
+"sequenceNumber": "104996601",
+"type": {
+"id": "572",
+"text": "LayUpShot"
+},
+"text": "Hilke Feldrappe missed Layup.",
+"awayScore": 83,
+"homeScore": 49,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:33"
+},
+"scoringPlay": false,
+"scoreValue": 2,
+"team": {
+"id": "142"
+},
+"participants": [
+{
+"athlete": {
+"id": "5174275"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": true
+},
+{
+"id": "401708179104996602",
+"sequenceNumber": "104996602",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Missouri Offensive Rebound.",
+"awayScore": 83,
+"homeScore": 49,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "142"
+},
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104997802",
+"sequenceNumber": "104997802",
+"type": {
+"id": "618",
+"text": "Block Shot"
+},
+"text": "Adhel Tac Block.",
+"awayScore": 83,
+"homeScore": 49,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:21"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "2579"
+},
+"participants": [
+{
+"athlete": {
+"id": "5196144"
+}
+}
+],
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+},
+{
+"id": "401708179104999901",
+"sequenceNumber": "104999901",
+"type": {
+"id": "402",
+"text": "End Game"
+},
+"text": "End of Game",
+"awayScore": 83,
+"homeScore": 52,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "0:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2025-01-03T02:02:28Z",
+"shootingPlay": false
+}
+],
 "article": [],
 "videos": [
 {

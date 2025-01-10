@@ -24366,6 +24366,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401725227",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 10,
@@ -24526,7 +24538,108 @@
 "region": "us"
 }
 ],
-"videos": [],
+"videos": [
+{
+"id": 43345592,
+"cerebroId": "677fe6631d41c95e6a7bd9ad",
+"source": "espn",
+"headline": "Arizona Wildcats vs. Baylor Bears - Game Highlights",
+"description": "Watch the Game Highlights from Arizona Wildcats vs. Baylor Bears",
+"lastModified": "2025-01-09T15:10:10Z",
+"originalPublishDate": "2025-01-09T15:08:10Z",
+"duration": 115,
+"timeRestrictions": {
+"embargoDate": "2025-01-09T15:08:10Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2025/0109/ss_20250109_100820409_2743870/ss_20250109_100820409_2743870.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=43345592",
+"self": {
+"href": "http://espn.com/video/clip?id=43345592",
+"dsi": {
+"href": "http://espn.com/video/clip?id=bc5fb5bcf8068"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/43345592"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4945c851-0318-4695-9a12-4e0c67ad448f/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43345592",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0109/ss_20250109_100820409_2743870/ss_20250109_100820409_2743870.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=43345592"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4945c851-0318-4695-9a12-4e0c67ad448f/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43345592"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4945c851-0318-4695-9a12-4e0c67ad448f/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43345592"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/43345592"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/4945c851-0318-4695-9a12-4e0c67ad448f"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0109/ss_20250109_100820409_2743870/ss_20250109_100820409_2743870_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2025/0109/ss_20250109_100820409_2743870/ss_20250109_100820409_2743870.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0109/ss_20250109_100820409_2743870/ss_20250109_100820409_2743870.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2025/0109/ss_20250109_100820409_2743870/ss_20250109_100820409_2743870_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0109/ss_20250109_100820409_2743870/ss_20250109_100820409_2743870/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0109/ss_20250109_100820409_2743870/ss_20250109_100820409_2743870/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0109/ss_20250109_100820409_2743870/ss_20250109_100820409_2743870_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0109/ss_20250109_100820409_2743870/ss_20250109_100820409_2743870_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=43345592&videoDSI=bc5fb5bcf8068"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "OnePlay",
+"trackingName": "NCW_One-Play (Arizona Wildcats vs. Baylor Bears - Game Highlights) 2025/01/09 ESHEET",
+"trackingId": "dm_20250109_NCW_arizona_wildcats_vs_baylor_bears_game_highlights"
+}
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {

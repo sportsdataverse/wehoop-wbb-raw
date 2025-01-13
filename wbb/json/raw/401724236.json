@@ -4405,6 +4405,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401724236",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 9,
@@ -13666,7 +13678,98 @@
 }
 ],
 "article": [],
-"videos": [],
+"videos": [
+{
+"id": 43287818,
+"cerebroId": "6779c3381d41c95e6a762eb9",
+"source": "espn",
+"headline": "Dartmouth Begins Ivy Play With a 64-48 Win Over Brown  - Via Ivy League",
+"description": "Victoria Page Scored A Game-High 14 Points To Lead Dartmouth Past Brown",
+"lastModified": "2025-01-12T16:47:16Z",
+"originalPublishDate": "2025-01-04T23:21:06Z",
+"duration": 0,
+"timeRestrictions": {
+"embargoDate": "2025-01-04T23:21:06Z",
+"expirationDate": "2027-01-04T23:21:06Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/http://cse-mediaexchange-pp-prod-us-east-1.s3.amazonaws.com/6c0828d0-4814-4fa6-8313-42a3d02a71d2.png",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=43287818",
+"self": {
+"href": "http://espn.com/video/clip?id=43287818"
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/43287818"
+}
+},
+"mobile": {
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/http://cse-mediaexchange-pp-prod-us-east-1.s3.amazonaws.com/5032ad9b-3cdb-4993-a83a-2e1fd16e502f.mp4.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=43287818"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/43287818"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/371250e2-6954-48e8-9a25-cb5cb5545047"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/http://cse-mediaexchange-pp-prod-us-east-1.s3.amazonaws.com/5032ad9b-3cdb-4993-a83a-2e1fd16e502f.mp4_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/http://cse-mediaexchange-pp-prod-us-east-1.s3.amazonaws.com/5032ad9b-3cdb-4993-a83a-2e1fd16e502f.mp4.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/http://cse-mediaexchange-pp-prod-us-east-1.s3.amazonaws.com/5032ad9b-3cdb-4993-a83a-2e1fd16e502f.mp4.smil"
+},
+"hds": {
+"href": "http://cse-mediaexchange-pp-prod-us-east-1.s3.amazonaws.com/5032ad9b-3cdb-4993-a83a-2e1fd16e502f.mp4"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/http://cse-mediaexchange-pp-prod-us-east-1.s3.amazonaws.com/5032ad9b-3cdb-4993-a83a-2e1fd16e502f.mp4/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/http://cse-mediaexchange-pp-prod-us-east-1.s3.amazonaws.com/5032ad9b-3cdb-4993-a83a-2e1fd16e502f.mp4/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/http://cse-mediaexchange-pp-prod-us-east-1.s3.amazonaws.com/5032ad9b-3cdb-4993-a83a-2e1fd16e502f.mp4_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/http://cse-mediaexchange-pp-prod-us-east-1.s3.amazonaws.com/5032ad9b-3cdb-4993-a83a-2e1fd16e502f.mp4_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=43287818&videoDSI=000e8354bb91f"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "no_show"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "dartmouth_begins_ivy_pla_6779c2f5511fb50133752658",
+"trackingId": "6779c2f5511fb50133752658"
+}
+}
+],
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",
@@ -13676,70 +13779,6 @@
 {
 "standings": {
 "entries": [
-{
-"team": "Harvard",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/108/harvard-crimson",
-"id": "108",
-"uid": "s:40~l:54~t:108",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "12-1",
-"displayValue": "12-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "1-0",
-"displayValue": "1-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/108.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2020-08-05T15:43Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/108.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2020-08-05T15:43Z"
-}
-]
-},
 {
 "team": "Columbia",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/171/columbia-lions",
@@ -13754,8 +13793,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-4",
-"displayValue": "10-4"
+"summary": "11-4",
+"displayValue": "11-4"
 },
 {
 "name": "gamesBehind",
@@ -13775,8 +13814,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "1-0",
-"displayValue": "1-0"
+"summary": "2-0",
+"displayValue": "2-0"
 }
 ],
 "logo": [
@@ -13818,8 +13857,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-4",
-"displayValue": "10-4"
+"summary": "11-4",
+"displayValue": "11-4"
 },
 {
 "name": "gamesBehind",
@@ -13839,8 +13878,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "1-0",
-"displayValue": "1-0"
+"summary": "2-0",
+"displayValue": "2-0"
 }
 ],
 "logo": [
@@ -13882,8 +13921,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "7-7",
-"displayValue": "7-7"
+"summary": "8-7",
+"displayValue": "8-7"
 },
 {
 "name": "gamesBehind",
@@ -13903,8 +13942,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "1-0",
-"displayValue": "1-0"
+"summary": "2-0",
+"displayValue": "2-0"
 }
 ],
 "logo": [
@@ -13933,10 +13972,10 @@
 ]
 },
 {
-"team": "Pennsylvania",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/219/pennsylvania-quakers",
-"id": "219",
-"uid": "s:40~l:54~t:219",
+"team": "Harvard",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/108/harvard-crimson",
+"id": "108",
+"uid": "s:40~l:54~t:108",
 "stats": [
 {
 "id": "0",
@@ -13946,8 +13985,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "9-5",
-"displayValue": "9-5"
+"summary": "12-2",
+"displayValue": "12-2"
 },
 {
 "name": "gamesBehind",
@@ -13967,13 +14006,13 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-1",
-"displayValue": "0-1"
+"summary": "1-1",
+"displayValue": "1-1"
 }
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/219.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/108.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -13981,10 +14020,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2023-01-25T22:36Z"
+"lastUpdated": "2020-08-05T15:43Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/219.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/108.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -13992,7 +14031,7 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2023-01-25T22:35Z"
+"lastUpdated": "2020-08-05T15:43Z"
 }
 ]
 },
@@ -14010,8 +14049,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "6-8",
-"displayValue": "6-8"
+"summary": "7-8",
+"displayValue": "7-8"
 },
 {
 "name": "gamesBehind",
@@ -14031,8 +14070,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-1",
-"displayValue": "0-1"
+"summary": "1-1",
+"displayValue": "1-1"
 }
 ],
 "logo": [
@@ -14061,6 +14100,70 @@
 ]
 },
 {
+"team": "Pennsylvania",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/219/pennsylvania-quakers",
+"id": "219",
+"uid": "s:40~l:54~t:219",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "9-6",
+"displayValue": "9-6"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.0,
+"displayValue": "2"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-2",
+"displayValue": "0-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/219.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-25T22:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/219.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-25T22:35Z"
+}
+]
+},
+{
 "team": "Cornell",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/172/cornell-big-red",
 "id": "172",
@@ -14074,8 +14177,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "4-10",
-"displayValue": "4-10"
+"summary": "4-11",
+"displayValue": "4-11"
 },
 {
 "name": "gamesBehind",
@@ -14084,8 +14187,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.0,
-"displayValue": "1"
+"value": 2.0,
+"displayValue": "2"
 },
 {
 "id": "9",
@@ -14095,8 +14198,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-1",
-"displayValue": "0-1"
+"summary": "0-2",
+"displayValue": "0-2"
 }
 ],
 "logo": [
@@ -14138,8 +14241,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-13",
-"displayValue": "1-13"
+"summary": "1-14",
+"displayValue": "1-14"
 },
 {
 "name": "gamesBehind",
@@ -14148,8 +14251,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.0,
-"displayValue": "1"
+"value": 2.0,
+"displayValue": "2"
 },
 {
 "id": "9",
@@ -14159,8 +14262,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-1",
-"displayValue": "0-1"
+"summary": "0-2",
+"displayValue": "0-2"
 }
 ],
 "logo": [

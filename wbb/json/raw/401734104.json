@@ -4856,6 +4856,25 @@
 ],
 "href": "https://www.espn.com/womens-college-basketball/injuries",
 "text": "Injuries"
+},
+{
+"rel": [
+"odds",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/womens-college-basketball/odds",
+"text": "Odds"
+},
+{
+"rel": [
+"odds",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54&section=odds",
+"text": "Odds"
 }
 ]
 }
@@ -15787,8 +15806,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "13-4",
-"displayValue": "13-4"
+"summary": "14-4",
+"displayValue": "14-4"
 },
 {
 "name": "gamesBehind",
@@ -15797,8 +15816,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5,
-"displayValue": "2.5"
+"value": 2.0,
+"displayValue": "2"
 },
 {
 "id": "9",
@@ -15808,8 +15827,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "5-2",
-"displayValue": "5-2"
+"summary": "6-2",
+"displayValue": "6-2"
 }
 ],
 "logo": [
@@ -15966,10 +15985,10 @@
 ]
 },
 {
-"team": "Northern Kentucky",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/94/northern-kentucky-norse",
-"id": "94",
-"uid": "s:40~l:54~t:94",
+"team": "IU Indianapolis",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/85/iu-indianapolis-jaguars",
+"id": "85",
+"uid": "s:40~l:54~t:85",
 "stats": [
 {
 "id": "0",
@@ -15979,8 +15998,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "6-12",
-"displayValue": "6-12"
+"summary": "5-13",
+"displayValue": "5-13"
 },
 {
 "name": "gamesBehind",
@@ -16000,72 +16019,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "3-4",
-"displayValue": "3-4"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/94.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-03-15T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/94.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-03-15T19:32Z"
-}
-]
-},
-{
-"team": "IU Indianapolis",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/85/iu-indianapolis-jaguars",
-"id": "85",
-"uid": "s:40~l:54~t:85",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "4-13",
-"displayValue": "4-13"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 5.0,
-"displayValue": "5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "3-5",
-"displayValue": "3-5"
+"summary": "4-5",
+"displayValue": "4-5"
 }
 ],
 "logo": [
@@ -16107,8 +16062,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "7-10",
-"displayValue": "7-10"
+"summary": "8-10",
+"displayValue": "8-10"
 },
 {
 "name": "gamesBehind",
@@ -16117,8 +16072,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5,
-"displayValue": "5.5"
+"value": 5.0,
+"displayValue": "5"
 },
 {
 "id": "9",
@@ -16128,8 +16083,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "2-5",
-"displayValue": "2-5"
+"summary": "3-5",
+"displayValue": "3-5"
 }
 ],
 "logo": [
@@ -16158,6 +16113,70 @@
 ]
 },
 {
+"team": "Northern Kentucky",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/94/northern-kentucky-norse",
+"id": "94",
+"uid": "s:40~l:54~t:94",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-13",
+"displayValue": "6-13"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5.0,
+"displayValue": "5"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "3-5",
+"displayValue": "3-5"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/94.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-03-15T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/94.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-03-15T19:32Z"
+}
+]
+},
+{
 "team": "Wright State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2750/wright-state-raiders",
 "id": "2750",
@@ -16171,8 +16190,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "4-14",
-"displayValue": "4-14"
+"summary": "4-15",
+"displayValue": "4-15"
 },
 {
 "name": "gamesBehind",
@@ -16181,8 +16200,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.0,
-"displayValue": "6"
+"value": 6.5,
+"displayValue": "6.5"
 },
 {
 "id": "9",
@@ -16192,8 +16211,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "2-6",
-"displayValue": "2-6"
+"summary": "2-7",
+"displayValue": "2-7"
 }
 ],
 "logo": [
@@ -16218,70 +16237,6 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Robert Morris",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2523/robert-morris-colonials",
-"id": "2523",
-"uid": "s:40~l:54~t:2523",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "5-11",
-"displayValue": "5-11"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 6.5,
-"displayValue": "6.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "1-6",
-"displayValue": "1-6"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-12-08T21:37Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2523.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-12-08T21:36Z"
 }
 ]
 },
@@ -16346,6 +16301,70 @@
 "dark"
 ],
 "lastUpdated": "2019-12-17T15:38Z"
+}
+]
+},
+{
+"team": "Robert Morris",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2523/robert-morris-colonials",
+"id": "2523",
+"uid": "s:40~l:54~t:2523",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "5-12",
+"displayValue": "5-12"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7.0,
+"displayValue": "7"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "1-7",
+"displayValue": "1-7"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-12-08T21:37Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2523.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-12-08T21:36Z"
 }
 ]
 }

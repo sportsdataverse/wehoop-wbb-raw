@@ -27933,6 +27933,25 @@
 ],
 "href": "https://www.espn.com/womens-college-basketball/injuries",
 "text": "Injuries"
+},
+{
+"rel": [
+"odds",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/womens-college-basketball/odds",
+"text": "Odds"
+},
+{
+"rel": [
+"odds",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54&section=odds",
+"text": "Odds"
 }
 ]
 }
@@ -27995,8 +28014,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "13-4",
-"displayValue": "13-4"
+"summary": "14-4",
+"displayValue": "14-4"
 },
 {
 "name": "gamesBehind",
@@ -28016,8 +28035,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "5-0",
-"displayValue": "5-0"
+"summary": "6-0",
+"displayValue": "6-0"
 }
 ],
 "logo": [
@@ -28046,6 +28065,70 @@
 ]
 },
 {
+"team": "Colorado State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/36/colorado-state-rams",
+"id": "36",
+"uid": "s:40~l:54~t:36",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "13-5",
+"displayValue": "13-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.5,
+"displayValue": "1.5"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "4-1",
+"displayValue": "4-1"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-12-13T21:29Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/36.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-12-13T21:30Z"
+}
+]
+},
+{
 "team": "New Mexico",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/167/new-mexico-lobos",
 "id": "167",
@@ -28069,8 +28152,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.0,
-"displayValue": "1"
+"value": 1.5,
+"displayValue": "1.5"
 },
 {
 "id": "9",
@@ -28110,70 +28193,6 @@
 ]
 },
 {
-"team": "Colorado State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/36/colorado-state-rams",
-"id": "36",
-"uid": "s:40~l:54~t:36",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "12-5",
-"displayValue": "12-5"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5,
-"displayValue": "1.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "3-1",
-"displayValue": "3-1"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-12-13T21:29Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/36.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-12-13T21:30Z"
-}
-]
-},
-{
 "team": "Wyoming",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2751/wyoming-cowgirls",
 "id": "2751",
@@ -28187,8 +28206,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "9-7",
-"displayValue": "9-7"
+"summary": "10-7",
+"displayValue": "10-7"
 },
 {
 "name": "gamesBehind",
@@ -28208,8 +28227,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "3-1",
-"displayValue": "3-1"
+"summary": "4-1",
+"displayValue": "4-1"
 }
 ],
 "logo": [
@@ -28238,70 +28257,6 @@
 ]
 },
 {
-"team": "Nevada",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2440/nevada-wolf-pack",
-"id": "2440",
-"uid": "s:40~l:54~t:2440",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "8-10",
-"displayValue": "8-10"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.0,
-"displayValue": "2"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "3-2",
-"displayValue": "3-2"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-12-13T21:29Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2440.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-12-13T21:30Z"
-}
-]
-},
-{
 "team": "Fresno State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/278/fresno-state-bulldogs",
 "id": "278",
@@ -28315,8 +28270,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-6",
-"displayValue": "11-6"
+"summary": "12-6",
+"displayValue": "12-6"
 },
 {
 "name": "gamesBehind",
@@ -28336,8 +28291,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "2-2",
-"displayValue": "2-2"
+"summary": "3-2",
+"displayValue": "3-2"
 }
 ],
 "logo": [
@@ -28366,70 +28321,6 @@
 ]
 },
 {
-"team": "San Diego State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/21/san-diego-state-aztecs",
-"id": "21",
-"uid": "s:40~l:54~t:21",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "13-5",
-"displayValue": "13-5"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3.0,
-"displayValue": "3"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "2-3",
-"displayValue": "2-3"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/21.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-02T00:34Z"
-}
-]
-},
-{
 "team": "Boise State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/68/boise-state-broncos",
 "id": "68",
@@ -28443,8 +28334,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "12-6",
-"displayValue": "12-6"
+"summary": "13-6",
+"displayValue": "13-6"
 },
 {
 "name": "gamesBehind",
@@ -28464,8 +28355,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "2-3",
-"displayValue": "2-3"
+"summary": "3-3",
+"displayValue": "3-3"
 }
 ],
 "logo": [
@@ -28494,10 +28385,10 @@
 ]
 },
 {
-"team": "San Jos\u00e9 State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/23/san-jose-state-spartans",
-"id": "23",
-"uid": "s:40~l:54~t:23",
+"team": "Nevada",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2440/nevada-wolf-pack",
+"id": "2440",
+"uid": "s:40~l:54~t:2440",
 "stats": [
 {
 "id": "0",
@@ -28507,8 +28398,72 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "8-10",
-"displayValue": "8-10"
+"summary": "8-11",
+"displayValue": "8-11"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.0,
+"displayValue": "3"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "3-3",
+"displayValue": "3-3"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-12-13T21:29Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2440.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-12-13T21:30Z"
+}
+]
+},
+{
+"team": "San Diego State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/21/san-diego-state-aztecs",
+"id": "21",
+"uid": "s:40~l:54~t:21",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "13-6",
+"displayValue": "13-6"
 },
 {
 "name": "gamesBehind",
@@ -28528,8 +28483,72 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "1-4",
-"displayValue": "1-4"
+"summary": "2-4",
+"displayValue": "2-4"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/21.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-02T00:34Z"
+}
+]
+},
+{
+"team": "San Jos\u00e9 State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/23/san-jose-state-spartans",
+"id": "23",
+"uid": "s:40~l:54~t:23",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "8-11",
+"displayValue": "8-11"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5.0,
+"displayValue": "5"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "1-5",
+"displayValue": "1-5"
 }
 ],
 "logo": [
@@ -28571,8 +28590,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-6",
-"displayValue": "10-6"
+"summary": "10-7",
+"displayValue": "10-7"
 },
 {
 "name": "gamesBehind",
@@ -28581,8 +28600,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5,
-"displayValue": "4.5"
+"value": 5.5,
+"displayValue": "5.5"
 },
 {
 "id": "9",
@@ -28592,8 +28611,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-4",
-"displayValue": "0-4"
+"summary": "0-5",
+"displayValue": "0-5"
 }
 ],
 "logo": [
@@ -28635,8 +28654,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-15",
-"displayValue": "1-15"
+"summary": "1-16",
+"displayValue": "1-16"
 },
 {
 "name": "gamesBehind",
@@ -28645,8 +28664,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5,
-"displayValue": "4.5"
+"value": 5.5,
+"displayValue": "5.5"
 },
 {
 "id": "9",
@@ -28656,8 +28675,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-4",
-"displayValue": "0-4"
+"summary": "0-5",
+"displayValue": "0-5"
 }
 ],
 "logo": [

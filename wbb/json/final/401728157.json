@@ -20846,6 +20846,7 @@
 "possessionArrowAvailable": false,
 "onWatchESPN": false,
 "recent": false,
+"wallclockAvailable": true,
 "boxscoreSource": "full",
 "playByPlaySource": "full",
 "competitors": [
@@ -21695,15 +21696,16 @@
 "text": "Full Standings",
 "href": "https://www.espn.com/womens-college-basketball/standings"
 },
+"header": "2025 Standings",
 "groups": [
 {
 "standings": {
 "entries": [
 {
-"team": "UNC Greensboro",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2430/unc-greensboro-spartans",
-"id": "2430",
-"uid": "s:40~l:54~t:2430",
+"team": "Wofford",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2747/wofford-terriers",
+"id": "2747",
+"uid": "s:40~l:54~t:2747",
 "stats": [
 {
 "id": "0",
@@ -21713,8 +21715,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-5",
-"displayValue": "11-5"
+"summary": "10-5",
+"displayValue": "10-5"
 },
 {
 "name": "gamesBehind",
@@ -21736,70 +21738,6 @@
 "type": "vsconf",
 "summary": "2-0",
 "displayValue": "2-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2430.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-11-06T16:11Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2430.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-11-06T16:11Z"
-}
-]
-},
-{
-"team": "Wofford",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2747/wofford-terriers",
-"id": "2747",
-"uid": "s:40~l:54~t:2747",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "9-5",
-"displayValue": "9-5"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5,
-"displayValue": "0.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "1-0",
-"displayValue": "1-0"
 }
 ],
 "logo": [
@@ -21828,74 +21766,10 @@
 ]
 },
 {
-"team": "Mercer",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2382/mercer-bears",
-"id": "2382",
-"uid": "s:40~l:54~t:2382",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "6-10",
-"displayValue": "6-10"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5,
-"displayValue": "0.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "1-0",
-"displayValue": "1-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-01-23T23:34Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2382.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-01-23T23:36Z"
-}
-]
-},
-{
-"team": "Western Carolina",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2717/western-carolina-catamounts",
-"id": "2717",
-"uid": "s:40~l:54~t:2717",
+"team": "UNC Greensboro",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2430/unc-greensboro-spartans",
+"id": "2430",
+"uid": "s:40~l:54~t:2430",
 "stats": [
 {
 "id": "0",
@@ -21915,8 +21789,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.0,
-"displayValue": "1"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -21926,13 +21800,13 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "1-1",
-"displayValue": "1-1"
+"summary": "2-1",
+"displayValue": "2-1"
 }
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2717.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2430.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -21940,10 +21814,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2023-01-23T23:34Z"
+"lastUpdated": "2018-11-06T16:11Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2717.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2430.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -21951,7 +21825,7 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2023-01-23T23:36Z"
+"lastUpdated": "2018-11-06T16:11Z"
 }
 ]
 },
@@ -21969,8 +21843,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "6-9",
-"displayValue": "6-9"
+"summary": "7-9",
+"displayValue": "7-9"
 },
 {
 "name": "gamesBehind",
@@ -21979,8 +21853,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.0,
-"displayValue": "1"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -21990,8 +21864,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "1-1",
-"displayValue": "1-1"
+"summary": "2-1",
+"displayValue": "2-1"
 }
 ],
 "logo": [
@@ -22033,8 +21907,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-7",
-"displayValue": "10-7"
+"summary": "11-7",
+"displayValue": "11-7"
 },
 {
 "name": "gamesBehind",
@@ -22043,8 +21917,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5,
-"displayValue": "1.5"
+"value": 1.0,
+"displayValue": "1"
 },
 {
 "id": "9",
@@ -22054,8 +21928,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-1",
-"displayValue": "0-1"
+"summary": "1-1",
+"displayValue": "1-1"
 }
 ],
 "logo": [
@@ -22084,10 +21958,10 @@
 ]
 },
 {
-"team": "Samford",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2535/samford-bulldogs",
-"id": "2535",
-"uid": "s:40~l:54~t:2535",
+"team": "Mercer",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2382/mercer-bears",
+"id": "2382",
+"uid": "s:40~l:54~t:2382",
 "stats": [
 {
 "id": "0",
@@ -22097,8 +21971,72 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-12",
-"displayValue": "5-12"
+"summary": "6-11",
+"displayValue": "6-11"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.0,
+"displayValue": "1"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "1-1",
+"displayValue": "1-1"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-23T23:34Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2382.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-23T23:36Z"
+}
+]
+},
+{
+"team": "Western Carolina",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2717/western-carolina-catamounts",
+"id": "2717",
+"uid": "s:40~l:54~t:2717",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "11-7",
+"displayValue": "11-7"
 },
 {
 "name": "gamesBehind",
@@ -22118,13 +22056,13 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-1",
-"displayValue": "0-1"
+"summary": "1-2",
+"displayValue": "1-2"
 }
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2717.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -22132,10 +22070,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2018-06-05T12:08Z"
+"lastUpdated": "2023-01-23T23:34Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2535.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2717.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -22143,7 +22081,7 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2018-06-05T12:08Z"
+"lastUpdated": "2023-01-23T23:36Z"
 }
 ]
 },
@@ -22161,8 +22099,72 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "9-8",
-"displayValue": "9-8"
+"summary": "10-8",
+"displayValue": "10-8"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.5,
+"displayValue": "1.5"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "1-2",
+"displayValue": "1-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2193.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2193.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Samford",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2535/samford-bulldogs",
+"id": "2535",
+"uid": "s:40~l:54~t:2535",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "5-13",
+"displayValue": "5-13"
 },
 {
 "name": "gamesBehind",
@@ -22188,7 +22190,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2193.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -22199,7 +22201,7 @@
 "lastUpdated": "2018-06-05T12:08Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2193.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2535.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -23655,6 +23657,7 @@
 "possessionArrowAvailable": false,
 "onWatchESPN": false,
 "recent": false,
+"wallclockAvailable": true,
 "boxscoreSource": "full",
 "playByPlaySource": "full",
 "competitors": [

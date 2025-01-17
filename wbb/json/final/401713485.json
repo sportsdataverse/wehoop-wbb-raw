@@ -18249,6 +18249,7 @@
 "possessionArrowAvailable": false,
 "onWatchESPN": false,
 "recent": false,
+"wallclockAvailable": true,
 "boxscoreSource": "full",
 "playByPlaySource": "full",
 "competitors": [
@@ -19070,6 +19071,25 @@
 ],
 "href": "https://www.espn.com/womens-college-basketball/injuries",
 "text": "Injuries"
+},
+{
+"rel": [
+"odds",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/womens-college-basketball/odds",
+"text": "Odds"
+},
+{
+"rel": [
+"odds",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54&section=odds",
+"text": "Odds"
 }
 ]
 }
@@ -19114,6 +19134,7 @@
 "text": "Full Standings",
 "href": "https://www.espn.com/womens-college-basketball/standings"
 },
+"header": "2025 Standings",
 "groups": [
 {
 "standings": {
@@ -21076,6 +21097,7 @@
 "possessionArrowAvailable": false,
 "onWatchESPN": false,
 "recent": false,
+"wallclockAvailable": true,
 "boxscoreSource": "full",
 "playByPlaySource": "full",
 "competitors": [

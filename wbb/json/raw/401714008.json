@@ -1,19 +1,3704 @@
 {
-"boxscore": [],
-"format": [],
-"gameInfo": [],
-"leaders": {},
-"broadcasts": {},
-"predictor": [],
-"pickcenter": {},
-"againstTheSpread": {},
-"odds": {},
+"boxscore": {
+"teams": [
+{
+"team": {
+"id": "288",
+"uid": "s:40~l:54~t:288",
+"slug": "lipscomb-bisons",
+"location": "Lipscomb",
+"name": "Bisons",
+"abbreviation": "LIP",
+"displayName": "Lipscomb Bisons",
+"shortDisplayName": "Lipscomb",
+"color": "20366C",
+"alternateColor": "f6b734",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png"
+},
+"statistics": [
+{
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"displayValue": "33-67",
+"label": "FG"
+},
+{
+"name": "fieldGoalPct",
+"displayValue": "49.3",
+"abbreviation": "FG%",
+"label": "Field Goal %"
+},
+{
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"displayValue": "6-26",
+"label": "3PT"
+},
+{
+"name": "threePointFieldGoalPct",
+"displayValue": "23.1",
+"abbreviation": "3P%",
+"label": "Three Point %"
+},
+{
+"name": "freeThrowsMade-freeThrowsAttempted",
+"displayValue": "11-15",
+"label": "FT"
+},
+{
+"name": "freeThrowPct",
+"displayValue": "73.3",
+"abbreviation": "FT%",
+"label": "Free Throw %"
+},
+{
+"name": "totalRebounds",
+"displayValue": "34",
+"abbreviation": "REB",
+"label": "Rebounds"
+},
+{
+"name": "offensiveRebounds",
+"displayValue": "10",
+"abbreviation": "OR",
+"label": "Offensive Rebounds"
+},
+{
+"name": "defensiveRebounds",
+"displayValue": "24",
+"abbreviation": "DR",
+"label": "Defensive Rebounds"
+},
+{
+"name": "assists",
+"displayValue": "12",
+"abbreviation": "AST",
+"label": "Assists"
+},
+{
+"name": "steals",
+"displayValue": "10",
+"abbreviation": "STL",
+"label": "Steals"
+},
+{
+"name": "blocks",
+"displayValue": "1",
+"abbreviation": "BLK",
+"label": "Blocks"
+},
+{
+"name": "turnovers",
+"displayValue": "13",
+"abbreviation": "TO",
+"label": "Turnovers"
+},
+{
+"name": "teamTurnovers",
+"displayValue": "2",
+"abbreviation": "TTO",
+"label": "Team Turnovers"
+},
+{
+"name": "totalTurnovers",
+"displayValue": "13",
+"abbreviation": "ToTO",
+"label": "Total Turnovers"
+},
+{
+"name": "technicalFouls",
+"displayValue": "0",
+"abbreviation": "TECH",
+"label": "Technical Fouls"
+},
+{
+"name": "totalTechnicalFouls",
+"displayValue": "0",
+"abbreviation": "TECH",
+"label": "Total Technical Fouls"
+},
+{
+"name": "turnoverPoints",
+"displayValue": "24",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "12",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "50",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
+"name": "fouls",
+"displayValue": "16",
+"abbreviation": "PF",
+"label": "Fouls"
+},
+{
+"name": "largestLead",
+"displayValue": "11",
+"abbreviation": "LL",
+"label": "Largest Lead"
+}
+],
+"displayOrder": 1,
+"homeAway": "away"
+},
+{
+"team": {
+"id": "2698",
+"uid": "s:40~l:54~t:2698",
+"slug": "west-georgia-wolves",
+"location": "West Georgia",
+"name": "Wolves",
+"abbreviation": "WGA",
+"displayName": "West Georgia Wolves",
+"shortDisplayName": "West Georgia",
+"color": "0033a1",
+"alternateColor": "db1a21",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png"
+},
+"statistics": [
+{
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"displayValue": "27-70",
+"label": "FG"
+},
+{
+"name": "fieldGoalPct",
+"displayValue": "38.6",
+"abbreviation": "FG%",
+"label": "Field Goal %"
+},
+{
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"displayValue": "6-22",
+"label": "3PT"
+},
+{
+"name": "threePointFieldGoalPct",
+"displayValue": "27.3",
+"abbreviation": "3P%",
+"label": "Three Point %"
+},
+{
+"name": "freeThrowsMade-freeThrowsAttempted",
+"displayValue": "13-19",
+"label": "FT"
+},
+{
+"name": "freeThrowPct",
+"displayValue": "68.4",
+"abbreviation": "FT%",
+"label": "Free Throw %"
+},
+{
+"name": "totalRebounds",
+"displayValue": "46",
+"abbreviation": "REB",
+"label": "Rebounds"
+},
+{
+"name": "offensiveRebounds",
+"displayValue": "22",
+"abbreviation": "OR",
+"label": "Offensive Rebounds"
+},
+{
+"name": "defensiveRebounds",
+"displayValue": "24",
+"abbreviation": "DR",
+"label": "Defensive Rebounds"
+},
+{
+"name": "assists",
+"displayValue": "14",
+"abbreviation": "AST",
+"label": "Assists"
+},
+{
+"name": "steals",
+"displayValue": "7",
+"abbreviation": "STL",
+"label": "Steals"
+},
+{
+"name": "blocks",
+"displayValue": "1",
+"abbreviation": "BLK",
+"label": "Blocks"
+},
+{
+"name": "turnovers",
+"displayValue": "19",
+"abbreviation": "TO",
+"label": "Turnovers"
+},
+{
+"name": "teamTurnovers",
+"displayValue": "1",
+"abbreviation": "TTO",
+"label": "Team Turnovers"
+},
+{
+"name": "totalTurnovers",
+"displayValue": "19",
+"abbreviation": "ToTO",
+"label": "Total Turnovers"
+},
+{
+"name": "technicalFouls",
+"displayValue": "0",
+"abbreviation": "TECH",
+"label": "Technical Fouls"
+},
+{
+"name": "totalTechnicalFouls",
+"displayValue": "0",
+"abbreviation": "TECH",
+"label": "Total Technical Fouls"
+},
+{
+"name": "turnoverPoints",
+"displayValue": "12",
+"abbreviation": "PTS OFF TO",
+"label": "Points Off Turnovers"
+},
+{
+"name": "fastBreakPoints",
+"displayValue": "13",
+"abbreviation": "FBPs",
+"label": "Fast Break Points"
+},
+{
+"name": "pointsInPaint",
+"displayValue": "26",
+"abbreviation": "PIP",
+"label": "Points in Paint"
+},
+{
+"name": "fouls",
+"displayValue": "18",
+"abbreviation": "PF",
+"label": "Fouls"
+},
+{
+"name": "largestLead",
+"displayValue": "13",
+"abbreviation": "LL",
+"label": "Largest Lead"
+}
+],
+"displayOrder": 2,
+"homeAway": "home"
+}
+],
+"players": [
+{
+"team": {
+"id": "288",
+"uid": "s:40~l:54~t:288",
+"slug": "lipscomb-bisons",
+"location": "Lipscomb",
+"name": "Bisons",
+"abbreviation": "LIP",
+"displayName": "Lipscomb Bisons",
+"shortDisplayName": "Lipscomb",
+"color": "20366C",
+"alternateColor": "f6b734",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Points"
+],
+"athletes": [
+{
+"active": false,
+"athlete": {
+"id": "5107447",
+"uid": "s:40~l:54~a:5107447",
+"guid": "4545a65f-bdd3-32dd-8d50-1b9e89360810",
+"displayName": "Ainhoa Cea",
+"shortName": "A. Cea",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5107447/ainhoa-cea",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5107447.png",
+"alt": "Ainhoa Cea"
+},
+"jersey": "14",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"28",
+"2-4",
+"0-0",
+"2-2",
+"2",
+"4",
+"6",
+"1",
+"5",
+"0",
+"1",
+"4",
+"6"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5107445",
+"uid": "s:40~l:54~a:5107445",
+"guid": "26718149-5848-3270-8313-2e978a5f7a4d",
+"displayName": "Molly Heard",
+"shortName": "M. Heard",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5107445/molly-heard",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5107445.png",
+"alt": "Molly Heard"
+},
+"jersey": "3",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"35",
+"6-17",
+"1-7",
+"0-0",
+"3",
+"1",
+"4",
+"3",
+"2",
+"1",
+"2",
+"3",
+"13"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4900209",
+"uid": "s:40~l:54~a:4900209",
+"guid": "d1cff2b4-3031-3b11-a867-a64c547652f0",
+"displayName": "Claira McGowan",
+"shortName": "C. McGowan",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4900209/claira-mcgowan",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4900209.png",
+"alt": "Claira McGowan"
+},
+"jersey": "1",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"43",
+"9-17",
+"3-8",
+"3-6",
+"0",
+"5",
+"5",
+"2",
+"1",
+"0",
+"3",
+"2",
+"24"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4898943",
+"uid": "s:40~l:54~a:4898943",
+"guid": "fdddf888-e146-333f-9499-08f23ed76e68",
+"displayName": "Bella Vinson",
+"shortName": "B. Vinson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4898943/bella-vinson",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4898943.png",
+"alt": "Bella Vinson"
+},
+"jersey": "21",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"38",
+"11-15",
+"1-3",
+"4-5",
+"2",
+"3",
+"5",
+"2",
+"1",
+"0",
+"2",
+"0",
+"27"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4594409",
+"uid": "s:40~l:54~a:4594409",
+"guid": "941ec523-f196-319f-96f7-6c5d5ba8e82f",
+"displayName": "Jalyn Holcomb",
+"shortName": "J. Holcomb",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4594409/jalyn-holcomb",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4594409.png",
+"alt": "Jalyn Holcomb"
+},
+"jersey": "23",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"26",
+"0-3",
+"0-3",
+"2-2",
+"0",
+"3",
+"3",
+"0",
+"1",
+"0",
+"1",
+"3",
+"2"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5175458",
+"uid": "s:40~l:54~a:5175458",
+"guid": "27497616-80fb-3de4-9ab7-56e43e83296e",
+"displayName": "Isabella Pitta",
+"shortName": "I. Pitta",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5175458/isabella-pitta",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5175458.png",
+"alt": "Isabella Pitta"
+},
+"jersey": "31",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"2",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5107448",
+"uid": "s:40~l:54~a:5107448",
+"guid": "03f03bc0-c27b-3b32-9d20-75ee9ecf8843",
+"displayName": "Taylor Bowen",
+"shortName": "T. Bowen",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5107448/taylor-bowen",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5107448.png",
+"alt": "Taylor Bowen"
+},
+"jersey": "32",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"31",
+"2-6",
+"0-3",
+"0-0",
+"2",
+"5",
+"7",
+"1",
+"0",
+"0",
+"0",
+"2",
+"4"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5240604",
+"uid": "s:40~l:54~a:5240604",
+"guid": "7596920e-7e5c-3a7f-a392-5647b30c31a2",
+"displayName": "Addison Melton",
+"shortName": "A. Melton",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240604/addison-melton",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240604.png",
+"alt": "Addison Melton"
+},
+"jersey": "22",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"10",
+"1-2",
+"1-2",
+"0-0",
+"0",
+"0",
+"0",
+"1",
+"0",
+"0",
+"0",
+"2",
+"3"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5175457",
+"uid": "s:40~l:54~a:5175457",
+"guid": "cdae7223-8d0c-3c9e-98d8-1d34184e8693",
+"displayName": "Elena Bertrand",
+"shortName": "E. Bertrand",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5175457/elena-bertrand",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5175457.png",
+"alt": "Elena Bertrand"
+},
+"jersey": "2",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"12",
+"2-3",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"2",
+"0",
+"0",
+"2",
+"0",
+"4"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5240603",
+"uid": "s:40~l:54~a:5240603",
+"guid": "035527bd-7e1b-3f24-832d-92a22451d73d",
+"displayName": "Taylor Holt",
+"shortName": "T. Holt",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240603/taylor-holt",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240603.png",
+"alt": "Taylor Holt"
+},
+"jersey": "15",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"ejected": false,
+"stats": []
+},
+{
+"active": false,
+"athlete": {
+"id": "5175456",
+"uid": "s:40~l:54~a:5175456",
+"guid": "d527dca9-ef4d-3382-9705-9589b0ce191a",
+"displayName": "Olivia Vandergriff",
+"shortName": "O. Vandergriff",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5175456/olivia-vandergriff",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5175456.png",
+"alt": "Olivia Vandergriff"
+},
+"jersey": "0",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"ejected": false,
+"stats": []
+}
+],
+"totals": [
+"",
+"33-67",
+"6-26",
+"11-15",
+"10",
+"24",
+"34",
+"12",
+"10",
+"1",
+"13",
+"16",
+"83"
+]
+}
+],
+"displayOrder": 1
+},
+{
+"team": {
+"id": "2698",
+"uid": "s:40~l:54~t:2698",
+"slug": "west-georgia-wolves",
+"location": "West Georgia",
+"name": "Wolves",
+"abbreviation": "WGA",
+"displayName": "West Georgia Wolves",
+"shortDisplayName": "West Georgia",
+"color": "0033a1",
+"alternateColor": "db1a21",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Points"
+],
+"athletes": [
+{
+"active": false,
+"athlete": {
+"id": "4704861",
+"uid": "s:40~l:54~a:4704861",
+"guid": "6fac63bd-306d-383a-94e0-9e84bfe50cef",
+"displayName": "Amanda Blake",
+"shortName": "A. Blake",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704861/amanda-blake",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704861.png",
+"alt": "Amanda Blake"
+},
+"jersey": "14",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"27",
+"1-4",
+"0-0",
+"0-0",
+"4",
+"4",
+"8",
+"2",
+"0",
+"0",
+"4",
+"4",
+"2"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5240654",
+"uid": "s:40~l:54~a:5240654",
+"guid": "e030dcee-aea9-33b0-957e-55f2b2906016",
+"displayName": "Destiny Jones",
+"shortName": "D. Jones",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240654/destiny-jones",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240654.png",
+"alt": "Destiny Jones"
+},
+"jersey": "12",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"15",
+"3-8",
+"0-0",
+"1-2",
+"5",
+"0",
+"5",
+"0",
+"0",
+"0",
+"1",
+"5",
+"7"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5240651",
+"uid": "s:40~l:54~a:5240651",
+"guid": "130e89f0-c046-3c97-80fb-f3b17eda097f",
+"displayName": "Zuriyah Davis",
+"shortName": "Z. Davis",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240651/zuriyah-davis",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240651.png",
+"alt": "Zuriyah Davis"
+},
+"jersey": "2",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"40",
+"5-17",
+"1-8",
+"0-0",
+"1",
+"2",
+"3",
+"5",
+"0",
+"0",
+"2",
+"2",
+"11"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5240650",
+"uid": "s:40~l:54~a:5240650",
+"guid": "19cc28ad-be05-3637-83ad-bbe8efc0a33b",
+"displayName": "Sydne Tolbert",
+"shortName": "S. Tolbert",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240650/sydne-tolbert",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240650.png",
+"alt": "Sydne Tolbert"
+},
+"jersey": "1",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"35",
+"6-15",
+"0-4",
+"9-10",
+"2",
+"6",
+"8",
+"1",
+"3",
+"0",
+"4",
+"1",
+"21"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5181594",
+"uid": "s:40~l:54~a:5181594",
+"guid": "beca868e-a132-3104-923e-b663f3214912",
+"displayName": "Grace O'Gara",
+"shortName": "G. O'Gara",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5181594/grace-ogara",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5181594.png",
+"alt": "Grace O'Gara"
+},
+"jersey": "5",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"17",
+"2-5",
+"1-2",
+"0-0",
+"1",
+"5",
+"6",
+"1",
+"0",
+"0",
+"2",
+"0",
+"5"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5240653",
+"uid": "s:40~l:54~a:5240653",
+"guid": "ec2f0548-962b-3457-a8e9-cbbf70181c8e",
+"displayName": "Gal-la Font",
+"shortName": "G. Font",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240653/gal-la-font",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240653.png",
+"alt": "Gal-la Font"
+},
+"jersey": "11",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"8",
+"1-1",
+"0-0",
+"0-0",
+"2",
+"1",
+"3",
+"0",
+"0",
+"0",
+"0",
+"1",
+"2"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4909369",
+"uid": "s:40~l:54~a:4909369",
+"guid": "672f11e8-9da5-36d8-a191-657bb6f47f19",
+"displayName": "Hannah Hicks",
+"shortName": "H. Hicks",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4909369/hannah-hicks",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4909369.png",
+"alt": "Hannah Hicks"
+},
+"jersey": "21",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"3",
+"0-3",
+"0-1",
+"0-0",
+"1",
+"0",
+"1",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5240658",
+"uid": "s:40~l:54~a:5240658",
+"guid": "929e39af-dd53-3869-931a-173325846193",
+"displayName": "K'Nari Holliday",
+"shortName": "K. Holliday",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240658/knari-holliday",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240658.png",
+"alt": "K'Nari Holliday"
+},
+"jersey": "32",
+"position": {
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"37",
+"5-6",
+"1-1",
+"0-1",
+"3",
+"3",
+"6",
+"1",
+"1",
+"1",
+"2",
+"2",
+"11"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5240656",
+"uid": "s:40~l:54~a:5240656",
+"guid": "3c7689ab-7a77-36ab-89d0-2c25fb7f0b19",
+"displayName": "Riley Black",
+"shortName": "R. Black",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240656/riley-black",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240656.png",
+"alt": "Riley Black"
+},
+"jersey": "15",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"1",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"1",
+"0",
+"0",
+"0",
+"0",
+"0"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5240655",
+"uid": "s:40~l:54~a:5240655",
+"guid": "a496852d-e6ee-30dd-b367-19e2bcd6fa0c",
+"displayName": "Becca Ledford",
+"shortName": "B. Ledford",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240655/becca-ledford",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240655.png",
+"alt": "Becca Ledford"
+},
+"jersey": "13",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"11",
+"1-5",
+"0-3",
+"0-0",
+"2",
+"0",
+"2",
+"0",
+"1",
+"0",
+"1",
+"0",
+"2"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4704766",
+"uid": "s:40~l:54~a:4704766",
+"guid": "cffd4924-4820-3d8a-b498-f6fdd25c9589",
+"displayName": "Mykah Anderson",
+"shortName": "M. Anderson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704766/mykah-anderson",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704766.png",
+"alt": "Mykah Anderson"
+},
+"jersey": "3",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"31",
+"3-6",
+"3-3",
+"3-6",
+"1",
+"2",
+"3",
+"3",
+"2",
+"0",
+"2",
+"3",
+"12"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5240652",
+"uid": "s:40~l:54~a:5240652",
+"guid": "af58a8a1-8aeb-36e9-9350-cb1d0bb37ece",
+"displayName": "Calie Thrower",
+"shortName": "C. Thrower",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240652/calie-thrower",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240652.png",
+"alt": "Calie Thrower"
+},
+"jersey": "10",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"ejected": false,
+"stats": []
+}
+],
+"totals": [
+"",
+"27-70",
+"6-22",
+"13-19",
+"22",
+"24",
+"46",
+"14",
+"7",
+"1",
+"19",
+"18",
+"73"
+]
+}
+],
+"displayOrder": 2
+}
+]
+},
+"format": {
+"regulation": {
+"periods": 4,
+"displayName": "Quarter",
+"slug": "quarter",
+"clock": 600.0
+},
+"overtime": {
+"clock": 300.0
+}
+},
+"gameInfo": {
+"venue": {
+"id": "9548",
+"fullName": "The Coliseum",
+"address": {
+"city": "Carrollton",
+"state": "GA",
+"zipCode": "30117"
+},
+"grass": false,
+"images": []
+},
+"attendance": 202,
+"officials": [
+{
+"fullName": "Jody Cantrell",
+"displayName": "Jody Cantrell",
+"position": {
+"name": "Referee",
+"displayName": "Referee",
+"id": "40"
+},
+"order": 1
+},
+{
+"fullName": "Shawnee Smith",
+"displayName": "Shawnee Smith",
+"position": {
+"name": "Referee",
+"displayName": "Referee",
+"id": "40"
+},
+"order": 2
+},
+{
+"fullName": "Will Giles",
+"displayName": "Will Giles",
+"position": {
+"name": "Referee",
+"displayName": "Referee",
+"id": "40"
+},
+"order": 3
+}
+]
+},
+"leaders": [
+{
+"team": {
+"id": "2698",
+"uid": "s:40~l:54~t:2698",
+"displayName": "West Georgia Wolves",
+"abbreviation": "WGA",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/2698/west-georgia-wolves",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2698",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-12T14:37Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2698.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-12T14:37Z"
+}
+]
+},
+"leaders": [
+{
+"name": "points",
+"displayName": "Points",
+"leaders": [
+{
+"displayValue": "21",
+"athlete": {
+"id": "5240650",
+"uid": "s:40~l:54~a:5240650",
+"guid": "19cc28ad-be05-3637-83ad-bbe8efc0a33b",
+"lastName": "Tolbert",
+"fullName": "Sydne Tolbert",
+"displayName": "Sydne Tolbert",
+"shortName": "S. Tolbert",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240650/sydne-tolbert",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240650.png",
+"alt": "Sydne Tolbert"
+},
+"jersey": "1",
+"position": {
+"abbreviation": "G"
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+"statistics": [
+{
+"name": "points",
+"displayName": "Points",
+"shortDisplayName": "PTS",
+"description": "The number of points scored.",
+"abbreviation": "PTS",
+"value": 21.0,
+"displayValue": "21"
+},
+{
+"name": "fieldGoals",
+"displayName": "Field Goals",
+"shortDisplayName": "FG",
+"description": "Field Goal makes and attempts.",
+"abbreviation": "FG",
+"value": 0.4,
+"displayValue": "6/15"
+},
+{
+"name": "freeThrows",
+"displayName": "Free Throws",
+"shortDisplayName": "FT",
+"description": "Free Throw makes and attempts.",
+"abbreviation": "FT",
+"value": 0.9,
+"displayValue": "9/10"
+}
+]
+}
+]
+},
+{
+"name": "assists",
+"displayName": "Assists",
+"leaders": [
+{
+"displayValue": "5",
+"athlete": {
+"id": "5240651",
+"uid": "s:40~l:54~a:5240651",
+"guid": "130e89f0-c046-3c97-80fb-f3b17eda097f",
+"lastName": "Davis",
+"fullName": "Zuriyah Davis",
+"displayName": "Zuriyah Davis",
+"shortName": "Z. Davis",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240651/zuriyah-davis",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240651.png",
+"alt": "Zuriyah Davis"
+},
+"jersey": "2",
+"position": {
+"abbreviation": "G"
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+"statistics": [
+{
+"name": "assists",
+"displayName": "Assists",
+"shortDisplayName": "AST",
+"description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
+"abbreviation": "AST",
+"value": 5.0,
+"displayValue": "5"
+},
+{
+"name": "turnovers",
+"displayName": "Turnovers",
+"shortDisplayName": "TO",
+"description": "The number of times a player loses possession to the other team.",
+"abbreviation": "TO",
+"value": 2.0,
+"displayValue": "2"
+},
+{
+"name": "minutes",
+"displayName": "Minutes",
+"shortDisplayName": "MIN",
+"description": "The total number of minutes played.",
+"abbreviation": "MIN",
+"value": 40.0,
+"displayValue": "40"
+},
+{
+"name": "assistTurnoverRatio",
+"displayName": "Assist To Turnover Ratio",
+"shortDisplayName": "AST/TO",
+"description": "The average number of assists a player or team records per turnover",
+"abbreviation": "AST/TO",
+"value": 2.5,
+"displayValue": "2.5"
+}
+]
+}
+]
+},
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"leaders": [
+{
+"displayValue": "8",
+"athlete": {
+"id": "5240650",
+"uid": "s:40~l:54~a:5240650",
+"guid": "19cc28ad-be05-3637-83ad-bbe8efc0a33b",
+"lastName": "Tolbert",
+"fullName": "Sydne Tolbert",
+"displayName": "Sydne Tolbert",
+"shortName": "S. Tolbert",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240650/sydne-tolbert",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240650.png",
+"alt": "Sydne Tolbert"
+},
+"jersey": "1",
+"position": {
+"abbreviation": "G"
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+"statistics": [
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"shortDisplayName": "REB",
+"description": "The total number of rebounds (offensive and defensive).",
+"abbreviation": "REB",
+"value": 8.0,
+"displayValue": "8"
+},
+{
+"name": "defensiveRebounds",
+"displayName": "Defensive Rebounds",
+"shortDisplayName": "DREB",
+"description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
+"abbreviation": "DR",
+"value": 6.0,
+"displayValue": "6"
+},
+{
+"name": "offensiveRebounds",
+"displayName": "Offensive Rebounds",
+"shortDisplayName": "OREB",
+"description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
+"abbreviation": "OR",
+"value": 2.0,
+"displayValue": "2"
+}
+]
+}
+]
+}
+]
+},
+{
+"team": {
+"id": "288",
+"uid": "s:40~l:54~t:288",
+"displayName": "Lipscomb Bisons",
+"abbreviation": "LIP",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/288/lipscomb-bisons",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/288",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/288.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+"leaders": [
+{
+"name": "points",
+"displayName": "Points",
+"leaders": [
+{
+"displayValue": "27",
+"athlete": {
+"id": "4898943",
+"uid": "s:40~l:54~a:4898943",
+"guid": "fdddf888-e146-333f-9499-08f23ed76e68",
+"lastName": "Vinson",
+"fullName": "Bella Vinson",
+"displayName": "Bella Vinson",
+"shortName": "B. Vinson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4898943/bella-vinson",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4898943.png",
+"alt": "Bella Vinson"
+},
+"jersey": "21",
+"position": {
+"abbreviation": "G"
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+"statistics": [
+{
+"name": "points",
+"displayName": "Points",
+"shortDisplayName": "PTS",
+"description": "The number of points scored.",
+"abbreviation": "PTS",
+"value": 27.0,
+"displayValue": "27"
+},
+{
+"name": "fieldGoals",
+"displayName": "Field Goals",
+"shortDisplayName": "FG",
+"description": "Field Goal makes and attempts.",
+"abbreviation": "FG",
+"value": 0.733333,
+"displayValue": "11/15"
+},
+{
+"name": "freeThrows",
+"displayName": "Free Throws",
+"shortDisplayName": "FT",
+"description": "Free Throw makes and attempts.",
+"abbreviation": "FT",
+"value": 0.8,
+"displayValue": "4/5"
+}
+]
+}
+]
+},
+{
+"name": "assists",
+"displayName": "Assists",
+"leaders": [
+{
+"displayValue": "3",
+"athlete": {
+"id": "5107445",
+"uid": "s:40~l:54~a:5107445",
+"guid": "26718149-5848-3270-8313-2e978a5f7a4d",
+"lastName": "Heard",
+"fullName": "Molly Heard",
+"displayName": "Molly Heard",
+"shortName": "M. Heard",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5107445/molly-heard",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5107445.png",
+"alt": "Molly Heard"
+},
+"jersey": "3",
+"position": {
+"abbreviation": "G"
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+"statistics": [
+{
+"name": "assists",
+"displayName": "Assists",
+"shortDisplayName": "AST",
+"description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
+"abbreviation": "AST",
+"value": 3.0,
+"displayValue": "3"
+},
+{
+"name": "turnovers",
+"displayName": "Turnovers",
+"shortDisplayName": "TO",
+"description": "The number of times a player loses possession to the other team.",
+"abbreviation": "TO",
+"value": 2.0,
+"displayValue": "2"
+},
+{
+"name": "minutes",
+"displayName": "Minutes",
+"shortDisplayName": "MIN",
+"description": "The total number of minutes played.",
+"abbreviation": "MIN",
+"value": 35.0,
+"displayValue": "35"
+},
+{
+"name": "assistTurnoverRatio",
+"displayName": "Assist To Turnover Ratio",
+"shortDisplayName": "AST/TO",
+"description": "The average number of assists a player or team records per turnover",
+"abbreviation": "AST/TO",
+"value": 1.5,
+"displayValue": "1.5"
+}
+]
+}
+]
+},
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"leaders": [
+{
+"displayValue": "7",
+"athlete": {
+"id": "5107448",
+"uid": "s:40~l:54~a:5107448",
+"guid": "03f03bc0-c27b-3b32-9d20-75ee9ecf8843",
+"lastName": "Bowen",
+"fullName": "Taylor Bowen",
+"displayName": "Taylor Bowen",
+"shortName": "T. Bowen",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5107448/taylor-bowen",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5107448.png",
+"alt": "Taylor Bowen"
+},
+"jersey": "32",
+"position": {
+"abbreviation": "F"
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+"statistics": [
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"shortDisplayName": "REB",
+"description": "The total number of rebounds (offensive and defensive).",
+"abbreviation": "REB",
+"value": 7.0,
+"displayValue": "7"
+},
+{
+"name": "defensiveRebounds",
+"displayName": "Defensive Rebounds",
+"shortDisplayName": "DREB",
+"description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
+"abbreviation": "DR",
+"value": 5.0,
+"displayValue": "5"
+},
+{
+"name": "offensiveRebounds",
+"displayName": "Offensive Rebounds",
+"shortDisplayName": "OREB",
+"description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
+"abbreviation": "OR",
+"value": 2.0,
+"displayValue": "2"
+}
+]
+}
+]
+}
+]
+}
+],
+"broadcasts": [
+{
+"type": {
+"id": "4",
+"shortName": "Streaming",
+"longName": "Streaming",
+"slug": "streaming"
+},
+"station": "ESPN+",
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"callLetters": "ESPN+",
+"name": "ESPN+",
+"shortName": "ESPN+"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"predictor": {
+"header": "Matchup Predictor",
+"homeTeam": {
+"id": "2698",
+"gameProjection": "16.7",
+"teamChanceLoss": "83.3",
+"teamChanceTie": "0.0"
+},
+"awayTeam": {
+"id": "288",
+"gameProjection": "83.3",
+"teamChanceLoss": "16.7",
+"teamChanceTie": "0.0"
+}
+},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "288",
+"uid": "s:40~l:54~t:288",
+"displayName": "Lipscomb Bisons",
+"abbreviation": "LIP",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/288/lipscomb-bisons",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/288",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/288.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+"records": []
+},
+{
+"team": {
+"id": "2698",
+"uid": "s:40~l:54~t:2698",
+"displayName": "West Georgia Wolves",
+"abbreviation": "WGA",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/2698/west-georgia-wolves",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2698",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-12T14:37Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2698.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-12T14:37Z"
+}
+]
+},
+"records": []
+}
+],
+"odds": [],
 "winprobability": {},
-"header": [],
-"plays": {},
+"header": {
+"id": "401714008",
+"uid": "s:40~l:54~e:401714008",
+"season": {
+"year": 2025,
+"type": 2
+},
+"timeValid": true,
+"competitions": [
+{
+"id": "401714008",
+"uid": "s:40~l:54~e:401714008~c:401714008",
+"date": "2025-01-11T19:00Z",
+"neutralSite": false,
+"conferenceCompetition": true,
+"boxscoreAvailable": true,
+"commentaryAvailable": false,
+"liveAvailable": false,
+"shotChartAvailable": false,
+"timeoutsAvailable": false,
+"possessionArrowAvailable": false,
+"onWatchESPN": true,
+"recent": false,
+"wallclockAvailable": false,
+"boxscoreSource": "full",
+"playByPlaySource": "none",
+"competitors": [
+{
+"id": "2698",
+"uid": "s:40~l:54~t:2698",
+"order": 0,
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "2698",
+"uid": "s:40~l:54~t:2698",
+"location": "West Georgia",
+"name": "Wolves",
+"nickname": "West Georgia",
+"abbreviation": "WGA",
+"displayName": "West Georgia Wolves",
+"color": "0033a1",
+"alternateColor": "db1a21",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-12T14:37Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2698.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-12T14:37Z"
+},
+{
+"href": "https://a.espncdn.com/guid/b390cb2d-0d86-995b-39e5-31572cff70b0/logos/primary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"primary_logo_on_white_color"
+],
+"lastUpdated": "2024-11-11T01:40Z"
+},
+{
+"href": "https://a.espncdn.com/guid/b390cb2d-0d86-995b-39e5-31572cff70b0/logos/primary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"primary_logo_on_black_color"
+],
+"lastUpdated": "2024-11-11T01:40Z"
+},
+{
+"href": "https://a.espncdn.com/guid/b390cb2d-0d86-995b-39e5-31572cff70b0/logos/primary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"primary_logo_on_primary_color"
+],
+"lastUpdated": "2024-11-11T01:40Z"
+},
+{
+"href": "https://a.espncdn.com/guid/b390cb2d-0d86-995b-39e5-31572cff70b0/logos/primary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"primary_logo_on_secondary_color"
+],
+"lastUpdated": "2024-11-11T01:40Z"
+},
+{
+"href": "https://a.espncdn.com/guid/b390cb2d-0d86-995b-39e5-31572cff70b0/logos/secondary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"secondary_logo_on_white_color"
+],
+"lastUpdated": "2024-11-11T01:40Z"
+},
+{
+"href": "https://a.espncdn.com/guid/b390cb2d-0d86-995b-39e5-31572cff70b0/logos/secondary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"secondary_logo_on_black_color"
+],
+"lastUpdated": "2024-11-11T01:40Z"
+},
+{
+"href": "https://a.espncdn.com/guid/b390cb2d-0d86-995b-39e5-31572cff70b0/logos/secondary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"secondary_logo_on_primary_color"
+],
+"lastUpdated": "2024-11-11T01:40Z"
+},
+{
+"href": "https://a.espncdn.com/guid/b390cb2d-0d86-995b-39e5-31572cff70b0/logos/secondary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"secondary_logo_on_secondary_color"
+],
+"lastUpdated": "2024-11-11T01:40Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/2698/west-georgia-wolves",
+"text": "Clubhouse"
+}
+]
+},
+"score": "73",
+"linescores": [
+{
+"displayValue": "18"
+},
+{
+"displayValue": "10"
+},
+{
+"displayValue": "23"
+},
+{
+"displayValue": "15"
+},
+{
+"displayValue": "7"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "7-8",
+"displayValue": "7-8"
+},
+{
+"type": "home",
+"summary": "5-1",
+"displayValue": "5-1"
+},
+{
+"type": "vsconf",
+"summary": "1-3",
+"displayValue": "1-3"
+}
+],
+"possession": false
+},
+{
+"id": "288",
+"uid": "s:40~l:54~t:288",
+"order": 1,
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "288",
+"uid": "s:40~l:54~t:288",
+"location": "Lipscomb",
+"name": "Bisons",
+"nickname": "Lipscomb",
+"abbreviation": "LIP",
+"displayName": "Lipscomb Bisons",
+"color": "20366C",
+"alternateColor": "f6b734",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/288.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/guid/4d831d32-8870-cef6-e946-6b959daa7dd9/logos/primary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"primary_logo_on_white_color"
+],
+"lastUpdated": "2024-11-11T01:44Z"
+},
+{
+"href": "https://a.espncdn.com/guid/4d831d32-8870-cef6-e946-6b959daa7dd9/logos/primary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"primary_logo_on_black_color"
+],
+"lastUpdated": "2024-11-11T01:44Z"
+},
+{
+"href": "https://a.espncdn.com/guid/4d831d32-8870-cef6-e946-6b959daa7dd9/logos/primary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"primary_logo_on_primary_color"
+],
+"lastUpdated": "2024-11-11T01:44Z"
+},
+{
+"href": "https://a.espncdn.com/guid/4d831d32-8870-cef6-e946-6b959daa7dd9/logos/primary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"primary_logo_on_secondary_color"
+],
+"lastUpdated": "2024-11-11T01:44Z"
+},
+{
+"href": "https://a.espncdn.com/guid/4d831d32-8870-cef6-e946-6b959daa7dd9/logos/secondary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"secondary_logo_on_white_color"
+],
+"lastUpdated": "2024-11-11T01:44Z"
+},
+{
+"href": "https://a.espncdn.com/guid/4d831d32-8870-cef6-e946-6b959daa7dd9/logos/secondary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"secondary_logo_on_black_color"
+],
+"lastUpdated": "2024-11-11T01:44Z"
+},
+{
+"href": "https://a.espncdn.com/guid/4d831d32-8870-cef6-e946-6b959daa7dd9/logos/secondary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"secondary_logo_on_primary_color"
+],
+"lastUpdated": "2024-11-11T01:44Z"
+},
+{
+"href": "https://a.espncdn.com/guid/4d831d32-8870-cef6-e946-6b959daa7dd9/logos/secondary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"alt": "",
+"rel": [
+"full",
+"secondary_logo_on_secondary_color"
+],
+"lastUpdated": "2024-11-11T01:44Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/288/lipscomb-bisons",
+"text": "Clubhouse"
+}
+]
+},
+"score": "83",
+"linescores": [
+{
+"displayValue": "9"
+},
+{
+"displayValue": "15"
+},
+{
+"displayValue": "21"
+},
+{
+"displayValue": "21"
+},
+{
+"displayValue": "17"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "10-5",
+"displayValue": "10-5"
+},
+{
+"type": "road",
+"summary": "2-4",
+"displayValue": "2-4"
+},
+{
+"type": "vsconf",
+"summary": "3-1",
+"displayValue": "3-1"
+}
+],
+"possession": false
+}
+],
+"status": {
+"type": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final/OT",
+"shortDetail": "Final/OT",
+"altDetail": "OT"
+}
+},
+"broadcasts": [
+{
+"type": {
+"id": "4",
+"shortName": "Streaming"
+},
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "ESPN+"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"groups": {
+"id": "46",
+"name": "ASUN Conference",
+"abbreviation": "a-sun",
+"shortName": "ASUN",
+"midsizeName": "ASUN"
+}
+}
+],
+"links": [
+{
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/game/_/gameId/401714008/lipscomb-west-georgia",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401714008",
+"text": "Box Score",
+"shortText": "Box Score",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/matchup?gameId=401714008",
+"text": "Team Stats",
+"shortText": "Team Stats",
+"isExternal": false,
+"isPremium": false
+}
+],
+"week": 10,
+"league": {
+"id": "54",
+"uid": "s:40~l:54",
+"name": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
+"midsizeName": "NCAAW Basketball",
+"slug": "womens-college-basketball",
+"isTournament": false,
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/womens-college-basketball/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/womens-college-basketball/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/womens-college-basketball/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/womens-college-basketball/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/womens-college-basketball/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/womens-college-basketball/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/womens-college-basketball/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/womens-college-basketball/injuries",
+"text": "Injuries"
+},
+{
+"rel": [
+"odds",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/womens-college-basketball/odds",
+"text": "Odds"
+},
+{
+"rel": [
+"odds",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54&section=odds",
+"text": "Odds"
+}
+]
+}
+},
+"plays": [],
 "article": [],
-"videos": {},
-"standings": [],
+"videos": [],
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "https://www.espn.com/womens-college-basketball/standings"
+},
+"header": "2025 Standings",
+"groups": [
+{
+"standings": {
+"entries": [
+{
+"team": "Florida Gulf Coast",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/526/florida-gulf-coast-eagles",
+"id": "526",
+"uid": "s:40~l:54~t:526",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "15-3",
+"displayValue": "15-3"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "6-0",
+"displayValue": "6-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/526.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/526.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Lipscomb",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/288/lipscomb-bisons",
+"id": "288",
+"uid": "s:40~l:54~t:288",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "12-5",
+"displayValue": "12-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.0,
+"displayValue": "1"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "5-1",
+"displayValue": "5-1"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/288.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Central Arkansas",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2110/central-arkansas-sugar-bears",
+"id": "2110",
+"uid": "s:40~l:54~t:2110",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "11-6",
+"displayValue": "11-6"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.0,
+"displayValue": "1"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "5-1",
+"displayValue": "5-1"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-10-04T14:41Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2110.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-10-04T14:41Z"
+}
+]
+},
+{
+"team": "Austin Peay",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2046/austin-peay-governors",
+"id": "2046",
+"uid": "s:40~l:54~t:2046",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "9-8",
+"displayValue": "9-8"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.0,
+"displayValue": "2"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "4-2",
+"displayValue": "4-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2046.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2046.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "North Alabama",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2453/north-alabama-lions",
+"id": "2453",
+"uid": "s:40~l:54~t:2453",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "9-8",
+"displayValue": "9-8"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.0,
+"displayValue": "2"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "4-2",
+"displayValue": "4-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-12-09T00:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2453.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-12-09T00:26Z"
+}
+]
+},
+{
+"team": "Eastern Kentucky",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2198/eastern-kentucky-colonels",
+"id": "2198",
+"uid": "s:40~l:54~t:2198",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "13-6",
+"displayValue": "13-6"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.0,
+"displayValue": "3"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "3-3",
+"displayValue": "3-3"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2198.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-08-13T14:33Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2198.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2019-08-13T14:38Z"
+}
+]
+},
+{
+"team": "Bellarmine",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/91/bellarmine-knights",
+"id": "91",
+"uid": "s:40~l:54~t:91",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "12-7",
+"displayValue": "12-7"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.0,
+"displayValue": "3"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "3-3",
+"displayValue": "3-3"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/91.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-12-03T20:20Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/91.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-12-03T20:22Z"
+}
+]
+},
+{
+"team": "Stetson",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/56/stetson-hatters",
+"id": "56",
+"uid": "s:40~l:54~t:56",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "9-9",
+"displayValue": "9-9"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.0,
+"displayValue": "3"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "3-3",
+"displayValue": "3-3"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/56.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-10-21T16:39Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/56.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2019-10-21T16:39Z"
+}
+]
+},
+{
+"team": "Jacksonville",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/294/jacksonville-dolphins",
+"id": "294",
+"uid": "s:40~l:54~t:294",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "8-10",
+"displayValue": "8-10"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4.0,
+"displayValue": "4"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-4",
+"displayValue": "2-4"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-10-22T17:25Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/294.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-10-22T17:26Z"
+}
+]
+},
+{
+"team": "West Georgia",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2698/west-georgia-wolves",
+"id": "2698",
+"uid": "s:40~l:54~t:2698",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "7-10",
+"displayValue": "7-10"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5.0,
+"displayValue": "5"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "1-5",
+"displayValue": "1-5"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-12T14:37Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2698.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-12T14:37Z"
+}
+]
+},
+{
+"team": "Queens University",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2511/queens-university-royals",
+"id": "2511",
+"uid": "s:40~l:54~t:2511",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-11",
+"displayValue": "6-11"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6.0,
+"displayValue": "6"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-6",
+"displayValue": "0-6"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2511.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-07-22T17:10Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2511.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-07-22T17:11Z"
+}
+]
+},
+{
+"team": "North Florida",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2454/north-florida-ospreys",
+"id": "2454",
+"uid": "s:40~l:54~t:2454",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-15",
+"displayValue": "4-15"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6.0,
+"displayValue": "6"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-6",
+"displayValue": "0-6"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2454.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-09-01T21:40Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2454.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-09-01T21:41Z"
+}
+]
+}
+]
+},
+"header": "2024-25 ASUN Conference Standings",
+"href": "https://www.espn.com/womens-college-basketball/standings/_/group/46"
+}
+]
+},
 "teamInfo": {},
 "espnWP": {},
 "season": [],

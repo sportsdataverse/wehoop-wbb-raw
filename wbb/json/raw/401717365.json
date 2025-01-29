@@ -51,7 +51,7 @@
 },
 {
 "name": "totalRebounds",
-"displayValue": "35",
+"displayValue": "36",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
@@ -63,7 +63,7 @@
 },
 {
 "name": "defensiveRebounds",
-"displayValue": "27",
+"displayValue": "28",
 "abbreviation": "DR",
 "label": "Defensive Rebounds"
 },
@@ -166,23 +166,23 @@
 "statistics": [
 {
 "name": "fieldGoalsMade-fieldGoalsAttempted",
-"displayValue": "20-53",
+"displayValue": "20-54",
 "label": "FG"
 },
 {
 "name": "fieldGoalPct",
-"displayValue": "37.7",
+"displayValue": "37.0",
 "abbreviation": "FG%",
 "label": "Field Goal %"
 },
 {
 "name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-"displayValue": "2-9",
+"displayValue": "2-10",
 "label": "3PT"
 },
 {
 "name": "threePointFieldGoalPct",
-"displayValue": "22.2",
+"displayValue": "20.0",
 "abbreviation": "3P%",
 "label": "Three Point %"
 },
@@ -1020,8 +1020,8 @@
 "2-20",
 "7-13",
 "8",
-"27",
-"35",
+"28",
+"36",
 "13",
 "8",
 "3",
@@ -1292,8 +1292,8 @@
 "ejected": false,
 "stats": [
 "35",
-"4-11",
-"0-4",
+"4-12",
+"0-5",
 "0-0",
 "0",
 "6",
@@ -1879,8 +1879,8 @@
 ],
 "totals": [
 "",
-"20-53",
-"2-9",
+"20-54",
+"2-10",
 "6-7",
 "6",
 "22",
@@ -13866,8 +13866,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-6",
-"displayValue": "15-6"
+"summary": "16-6",
+"displayValue": "16-6"
 },
 {
 "name": "gamesBehind",
@@ -13876,8 +13876,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.0,
-"displayValue": "3"
+"value": 2.5,
+"displayValue": "2.5"
 },
 {
 "id": "9",
@@ -13887,8 +13887,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "7-3",
-"displayValue": "7-3"
+"summary": "8-3",
+"displayValue": "8-3"
 }
 ],
 "logo": [
@@ -14109,70 +14109,6 @@
 ]
 },
 {
-"team": "Morehead State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2413/morehead-state-eagles",
-"id": "2413",
-"uid": "s:40~l:54~t:2413",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "7-13",
-"displayValue": "7-13"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 8.0,
-"displayValue": "8"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "2-8",
-"displayValue": "2-8"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2413.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2413.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "Southeast Missouri State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2546/southeast-missouri-state-redhawks",
 "id": "2546",
@@ -14297,6 +14233,70 @@
 "dark"
 ],
 "lastUpdated": "2023-01-24T18:03Z"
+}
+]
+},
+{
+"team": "Morehead State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2413/morehead-state-eagles",
+"id": "2413",
+"uid": "s:40~l:54~t:2413",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "7-14",
+"displayValue": "7-14"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8.5,
+"displayValue": "8.5"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-9",
+"displayValue": "2-9"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2413.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2413.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },

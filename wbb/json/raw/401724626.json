@@ -69,7 +69,7 @@
 },
 {
 "name": "assists",
-"displayValue": "7",
+"displayValue": "8",
 "abbreviation": "AST",
 "label": "Assists"
 },
@@ -177,12 +177,12 @@
 },
 {
 "name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-"displayValue": "5-29",
+"displayValue": "5-28",
 "label": "3PT"
 },
 {
 "name": "threePointFieldGoalPct",
-"displayValue": "17.2",
+"displayValue": "17.9",
 "abbreviation": "3P%",
 "label": "Three Point %"
 },
@@ -217,7 +217,7 @@
 },
 {
 "name": "assists",
-"displayValue": "11",
+"displayValue": "12",
 "abbreviation": "AST",
 "label": "Assists"
 },
@@ -466,7 +466,7 @@
 "2",
 "4",
 "6",
-"3",
+"2",
 "2",
 "1",
 "1",
@@ -564,7 +564,7 @@
 "1",
 "0",
 "1",
-"0",
+"2",
 "2",
 "0",
 "1",
@@ -938,7 +938,7 @@
 "13",
 "26",
 "39",
-"7",
+"8",
 "6",
 "6",
 "15",
@@ -1062,7 +1062,7 @@
 "stats": [
 "29",
 "2-10",
-"0-5",
+"0-4",
 "6-6",
 "2",
 "2",
@@ -1214,7 +1214,7 @@
 "1",
 "6",
 "7",
-"0",
+"1",
 "1",
 "0",
 "0",
@@ -1646,12 +1646,12 @@
 "totals": [
 "",
 "19-59",
-"5-29",
+"5-28",
 "15-15",
 "14",
 "28",
 "42",
-"11",
+"12",
 "4",
 "5",
 "13",
@@ -15615,8 +15615,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "17-4",
-"displayValue": "17-4"
+"summary": "18-4",
+"displayValue": "18-4"
 },
 {
 "name": "gamesBehind",
@@ -15625,8 +15625,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.0,
-"displayValue": "1"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -15636,8 +15636,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "9-1",
-"displayValue": "9-1"
+"summary": "10-1",
+"displayValue": "10-1"
 }
 ],
 "logo": [
@@ -15662,70 +15662,6 @@
 "dark"
 ],
 "lastUpdated": "2018-09-05T22:10Z"
-}
-]
-},
-{
-"team": "Duke",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/150/duke-blue-devils",
-"id": "150",
-"uid": "s:40~l:54~t:150",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "17-4",
-"displayValue": "17-4"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5,
-"displayValue": "1.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "8-1",
-"displayValue": "8-1"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/150.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-07T19:32Z"
 }
 ]
 },
@@ -15790,6 +15726,70 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Duke",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/150/duke-blue-devils",
+"id": "150",
+"uid": "s:40~l:54~t:150",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "17-5",
+"displayValue": "17-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.0,
+"displayValue": "2"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "8-2",
+"displayValue": "8-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/150.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-07T19:32Z"
 }
 ]
 },

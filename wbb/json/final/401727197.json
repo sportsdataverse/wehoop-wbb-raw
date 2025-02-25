@@ -24253,6 +24253,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401727197",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 4,
@@ -24433,7 +24445,108 @@
 "region": "us"
 }
 ],
-"videos": [],
+"videos": [
+{
+"id": 42615008,
+"cerebroId": "67454df82b2e8f29322f8ff6",
+"source": "espn",
+"headline": "Kailyn Gilbert wins it for LSU in hectic finish",
+"description": "Kailyn Gilbert sinks a go-ahead layup for LSU in the final seconds of a 68-67 win over Washington. For more, visit FloHoops.com",
+"lastModified": "2024-11-26T05:08:43Z",
+"originalPublishDate": "2024-11-26T04:24:58Z",
+"duration": 27,
+"timeRestrictions": {
+"embargoDate": "2024-11-26T04:24:58Z",
+"expirationDate": "2025-05-01T03:24:58Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2024/1126/dm_241125_lsu_winner6/dm_241125_lsu_winner6.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=42615008",
+"self": {
+"href": "http://espn.com/video/clip?id=42615008",
+"dsi": {
+"href": "http://espn.com/video/clip?id=294b2a56efdf7"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/42615008"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/242f2103-38dd-45bf-a70d-38689a6f27d1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42615008",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1125/dm_241125_lsu_winner/dm_241125_lsu_winner.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=42615008"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/242f2103-38dd-45bf-a70d-38689a6f27d1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42615008"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/242f2103-38dd-45bf-a70d-38689a6f27d1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42615008"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/42615008"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/242f2103-38dd-45bf-a70d-38689a6f27d1"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1125/dm_241125_lsu_winner/dm_241125_lsu_winner_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2024/1125/dm_241125_lsu_winner/dm_241125_lsu_winner.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1125/dm_241125_lsu_winner/dm_241125_lsu_winner.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/1125/dm_241125_lsu_winner/dm_241125_lsu_winner_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1125/dm_241125_lsu_winner/dm_241125_lsu_winner/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1125/dm_241125_lsu_winner/dm_241125_lsu_winner/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1125/dm_241125_lsu_winner/dm_241125_lsu_winner_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1125/dm_241125_lsu_winner/dm_241125_lsu_winner_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=42615008&videoDSI=294b2a56efdf7"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Kailyn Gilbert wins it for LSU in hectic closing sequence) 2024/11/25 ESHEET",
+"trackingId": "dm_241125_lsu_winner"
+}
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {
@@ -25606,6 +25719,70 @@
 "standings": {
 "entries": [
 {
+"team": "Texas",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/251/texas-longhorns",
+"id": "251",
+"uid": "s:40~l:54~t:251",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "27-2",
+"displayValue": "27-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "13-1",
+"displayValue": "13-1"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/251.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "South Carolina",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2579/south-carolina-gamecocks",
 "id": "2579",
@@ -25666,70 +25843,6 @@
 "dark"
 ],
 "lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
-"team": "Texas",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/251/texas-longhorns",
-"id": "251",
-"uid": "s:40~l:54~t:251",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "26-2",
-"displayValue": "26-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5,
-"displayValue": "0.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "12-1",
-"displayValue": "12-1"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/251.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },
@@ -26438,70 +26551,6 @@
 ]
 },
 {
-"team": "Georgia",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/61/georgia-lady-bulldogs",
-"id": "61",
-"uid": "s:40~l:54~t:61",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "10-17",
-"displayValue": "10-17"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 10.5,
-"displayValue": "10.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "2-11",
-"displayValue": "2-11"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-}
-]
-},
-{
 "team": "Missouri",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/142/missouri-tigers",
 "id": "142",
@@ -26562,6 +26611,70 @@
 "dark"
 ],
 "lastUpdated": "2023-03-15T19:32Z"
+}
+]
+},
+{
+"team": "Georgia",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/61/georgia-lady-bulldogs",
+"id": "61",
+"uid": "s:40~l:54~t:61",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "10-18",
+"displayValue": "10-18"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-12",
+"displayValue": "2-12"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-07T19:32Z"
 }
 ]
 },

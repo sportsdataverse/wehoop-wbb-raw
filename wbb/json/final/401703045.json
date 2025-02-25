@@ -19288,6 +19288,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401703045",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 7,
@@ -19447,7 +19459,108 @@
 }
 },
 "broadcasts": [],
-"videos": [],
+"videos": [
+{
+"id": 43043647,
+"cerebroId": "67630d58e3c7ca76935a9d26",
+"source": "espn",
+"headline": "UConn sinks program-record 20 3-pointers in rout of Iowa State",
+"description": "Paige Bueckers, Ashlynn Shade and Sarah Strong propelled UConn to a program-record 20 3-pointers vs. Iowa State.",
+"lastModified": "2024-12-18T20:55:37Z",
+"originalPublishDate": "2024-12-18T17:58:46Z",
+"duration": 51,
+"timeRestrictions": {
+"embargoDate": "2024-12-18T17:58:46Z",
+"expirationDate": "2025-12-31T06:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2024/1218/ss_20241218_125849503_2728196/ss_20241218_125849503_2728196.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=43043647",
+"self": {
+"href": "http://espn.com/video/clip?id=43043647",
+"dsi": {
+"href": "http://espn.com/video/clip?id=554a79db9dfe5"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/43043647"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/55c25a94-bbd4-4aca-bad2-9d4f5d1663c9/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43043647",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1218/ss_20241218_125849503_2728196/ss_20241218_125849503_2728196.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=43043647"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/55c25a94-bbd4-4aca-bad2-9d4f5d1663c9/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43043647"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/55c25a94-bbd4-4aca-bad2-9d4f5d1663c9/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43043647"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/43043647"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/55c25a94-bbd4-4aca-bad2-9d4f5d1663c9"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1218/ss_20241218_125849503_2728196/ss_20241218_125849503_2728196_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2024/1218/ss_20241218_125849503_2728196/ss_20241218_125849503_2728196.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1218/ss_20241218_125849503_2728196/ss_20241218_125849503_2728196.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/1218/ss_20241218_125849503_2728196/ss_20241218_125849503_2728196_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1218/ss_20241218_125849503_2728196/ss_20241218_125849503_2728196/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1218/ss_20241218_125849503_2728196/ss_20241218_125849503_2728196/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1218/ss_20241218_125849503_2728196/ss_20241218_125849503_2728196_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1218/ss_20241218_125849503_2728196/ss_20241218_125849503_2728196_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=43043647&videoDSI=554a79db9dfe5"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Analysis",
+"trackingName": "COM_NCW Analysis (UConn sinks program-record 20 3-pointers in rout of Iowa State) 2024/12/18 T2V",
+"trackingId": "dm_NCW_uconn_sinks_programrecord_20_3pointers_in_rout_of_iowa_state"
+}
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {
@@ -19459,6 +19572,70 @@
 {
 "standings": {
 "entries": [
+{
+"team": "Baylor",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/239/baylor-bears",
+"id": "239",
+"uid": "s:40~l:54~t:239",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "25-5",
+"displayValue": "25-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "15-2",
+"displayValue": "15-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-02-17T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/239.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-02-17T21:14Z"
+}
+]
+},
 {
 "team": "TCU",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2628/tcu-horned-frogs",
@@ -19483,8 +19660,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -19524,70 +19701,6 @@
 ]
 },
 {
-"team": "Baylor",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/239/baylor-bears",
-"id": "239",
-"uid": "s:40~l:54~t:239",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "24-5",
-"displayValue": "24-5"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "14-2",
-"displayValue": "14-2"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-02-17T21:15Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/239.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
 "team": "Kansas State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2306/kansas-state-wildcats",
 "id": "2306",
@@ -19601,8 +19714,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "25-4",
-"displayValue": "25-4"
+"summary": "25-5",
+"displayValue": "25-5"
 },
 {
 "name": "gamesBehind",
@@ -19611,8 +19724,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.0,
-"displayValue": "1"
+"value": 2.0,
+"displayValue": "2"
 },
 {
 "id": "9",
@@ -19622,8 +19735,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "13-3",
-"displayValue": "13-3"
+"summary": "13-4",
+"displayValue": "13-4"
 }
 ],
 "logo": [
@@ -19675,8 +19788,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.0,
-"displayValue": "2"
+"value": 2.5,
+"displayValue": "2.5"
 },
 {
 "id": "9",
@@ -19739,8 +19852,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.0,
-"displayValue": "2"
+"value": 2.5,
+"displayValue": "2.5"
 },
 {
 "id": "9",
@@ -19803,8 +19916,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.0,
-"displayValue": "3"
+"value": 3.5,
+"displayValue": "3.5"
 },
 {
 "id": "9",
@@ -19867,8 +19980,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.0,
-"displayValue": "4"
+"value": 4.5,
+"displayValue": "4.5"
 },
 {
 "id": "9",
@@ -19931,8 +20044,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.0,
-"displayValue": "6"
+"value": 6.5,
+"displayValue": "6.5"
 },
 {
 "id": "9",
@@ -19995,8 +20108,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.0,
-"displayValue": "6"
+"value": 6.5,
+"displayValue": "6.5"
 },
 {
 "id": "9",
@@ -20059,8 +20172,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7.0,
-"displayValue": "7"
+"value": 7.5,
+"displayValue": "7.5"
 },
 {
 "id": "9",
@@ -20123,8 +20236,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9.0,
-"displayValue": "9"
+"value": 9.5,
+"displayValue": "9.5"
 },
 {
 "id": "9",
@@ -20187,8 +20300,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 10.0,
-"displayValue": "10"
+"value": 10.5,
+"displayValue": "10.5"
 },
 {
 "id": "9",
@@ -20251,8 +20364,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11.0,
-"displayValue": "11"
+"value": 11.5,
+"displayValue": "11.5"
 },
 {
 "id": "9",
@@ -20315,8 +20428,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11.0,
-"displayValue": "11"
+"value": 11.5,
+"displayValue": "11.5"
 },
 {
 "id": "9",
@@ -20379,8 +20492,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11.0,
-"displayValue": "11"
+"value": 11.5,
+"displayValue": "11.5"
 },
 {
 "id": "9",
@@ -20443,8 +20556,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 13.0,
-"displayValue": "13"
+"value": 13.5,
+"displayValue": "13.5"
 },
 {
 "id": "9",

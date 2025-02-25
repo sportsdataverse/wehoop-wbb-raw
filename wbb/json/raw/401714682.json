@@ -4631,6 +4631,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401714682",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 6,
@@ -15965,7 +15977,108 @@
 "allowSearch": true,
 "allowContentReactions": false
 },
-"videos": [],
+"videos": [
+{
+"id": 42973276,
+"cerebroId": "675e2a351d41c95e6a61e338",
+"source": "espn",
+"headline": "Kansas State Wildcats vs. Middle Tennessee Lady Raiders - Game Highlights",
+"description": "Watch the Game Highlights from Kansas State Wildcats vs. Middle Tennessee Lady Raiders",
+"lastModified": "2024-12-15T01:32:35Z",
+"originalPublishDate": "2024-12-15T01:00:30Z",
+"duration": 114,
+"timeRestrictions": {
+"embargoDate": "2024-12-15T01:00:30Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2024/1214/ss_20241214_200038372_2724975/ss_20241214_200038372_2724975.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=42973276",
+"self": {
+"href": "http://espn.com/video/clip?id=42973276",
+"dsi": {
+"href": "http://espn.com/video/clip?id=e4677bcd2188b"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/42973276"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4ab75c73-8f21-4b6a-9d45-25404cda211c/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42973276",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1214/ss_20241214_200038372_2724975/ss_20241214_200038372_2724975.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=42973276"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4ab75c73-8f21-4b6a-9d45-25404cda211c/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42973276"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/4ab75c73-8f21-4b6a-9d45-25404cda211c/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42973276"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/42973276"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/4ab75c73-8f21-4b6a-9d45-25404cda211c"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1214/ss_20241214_200038372_2724975/ss_20241214_200038372_2724975_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2024/1214/ss_20241214_200038372_2724975/ss_20241214_200038372_2724975.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1214/ss_20241214_200038372_2724975/ss_20241214_200038372_2724975.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/1214/ss_20241214_200038372_2724975/ss_20241214_200038372_2724975_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1214/ss_20241214_200038372_2724975/ss_20241214_200038372_2724975/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1214/ss_20241214_200038372_2724975/ss_20241214_200038372_2724975/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1214/ss_20241214_200038372_2724975/ss_20241214_200038372_2724975_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1214/ss_20241214_200038372_2724975/ss_20241214_200038372_2724975_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=42973276&videoDSI=e4677bcd2188b"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Kansas State Wildcats vs. Middle Tennessee Lady Raiders - Game Highlights) 2024/12/14 ESHEET",
+"trackingId": "dm_20241214_NCW_kansas_state_wildcats_vs_middle_tennessee_lady_raiders_game_highlights"
+}
+}
+],
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",
@@ -16625,6 +16738,70 @@
 "standings": {
 "entries": [
 {
+"team": "Baylor",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/239/baylor-bears",
+"id": "239",
+"uid": "s:40~l:54~t:239",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "25-5",
+"displayValue": "25-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "15-2",
+"displayValue": "15-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-02-17T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/239.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-02-17T21:14Z"
+}
+]
+},
+{
 "team": "TCU",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2628/tcu-horned-frogs",
 "id": "2628",
@@ -16648,8 +16825,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -16689,70 +16866,6 @@
 ]
 },
 {
-"team": "Baylor",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/239/baylor-bears",
-"id": "239",
-"uid": "s:40~l:54~t:239",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "24-5",
-"displayValue": "24-5"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "14-2",
-"displayValue": "14-2"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-02-17T21:15Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/239.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
 "team": "Kansas State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2306/kansas-state-wildcats",
 "id": "2306",
@@ -16766,8 +16879,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "25-4",
-"displayValue": "25-4"
+"summary": "25-5",
+"displayValue": "25-5"
 },
 {
 "name": "gamesBehind",
@@ -16776,8 +16889,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.0,
-"displayValue": "1"
+"value": 2.0,
+"displayValue": "2"
 },
 {
 "id": "9",
@@ -16787,8 +16900,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "13-3",
-"displayValue": "13-3"
+"summary": "13-4",
+"displayValue": "13-4"
 }
 ],
 "logo": [
@@ -16840,8 +16953,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.0,
-"displayValue": "2"
+"value": 2.5,
+"displayValue": "2.5"
 },
 {
 "id": "9",
@@ -16904,8 +17017,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.0,
-"displayValue": "2"
+"value": 2.5,
+"displayValue": "2.5"
 },
 {
 "id": "9",
@@ -16968,8 +17081,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.0,
-"displayValue": "3"
+"value": 3.5,
+"displayValue": "3.5"
 },
 {
 "id": "9",
@@ -17032,8 +17145,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.0,
-"displayValue": "4"
+"value": 4.5,
+"displayValue": "4.5"
 },
 {
 "id": "9",
@@ -17096,8 +17209,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.0,
-"displayValue": "6"
+"value": 6.5,
+"displayValue": "6.5"
 },
 {
 "id": "9",
@@ -17160,8 +17273,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.0,
-"displayValue": "6"
+"value": 6.5,
+"displayValue": "6.5"
 },
 {
 "id": "9",
@@ -17224,8 +17337,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7.0,
-"displayValue": "7"
+"value": 7.5,
+"displayValue": "7.5"
 },
 {
 "id": "9",
@@ -17288,8 +17401,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9.0,
-"displayValue": "9"
+"value": 9.5,
+"displayValue": "9.5"
 },
 {
 "id": "9",
@@ -17352,8 +17465,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 10.0,
-"displayValue": "10"
+"value": 10.5,
+"displayValue": "10.5"
 },
 {
 "id": "9",
@@ -17416,8 +17529,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11.0,
-"displayValue": "11"
+"value": 11.5,
+"displayValue": "11.5"
 },
 {
 "id": "9",
@@ -17480,8 +17593,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11.0,
-"displayValue": "11"
+"value": 11.5,
+"displayValue": "11.5"
 },
 {
 "id": "9",
@@ -17544,8 +17657,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11.0,
-"displayValue": "11"
+"value": 11.5,
+"displayValue": "11.5"
 },
 {
 "id": "9",
@@ -17608,8 +17721,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 13.0,
-"displayValue": "13"
+"value": 13.5,
+"displayValue": "13.5"
 },
 {
 "id": "9",

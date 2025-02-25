@@ -4691,6 +4691,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401724604",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 11,
@@ -16897,7 +16909,108 @@
 "allowSearch": true,
 "allowContentReactions": false
 },
-"videos": [],
+"videos": [
+{
+"id": 43484839,
+"cerebroId": "678d9b73b40ab7169fb567ce",
+"source": "espn",
+"headline": "Olivia Miles keeps Notre Dame rolling with 3-pointer",
+"description": "Olivia Miles pulls up from range and knocks down the 3-pointer for Notre Dame.",
+"lastModified": "2025-01-20T00:48:23Z",
+"originalPublishDate": "2025-01-20T00:40:15Z",
+"duration": 17,
+"timeRestrictions": {
+"embargoDate": "2025-01-20T00:40:15Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2025/0119/ss_20250119_194020133_2754637/ss_20250119_194020133_2754637.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=43484839",
+"self": {
+"href": "http://espn.com/video/clip?id=43484839",
+"dsi": {
+"href": "http://espn.com/video/clip?id=700a16f99d1bc"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/43484839"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/2d37c700-3721-419f-b30c-50c64e7631cc/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43484839",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0119/ss_20250119_194020133_2754637/ss_20250119_194020133_2754637.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=43484839"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/2d37c700-3721-419f-b30c-50c64e7631cc/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43484839"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/2d37c700-3721-419f-b30c-50c64e7631cc/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43484839"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/43484839"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/2d37c700-3721-419f-b30c-50c64e7631cc"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0119/ss_20250119_194020133_2754637/ss_20250119_194020133_2754637_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2025/0119/ss_20250119_194020133_2754637/ss_20250119_194020133_2754637.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0119/ss_20250119_194020133_2754637/ss_20250119_194020133_2754637.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2025/0119/ss_20250119_194020133_2754637/ss_20250119_194020133_2754637_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0119/ss_20250119_194020133_2754637/ss_20250119_194020133_2754637/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0119/ss_20250119_194020133_2754637/ss_20250119_194020133_2754637/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0119/ss_20250119_194020133_2754637/ss_20250119_194020133_2754637_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0119/ss_20250119_194020133_2754637/ss_20250119_194020133_2754637_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=43484839&videoDSI=700a16f99d1bc"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Olivia Miles keeps Notre Dame rolling with 3-pointer) 2025/01/19 ESHEET",
+"trackingId": "dm_20250119_NCW_olivia_miles_keeps_notre_dame_rolling_with_3pointer"
+}
+}
+],
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",

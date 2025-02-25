@@ -24021,6 +24021,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401720423",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 2,
@@ -24200,7 +24212,108 @@
 "region": "us"
 }
 ],
-"videos": [],
+"videos": [
+{
+"id": 42354935,
+"cerebroId": "6733fa2444db8b184a3caab5",
+"source": "espn",
+"headline": "Ohio State Buckeyes vs. Charlotte 49ers - Game Highlights",
+"description": "Watch the Game Highlights from Ohio State Buckeyes vs. Charlotte 49ers",
+"lastModified": "2024-11-13T02:35:34Z",
+"originalPublishDate": "2024-11-13T01:00:17Z",
+"duration": 117,
+"timeRestrictions": {
+"embargoDate": "2024-11-13T01:00:17Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2024/1112/ss_20241112_200021484_2691982/ss_20241112_200021484_2691982.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=42354935",
+"self": {
+"href": "http://espn.com/video/clip?id=42354935",
+"dsi": {
+"href": "http://espn.com/video/clip?id=d6ccfe89a82c0"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/42354935"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/0266a4d1-c8fb-4241-a552-c82effb0239d/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42354935",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1112/ss_20241112_200021484_2691982/ss_20241112_200021484_2691982.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=42354935"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/0266a4d1-c8fb-4241-a552-c82effb0239d/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42354935"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/0266a4d1-c8fb-4241-a552-c82effb0239d/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42354935"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/42354935"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/0266a4d1-c8fb-4241-a552-c82effb0239d"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1112/ss_20241112_200021484_2691982/ss_20241112_200021484_2691982_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2024/1112/ss_20241112_200021484_2691982/ss_20241112_200021484_2691982.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1112/ss_20241112_200021484_2691982/ss_20241112_200021484_2691982.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/1112/ss_20241112_200021484_2691982/ss_20241112_200021484_2691982_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1112/ss_20241112_200021484_2691982/ss_20241112_200021484_2691982/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1112/ss_20241112_200021484_2691982/ss_20241112_200021484_2691982/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1112/ss_20241112_200021484_2691982/ss_20241112_200021484_2691982_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1112/ss_20241112_200021484_2691982/ss_20241112_200021484_2691982_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=42354935&videoDSI=d6ccfe89a82c0"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Ohio State Buckeyes vs. Charlotte 49ers - Game Highlights) 2024/11/12 ESHEET",
+"trackingId": "dm_20241112_NCW_ohio_state_buckeyes_vs_charlotte_49ers_game_highlights"
+}
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {

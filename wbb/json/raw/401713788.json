@@ -4499,6 +4499,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401713788",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 3,
@@ -15253,7 +15265,108 @@
 "allowSearch": true,
 "allowContentReactions": false
 },
-"videos": [],
+"videos": [
+{
+"id": 42590410,
+"cerebroId": "6743bc8a1010222a5a48bb6b",
+"source": "espn",
+"headline": "The numbers behind No. 1 South Carolina's upset loss to UCLA",
+"description": "Check out the streaks that were snapped as No. 1 South Carolina falls to UCLA for its first defeat in over a year.",
+"lastModified": "2024-11-24T23:54:35Z",
+"originalPublishDate": "2024-11-24T23:51:34Z",
+"duration": 58,
+"timeRestrictions": {
+"embargoDate": "2024-11-24T23:51:34Z",
+"expirationDate": "2037-11-27T23:51:34Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2024/1124/dm_241124_South_Carolina_Loses_To_UCLA/dm_241124_South_Carolina_Loses_To_UCLA.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=42590410",
+"self": {
+"href": "http://espn.com/video/clip?id=42590410",
+"dsi": {
+"href": "http://espn.com/video/clip?id=f744fcf604c7a"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/42590410"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/9cc2fda2-33ea-484c-b168-5dbf8a13b7e0/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42590410",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1124/dm_241124_South_Carolina_Loses_To_UCLA/dm_241124_South_Carolina_Loses_To_UCLA.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=42590410"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/9cc2fda2-33ea-484c-b168-5dbf8a13b7e0/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42590410"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/9cc2fda2-33ea-484c-b168-5dbf8a13b7e0/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42590410"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/42590410"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/9cc2fda2-33ea-484c-b168-5dbf8a13b7e0"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1124/dm_241124_South_Carolina_Loses_To_UCLA/dm_241124_South_Carolina_Loses_To_UCLA_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2024/1124/dm_241124_South_Carolina_Loses_To_UCLA/dm_241124_South_Carolina_Loses_To_UCLA.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1124/dm_241124_South_Carolina_Loses_To_UCLA/dm_241124_South_Carolina_Loses_To_UCLA.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/1124/dm_241124_South_Carolina_Loses_To_UCLA/dm_241124_South_Carolina_Loses_To_UCLA_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1124/dm_241124_South_Carolina_Loses_To_UCLA/dm_241124_South_Carolina_Loses_To_UCLA/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1124/dm_241124_South_Carolina_Loses_To_UCLA/dm_241124_South_Carolina_Loses_To_UCLA/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1124/dm_241124_South_Carolina_Loses_To_UCLA/dm_241124_South_Carolina_Loses_To_UCLA_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1124/dm_241124_South_Carolina_Loses_To_UCLA/dm_241124_South_Carolina_Loses_To_UCLA_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=42590410&videoDSI=f744fcf604c7a"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Analysis",
+"trackingName": "COM_NCW Analysis (The numbers behind No. 1 South Carolina's upset loss to UCLA) 2024/11/24 T2V",
+"trackingId": "dm_241124_South_Carolina_Loses_To_UCLA"
+}
+}
+],
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",
@@ -15264,6 +15377,70 @@
 {
 "standings": {
 "entries": [
+{
+"team": "Texas",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/251/texas-longhorns",
+"id": "251",
+"uid": "s:40~l:54~t:251",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "27-2",
+"displayValue": "27-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "13-1",
+"displayValue": "13-1"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/251.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
 {
 "team": "South Carolina",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2579/south-carolina-gamecocks",
@@ -15325,70 +15502,6 @@
 "dark"
 ],
 "lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
-"team": "Texas",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/251/texas-longhorns",
-"id": "251",
-"uid": "s:40~l:54~t:251",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "26-2",
-"displayValue": "26-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5,
-"displayValue": "0.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "12-1",
-"displayValue": "12-1"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/251.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },
@@ -16097,70 +16210,6 @@
 ]
 },
 {
-"team": "Georgia",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/61/georgia-lady-bulldogs",
-"id": "61",
-"uid": "s:40~l:54~t:61",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "10-17",
-"displayValue": "10-17"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 10.5,
-"displayValue": "10.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "2-11",
-"displayValue": "2-11"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-}
-]
-},
-{
 "team": "Missouri",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/142/missouri-tigers",
 "id": "142",
@@ -16221,6 +16270,70 @@
 "dark"
 ],
 "lastUpdated": "2023-03-15T19:32Z"
+}
+]
+},
+{
+"team": "Georgia",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/61/georgia-lady-bulldogs",
+"id": "61",
+"uid": "s:40~l:54~t:61",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "10-18",
+"displayValue": "10-18"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-12",
+"displayValue": "2-12"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-07T19:32Z"
 }
 ]
 },

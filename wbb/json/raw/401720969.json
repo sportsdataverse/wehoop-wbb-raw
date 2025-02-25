@@ -4608,6 +4608,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401720969",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 4,
@@ -15909,7 +15921,108 @@
 }
 ],
 "article": [],
-"videos": [],
+"videos": [
+{
+"id": 42722310,
+"cerebroId": "674cd84bd2aeba2265566831",
+"source": "espn",
+"headline": "Baylor's run goes to 17-0 after Jada Walker's steal and score",
+"description": "Jada Walker steals the pass, then takes the ball the other way for a Baylor layup.",
+"lastModified": "2024-12-01T21:57:10Z",
+"originalPublishDate": "2024-12-01T21:40:53Z",
+"duration": 16,
+"timeRestrictions": {
+"embargoDate": "2024-12-01T21:40:53Z",
+"expirationDate": "2037-04-30T20:40:53Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2024/1201/dm_241201_ncw_baylor_basket/dm_241201_ncw_baylor_basket.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=42722310",
+"self": {
+"href": "http://espn.com/video/clip?id=42722310",
+"dsi": {
+"href": "http://espn.com/video/clip?id=af5e0cf9362bc"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/42722310"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/24313dc3-310a-4ccd-9a78-93428ed461e9/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42722310",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1201/dm_241201_ncw_baylor_basket/dm_241201_ncw_baylor_basket.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=42722310"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/24313dc3-310a-4ccd-9a78-93428ed461e9/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42722310"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/24313dc3-310a-4ccd-9a78-93428ed461e9/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42722310"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/42722310"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/24313dc3-310a-4ccd-9a78-93428ed461e9"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1201/dm_241201_ncw_baylor_basket/dm_241201_ncw_baylor_basket_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2024/1201/dm_241201_ncw_baylor_basket/dm_241201_ncw_baylor_basket.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1201/dm_241201_ncw_baylor_basket/dm_241201_ncw_baylor_basket.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/1201/dm_241201_ncw_baylor_basket/dm_241201_ncw_baylor_basket_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1201/dm_241201_ncw_baylor_basket/dm_241201_ncw_baylor_basket/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1201/dm_241201_ncw_baylor_basket/dm_241201_ncw_baylor_basket/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1201/dm_241201_ncw_baylor_basket/dm_241201_ncw_baylor_basket_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1201/dm_241201_ncw_baylor_basket/dm_241201_ncw_baylor_basket_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=42722310&videoDSI=af5e0cf9362bc"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Baylor's run goes to 17-0 after Jada Walker's steal and score) 2024/12/01 ESHEET",
+"trackingId": "dm_241201_ncw_baylor_basket"
+}
+}
+],
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",
@@ -16569,6 +16682,70 @@
 "standings": {
 "entries": [
 {
+"team": "Baylor",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/239/baylor-bears",
+"id": "239",
+"uid": "s:40~l:54~t:239",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "25-5",
+"displayValue": "25-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "15-2",
+"displayValue": "15-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-02-17T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/239.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-02-17T21:14Z"
+}
+]
+},
+{
 "team": "TCU",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2628/tcu-horned-frogs",
 "id": "2628",
@@ -16592,8 +16769,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
+"value": 0.5,
+"displayValue": "0.5"
 },
 {
 "id": "9",
@@ -16633,70 +16810,6 @@
 ]
 },
 {
-"team": "Baylor",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/239/baylor-bears",
-"id": "239",
-"uid": "s:40~l:54~t:239",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "24-5",
-"displayValue": "24-5"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "14-2",
-"displayValue": "14-2"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-02-17T21:15Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/239.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
 "team": "Kansas State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2306/kansas-state-wildcats",
 "id": "2306",
@@ -16710,8 +16823,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "25-4",
-"displayValue": "25-4"
+"summary": "25-5",
+"displayValue": "25-5"
 },
 {
 "name": "gamesBehind",
@@ -16720,8 +16833,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.0,
-"displayValue": "1"
+"value": 2.0,
+"displayValue": "2"
 },
 {
 "id": "9",
@@ -16731,8 +16844,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "13-3",
-"displayValue": "13-3"
+"summary": "13-4",
+"displayValue": "13-4"
 }
 ],
 "logo": [
@@ -16784,8 +16897,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.0,
-"displayValue": "2"
+"value": 2.5,
+"displayValue": "2.5"
 },
 {
 "id": "9",
@@ -16848,8 +16961,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.0,
-"displayValue": "2"
+"value": 2.5,
+"displayValue": "2.5"
 },
 {
 "id": "9",
@@ -16912,8 +17025,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.0,
-"displayValue": "3"
+"value": 3.5,
+"displayValue": "3.5"
 },
 {
 "id": "9",
@@ -16976,8 +17089,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.0,
-"displayValue": "4"
+"value": 4.5,
+"displayValue": "4.5"
 },
 {
 "id": "9",
@@ -17040,8 +17153,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.0,
-"displayValue": "6"
+"value": 6.5,
+"displayValue": "6.5"
 },
 {
 "id": "9",
@@ -17104,8 +17217,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.0,
-"displayValue": "6"
+"value": 6.5,
+"displayValue": "6.5"
 },
 {
 "id": "9",
@@ -17168,8 +17281,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7.0,
-"displayValue": "7"
+"value": 7.5,
+"displayValue": "7.5"
 },
 {
 "id": "9",
@@ -17232,8 +17345,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9.0,
-"displayValue": "9"
+"value": 9.5,
+"displayValue": "9.5"
 },
 {
 "id": "9",
@@ -17296,8 +17409,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 10.0,
-"displayValue": "10"
+"value": 10.5,
+"displayValue": "10.5"
 },
 {
 "id": "9",
@@ -17360,8 +17473,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11.0,
-"displayValue": "11"
+"value": 11.5,
+"displayValue": "11.5"
 },
 {
 "id": "9",
@@ -17424,8 +17537,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11.0,
-"displayValue": "11"
+"value": 11.5,
+"displayValue": "11.5"
 },
 {
 "id": "9",
@@ -17488,8 +17601,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11.0,
-"displayValue": "11"
+"value": 11.5,
+"displayValue": "11.5"
 },
 {
 "id": "9",
@@ -17552,8 +17665,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 13.0,
-"displayValue": "13"
+"value": 13.5,
+"displayValue": "13.5"
 },
 {
 "id": "9",

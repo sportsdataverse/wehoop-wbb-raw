@@ -23484,6 +23484,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401724607",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 12,
@@ -23642,7 +23654,108 @@
 }
 },
 "broadcasts": [],
-"videos": [],
+"videos": [
+{
+"id": 43538478,
+"cerebroId": "6792dd8fb40ab7169fb9f03e",
+"source": "espn",
+"headline": "Zamareya Jones sinks it from downtown",
+"description": "Zamareya Jones sinks it from downtown",
+"lastModified": "2025-01-24T00:52:14Z",
+"originalPublishDate": "2025-01-24T00:23:40Z",
+"duration": 18,
+"timeRestrictions": {
+"embargoDate": "2025-01-24T00:23:40Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2025/0123/ss_20250123_192344006_2757584/ss_20250123_192344006_2757584.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=43538478",
+"self": {
+"href": "http://espn.com/video/clip?id=43538478",
+"dsi": {
+"href": "http://espn.com/video/clip?id=6b3e9e7cee854"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/43538478"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/51272eff-dcdc-41bc-88dc-594523a560ab/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43538478",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0123/ss_20250123_192344006_2757584/ss_20250123_192344006_2757584.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=43538478"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/51272eff-dcdc-41bc-88dc-594523a560ab/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43538478"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/51272eff-dcdc-41bc-88dc-594523a560ab/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43538478"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/43538478"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/51272eff-dcdc-41bc-88dc-594523a560ab"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0123/ss_20250123_192344006_2757584/ss_20250123_192344006_2757584_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2025/0123/ss_20250123_192344006_2757584/ss_20250123_192344006_2757584.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0123/ss_20250123_192344006_2757584/ss_20250123_192344006_2757584.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2025/0123/ss_20250123_192344006_2757584/ss_20250123_192344006_2757584_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0123/ss_20250123_192344006_2757584/ss_20250123_192344006_2757584/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0123/ss_20250123_192344006_2757584/ss_20250123_192344006_2757584/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0123/ss_20250123_192344006_2757584/ss_20250123_192344006_2757584_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0123/ss_20250123_192344006_2757584/ss_20250123_192344006_2757584_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=43538478&videoDSI=6b3e9e7cee854"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Zamareya Jones sinks it from downtown) 2025/01/23 ESHEET",
+"trackingId": "dm_20250123_NCW_zamareya_jones_sinks_it_from_downtown"
+}
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {

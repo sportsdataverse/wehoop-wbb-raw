@@ -22152,6 +22152,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401716334",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 8,
@@ -22331,7 +22343,108 @@
 "region": "us"
 }
 ],
-"videos": [],
+"videos": [
+{
+"id": 43214832,
+"cerebroId": "6771e13be3c7ca769364409e",
+"source": "espn",
+"headline": "Oklahoma Sooners vs. New Mexico State Aggies - Game Highlights",
+"description": "Watch the Game Highlights from Oklahoma Sooners vs. New Mexico State Aggies",
+"lastModified": "2024-12-30T00:18:32Z",
+"originalPublishDate": "2024-12-29T23:54:32Z",
+"duration": 118,
+"timeRestrictions": {
+"embargoDate": "2024-12-29T23:54:32Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2024/1229/ss_20241229_185436882_2736712/ss_20241229_185436882_2736712.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=43214832",
+"self": {
+"href": "http://espn.com/video/clip?id=43214832",
+"dsi": {
+"href": "http://espn.com/video/clip?id=c7cad4d0640d6"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/43214832"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/9a29ce06-eab9-47ef-9947-2774465c9843/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43214832",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_185436882_2736712/ss_20241229_185436882_2736712.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=43214832"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/9a29ce06-eab9-47ef-9947-2774465c9843/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43214832"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/9a29ce06-eab9-47ef-9947-2774465c9843/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43214832"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/43214832"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/9a29ce06-eab9-47ef-9947-2774465c9843"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_185436882_2736712/ss_20241229_185436882_2736712_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2024/1229/ss_20241229_185436882_2736712/ss_20241229_185436882_2736712.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_185436882_2736712/ss_20241229_185436882_2736712.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/1229/ss_20241229_185436882_2736712/ss_20241229_185436882_2736712_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1229/ss_20241229_185436882_2736712/ss_20241229_185436882_2736712/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1229/ss_20241229_185436882_2736712/ss_20241229_185436882_2736712/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_185436882_2736712/ss_20241229_185436882_2736712_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_185436882_2736712/ss_20241229_185436882_2736712_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=43214832&videoDSI=c7cad4d0640d6"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Oklahoma Sooners vs. New Mexico State Aggies - Game Highlights) 2024/12/29 ESHEET",
+"trackingId": "dm_20241229_NCW_oklahoma_sooners_vs_new_mexico_state_aggies_game_highlights"
+}
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {
@@ -22992,6 +23105,70 @@
 "standings": {
 "entries": [
 {
+"team": "Texas",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/251/texas-longhorns",
+"id": "251",
+"uid": "s:40~l:54~t:251",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "27-2",
+"displayValue": "27-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "13-1",
+"displayValue": "13-1"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/251.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "South Carolina",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2579/south-carolina-gamecocks",
 "id": "2579",
@@ -23052,70 +23229,6 @@
 "dark"
 ],
 "lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
-"team": "Texas",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/251/texas-longhorns",
-"id": "251",
-"uid": "s:40~l:54~t:251",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "26-2",
-"displayValue": "26-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5,
-"displayValue": "0.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "12-1",
-"displayValue": "12-1"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/251.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },
@@ -23824,70 +23937,6 @@
 ]
 },
 {
-"team": "Georgia",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/61/georgia-lady-bulldogs",
-"id": "61",
-"uid": "s:40~l:54~t:61",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "10-17",
-"displayValue": "10-17"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 10.5,
-"displayValue": "10.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "2-11",
-"displayValue": "2-11"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-}
-]
-},
-{
 "team": "Missouri",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/142/missouri-tigers",
 "id": "142",
@@ -23948,6 +23997,70 @@
 "dark"
 ],
 "lastUpdated": "2023-03-15T19:32Z"
+}
+]
+},
+{
+"team": "Georgia",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/61/georgia-lady-bulldogs",
+"id": "61",
+"uid": "s:40~l:54~t:61",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "10-18",
+"displayValue": "10-18"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-12",
+"displayValue": "2-12"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-07T19:32Z"
 }
 ]
 },

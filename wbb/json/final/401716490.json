@@ -25252,6 +25252,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401716490",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 1,
@@ -25431,7 +25443,108 @@
 "region": "us"
 }
 ],
-"videos": [],
+"videos": [
+{
+"id": 42219148,
+"cerebroId": "672ac24c07eb387a59eef0fa",
+"source": "espn",
+"headline": "Amiya Jackson scores in transition for Pitt",
+"description": "Amiya Jackson scores in transition for Pitt",
+"lastModified": "2024-11-06T01:13:24Z",
+"originalPublishDate": "2024-11-06T01:11:38Z",
+"duration": 21,
+"timeRestrictions": {
+"embargoDate": "2024-11-06T01:11:38Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2024/1105/ss_20241105_201141318_2684266/ss_20241105_201141318_2684266.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=42219148",
+"self": {
+"href": "http://espn.com/video/clip?id=42219148",
+"dsi": {
+"href": "http://espn.com/video/clip?id=c95f5230dfe6e"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/42219148"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/e5f0bb16-3e28-443c-8d7d-05569a65dce2/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42219148",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/ss_20241105_201141318_2684266/ss_20241105_201141318_2684266.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=42219148"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/e5f0bb16-3e28-443c-8d7d-05569a65dce2/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42219148"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/e5f0bb16-3e28-443c-8d7d-05569a65dce2/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42219148"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/42219148"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/e5f0bb16-3e28-443c-8d7d-05569a65dce2"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/ss_20241105_201141318_2684266/ss_20241105_201141318_2684266_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2024/1105/ss_20241105_201141318_2684266/ss_20241105_201141318_2684266.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/ss_20241105_201141318_2684266/ss_20241105_201141318_2684266.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/1105/ss_20241105_201141318_2684266/ss_20241105_201141318_2684266_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1105/ss_20241105_201141318_2684266/ss_20241105_201141318_2684266/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1105/ss_20241105_201141318_2684266/ss_20241105_201141318_2684266/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/ss_20241105_201141318_2684266/ss_20241105_201141318_2684266_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1105/ss_20241105_201141318_2684266/ss_20241105_201141318_2684266_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=42219148&videoDSI=c95f5230dfe6e"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "OnePlay",
+"trackingName": "NCW_One-Play (Amiya Jackson scores in transition for Pitt) 2024/11/05 ESHEET",
+"trackingId": "dm_20241105_NCW_amiya_jackson_scores_in_transition_for_pitt"
+}
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {

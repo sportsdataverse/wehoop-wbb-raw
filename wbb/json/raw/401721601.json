@@ -5371,6 +5371,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401721601",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 15,
@@ -22953,7 +22965,108 @@
 "allowSearch": true,
 "allowContentReactions": false
 },
-"videos": [],
+"videos": [
+{
+"id": 43816055,
+"cerebroId": "67ad393190446b631d40e7f9",
+"source": "espn",
+"headline": "Jocelyn Tate gets a steal and scores for Michigan State",
+"description": "Jocelyn Tate gets a steal and scores for Michigan State",
+"lastModified": "2025-02-13T00:27:21Z",
+"originalPublishDate": "2025-02-13T00:13:35Z",
+"duration": 16,
+"timeRestrictions": {
+"embargoDate": "2025-02-13T00:13:35Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2025/0212/ss_20250212_191338728_2776466/ss_20250212_191338728_2776466.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=43816055",
+"self": {
+"href": "http://espn.com/video/clip?id=43816055",
+"dsi": {
+"href": "http://espn.com/video/clip?id=6c667f9ee8943"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/43816055"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/d6e7e4f9-8ffa-4941-81af-279cee5c4137/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43816055",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0212/ss_20250212_191338728_2776466/ss_20250212_191338728_2776466.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=43816055"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/d6e7e4f9-8ffa-4941-81af-279cee5c4137/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43816055"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/d6e7e4f9-8ffa-4941-81af-279cee5c4137/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43816055"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/43816055"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/d6e7e4f9-8ffa-4941-81af-279cee5c4137"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0212/ss_20250212_191338728_2776466/ss_20250212_191338728_2776466_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2025/0212/ss_20250212_191338728_2776466/ss_20250212_191338728_2776466.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0212/ss_20250212_191338728_2776466/ss_20250212_191338728_2776466.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2025/0212/ss_20250212_191338728_2776466/ss_20250212_191338728_2776466_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0212/ss_20250212_191338728_2776466/ss_20250212_191338728_2776466/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0212/ss_20250212_191338728_2776466/ss_20250212_191338728_2776466/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0212/ss_20250212_191338728_2776466/ss_20250212_191338728_2776466_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0212/ss_20250212_191338728_2776466/ss_20250212_191338728_2776466_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=43816055&videoDSI=6c667f9ee8943"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Jocelyn Tate gets a steal and scores for Michigan State) 2025/02/12 ESHEET",
+"trackingId": "dm_20250212_NCW_jocelyn_tate_gets_a_steal_and_scores_for_michigan_state"
+}
+}
+],
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",

@@ -4541,6 +4541,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401713587",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 6,
@@ -15029,7 +15041,108 @@
 "allowSearch": true,
 "allowContentReactions": false
 },
-"videos": [],
+"videos": [
+{
+"id": 42921975,
+"cerebroId": "675a4edfe3c7ca76935327d1",
+"source": "espn",
+"headline": "Britt Prince splashes a deep 3 to seal Nebraska's win",
+"description": "Britt Prince splashes a deep 3 to seal Nebraska's win.",
+"lastModified": "2024-12-12T04:04:03Z",
+"originalPublishDate": "2024-12-12T02:47:57Z",
+"duration": 16,
+"timeRestrictions": {
+"embargoDate": "2024-12-12T02:47:57Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2024/1211/ss_20241211_214759945_2722540/ss_20241211_214759945_2722540.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=42921975",
+"self": {
+"href": "http://espn.com/video/clip?id=42921975",
+"dsi": {
+"href": "http://espn.com/video/clip?id=44416567279f2"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/42921975"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/dea30456-7642-4ee2-b230-e53fd11c27ce/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42921975",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1211/ss_20241211_214759945_2722540/ss_20241211_214759945_2722540.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=42921975"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/dea30456-7642-4ee2-b230-e53fd11c27ce/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42921975"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/dea30456-7642-4ee2-b230-e53fd11c27ce/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42921975"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/42921975"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/dea30456-7642-4ee2-b230-e53fd11c27ce"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1211/ss_20241211_214759945_2722540/ss_20241211_214759945_2722540_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2024/1211/ss_20241211_214759945_2722540/ss_20241211_214759945_2722540.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1211/ss_20241211_214759945_2722540/ss_20241211_214759945_2722540.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/1211/ss_20241211_214759945_2722540/ss_20241211_214759945_2722540_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1211/ss_20241211_214759945_2722540/ss_20241211_214759945_2722540/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1211/ss_20241211_214759945_2722540/ss_20241211_214759945_2722540/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1211/ss_20241211_214759945_2722540/ss_20241211_214759945_2722540_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1211/ss_20241211_214759945_2722540/ss_20241211_214759945_2722540_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=42921975&videoDSI=44416567279f2"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Britt Prince splashes a deep 3 to seal Nebraska's win) 2024/12/12 ESHEET",
+"trackingId": "dm_20241212_NCW_britt_prince_splashes_a_deep_3_to_seal_nebraskas_win"
+}
+}
+],
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",

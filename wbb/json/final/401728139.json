@@ -24078,6 +24078,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401728139",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 1,
@@ -24257,7 +24269,108 @@
 "region": "us"
 }
 ],
-"videos": [],
+"videos": [
+{
+"id": 42314024,
+"cerebroId": "67313208d33ab529b255867c",
+"source": "espn",
+"headline": "KK Deans contorts for a tough Ole Miss and-1",
+"description": "KK Deans makes a great and-1 finish for the Rebels.",
+"lastModified": "2024-11-10T22:37:30Z",
+"originalPublishDate": "2024-11-10T22:20:19Z",
+"duration": 31,
+"timeRestrictions": {
+"embargoDate": "2024-11-10T22:20:19Z",
+"expirationDate": "2037-12-30T22:20:19Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2024/1110/dm_241110_OLE_MISS_NCAAW/dm_241110_OLE_MISS_NCAAW.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=42314024",
+"self": {
+"href": "http://espn.com/video/clip?id=42314024",
+"dsi": {
+"href": "http://espn.com/video/clip?id=c039848037d96"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/42314024"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/c5d0d6ee-5028-475b-8f9c-7b7fc83f2656/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42314024",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1110/dm_241110_OLE_MISS_NCAAW/dm_241110_OLE_MISS_NCAAW.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=42314024"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/c5d0d6ee-5028-475b-8f9c-7b7fc83f2656/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42314024"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/c5d0d6ee-5028-475b-8f9c-7b7fc83f2656/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42314024"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/42314024"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/c5d0d6ee-5028-475b-8f9c-7b7fc83f2656"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1110/dm_241110_OLE_MISS_NCAAW/dm_241110_OLE_MISS_NCAAW_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2024/1110/dm_241110_OLE_MISS_NCAAW/dm_241110_OLE_MISS_NCAAW.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1110/dm_241110_OLE_MISS_NCAAW/dm_241110_OLE_MISS_NCAAW.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/1110/dm_241110_OLE_MISS_NCAAW/dm_241110_OLE_MISS_NCAAW_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1110/dm_241110_OLE_MISS_NCAAW/dm_241110_OLE_MISS_NCAAW/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1110/dm_241110_OLE_MISS_NCAAW/dm_241110_OLE_MISS_NCAAW/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1110/dm_241110_OLE_MISS_NCAAW/dm_241110_OLE_MISS_NCAAW_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1110/dm_241110_OLE_MISS_NCAAW/dm_241110_OLE_MISS_NCAAW_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=42314024&videoDSI=c039848037d96"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "espnw"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (KK Deans contorts for a tough Ole Miss and-1) 2024/11/10",
+"trackingId": "dm_241110_OLE_MISS_NCAAW"
+}
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {
@@ -25046,6 +25159,70 @@
 "standings": {
 "entries": [
 {
+"team": "Texas",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/251/texas-longhorns",
+"id": "251",
+"uid": "s:40~l:54~t:251",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "27-2",
+"displayValue": "27-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "13-1",
+"displayValue": "13-1"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/251.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "South Carolina",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2579/south-carolina-gamecocks",
 "id": "2579",
@@ -25106,70 +25283,6 @@
 "dark"
 ],
 "lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
-"team": "Texas",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/251/texas-longhorns",
-"id": "251",
-"uid": "s:40~l:54~t:251",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "26-2",
-"displayValue": "26-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5,
-"displayValue": "0.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "12-1",
-"displayValue": "12-1"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/251.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },
@@ -25878,70 +25991,6 @@
 ]
 },
 {
-"team": "Georgia",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/61/georgia-lady-bulldogs",
-"id": "61",
-"uid": "s:40~l:54~t:61",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "10-17",
-"displayValue": "10-17"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 10.5,
-"displayValue": "10.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "2-11",
-"displayValue": "2-11"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-}
-]
-},
-{
 "team": "Missouri",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/142/missouri-tigers",
 "id": "142",
@@ -26002,6 +26051,70 @@
 "dark"
 ],
 "lastUpdated": "2023-03-15T19:32Z"
+}
+]
+},
+{
+"team": "Georgia",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/61/georgia-lady-bulldogs",
+"id": "61",
+"uid": "s:40~l:54~t:61",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "10-18",
+"displayValue": "10-18"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-12",
+"displayValue": "2-12"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-07T19:32Z"
 }
 ]
 },

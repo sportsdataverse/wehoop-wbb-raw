@@ -21402,6 +21402,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401721521",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 10,
@@ -21581,7 +21593,105 @@
 "region": "us"
 }
 ],
-"videos": [],
+"videos": [
+{
+"id": 43341510,
+"cerebroId": "677f54261d41c95e6a7b9be3",
+"source": "espn",
+"headline": "Ohio State pulls away from Michigan late",
+"description": "Ohio State scores back-to-back buckets to seal victory over Michigan.",
+"lastModified": "2025-01-09T04:47:59Z",
+"originalPublishDate": "2025-01-09T04:42:35Z",
+"duration": 20,
+"timeRestrictions": {
+"embargoDate": "2025-01-09T04:42:35Z",
+"expirationDate": "2025-05-01T03:42:35Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2025/0108/dm_250108_Ohio_State_pulls_away_from_Michigan_late/dm_250108_Ohio_State_pulls_away_from_Michigan_late.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=43341510",
+"self": {
+"href": "http://espn.com/video/clip?id=43341510"
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/43341510"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6e6cb0ca-9885-4a4b-83f5-ae4e08888202/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43341510",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0108/dm_250108_Ohio_State_pulls_away_from_Michigan_late/dm_250108_Ohio_State_pulls_away_from_Michigan_late.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=43341510"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6e6cb0ca-9885-4a4b-83f5-ae4e08888202/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43341510"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6e6cb0ca-9885-4a4b-83f5-ae4e08888202/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43341510"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/43341510"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/6e6cb0ca-9885-4a4b-83f5-ae4e08888202"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0108/dm_250108_Ohio_State_pulls_away_from_Michigan_late/dm_250108_Ohio_State_pulls_away_from_Michigan_late_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2025/0108/dm_250108_Ohio_State_pulls_away_from_Michigan_late/dm_250108_Ohio_State_pulls_away_from_Michigan_late.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0108/dm_250108_Ohio_State_pulls_away_from_Michigan_late/dm_250108_Ohio_State_pulls_away_from_Michigan_late.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2025/0108/dm_250108_Ohio_State_pulls_away_from_Michigan_late/dm_250108_Ohio_State_pulls_away_from_Michigan_late_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0108/dm_250108_Ohio_State_pulls_away_from_Michigan_late/dm_250108_Ohio_State_pulls_away_from_Michigan_late/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0108/dm_250108_Ohio_State_pulls_away_from_Michigan_late/dm_250108_Ohio_State_pulls_away_from_Michigan_late/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0108/dm_250108_Ohio_State_pulls_away_from_Michigan_late/dm_250108_Ohio_State_pulls_away_from_Michigan_late_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0108/dm_250108_Ohio_State_pulls_away_from_Michigan_late/dm_250108_Ohio_State_pulls_away_from_Michigan_late_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=43341510&videoDSI=989f30be36399"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Ohio State pulls away from Michigan late) 2025/01/08 ESHEET",
+"trackingId": "dm_250108_Ohio_State_pulls_away_from_Michigan_late"
+}
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {

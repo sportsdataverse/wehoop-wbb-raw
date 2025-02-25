@@ -22458,6 +22458,18 @@
 },
 {
 "rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/recap?gameId=401724565",
+"text": "Recap",
+"shortText": "Recap",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
 "boxscore",
 "desktop",
 "event"
@@ -23260,106 +23272,6 @@
 "coverageType": "OnePlay",
 "trackingName": "NCW_One-Play (What a shot by Saniya Rivers) 2024/12/29 ESHEET",
 "trackingId": "dm_20241229_NCW_what_a_shot_by_saniya_rivers"
-}
-},
-{
-"id": 43215905,
-"cerebroId": "6771f336e3c7ca76936445df",
-"source": "espn",
-"headline": "NC State Wolfpack vs. Clemson Tigers - Game Highlights",
-"description": "Watch the Game Highlights from NC State Wolfpack vs. Clemson Tigers",
-"lastModified": "2024-12-30T01:12:51Z",
-"originalPublishDate": "2024-12-30T01:11:13Z",
-"duration": 111,
-"timeRestrictions": {
-"embargoDate": "2024-12-30T01:11:13Z",
-"expirationDate": "2037-12-31T05:00:00Z"
-},
-"deviceRestrictions": {
-"type": "whitelist",
-"devices": [
-"desktop",
-"ipad",
-"settop",
-"handset",
-"tablet"
-]
-},
-"thumbnail": "https://a.espncdn.com/media/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797.jpg",
-"links": {
-"web": {
-"href": "http://espn.com/video/clip?id=43215905",
-"self": {
-"href": "http://espn.com/video/clip?id=43215905",
-"dsi": {
-"href": "http://espn.com/video/clip?id=be1468b46ea1b"
-}
-},
-"seo": {
-"href": "http://espn.com/video/clip/_/id/43215905"
-}
-},
-"mobile": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b31c1e9a-2ad0-4d5d-822d-8b5709190a01/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43215905",
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797.mp4"
-},
-"alert": {
-"href": "http://m.espn.com/general/video/videoAlert?vid=43215905"
-},
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b31c1e9a-2ad0-4d5d-822d-8b5709190a01/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43215905"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b31c1e9a-2ad0-4d5d-822d-8b5709190a01/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43215905"
-}
-},
-"api": {
-"self": {
-"href": "https://content.core.api.espn.com/v1/video/clips/43215905"
-},
-"artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/b31c1e9a-2ad0-4d5d-822d-8b5709190a01"
-}
-},
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797_360p30_1464k.mp4",
-"mezzanine": {
-"href": "http://media.video-origin.espn.com/espnvideo/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797.mp4"
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797.smil"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797_rel.smil/manifest.f4m"
-},
-"HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797/playlist.m3u8",
-"HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797/playlist.m3u8"
-}
-},
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797_720p30_2896k.mp4"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797_360p30_1464k.mp4"
-}
-},
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showVideo?videoID=43215905&videoDSI=be1468b46ea1b"
-}
-},
-"ad": {
-"sport": "ncw",
-"bundle": "sportscenter"
-},
-"tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "OnePlay",
-"trackingName": "NCW_One-Play (NC State Wolfpack vs. Clemson Tigers - Game Highlights) 2024/12/29 ESHEET",
-"trackingId": "dm_20241229_NCW_nc_state_wolfpack_vs_clemson_tigers_game_highlights"
 }
 }
 ],
@@ -24533,7 +24445,606 @@
 }
 ]
 },
-"article": [],
+"article": {
+"id": 43216194,
+"nowId": "1-43216194",
+"contentKey": "43216194-1-21-1",
+"dataSourceIdentifier": "bc7fadab1d08b",
+"type": "Recap",
+"gameId": "401724565",
+"headline": "Hayes scores 19, Brooks adds 18 to help No. 22 NC State women beat Clemson 83-79",
+"description": "\u2014 Madison Hayes scored 19 points, Zoe Brooks added 18 and No. 22 North Carolina State beat Clemson 83-79 on Sunday night.",
+"linkText": "Hayes scores 19, Brooks adds 18 to help No. 22 NC State women beat Clemson 83-79",
+"categorized": "2024-12-30T01:31:10Z",
+"originallyPosted": "2024-12-30T01:31:12Z",
+"lastModified": "2024-12-30T01:31:10Z",
+"published": "2024-12-30T01:31:12Z",
+"section": "Women's College Basketball",
+"source": "AP",
+"images": [
+{
+"type": "Media",
+"name": "NC State Wolfpack vs. Clemson Tigers - Game Highlights",
+"caption": "Watch the Game Highlights from NC State Wolfpack vs. Clemson Tigers",
+"height": 324,
+"width": 576,
+"url": "https://a.espncdn.com/media/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797.jpg"
+}
+],
+"video": [
+{
+"id": 43215905,
+"dataSourceIdentifier": "be1468b46ea1b",
+"cerebroId": "6771f336e3c7ca76936445df",
+"pccId": "b31c1e9a-2ad0-4d5d-822d-8b5709190a01",
+"source": "espn",
+"headline": "NC State Wolfpack vs. Clemson Tigers - Game Highlights",
+"caption": "Watch the Game Highlights from NC State Wolfpack vs. Clemson Tigers",
+"title": "NC State Wolfpack vs. Clemson Tigers - Game Highlights",
+"description": "Watch the Game Highlights from NC State Wolfpack vs. Clemson Tigers",
+"lastModified": "2024-12-30T01:12:51Z",
+"originalPublishDate": "2024-12-30T01:11:13Z",
+"premium": false,
+"syndicatable": true,
+"duration": 111,
+"timeRestrictions": {
+"embargoDate": "2024-12-30T01:11:13Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"gameId": 401724565,
+"thumbnail": "https://a.espncdn.com/media/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797.jpg",
+"images": [
+{
+"name": "Poster Image",
+"caption": "",
+"alt": "",
+"credit": "",
+"height": 324,
+"width": 576,
+"url": "https://media.video-cdn.espn.com/images/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797.jpg"
+}
+],
+"posterImages": {
+"default": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797_default.jpg",
+"width": 576,
+"height": 324
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797.jpg"
+},
+"wide": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797_5x2.jpg"
+},
+"square": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797_1x1.jpg"
+}
+},
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=43215905",
+"self": {
+"href": "http://espn.com/video/clip?id=43215905",
+"dsi": {
+"href": "http://espn.com/video/clip?id=be1468b46ea1b"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/43215905"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b31c1e9a-2ad0-4d5d-822d-8b5709190a01/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43215905",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=43215905"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b31c1e9a-2ad0-4d5d-822d-8b5709190a01/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43215905"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/b31c1e9a-2ad0-4d5d-822d-8b5709190a01/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43215905"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/43215905"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/b31c1e9a-2ad0-4d5d-822d-8b5709190a01"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1229/ss_20241229_201119656_2736797/ss_20241229_201119656_2736797_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=43215905&videoDSI=be1468b46ea1b"
+}
+},
+"categories": [
+{
+"id": 4732,
+"type": "team",
+"uid": "s:40~l:54~t:228",
+"guid": "a5fb2ce6-a590-7d20-8707-915a5d1cb24c",
+"description": "Clemson Tigers",
+"sportId": 54,
+"teamId": 228,
+"team": {
+"id": 228,
+"description": "Clemson Tigers",
+"links": {
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/228/clemson-tigers"
+}
+},
+"mobile": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/228/clemson-tigers"
+}
+}
+}
+}
+},
+{
+"id": 4729,
+"type": "team",
+"uid": "s:40~l:54~t:152",
+"guid": "b88f30e4-25c8-4010-c64b-87cccabdd6d4",
+"description": "NC State Wolfpack",
+"sportId": 54,
+"teamId": 152,
+"team": {
+"id": 152,
+"description": "NC State Wolfpack",
+"links": {
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/152/nc-state-wolfpack"
+}
+},
+"mobile": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/152/nc-state-wolfpack"
+}
+}
+}
+}
+},
+{
+"id": 116550,
+"type": "topic",
+"guid": "fe879255-6324-4784-385f-a1a18c22b5cc",
+"description": "espnw",
+"sportId": 0,
+"topicId": 5
+},
+{
+"id": 556297,
+"type": "athlete",
+"uid": "s:40~l:54~a:4433807",
+"guid": "8414d14d-bade-316b-8e82-203de8c26582",
+"description": "Aziaha James",
+"sportId": 54,
+"athleteId": 4433807,
+"athlete": {
+"id": 4433807,
+"description": "Aziaha James",
+"links": {
+"web": {
+"athletes": {
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433807/aziaha-james"
+}
+},
+"mobile": {
+"athletes": {
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433807/aziaha-james"
+}
+}
+}
+}
+},
+{
+"id": 557867,
+"type": "athlete",
+"uid": "s:40~l:54~a:4433413",
+"guid": "37220b50-679f-3739-a1d6-83dcdf3f1363",
+"description": "Madison Hayes",
+"sportId": 54,
+"athleteId": 4433413,
+"athlete": {
+"id": 4433413,
+"description": "Madison Hayes",
+"links": {
+"web": {
+"athletes": {
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433413/madison-hayes"
+}
+},
+"mobile": {
+"athletes": {
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433413/madison-hayes"
+}
+}
+}
+}
+},
+{
+"id": 634841,
+"type": "athlete",
+"uid": "s:40~l:54~a:5176511",
+"guid": "06a12795-291f-323d-8ee5-aa104a5bd0aa",
+"description": "Hannah Kohn",
+"sportId": 54,
+"athleteId": 5176511,
+"athlete": {
+"id": 5176511,
+"description": "Hannah Kohn",
+"links": {
+"web": {
+"athletes": {
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5176511/hannah-kohn"
+}
+},
+"mobile": {
+"athletes": {
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5176511/hannah-kohn"
+}
+}
+}
+}
+},
+{
+"id": 632801,
+"type": "athlete",
+"uid": "s:40~l:54~a:5174356",
+"guid": "b4c334c8-b0e1-3627-b85c-41ce4952c61a",
+"description": "Zoe Brooks",
+"sportId": 54,
+"athleteId": 5174356,
+"athlete": {
+"id": 5174356,
+"description": "Zoe Brooks",
+"links": {
+"web": {
+"athletes": {
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5174356/zoe-brooks"
+}
+},
+"mobile": {
+"athletes": {
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5174356/zoe-brooks"
+}
+}
+}
+}
+},
+{
+"id": 557509,
+"type": "athlete",
+"uid": "s:40~l:54~a:4433514",
+"guid": "0dd1606f-2bcc-34fd-96ae-57e02ea8e7e3",
+"description": "Saniya Rivers",
+"sportId": 54,
+"athleteId": 4433514,
+"athlete": {
+"id": 4433514,
+"description": "Saniya Rivers",
+"links": {
+"web": {
+"athletes": {
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433514/saniya-rivers"
+}
+},
+"mobile": {
+"athletes": {
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433514/saniya-rivers"
+}
+}
+}
+}
+},
+{
+"id": 9578,
+"type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
+"sportId": 54,
+"leagueId": 54,
+"league": {
+"id": 54,
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
+"logos": {
+"full": {
+"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
+"width": 500,
+"height": 500,
+"dark": {
+"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
+"width": 500,
+"height": 500
+}
+},
+"large": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=110&h=110",
+"width": 110,
+"height": 110,
+"dark": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=110&h=110",
+"width": 110,
+"height": 110
+}
+},
+"medium": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=80&h=80",
+"width": 80,
+"height": 80,
+"dark": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=80&h=80",
+"width": 80,
+"height": 80
+}
+},
+"small": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=50&h=50",
+"width": 50,
+"height": 50,
+"dark": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=50&h=50",
+"width": 50,
+"height": 50
+}
+},
+"xsmall": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=40&h=40",
+"width": 40,
+"height": 40,
+"dark": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=40&h=40",
+"width": 40,
+"height": 40
+}
+},
+"xxsmall": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=25&h=25",
+"width": 25,
+"height": 25,
+"dark": {
+"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=25&h=25",
+"width": 25,
+"height": 25
+}
+}
+},
+"links": {
+"web": {
+"leagues": {
+"href": "https://www.espn.com/womens-college-basketball/"
+}
+},
+"mobile": {
+"leagues": {
+"href": "https://www.espn.com/womens-college-basketball/"
+}
+}
+}
+}
+},
+{
+"type": "guid",
+"guid": "a5fb2ce6-a590-7d20-8707-915a5d1cb24c"
+},
+{
+"type": "guid",
+"guid": "b88f30e4-25c8-4010-c64b-87cccabdd6d4"
+},
+{
+"type": "guid",
+"guid": "fe879255-6324-4784-385f-a1a18c22b5cc"
+},
+{
+"type": "guid",
+"guid": "8414d14d-bade-316b-8e82-203de8c26582"
+},
+{
+"type": "guid",
+"guid": "37220b50-679f-3739-a1d6-83dcdf3f1363"
+},
+{
+"type": "guid",
+"guid": "06a12795-291f-323d-8ee5-aa104a5bd0aa"
+},
+{
+"type": "guid",
+"guid": "b4c334c8-b0e1-3627-b85c-41ce4952c61a"
+},
+{
+"type": "guid",
+"guid": "0dd1606f-2bcc-34fd-96ae-57e02ea8e7e3"
+},
+{
+"type": "guid",
+"guid": "024076b9-dc1b-38bc-a7b2-dfef54ad3f12"
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+}
+],
+"ad": {
+"sport": "ncw",
+"bundle": "sportscenter"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "OnePlay",
+"trackingName": "NCW_One-Play (NC State Wolfpack vs. Clemson Tigers - Game Highlights) 2024/12/29 ESHEET",
+"trackingId": "dm_20241229_NCW_nc_state_wolfpack_vs_clemson_tigers_game_highlights"
+},
+"contributingPartner": "wsc",
+"contributingSystem": "wsc"
+}
+],
+"categories": [
+{
+"id": 4732,
+"type": "team",
+"uid": "s:40~l:54~t:228",
+"guid": "a5fb2ce6-a590-7d20-8707-915a5d1cb24c",
+"description": "Clemson Tigers",
+"sportId": 54,
+"teamId": 228,
+"team": {
+"id": 228,
+"description": "Clemson Tigers",
+"links": {
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/228/clemson-tigers"
+}
+},
+"mobile": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/228/clemson-tigers"
+}
+}
+}
+}
+},
+{
+"id": 4729,
+"type": "team",
+"uid": "s:40~l:54~t:152",
+"guid": "b88f30e4-25c8-4010-c64b-87cccabdd6d4",
+"description": "NC State Wolfpack",
+"sportId": 54,
+"teamId": 152,
+"team": {
+"id": 152,
+"description": "NC State Wolfpack",
+"links": {
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/152/nc-state-wolfpack"
+}
+},
+"mobile": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/152/nc-state-wolfpack"
+}
+}
+}
+}
+},
+{
+"id": 9578,
+"type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
+"sportId": 54,
+"leagueId": 54,
+"league": {
+"id": 54,
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
+"links": {
+"web": {
+"leagues": {
+"href": "https://www.espn.com/womens-college-basketball/"
+}
+},
+"mobile": {
+"leagues": {
+"href": "https://www.espn.com/womens-college-basketball/"
+}
+}
+}
+}
+},
+{
+"type": "guid",
+"guid": "a5fb2ce6-a590-7d20-8707-915a5d1cb24c"
+},
+{
+"type": "guid",
+"guid": "b88f30e4-25c8-4010-c64b-87cccabdd6d4"
+},
+{
+"type": "guid",
+"guid": "024076b9-dc1b-38bc-a7b2-dfef54ad3f12"
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
+}
+],
+"keywords": [
+"Clemson Tigers",
+"NC State Wolfpack",
+"NCAA Women's Basketball"
+],
+"story": "\r\n              RALEIGH, N.C. -- \u2014 Madison Hayes scored 19 points, Zoe Brooks added 18 and No. 22 North Carolina State beat Clemson 83-79 on Sunday night. \n\n\r\n              Aziaha James scored 15 points and Saniya Rivers scored 12 of her 14 in the second half for N.C. State (10-3, 2-0 ACC). \n\n\r\n              Hannah Kohn\u2019s 3-pointer gave the Tigers a one-point lead with 9:28 to play, but Hayes hit from beyond the arc 27 seconds later to make it 64-62 and N.C. State led the rest of the way. The Wolfpack used an 8-0 spurt to take their biggest lead of the game at 77-67 with 4:03 remaining. \n\n\r\n              Mia Moore, a junior transfer from UAB, scored a season-high 23 points in just 20 minutes for Clemson (8-5, 1-1). Kohn made a career-best six of the Tigers' program-record 15 3-pointers to finish with a career-high 18 points. Loyal McQueen had 10 points, nine assists and six rebounds. \n\n\r\n              The first half featured nine ties and 10 lead changes, the last of which came when Kohn hit a 3-pointer just before the buzzer that gave Clemson a 37-36 lead at halftime. \n\n\r\n              Kohn hit a 3-pointer that gave Clemson a seven-point lead with 3:40 left in the third quarter. James answered with a layup to spark an 11-2 run that put the Wolfpack ahead 61-59 going into the fourth. \n\n\r\n              Kohn \u2014 a sophomore transfer from Chattanooga, where the 5-foot-9 guard shot .463 (No. 3 nationally) from behind the arc last season \u2014 has made at least three 3-pointers in five consecutive games and is shooting 48.8% (21 of 43) from behind the arc and averaging 13.6 points over that span. \n\n\r\n              N.C. State outscored the Tigers 18-8 from the free-throw line. \n\n\r\n              ------ Get poll alerts and updates on the AP Top 25 throughout the season. Sign up <a href=\"https://www.apnews.com/newsletters\">here</a>. AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n",
+"premium": false,
+"links": {
+"web": {
+"href": "http://www.espn.com/ncw/recap?gameId=401724565"
+},
+"mobile": {
+"href": "http://m.espn.go.com/ncw/story?storyId=43216194"
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/sports/news/43216194"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=43216194"
+}
+}
+},
+"allowComments": true,
+"allowSearch": true,
+"allowContentReactions": false
+},
 "leaders": [
 {
 "team": {

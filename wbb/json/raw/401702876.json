@@ -2946,6 +2946,17 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop"
+],
+"href": "http://www.espn.com/womens-college-basketball/video/_/gameId/401702876",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 1,
@@ -3519,7 +3530,108 @@
 "allowSearch": true,
 "allowContentReactions": false
 },
-"videos": [],
+"videos": [
+{
+"id": 42190647,
+"cerebroId": "6728fbd107eb387a59ec15cf",
+"source": "espn",
+"headline": "O'Mariah Gordon gets the hoop and harm for FSU",
+"description": "O'Mariah Gordon lays in a tough shot at the rim and gets an and-1 for Florida State.",
+"lastModified": "2024-11-04T17:00:05Z",
+"originalPublishDate": "2024-11-04T16:52:32Z",
+"duration": 21,
+"timeRestrictions": {
+"embargoDate": "2024-11-04T16:52:32Z",
+"expirationDate": "2037-12-31T05:00:00Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2024/1104/ss_20241104_115234469_2682849/ss_20241104_115234469_2682849.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=42190647",
+"self": {
+"href": "http://espn.com/video/clip?id=42190647",
+"dsi": {
+"href": "http://espn.com/video/clip?id=d8b4311905232"
+}
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/42190647"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/942fc50b-a30e-4ea4-ba48-a76e535f166a/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42190647",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1104/ss_20241104_115234469_2682849/ss_20241104_115234469_2682849.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=42190647"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/942fc50b-a30e-4ea4-ba48-a76e535f166a/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42190647"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/942fc50b-a30e-4ea4-ba48-a76e535f166a/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=42190647"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/42190647"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/942fc50b-a30e-4ea4-ba48-a76e535f166a"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1104/ss_20241104_115234469_2682849/ss_20241104_115234469_2682849_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2024/1104/ss_20241104_115234469_2682849/ss_20241104_115234469_2682849.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1104/ss_20241104_115234469_2682849/ss_20241104_115234469_2682849.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2024/1104/ss_20241104_115234469_2682849/ss_20241104_115234469_2682849_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1104/ss_20241104_115234469_2682849/ss_20241104_115234469_2682849/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1104/ss_20241104_115234469_2682849/ss_20241104_115234469_2682849/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1104/ss_20241104_115234469_2682849/ss_20241104_115234469_2682849_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2024/1104/ss_20241104_115234469_2682849/ss_20241104_115234469_2682849_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=42190647&videoDSI=d8b4311905232"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (O'Mariah Gordon gets the hoop and harm for FSU) 2024/11/04 ESHEET",
+"trackingId": "dm_20241104_NCW_omariah_gordon_gets_the_hoop_and_harm_for_fsu"
+}
+}
+],
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",

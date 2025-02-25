@@ -4856,6 +4856,18 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401721520",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "week": 10,
@@ -17450,7 +17462,105 @@
 "allowSearch": true,
 "allowContentReactions": false
 },
-"videos": [],
+"videos": [
+{
+"id": 43341462,
+"cerebroId": "677f5309d8299b7dd5bbf425",
+"source": "espn",
+"headline": "Nebraska's Amiah Hargrove sinks a putback layup",
+"description": "Amiah Hargrove makes a putback layup to extend Nebraska's lead over Michigan State.",
+"lastModified": "2025-01-09T04:40:21Z",
+"originalPublishDate": "2025-01-09T04:36:41Z",
+"duration": 24,
+"timeRestrictions": {
+"embargoDate": "2025-01-09T04:36:41Z",
+"expirationDate": "2037-12-31T04:36:41Z"
+},
+"deviceRestrictions": {
+"type": "whitelist",
+"devices": [
+"desktop",
+"ipad",
+"settop",
+"handset",
+"tablet"
+]
+},
+"thumbnail": "https://a.espncdn.com/media/motion/2025/0108/dm_250108_NEBRASKA/dm_250108_NEBRASKA.jpg",
+"links": {
+"web": {
+"href": "http://espn.com/video/clip?id=43341462",
+"self": {
+"href": "http://espn.com/video/clip?id=43341462"
+},
+"seo": {
+"href": "http://espn.com/video/clip/_/id/43341462"
+}
+},
+"mobile": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/5ff628a8-7701-498f-a6b8-a9b06917ab6b/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43341462",
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0108/dm_250108_NEBRASKA/dm_250108_NEBRASKA.mp4"
+},
+"alert": {
+"href": "http://m.espn.com/general/video/videoAlert?vid=43341462"
+},
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/5ff628a8-7701-498f-a6b8-a9b06917ab6b/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43341462"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/5ff628a8-7701-498f-a6b8-a9b06917ab6b/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=43341462"
+}
+},
+"api": {
+"self": {
+"href": "https://content.core.api.espn.com/v1/video/clips/43341462"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/5ff628a8-7701-498f-a6b8-a9b06917ab6b"
+}
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0108/dm_250108_NEBRASKA/dm_250108_NEBRASKA_360p30_1464k.mp4",
+"mezzanine": {
+"href": "http://media.video-origin.espn.com/espnvideo/2025/0108/dm_250108_NEBRASKA/dm_250108_NEBRASKA.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0108/dm_250108_NEBRASKA/dm_250108_NEBRASKA.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2025/0108/dm_250108_NEBRASKA/dm_250108_NEBRASKA_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0108/dm_250108_NEBRASKA/dm_250108_NEBRASKA/playlist.m3u8",
+"HD": {
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0108/dm_250108_NEBRASKA/dm_250108_NEBRASKA/playlist.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0108/dm_250108_NEBRASKA/dm_250108_NEBRASKA_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2025/0108/dm_250108_NEBRASKA/dm_250108_NEBRASKA_360p30_1464k.mp4"
+}
+},
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showVideo?videoID=43341462&videoDSI=897250926cbb6"
+}
+},
+"ad": {
+"sport": "ncw",
+"bundle": "cbb_womens_instant_replays"
+},
+"tracking": {
+"sportName": "ncw",
+"leagueName": "No League",
+"coverageType": "Final Game Highlight",
+"trackingName": "NCW_One-Play (Nebraska's Amiah Hargrove sinks a putback layup) 2025/01/08",
+"trackingId": "dm_250108_NEBRASKA"
+}
+}
+],
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",

@@ -2442,7 +2442,7 @@
 }
 ],
 "odds": [],
-"winprobability": {},
+"winprobability": [],
 "header": {
 "id": "401720324",
 "uid": "s:40~l:54~e:401720324",
@@ -2599,7 +2599,14 @@
 }
 ],
 "groups": {
-"id": "29"
+"id": "29",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "west-coast-conference"
 },
 "links": [
 {
@@ -2776,7 +2783,14 @@
 }
 ],
 "groups": {
-"id": "29"
+"id": "29",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "west-coast-conference"
 },
 "links": [
 {
@@ -3647,8 +3661,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "8-21",
-"displayValue": "8-21"
+"summary": "8-22",
+"displayValue": "8-22"
 },
 {
 "name": "gamesBehind",
@@ -3711,8 +3725,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "6-23",
-"displayValue": "6-23"
+"summary": "7-23",
+"displayValue": "7-23"
 },
 {
 "name": "gamesBehind",

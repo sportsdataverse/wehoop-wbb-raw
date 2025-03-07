@@ -2551,7 +2551,7 @@
 }
 ],
 "odds": [],
-"winprobability": {},
+"winprobability": [],
 "header": {
 "id": "401713873",
 "uid": "s:40~l:54~e:401713873",
@@ -2708,7 +2708,14 @@
 }
 ],
 "groups": {
-"id": "3"
+"id": "3",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "atlantic-10-conference"
 },
 "links": [
 {
@@ -2884,7 +2891,14 @@
 }
 ],
 "groups": {
-"id": "19"
+"id": "19",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "northeast-conference"
 },
 "links": [
 {
@@ -3172,8 +3186,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "25-3",
-"displayValue": "25-3"
+"summary": "26-3",
+"displayValue": "26-3"
 },
 {
 "name": "gamesBehind",
@@ -3193,8 +3207,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "15-0",
-"displayValue": "15-0"
+"summary": "16-0",
+"displayValue": "16-0"
 }
 ],
 "logo": [
@@ -3236,8 +3250,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "14-14",
-"displayValue": "14-14"
+"summary": "15-14",
+"displayValue": "15-14"
 },
 {
 "name": "gamesBehind",
@@ -3257,8 +3271,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "10-5",
-"displayValue": "10-5"
+"summary": "11-5",
+"displayValue": "11-5"
 }
 ],
 "logo": [
@@ -3300,8 +3314,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-18",
-"displayValue": "10-18"
+"summary": "11-18",
+"displayValue": "11-18"
 },
 {
 "name": "gamesBehind",
@@ -3321,8 +3335,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "9-6",
-"displayValue": "9-6"
+"summary": "10-6",
+"displayValue": "10-6"
 }
 ],
 "logo": [
@@ -3364,8 +3378,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-18",
-"displayValue": "10-18"
+"summary": "11-18",
+"displayValue": "11-18"
 },
 {
 "name": "gamesBehind",
@@ -3385,8 +3399,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "8-7",
-"displayValue": "8-7"
+"summary": "9-7",
+"displayValue": "9-7"
 }
 ],
 "logo": [
@@ -3428,8 +3442,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "9-17",
-"displayValue": "9-17"
+"summary": "9-18",
+"displayValue": "9-18"
 },
 {
 "name": "gamesBehind",
@@ -3438,8 +3452,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9.0,
-"displayValue": "9"
+"value": 10.0,
+"displayValue": "10"
 },
 {
 "id": "9",
@@ -3449,8 +3463,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "6-9",
-"displayValue": "6-9"
+"summary": "6-10",
+"displayValue": "6-10"
 }
 ],
 "logo": [
@@ -3492,8 +3506,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "6-22",
-"displayValue": "6-22"
+"summary": "6-23",
+"displayValue": "6-23"
 },
 {
 "name": "gamesBehind",
@@ -3502,8 +3516,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9.0,
-"displayValue": "9"
+"value": 10.0,
+"displayValue": "10"
 },
 {
 "id": "9",
@@ -3513,8 +3527,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "6-9",
-"displayValue": "6-9"
+"summary": "6-10",
+"displayValue": "6-10"
 }
 ],
 "logo": [
@@ -3566,8 +3580,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9.5,
-"displayValue": "9.5"
+"value": 10.0,
+"displayValue": "10"
 },
 {
 "id": "9",
@@ -3620,8 +3634,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "8-19",
-"displayValue": "8-19"
+"summary": "8-20",
+"displayValue": "8-20"
 },
 {
 "name": "gamesBehind",
@@ -3630,8 +3644,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 10.0,
-"displayValue": "10"
+"value": 11.0,
+"displayValue": "11"
 },
 {
 "id": "9",
@@ -3641,8 +3655,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "5-10",
-"displayValue": "5-10"
+"summary": "5-11",
+"displayValue": "5-11"
 }
 ],
 "logo": [
@@ -3684,8 +3698,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "6-22",
-"displayValue": "6-22"
+"summary": "6-23",
+"displayValue": "6-23"
 },
 {
 "name": "gamesBehind",
@@ -3694,8 +3708,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 12.0,
-"displayValue": "12"
+"value": 13.0,
+"displayValue": "13"
 },
 {
 "id": "9",
@@ -3705,8 +3719,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "3-12",
-"displayValue": "3-12"
+"summary": "3-13",
+"displayValue": "3-13"
 }
 ],
 "logo": [
@@ -4012,8 +4026,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "17-12",
-"displayValue": "17-12"
+"summary": "18-12",
+"displayValue": "18-12"
 },
 {
 "name": "gamesBehind",
@@ -4076,8 +4090,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "16-13",
-"displayValue": "16-13"
+"summary": "16-14",
+"displayValue": "16-14"
 },
 {
 "name": "gamesBehind",
@@ -4140,8 +4154,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "16-15",
-"displayValue": "16-15"
+"summary": "17-15",
+"displayValue": "17-15"
 },
 {
 "name": "gamesBehind",
@@ -4204,8 +4218,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "18-11",
-"displayValue": "18-11"
+"summary": "19-11",
+"displayValue": "19-11"
 },
 {
 "name": "gamesBehind",
@@ -4268,8 +4282,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-14",
-"displayValue": "15-14"
+"summary": "15-15",
+"displayValue": "15-15"
 },
 {
 "name": "gamesBehind",
@@ -4332,8 +4346,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "14-18",
-"displayValue": "14-18"
+"summary": "15-18",
+"displayValue": "15-18"
 },
 {
 "name": "gamesBehind",
@@ -4447,70 +4461,6 @@
 ]
 },
 {
-"team": "George Washington",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/45/george-washington-revolutionaries",
-"id": "45",
-"uid": "s:40~l:54~t:45",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "13-17",
-"displayValue": "13-17"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 12.0,
-"displayValue": "12"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "5-13",
-"displayValue": "5-13"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-12-09T16:51Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/45.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-12-09T16:48Z"
-}
-]
-},
-{
 "team": "Loyola Chicago",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2350/loyola-chicago-ramblers",
 "id": "2350",
@@ -4575,6 +4525,70 @@
 ]
 },
 {
+"team": "George Washington",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/45/george-washington-revolutionaries",
+"id": "45",
+"uid": "s:40~l:54~t:45",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "13-18",
+"displayValue": "13-18"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 12.0,
+"displayValue": "12"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "5-13",
+"displayValue": "5-13"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-12-09T16:51Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/45.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-12-09T16:48Z"
+}
+]
+},
+{
 "team": "La Salle",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2325/la-salle-explorers",
 "id": "2325",
@@ -4588,8 +4602,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-22",
-"displayValue": "10-22"
+"summary": "10-23",
+"displayValue": "10-23"
 },
 {
 "name": "gamesBehind",

@@ -2241,7 +2241,7 @@
 }
 ],
 "odds": [],
-"winprobability": {},
+"winprobability": [],
 "header": {
 "id": "401728213",
 "uid": "s:40~l:54~e:401728213",
@@ -2398,7 +2398,14 @@
 }
 ],
 "groups": {
-"id": "25"
+"id": "25",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "southland-conference"
 },
 "links": [
 {
@@ -2486,7 +2493,14 @@
 }
 ],
 "groups": {
-"id": "51"
+"id": "51",
+"parent": {
+"id": "52",
+"name": "NCAA Basketball",
+"slug": "ncaa-basketball"
+},
+"isConference": false,
+"slug": "non-ncaa-division-i"
 },
 "links": []
 },

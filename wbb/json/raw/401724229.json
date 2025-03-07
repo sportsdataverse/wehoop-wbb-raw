@@ -2529,7 +2529,7 @@
 }
 ],
 "odds": [],
-"winprobability": {},
+"winprobability": [],
 "header": {
 "id": "401724229",
 "uid": "s:40~l:54~e:401724229",
@@ -2685,7 +2685,14 @@
 }
 ],
 "groups": {
-"id": "19"
+"id": "19",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "northeast-conference"
 },
 "links": [
 {
@@ -2862,7 +2869,14 @@
 }
 ],
 "groups": {
-"id": "45"
+"id": "45",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "horizon-league"
 },
 "links": [
 {
@@ -3134,8 +3148,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "26-5",
-"displayValue": "26-5"
+"summary": "27-5",
+"displayValue": "27-5"
 },
 {
 "name": "gamesBehind",
@@ -3198,8 +3212,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "23-7",
-"displayValue": "23-7"
+"summary": "24-7",
+"displayValue": "24-7"
 },
 {
 "name": "gamesBehind",
@@ -3262,8 +3276,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "23-8",
-"displayValue": "23-8"
+"summary": "24-8",
+"displayValue": "24-8"
 },
 {
 "name": "gamesBehind",
@@ -3326,8 +3340,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "14-15",
-"displayValue": "14-15"
+"summary": "15-15",
+"displayValue": "15-15"
 },
 {
 "name": "gamesBehind",
@@ -3390,8 +3404,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-14",
-"displayValue": "15-14"
+"summary": "15-15",
+"displayValue": "15-15"
 },
 {
 "name": "gamesBehind",
@@ -3454,8 +3468,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-20",
-"displayValue": "11-20"
+"summary": "11-21",
+"displayValue": "11-21"
 },
 {
 "name": "gamesBehind",
@@ -3646,8 +3660,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-21",
-"displayValue": "10-21"
+"summary": "10-22",
+"displayValue": "10-22"
 },
 {
 "name": "gamesBehind",
@@ -3710,8 +3724,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "9-21",
-"displayValue": "9-21"
+"summary": "9-22",
+"displayValue": "9-22"
 },
 {
 "name": "gamesBehind",
@@ -3846,8 +3860,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "25-3",
-"displayValue": "25-3"
+"summary": "26-3",
+"displayValue": "26-3"
 },
 {
 "name": "gamesBehind",
@@ -3867,8 +3881,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "15-0",
-"displayValue": "15-0"
+"summary": "16-0",
+"displayValue": "16-0"
 }
 ],
 "logo": [
@@ -3910,8 +3924,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "14-14",
-"displayValue": "14-14"
+"summary": "15-14",
+"displayValue": "15-14"
 },
 {
 "name": "gamesBehind",
@@ -3931,8 +3945,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "10-5",
-"displayValue": "10-5"
+"summary": "11-5",
+"displayValue": "11-5"
 }
 ],
 "logo": [
@@ -3974,8 +3988,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-18",
-"displayValue": "10-18"
+"summary": "11-18",
+"displayValue": "11-18"
 },
 {
 "name": "gamesBehind",
@@ -3995,8 +4009,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "9-6",
-"displayValue": "9-6"
+"summary": "10-6",
+"displayValue": "10-6"
 }
 ],
 "logo": [
@@ -4038,8 +4052,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-18",
-"displayValue": "10-18"
+"summary": "11-18",
+"displayValue": "11-18"
 },
 {
 "name": "gamesBehind",
@@ -4059,8 +4073,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "8-7",
-"displayValue": "8-7"
+"summary": "9-7",
+"displayValue": "9-7"
 }
 ],
 "logo": [
@@ -4102,8 +4116,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "9-17",
-"displayValue": "9-17"
+"summary": "9-18",
+"displayValue": "9-18"
 },
 {
 "name": "gamesBehind",
@@ -4112,8 +4126,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9.0,
-"displayValue": "9"
+"value": 10.0,
+"displayValue": "10"
 },
 {
 "id": "9",
@@ -4123,8 +4137,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "6-9",
-"displayValue": "6-9"
+"summary": "6-10",
+"displayValue": "6-10"
 }
 ],
 "logo": [
@@ -4166,8 +4180,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "6-22",
-"displayValue": "6-22"
+"summary": "6-23",
+"displayValue": "6-23"
 },
 {
 "name": "gamesBehind",
@@ -4176,8 +4190,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9.0,
-"displayValue": "9"
+"value": 10.0,
+"displayValue": "10"
 },
 {
 "id": "9",
@@ -4187,8 +4201,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "6-9",
-"displayValue": "6-9"
+"summary": "6-10",
+"displayValue": "6-10"
 }
 ],
 "logo": [
@@ -4240,8 +4254,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9.5,
-"displayValue": "9.5"
+"value": 10.0,
+"displayValue": "10"
 },
 {
 "id": "9",
@@ -4294,8 +4308,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "8-19",
-"displayValue": "8-19"
+"summary": "8-20",
+"displayValue": "8-20"
 },
 {
 "name": "gamesBehind",
@@ -4304,8 +4318,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 10.0,
-"displayValue": "10"
+"value": 11.0,
+"displayValue": "11"
 },
 {
 "id": "9",
@@ -4315,8 +4329,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "5-10",
-"displayValue": "5-10"
+"summary": "5-11",
+"displayValue": "5-11"
 }
 ],
 "logo": [
@@ -4358,8 +4372,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "6-22",
-"displayValue": "6-22"
+"summary": "6-23",
+"displayValue": "6-23"
 },
 {
 "name": "gamesBehind",
@@ -4368,8 +4382,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 12.0,
-"displayValue": "12"
+"value": 13.0,
+"displayValue": "13"
 },
 {
 "id": "9",
@@ -4379,8 +4393,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "3-12",
-"displayValue": "3-12"
+"summary": "3-13",
+"displayValue": "3-13"
 }
 ],
 "logo": [

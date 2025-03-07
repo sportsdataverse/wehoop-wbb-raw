@@ -2441,7 +2441,7 @@
 }
 ],
 "odds": [],
-"winprobability": {},
+"winprobability": [],
 "header": {
 "id": "401728299",
 "uid": "s:40~l:54~e:401728299",
@@ -2598,7 +2598,14 @@
 }
 ],
 "groups": {
-"id": "27"
+"id": "27",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "sun-belt-conference"
 },
 "links": [
 {
@@ -2778,7 +2785,14 @@
 }
 ],
 "groups": {
-"id": "5"
+"id": "5",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "big-sky-conference"
 },
 "links": [
 {
@@ -4027,70 +4041,6 @@
 ]
 },
 {
-"team": "Louisiana",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/309/louisiana-ragin-cajuns",
-"id": "309",
-"uid": "s:40~l:54~t:309",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "13-15",
-"displayValue": "13-15"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 9.0,
-"displayValue": "9"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "9-9",
-"displayValue": "9-9"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2019-08-01T17:54Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/309.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2019-08-01T17:55Z"
-}
-]
-},
-{
 "team": "App State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2026/app-state-mountaineers",
 "id": "2026",
@@ -4155,6 +4105,70 @@
 ]
 },
 {
+"team": "Louisiana",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/309/louisiana-ragin-cajuns",
+"id": "309",
+"uid": "s:40~l:54~t:309",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "13-16",
+"displayValue": "13-16"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 9.0,
+"displayValue": "9"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "9-9",
+"displayValue": "9-9"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-08-01T17:54Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/309.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2019-08-01T17:55Z"
+}
+]
+},
+{
 "team": "Georgia State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2247/georgia-state-panthers",
 "id": "2247",
@@ -4168,8 +4182,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-15",
-"displayValue": "15-15"
+"summary": "16-15",
+"displayValue": "16-15"
 },
 {
 "name": "gamesBehind",
@@ -4360,8 +4374,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "16-17",
-"displayValue": "16-17"
+"summary": "16-18",
+"displayValue": "16-18"
 },
 {
 "name": "gamesBehind",
@@ -4424,8 +4438,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "13-19",
-"displayValue": "13-19"
+"summary": "14-19",
+"displayValue": "14-19"
 },
 {
 "name": "gamesBehind",

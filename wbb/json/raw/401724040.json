@@ -2459,7 +2459,7 @@
 }
 ],
 "odds": [],
-"winprobability": {},
+"winprobability": [],
 "header": {
 "id": "401724040",
 "uid": "s:40~l:54~e:401724040",
@@ -2616,7 +2616,14 @@
 }
 ],
 "groups": {
-"id": "12"
+"id": "12",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "ivy-league"
 },
 "links": [
 {
@@ -2793,7 +2800,14 @@
 }
 ],
 "groups": {
-"id": "14"
+"id": "14",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "mid-american-conference"
 },
 "links": [
 {

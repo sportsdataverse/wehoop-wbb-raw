@@ -2562,7 +2562,7 @@
 }
 ],
 "odds": [],
-"winprobability": {},
+"winprobability": [],
 "header": {
 "id": "401713860",
 "uid": "s:40~l:54~e:401713860",
@@ -2719,7 +2719,14 @@
 }
 ],
 "groups": {
-"id": "20"
+"id": "20",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "ohio-valley-conference"
 },
 "links": [
 {
@@ -2895,7 +2902,14 @@
 }
 ],
 "groups": {
-"id": "3"
+"id": "3",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "atlantic-10-conference"
 },
 "links": [
 {
@@ -3439,8 +3453,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "17-12",
-"displayValue": "17-12"
+"summary": "18-12",
+"displayValue": "18-12"
 },
 {
 "name": "gamesBehind",
@@ -3503,8 +3517,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "16-13",
-"displayValue": "16-13"
+"summary": "16-14",
+"displayValue": "16-14"
 },
 {
 "name": "gamesBehind",
@@ -3567,8 +3581,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "16-15",
-"displayValue": "16-15"
+"summary": "17-15",
+"displayValue": "17-15"
 },
 {
 "name": "gamesBehind",
@@ -3631,8 +3645,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "18-11",
-"displayValue": "18-11"
+"summary": "19-11",
+"displayValue": "19-11"
 },
 {
 "name": "gamesBehind",
@@ -3695,8 +3709,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-14",
-"displayValue": "15-14"
+"summary": "15-15",
+"displayValue": "15-15"
 },
 {
 "name": "gamesBehind",
@@ -3759,8 +3773,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "14-18",
-"displayValue": "14-18"
+"summary": "15-18",
+"displayValue": "15-18"
 },
 {
 "name": "gamesBehind",
@@ -3874,70 +3888,6 @@
 ]
 },
 {
-"team": "George Washington",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/45/george-washington-revolutionaries",
-"id": "45",
-"uid": "s:40~l:54~t:45",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "13-17",
-"displayValue": "13-17"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 12.0,
-"displayValue": "12"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "5-13",
-"displayValue": "5-13"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-12-09T16:51Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/45.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-12-09T16:48Z"
-}
-]
-},
-{
 "team": "Loyola Chicago",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2350/loyola-chicago-ramblers",
 "id": "2350",
@@ -4002,6 +3952,70 @@
 ]
 },
 {
+"team": "George Washington",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/45/george-washington-revolutionaries",
+"id": "45",
+"uid": "s:40~l:54~t:45",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "13-18",
+"displayValue": "13-18"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 12.0,
+"displayValue": "12"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "5-13",
+"displayValue": "5-13"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-12-09T16:51Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/45.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-12-09T16:48Z"
+}
+]
+},
+{
 "team": "La Salle",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2325/la-salle-explorers",
 "id": "2325",
@@ -4015,8 +4029,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-22",
-"displayValue": "10-22"
+"summary": "10-23",
+"displayValue": "10-23"
 },
 {
 "name": "gamesBehind",
@@ -4279,8 +4293,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "18-11",
-"displayValue": "18-11"
+"summary": "18-12",
+"displayValue": "18-12"
 },
 {
 "name": "gamesBehind",
@@ -4343,8 +4357,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "21-11",
-"displayValue": "21-11"
+"summary": "22-11",
+"displayValue": "22-11"
 },
 {
 "name": "gamesBehind",
@@ -4407,8 +4421,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "14-15",
-"displayValue": "14-15"
+"summary": "14-16",
+"displayValue": "14-16"
 },
 {
 "name": "gamesBehind",
@@ -4535,8 +4549,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-15",
-"displayValue": "15-15"
+"summary": "16-15",
+"displayValue": "16-15"
 },
 {
 "name": "gamesBehind",

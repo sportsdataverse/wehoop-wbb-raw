@@ -1,7 +1,7 @@
 {
 "gameId": 401724567,
 "plays": [],
-"winprobability": {},
+"winprobability": [],
 "boxscore": {
 "teams": [
 {
@@ -2040,7 +2040,14 @@
 }
 ],
 "groups": {
-"id": "2"
+"id": "2",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "atlantic-coast-conference"
 },
 "links": [
 {
@@ -2217,7 +2224,14 @@
 }
 ],
 "groups": {
-"id": "2"
+"id": "2",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "atlantic-coast-conference"
 },
 "links": [
 {
@@ -2425,7 +2439,14 @@
 }
 ],
 "groups": {
-"id": "2"
+"id": "2",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "atlantic-coast-conference"
 },
 "links": [
 {
@@ -2562,7 +2583,14 @@
 }
 ],
 "groups": {
-"id": "2"
+"id": "2",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "atlantic-coast-conference"
 },
 "links": [
 {
@@ -3023,8 +3051,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "25-6",
-"displayValue": "25-6"
+"summary": "26-6",
+"displayValue": "26-6"
 },
 {
 "name": "gamesBehind",
@@ -3151,8 +3179,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "20-9",
-"displayValue": "20-9"
+"summary": "21-9",
+"displayValue": "21-9"
 },
 {
 "name": "gamesBehind",
@@ -3215,8 +3243,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "24-7",
-"displayValue": "24-7"
+"summary": "25-7",
+"displayValue": "25-7"
 },
 {
 "name": "gamesBehind",
@@ -3279,8 +3307,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "21-9",
-"displayValue": "21-9"
+"summary": "22-9",
+"displayValue": "22-9"
 },
 {
 "name": "gamesBehind",
@@ -3343,8 +3371,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "18-11",
-"displayValue": "18-11"
+"summary": "18-12",
+"displayValue": "18-12"
 },
 {
 "name": "gamesBehind",
@@ -3390,70 +3418,6 @@
 "dark"
 ],
 "lastUpdated": "2023-09-02T00:34Z"
-}
-]
-},
-{
-"team": "Virginia",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/258/virginia-cavaliers",
-"id": "258",
-"uid": "s:40~l:54~t:258",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "17-14",
-"displayValue": "17-14"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 8.0,
-"displayValue": "8"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "8-10",
-"displayValue": "8-10"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2020-09-16T19:21Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/258.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2020-06-16T14:21Z"
 }
 ]
 },
@@ -3522,6 +3486,70 @@
 ]
 },
 {
+"team": "Virginia",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/258/virginia-cavaliers",
+"id": "258",
+"uid": "s:40~l:54~t:258",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "17-15",
+"displayValue": "17-15"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8.0,
+"displayValue": "8"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "8-10",
+"displayValue": "8-10"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-09-16T19:21Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/258.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-06-16T14:21Z"
+}
+]
+},
+{
 "team": "Boston College",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/103/boston-college-eagles",
 "id": "103",
@@ -3535,8 +3563,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "16-16",
-"displayValue": "16-16"
+"summary": "16-17",
+"displayValue": "16-17"
 },
 {
 "name": "gamesBehind",
@@ -3599,8 +3627,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "14-16",
-"displayValue": "14-16"
+"summary": "14-17",
+"displayValue": "14-17"
 },
 {
 "name": "gamesBehind",
@@ -4978,7 +5006,14 @@
 }
 ],
 "groups": {
-"id": "2"
+"id": "2",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "atlantic-coast-conference"
 },
 "links": [
 {
@@ -5155,7 +5190,14 @@
 }
 ],
 "groups": {
-"id": "2"
+"id": "2",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "atlantic-coast-conference"
 },
 "links": [
 {
@@ -5363,7 +5405,14 @@
 }
 ],
 "groups": {
-"id": "2"
+"id": "2",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "atlantic-coast-conference"
 },
 "links": [
 {
@@ -5500,7 +5549,14 @@
 }
 ],
 "groups": {
-"id": "2"
+"id": "2",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "atlantic-coast-conference"
 },
 "links": [
 {

@@ -2752,7 +2752,7 @@
 }
 ],
 "odds": [],
-"winprobability": {},
+"winprobability": [],
 "header": {
 "id": "401714967",
 "uid": "s:40~l:54~e:401714967",
@@ -2909,7 +2909,14 @@
 }
 ],
 "groups": {
-"id": "5"
+"id": "5",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "big-sky-conference"
 },
 "links": [
 {
@@ -2996,7 +3003,14 @@
 }
 ],
 "groups": {
-"id": "51"
+"id": "51",
+"parent": {
+"id": "52",
+"name": "NCAA Basketball",
+"slug": "ncaa-basketball"
+},
+"isConference": false,
+"slug": "non-ncaa-division-i"
 },
 "links": []
 },

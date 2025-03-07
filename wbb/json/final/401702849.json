@@ -1,7 +1,7 @@
 {
 "gameId": 401702849,
 "plays": [],
-"winprobability": {},
+"winprobability": [],
 "boxscore": {
 "teams": [
 {
@@ -1835,7 +1835,14 @@
 }
 ],
 "groups": {
-"id": "62"
+"id": "62",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "american-athletic-conference"
 },
 "links": [
 {
@@ -2012,7 +2019,14 @@
 }
 ],
 "groups": {
-"id": "23"
+"id": "23",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "southeastern-conference"
 },
 "links": [
 {
@@ -2197,7 +2211,14 @@
 }
 ],
 "groups": {
-"id": "62"
+"id": "62",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "american-athletic-conference"
 },
 "links": [
 {
@@ -2334,7 +2355,14 @@
 }
 ],
 "groups": {
-"id": "23"
+"id": "23",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "southeastern-conference"
 },
 "links": [
 {
@@ -2763,8 +2791,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "23-6",
-"displayValue": "23-6"
+"summary": "24-6",
+"displayValue": "24-6"
 },
 {
 "name": "gamesBehind",
@@ -2891,8 +2919,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "23-7",
-"displayValue": "23-7"
+"summary": "23-8",
+"displayValue": "23-8"
 },
 {
 "name": "gamesBehind",
@@ -2955,8 +2983,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "19-9",
-"displayValue": "19-9"
+"summary": "20-9",
+"displayValue": "20-9"
 },
 {
 "name": "gamesBehind",
@@ -3006,70 +3034,6 @@
 ]
 },
 {
-"team": "Tennessee",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2633/tennessee-lady-volunteers",
-"id": "2633",
-"uid": "s:40~l:54~t:2633",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "22-8",
-"displayValue": "22-8"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 7.0,
-"displayValue": "7"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "8-8",
-"displayValue": "8-8"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633_ncw.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-08-31T21:15Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2633_ncw.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-08-31T21:15Z"
-}
-]
-},
-{
 "team": "Vanderbilt",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/238/vanderbilt-commodores",
 "id": "238",
@@ -3083,8 +3047,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "21-9",
-"displayValue": "21-9"
+"summary": "22-9",
+"displayValue": "22-9"
 },
 {
 "name": "gamesBehind",
@@ -3134,6 +3098,70 @@
 ]
 },
 {
+"team": "Tennessee",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2633/tennessee-lady-volunteers",
+"id": "2633",
+"uid": "s:40~l:54~t:2633",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "22-9",
+"displayValue": "22-9"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7.0,
+"displayValue": "7"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "8-8",
+"displayValue": "8-8"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633_ncw.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-08-31T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2633_ncw.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-08-31T21:15Z"
+}
+]
+},
+{
 "team": "Mississippi State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/344/mississippi-state-bulldogs",
 "id": "344",
@@ -3147,8 +3175,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "21-10",
-"displayValue": "21-10"
+"summary": "21-11",
+"displayValue": "21-11"
 },
 {
 "name": "gamesBehind",
@@ -3211,8 +3239,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-16",
-"displayValue": "15-16"
+"summary": "16-16",
+"displayValue": "16-16"
 },
 {
 "name": "gamesBehind",
@@ -3275,8 +3303,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "13-18",
-"displayValue": "13-18"
+"summary": "13-19",
+"displayValue": "13-19"
 },
 {
 "name": "gamesBehind",
@@ -5280,7 +5308,14 @@
 }
 ],
 "groups": {
-"id": "62"
+"id": "62",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "american-athletic-conference"
 },
 "links": [
 {
@@ -5457,7 +5492,14 @@
 }
 ],
 "groups": {
-"id": "23"
+"id": "23",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "southeastern-conference"
 },
 "links": [
 {
@@ -5642,7 +5684,14 @@
 }
 ],
 "groups": {
-"id": "62"
+"id": "62",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "american-athletic-conference"
 },
 "links": [
 {
@@ -5779,7 +5828,14 @@
 }
 ],
 "groups": {
-"id": "23"
+"id": "23",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "southeastern-conference"
 },
 "links": [
 {

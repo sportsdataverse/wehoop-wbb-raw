@@ -1,7 +1,7 @@
 {
 "gameId": 401718896,
 "plays": [],
-"winprobability": {},
+"winprobability": [],
 "boxscore": {
 "teams": [
 {
@@ -1985,7 +1985,14 @@
 }
 ],
 "groups": {
-"id": "30"
+"id": "30",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "western-athletic-conference"
 },
 "links": [
 {
@@ -2048,7 +2055,14 @@
 "abbreviation": "SOUTH",
 "displayName": "University of The Southwest Mustangs",
 "groups": {
-"id": "51"
+"id": "51",
+"parent": {
+"id": "52",
+"name": "NCAA Basketball",
+"slug": "ncaa-basketball"
+},
+"isConference": false,
+"slug": "non-ncaa-division-i"
 },
 "links": []
 },
@@ -2222,7 +2236,14 @@
 }
 ],
 "groups": {
-"id": "30"
+"id": "30",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "western-athletic-conference"
 },
 "links": [
 {
@@ -2245,7 +2266,14 @@
 "abbreviation": "SOUTH",
 "displayName": "University of The Southwest Mustangs",
 "groups": {
-"id": "51"
+"id": "51",
+"parent": {
+"id": "52",
+"name": "NCAA Basketball",
+"slug": "ncaa-basketball"
+},
+"isConference": false,
+"slug": "non-ncaa-division-i"
 },
 "links": []
 }
@@ -2492,8 +2520,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "27-2",
-"displayValue": "27-2"
+"summary": "28-2",
+"displayValue": "28-2"
 },
 {
 "name": "gamesBehind",
@@ -2513,8 +2541,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "14-0",
-"displayValue": "14-0"
+"summary": "15-0",
+"displayValue": "15-0"
 }
 ],
 "logo": [
@@ -2556,8 +2584,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "18-11",
-"displayValue": "18-11"
+"summary": "19-11",
+"displayValue": "19-11"
 },
 {
 "name": "gamesBehind",
@@ -2577,8 +2605,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "9-5",
-"displayValue": "9-5"
+"summary": "10-5",
+"displayValue": "10-5"
 }
 ],
 "logo": [
@@ -2607,10 +2635,10 @@
 ]
 },
 {
-"team": "California Baptist",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2856/california-baptist-lancers",
-"id": "2856",
-"uid": "s:40~l:54~t:2856",
+"team": "Abilene Christian",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2000/abilene-christian-wildcats",
+"id": "2000",
+"uid": "s:40~l:54~t:2000",
 "stats": [
 {
 "id": "0",
@@ -2620,8 +2648,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "12-16",
-"displayValue": "12-16"
+"summary": "20-10",
+"displayValue": "20-10"
 },
 {
 "name": "gamesBehind",
@@ -2630,8 +2658,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.0,
-"displayValue": "5"
+"value": 6.0,
+"displayValue": "6"
 },
 {
 "id": "9",
@@ -2641,13 +2669,13 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "9-5",
-"displayValue": "9-5"
+"summary": "9-6",
+"displayValue": "9-6"
 }
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2856.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -2655,10 +2683,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2023-01-23T21:39Z"
+"lastUpdated": "2023-12-13T21:29Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2856.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2000.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -2666,7 +2694,7 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2023-01-23T21:39Z"
+"lastUpdated": "2023-12-13T21:30Z"
 }
 ]
 },
@@ -2694,8 +2722,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5,
-"displayValue": "5.5"
+"value": 6.0,
+"displayValue": "6"
 },
 {
 "id": "9",
@@ -2735,10 +2763,10 @@
 ]
 },
 {
-"team": "Abilene Christian",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2000/abilene-christian-wildcats",
-"id": "2000",
-"uid": "s:40~l:54~t:2000",
+"team": "California Baptist",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2856/california-baptist-lancers",
+"id": "2856",
+"uid": "s:40~l:54~t:2856",
 "stats": [
 {
 "id": "0",
@@ -2748,8 +2776,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "19-10",
-"displayValue": "19-10"
+"summary": "12-17",
+"displayValue": "12-17"
 },
 {
 "name": "gamesBehind",
@@ -2769,13 +2797,13 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "8-6",
-"displayValue": "8-6"
+"summary": "9-6",
+"displayValue": "9-6"
 }
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2856.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -2783,10 +2811,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2023-12-13T21:29Z"
+"lastUpdated": "2023-01-23T21:39Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2000.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2856.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -2794,7 +2822,7 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2023-12-13T21:30Z"
+"lastUpdated": "2023-01-23T21:39Z"
 }
 ]
 },
@@ -2812,8 +2840,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "16-10",
-"displayValue": "16-10"
+"summary": "16-11",
+"displayValue": "16-11"
 },
 {
 "name": "gamesBehind",
@@ -2822,8 +2850,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.0,
-"displayValue": "6"
+"value": 7.0,
+"displayValue": "7"
 },
 {
 "id": "9",
@@ -2833,8 +2861,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "8-6",
-"displayValue": "8-6"
+"summary": "8-7",
+"displayValue": "8-7"
 }
 ],
 "logo": [
@@ -2876,8 +2904,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "8-20",
-"displayValue": "8-20"
+"summary": "9-20",
+"displayValue": "9-20"
 },
 {
 "name": "gamesBehind",
@@ -2897,8 +2925,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "6-9",
-"displayValue": "6-9"
+"summary": "7-9",
+"displayValue": "7-9"
 }
 ],
 "logo": [
@@ -2940,8 +2968,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-22",
-"displayValue": "5-22"
+"summary": "5-23",
+"displayValue": "5-23"
 },
 {
 "name": "gamesBehind",
@@ -2950,8 +2978,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 13.0,
-"displayValue": "13"
+"value": 14.0,
+"displayValue": "14"
 },
 {
 "id": "9",
@@ -2961,8 +2989,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "1-13",
-"displayValue": "1-13"
+"summary": "1-14",
+"displayValue": "1-14"
 }
 ],
 "logo": [
@@ -3004,8 +3032,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "3-24",
-"displayValue": "3-24"
+"summary": "3-25",
+"displayValue": "3-25"
 },
 {
 "name": "gamesBehind",
@@ -3014,8 +3042,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 14.0,
-"displayValue": "14"
+"value": 15.0,
+"displayValue": "15"
 },
 {
 "id": "9",
@@ -3025,8 +3053,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-14",
-"displayValue": "0-14"
+"summary": "0-15",
+"displayValue": "0-15"
 }
 ],
 "logo": [
@@ -3845,7 +3873,14 @@
 }
 ],
 "groups": {
-"id": "30"
+"id": "30",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "western-athletic-conference"
 },
 "links": [
 {
@@ -3908,7 +3943,14 @@
 "abbreviation": "SOUTH",
 "displayName": "University of The Southwest Mustangs",
 "groups": {
-"id": "51"
+"id": "51",
+"parent": {
+"id": "52",
+"name": "NCAA Basketball",
+"slug": "ncaa-basketball"
+},
+"isConference": false,
+"slug": "non-ncaa-division-i"
 },
 "links": []
 },
@@ -4082,7 +4124,14 @@
 }
 ],
 "groups": {
-"id": "30"
+"id": "30",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "western-athletic-conference"
 },
 "links": [
 {
@@ -4105,7 +4154,14 @@
 "abbreviation": "SOUTH",
 "displayName": "University of The Southwest Mustangs",
 "groups": {
-"id": "51"
+"id": "51",
+"parent": {
+"id": "52",
+"name": "NCAA Basketball",
+"slug": "ncaa-basketball"
+},
+"isConference": false,
+"slug": "non-ncaa-division-i"
 },
 "links": []
 }

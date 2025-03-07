@@ -1,7 +1,7 @@
 {
 "gameId": 401715900,
 "plays": [],
-"winprobability": {},
+"winprobability": [],
 "boxscore": {
 "teams": [
 {
@@ -1957,7 +1957,14 @@
 }
 ],
 "groups": {
-"id": "11"
+"id": "11",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "conference-usa"
 },
 "links": [
 {
@@ -2020,7 +2027,14 @@
 "abbreviation": "LIFE ",
 "displayName": "Life University Running Eagles",
 "groups": {
-"id": "51"
+"id": "51",
+"parent": {
+"id": "52",
+"name": "NCAA Basketball",
+"slug": "ncaa-basketball"
+},
+"isConference": false,
+"slug": "non-ncaa-division-i"
 },
 "links": []
 },
@@ -2194,7 +2208,14 @@
 }
 ],
 "groups": {
-"id": "11"
+"id": "11",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "conference-usa"
 },
 "links": [
 {
@@ -2217,7 +2238,14 @@
 "abbreviation": "LIFE ",
 "displayName": "Life University Running Eagles",
 "groups": {
-"id": "51"
+"id": "51",
+"parent": {
+"id": "52",
+"name": "NCAA Basketball",
+"slug": "ncaa-basketball"
+},
+"isConference": false,
+"slug": "non-ncaa-division-i"
 },
 "links": []
 }
@@ -2451,10 +2479,10 @@
 "standings": {
 "entries": [
 {
-"team": "Middle Tennessee",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2393/middle-tennessee-blue-raiders",
-"id": "2393",
-"uid": "s:40~l:54~t:2393",
+"team": "Liberty",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2335/liberty-flames",
+"id": "2335",
+"uid": "s:40~l:54~t:2335",
 "stats": [
 {
 "id": "0",
@@ -2464,8 +2492,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "23-6",
-"displayValue": "23-6"
+"summary": "22-6",
+"displayValue": "22-6"
 },
 {
 "name": "gamesBehind",
@@ -2485,72 +2513,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "15-1",
-"displayValue": "15-1"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-03-17T13:35Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2393.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-03-17T13:36Z"
-}
-]
-},
-{
-"team": "Liberty",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2335/liberty-flames",
-"id": "2335",
-"uid": "s:40~l:54~t:2335",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "21-6",
-"displayValue": "21-6"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.0,
-"displayValue": "1"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "14-2",
-"displayValue": "14-2"
+"summary": "15-2",
+"displayValue": "15-2"
 }
 ],
 "logo": [
@@ -2579,6 +2543,70 @@
 ]
 },
 {
+"team": "Middle Tennessee",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2393/middle-tennessee-blue-raiders",
+"id": "2393",
+"uid": "s:40~l:54~t:2393",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "23-7",
+"displayValue": "23-7"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "15-2",
+"displayValue": "15-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-03-17T13:35Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2393.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-03-17T13:36Z"
+}
+]
+},
+{
 "team": "Western Kentucky",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/98/western-kentucky-lady-toppers",
 "id": "98",
@@ -2592,8 +2620,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "21-7",
-"displayValue": "21-7"
+"summary": "22-7",
+"displayValue": "22-7"
 },
 {
 "name": "gamesBehind",
@@ -2602,8 +2630,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.0,
-"displayValue": "3"
+"value": 2.0,
+"displayValue": "2"
 },
 {
 "id": "9",
@@ -2613,8 +2641,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "12-4",
-"displayValue": "12-4"
+"summary": "13-4",
+"displayValue": "13-4"
 }
 ],
 "logo": [
@@ -2656,8 +2684,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-14",
-"displayValue": "15-14"
+"summary": "16-14",
+"displayValue": "16-14"
 },
 {
 "name": "gamesBehind",
@@ -2666,8 +2694,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7.0,
-"displayValue": "7"
+"value": 6.0,
+"displayValue": "6"
 },
 {
 "id": "9",
@@ -2677,8 +2705,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "8-8",
-"displayValue": "8-8"
+"summary": "9-8",
+"displayValue": "9-8"
 }
 ],
 "logo": [
@@ -2720,8 +2748,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "14-13",
-"displayValue": "14-13"
+"summary": "14-14",
+"displayValue": "14-14"
 },
 {
 "name": "gamesBehind",
@@ -2741,8 +2769,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "7-9",
-"displayValue": "7-9"
+"summary": "7-10",
+"displayValue": "7-10"
 }
 ],
 "logo": [
@@ -2784,8 +2812,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-16",
-"displayValue": "11-16"
+"summary": "11-17",
+"displayValue": "11-17"
 },
 {
 "name": "gamesBehind",
@@ -2805,8 +2833,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "7-9",
-"displayValue": "7-9"
+"summary": "7-10",
+"displayValue": "7-10"
 }
 ],
 "logo": [
@@ -2858,8 +2886,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9.5,
-"displayValue": "9.5"
+"value": 9.0,
+"displayValue": "9"
 },
 {
 "id": "9",
@@ -2912,8 +2940,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "12-14",
-"displayValue": "12-14"
+"summary": "12-15",
+"displayValue": "12-15"
 },
 {
 "name": "gamesBehind",
@@ -2933,8 +2961,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "5-11",
-"displayValue": "5-11"
+"summary": "5-12",
+"displayValue": "5-12"
 }
 ],
 "logo": [
@@ -2963,6 +2991,70 @@
 ]
 },
 {
+"team": "UTEP",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2638/utep-miners",
+"id": "2638",
+"uid": "s:40~l:54~t:2638",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "11-17",
+"displayValue": "11-17"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "4-13",
+"displayValue": "4-13"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-09-09T17:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2638.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-09-09T17:28Z"
+}
+]
+},
+{
 "team": "Jacksonville State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/55/jacksonville-state-gamecocks",
 "id": "55",
@@ -2986,8 +3078,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11.5,
-"displayValue": "11.5"
+"value": 11.0,
+"displayValue": "11"
 },
 {
 "id": "9",
@@ -3023,70 +3115,6 @@
 "dark"
 ],
 "lastUpdated": "2023-09-02T00:34Z"
-}
-]
-},
-{
-"team": "UTEP",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2638/utep-miners",
-"id": "2638",
-"uid": "s:40~l:54~t:2638",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "10-17",
-"displayValue": "10-17"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 12.0,
-"displayValue": "12"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "3-13",
-"displayValue": "3-13"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-09-09T17:28Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2638.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-09-09T17:28Z"
 }
 ]
 }
@@ -3881,7 +3909,14 @@
 }
 ],
 "groups": {
-"id": "11"
+"id": "11",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "conference-usa"
 },
 "links": [
 {
@@ -3944,7 +3979,14 @@
 "abbreviation": "LIFE ",
 "displayName": "Life University Running Eagles",
 "groups": {
-"id": "51"
+"id": "51",
+"parent": {
+"id": "52",
+"name": "NCAA Basketball",
+"slug": "ncaa-basketball"
+},
+"isConference": false,
+"slug": "non-ncaa-division-i"
 },
 "links": []
 },
@@ -4118,7 +4160,14 @@
 }
 ],
 "groups": {
-"id": "11"
+"id": "11",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "conference-usa"
 },
 "links": [
 {
@@ -4141,7 +4190,14 @@
 "abbreviation": "LIFE ",
 "displayName": "Life University Running Eagles",
 "groups": {
-"id": "51"
+"id": "51",
+"parent": {
+"id": "52",
+"name": "NCAA Basketball",
+"slug": "ncaa-basketball"
+},
+"isConference": false,
+"slug": "non-ncaa-division-i"
 },
 "links": []
 }

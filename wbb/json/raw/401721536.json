@@ -436,7 +436,7 @@
 }
 ],
 "odds": [],
-"winprobability": {},
+"winprobability": [],
 "header": {
 "id": "401721536",
 "uid": "s:40~l:54~e:401721536",
@@ -593,7 +593,14 @@
 }
 ],
 "groups": {
-"id": "7"
+"id": "7",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "big-ten-conference"
 },
 "links": [
 {
@@ -757,7 +764,14 @@
 }
 ],
 "groups": {
-"id": "7"
+"id": "7",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "big-ten-conference"
 },
 "links": [
 {
@@ -1242,6 +1256,70 @@
 ]
 },
 {
+"team": "Michigan",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/130/michigan-wolverines",
+"id": "130",
+"uid": "s:40~l:54~t:130",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "21-9",
+"displayValue": "21-9"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6.0,
+"displayValue": "6"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "11-7",
+"displayValue": "11-7"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-02-17T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/130.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-02-17T21:14Z"
+}
+]
+},
+{
 "team": "Michigan State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/127/michigan-state-spartans",
 "id": "127",
@@ -1255,8 +1333,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "21-8",
-"displayValue": "21-8"
+"summary": "21-9",
+"displayValue": "21-9"
 },
 {
 "name": "gamesBehind",
@@ -1319,8 +1397,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "21-8",
-"displayValue": "21-8"
+"summary": "21-9",
+"displayValue": "21-9"
 },
 {
 "name": "gamesBehind",
@@ -1370,70 +1448,6 @@
 ]
 },
 {
-"team": "Michigan",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/130/michigan-wolverines",
-"id": "130",
-"uid": "s:40~l:54~t:130",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "20-9",
-"displayValue": "20-9"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 6.0,
-"displayValue": "6"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "11-7",
-"displayValue": "11-7"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-02-17T21:15Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/130.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
 "team": "Iowa",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes",
 "id": "2294",
@@ -1447,8 +1461,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "21-9",
-"displayValue": "21-9"
+"summary": "22-9",
+"displayValue": "22-9"
 },
 {
 "name": "gamesBehind",
@@ -1511,8 +1525,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "20-10",
-"displayValue": "20-10"
+"summary": "21-10",
+"displayValue": "21-10"
 },
 {
 "name": "gamesBehind",
@@ -1562,70 +1576,6 @@
 ]
 },
 {
-"team": "Oregon",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2483/oregon-ducks",
-"id": "2483",
-"uid": "s:40~l:54~t:2483",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "19-10",
-"displayValue": "19-10"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 7.0,
-"displayValue": "7"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "10-8",
-"displayValue": "10-8"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2483.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-}
-]
-},
-{
 "team": "Indiana",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/84/indiana-hoosiers",
 "id": "84",
@@ -1639,8 +1589,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "18-11",
-"displayValue": "18-11"
+"summary": "19-11",
+"displayValue": "19-11"
 },
 {
 "name": "gamesBehind",
@@ -1690,6 +1640,70 @@
 ]
 },
 {
+"team": "Oregon",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2483/oregon-ducks",
+"id": "2483",
+"uid": "s:40~l:54~t:2483",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "19-11",
+"displayValue": "19-11"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7.0,
+"displayValue": "7"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "10-8",
+"displayValue": "10-8"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2483.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+}
+]
+},
+{
 "team": "Washington",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/264/washington-huskies",
 "id": "264",
@@ -1703,8 +1717,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "19-12",
-"displayValue": "19-12"
+"summary": "19-13",
+"displayValue": "19-13"
 },
 {
 "name": "gamesBehind",

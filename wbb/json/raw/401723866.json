@@ -2373,7 +2373,7 @@
 }
 ],
 "odds": [],
-"winprobability": {},
+"winprobability": [],
 "header": {
 "id": "401723866",
 "uid": "s:40~l:54~e:401723866",
@@ -2417,7 +2417,14 @@
 "displayName": "Puerto Rico-Mayaguez Bulldogs",
 "color": "000000",
 "groups": {
-"id": "51"
+"id": "51",
+"parent": {
+"id": "52",
+"name": "NCAA Basketball",
+"slug": "ncaa-basketball"
+},
+"isConference": false,
+"slug": "non-ncaa-division-i"
 },
 "links": []
 },
@@ -2568,7 +2575,14 @@
 }
 ],
 "groups": {
-"id": "45"
+"id": "45",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "horizon-league"
 },
 "links": [
 {
@@ -2842,8 +2856,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "26-5",
-"displayValue": "26-5"
+"summary": "27-5",
+"displayValue": "27-5"
 },
 {
 "name": "gamesBehind",
@@ -2906,8 +2920,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "23-7",
-"displayValue": "23-7"
+"summary": "24-7",
+"displayValue": "24-7"
 },
 {
 "name": "gamesBehind",
@@ -2970,8 +2984,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "23-8",
-"displayValue": "23-8"
+"summary": "24-8",
+"displayValue": "24-8"
 },
 {
 "name": "gamesBehind",
@@ -3034,8 +3048,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "14-15",
-"displayValue": "14-15"
+"summary": "15-15",
+"displayValue": "15-15"
 },
 {
 "name": "gamesBehind",
@@ -3098,8 +3112,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-14",
-"displayValue": "15-14"
+"summary": "15-15",
+"displayValue": "15-15"
 },
 {
 "name": "gamesBehind",
@@ -3162,8 +3176,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-20",
-"displayValue": "11-20"
+"summary": "11-21",
+"displayValue": "11-21"
 },
 {
 "name": "gamesBehind",
@@ -3354,8 +3368,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-21",
-"displayValue": "10-21"
+"summary": "10-22",
+"displayValue": "10-22"
 },
 {
 "name": "gamesBehind",
@@ -3418,8 +3432,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "9-21",
-"displayValue": "9-21"
+"summary": "9-22",
+"displayValue": "9-22"
 },
 {
 "name": "gamesBehind",

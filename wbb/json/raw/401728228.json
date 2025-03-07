@@ -2397,7 +2397,7 @@
 }
 ],
 "odds": [],
-"winprobability": {},
+"winprobability": [],
 "header": {
 "id": "401728228",
 "uid": "s:40~l:54~e:401728228",
@@ -2554,7 +2554,14 @@
 }
 ],
 "groups": {
-"id": "47"
+"id": "47",
+"parent": {
+"id": "50",
+"name": "NCAA Division I",
+"slug": "ncaa-division-i"
+},
+"isConference": true,
+"slug": "summit-league"
 },
 "links": [
 {
@@ -2643,7 +2650,14 @@
 }
 ],
 "groups": {
-"id": "51"
+"id": "51",
+"parent": {
+"id": "52",
+"name": "NCAA Basketball",
+"slug": "ncaa-basketball"
+},
+"isConference": false,
+"slug": "non-ncaa-division-i"
 },
 "links": []
 },
@@ -2905,8 +2919,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "26-3",
-"displayValue": "26-3"
+"summary": "27-3",
+"displayValue": "27-3"
 },
 {
 "name": "gamesBehind",
@@ -2969,8 +2983,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "22-7",
-"displayValue": "22-7"
+"summary": "23-7",
+"displayValue": "23-7"
 },
 {
 "name": "gamesBehind",
@@ -3289,8 +3303,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "14-16",
-"displayValue": "14-16"
+"summary": "14-17",
+"displayValue": "14-17"
 },
 {
 "name": "gamesBehind",
@@ -3353,8 +3367,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-19",
-"displayValue": "11-19"
+"summary": "11-20",
+"displayValue": "11-20"
 },
 {
 "name": "gamesBehind",

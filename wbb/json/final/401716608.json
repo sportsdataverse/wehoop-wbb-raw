@@ -32639,8 +32639,8 @@
 "shortDisplayName": "AST",
 "description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
 "abbreviation": "AST",
-"value": 0.0,
-"displayValue": "0"
+"value": 2.0,
+"displayValue": "2"
 },
 {
 "name": "turnovers",
@@ -32648,8 +32648,17 @@
 "shortDisplayName": "TO",
 "description": "The number of times a player loses possession to the other team.",
 "abbreviation": "TO",
-"value": 1.0,
-"displayValue": "1"
+"value": 2.0,
+"displayValue": "2"
+},
+{
+"name": "minutes",
+"displayName": "Minutes",
+"shortDisplayName": "MIN",
+"description": "The total number of minutes played.",
+"abbreviation": "MIN",
+"value": 29.0,
+"displayValue": "29"
 },
 {
 "name": "assistTurnoverRatio",
@@ -32657,8 +32666,8 @@
 "shortDisplayName": "AST/TO",
 "description": "The average number of assists a player or team records per turnover",
 "abbreviation": "AST/TO",
-"value": 0.0,
-"displayValue": "0.0"
+"value": 1.0,
+"displayValue": "1.0"
 }
 ]
 }

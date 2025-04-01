@@ -27572,7 +27572,8 @@
 "shortName": "FS1"
 },
 "lang": "en",
-"region": "us"
+"region": "us",
+"isNational": true
 }
 ],
 "groups": {
@@ -27932,18 +27933,6 @@
 "shortText": "Team Stats",
 "isExternal": false,
 "isPremium": false
-},
-{
-"rel": [
-"videos",
-"desktop",
-"event"
-],
-"href": "https://www.espn.com/womens-college-basketball/video?gameId=401725061",
-"text": "Videos",
-"shortText": "Videos",
-"isExternal": false,
-"isPremium": false
 }
 ],
 "week": 17,
@@ -28102,108 +28091,7 @@
 }
 },
 "broadcasts": [],
-"videos": [
-{
-"id": 44085164,
-"cerebroId": "67c4e13bc9212317d4e01e46",
-"source": "espn",
-"headline": "Paige Bueckers honored on Senior Night",
-"description": "Take a look at some of the notable stats and achievements from Paige Bueckers' time at UConn.",
-"lastModified": "2025-03-02T22:55:17Z",
-"originalPublishDate": "2025-03-02T22:46:26Z",
-"duration": 51,
-"timeRestrictions": {
-"embargoDate": "2025-03-02T22:46:26Z",
-"expirationDate": "2025-03-31T16:00:00Z"
-},
-"deviceRestrictions": {
-"type": "whitelist",
-"devices": [
-"desktop",
-"ipad",
-"settop",
-"handset",
-"tablet"
-]
-},
-"thumbnail": "https://a.espncdn.com/media/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night.jpg",
-"links": {
-"web": {
-"href": "https://www.espn.com/video/clip?id=44085164",
-"self": {
-"href": "https://www.espn.com/video/clip?id=44085164",
-"dsi": {
-"href": "https://www.espn.com/video/clip?id=90ba7078615fa"
-}
-},
-"seo": {
-"href": "https://www.espn.com/video/clip/_/id/44085164"
-}
-},
-"mobile": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6f3a5bd0-03f2-4528-9949-51c2754a7a91/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44085164",
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night.mp4"
-},
-"alert": {
-"href": "http://m.espn.com/general/video/videoAlert?vid=44085164"
-},
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6f3a5bd0-03f2-4528-9949-51c2754a7a91/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44085164"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6f3a5bd0-03f2-4528-9949-51c2754a7a91/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44085164"
-}
-},
-"api": {
-"self": {
-"href": "https://content.core.api.espn.com/v1/video/clips/44085164"
-},
-"artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/6f3a5bd0-03f2-4528-9949-51c2754a7a91"
-}
-},
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night_360p30_1464k.mp4",
-"mezzanine": {
-"href": "http://media.video-origin.espn.com/espnvideo/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night.mp4"
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night.smil"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night_rel.smil/manifest.f4m"
-},
-"HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night/playlist.m3u8",
-"HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night/playlist.m3u8"
-}
-},
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night_720p30_2896k.mp4"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night_360p30_1464k.mp4"
-}
-},
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showVideo?videoID=44085164&videoDSI=90ba7078615fa"
-}
-},
-"ad": {
-"sport": "ncw",
-"bundle": "sportscenter"
-},
-"tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "Analysis",
-"trackingName": "COM_NCW Analysis (Paige Bueckers honored on Senior Night) 2025/03/02 T2V",
-"trackingId": "dm_250302_Bueckers_Senior_Night"
-}
-}
-],
+"videos": [],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {
@@ -28229,8 +28117,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "34-3",
-"displayValue": "34-3"
+"summary": "35-3",
+"displayValue": "35-3"
 },
 {
 "name": "gamesBehind",
@@ -28485,8 +28373,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "21-14",
-"displayValue": "21-14"
+"summary": "21-15",
+"displayValue": "21-15"
 },
 {
 "name": "gamesBehind",
@@ -28952,298 +28840,7 @@
 "url": "https://a.espncdn.com/media/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night.jpg"
 }
 ],
-"video": [
-{
-"id": 44085164,
-"dataSourceIdentifier": "90ba7078615fa",
-"cerebroId": "67c4e13bc9212317d4e01e46",
-"pccId": "6f3a5bd0-03f2-4528-9949-51c2754a7a91",
-"source": "espn",
-"headline": "Paige Bueckers honored on Senior Night",
-"caption": "Take a look at some of the notable stats and achievements from Paige Bueckers' time at UConn.",
-"title": "Paige Bueckers honored on Senior Night",
-"description": "Take a look at some of the notable stats and achievements from Paige Bueckers' time at UConn.",
-"lastModified": "2025-03-02T22:55:17Z",
-"originalPublishDate": "2025-03-02T22:46:26Z",
-"premium": false,
-"syndicatable": true,
-"duration": 51,
-"timeRestrictions": {
-"embargoDate": "2025-03-02T22:46:26Z",
-"expirationDate": "2025-03-31T16:00:00Z"
-},
-"deviceRestrictions": {
-"type": "whitelist",
-"devices": [
-"desktop",
-"ipad",
-"settop",
-"handset",
-"tablet"
-]
-},
-"gameId": 401725061,
-"thumbnail": "https://a.espncdn.com/media/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night.jpg",
-"images": [
-{
-"name": "Poster Image",
-"caption": "",
-"alt": "",
-"credit": "",
-"height": 324,
-"width": 576,
-"url": "https://media.video-cdn.espn.com/images/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night.jpg"
-}
-],
-"posterImages": {
-"default": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night_default.jpg",
-"width": 576,
-"height": 324
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night.jpg"
-},
-"wide": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night_5x2.jpg"
-},
-"square": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night_1x1.jpg"
-}
-},
-"links": {
-"web": {
-"href": "https://www.espn.com/video/clip?id=44085164",
-"self": {
-"href": "https://www.espn.com/video/clip?id=44085164",
-"dsi": {
-"href": "https://www.espn.com/video/clip?id=90ba7078615fa"
-}
-},
-"seo": {
-"href": "https://www.espn.com/video/clip/_/id/44085164"
-}
-},
-"mobile": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6f3a5bd0-03f2-4528-9949-51c2754a7a91/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44085164",
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night.mp4"
-},
-"alert": {
-"href": "http://m.espn.com/general/video/videoAlert?vid=44085164"
-},
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6f3a5bd0-03f2-4528-9949-51c2754a7a91/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44085164"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6f3a5bd0-03f2-4528-9949-51c2754a7a91/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44085164"
-}
-},
-"api": {
-"self": {
-"href": "https://content.core.api.espn.com/v1/video/clips/44085164"
-},
-"artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/6f3a5bd0-03f2-4528-9949-51c2754a7a91"
-}
-},
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night_360p30_1464k.mp4",
-"mezzanine": {
-"href": "http://media.video-origin.espn.com/espnvideo/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night.mp4"
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night.smil"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night_rel.smil/manifest.f4m"
-},
-"HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night/playlist.m3u8",
-"HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night/playlist.m3u8"
-}
-},
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night_720p30_2896k.mp4"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_Bueckers_Senior_Night/dm_250302_Bueckers_Senior_Night_360p30_1464k.mp4"
-}
-},
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showVideo?videoID=44085164&videoDSI=90ba7078615fa"
-}
-},
-"categories": [
-{
-"id": 4746,
-"type": "team",
-"uid": "s:40~l:54~t:41",
-"guid": "179cc0cf-4aff-5dd9-80cb-c4bbf21c5442",
-"description": "UConn Huskies",
-"sportId": 54,
-"teamId": 41,
-"team": {
-"id": 41,
-"description": "UConn Huskies",
-"links": {
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/41/uconn-huskies"
-}
-},
-"mobile": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/41/uconn-huskies"
-}
-}
-}
-}
-},
-{
-"id": 556229,
-"type": "athlete",
-"uid": "s:40~l:54~a:4433730",
-"guid": "5d79683b-b6b8-3474-a96f-617daff9251e",
-"description": "Paige Bueckers",
-"sportId": 54,
-"athleteId": 4433730,
-"athlete": {
-"id": 4433730,
-"description": "Paige Bueckers",
-"links": {
-"web": {
-"athletes": {
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433730/paige-bueckers"
-}
-},
-"mobile": {
-"athletes": {
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433730/paige-bueckers"
-}
-}
-}
-}
-},
-{
-"id": 9578,
-"type": "league",
-"uid": "s:40~l:54",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
-"description": "NCAA Women's Basketball",
-"sportId": 54,
-"leagueId": 54,
-"league": {
-"id": 54,
-"description": "NCAA Women's Basketball",
-"abbreviation": "NCAAW",
-"logos": {
-"full": {
-"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
-"width": 500,
-"height": 500,
-"dark": {
-"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
-"width": 500,
-"height": 500
-}
-},
-"large": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=110&h=110&transparent=true",
-"width": 110,
-"height": 110,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=110&h=110&transparent=true",
-"width": 110,
-"height": 110
-}
-},
-"medium": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=80&h=80&transparent=true",
-"width": 80,
-"height": 80,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=80&h=80&transparent=true",
-"width": 80,
-"height": 80
-}
-},
-"small": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=50&h=50&transparent=true",
-"width": 50,
-"height": 50,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=50&h=50&transparent=true",
-"width": 50,
-"height": 50
-}
-},
-"xsmall": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=40&h=40&transparent=true",
-"width": 40,
-"height": 40,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=40&h=40&transparent=true",
-"width": 40,
-"height": 40
-}
-},
-"xxsmall": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=25&h=25&transparent=true",
-"width": 25,
-"height": 25,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=25&h=25&transparent=true",
-"width": 25,
-"height": 25
-}
-}
-},
-"links": {
-"web": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
-},
-"mobile": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
-}
-}
-}
-},
-{
-"type": "guid",
-"guid": "179cc0cf-4aff-5dd9-80cb-c4bbf21c5442"
-},
-{
-"type": "guid",
-"guid": "e46e88e6-b14b-3a91-b982-084fdf7f0e08"
-},
-{
-"type": "guid",
-"guid": "5d79683b-b6b8-3474-a96f-617daff9251e"
-},
-{
-"type": "guid",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
-}
-],
-"ad": {
-"sport": "ncw",
-"bundle": "sportscenter"
-},
-"tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "Analysis",
-"trackingName": "COM_NCW Analysis (Paige Bueckers honored on Senior Night) 2025/03/02 T2V",
-"trackingId": "dm_250302_Bueckers_Senior_Night"
-}
-}
-],
+"video": [],
 "categories": [
 {
 "id": 4746,
@@ -30486,7 +30083,8 @@
 "shortName": "FS1"
 },
 "lang": "en",
-"region": "us"
+"region": "us",
+"isNational": true
 }
 ],
 "groups": {

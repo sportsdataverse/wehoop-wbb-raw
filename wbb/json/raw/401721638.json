@@ -5496,7 +5496,8 @@
 "shortName": "FOX"
 },
 "lang": "en",
-"region": "us"
+"region": "us",
+"isNational": true
 }
 ],
 "groups": {
@@ -5566,18 +5567,6 @@
 "href": "https://www.espn.com/womens-college-basketball/matchup?gameId=401721638",
 "text": "Team Stats",
 "shortText": "Team Stats",
-"isExternal": false,
-"isPremium": false
-},
-{
-"rel": [
-"videos",
-"desktop",
-"event"
-],
-"href": "https://www.espn.com/womens-college-basketball/video?gameId=401721638",
-"text": "Videos",
-"shortText": "Videos",
 "isExternal": false,
 "isPremium": false
 }
@@ -24365,327 +24354,7 @@
 "url": "https://a.espncdn.com/media/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla.jpg"
 }
 ],
-"video": [
-{
-"id": 44076189,
-"dataSourceIdentifier": "f76fc139f1c6e",
-"cerebroId": "67c3f42f0a790b742fc95b24",
-"pccId": "6473a07f-a772-414c-8a99-26a1c12825f1",
-"source": "espn",
-"headline": "The numbers behind No. 4 USC's victory over No. 2 UCLA",
-"caption": "Check out the numbers behind USC's victory over UCLA to claim the regular-season Big Ten title.",
-"title": "The numbers behind No. 4 USC's victory over No. 2 UCLA",
-"description": "Check out the numbers behind USC's victory over UCLA to claim the regular-season Big Ten title.",
-"lastModified": "2025-03-03T07:26:33Z",
-"originalPublishDate": "2025-03-02T05:56:45Z",
-"premium": false,
-"syndicatable": true,
-"duration": 45,
-"timeRestrictions": {
-"embargoDate": "2025-03-02T05:56:45Z",
-"expirationDate": "2025-03-31T16:00:00Z"
-},
-"deviceRestrictions": {
-"type": "whitelist",
-"devices": [
-"desktop",
-"ipad",
-"settop",
-"handset",
-"tablet"
-]
-},
-"gameId": 401721638,
-"thumbnail": "https://a.espncdn.com/media/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla.jpg",
-"images": [
-{
-"name": "Poster Image",
-"caption": "",
-"alt": "",
-"credit": "",
-"height": 324,
-"width": 576,
-"url": "https://media.video-cdn.espn.com/images/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla.jpg"
-}
-],
-"posterImages": {
-"default": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla_default.jpg",
-"width": 576,
-"height": 324
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla.jpg"
-},
-"wide": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla_5x2.jpg"
-},
-"square": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla_1x1.jpg"
-}
-},
-"links": {
-"web": {
-"href": "https://www.espn.com/video/clip?id=44076189",
-"self": {
-"href": "https://www.espn.com/video/clip?id=44076189",
-"dsi": {
-"href": "https://www.espn.com/video/clip?id=f76fc139f1c6e"
-}
-},
-"seo": {
-"href": "https://www.espn.com/video/clip/_/id/44076189"
-}
-},
-"mobile": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6473a07f-a772-414c-8a99-26a1c12825f1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44076189",
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla.mp4"
-},
-"alert": {
-"href": "http://m.espn.com/general/video/videoAlert?vid=44076189"
-},
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6473a07f-a772-414c-8a99-26a1c12825f1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44076189"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6473a07f-a772-414c-8a99-26a1c12825f1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44076189"
-}
-},
-"api": {
-"self": {
-"href": "https://content.core.api.espn.com/v1/video/clips/44076189"
-},
-"artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/6473a07f-a772-414c-8a99-26a1c12825f1"
-}
-},
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla_360p30_1464k.mp4",
-"mezzanine": {
-"href": "http://media.video-origin.espn.com/espnvideo/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla.mp4"
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla.smil"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla_rel.smil/manifest.f4m"
-},
-"HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla/playlist.m3u8",
-"HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla/playlist.m3u8"
-}
-},
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla_720p30_2896k.mp4"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla_360p30_1464k.mp4"
-}
-},
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showVideo?videoID=44076189&videoDSI=f76fc139f1c6e"
-}
-},
-"categories": [
-{
-"id": 4920,
-"type": "team",
-"uid": "s:40~l:54~t:30",
-"guid": "e2b5504a-e678-c474-854b-ada56e39f8c2",
-"description": "USC Trojans",
-"sportId": 54,
-"teamId": 30,
-"team": {
-"id": 30,
-"description": "USC Trojans",
-"links": {
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/30/usc-trojans"
-}
-},
-"mobile": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/30/usc-trojans"
-}
-}
-}
-}
-},
-{
-"id": 4919,
-"type": "team",
-"uid": "s:40~l:54~t:26",
-"guid": "f430852b-8bf3-6f5f-f713-a28d18e7697d",
-"description": "UCLA Bruins",
-"sportId": 54,
-"teamId": 26,
-"team": {
-"id": 26,
-"description": "UCLA Bruins",
-"links": {
-"web": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/26/ucla-bruins"
-}
-},
-"mobile": {
-"teams": {
-"href": "https://www.espn.com/womens-college-basketball/team/_/id/26/ucla-bruins"
-}
-}
-}
-}
-},
-{
-"id": 634194,
-"type": "athlete",
-"uid": "s:40~l:54~a:5175946",
-"guid": "aef90bbb-424c-3bec-a302-10757b5b569c",
-"description": "JuJu Watkins",
-"sportId": 54,
-"athleteId": 5175946,
-"athlete": {
-"id": 5175946,
-"description": "JuJu Watkins",
-"links": {
-"web": {
-"athletes": {
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5175946/juju-watkins"
-}
-},
-"mobile": {
-"athletes": {
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5175946/juju-watkins"
-}
-}
-}
-}
-},
-{
-"id": 9578,
-"type": "league",
-"uid": "s:40~l:54",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
-"description": "NCAA Women's Basketball",
-"sportId": 54,
-"leagueId": 54,
-"league": {
-"id": 54,
-"description": "NCAA Women's Basketball",
-"abbreviation": "NCAAW",
-"logos": {
-"full": {
-"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
-"width": 500,
-"height": 500,
-"dark": {
-"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
-"width": 500,
-"height": 500
-}
-},
-"large": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=110&h=110&transparent=true",
-"width": 110,
-"height": 110,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=110&h=110&transparent=true",
-"width": 110,
-"height": 110
-}
-},
-"medium": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=80&h=80&transparent=true",
-"width": 80,
-"height": 80,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=80&h=80&transparent=true",
-"width": 80,
-"height": 80
-}
-},
-"small": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=50&h=50&transparent=true",
-"width": 50,
-"height": 50,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=50&h=50&transparent=true",
-"width": 50,
-"height": 50
-}
-},
-"xsmall": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=40&h=40&transparent=true",
-"width": 40,
-"height": 40,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=40&h=40&transparent=true",
-"width": 40,
-"height": 40
-}
-},
-"xxsmall": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=25&h=25&transparent=true",
-"width": 25,
-"height": 25,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=25&h=25&transparent=true",
-"width": 25,
-"height": 25
-}
-}
-},
-"links": {
-"web": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
-},
-"mobile": {
-"leagues": {
-"href": "https://www.espn.com/womens-college-basketball/"
-}
-}
-}
-}
-},
-{
-"type": "guid",
-"guid": "e2b5504a-e678-c474-854b-ada56e39f8c2"
-},
-{
-"type": "guid",
-"guid": "f430852b-8bf3-6f5f-f713-a28d18e7697d"
-},
-{
-"type": "guid",
-"guid": "8a36e1ae-90aa-3555-8ff9-0291417080f2"
-},
-{
-"type": "guid",
-"guid": "aef90bbb-424c-3bec-a302-10757b5b569c"
-},
-{
-"type": "guid",
-"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
-}
-],
-"ad": {
-"sport": "ncw",
-"bundle": "sportscenter"
-},
-"tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "Analysis",
-"trackingName": "COM_NCW Analysis (The numbers behind No. 4 USC's victory over No. 2 UCLA) 2024/3/02 T2V",
-"trackingId": "dm_250302_usc_ucla"
-}
-}
-],
+"video": [],
 "categories": [
 {
 "id": 4920,
@@ -24809,108 +24478,7 @@
 "allowSearch": true,
 "allowContentReactions": false
 },
-"videos": [
-{
-"id": 44076189,
-"cerebroId": "67c3f42f0a790b742fc95b24",
-"source": "espn",
-"headline": "The numbers behind No. 4 USC's victory over No. 2 UCLA",
-"description": "Check out the numbers behind USC's victory over UCLA to claim the regular-season Big Ten title.",
-"lastModified": "2025-03-03T07:26:33Z",
-"originalPublishDate": "2025-03-02T05:56:45Z",
-"duration": 45,
-"timeRestrictions": {
-"embargoDate": "2025-03-02T05:56:45Z",
-"expirationDate": "2025-03-31T16:00:00Z"
-},
-"deviceRestrictions": {
-"type": "whitelist",
-"devices": [
-"desktop",
-"ipad",
-"settop",
-"handset",
-"tablet"
-]
-},
-"thumbnail": "https://a.espncdn.com/media/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla.jpg",
-"links": {
-"web": {
-"href": "https://www.espn.com/video/clip?id=44076189",
-"self": {
-"href": "https://www.espn.com/video/clip?id=44076189",
-"dsi": {
-"href": "https://www.espn.com/video/clip?id=f76fc139f1c6e"
-}
-},
-"seo": {
-"href": "https://www.espn.com/video/clip/_/id/44076189"
-}
-},
-"mobile": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6473a07f-a772-414c-8a99-26a1c12825f1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44076189",
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla.mp4"
-},
-"alert": {
-"href": "http://m.espn.com/general/video/videoAlert?vid=44076189"
-},
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6473a07f-a772-414c-8a99-26a1c12825f1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44076189"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/6473a07f-a772-414c-8a99-26a1c12825f1/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44076189"
-}
-},
-"api": {
-"self": {
-"href": "https://content.core.api.espn.com/v1/video/clips/44076189"
-},
-"artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/6473a07f-a772-414c-8a99-26a1c12825f1"
-}
-},
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla_360p30_1464k.mp4",
-"mezzanine": {
-"href": "http://media.video-origin.espn.com/espnvideo/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla.mp4"
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla.smil"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla_rel.smil/manifest.f4m"
-},
-"HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla/playlist.m3u8",
-"HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla/playlist.m3u8"
-}
-},
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla_720p30_2896k.mp4"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/2025/0302/dm_250302_usc_ucla/dm_250302_usc_ucla_360p30_1464k.mp4"
-}
-},
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showVideo?videoID=44076189&videoDSI=f76fc139f1c6e"
-}
-},
-"ad": {
-"sport": "ncw",
-"bundle": "sportscenter"
-},
-"tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "Analysis",
-"trackingName": "COM_NCW Analysis (The numbers behind No. 4 USC's victory over No. 2 UCLA) 2024/3/02 T2V",
-"trackingId": "dm_250302_usc_ucla"
-}
-}
-],
+"videos": [],
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",
@@ -24935,8 +24503,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "31-3",
-"displayValue": "31-3"
+"summary": "31-4",
+"displayValue": "31-4"
 },
 {
 "name": "gamesBehind",
@@ -25703,8 +25271,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "23-11",
-"displayValue": "23-11"
+"summary": "24-11",
+"displayValue": "24-11"
 },
 {
 "name": "gamesBehind",

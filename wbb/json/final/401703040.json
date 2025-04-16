@@ -22941,9 +22941,12 @@
 "href": "https://hds.video-cdn.espn.com/z/motion/2024/1203/ss_20241203_203707512_2714781/ss_20241203_203707512_2714781_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2024/1203/ss_20241203_203707512_2714781/ss_20241203_203707512_2714781/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1203/ss_20241203_203707512_2714781/ss_20241203_203707512_2714781/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1203/ss_20241203_203707512_2714781/ss_20241203_203707512_2714781/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2024/1203/ss_20241203_203707512_2714781/ss_20241203_203707512_2714781/playlist.m3u8"
 }
 },
 "HD": {
@@ -23044,6 +23047,9 @@
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1203/ss_20241203_205257658_2714827/ss_20241203_205257658_2714827/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2024/1203/ss_20241203_205257658_2714827/ss_20241203_205257658_2714827/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2024/1203/ss_20241203_205257658_2714827/ss_20241203_205257658_2714827/playlist.m3u8"
 }
 },
 "HD": {
@@ -25108,7 +25114,8 @@
 "trackingId": "dm_20241204_NCW_iowa_state_cyclones_vs_south_carolina_upstate_spartans_game_highlights"
 },
 "contributingPartner": "wsc",
-"contributingSystem": "wsc"
+"contributingSystem": "wsc",
+"videoRatio": "16:9"
 }
 ],
 "categories": [

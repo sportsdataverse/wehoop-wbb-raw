@@ -23587,68 +23587,6 @@
 "id": 54,
 "description": "NCAA Women's Basketball",
 "abbreviation": "NCAAW",
-"logos": {
-"full": {
-"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
-"width": 500,
-"height": 500,
-"dark": {
-"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
-"width": 500,
-"height": 500
-}
-},
-"large": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=110&h=110&transparent=true",
-"width": 110,
-"height": 110,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=110&h=110&transparent=true",
-"width": 110,
-"height": 110
-}
-},
-"medium": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=80&h=80&transparent=true",
-"width": 80,
-"height": 80,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=80&h=80&transparent=true",
-"width": 80,
-"height": 80
-}
-},
-"small": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=50&h=50&transparent=true",
-"width": 50,
-"height": 50,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=50&h=50&transparent=true",
-"width": 50,
-"height": 50
-}
-},
-"xsmall": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=40&h=40&transparent=true",
-"width": 40,
-"height": 40,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=40&h=40&transparent=true",
-"width": 40,
-"height": 40
-}
-},
-"xxsmall": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=25&h=25&transparent=true",
-"width": 25,
-"height": 25,
-"dark": {
-"href": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=25&h=25&transparent=true",
-"width": 25,
-"height": 25
-}
-}
-},
 "links": {
 "web": {
 "leagues": {
@@ -23700,7 +23638,8 @@
 "trackingId": "dm_20250321_NCW_nani_falatea_sinks_it_from_downtown"
 },
 "contributingPartner": "wsc",
-"contributingSystem": "wsc"
+"contributingSystem": "wsc",
+"videoRatio": "16:9"
 }
 ],
 "categories": [
@@ -23899,9 +23838,12 @@
 "href": "https://hds.video-cdn.espn.com/z/motion/2025/0321/ss_20250321_195749541_2814119/ss_20250321_195749541_2814119_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0321/ss_20250321_195749541_2814119/ss_20250321_195749541_2814119/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_195749541_2814119/ss_20250321_195749541_2814119/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_195749541_2814119/ss_20250321_195749541_2814119/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0321/ss_20250321_195749541_2814119/ss_20250321_195749541_2814119/playlist.m3u8"
 }
 },
 "HD": {
@@ -24002,6 +23944,9 @@
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0322/dm_250322_SEC_NCW_Highlight_Vandy_wbb_highlight_250322/dm_250322_SEC_NCW_Highlight_Vandy_wbb_highlight_250322/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0322/dm_250322_SEC_NCW_Highlight_Vandy_wbb_highlight_250322/dm_250322_SEC_NCW_Highlight_Vandy_wbb_highlight_250322/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0322/dm_250322_SEC_NCW_Highlight_Vandy_wbb_highlight_250322/dm_250322_SEC_NCW_Highlight_Vandy_wbb_highlight_250322/playlist.m3u8"
 }
 },
 "HD": {
@@ -24102,6 +24047,9 @@
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_180440111_2813956/ss_20250321_180440111_2813956/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_180440111_2813956/ss_20250321_180440111_2813956/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0321/ss_20250321_180440111_2813956/ss_20250321_180440111_2813956/playlist.m3u8"
 }
 },
 "HD": {
@@ -24199,9 +24147,12 @@
 "href": "https://hds.video-cdn.espn.com/z/motion/2025/0321/ss_20250321_183726309_2813994/ss_20250321_183726309_2813994_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0321/ss_20250321_183726309_2813994/ss_20250321_183726309_2813994/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_183726309_2813994/ss_20250321_183726309_2813994/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_183726309_2813994/ss_20250321_183726309_2813994/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0321/ss_20250321_183726309_2813994/ss_20250321_183726309_2813994/playlist.m3u8"
 }
 },
 "HD": {
@@ -24302,6 +24253,9 @@
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_185156147_2814013/ss_20250321_185156147_2814013/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_185156147_2814013/ss_20250321_185156147_2814013/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0321/ss_20250321_185156147_2814013/ss_20250321_185156147_2814013/playlist.m3u8"
 }
 },
 "HD": {
@@ -24402,6 +24356,9 @@
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_190348563_2814028/ss_20250321_190348563_2814028/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_190348563_2814028/ss_20250321_190348563_2814028/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0321/ss_20250321_190348563_2814028/ss_20250321_190348563_2814028/playlist.m3u8"
 }
 },
 "HD": {
@@ -24499,9 +24456,12 @@
 "href": "https://hds.video-cdn.espn.com/z/motion/2025/0321/ss_20250321_192303266_2814055/ss_20250321_192303266_2814055_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0321/ss_20250321_192303266_2814055/ss_20250321_192303266_2814055/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_192303266_2814055/ss_20250321_192303266_2814055/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_192303266_2814055/ss_20250321_192303266_2814055/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0321/ss_20250321_192303266_2814055/ss_20250321_192303266_2814055/playlist.m3u8"
 }
 },
 "HD": {
@@ -24599,9 +24559,12 @@
 "href": "https://hds.video-cdn.espn.com/z/motion/2025/0321/ss_20250321_194744729_2814104/ss_20250321_194744729_2814104_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0321/ss_20250321_194744729_2814104/ss_20250321_194744729_2814104/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_194744729_2814104/ss_20250321_194744729_2814104/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_194744729_2814104/ss_20250321_194744729_2814104/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0321/ss_20250321_194744729_2814104/ss_20250321_194744729_2814104/playlist.m3u8"
 }
 },
 "HD": {
@@ -24699,9 +24662,12 @@
 "href": "https://hds.video-cdn.espn.com/z/motion/2025/0321/ss_20250321_195115193_2814108/ss_20250321_195115193_2814108_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0321/ss_20250321_195115193_2814108/ss_20250321_195115193_2814108/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_195115193_2814108/ss_20250321_195115193_2814108/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_195115193_2814108/ss_20250321_195115193_2814108/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0321/ss_20250321_195115193_2814108/ss_20250321_195115193_2814108/playlist.m3u8"
 }
 },
 "HD": {
@@ -24802,6 +24768,9 @@
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_200743258_2814136/ss_20250321_200743258_2814136/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0321/ss_20250321_200743258_2814136/ss_20250321_200743258_2814136/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0321/ss_20250321_200743258_2814136/ss_20250321_200743258_2814136/playlist.m3u8"
 }
 },
 "HD": {

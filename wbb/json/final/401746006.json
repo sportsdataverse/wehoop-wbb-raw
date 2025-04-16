@@ -34705,9 +34705,12 @@
 "href": "https://hds.video-cdn.espn.com/z/motion/2025/0322/ss_20250322_182401642_2815306/ss_20250322_182401642_2815306_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0322/ss_20250322_182401642_2815306/ss_20250322_182401642_2815306/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0322/ss_20250322_182401642_2815306/ss_20250322_182401642_2815306/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0322/ss_20250322_182401642_2815306/ss_20250322_182401642_2815306/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0322/ss_20250322_182401642_2815306/ss_20250322_182401642_2815306/playlist.m3u8"
 }
 },
 "HD": {
@@ -34808,6 +34811,9 @@
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0322/ss_20250322_192200332_2815401/ss_20250322_192200332_2815401/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0322/ss_20250322_192200332_2815401/ss_20250322_192200332_2815401/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0322/ss_20250322_192200332_2815401/ss_20250322_192200332_2815401/playlist.m3u8"
 }
 },
 "HD": {
@@ -34908,6 +34914,9 @@
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0322/ss_20250322_193413505_2815419/ss_20250322_193413505_2815419/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0322/ss_20250322_193413505_2815419/ss_20250322_193413505_2815419/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0322/ss_20250322_193413505_2815419/ss_20250322_193413505_2815419/playlist.m3u8"
 }
 },
 "HD": {
@@ -37611,7 +37620,8 @@
 "trackingId": "dm_20250322_NCW_california_golden_bears_vs_mississippi_state_bulldogs_game_highlights"
 },
 "contributingPartner": "wsc",
-"contributingSystem": "wsc"
+"contributingSystem": "wsc",
+"videoRatio": "16:9"
 }
 ],
 "categories": [

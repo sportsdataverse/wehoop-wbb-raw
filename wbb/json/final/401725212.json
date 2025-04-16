@@ -21583,9 +21583,12 @@
 "href": "https://hds.video-cdn.espn.com/z/motion/2025/0101/ss_20250101_194343173_2738633/ss_20250101_194343173_2738633_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0101/ss_20250101_194343173_2738633/ss_20250101_194343173_2738633/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0101/ss_20250101_194343173_2738633/ss_20250101_194343173_2738633/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0101/ss_20250101_194343173_2738633/ss_20250101_194343173_2738633/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0101/ss_20250101_194343173_2738633/ss_20250101_194343173_2738633/playlist.m3u8"
 }
 },
 "HD": {
@@ -23182,7 +23185,8 @@
 "trackingId": "dm_20250102_NCW_tcu_horned_frogs_vs_colorado_buffaloes_game_highlights"
 },
 "contributingPartner": "wsc",
-"contributingSystem": "wsc"
+"contributingSystem": "wsc",
+"videoRatio": "16:9"
 }
 ],
 "categories": [

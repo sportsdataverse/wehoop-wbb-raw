@@ -22016,9 +22016,12 @@
 "href": "https://hds.video-cdn.espn.com/z/motion/2025/0209/ss_20250209_131232470_2774138/ss_20250209_131232470_2774138_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0209/ss_20250209_131232470_2774138/ss_20250209_131232470_2774138/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0209/ss_20250209_131232470_2774138/ss_20250209_131232470_2774138/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0209/ss_20250209_131232470_2774138/ss_20250209_131232470_2774138/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0209/ss_20250209_131232470_2774138/ss_20250209_131232470_2774138/playlist.m3u8"
 }
 },
 "HD": {
@@ -22119,6 +22122,9 @@
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0209/ss_20250209_131656339_2774144/ss_20250209_131656339_2774144/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0209/ss_20250209_131656339_2774144/ss_20250209_131656339_2774144/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0209/ss_20250209_131656339_2774144/ss_20250209_131656339_2774144/playlist.m3u8"
 }
 },
 "HD": {
@@ -22219,6 +22225,9 @@
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0209/ss_20250209_135827039_2774193/ss_20250209_135827039_2774193/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0209/ss_20250209_135827039_2774193/ss_20250209_135827039_2774193/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0209/ss_20250209_135827039_2774193/ss_20250209_135827039_2774193/playlist.m3u8"
 }
 },
 "HD": {
@@ -23268,7 +23277,8 @@
 "trackingId": "dm_20250209_NCW_azzi_fudd_cans_a_3pointer_to_end_the_third_quarter"
 },
 "contributingPartner": "wsc",
-"contributingSystem": "wsc"
+"contributingSystem": "wsc",
+"videoRatio": "16:9"
 }
 ],
 "categories": [

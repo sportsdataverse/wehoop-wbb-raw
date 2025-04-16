@@ -20068,9 +20068,12 @@
 "href": "https://hds.video-cdn.espn.com/z/motion/2025/0125/ss_20250125_172959324_2759617/ss_20250125_172959324_2759617_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0125/ss_20250125_172959324_2759617/ss_20250125_172959324_2759617/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0125/ss_20250125_172959324_2759617/ss_20250125_172959324_2759617/playlist.m3u8",
 "HD": {
 "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/2025/0125/ss_20250125_172959324_2759617/ss_20250125_172959324_2759617/playlist.m3u8"
+},
+"cmaf": {
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/2025/0125/ss_20250125_172959324_2759617/ss_20250125_172959324_2759617/playlist.m3u8"
 }
 },
 "HD": {
@@ -20706,10 +20709,10 @@
 "abbreviation": "G"
 },
 "status": {
-"id": "1",
-"name": "Active",
-"type": "active",
-"abbreviation": "Active"
+"id": "2",
+"name": "Inactive",
+"type": "inactive",
+"abbreviation": "Inactive"
 }
 },
 "statistics": [
@@ -20778,10 +20781,10 @@
 "abbreviation": "G"
 },
 "status": {
-"id": "1",
-"name": "Active",
-"type": "active",
-"abbreviation": "Active"
+"id": "2",
+"name": "Inactive",
+"type": "inactive",
+"abbreviation": "Inactive"
 }
 },
 "statistics": [

@@ -493,7 +493,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5177946",
 "uid": "s:40~l:54~a:5177946",
@@ -545,7 +545,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5108552",
 "uid": "s:40~l:54~a:5108552",
@@ -597,7 +597,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "4900502",
 "uid": "s:40~l:54~a:4900502",
@@ -701,7 +701,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5243530",
 "uid": "s:40~l:54~a:5243530",
@@ -753,7 +753,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5315714",
 "uid": "s:40~l:54~a:5315714",
@@ -1386,7 +1386,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5312420",
 "uid": "s:40~l:54~a:5312420",
@@ -1490,7 +1490,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5238310",
 "uid": "s:40~l:54~a:5238310",
@@ -1594,7 +1594,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5312418",
 "uid": "s:40~l:54~a:5312418",
@@ -1646,7 +1646,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5238309",
 "uid": "s:40~l:54~a:5238309",
@@ -1698,7 +1698,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5175935",
 "uid": "s:40~l:54~a:5175935",
@@ -20584,8 +20584,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "0-1",
-"displayValue": "0-1"
+"summary": "0-2",
+"displayValue": "0-2"
 },
 {
 "name": "gamesBehind",
@@ -21030,6 +21030,70 @@
 ]
 },
 {
+"team": "Syracuse",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/183/syracuse-orange",
+"id": "183",
+"uid": "s:40~l:54~t:183",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-09-02T00:03Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/183.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-09-02T00:03Z"
+}
+]
+},
+{
 "team": "Wake Forest",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/154/wake-forest-demon-deacons",
 "id": "154",
@@ -21346,70 +21410,6 @@
 "dark"
 ],
 "lastUpdated": "2023-10-06T14:35Z"
-}
-]
-},
-{
-"team": "Syracuse",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/183/syracuse-orange",
-"id": "183",
-"uid": "s:40~l:54~t:183",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-09-02T00:03Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/183.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-09-02T00:03Z"
 }
 ]
 },

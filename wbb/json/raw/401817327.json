@@ -441,7 +441,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5315531",
 "uid": "s:40~l:54~a:5315531",
@@ -489,7 +489,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5178103",
 "uid": "s:40~l:54~a:5178103",
@@ -541,7 +541,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5177266",
 "uid": "s:40~l:54~a:5177266",
@@ -645,7 +645,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5315533",
 "uid": "s:40~l:54~a:5315533",
@@ -693,7 +693,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5315534",
 "uid": "s:40~l:54~a:5315534",
@@ -1189,7 +1189,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5243441",
 "uid": "s:40~l:54~a:5243441",
@@ -1241,7 +1241,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5242442",
 "uid": "s:40~l:54~a:5242442",
@@ -1345,7 +1345,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5107912",
 "uid": "s:40~l:54~a:5107912",
@@ -1605,7 +1605,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5313855",
 "uid": "s:40~l:54~a:5313855",
@@ -1709,7 +1709,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5109014",
 "uid": "s:40~l:54~a:5109014",
@@ -25412,8 +25412,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "0-1",
-"displayValue": "0-1"
+"summary": "0-2",
+"displayValue": "0-2"
 },
 {
 "name": "gamesBehind",
@@ -25858,70 +25858,6 @@
 ]
 },
 {
-"team": "Charleston Southern",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2127/charleston-southern-buccaneers",
-"id": "2127",
-"uid": "s:40~l:54~t:2127",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-1",
-"displayValue": "0-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2127.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2021-06-30T22:04Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2127.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2021-06-30T22:02Z"
-}
-]
-},
-{
 "team": "Gardner-Webb",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2241/gardner-webb-runnin-bulldogs",
 "id": "2241",
@@ -25982,6 +25918,70 @@
 "dark"
 ],
 "lastUpdated": "2022-11-28T22:04Z"
+}
+]
+},
+{
+"team": "Charleston Southern",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2127/charleston-southern-buccaneers",
+"id": "2127",
+"uid": "s:40~l:54~t:2127",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "0-2",
+"displayValue": "0-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2127.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-06-30T22:04Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2127.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-06-30T22:02Z"
 }
 ]
 },

@@ -389,7 +389,7 @@
 ],
 "athletes": [
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5238277",
 "uid": "s:40~l:54~a:5238277",
@@ -545,7 +545,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5106232",
 "uid": "s:40~l:54~a:5106232",
@@ -597,7 +597,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5106222",
 "uid": "s:40~l:54~a:5106222",
@@ -649,7 +649,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5174410",
 "uid": "s:40~l:54~a:5174410",
@@ -701,7 +701,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "4894357",
 "uid": "s:40~l:54~a:4894357",
@@ -1075,7 +1075,7 @@
 ],
 "athletes": [
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5106165",
 "uid": "s:40~l:54~a:5106165",
@@ -1127,7 +1127,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5106147",
 "uid": "s:40~l:54~a:5106147",
@@ -1179,7 +1179,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5106145",
 "uid": "s:40~l:54~a:5106145",
@@ -1231,7 +1231,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5174251",
 "uid": "s:40~l:54~a:5174251",
@@ -1283,7 +1283,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "4433434",
 "uid": "s:40~l:54~a:4433434",
@@ -25573,6 +25573,70 @@
 ]
 },
 {
+"team": "Syracuse",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/183/syracuse-orange",
+"id": "183",
+"uid": "s:40~l:54~t:183",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-09-02T00:03Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/183.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-09-02T00:03Z"
+}
+]
+},
+{
 "team": "Wake Forest",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/154/wake-forest-demon-deacons",
 "id": "154",
@@ -25889,70 +25953,6 @@
 "dark"
 ],
 "lastUpdated": "2023-10-06T14:35Z"
-}
-]
-},
-{
-"team": "Syracuse",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/183/syracuse-orange",
-"id": "183",
-"uid": "s:40~l:54~t:183",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-09-02T00:03Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/183.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-09-02T00:03Z"
 }
 ]
 },
@@ -26608,6 +26608,134 @@
 ]
 },
 {
+"team": "Utah",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes",
+"id": "254",
+"uid": "s:40~l:54~t:254",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/254.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+}
+]
+},
+{
+"team": "West Virginia",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/277/west-virginia-mountaineers",
+"id": "277",
+"uid": "s:40~l:54~t:277",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/277.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+}
+]
+},
+{
 "team": "Arizona",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/12/arizona-wildcats",
 "id": "12",
@@ -27248,134 +27376,6 @@
 ]
 },
 {
-"team": "Utah",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes",
-"id": "254",
-"uid": "s:40~l:54~t:254",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/254.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-}
-]
-},
-{
-"team": "West Virginia",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/277/west-virginia-mountaineers",
-"id": "277",
-"uid": "s:40~l:54~t:277",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/277.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-}
-]
-},
-{
 "team": "Cincinnati",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2132/cincinnati-bearcats",
 "id": "2132",
@@ -27389,8 +27389,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "0-1",
-"displayValue": "0-1"
+"summary": "0-2",
+"displayValue": "0-2"
 },
 {
 "name": "gamesBehind",

@@ -390,7 +390,6 @@
 "guid": "1ce9af42-f53d-3a9c-adae-a46aada51de3",
 "displayName": "Teagan Cohen",
 "shortName": "T. Cohen",
-"links": [],
 "jersey": "2",
 "position": {
 "name": "Forward",
@@ -421,14 +420,13 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5322319",
 "uid": "s:40~l:54~a:5322319",
 "guid": "dd7ffcb9-3ef7-3adf-b41e-52ec6044e3f8",
 "displayName": "Nicole Ros",
 "shortName": "N. Ros",
-"links": [],
 "jersey": "24",
 "position": {
 "name": "Guard",
@@ -459,14 +457,13 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5322317",
 "uid": "s:40~l:54~a:5322317",
 "guid": "b450ff8b-0c4c-37c0-b620-ce21d702928b",
 "displayName": "Sophia Laurel",
 "shortName": "S. Laurel",
-"links": [],
 "jersey": "22",
 "position": {
 "name": "Guard",
@@ -504,7 +501,6 @@
 "guid": "14ac035a-7146-38aa-8ea2-8188976d928f",
 "displayName": "Estela Sancho",
 "shortName": "E. Sancho",
-"links": [],
 "jersey": "11",
 "position": {
 "name": "Guard",
@@ -535,14 +531,13 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5322310",
 "uid": "s:40~l:54~a:5322310",
 "guid": "b7304bfc-a705-3eb7-b086-de047ce4b659",
 "displayName": "Melissa Castro",
 "shortName": "M. Castro",
-"links": [],
 "jersey": "1",
 "position": {
 "name": "Guard",
@@ -573,14 +568,13 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5322318",
 "uid": "s:40~l:54~a:5322318",
 "guid": "a1f5ee49-2538-303c-bd75-e4d8b99ed622",
 "displayName": "Sophie Sharp",
 "shortName": "S. Sharp",
-"links": [],
 "jersey": "23",
 "position": {
 "name": "Center",
@@ -611,14 +605,13 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5322313",
 "uid": "s:40~l:54~a:5322313",
 "guid": "21df11dd-732c-3eb5-86cc-0abe44235ca6",
 "displayName": "Isabel Betancor",
 "shortName": "I. Betancor",
-"links": [],
 "jersey": "10",
 "position": {
 "name": "Guard",
@@ -656,7 +649,6 @@
 "guid": "00d30864-7ba8-302a-8504-e6e83aeed68b",
 "displayName": "Melana Goodloe",
 "shortName": "M. Goodloe",
-"links": [],
 "jersey": "6",
 "position": {
 "name": "Forward",
@@ -677,7 +669,6 @@
 "guid": "7d7fc422-e63e-340f-95c7-bfe184bc5378",
 "displayName": "Giovanna Damiao",
 "shortName": "G. Damiao",
-"links": [],
 "jersey": "14",
 "position": {
 "name": "Center",
@@ -698,7 +689,6 @@
 "guid": "e22d6ae5-0163-3203-ad7f-e48c1001ca35",
 "displayName": "Alexus Behn",
 "shortName": "A. Behn",
-"links": [],
 "jersey": "21",
 "position": {
 "name": "Guard",
@@ -1084,7 +1074,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5315666",
 "uid": "s:40~l:54~a:5315666",
@@ -1240,7 +1230,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5239063",
 "uid": "s:40~l:54~a:5239063",
@@ -1292,7 +1282,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5315664",
 "uid": "s:40~l:54~a:5315664",
@@ -1392,7 +1382,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5315665",
 "uid": "s:40~l:54~a:5315665",
@@ -1444,7 +1434,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5315662",
 "uid": "s:40~l:54~a:5315662",
@@ -22285,6 +22275,70 @@
 "standings": {
 "entries": [
 {
+"team": "Montana State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/147/montana-state-bobcats",
+"id": "147",
+"uid": "s:40~l:54~t:147",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/147.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-03-16T14:51Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/147.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-03-16T14:50Z"
+}
+]
+},
+{
 "team": "Sacramento State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/16/sacramento-state-hornets",
 "id": "16",
@@ -22409,70 +22463,6 @@
 "dark"
 ],
 "lastUpdated": "2023-09-02T00:34Z"
-}
-]
-},
-{
-"team": "Idaho",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/70/idaho-vandals",
-"id": "70",
-"uid": "s:40~l:54~t:70",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/70.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2021-11-04T21:05Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/70.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2021-11-04T21:05Z"
 }
 ]
 },
@@ -22605,70 +22595,6 @@
 ]
 },
 {
-"team": "Montana State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/147/montana-state-bobcats",
-"id": "147",
-"uid": "s:40~l:54~t:147",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/147.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-03-16T14:51Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/147.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-03-16T14:50Z"
-}
-]
-},
-{
 "team": "Northern Colorado",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2458/northern-colorado-bears",
 "id": "2458",
@@ -22729,6 +22655,70 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Idaho",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/70/idaho-vandals",
+"id": "70",
+"uid": "s:40~l:54~t:70",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-1",
+"displayValue": "1-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/70.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-11-04T21:05Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/70.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-11-04T21:05Z"
 }
 ]
 },

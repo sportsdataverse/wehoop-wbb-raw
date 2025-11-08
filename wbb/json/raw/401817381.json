@@ -389,7 +389,7 @@
 ],
 "athletes": [
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5238289",
 "uid": "s:40~l:54~a:5238289",
@@ -441,7 +441,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5174420",
 "uid": "s:40~l:54~a:5174420",
@@ -493,7 +493,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5107515",
 "uid": "s:40~l:54~a:5107515",
@@ -597,7 +597,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5238288",
 "uid": "s:40~l:54~a:5238288",
@@ -753,7 +753,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5106166",
 "uid": "s:40~l:54~a:5106166",
@@ -1127,7 +1127,7 @@
 ],
 "athletes": [
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5239592",
 "uid": "s:40~l:54~a:5239592",
@@ -1283,7 +1283,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5174491",
 "uid": "s:40~l:54~a:5174491",
@@ -1335,7 +1335,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "4433790",
 "uid": "s:40~l:54~a:4433790",
@@ -1387,7 +1387,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5106202",
 "uid": "s:40~l:54~a:5106202",
@@ -1491,7 +1491,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5239664",
 "uid": "s:40~l:54~a:5239664",
@@ -22623,6 +22623,70 @@
 ]
 },
 {
+"team": "Syracuse",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/183/syracuse-orange",
+"id": "183",
+"uid": "s:40~l:54~t:183",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-09-02T00:03Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/183.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-09-02T00:03Z"
+}
+]
+},
+{
 "team": "Wake Forest",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/154/wake-forest-demon-deacons",
 "id": "154",
@@ -22939,70 +23003,6 @@
 "dark"
 ],
 "lastUpdated": "2023-10-06T14:35Z"
-}
-]
-},
-{
-"team": "Syracuse",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/183/syracuse-orange",
-"id": "183",
-"uid": "s:40~l:54~t:183",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-09-02T00:03Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/183.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-09-02T00:03Z"
 }
 ]
 },
@@ -23466,10 +23466,10 @@
 "standings": {
 "entries": [
 {
-"team": "Butler",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2086/butler-bulldogs",
-"id": "2086",
-"uid": "s:40~l:54~t:2086",
+"team": "Xavier",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2752/xavier-musketeers",
+"id": "2752",
+"uid": "s:40~l:54~t:2752",
 "stats": [
 {
 "id": "0",
@@ -23479,8 +23479,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
+"summary": "2-0",
+"displayValue": "2-0"
 },
 {
 "name": "gamesBehind",
@@ -23506,7 +23506,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -23514,10 +23514,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2018-06-05T12:08Z"
+"lastUpdated": "2023-12-13T21:29Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2086.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2752.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -23525,7 +23525,7 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2018-06-05T12:08Z"
+"lastUpdated": "2023-12-13T21:30Z"
 }
 ]
 },
@@ -23786,70 +23786,6 @@
 ]
 },
 {
-"team": "St. John's",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2599/st-johns-red-storm",
-"id": "2599",
-"uid": "s:40~l:54~t:2599",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2599.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "UConn",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/41/uconn-huskies",
 "id": "41",
@@ -23914,10 +23850,10 @@
 ]
 },
 {
-"team": "Xavier",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2752/xavier-musketeers",
-"id": "2752",
-"uid": "s:40~l:54~t:2752",
+"team": "Butler",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2086/butler-bulldogs",
+"id": "2086",
+"uid": "s:40~l:54~t:2086",
 "stats": [
 {
 "id": "0",
@@ -23927,8 +23863,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
+"summary": "1-1",
+"displayValue": "1-1"
 },
 {
 "name": "gamesBehind",
@@ -23954,7 +23890,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -23962,10 +23898,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2023-12-13T21:29Z"
+"lastUpdated": "2018-06-05T12:08Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2752.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2086.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -23973,7 +23909,71 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2023-12-13T21:30Z"
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "St. John's",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2599/st-johns-red-storm",
+"id": "2599",
+"uid": "s:40~l:54~t:2599",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-1",
+"displayValue": "1-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2599.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },

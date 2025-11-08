@@ -649,7 +649,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5315073",
 "uid": "s:40~l:54~a:5315073",
@@ -753,7 +753,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5315075",
 "uid": "s:40~l:54~a:5315075",
@@ -805,7 +805,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5315074",
 "uid": "s:40~l:54~a:5315074",
@@ -909,7 +909,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5242506",
 "uid": "s:40~l:54~a:5242506",
@@ -961,7 +961,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5242503",
 "uid": "s:40~l:54~a:5242503",
@@ -1281,7 +1281,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5312952",
 "uid": "s:40~l:54~a:5312952",
@@ -1433,7 +1433,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5312953",
 "uid": "s:40~l:54~a:5312953",
@@ -1533,7 +1533,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5312951",
 "uid": "s:40~l:54~a:5312951",
@@ -1581,7 +1581,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5312950",
 "uid": "s:40~l:54~a:5312950",
@@ -1629,7 +1629,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5312949",
 "uid": "s:40~l:54~a:5312949",
@@ -21824,70 +21824,6 @@
 "standings": {
 "entries": [
 {
-"team": "Long Island University",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/112358/long-island-university-sharks",
-"id": "112358",
-"uid": "s:40~l:54~t:112358",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/112358.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-01-25T21:34Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/112358.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-01-25T21:35Z"
-}
-]
-},
-{
 "team": "Chicago State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2130/chicago-state-cougars",
 "id": "2130",
@@ -21948,6 +21884,70 @@
 "dark"
 ],
 "lastUpdated": "2023-01-27T21:14Z"
+}
+]
+},
+{
+"team": "Long Island University",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/112358/long-island-university-sharks",
+"id": "112358",
+"uid": "s:40~l:54~t:112358",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-1",
+"displayValue": "1-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/112358.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-25T21:34Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/112358.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-25T21:35Z"
 }
 ]
 },
@@ -22552,8 +22552,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
+"summary": "2-0",
+"displayValue": "2-0"
 },
 {
 "name": "gamesBehind",
@@ -22616,8 +22616,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
+"summary": "2-0",
+"displayValue": "2-0"
 },
 {
 "name": "gamesBehind",
@@ -22663,70 +22663,6 @@
 "dark"
 ],
 "lastUpdated": "2020-08-20T15:26Z"
-}
-]
-},
-{
-"team": "UAlbany",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/399/ualbany-great-danes",
-"id": "399",
-"uid": "s:40~l:54~t:399",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-02T00:59Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/399.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-02T00:34Z"
 }
 ]
 },
@@ -22923,6 +22859,70 @@
 ]
 },
 {
+"team": "UAlbany",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/399/ualbany-great-danes",
+"id": "399",
+"uid": "s:40~l:54~t:399",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-1",
+"displayValue": "1-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-02T00:59Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/399.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-02T00:34Z"
+}
+]
+},
+{
 "team": "UMBC",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2378/umbc-retrievers",
 "id": "2378",
@@ -23000,8 +23000,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "0-0",
-"displayValue": "0-0"
+"summary": "0-1",
+"displayValue": "0-1"
 },
 {
 "name": "gamesBehind",

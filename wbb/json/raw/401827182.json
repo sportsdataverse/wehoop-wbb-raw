@@ -390,7 +390,6 @@
 "guid": "a5e6adb2-319d-3a1f-87cb-3555a8f30e06",
 "displayName": "Lexi Barnes",
 "shortName": "L. Barnes",
-"links": [],
 "jersey": "12",
 "position": {
 "name": "Forward",
@@ -428,7 +427,6 @@
 "guid": "e672270b-a7e5-3d59-9c14-160d7565b1da",
 "displayName": "Haley Debuse",
 "shortName": "H. Debuse",
-"links": [],
 "jersey": "11",
 "position": {
 "name": "Forward",
@@ -459,14 +457,13 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5117382",
 "uid": "s:40~l:54~a:5117382",
 "guid": "cb08a7e9-5fa0-3c66-b752-bd11bcfb0de6",
 "displayName": "Madelyn Gaughen",
 "shortName": "M. Gaughen",
-"links": [],
 "jersey": "2",
 "position": {
 "name": "Forward",
@@ -504,7 +501,6 @@
 "guid": "18173ab0-443f-3459-aedc-69deaeca29ef",
 "displayName": "Jai'La Porter",
 "shortName": "J. Porter",
-"links": [],
 "jersey": "10",
 "position": {
 "name": "Guard",
@@ -542,7 +538,6 @@
 "guid": "2ac9662f-23c0-3361-a977-a72e30c86d12",
 "displayName": "Freda Moore",
 "shortName": "F. Moore",
-"links": [],
 "jersey": "13",
 "position": {
 "name": "Guard",
@@ -580,7 +575,6 @@
 "guid": "9e327c4e-aed0-3876-9aea-c64adfa71eb1",
 "displayName": "Madison Keil",
 "shortName": "M. Keil",
-"links": [],
 "jersey": "42",
 "position": {
 "name": "Forward",
@@ -618,7 +612,6 @@
 "guid": "b703f1d3-deb6-381e-80d2-b5b8107849c7",
 "displayName": "Meghan Keil",
 "shortName": "M. Keil",
-"links": [],
 "jersey": "14",
 "position": {
 "name": "Forward",
@@ -656,7 +649,6 @@
 "guid": "c04b2b02-9888-3432-b031-43cdadd95d46",
 "displayName": "Kathryn Gaughen",
 "shortName": "K. Gaughen",
-"links": [],
 "jersey": "3",
 "position": {
 "name": "Guard",
@@ -694,7 +686,6 @@
 "guid": "666ddb01-d089-35a0-a8cd-038e43864577",
 "displayName": "Maria Gon\u00e7alves",
 "shortName": "M. Gon\u00e7alves",
-"links": [],
 "jersey": "22",
 "position": {
 "name": "Guard",
@@ -715,7 +706,6 @@
 "guid": "f1754e8d-ef88-38d9-98a4-4783755e9c6c",
 "displayName": "Kaylie Senior",
 "shortName": "K. Senior",
-"links": [],
 "jersey": "5",
 "position": {
 "name": "Guard",
@@ -736,7 +726,6 @@
 "guid": "91720f6f-3b8d-362d-8c43-dda7e1bc228f",
 "displayName": "Adriana McGee",
 "shortName": "A. McGee",
-"links": [],
 "jersey": "23",
 "position": {
 "name": "Guard",
@@ -757,7 +746,6 @@
 "guid": "9862bcd0-5f31-3f9c-9d0d-9dafbf06af6e",
 "displayName": "Ella Klusman",
 "shortName": "E. Klusman",
-"links": [],
 "jersey": "15",
 "position": {
 "name": "Guard",
@@ -1083,7 +1071,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5175420",
 "uid": "s:40~l:54~a:5175420",
@@ -1135,7 +1123,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5314667",
 "uid": "s:40~l:54~a:5314667",
@@ -1183,7 +1171,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5314666",
 "uid": "s:40~l:54~a:5314666",
@@ -1231,7 +1219,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5314662",
 "uid": "s:40~l:54~a:5314662",
@@ -1279,7 +1267,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5314661",
 "uid": "s:40~l:54~a:5314661",
@@ -20512,6 +20500,70 @@
 ]
 },
 {
+"team": "Kansas City",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/140/kansas-city-roos",
+"id": "140",
+"uid": "s:40~l:54~t:140",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-1",
+"displayValue": "1-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/140.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-20T22:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/140.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-20T22:35Z"
+}
+]
+},
+{
 "team": "North Dakota State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2449/north-dakota-state-bison",
 "id": "2449",
@@ -20640,134 +20692,6 @@
 ]
 },
 {
-"team": "Kansas City",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/140/kansas-city-roos",
-"id": "140",
-"uid": "s:40~l:54~t:140",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-1",
-"displayValue": "0-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/140.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-01-20T22:36Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/140.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-01-20T22:35Z"
-}
-]
-},
-{
-"team": "St. Thomas-Minnesota",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2900/st-thomas-minnesota-tommies",
-"id": "2900",
-"uid": "s:40~l:54~t:2900",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-1",
-"displayValue": "0-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2900.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-01-20T22:36Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2900.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-01-20T22:35Z"
-}
-]
-},
-{
 "team": "Denver",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2172/denver-pioneers",
 "id": "2172",
@@ -20884,6 +20808,70 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/155.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-20T22:35Z"
+}
+]
+},
+{
+"team": "St. Thomas-Minnesota",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2900/st-thomas-minnesota-tommies",
+"id": "2900",
+"uid": "s:40~l:54~t:2900",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "0-2",
+"displayValue": "0-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2900.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-20T22:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2900.png",
 "width": 500,
 "height": 500,
 "alt": "",

@@ -441,7 +441,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5178564",
 "uid": "s:40~l:54~a:5178564",
@@ -649,7 +649,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5312227",
 "uid": "s:40~l:54~a:5312227",
@@ -697,7 +697,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5312226",
 "uid": "s:40~l:54~a:5312226",
@@ -853,7 +853,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5312225",
 "uid": "s:40~l:54~a:5312225",
@@ -905,7 +905,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5312224",
 "uid": "s:40~l:54~a:5312224",
@@ -1486,7 +1486,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5312760",
 "uid": "s:40~l:54~a:5312760",
@@ -1634,7 +1634,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5174342",
 "uid": "s:40~l:54~a:5174342",
@@ -1734,7 +1734,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5241561",
 "uid": "s:40~l:54~a:5241561",
@@ -1838,7 +1838,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5174428",
 "uid": "s:40~l:54~a:5174428",
@@ -1890,7 +1890,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5174343",
 "uid": "s:40~l:54~a:5174343",
@@ -23440,6 +23440,70 @@
 ]
 },
 {
+"team": "La Salle",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2325/la-salle-explorers",
+"id": "2325",
+"uid": "s:40~l:54~t:2325",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-09-13T17:41Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2325.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "Rhode Island",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/227/rhode-island-rams",
 "id": "227",
@@ -23632,70 +23696,6 @@
 ]
 },
 {
-"team": "La Salle",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2325/la-salle-explorers",
-"id": "2325",
-"uid": "s:40~l:54~t:2325",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2021-09-13T17:41Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2325.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "VCU",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2670/vcu-rams",
 "id": "2670",
@@ -23773,8 +23773,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-1",
-"displayValue": "1-1"
+"summary": "2-1",
+"displayValue": "2-1"
 },
 {
 "name": "gamesBehind",

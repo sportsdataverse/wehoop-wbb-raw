@@ -439,7 +439,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5239387",
 "uid": "s:40~l:54~a:5239387",
@@ -491,7 +491,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5239386",
 "uid": "s:40~l:54~a:5239386",
@@ -543,7 +543,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5239384",
 "uid": "s:40~l:54~a:5239384",
@@ -595,7 +595,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5177746",
 "uid": "s:40~l:54~a:5177746",
@@ -803,7 +803,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5107735",
 "uid": "s:40~l:54~a:5107735",
@@ -1246,7 +1246,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5242673",
 "uid": "s:40~l:54~a:5242673",
@@ -1298,7 +1298,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5240960",
 "uid": "s:40~l:54~a:5240960",
@@ -1350,7 +1350,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "4899077",
 "uid": "s:40~l:54~a:4899077",
@@ -1402,7 +1402,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5177899",
 "uid": "s:40~l:54~a:5177899",
@@ -1658,7 +1658,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5174731",
 "uid": "s:40~l:54~a:5174731",
@@ -23645,6 +23645,70 @@
 "standings": {
 "entries": [
 {
+"team": "Florida Atlantic",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2226/florida-atlantic-owls",
+"id": "2226",
+"uid": "s:40~l:54~t:2226",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-12-13T21:29Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2226.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-12-13T21:30Z"
+}
+]
+},
+{
 "team": "North Texas",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/249/north-texas-mean-green",
 "id": "249",
@@ -23833,70 +23897,6 @@
 "dark"
 ],
 "lastUpdated": "2022-09-01T23:35Z"
-}
-]
-},
-{
-"team": "Florida Atlantic",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2226/florida-atlantic-owls",
-"id": "2226",
-"uid": "s:40~l:54~t:2226",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-12-13T21:29Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2226.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-12-13T21:30Z"
 }
 ]
 },
@@ -24362,8 +24362,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "0-1",
-"displayValue": "0-1"
+"summary": "0-2",
+"displayValue": "0-2"
 },
 {
 "name": "gamesBehind",
@@ -24426,8 +24426,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "0-1",
-"displayValue": "0-1"
+"summary": "0-2",
+"displayValue": "0-2"
 },
 {
 "name": "gamesBehind",

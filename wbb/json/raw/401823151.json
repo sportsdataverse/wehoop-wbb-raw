@@ -1333,18 +1333,18 @@
 "ejected": false,
 "stats": [
 "38",
-"27",
+"24",
 "1",
 "5",
 "6",
-"6",
+"7",
 "4",
 "1",
 "2",
-"12-20",
-"60.0",
-"1-4",
-"25.0",
+"11-19",
+"57.9",
+"0-3",
+"0.0",
 "2-2",
 "100.0",
 "2"
@@ -1436,7 +1436,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"7",
+"6",
 "5",
 "1",
 "1",
@@ -1593,18 +1593,18 @@
 "ejected": false,
 "stats": [
 "13",
-"0",
+"3",
 "0",
 "2",
 "2",
-"1",
 "0",
 "0",
+"0",
 "1",
-"0-2",
-"0.0",
-"0-1",
-"0.0",
+"1-3",
+"33.3",
+"1-2",
+"50.0",
 "0-0",
 "0.0",
 "1"
@@ -1644,7 +1644,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"10",
+"11",
 "2",
 "0",
 "1",
@@ -1863,7 +1863,7 @@
 "displayName": "Points",
 "leaders": [
 {
-"displayValue": "27",
+"displayValue": "24",
 "athlete": {
 "id": "5240037",
 "uid": "s:40~l:54~a:5240037",
@@ -1905,8 +1905,8 @@
 "shortDisplayName": "PTS",
 "description": "The number of points scored.",
 "abbreviation": "PTS",
-"value": 27.0,
-"displayValue": "27"
+"value": 24.0,
+"displayValue": "24"
 },
 {
 "name": "fieldGoals",
@@ -1914,8 +1914,8 @@
 "shortDisplayName": "FG",
 "description": "Field Goal makes and attempts.",
 "abbreviation": "FG",
-"value": 0.6,
-"displayValue": "12/20"
+"value": 0.578947,
+"displayValue": "11/19"
 },
 {
 "name": "freeThrows",
@@ -1928,10 +1928,10 @@
 }
 ],
 "mainStat": {
-"value": "27",
+"value": "24",
 "label": "PTS"
 },
-"summary": "12/20 FG, 2/2 FT"
+"summary": "11/19 FG, 2/2 FT"
 }
 ]
 },
@@ -1940,7 +1940,7 @@
 "displayName": "Assists",
 "leaders": [
 {
-"displayValue": "6",
+"displayValue": "7",
 "athlete": {
 "id": "5240037",
 "uid": "s:40~l:54~a:5240037",
@@ -1982,8 +1982,8 @@
 "shortDisplayName": "AST",
 "description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
 "abbreviation": "AST",
-"value": 6.0,
-"displayValue": "6"
+"value": 7.0,
+"displayValue": "7"
 },
 {
 "name": "turnovers",
@@ -2009,12 +2009,12 @@
 "shortDisplayName": "AST/TO",
 "description": "The average number of assists a player or team records per turnover",
 "abbreviation": "AST/TO",
-"value": 3.0,
-"displayValue": "3.0"
+"value": 3.5,
+"displayValue": "3.5"
 }
 ],
 "mainStat": {
-"value": "6",
+"value": "7",
 "label": "AST"
 },
 "summary": "2 TO, 38 MIN"
@@ -5461,6 +5461,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Jump Ball"
 },
 {
@@ -5498,6 +5499,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Jump Ball"
 },
 {
@@ -5535,6 +5537,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Jump Ball"
 },
 {
@@ -5577,6 +5580,7 @@
 "x": 22,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -5614,6 +5618,7 @@
 "x": 41,
 "y": 18
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -5651,6 +5656,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -5688,6 +5694,7 @@
 "x": 25,
 "y": 7
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -5725,6 +5732,7 @@
 "x": 30,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -5762,6 +5770,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -5799,6 +5808,7 @@
 "x": 32,
 "y": -3
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -5836,6 +5846,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -5873,6 +5884,7 @@
 "x": 28,
 "y": 22
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -5910,6 +5922,7 @@
 "x": 38,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -5947,6 +5960,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -5984,6 +5998,7 @@
 "x": 39,
 "y": 22
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -6021,6 +6036,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -6058,6 +6074,7 @@
 "x": 28,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -6095,6 +6112,7 @@
 "x": 20,
 "y": 81
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -6132,6 +6150,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -6169,6 +6188,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -6206,6 +6226,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -6236,6 +6257,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -6273,6 +6295,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -6303,6 +6326,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -6340,6 +6364,7 @@
 "x": 18,
 "y": 81
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -6377,6 +6402,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -6414,6 +6440,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -6451,6 +6478,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -6488,6 +6516,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -6525,6 +6554,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -6562,6 +6592,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -6604,6 +6635,7 @@
 "x": 30,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -6641,6 +6673,7 @@
 "x": 20,
 "y": 82
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -6678,6 +6711,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -6715,6 +6749,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -6757,6 +6792,7 @@
 "x": 39,
 "y": 21
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -6794,6 +6830,7 @@
 "x": 18,
 "y": 9
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -6831,6 +6868,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -6868,6 +6906,7 @@
 "x": 3,
 "y": 7
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -6905,6 +6944,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -6947,6 +6987,7 @@
 "x": 3,
 "y": -1
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -6984,6 +7025,7 @@
 "x": 42,
 "y": 19
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -7021,6 +7063,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -7063,6 +7106,7 @@
 "x": 20,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -7100,6 +7144,7 @@
 "x": 22,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -7137,6 +7182,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7174,6 +7220,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7211,6 +7258,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7248,6 +7296,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7285,6 +7334,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7322,6 +7372,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7364,6 +7415,7 @@
 "x": 39,
 "y": 19
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -7401,6 +7453,7 @@
 "x": 20,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -7438,6 +7491,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -7475,6 +7529,7 @@
 "x": 25,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -7512,6 +7567,7 @@
 "x": 14,
 "y": 41
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -7539,6 +7595,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -7576,6 +7633,7 @@
 "x": 43,
 "y": 18
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -7613,6 +7671,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -7650,6 +7709,7 @@
 "x": 4,
 "y": 3
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -7687,6 +7747,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7724,6 +7785,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7766,6 +7828,7 @@
 "x": 37,
 "y": 22
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -7803,6 +7866,7 @@
 "x": 27,
 "y": 82
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -7840,6 +7904,7 @@
 "x": 25,
 "y": 9
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -7882,6 +7947,7 @@
 "x": 14,
 "y": 22
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -7919,6 +7985,7 @@
 "x": 39,
 "y": 21
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -7956,6 +8023,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -7998,6 +8066,7 @@
 "x": 29,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -8035,6 +8104,7 @@
 "x": 35,
 "y": 23
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -8072,6 +8142,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -8109,6 +8180,7 @@
 "x": 22,
 "y": 81
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -8146,6 +8218,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8183,6 +8256,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8220,6 +8294,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8257,6 +8332,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8294,6 +8370,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8331,6 +8408,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8368,6 +8446,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -8398,6 +8477,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -8435,6 +8515,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -8472,6 +8553,7 @@
 "x": 24,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -8509,6 +8591,7 @@
 "x": 7,
 "y": 15
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -8546,6 +8629,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -8583,6 +8667,7 @@
 "x": 24,
 "y": 43
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -8620,6 +8705,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8657,6 +8743,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8699,6 +8786,7 @@
 "x": 29,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -8736,6 +8824,7 @@
 "x": 6,
 "y": 13
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -8773,6 +8862,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -8810,6 +8900,7 @@
 "x": 4,
 "y": 13
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -8847,6 +8938,7 @@
 "x": 22,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -8884,6 +8976,7 @@
 "x": 17,
 "y": 6
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -8921,6 +9014,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -8958,6 +9052,7 @@
 "x": 38,
 "y": 4
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -8995,6 +9090,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9032,6 +9128,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9069,6 +9166,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9106,6 +9204,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9143,6 +9242,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9180,6 +9280,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9217,6 +9318,7 @@
 "x": 3,
 "y": 61
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -9254,6 +9356,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -9291,6 +9394,7 @@
 "x": 37,
 "y": -1
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -9328,6 +9432,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9365,6 +9470,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9402,6 +9508,7 @@
 "x": 15,
 "y": 32
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -9439,6 +9546,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -9476,6 +9584,7 @@
 "x": 28,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -9513,6 +9622,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -9550,6 +9660,7 @@
 "x": 26,
 "y": 7
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -9587,6 +9698,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -9624,6 +9736,7 @@
 "x": 21,
 "y": 7
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -9661,6 +9774,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Block Shot"
 },
 {
@@ -9698,6 +9812,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -9725,6 +9840,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "End of 1st"
 },
 {
@@ -9762,6 +9878,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9799,6 +9916,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9836,6 +9954,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9873,6 +9992,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9910,6 +10030,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9947,6 +10068,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9984,6 +10106,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10021,6 +10144,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10058,6 +10182,7 @@
 "x": 38,
 "y": 21
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -10095,6 +10220,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -10132,6 +10258,7 @@
 "x": 30,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -10169,6 +10296,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Block Shot"
 },
 {
@@ -10206,6 +10334,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -10243,6 +10372,7 @@
 "x": 40,
 "y": 7
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -10280,6 +10410,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -10317,6 +10448,7 @@
 "x": 23,
 "y": 25
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -10354,6 +10486,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -10391,6 +10524,7 @@
 "x": 10,
 "y": 20
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -10421,6 +10555,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -10463,6 +10598,7 @@
 "x": 27,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -10500,6 +10636,7 @@
 "x": 21,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -10537,6 +10674,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Block Shot"
 },
 {
@@ -10574,6 +10712,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -10611,6 +10750,7 @@
 "x": 17,
 "y": 23
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -10648,6 +10788,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -10685,6 +10826,7 @@
 "x": 15,
 "y": -2
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -10722,6 +10864,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10759,6 +10902,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10796,6 +10940,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10833,6 +10978,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10875,6 +11021,7 @@
 "x": 28,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -10912,6 +11059,7 @@
 "x": 22,
 "y": 80
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -10949,6 +11097,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10986,6 +11135,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11023,6 +11173,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11060,6 +11211,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11097,6 +11249,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -11134,6 +11287,7 @@
 "x": 30,
 "y": 3
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -11171,6 +11325,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11208,6 +11363,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11245,6 +11401,7 @@
 "x": 21,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -11282,6 +11439,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -11324,6 +11482,7 @@
 "x": 46,
 "y": 11
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -11361,6 +11520,7 @@
 "x": 18,
 "y": 64
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -11398,6 +11558,7 @@
 "x": 7,
 "y": 16
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -11435,6 +11596,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -11472,6 +11634,7 @@
 "x": 48,
 "y": 12
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -11509,6 +11672,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -11551,6 +11715,7 @@
 "x": 29,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -11588,6 +11753,7 @@
 "x": 45,
 "y": 67
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -11625,6 +11791,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -11662,6 +11829,7 @@
 "x": 26,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -11699,6 +11867,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -11736,6 +11905,7 @@
 "x": 31,
 "y": 8
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -11766,6 +11936,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -11793,6 +11964,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -11835,6 +12007,7 @@
 "x": 48,
 "y": 3
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -11877,6 +12050,7 @@
 "x": 40,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -11914,6 +12088,7 @@
 "x": 1,
 "y": 0
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -11951,6 +12126,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -11988,6 +12164,7 @@
 "x": 14,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -12025,6 +12202,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -12062,6 +12240,7 @@
 "x": 32,
 "y": 11
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -12099,6 +12278,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -12136,6 +12316,7 @@
 "x": 11,
 "y": 14
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -12173,6 +12354,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12210,6 +12392,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12247,6 +12430,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12284,6 +12468,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12321,6 +12506,7 @@
 "x": 29,
 "y": 7
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -12358,6 +12544,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -12395,6 +12582,7 @@
 "x": 25,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -12437,6 +12625,7 @@
 "x": 21,
 "y": 6
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -12474,6 +12663,7 @@
 "x": 29,
 "y": 78
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -12511,6 +12701,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -12548,6 +12739,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12585,6 +12777,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12622,6 +12815,7 @@
 "x": 48,
 "y": 8
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -12659,6 +12853,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -12701,6 +12896,7 @@
 "x": 30,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -12738,6 +12934,7 @@
 "x": 20,
 "y": 80
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -12775,6 +12972,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12812,6 +13010,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12849,6 +13048,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -12886,6 +13086,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -12928,6 +13129,7 @@
 "x": 9,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -12965,6 +13167,7 @@
 "x": 15,
 "y": 23
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -13002,6 +13205,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -13039,6 +13243,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Block Shot"
 },
 {
@@ -13081,6 +13286,7 @@
 "x": 29,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -13118,6 +13324,7 @@
 "x": 17,
 "y": 7
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -13155,6 +13362,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -13192,6 +13400,7 @@
 "x": 21,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -13229,6 +13438,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -13266,6 +13476,7 @@
 "x": 24,
 "y": 7
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -13303,6 +13514,7 @@
 "x": 26,
 "y": 77
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -13340,6 +13552,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -13377,6 +13590,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13414,6 +13628,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13451,6 +13666,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13488,6 +13704,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13525,6 +13742,7 @@
 "x": 36,
 "y": 18
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -13562,6 +13780,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -13599,6 +13818,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13636,6 +13856,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13663,6 +13884,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Halftime"
 },
 {
@@ -13700,6 +13922,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13737,6 +13960,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13774,6 +13998,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13811,6 +14036,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13848,6 +14074,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13885,6 +14112,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13927,6 +14155,7 @@
 "x": 28,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -13969,6 +14198,7 @@
 "x": 21,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -14006,6 +14236,7 @@
 "x": 28,
 "y": 7
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -14043,6 +14274,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -14085,6 +14317,7 @@
 "x": 23,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -14127,6 +14360,7 @@
 "x": 2,
 "y": 1
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -14164,6 +14398,7 @@
 "x": 19,
 "y": 82
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -14201,6 +14436,7 @@
 "x": 22,
 "y": 12
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -14238,6 +14474,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -14280,6 +14517,7 @@
 "x": 4,
 "y": 12
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -14322,6 +14560,7 @@
 "x": 30,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -14359,6 +14598,7 @@
 "x": 20,
 "y": 83
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -14396,6 +14636,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -14433,6 +14674,7 @@
 "x": 22,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -14463,6 +14705,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -14500,6 +14743,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -14537,6 +14781,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -14574,6 +14819,7 @@
 "x": 30,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -14611,6 +14857,7 @@
 "x": 1,
 "y": 20
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -14648,6 +14895,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -14685,6 +14933,7 @@
 "x": 46,
 "y": 14
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -14722,6 +14971,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -14759,6 +15009,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -14796,6 +15047,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -14833,6 +15085,7 @@
 "x": 29,
 "y": 81
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -14860,6 +15113,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -14897,6 +15151,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -14934,6 +15189,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -14971,6 +15227,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -15008,6 +15265,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -15045,6 +15303,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -15082,6 +15341,7 @@
 "x": 19,
 "y": 16
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -15119,6 +15379,7 @@
 "x": 28,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -15156,6 +15417,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -15198,6 +15460,7 @@
 "x": 49,
 "y": 0
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -15235,6 +15498,7 @@
 "x": 29,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -15272,6 +15536,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -15309,6 +15574,7 @@
 "x": 21,
 "y": 81
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -15336,6 +15602,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -15373,6 +15640,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15410,6 +15678,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15447,6 +15716,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -15477,6 +15747,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -15514,6 +15785,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -15551,6 +15823,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -15588,6 +15861,7 @@
 "x": 33,
 "y": 23
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -15625,6 +15899,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Block Shot"
 },
 {
@@ -15662,6 +15937,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -15699,6 +15975,7 @@
 "x": 21,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -15736,6 +16013,7 @@
 "x": 29,
 "y": 82
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -15773,6 +16051,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -15810,6 +16089,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15847,6 +16127,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15884,6 +16165,7 @@
 "x": 19,
 "y": -1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -15921,6 +16203,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -15958,6 +16241,7 @@
 "x": 22,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -15995,6 +16279,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -16032,6 +16317,7 @@
 "x": 41,
 "y": 18
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -16069,6 +16355,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -16106,6 +16393,7 @@
 "x": 2,
 "y": 1
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -16143,6 +16431,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -16180,6 +16469,7 @@
 "x": 16,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -16217,6 +16507,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -16254,6 +16545,7 @@
 "x": 31,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -16284,6 +16576,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -16321,6 +16614,7 @@
 "x": 22,
 "y": -1
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -16358,6 +16652,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16395,6 +16690,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16432,6 +16728,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16469,6 +16766,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16506,6 +16804,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16543,6 +16842,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16580,6 +16880,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16617,6 +16918,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16654,6 +16956,7 @@
 "x": 14,
 "y": 18
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -16691,6 +16994,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -16728,6 +17032,7 @@
 "x": 28,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -16765,6 +17070,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -16802,6 +17108,7 @@
 "x": 13,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -16839,6 +17146,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -16876,6 +17184,7 @@
 "x": 30,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -16913,6 +17222,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -16955,6 +17265,7 @@
 "x": 23,
 "y": 6
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -16992,6 +17303,7 @@
 "x": 42,
 "y": 29
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -17029,6 +17341,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -17066,6 +17379,7 @@
 "x": 6,
 "y": 41
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -17103,6 +17417,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -17140,6 +17455,7 @@
 "x": 5,
 "y": 15
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -17177,6 +17493,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -17214,6 +17531,7 @@
 "x": 14,
 "y": 23
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -17251,6 +17569,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -17288,6 +17607,7 @@
 "x": 20,
 "y": 15
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -17325,6 +17645,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -17362,6 +17683,7 @@
 "x": 16,
 "y": 9
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -17399,6 +17721,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -17436,6 +17759,7 @@
 "x": 22,
 "y": 80
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -17473,6 +17797,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -17510,6 +17835,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -17547,6 +17873,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -17584,6 +17911,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -17621,6 +17949,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -17658,6 +17987,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -17695,6 +18025,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -17732,6 +18063,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -17774,6 +18106,7 @@
 "x": 31,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -17811,6 +18144,7 @@
 "x": 47,
 "y": 31
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -17853,6 +18187,7 @@
 "x": 31,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -17890,6 +18225,7 @@
 "x": 19,
 "y": 82
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -17927,6 +18263,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -17964,6 +18301,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18001,6 +18339,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -18038,6 +18377,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -18075,6 +18415,7 @@
 "x": 20,
 "y": 12
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -18112,6 +18453,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18149,6 +18491,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18186,6 +18529,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -18223,6 +18567,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -18260,6 +18605,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18297,6 +18643,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18334,6 +18681,7 @@
 "x": 48,
 "y": 4
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -18371,6 +18719,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -18408,6 +18757,7 @@
 "x": 33,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -18435,6 +18785,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "End of 3rd"
 },
 {
@@ -18472,6 +18823,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18509,6 +18861,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18546,6 +18899,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18583,6 +18937,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18620,6 +18975,7 @@
 "x": 29,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -18657,6 +19013,7 @@
 "x": 47,
 "y": 24
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -18694,6 +19051,7 @@
 "x": 30,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -18731,6 +19089,7 @@
 "x": 1,
 "y": 0
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -18768,6 +19127,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -18805,6 +19165,7 @@
 "x": 22,
 "y": 9
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -18835,6 +19196,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -18872,6 +19234,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18909,6 +19272,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18946,6 +19310,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18983,6 +19348,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19020,6 +19386,7 @@
 "x": 1,
 "y": 0
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -19057,6 +19424,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -19094,6 +19462,7 @@
 "x": 21,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -19131,6 +19500,7 @@
 "x": 29,
 "y": 80
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -19168,6 +19538,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19205,6 +19576,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19242,6 +19614,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19279,6 +19652,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19316,6 +19690,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -19353,6 +19728,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -19390,6 +19766,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -19427,6 +19804,7 @@
 "x": 20,
 "y": 8
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -19464,6 +19842,7 @@
 "x": 31,
 "y": 85
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -19501,6 +19880,7 @@
 "x": 29,
 "y": 19
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -19538,6 +19918,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -19575,6 +19956,7 @@
 "x": 29,
 "y": 28
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -19612,6 +19994,7 @@
 "x": 30,
 "y": 6
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -19649,6 +20032,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -19691,6 +20075,7 @@
 "x": 45,
 "y": 14
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -19728,6 +20113,7 @@
 "x": 29,
 "y": 12
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -19765,6 +20151,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -19802,6 +20189,7 @@
 "x": 21,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -19839,6 +20227,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -19876,6 +20265,7 @@
 "x": 12,
 "y": 46
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -19913,6 +20303,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19950,6 +20341,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19987,6 +20379,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -20024,6 +20417,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -20061,6 +20455,7 @@
 "x": 7,
 "y": 18
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -20098,6 +20493,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -20135,6 +20531,7 @@
 "x": 8,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -20172,6 +20569,7 @@
 "x": 25,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -20202,6 +20600,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -20239,6 +20638,7 @@
 "x": 22,
 "y": 82
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -20276,6 +20676,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -20313,6 +20714,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -20350,6 +20752,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -20380,6 +20783,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -20417,6 +20821,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -20454,6 +20859,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -20496,6 +20902,7 @@
 "x": 7,
 "y": 18
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -20533,6 +20940,7 @@
 "x": 36,
 "y": 83
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -20560,6 +20968,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -20602,6 +21011,7 @@
 "x": 28,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -20639,6 +21049,7 @@
 "x": 32,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -20669,6 +21080,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -20706,6 +21118,7 @@
 "x": 11,
 "y": 20
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -20743,6 +21156,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -20780,6 +21194,7 @@
 "x": 34,
 "y": 14
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -20817,6 +21232,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -20854,6 +21270,7 @@
 "x": 39,
 "y": 6
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -20891,6 +21308,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -20928,6 +21346,7 @@
 "x": 4,
 "y": 13
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -20965,6 +21384,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -21002,6 +21422,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -21039,6 +21460,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21076,6 +21498,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21113,6 +21536,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21150,6 +21574,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21187,6 +21612,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -21224,6 +21650,7 @@
 "x": 24,
 "y": 16
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -21261,6 +21688,7 @@
 "x": 26,
 "y": 4
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -21298,6 +21726,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21335,6 +21764,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21372,6 +21802,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21409,6 +21840,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21446,6 +21878,7 @@
 "x": 30,
 "y": 8
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -21483,6 +21916,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -21520,6 +21954,7 @@
 "x": 21,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -21557,6 +21992,7 @@
 "x": 16,
 "y": 11
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -21594,6 +22030,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -21631,6 +22068,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21668,6 +22106,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21705,6 +22144,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21742,6 +22182,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21779,6 +22220,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21816,6 +22258,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21853,6 +22296,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21890,6 +22334,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21927,6 +22372,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21964,6 +22410,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22001,6 +22448,7 @@
 "x": 30,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -22038,6 +22486,7 @@
 "x": 22,
 "y": 46
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -22075,6 +22524,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22112,6 +22562,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22149,6 +22600,7 @@
 "x": 27,
 "y": 28
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -22186,6 +22638,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -22228,6 +22681,7 @@
 "x": 28,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -22265,6 +22719,7 @@
 "x": 23,
 "y": 81
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -22302,6 +22757,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22339,6 +22795,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22376,6 +22833,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -22413,6 +22871,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -22450,6 +22909,7 @@
 "x": 24,
 "y": 72
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -22487,6 +22947,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22524,6 +22985,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22561,6 +23023,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -22591,6 +23054,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -22628,6 +23092,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -22665,6 +23130,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -22695,6 +23161,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -22732,6 +23199,7 @@
 "x": 31,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -22769,6 +23237,7 @@
 "x": 22,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -22806,6 +23275,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -22843,6 +23313,7 @@
 "x": 21,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -22870,6 +23341,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "End of 4th"
 },
 {
@@ -22897,6 +23369,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "End of Game"
 }
 ],
@@ -23041,6 +23514,70 @@
 ]
 },
 {
+"team": "Navy",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2426/navy-midshipmen",
+"id": "2426",
+"uid": "s:40~l:54~t:2426",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-10-06T14:34Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2426.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-10-06T14:35Z"
+}
+]
+},
+{
 "team": "American University",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/44/american-university-eagles",
 "id": "44",
@@ -23105,70 +23642,6 @@
 ]
 },
 {
-"team": "Navy",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2426/navy-midshipmen",
-"id": "2426",
-"uid": "s:40~l:54~t:2426",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-10-06T14:34Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2426.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-10-06T14:35Z"
-}
-]
-},
-{
 "team": "Holy Cross",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/107/holy-cross-crusaders",
 "id": "107",
@@ -23182,8 +23655,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-1",
-"displayValue": "1-1"
+"summary": "2-1",
+"displayValue": "2-1"
 },
 {
 "name": "gamesBehind",
@@ -23297,6 +23770,70 @@
 ]
 },
 {
+"team": "Bucknell",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2083/bucknell-bison",
+"id": "2083",
+"uid": "s:40~l:54~t:2083",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-2",
+"displayValue": "1-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2083.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "Lehigh",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2329/lehigh-mountain-hawks",
 "id": "2329",
@@ -23357,70 +23894,6 @@
 "dark"
 ],
 "lastUpdated": "2020-07-27T14:47Z"
-}
-]
-},
-{
-"team": "Bucknell",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2083/bucknell-bison",
-"id": "2083",
-"uid": "s:40~l:54~t:2083",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-2",
-"displayValue": "0-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2083.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },
@@ -23692,6 +24165,70 @@
 ]
 },
 {
+"team": "Michigan State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/127/michigan-state-spartans",
+"id": "127",
+"uid": "s:40~l:54~t:127",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-0",
+"displayValue": "3-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/127.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "Minnesota",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/135/minnesota-golden-gophers",
 "id": "135",
@@ -23756,6 +24293,70 @@
 ]
 },
 {
+"team": "Nebraska",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/158/nebraska-cornhuskers",
+"id": "158",
+"uid": "s:40~l:54~t:158",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-0",
+"displayValue": "3-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-10-12T17:04Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/158.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-10-12T17:04Z"
+}
+]
+},
+{
 "team": "Oregon",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2483/oregon-ducks",
 "id": "2483",
@@ -23808,6 +24409,70 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2483.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+}
+]
+},
+{
+"team": "Penn State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/213/penn-state-lady-lions",
+"id": "213",
+"uid": "s:40~l:54~t:213",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-0",
+"displayValue": "3-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/213.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -24076,134 +24741,6 @@
 ]
 },
 {
-"team": "Michigan State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/127/michigan-state-spartans",
-"id": "127",
-"uid": "s:40~l:54~t:127",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-0",
-"displayValue": "2-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/127.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Nebraska",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/158/nebraska-cornhuskers",
-"id": "158",
-"uid": "s:40~l:54~t:158",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-0",
-"displayValue": "2-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-10-12T17:04Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/158.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-10-12T17:04Z"
-}
-]
-},
-{
 "team": "Northwestern",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/77/northwestern-wildcats",
 "id": "77",
@@ -24256,134 +24793,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/77.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
-"team": "Penn State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/213/penn-state-lady-lions",
-"id": "213",
-"uid": "s:40~l:54~t:213",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-0",
-"displayValue": "2-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/213.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-}
-]
-},
-{
-"team": "Purdue",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2509/purdue-boilermakers",
-"id": "2509",
-"uid": "s:40~l:54~t:2509",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-0",
-"displayValue": "2-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-02-17T21:15Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2509.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -24588,6 +24997,134 @@
 ]
 },
 {
+"team": "Wisconsin",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/275/wisconsin-badgers",
+"id": "275",
+"uid": "s:40~l:54~t:275",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-1",
+"displayValue": "3-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-09-02T17:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/275.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-09-02T17:08Z"
+}
+]
+},
+{
+"team": "Purdue",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2509/purdue-boilermakers",
+"id": "2509",
+"uid": "s:40~l:54~t:2509",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-1",
+"displayValue": "2-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-02-17T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2509.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-02-17T21:14Z"
+}
+]
+},
+{
 "team": "Rutgers",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/164/rutgers-scarlet-knights",
 "id": "164",
@@ -24648,70 +25185,6 @@
 "dark"
 ],
 "lastUpdated": "2022-09-07T21:02Z"
-}
-]
-},
-{
-"team": "Wisconsin",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/275/wisconsin-badgers",
-"id": "275",
-"uid": "s:40~l:54~t:275",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-1",
-"displayValue": "2-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-09-02T17:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/275.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-09-02T17:08Z"
 }
 ]
 }

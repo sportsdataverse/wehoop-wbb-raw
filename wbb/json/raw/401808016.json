@@ -312,76 +312,64 @@
 "statistics": [
 {
 "names": [
-"MIN",
 "PTS",
-"OREB",
-"DREB",
+"FG",
+"3PT",
+"FT",
 "REB",
 "AST",
+"TO",
 "STL",
 "BLK",
-"TO",
-"FG",
-"FG%",
-"3PT",
-"3PT%",
-"FT",
-"FT%",
-"PF"
+"OREB",
+"DREB",
+"PF",
+"MIN"
 ],
 "keys": [
-"minutes",
 "points",
-"offensiveRebounds",
-"defensiveRebounds",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
 "rebounds",
 "assists",
+"turnovers",
 "steals",
 "blocks",
-"turnovers",
-"fieldGoalsMade-fieldGoalsAttempted",
-"fieldGoalPct",
-"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-"threePointFieldGoalPct",
-"freeThrowsMade-freeThrowsAttempted",
-"freeThrowPct",
-"fouls"
+"offensiveRebounds",
+"defensiveRebounds",
+"fouls",
+"minutes"
 ],
 "labels": [
-"MIN",
 "PTS",
-"OREB",
-"DREB",
+"FG",
+"3PT",
+"FT",
 "REB",
 "AST",
+"TO",
 "STL",
 "BLK",
-"TO",
-"FG",
-"FG%",
-"3PT",
-"3PT%",
-"FT",
-"FT%",
-"PF"
+"OREB",
+"DREB",
+"PF",
+"MIN"
 ],
 "descriptions": [
-"Minutes",
 "Points",
-"Offensive Rebounds",
-"Defensive Rebounds",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
 "Rebounds",
 "Assists",
+"Turnovers",
 "Steals",
 "Blocks",
-"Turnovers",
-"Field Goals Made/Attempted",
-"Field Goal Percentage",
-"3-Point Field Goals Made/Attempted",
-"3-Point Field Goal Percentage",
-"Free Throws Made/Attempted",
-"Free Throw Percentage",
-"Personal Fouls"
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Personal Fouls",
+"Minutes"
 ],
 "athletes": [
 {
@@ -403,22 +391,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"25",
+"3",
+"1-4",
+"1-4",
+"0-0",
 "3",
 "0",
 "3",
-"3",
-"0",
 "1",
 "0",
+"0",
 "3",
-"1-4",
-"25.0",
-"1-4",
-"25.0",
-"0-0",
-"0.0",
-"0"
+"0",
+"25"
 ]
 },
 {
@@ -440,22 +425,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"13",
 "2",
-"1",
-"4",
+"1-6",
+"0-0",
+"0-0",
 "5",
 "2",
+"1",
 "0",
 "0",
 "1",
-"1-6",
-"16.7",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"1"
+"4",
+"1",
+"13"
 ]
 },
 {
@@ -477,22 +459,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"22",
 "11",
-"2",
-"0",
-"2",
-"0",
-"1",
-"1",
-"6",
 "5-8",
-"62.5",
 "0-1",
-"0.0",
 "1-1",
-"100.0",
-"1"
+"2",
+"0",
+"6",
+"1",
+"1",
+"2",
+"0",
+"1",
+"22"
 ]
 },
 {
@@ -514,22 +493,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"22",
 "3",
-"0",
-"0",
-"0",
-"1",
-"1",
-"0",
-"4",
 "1-3",
-"33.3",
 "1-3",
-"33.3",
 "0-0",
-"0.0",
-"1"
+"0",
+"1",
+"4",
+"1",
+"0",
+"0",
+"0",
+"1",
+"22"
 ]
 },
 {
@@ -551,22 +527,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"31",
 "8",
-"0",
-"5",
-"5",
-"1",
-"0",
-"0",
-"1",
 "3-10",
-"30.0",
 "0-3",
-"0.0",
 "2-3",
-"66.7",
-"1"
+"5",
+"1",
+"1",
+"0",
+"0",
+"0",
+"5",
+"1",
+"31"
 ]
 },
 {
@@ -588,22 +561,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"20",
 "4",
-"1",
-"6",
+"1-6",
+"0-3",
+"2-2",
 "7",
 "1",
+"1",
 "0",
 "0",
 "1",
-"1-6",
-"16.7",
-"0-3",
-"0.0",
-"2-2",
-"100.0",
-"2"
+"6",
+"2",
+"20"
 ]
 },
 {
@@ -625,22 +595,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"18",
 "9",
+"3-6",
+"2-3",
+"1-2",
 "0",
 "0",
-"0",
-"0",
+"3",
 "0",
 "1",
-"3",
-"3-6",
-"50.0",
-"2-3",
-"66.7",
-"1-2",
-"50.0",
-"0"
+"0",
+"0",
+"0",
+"18"
 ]
 },
 {
@@ -662,22 +629,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"9",
 "0",
-"0",
-"1",
-"1",
-"0",
-"1",
-"0",
-"1",
 "0-2",
-"0.0",
 "0-0",
-"0.0",
 "0-0",
-"0.0",
-"1"
+"1",
+"0",
+"1",
+"1",
+"0",
+"0",
+"1",
+"1",
+"9"
 ]
 },
 {
@@ -699,22 +663,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"12",
 "3",
-"0",
-"1",
-"1",
-"0",
-"0",
-"0",
-"0",
 "1-6",
-"16.7",
 "1-4",
-"25.0",
 "0-0",
-"0.0",
-"0"
+"1",
+"0",
+"0",
+"0",
+"0",
+"0",
+"1",
+"0",
+"12"
 ]
 },
 {
@@ -736,22 +697,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"6",
 "0",
-"0",
-"0",
+"0-0",
+"0-0",
+"0-0",
 "0",
 "1",
-"1",
-"0",
 "2",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"3"
+"1",
+"0",
+"0",
+"0",
+"3",
+"6"
 ]
 },
 {
@@ -773,22 +731,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"6",
 "0",
-"1",
-"1",
+"0-0",
+"0-0",
+"0-0",
 "2",
 "0",
 "0",
 "0",
 "0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0"
+"1",
+"1",
+"0",
+"6"
 ]
 },
 {
@@ -810,22 +765,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"11",
 "0",
-"0",
-"1",
+"0-0",
+"0-0",
+"0-0",
 "1",
 "2",
+"0",
 "1",
 "0",
 "0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0"
+"1",
+"0",
+"11"
 ]
 },
 {
@@ -847,22 +799,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"5",
 "0",
-"0",
+"0-4",
+"0-4",
+"0-0",
 "0",
 "0",
 "0",
 "1",
 "0",
 "0",
-"0-4",
-"0.0",
-"0-4",
-"0.0",
-"0-0",
-"0.0",
-"1"
+"0",
+"1",
+"5"
 ]
 },
 {
@@ -986,22 +935,19 @@
 }
 ],
 "totals": [
-"",
 "43",
-"6",
-"22",
+"16-55",
+"5-25",
+"6-8",
 "28",
 "8",
+"22",
 "7",
 "2",
+"6",
 "22",
-"16-55",
-"29.1",
-"5-25",
-"20.0",
-"6-8",
-"75.0",
-"11"
+"11",
+""
 ]
 }
 ],
@@ -1024,76 +970,64 @@
 "statistics": [
 {
 "names": [
-"MIN",
 "PTS",
-"OREB",
-"DREB",
+"FG",
+"3PT",
+"FT",
 "REB",
 "AST",
+"TO",
 "STL",
 "BLK",
-"TO",
-"FG",
-"FG%",
-"3PT",
-"3PT%",
-"FT",
-"FT%",
-"PF"
+"OREB",
+"DREB",
+"PF",
+"MIN"
 ],
 "keys": [
-"minutes",
 "points",
-"offensiveRebounds",
-"defensiveRebounds",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
 "rebounds",
 "assists",
+"turnovers",
 "steals",
 "blocks",
-"turnovers",
-"fieldGoalsMade-fieldGoalsAttempted",
-"fieldGoalPct",
-"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-"threePointFieldGoalPct",
-"freeThrowsMade-freeThrowsAttempted",
-"freeThrowPct",
-"fouls"
+"offensiveRebounds",
+"defensiveRebounds",
+"fouls",
+"minutes"
 ],
 "labels": [
-"MIN",
 "PTS",
-"OREB",
-"DREB",
+"FG",
+"3PT",
+"FT",
 "REB",
 "AST",
+"TO",
 "STL",
 "BLK",
-"TO",
-"FG",
-"FG%",
-"3PT",
-"3PT%",
-"FT",
-"FT%",
-"PF"
+"OREB",
+"DREB",
+"PF",
+"MIN"
 ],
 "descriptions": [
-"Minutes",
 "Points",
-"Offensive Rebounds",
-"Defensive Rebounds",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
 "Rebounds",
 "Assists",
+"Turnovers",
 "Steals",
 "Blocks",
-"Turnovers",
-"Field Goals Made/Attempted",
-"Field Goal Percentage",
-"3-Point Field Goals Made/Attempted",
-"3-Point Field Goal Percentage",
-"Free Throws Made/Attempted",
-"Free Throw Percentage",
-"Personal Fouls"
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Personal Fouls",
+"Minutes"
 ],
 "athletes": [
 {
@@ -1130,22 +1064,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"23",
 "17",
-"7",
-"1",
+"7-13",
+"1-2",
+"2-2",
 "8",
 "1",
 "1",
-"0",
 "1",
-"7-13",
-"53.8",
-"1-2",
-"50.0",
-"2-2",
-"100.0",
-"1"
+"0",
+"7",
+"1",
+"1",
+"23"
 ]
 },
 {
@@ -1182,22 +1113,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"16",
 "5",
-"1",
-"6",
+"1-4",
+"0-0",
+"3-4",
 "7",
+"1",
 "1",
 "2",
 "3",
 "1",
-"1-4",
-"25.0",
-"0-0",
-"0.0",
-"3-4",
-"75.0",
-"0"
+"6",
+"0",
+"16"
 ]
 },
 {
@@ -1234,22 +1162,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"20",
 "15",
-"0",
-"2",
+"7-11",
+"1-4",
+"0-0",
 "2",
 "4",
 "2",
+"2",
+"0",
 "0",
 "2",
-"7-11",
-"63.6",
-"1-4",
-"25.0",
-"0-0",
-"0.0",
-"1"
+"1",
+"20"
 ]
 },
 {
@@ -1286,22 +1211,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"21",
-"0",
-"1",
-"1",
-"2",
-"2",
-"0",
-"0",
 "0",
 "0-4",
-"0.0",
 "0-3",
-"0.0",
 "0-0",
-"0.0",
-"1"
+"2",
+"2",
+"0",
+"0",
+"0",
+"1",
+"1",
+"1",
+"21"
 ]
 },
 {
@@ -1338,22 +1260,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"26",
 "21",
-"0",
-"6",
+"9-16",
+"3-4",
+"0-0",
 "6",
 "3",
+"1",
 "2",
 "1",
+"0",
+"6",
 "1",
-"9-16",
-"56.3",
-"3-4",
-"75.0",
-"0-0",
-"0.0",
-"1"
+"26"
 ]
 },
 {
@@ -1390,22 +1309,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"10",
 "2",
-"2",
-"2",
+"1-4",
+"0-0",
+"0-0",
 "4",
+"2",
 "2",
 "0",
 "1",
 "2",
-"1-4",
-"25.0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0"
+"2",
+"0",
+"10"
 ]
 },
 {
@@ -1442,22 +1358,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"6",
 "0",
+"0-0",
+"0-0",
+"0-0",
+"1",
 "0",
 "1",
-"1",
-"0",
 "2",
 "0",
+"0",
 "1",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0"
+"0",
+"6"
 ]
 },
 {
@@ -1494,22 +1407,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"13",
 "6",
-"1",
-"2",
+"3-3",
+"0-0",
+"0-0",
 "3",
 "2",
 "0",
 "0",
 "0",
-"3-3",
-"100.0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0"
+"1",
+"2",
+"0",
+"13"
 ]
 },
 {
@@ -1542,22 +1452,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"20",
 "8",
-"1",
-"4",
+"3-4",
+"2-3",
+"0-0",
 "5",
 "2",
 "0",
 "0",
 "0",
-"3-4",
-"75.0",
-"2-3",
-"66.7",
-"0-0",
-"0.0",
-"0"
+"1",
+"4",
+"0",
+"20"
 ]
 },
 {
@@ -1594,22 +1501,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"9",
 "6",
-"2",
-"0",
+"2-4",
+"2-4",
+"0-0",
 "2",
 "1",
 "0",
 "0",
 "0",
-"2-4",
-"50.0",
-"2-4",
-"50.0",
-"0-0",
-"0.0",
-"0"
+"2",
+"0",
+"0",
+"9"
 ]
 },
 {
@@ -1646,22 +1550,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"20",
 "16",
-"1",
-"3",
+"5-11",
+"2-4",
+"4-4",
 "4",
 "1",
+"0",
 "3",
 "1",
-"0",
-"5-11",
-"45.5",
-"2-4",
-"50.0",
-"4-4",
-"100.0",
-"1"
+"1",
+"3",
+"1",
+"20"
 ]
 },
 {
@@ -1698,22 +1599,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"9",
 "3",
-"0",
-"1",
-"1",
-"0",
-"1",
-"0",
-"1",
 "1-1",
-"100.0",
 "1-1",
-"100.0",
 "0-0",
-"0.0",
-"0"
+"1",
+"0",
+"1",
+"1",
+"0",
+"0",
+"1",
+"0",
+"9"
 ]
 },
 {
@@ -1750,22 +1648,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"7",
 "0",
-"0",
-"1",
-"1",
-"1",
-"0",
-"0",
-"2",
 "0-1",
-"0.0",
 "0-0",
-"0.0",
 "0-0",
-"0.0",
-"3"
+"1",
+"1",
+"2",
+"0",
+"0",
+"0",
+"1",
+"3",
+"7"
 ]
 },
 {
@@ -1875,22 +1770,19 @@
 }
 ],
 "totals": [
-"",
 "99",
-"16",
-"33",
+"39-76",
+"12-25",
+"9-10",
 "49",
 "20",
+"11",
 "13",
 "6",
-"11",
-"39-76",
-"51.3",
-"12-25",
-"48.0",
-"9-10",
-"90.0",
-"8"
+"16",
+"33",
+"8",
+""
 ]
 }
 ],
@@ -3384,70 +3276,6 @@
 ]
 },
 {
-"team": "Eastern Washington",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/331/eastern-washington-eagles",
-"id": "331",
-"uid": "s:40~l:54~t:331",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-1",
-"displayValue": "1-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/331.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-02T00:34Z"
-}
-]
-},
-{
 "team": "Portland State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2502/portland-state-vikings",
 "id": "2502",
@@ -3508,6 +3336,70 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Eastern Washington",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/331/eastern-washington-eagles",
+"id": "331",
+"uid": "s:40~l:54~t:331",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-2",
+"displayValue": "1-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/331.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-02T00:34Z"
 }
 ]
 },

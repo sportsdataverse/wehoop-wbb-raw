@@ -316,76 +316,64 @@
 "statistics": [
 {
 "names": [
-"MIN",
 "PTS",
-"OREB",
-"DREB",
+"FG",
+"3PT",
+"FT",
 "REB",
 "AST",
+"TO",
 "STL",
 "BLK",
-"TO",
-"FG",
-"FG%",
-"3PT",
-"3PT%",
-"FT",
-"FT%",
-"PF"
+"OREB",
+"DREB",
+"PF",
+"MIN"
 ],
 "keys": [
-"minutes",
 "points",
-"offensiveRebounds",
-"defensiveRebounds",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
 "rebounds",
 "assists",
+"turnovers",
 "steals",
 "blocks",
-"turnovers",
-"fieldGoalsMade-fieldGoalsAttempted",
-"fieldGoalPct",
-"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-"threePointFieldGoalPct",
-"freeThrowsMade-freeThrowsAttempted",
-"freeThrowPct",
-"fouls"
+"offensiveRebounds",
+"defensiveRebounds",
+"fouls",
+"minutes"
 ],
 "labels": [
-"MIN",
 "PTS",
-"OREB",
-"DREB",
+"FG",
+"3PT",
+"FT",
 "REB",
 "AST",
+"TO",
 "STL",
 "BLK",
-"TO",
-"FG",
-"FG%",
-"3PT",
-"3PT%",
-"FT",
-"FT%",
-"PF"
+"OREB",
+"DREB",
+"PF",
+"MIN"
 ],
 "descriptions": [
-"Minutes",
 "Points",
-"Offensive Rebounds",
-"Defensive Rebounds",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
 "Rebounds",
 "Assists",
+"Turnovers",
 "Steals",
 "Blocks",
-"Turnovers",
-"Field Goals Made/Attempted",
-"Field Goal Percentage",
-"3-Point Field Goals Made/Attempted",
-"3-Point Field Goal Percentage",
-"Free Throws Made/Attempted",
-"Free Throw Percentage",
-"Personal Fouls"
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Personal Fouls",
+"Minutes"
 ],
 "athletes": [
 {
@@ -422,22 +410,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"23",
 "5",
+"2-3",
+"0-0",
+"1-2",
+"2",
 "0",
-"2",
-"2",
 "0",
 "1",
 "0",
 "0",
-"2-3",
-"66.7",
-"0-0",
-"0.0",
-"1-2",
-"50.0",
-"1"
+"2",
+"1",
+"23"
 ]
 },
 {
@@ -474,22 +459,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"34",
 "21",
+"8-23",
+"3-9",
+"2-2",
+"4",
+"4",
 "1",
-"3",
-"4",
-"4",
 "3",
 "5",
 "1",
-"8-23",
-"34.8",
-"3-9",
-"33.3",
-"2-2",
-"100.0",
-"2"
+"3",
+"2",
+"34"
 ]
 },
 {
@@ -526,22 +508,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"30",
 "10",
-"2",
-"6",
+"5-16",
+"0-3",
+"0-0",
 "8",
 "1",
 "1",
-"0",
 "1",
-"5-16",
-"31.3",
-"0-3",
-"0.0",
-"0-0",
-"0.0",
-"3"
+"0",
+"2",
+"6",
+"3",
+"30"
 ]
 },
 {
@@ -578,22 +557,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"36",
 "2",
-"1",
-"4",
+"1-4",
+"0-1",
+"0-2",
 "5",
+"1",
 "1",
 "3",
 "0",
 "1",
-"1-4",
-"25.0",
-"0-1",
-"0.0",
-"0-2",
-"0.0",
-"3"
+"4",
+"3",
+"36"
 ]
 },
 {
@@ -630,22 +606,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"24",
 "6",
-"1",
-"3",
+"3-8",
+"0-3",
+"0-0",
 "4",
 "0",
 "2",
-"0",
 "2",
-"3-8",
-"37.5",
-"0-3",
-"0.0",
-"0-0",
-"0.0",
-"4"
+"0",
+"1",
+"3",
+"4",
+"24"
 ]
 },
 {
@@ -682,22 +655,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"10",
 "2",
-"0",
-"1",
-"1",
-"1",
-"0",
-"0",
-"0",
 "1-4",
-"25.0",
 "0-1",
-"0.0",
 "0-0",
-"0.0",
-"0"
+"1",
+"1",
+"0",
+"0",
+"0",
+"0",
+"1",
+"0",
+"10"
 ]
 },
 {
@@ -734,22 +704,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"5",
 "4",
+"2-2",
+"0-0",
+"0-0",
 "2",
+"0",
+"0",
+"1",
 "0",
 "2",
 "0",
 "1",
-"0",
-"0",
-"2-2",
-"100.0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"1"
+"5"
 ]
 },
 {
@@ -786,22 +753,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"7",
-"0",
-"0",
-"3",
-"3",
-"0",
-"0",
-"0",
 "0",
 "0-2",
-"0.0",
 "0-0",
-"0.0",
 "0-0",
-"0.0",
-"2"
+"3",
+"0",
+"0",
+"0",
+"0",
+"0",
+"3",
+"2",
+"7"
 ]
 },
 {
@@ -838,22 +802,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"5",
+"0",
+"0-0",
+"0-0",
+"0-0",
+"1",
+"1",
+"0",
+"0",
 "0",
 "1",
 "0",
-"1",
-"1",
 "0",
-"0",
-"0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0"
+"5"
 ]
 },
 {
@@ -890,22 +851,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"26",
 "19",
-"0",
-"4",
+"6-14",
+"4-9",
+"3-4",
 "4",
 "3",
+"1",
 "0",
 "1",
+"0",
+"4",
 "1",
-"6-14",
-"42.9",
-"4-9",
-"44.4",
-"3-4",
-"75.0",
-"1"
+"26"
 ]
 },
 {
@@ -1015,22 +973,19 @@
 }
 ],
 "totals": [
-"",
 "69",
-"12",
-"28",
+"28-76",
+"7-26",
+"6-10",
 "40",
 "11",
+"7",
 "11",
 "6",
-"7",
-"28-76",
-"36.8",
-"7-26",
-"26.9",
-"6-10",
-"60.0",
-"17"
+"12",
+"28",
+"17",
+""
 ]
 }
 ],
@@ -1053,76 +1008,64 @@
 "statistics": [
 {
 "names": [
-"MIN",
 "PTS",
-"OREB",
-"DREB",
+"FG",
+"3PT",
+"FT",
 "REB",
 "AST",
+"TO",
 "STL",
 "BLK",
-"TO",
-"FG",
-"FG%",
-"3PT",
-"3PT%",
-"FT",
-"FT%",
-"PF"
+"OREB",
+"DREB",
+"PF",
+"MIN"
 ],
 "keys": [
-"minutes",
 "points",
-"offensiveRebounds",
-"defensiveRebounds",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
 "rebounds",
 "assists",
+"turnovers",
 "steals",
 "blocks",
-"turnovers",
-"fieldGoalsMade-fieldGoalsAttempted",
-"fieldGoalPct",
-"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-"threePointFieldGoalPct",
-"freeThrowsMade-freeThrowsAttempted",
-"freeThrowPct",
-"fouls"
+"offensiveRebounds",
+"defensiveRebounds",
+"fouls",
+"minutes"
 ],
 "labels": [
-"MIN",
 "PTS",
-"OREB",
-"DREB",
+"FG",
+"3PT",
+"FT",
 "REB",
 "AST",
+"TO",
 "STL",
 "BLK",
-"TO",
-"FG",
-"FG%",
-"3PT",
-"3PT%",
-"FT",
-"FT%",
-"PF"
+"OREB",
+"DREB",
+"PF",
+"MIN"
 ],
 "descriptions": [
-"Minutes",
 "Points",
-"Offensive Rebounds",
-"Defensive Rebounds",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
 "Rebounds",
 "Assists",
+"Turnovers",
 "Steals",
 "Blocks",
-"Turnovers",
-"Field Goals Made/Attempted",
-"Field Goal Percentage",
-"3-Point Field Goals Made/Attempted",
-"3-Point Field Goal Percentage",
-"Free Throws Made/Attempted",
-"Free Throw Percentage",
-"Personal Fouls"
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Personal Fouls",
+"Minutes"
 ],
 "athletes": [
 {
@@ -1159,22 +1102,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"36",
 "8",
-"3",
-"8",
+"3-7",
+"1-2",
+"1-2",
 "11",
 "1",
-"0",
-"0",
 "2",
-"3-7",
-"42.9",
-"1-2",
-"50.0",
-"1-2",
-"50.0",
-"1"
+"0",
+"0",
+"3",
+"8",
+"1",
+"36"
 ]
 },
 {
@@ -1211,22 +1151,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"36",
 "10",
-"10",
-"8",
+"4-16",
+"0-0",
+"2-2",
 "18",
 "2",
+"3",
 "1",
 "0",
-"3",
-"4-16",
-"25.0",
-"0-0",
-"0.0",
-"2-2",
-"100.0",
-"0"
+"10",
+"8",
+"0",
+"36"
 ]
 },
 {
@@ -1263,22 +1200,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"20",
 "8",
-"0",
+"3-9",
+"2-5",
+"0-2",
 "1",
-"1",
-"0",
-"0",
 "0",
 "2",
-"3-9",
-"33.3",
-"2-5",
-"40.0",
-"0-2",
-"0.0",
-"4"
+"0",
+"0",
+"0",
+"1",
+"4",
+"20"
 ]
 },
 {
@@ -1315,22 +1249,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"29",
 "9",
-"0",
+"4-8",
+"1-4",
+"0-0",
 "3",
-"3",
 "0",
+"2",
 "0",
 "1",
-"2",
-"4-8",
-"50.0",
-"1-4",
-"25.0",
-"0-0",
-"0.0",
-"3"
+"0",
+"3",
+"3",
+"29"
 ]
 },
 {
@@ -1367,22 +1298,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"39",
 "24",
-"2",
-"9",
+"10-20",
+"0-2",
+"4-5",
 "11",
+"6",
 "6",
 "1",
 "0",
-"6",
-"10-20",
-"50.0",
-"0-2",
-"0.0",
-"4-5",
-"80.0",
-"2"
+"2",
+"9",
+"2",
+"39"
 ]
 },
 {
@@ -1419,22 +1347,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"8",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
 "0",
 "0-2",
-"0.0",
 "0-2",
-"0.0",
 "0-0",
-"0.0",
-"0"
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"8"
 ]
 },
 {
@@ -1467,22 +1392,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"7",
 "0",
-"0",
-"1",
-"1",
-"0",
+"0-2",
+"0-1",
+"0-0",
 "1",
 "0",
 "2",
-"0-2",
-"0.0",
-"0-1",
-"0.0",
-"0-0",
-"0.0",
-"1"
+"1",
+"0",
+"0",
+"1",
+"1",
+"7"
 ]
 },
 {
@@ -1519,22 +1441,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"25",
 "9",
-"0",
-"4",
+"4-7",
+"1-3",
+"0-0",
 "4",
 "2",
-"0",
-"0",
 "1",
-"4-7",
-"57.1",
-"1-3",
-"33.3",
-"0-0",
-"0.0",
-"2"
+"0",
+"0",
+"0",
+"4",
+"2",
+"25"
 ]
 },
 {
@@ -1644,22 +1563,19 @@
 }
 ],
 "totals": [
-"",
 "68",
-"17",
-"37",
+"28-71",
+"5-19",
+"7-11",
 "54",
 "11",
+"18",
 "3",
 "1",
-"18",
-"28-71",
-"39.4",
-"5-19",
-"26.3",
-"7-11",
-"63.6",
-"13"
+"17",
+"37",
+"13",
+""
 ]
 }
 ],
@@ -23231,7 +23147,7 @@
 "headline": "Davidson's heroics power No. 18 USC over No. 9 NC State",
 "description": "\u2014 Jazzy Davidson scored 21 points and made the go-ahead layup with 8.2 seconds left as No. 18 Southern Cal took down No. 9 North Carolina State 69-68 on Sunday in the third-annual Ally-Tip Off.",
 "linkText": "Davidson's heroics power No. 18 USC over No. 9 NC State",
-"categorized": "2025-11-09T22:51:18Z",
+"categorized": "2025-11-14T01:57:45Z",
 "originallyPosted": "2025-11-09T22:23:58Z",
 "lastModified": "2025-11-09T22:24:01Z",
 "published": "2025-11-09T22:23:58Z",
@@ -23240,32 +23156,32 @@
 "images": [
 {
 "type": "Media",
-"name": "NC State Wolfpack vs. USC Trojans - Game Highlights",
-"caption": "Watch the Game Highlights from NC State Wolfpack vs. USC Trojans",
+"name": "Jazzy Davidson's late bucket lifts USC past NC State",
+"caption": "Jazzy Davidson scores with less than eight seconds remaining, and NC State's final attempt is picked off, giving USC a 69-68 win.",
 "height": 324,
 "width": 576,
-"url": "https://a.espncdn.com/media/motion/2025/1109/1a59692666cf488a9f10a0774b2265051067/1a59692666cf488a9f10a0774b2265051067.jpg"
+"url": "https://a.espncdn.com/media/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d.jpg"
 }
 ],
 "video": [
 {
-"id": 46909654,
-"dataSourceIdentifier": "a9d2c524dbaea",
-"cerebroId": "69111600a67c32442e7ce608",
-"pccId": "47ca8783-4e49-4292-8a50-ca2443c82ab5",
+"id": 46909348,
+"dataSourceIdentifier": "bf9fd210f1cf9",
+"cerebroId": "6911111f8793e132a6f7fc0d",
+"pccId": "393fcc48-6fa6-40c5-9aaf-b9072e629a29",
 "source": "espn",
-"headline": "NC State Wolfpack vs. USC Trojans - Game Highlights",
-"caption": "Watch the Game Highlights from NC State Wolfpack vs. USC Trojans",
-"title": "NC State Wolfpack vs. USC Trojans - Game Highlights",
-"description": "Watch the Game Highlights from NC State Wolfpack vs. USC Trojans",
-"lastModified": "2025-11-09T23:02:20Z",
-"originalPublishDate": "2025-11-09T22:30:15Z",
+"headline": "Jazzy Davidson's late bucket lifts USC past NC State",
+"caption": "Jazzy Davidson scores with less than eight seconds remaining, and NC State's final attempt is picked off, giving USC a 69-68 win.",
+"title": "Jazzy Davidson's late bucket lifts USC past NC State",
+"description": "Jazzy Davidson scores with less than eight seconds remaining, and NC State's final attempt is picked off, giving USC a 69-68 win.",
+"lastModified": "2025-11-14T01:57:19Z",
+"originalPublishDate": "2025-11-09T22:09:33Z",
 "premium": false,
 "syndicatable": true,
-"duration": 598,
+"duration": 35,
 "videoRatio": "16:9,9:16",
 "timeRestrictions": {
-"embargoDate": "2025-11-09T22:30:15Z",
+"embargoDate": "2025-11-09T22:09:33Z",
 "expirationDate": "2037-12-31T05:00:00Z"
 },
 "deviceRestrictions": {
@@ -23281,10 +23197,10 @@
 "gameId": 401817574,
 "plays": [
 {
-"id": 401817574114030740
+"id": 401817574114050710
 }
 ],
-"thumbnail": "https://a.espncdn.com/media/motion/2025/1109/1a59692666cf488a9f10a0774b2265051067/1a59692666cf488a9f10a0774b2265051067.jpg",
+"thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d.jpg",
 "images": [
 {
 "name": "Poster Image",
@@ -23293,116 +23209,296 @@
 "credit": "",
 "height": 324,
 "width": 576,
-"url": "https://media.video-cdn.espn.com/images/2025/1109/1a59692666cf488a9f10a0774b2265051067/1a59692666cf488a9f10a0774b2265051067.jpg"
+"url": "https://media.video-cdn.espn.com/images/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d.jpg"
 }
 ],
 "posterImages": {
 "default": {
-"href": "https://media.video-cdn.espn.com/motion/2025/1109/1a59692666cf488a9f10a0774b2265051067/1a59692666cf488a9f10a0774b2265051067_default.jpg",
+"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d_default.jpg",
 "width": 576,
 "height": 324
 },
 "full": {
-"href": "https://media.video-cdn.espn.com/motion/2025/1109/1a59692666cf488a9f10a0774b2265051067/1a59692666cf488a9f10a0774b2265051067.jpg"
+"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d.jpg"
 },
 "wide": {
-"href": "https://media.video-cdn.espn.com/motion/2025/1109/1a59692666cf488a9f10a0774b2265051067/1a59692666cf488a9f10a0774b2265051067_5x2.jpg"
+"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d_5x2.jpg"
 },
 "square": {
-"href": "https://media.video-cdn.espn.com/motion/2025/1109/1a59692666cf488a9f10a0774b2265051067/1a59692666cf488a9f10a0774b2265051067_1x1.jpg"
+"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d_1x1.jpg"
 },
 "vertical": {
-"href": "https://media.video-cdn.espn.com/motion/2025/1109/1a59692666cf488a9f10a0774b2265051067/1a59692666cf488a9f10a0774b2265051067_9x16.jpg"
+"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d_9x16.jpg"
 },
 "verticalFirstFrame": {
-"href": "https://service-pkgespn.akamaized.net/opp/img/espn/9x16/wsc/2025/1109/1a596926-66cf-488a-9f10-a0774b226505/1a596926-66cf-488a-9f10-a0774b226505/thumb-1-w406-h720-f4.jpg"
+"href": "https://service-pkgespn.akamaized.net/opp/img/espn/9x16/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d/thumb-1-w406-h720-f4.jpg"
 }
 },
 "links": {
 "web": {
-"href": "https://www.espn.com/video/clip?id=46909654",
+"href": "https://www.espn.com/video/clip?id=46909348",
 "self": {
-"href": "https://www.espn.com/video/clip?id=46909654",
+"href": "https://www.espn.com/video/clip?id=46909348",
 "dsi": {
-"href": "https://www.espn.com/video/clip?id=a9d2c524dbaea"
+"href": "https://www.espn.com/video/clip?id=bf9fd210f1cf9"
 }
 },
 "seo": {
-"href": "https://www.espn.com/video/clip/_/id/46909654"
+"href": "https://www.espn.com/video/clip/_/id/46909348"
 }
 },
 "mobile": {
 "source": {
-"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/1a596926-66cf-488a-9f10-a0774b226505/1a596926-66cf-488a-9f10-a0774b226505.mp4"
+"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d.mp4"
 },
 "alert": {
-"href": "https://m.espn.com/general/video/videoAlert?vid=46909654"
+"href": "https://m.espn.com/general/video/videoAlert?vid=46909348"
 },
 "streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/47ca8783-4e49-4292-8a50-ca2443c82ab5/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46909654"
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/393fcc48-6fa6-40c5-9aaf-b9072e629a29/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46909348"
 },
 "progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/47ca8783-4e49-4292-8a50-ca2443c82ab5/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46909654"
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/393fcc48-6fa6-40c5-9aaf-b9072e629a29/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46909348"
 }
 },
 "api": {
 "self": {
-"href": "https://content.core.api.espn.com/v1/video/clips/46909654"
+"href": "https://content.core.api.espn.com/v1/video/clips/46909348"
 },
 "artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/47ca8783-4e49-4292-8a50-ca2443c82ab5"
+"href": "https://artwork.api.espn.com/artwork/collections/media/393fcc48-6fa6-40c5-9aaf-b9072e629a29"
 }
 },
 "source": {
-"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/1a596926-66cf-488a-9f10-a0774b226505/1a596926-66cf-488a-9f10-a0774b226505_360p30_1464k.mp4",
+"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d_360p30_1464k.mp4",
 "mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1109/1a596926-66cf-488a-9f10-a0774b226505/1a596926-66cf-488a-9f10-a0774b226505.mp4"
+"href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d.mp4"
 },
 "flash": {
-"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/1a596926-66cf-488a-9f10-a0774b226505/1a596926-66cf-488a-9f10-a0774b226505.smil"
+"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d.smil"
 },
 "hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1109/1a596926-66cf-488a-9f10-a0774b226505/1a596926-66cf-488a-9f10-a0774b226505_rel.smil/manifest.f4m"
+"href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d_rel.smil/manifest.f4m"
 },
 "HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1109/1a596926-66cf-488a-9f10-a0774b226505/1a596926-66cf-488a-9f10-a0774b226505/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d/playlist.m3u8",
 "HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1109/1a596926-66cf-488a-9f10-a0774b226505/1a596926-66cf-488a-9f10-a0774b226505/playlist.m3u8"
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d/playlist.m3u8"
 },
 "cmaf": {
-"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1109/1a596926-66cf-488a-9f10-a0774b226505/1a596926-66cf-488a-9f10-a0774b226505/playlist.m3u8",
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d/playlist.m3u8",
 "9x16": {
-"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1109/1a596926-66cf-488a-9f10-a0774b226505/1a596926-66cf-488a-9f10-a0774b226505/playlist.m3u8"
+"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d/playlist.m3u8"
 }
 },
 "9x16": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1109/1a596926-66cf-488a-9f10-a0774b226505/1a596926-66cf-488a-9f10-a0774b226505/playlist.m3u8"
+"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d/playlist.m3u8"
 },
 "shield": {
-"href": "https://watch.auth.api.espn.com/video/auth/media/47ca8783-4e49-4292-8a50-ca2443c82ab5/asset"
+"href": "https://watch.auth.api.espn.com/video/auth/media/393fcc48-6fa6-40c5-9aaf-b9072e629a29/asset"
 }
 },
 "HD": {
-"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/1a596926-66cf-488a-9f10-a0774b226505/1a596926-66cf-488a-9f10-a0774b226505_720p30_2896k.mp4"
+"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d_720p30_2896k.mp4"
 },
 "full": {
-"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/1a596926-66cf-488a-9f10-a0774b226505/1a596926-66cf-488a-9f10-a0774b226505_360p30_1464k.mp4"
+"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d_360p30_1464k.mp4"
 }
 },
 "sportscenter": {
-"href": "sportscenter://x-callback-url/showVideo?videoID=46909654&videoDSI=a9d2c524dbaea"
+"href": "sportscenter://x-callback-url/showVideo?videoID=46909348&videoDSI=bf9fd210f1cf9"
 }
 },
 "categories": [
 {
-"id": 730035,
-"type": "editorialindicator",
-"guid": "765b3968-7a2d-3d80-bded-8ba8b1e1cc03",
-"description": "Verts - Exclude Content"
+"id": 4920,
+"type": "team",
+"uid": "s:40~l:54~t:30",
+"guid": "e2b5504a-e678-c474-854b-ada56e39f8c2",
+"description": "USC Trojans",
+"sportId": 54,
+"teamId": 30,
+"team": {
+"id": 30,
+"description": "USC Trojans",
+"links": {
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/30/usc-trojans"
+}
+},
+"mobile": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/30/usc-trojans"
+}
+}
+}
+}
+},
+{
+"id": 737629,
+"type": "athlete",
+"uid": "s:40~l:54~a:5311754",
+"guid": "6816a82d-0821-39f2-a724-b63bd4ca1fb4",
+"description": "Jazzy Davidson",
+"sportId": 54,
+"athleteId": 5311754,
+"athlete": {
+"id": 5311754,
+"description": "Jazzy Davidson",
+"links": {
+"web": {
+"athletes": {
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5311754/jazzy-davidson"
+}
+},
+"mobile": {
+"athletes": {
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5311754/jazzy-davidson"
+}
+}
+}
+}
+},
+{
+"id": 4729,
+"type": "team",
+"uid": "s:40~l:54~t:152",
+"guid": "b88f30e4-25c8-4010-c64b-87cccabdd6d4",
+"description": "NC State Wolfpack",
+"sportId": 54,
+"teamId": 152,
+"team": {
+"id": 152,
+"description": "NC State Wolfpack",
+"links": {
+"web": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/152/nc-state-wolfpack"
+}
+},
+"mobile": {
+"teams": {
+"href": "https://www.espn.com/womens-college-basketball/team/_/id/152/nc-state-wolfpack"
+}
+}
+}
+}
+},
+{
+"id": 116550,
+"type": "topic",
+"guid": "fe879255-6324-4784-385f-a1a18c22b5cc",
+"description": "espnw",
+"sportId": 0,
+"topicId": 5
+},
+{
+"id": 30,
+"type": "team",
+"guid": "d3f426a4-56b8-3f15-8186-370c3af7daf8",
+"description": "University of Southern California",
+"sportId": 3170,
+"teamId": 30,
+"team": {
+"id": 30,
+"description": "University of Southern California"
+}
+},
+{
+"id": 152,
+"type": "team",
+"guid": "b9cb895e-48a5-3173-8d09-5ba0df1cac8b",
+"description": "North Carolina State University",
+"sportId": 3170,
+"teamId": 152,
+"team": {
+"id": 152,
+"description": "North Carolina State University"
+}
+},
+{
+"type": "event",
+"uid": "s:40~l:54~e:401817574",
+"guid": "a0ebc349-e6c8-3563-98b3-be53aab54b16",
+"description": "USC Trojans @ NC State Wolfpack",
+"eventId": 401817574,
+"event": {
+"id": 401817574,
+"sport": "basketball",
+"league": "womens-college-basketball",
+"description": "USC Trojans @ NC State Wolfpack",
+"links": {
+"web": {
+"event": {
+"href": "https://www.espn.com/womens-college-basketball/game/_/gameId/401817574"
+}
+},
+"mobile": {
+"event": {
+"href": "https://www.espn.com/womens-college-basketball/game/_/gameId/401817574"
+}
+}
+}
+}
+},
+{
+"id": 9578,
+"type": "league",
+"uid": "s:40~l:54",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733",
+"description": "NCAA Women's Basketball",
+"sportId": 54,
+"leagueId": 54,
+"league": {
+"id": 54,
+"description": "NCAA Women's Basketball",
+"abbreviation": "NCAAW",
+"links": {
+"web": {
+"leagues": {
+"href": "https://www.espn.com/womens-college-basketball/"
+}
+},
+"mobile": {
+"leagues": {
+"href": "https://www.espn.com/womens-college-basketball/"
+}
+}
+}
+}
 },
 {
 "type": "guid",
-"guid": "765b3968-7a2d-3d80-bded-8ba8b1e1cc03"
+"guid": "e2b5504a-e678-c474-854b-ada56e39f8c2"
+},
+{
+"type": "guid",
+"guid": "6816a82d-0821-39f2-a724-b63bd4ca1fb4"
+},
+{
+"type": "guid",
+"guid": "b88f30e4-25c8-4010-c64b-87cccabdd6d4"
+},
+{
+"type": "guid",
+"guid": "fe879255-6324-4784-385f-a1a18c22b5cc"
+},
+{
+"type": "guid",
+"guid": "d3f426a4-56b8-3f15-8186-370c3af7daf8"
+},
+{
+"type": "guid",
+"guid": "b9cb895e-48a5-3173-8d09-5ba0df1cac8b"
+},
+{
+"type": "guid",
+"guid": "a0ebc349-e6c8-3563-98b3-be53aab54b16"
+},
+{
+"type": "guid",
+"guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
 }
 ],
 "ad": {
@@ -23410,11 +23506,11 @@
 "bundle": "sportscenter"
 },
 "tracking": {
-"sportName": "ncw",
-"leagueName": "No League",
-"coverageType": "Promo",
-"trackingName": "LVOD_NCW Highlight (NC State Wolfpack vs. USC Trojans - Game Highlights) 2025/11/09",
-"trackingId": "dm_20251109_NCW_nc_state_wolfpack_vs_usc_trojans_game_highlights"
+"sportName": "basketball",
+"leagueName": "NCAA Women's Basketball",
+"coverageType": "OnePlay",
+"trackingName": "NCW_One-Play (Jazzy Davidson's late bucket lifts USC past NC State) 2025/11/09 ESHEET",
+"trackingId": "dm_20251109_NCW_jazzy_win"
 },
 "contributingPartner": "wsc",
 "contributingSystem": "wsc"
@@ -24458,117 +24554,6 @@
 "trackingName": "NCW_One-Play (Londynn Jones drills the trey) 2025/11/09 ESHEET",
 "trackingId": "dm_20251109_NCW_londynn_jones_drills_the_trey"
 }
-},
-{
-"id": 46909348,
-"cerebroId": "6911111f8793e132a6f7fc0d",
-"source": "espn",
-"headline": "Jazzy Davidson's late bucket lifts USC past NC State",
-"description": "Jazz Davidson scores with less than eight seconds remaining, and NC State's final attempt is picked off, giving USC a 69-68 win.",
-"lastModified": "2025-11-09T22:14:18Z",
-"originalPublishDate": "2025-11-09T22:09:33Z",
-"duration": 35,
-"timeRestrictions": {
-"embargoDate": "2025-11-09T22:09:33Z",
-"expirationDate": "2037-12-31T05:00:00Z"
-},
-"deviceRestrictions": {
-"type": "whitelist",
-"devices": [
-"desktop",
-"ipad",
-"settop",
-"handset",
-"tablet"
-]
-},
-"thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d.jpg",
-"links": {
-"web": {
-"href": "https://www.espn.com/video/clip?id=46909348",
-"self": {
-"href": "https://www.espn.com/video/clip?id=46909348",
-"dsi": {
-"href": "https://www.espn.com/video/clip?id=bf9fd210f1cf9"
-}
-},
-"seo": {
-"href": "https://www.espn.com/video/clip/_/id/46909348"
-}
-},
-"mobile": {
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d.mp4"
-},
-"alert": {
-"href": "https://m.espn.com/general/video/videoAlert?vid=46909348"
-},
-"streaming": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/393fcc48-6fa6-40c5-9aaf-b9072e629a29/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46909348"
-},
-"progressiveDownload": {
-"href": "https://watch.auth.api.espn.com/video/auth/brightcove/393fcc48-6fa6-40c5-9aaf-b9072e629a29/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46909348"
-}
-},
-"api": {
-"self": {
-"href": "https://content.core.api.espn.com/v1/video/clips/46909348"
-},
-"artwork": {
-"href": "https://artwork.api.espn.com/artwork/collections/media/393fcc48-6fa6-40c5-9aaf-b9072e629a29"
-}
-},
-"source": {
-"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d_360p30_1464k.mp4",
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d.mp4"
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d.smil"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d_rel.smil/manifest.f4m"
-},
-"HLS": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d/playlist.m3u8",
-"HD": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d/playlist.m3u8"
-},
-"cmaf": {
-"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d/playlist.m3u8",
-"9x16": {
-"href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d/playlist.m3u8"
-}
-},
-"9x16": {
-"href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d/playlist.m3u8"
-},
-"shield": {
-"href": "https://watch.auth.api.espn.com/video/auth/media/393fcc48-6fa6-40c5-9aaf-b9072e629a29/asset"
-}
-},
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d_720p30_2896k.mp4"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/wsc/2025/1109/0d23392e-4c17-4067-841a-81726ef7070d/0d23392e-4c17-4067-841a-81726ef7070d_360p30_1464k.mp4"
-}
-},
-"sportscenter": {
-"href": "sportscenter://x-callback-url/showVideo?videoID=46909348&videoDSI=bf9fd210f1cf9"
-}
-},
-"ad": {
-"sport": "ncw",
-"bundle": "sportscenter"
-},
-"tracking": {
-"sportName": "basketball",
-"leagueName": "NCAA Women's Basketball",
-"coverageType": "OnePlay",
-"trackingName": "NCW_One-Play (Jazzy Davidson's late bucket lifts USC past NC State) 2025/11/09 ESHEET",
-"trackingId": "dm_20251109_NCW_jazzy_win"
-}
 }
 ],
 "standings": {
@@ -24581,6 +24566,134 @@
 {
 "standings": {
 "entries": [
+{
+"team": "Maryland",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/120/maryland-terrapins",
+"id": "120",
+"uid": "s:40~l:54~t:120",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-0",
+"displayValue": "4-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/120.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "UCLA",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/26/ucla-bruins",
+"id": "26",
+"uid": "s:40~l:54~t:26",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-0",
+"displayValue": "4-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-02-17T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/26.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-02-17T21:14Z"
+}
+]
+},
 {
 "team": "Indiana",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/84/indiana-hoosiers",
@@ -24646,10 +24759,10 @@
 ]
 },
 {
-"team": "Maryland",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/120/maryland-terrapins",
-"id": "120",
-"uid": "s:40~l:54~t:120",
+"team": "Iowa",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes",
+"id": "2294",
+"uid": "s:40~l:54~t:2294",
 "stats": [
 {
 "id": "0",
@@ -24686,7 +24799,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -24697,7 +24810,7 @@
 "lastUpdated": "2018-06-05T12:08Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/120.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2294.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -25030,70 +25143,6 @@
 ]
 },
 {
-"team": "UCLA",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/26/ucla-bruins",
-"id": "26",
-"uid": "s:40~l:54~t:26",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-0",
-"displayValue": "3-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-02-17T21:15Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/26.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
 "team": "Illinois",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/356/illinois-fighting-illini",
 "id": "356",
@@ -25146,70 +25195,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/356.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Iowa",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes",
-"id": "2294",
-"uid": "s:40~l:54~t:2294",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-0",
-"displayValue": "2-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2294.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -25350,6 +25335,70 @@
 ]
 },
 {
+"team": "Ohio State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/194/ohio-state-buckeyes",
+"id": "194",
+"uid": "s:40~l:54~t:194",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-02-17T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/194.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-02-17T21:14Z"
+}
+]
+},
+{
 "team": "USC",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/30/usc-trojans",
 "id": "30",
@@ -25478,10 +25527,10 @@
 ]
 },
 {
-"team": "Ohio State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/194/ohio-state-buckeyes",
-"id": "194",
-"uid": "s:40~l:54~t:194",
+"team": "Rutgers",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/164/rutgers-scarlet-knights",
+"id": "164",
+"uid": "s:40~l:54~t:164",
 "stats": [
 {
 "id": "0",
@@ -25491,8 +25540,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-0",
-"displayValue": "1-0"
+"summary": "3-1",
+"displayValue": "3-1"
 },
 {
 "name": "gamesBehind",
@@ -25518,7 +25567,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -25526,10 +25575,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2023-02-17T21:15Z"
+"lastUpdated": "2022-09-07T21:02Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/194.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/164.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -25537,7 +25586,7 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2023-02-17T21:14Z"
+"lastUpdated": "2022-09-07T21:02Z"
 }
 ]
 },
@@ -25668,12 +25717,23 @@
 "lastUpdated": "2023-02-17T21:14Z"
 }
 ]
+}
+]
+},
+"header": "2025-26 Big Ten Conference Standings",
+"href": "https://www.espn.com/womens-college-basketball/standings/_/group/7",
+"conferenceHeader": "NCAA Division I",
+"divisionHeader": "Big Ten Conference",
+"shortDivisionHeader": "Big Ten"
 },
 {
-"team": "Rutgers",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/164/rutgers-scarlet-knights",
-"id": "164",
-"uid": "s:40~l:54~t:164",
+"standings": {
+"entries": [
+{
+"team": "Wake Forest",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/154/wake-forest-demon-deacons",
+"id": "154",
+"uid": "s:40~l:54~t:154",
 "stats": [
 {
 "id": "0",
@@ -25683,8 +25743,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-1",
-"displayValue": "2-1"
+"summary": "4-0",
+"displayValue": "4-0"
 },
 {
 "name": "gamesBehind",
@@ -25710,7 +25770,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -25718,10 +25778,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2022-09-07T21:02Z"
+"lastUpdated": "2023-10-06T14:34Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/164.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/154.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -25729,21 +25789,74 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2022-09-07T21:02Z"
+"lastUpdated": "2022-09-07T20:49Z"
 }
 ]
-}
-]
-},
-"header": "2025-26 Big Ten Conference Standings",
-"href": "https://www.espn.com/womens-college-basketball/standings/_/group/7",
-"conferenceHeader": "NCAA Division I",
-"divisionHeader": "Big Ten Conference",
-"shortDivisionHeader": "Big Ten"
 },
 {
-"standings": {
-"entries": [
+"team": "Miami",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2390/miami-hurricanes",
+"id": "2390",
+"uid": "s:40~l:54~t:2390",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-0",
+"displayValue": "3-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-12-13T21:29Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2390.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-12-13T21:30Z"
+}
+]
+},
 {
 "team": "Notre Dame",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/87/notre-dame-fighting-irish",
@@ -25937,262 +26050,6 @@
 ]
 },
 {
-"team": "Wake Forest",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/154/wake-forest-demon-deacons",
-"id": "154",
-"uid": "s:40~l:54~t:154",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-0",
-"displayValue": "3-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-10-06T14:34Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/154.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-09-07T20:49Z"
-}
-]
-},
-{
-"team": "Miami",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2390/miami-hurricanes",
-"id": "2390",
-"uid": "s:40~l:54~t:2390",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-0",
-"displayValue": "2-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-12-13T21:29Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2390.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-12-13T21:30Z"
-}
-]
-},
-{
-"team": "North Carolina",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/153/north-carolina-tar-heels",
-"id": "153",
-"uid": "s:40~l:54~t:153",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-0",
-"displayValue": "2-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-02-17T21:15Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/153.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
-"team": "Virginia",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/258/virginia-cavaliers",
-"id": "258",
-"uid": "s:40~l:54~t:258",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-0",
-"displayValue": "2-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2020-09-16T19:21Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/258.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2020-06-16T14:21Z"
-}
-]
-},
-{
 "team": "Virginia Tech",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/259/virginia-tech-hokies",
 "id": "259",
@@ -26206,8 +26063,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-0",
-"displayValue": "2-0"
+"summary": "3-0",
+"displayValue": "3-0"
 },
 {
 "name": "gamesBehind",
@@ -26317,6 +26174,70 @@
 "dark"
 ],
 "lastUpdated": "2023-03-01T14:18Z"
+}
+]
+},
+{
+"team": "Clemson",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/228/clemson-tigers",
+"id": "228",
+"uid": "s:40~l:54~t:228",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-1",
+"displayValue": "3-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/228.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },
@@ -26449,70 +26370,6 @@
 ]
 },
 {
-"team": "Clemson",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/228/clemson-tigers",
-"id": "228",
-"uid": "s:40~l:54~t:228",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-1",
-"displayValue": "2-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/228.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "Duke",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/150/duke-blue-devils",
 "id": "150",
@@ -26573,6 +26430,70 @@
 "dark"
 ],
 "lastUpdated": "2023-09-07T19:32Z"
+}
+]
+},
+{
+"team": "Georgia Tech",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/59/georgia-tech-yellow-jackets",
+"id": "59",
+"uid": "s:40~l:54~t:59",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-1",
+"displayValue": "2-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-10-06T14:34Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/59.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-10-06T14:35Z"
 }
 ]
 },
@@ -26705,6 +26626,70 @@
 ]
 },
 {
+"team": "North Carolina",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/153/north-carolina-tar-heels",
+"id": "153",
+"uid": "s:40~l:54~t:153",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-1",
+"displayValue": "2-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-02-17T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/153.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-02-17T21:14Z"
+}
+]
+},
+{
 "team": "Pittsburgh",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/221/pittsburgh-panthers",
 "id": "221",
@@ -26769,10 +26754,10 @@
 ]
 },
 {
-"team": "Georgia Tech",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/59/georgia-tech-yellow-jackets",
-"id": "59",
-"uid": "s:40~l:54~t:59",
+"team": "Virginia",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/258/virginia-cavaliers",
+"id": "258",
+"uid": "s:40~l:54~t:258",
 "stats": [
 {
 "id": "0",
@@ -26782,8 +26767,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-1",
-"displayValue": "1-1"
+"summary": "2-1",
+"displayValue": "2-1"
 },
 {
 "name": "gamesBehind",
@@ -26809,7 +26794,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -26817,10 +26802,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2023-10-06T14:34Z"
+"lastUpdated": "2020-09-16T19:21Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/59.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/258.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -26828,7 +26813,7 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2023-10-06T14:35Z"
+"lastUpdated": "2020-06-16T14:21Z"
 }
 ]
 },
@@ -26846,8 +26831,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-1",
-"displayValue": "1-1"
+"summary": "1-2",
+"displayValue": "1-2"
 },
 {
 "name": "gamesBehind",

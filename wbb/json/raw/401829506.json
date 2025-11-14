@@ -312,76 +312,64 @@
 "statistics": [
 {
 "names": [
-"MIN",
 "PTS",
-"OREB",
-"DREB",
+"FG",
+"3PT",
+"FT",
 "REB",
 "AST",
+"TO",
 "STL",
 "BLK",
-"TO",
-"FG",
-"FG%",
-"3PT",
-"3PT%",
-"FT",
-"FT%",
-"PF"
+"OREB",
+"DREB",
+"PF",
+"MIN"
 ],
 "keys": [
-"minutes",
 "points",
-"offensiveRebounds",
-"defensiveRebounds",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
 "rebounds",
 "assists",
+"turnovers",
 "steals",
 "blocks",
-"turnovers",
-"fieldGoalsMade-fieldGoalsAttempted",
-"fieldGoalPct",
-"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-"threePointFieldGoalPct",
-"freeThrowsMade-freeThrowsAttempted",
-"freeThrowPct",
-"fouls"
+"offensiveRebounds",
+"defensiveRebounds",
+"fouls",
+"minutes"
 ],
 "labels": [
-"MIN",
 "PTS",
-"OREB",
-"DREB",
+"FG",
+"3PT",
+"FT",
 "REB",
 "AST",
+"TO",
 "STL",
 "BLK",
-"TO",
-"FG",
-"FG%",
-"3PT",
-"3PT%",
-"FT",
-"FT%",
-"PF"
+"OREB",
+"DREB",
+"PF",
+"MIN"
 ],
 "descriptions": [
-"Minutes",
 "Points",
-"Offensive Rebounds",
-"Defensive Rebounds",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
 "Rebounds",
 "Assists",
+"Turnovers",
 "Steals",
 "Blocks",
-"Turnovers",
-"Field Goals Made/Attempted",
-"Field Goal Percentage",
-"3-Point Field Goals Made/Attempted",
-"3-Point Field Goal Percentage",
-"Free Throws Made/Attempted",
-"Free Throw Percentage",
-"Personal Fouls"
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Personal Fouls",
+"Minutes"
 ],
 "athletes": [
 {
@@ -403,22 +391,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"21",
 "0",
-"1",
-"3",
+"0-8",
+"0-3",
+"0-0",
 "4",
 "1",
+"5",
 "3",
 "1",
-"5",
-"0-8",
-"0.0",
-"0-3",
-"0.0",
-"0-0",
-"0.0",
-"2"
+"1",
+"3",
+"2",
+"21"
 ]
 },
 {
@@ -440,22 +425,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"27",
 "11",
-"3",
-"3",
+"5-8",
+"1-3",
+"0-0",
 "6",
+"0",
 "0",
 "2",
 "0",
-"0",
-"5-8",
-"62.5",
-"1-3",
-"33.3",
-"0-0",
-"0.0",
-"2"
+"3",
+"3",
+"2",
+"27"
 ]
 },
 {
@@ -477,22 +459,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"22",
 "3",
-"1",
-"1",
+"1-4",
+"1-3",
+"0-0",
 "2",
 "2",
+"4",
 "1",
 "0",
-"4",
-"1-4",
-"25.0",
-"1-3",
-"33.3",
-"0-0",
-"0.0",
-"3"
+"1",
+"1",
+"3",
+"22"
 ]
 },
 {
@@ -514,22 +493,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"23",
 "8",
-"1",
-"3",
+"3-10",
+"1-6",
+"1-2",
 "4",
 "2",
+"5",
 "2",
 "0",
-"5",
-"3-10",
-"30.0",
-"1-6",
-"16.7",
-"1-2",
-"50.0",
-"2"
+"1",
+"3",
+"2",
+"23"
 ]
 },
 {
@@ -551,22 +527,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"30",
 "16",
-"1",
-"3",
+"7-11",
+"1-2",
+"1-2",
 "4",
 "3",
+"1",
 "2",
 "1",
 "1",
-"7-11",
-"63.6",
-"1-2",
-"50.0",
-"1-2",
-"50.0",
-"0"
+"3",
+"0",
+"30"
 ]
 },
 {
@@ -588,22 +561,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"13",
+"0",
+"0-4",
+"0-0",
+"0-0",
+"3",
+"0",
+"1",
+"0",
 "0",
 "1",
 "2",
-"3",
-"0",
-"0",
-"0",
-"1",
-"0-4",
-"0.0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"2"
+"2",
+"13"
 ]
 },
 {
@@ -625,22 +595,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"15",
-"3",
-"0",
-"1",
-"1",
-"0",
-"0",
-"0",
 "3",
 "1-5",
-"20.0",
 "0-1",
-"0.0",
 "1-2",
-"50.0",
-"1"
+"1",
+"0",
+"3",
+"0",
+"0",
+"0",
+"1",
+"1",
+"15"
 ]
 },
 {
@@ -662,22 +629,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"8",
-"3",
-"0",
-"5",
-"5",
-"0",
-"1",
-"0",
 "3",
 "0-2",
-"0.0",
 "0-0",
-"0.0",
 "3-4",
-"75.0",
-"1"
+"5",
+"0",
+"3",
+"1",
+"0",
+"0",
+"5",
+"1",
+"8"
 ]
 },
 {
@@ -699,22 +663,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"17",
 "9",
-"0",
-"0",
-"0",
-"0",
+"3-10",
+"3-7",
+"0-0",
 "0",
 "0",
 "1",
-"3-10",
-"30.0",
-"3-7",
-"42.9",
-"0-0",
-"0.0",
-"2"
+"0",
+"0",
+"0",
+"0",
+"2",
+"17"
 ]
 },
 {
@@ -736,21 +697,18 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
+"0",
+"0-0",
+"0-0",
+"0-0",
+"1",
+"0",
+"0",
+"1",
+"0",
+"0",
+"1",
 "2",
-"0",
-"0",
-"1",
-"1",
-"0",
-"1",
-"0",
-"0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
 "2"
 ]
 },
@@ -773,22 +731,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"7",
+"0",
+"0-0",
+"0-0",
+"0-0",
+"1",
+"0",
+"0",
+"0",
 "0",
 "1",
 "0",
-"1",
 "0",
-"0",
-"0",
-"0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0"
+"7"
 ]
 },
 {
@@ -810,22 +765,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"11",
-"0",
-"0",
-"1",
-"1",
-"1",
-"0",
-"0",
 "0",
 "0-1",
-"0.0",
 "0-1",
-"0.0",
 "0-0",
-"0.0",
-"0"
+"1",
+"1",
+"0",
+"0",
+"0",
+"0",
+"1",
+"0",
+"11"
 ]
 },
 {
@@ -847,22 +799,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"4",
 "3",
-"0",
-"1",
-"1",
-"1",
-"0",
-"0",
-"0",
 "1-2",
-"50.0",
 "1-2",
-"50.0",
 "0-0",
-"0.0",
-"0"
+"1",
+"1",
+"0",
+"0",
+"0",
+"0",
+"1",
+"0",
+"4"
 ]
 },
 {
@@ -986,22 +935,19 @@
 }
 ],
 "totals": [
-"",
 "56",
-"11",
-"27",
+"21-65",
+"8-28",
+"6-10",
 "38",
 "10",
+"24",
 "12",
 "2",
-"24",
-"21-65",
-"32.3",
-"8-28",
-"28.6",
-"6-10",
-"60.0",
-"17"
+"11",
+"27",
+"17",
+""
 ]
 }
 ],
@@ -1024,76 +970,64 @@
 "statistics": [
 {
 "names": [
-"MIN",
 "PTS",
-"OREB",
-"DREB",
+"FG",
+"3PT",
+"FT",
 "REB",
 "AST",
+"TO",
 "STL",
 "BLK",
-"TO",
-"FG",
-"FG%",
-"3PT",
-"3PT%",
-"FT",
-"FT%",
-"PF"
+"OREB",
+"DREB",
+"PF",
+"MIN"
 ],
 "keys": [
-"minutes",
 "points",
-"offensiveRebounds",
-"defensiveRebounds",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
 "rebounds",
 "assists",
+"turnovers",
 "steals",
 "blocks",
-"turnovers",
-"fieldGoalsMade-fieldGoalsAttempted",
-"fieldGoalPct",
-"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-"threePointFieldGoalPct",
-"freeThrowsMade-freeThrowsAttempted",
-"freeThrowPct",
-"fouls"
+"offensiveRebounds",
+"defensiveRebounds",
+"fouls",
+"minutes"
 ],
 "labels": [
-"MIN",
 "PTS",
-"OREB",
-"DREB",
+"FG",
+"3PT",
+"FT",
 "REB",
 "AST",
+"TO",
 "STL",
 "BLK",
-"TO",
-"FG",
-"FG%",
-"3PT",
-"3PT%",
-"FT",
-"FT%",
-"PF"
+"OREB",
+"DREB",
+"PF",
+"MIN"
 ],
 "descriptions": [
-"Minutes",
 "Points",
-"Offensive Rebounds",
-"Defensive Rebounds",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
 "Rebounds",
 "Assists",
+"Turnovers",
 "Steals",
 "Blocks",
-"Turnovers",
-"Field Goals Made/Attempted",
-"Field Goal Percentage",
-"3-Point Field Goals Made/Attempted",
-"3-Point Field Goal Percentage",
-"Free Throws Made/Attempted",
-"Free Throw Percentage",
-"Personal Fouls"
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Personal Fouls",
+"Minutes"
 ],
 "athletes": [
 {
@@ -1130,22 +1064,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"16",
 "10",
-"2",
-"6",
+"5-13",
+"0-0",
+"0-0",
 "8",
 "1",
 "0",
 "0",
 "0",
-"5-13",
-"38.5",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"1"
+"2",
+"6",
+"1",
+"16"
 ]
 },
 {
@@ -1182,22 +1113,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"13",
 "6",
-"2",
-"7",
+"2-3",
+"2-3",
+"0-2",
 "9",
 "1",
 "1",
-"0",
 "1",
-"2-3",
-"66.7",
-"2-3",
-"66.7",
-"0-2",
-"0.0",
-"2"
+"0",
+"2",
+"7",
+"2",
+"13"
 ]
 },
 {
@@ -1234,22 +1162,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"26",
 "4",
-"1",
-"1",
+"2-4",
+"0-0",
+"0-0",
 "2",
 "7",
+"1",
 "3",
 "0",
 "1",
-"2-4",
-"50.0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"0"
+"1",
+"0",
+"26"
 ]
 },
 {
@@ -1286,22 +1211,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"17",
 "7",
-"2",
-"3",
+"2-6",
+"0-3",
+"3-3",
 "5",
 "0",
 "3",
-"0",
 "3",
-"2-6",
-"33.3",
-"0-3",
-"0.0",
-"3-3",
-"100.0",
-"0"
+"0",
+"2",
+"3",
+"0",
+"17"
 ]
 },
 {
@@ -1338,22 +1260,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"23",
 "17",
-"3",
-"4",
+"7-14",
+"0-3",
+"3-4",
 "7",
 "0",
+"4",
 "1",
 "0",
+"3",
 "4",
-"7-14",
-"50.0",
-"0-3",
-"0.0",
-"3-4",
-"75.0",
-"2"
+"2",
+"23"
 ]
 },
 {
@@ -1390,22 +1309,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"14",
 "7",
-"1",
-"2",
+"3-5",
+"1-1",
+"0-0",
 "3",
 "0",
 "0",
 "0",
 "0",
-"3-5",
-"60.0",
-"1-1",
-"100.0",
-"0-0",
-"0.0",
-"1"
+"1",
+"2",
+"1",
+"14"
 ]
 },
 {
@@ -1442,22 +1358,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"9",
 "6",
-"0",
+"3-4",
+"0-0",
+"0-0",
 "3",
-"3",
-"0",
-"0",
 "0",
 "1",
-"3-4",
-"75.0",
-"0-0",
-"0.0",
-"0-0",
-"0.0",
-"2"
+"0",
+"0",
+"0",
+"3",
+"2",
+"9"
 ]
 },
 {
@@ -1494,22 +1407,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"25",
 "12",
-"0",
-"1",
+"5-9",
+"1-3",
+"1-4",
 "1",
 "7",
+"1",
+"0",
 "0",
 "0",
 "1",
-"5-9",
-"55.6",
-"1-3",
-"33.3",
-"1-4",
-"25.0",
-"4"
+"4",
+"25"
 ]
 },
 {
@@ -1546,22 +1456,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"24",
 "12",
-"3",
-"3",
+"5-11",
+"0-1",
+"2-3",
 "6",
 "0",
+"3",
 "1",
 "0",
 "3",
-"5-11",
-"45.5",
-"0-1",
-"0.0",
-"2-3",
-"66.7",
-"2"
+"3",
+"2",
+"24"
 ]
 },
 {
@@ -1598,22 +1505,19 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"12",
+"1",
+"0-2",
+"0-2",
+"1-2",
 "1",
 "0",
 "1",
-"1",
-"0",
 "3",
 "0",
+"0",
 "1",
-"0-2",
-"0.0",
-"0-2",
-"0.0",
-"1-2",
-"50.0",
-"1"
+"1",
+"12"
 ]
 },
 {
@@ -1650,42 +1554,36 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"21",
 "4",
-"0",
-"1",
-"1",
-"2",
-"2",
-"0",
-"2",
 "1-4",
-"25.0",
 "1-4",
-"25.0",
 "1-2",
-"50.0",
-"1"
+"1",
+"2",
+"2",
+"2",
+"0",
+"0",
+"1",
+"1",
+"21"
 ]
 }
 ],
 "totals": [
-"",
 "86",
-"17",
-"33",
+"35-75",
+"5-20",
+"11-20",
 "50",
 "18",
+"17",
 "14",
 "0",
 "17",
-"35-75",
-"46.7",
-"5-20",
-"25.0",
-"11-20",
-"55.0",
-"16"
+"33",
+"16",
+""
 ]
 }
 ],
@@ -5691,6 +5589,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Jump Ball"
 },
 {
@@ -5728,6 +5627,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Jump Ball"
 },
 {
@@ -5765,6 +5665,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Jump Ball"
 },
 {
@@ -5802,6 +5703,7 @@
 "x": 25,
 "y": 26
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -5839,6 +5741,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -5876,6 +5779,7 @@
 "x": 11,
 "y": 20
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -5913,6 +5817,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -5950,6 +5855,7 @@
 "x": 21,
 "y": 9
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -5987,6 +5893,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -6024,6 +5931,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -6061,6 +5969,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -6098,6 +6007,7 @@
 "x": 22,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -6135,6 +6045,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -6172,6 +6083,7 @@
 "x": 22,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -6209,6 +6121,7 @@
 "x": 24,
 "y": 26
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -6246,6 +6159,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -6283,6 +6197,7 @@
 "x": 27,
 "y": 83
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -6320,6 +6235,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -6357,6 +6273,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -6394,6 +6311,7 @@
 "x": 41,
 "y": 22
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -6431,6 +6349,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -6468,6 +6387,7 @@
 "x": 22,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -6505,6 +6425,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -6542,6 +6463,7 @@
 "x": 25,
 "y": 16
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -6579,6 +6501,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -6616,6 +6539,7 @@
 "x": 17,
 "y": 0
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -6653,6 +6577,7 @@
 "x": 29,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -6690,6 +6615,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -6727,6 +6653,7 @@
 "x": 10,
 "y": 22
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -6764,6 +6691,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -6801,6 +6729,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -6838,6 +6767,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -6875,6 +6805,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -6912,6 +6843,7 @@
 "x": 37,
 "y": 24
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -6949,6 +6881,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -6986,6 +6919,7 @@
 "x": 27,
 "y": 80
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -7023,6 +6957,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7060,6 +6995,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7097,6 +7033,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -7134,6 +7071,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -7164,6 +7102,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -7201,6 +7140,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -7243,6 +7183,7 @@
 "x": 23,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -7280,6 +7221,7 @@
 "x": 2,
 "y": 0
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -7317,6 +7259,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -7354,6 +7297,7 @@
 "x": 20,
 "y": 24
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -7391,6 +7335,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -7428,6 +7373,7 @@
 "x": 27,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -7465,6 +7411,7 @@
 "x": 3,
 "y": 11
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -7502,6 +7449,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -7539,6 +7487,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7576,6 +7525,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7613,6 +7563,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7650,6 +7601,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7687,6 +7639,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7724,6 +7677,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7761,6 +7715,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7791,6 +7746,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -7828,6 +7784,7 @@
 "x": 32,
 "y": 7
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -7865,6 +7822,7 @@
 "x": 48,
 "y": 2
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -7902,6 +7860,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -7939,6 +7898,7 @@
 "x": 9,
 "y": 18
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -7976,6 +7936,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -8006,6 +7967,7 @@
 "x": 28,
 "y": 28
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -8036,6 +7998,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -8063,6 +8026,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -8100,6 +8064,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8137,6 +8102,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8174,6 +8140,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8211,6 +8178,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8248,6 +8216,7 @@
 "x": 18,
 "y": 76
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -8285,6 +8254,7 @@
 "x": 28,
 "y": 82
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -8322,6 +8292,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -8359,6 +8330,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -8396,6 +8368,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -8433,6 +8406,7 @@
 "x": 28,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -8470,6 +8444,7 @@
 "x": 19,
 "y": 24
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -8512,6 +8487,7 @@
 "x": 28,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -8542,6 +8518,7 @@
 "x": 4,
 "y": 14
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -8579,6 +8556,7 @@
 "x": 23,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -8616,6 +8594,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Block Shot"
 },
 {
@@ -8653,6 +8632,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -8690,6 +8670,7 @@
 "x": 25,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -8720,6 +8701,7 @@
 "x": 16,
 "y": 22
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -8757,6 +8739,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -8799,6 +8782,7 @@
 "x": 27,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -8836,6 +8820,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8873,6 +8858,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8910,6 +8896,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8947,6 +8934,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -8984,6 +8972,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9021,6 +9010,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9058,6 +9048,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9095,6 +9086,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9125,6 +9117,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9162,6 +9155,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9199,6 +9193,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9236,6 +9231,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9273,6 +9269,7 @@
 "x": 17,
 "y": 24
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -9310,6 +9307,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -9347,6 +9345,7 @@
 "x": 23,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -9384,6 +9383,7 @@
 "x": 28,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -9421,6 +9421,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -9463,6 +9464,7 @@
 "x": 27,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -9500,6 +9502,7 @@
 "x": 10,
 "y": 48
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -9537,6 +9540,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9574,6 +9578,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9611,6 +9616,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9648,6 +9654,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9685,6 +9692,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9722,6 +9730,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -9759,6 +9768,7 @@
 "x": 21,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -9796,6 +9806,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -9833,6 +9844,7 @@
 "x": 6,
 "y": 14
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -9863,6 +9875,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -9905,6 +9918,7 @@
 "x": 10,
 "y": 21
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -9942,6 +9956,7 @@
 "x": 47,
 "y": 74
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -9979,6 +9994,7 @@
 "x": 23,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -10016,6 +10032,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -10053,6 +10070,7 @@
 "x": 23,
 "y": 3
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -10090,6 +10108,7 @@
 "x": 16,
 "y": 86
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -10127,6 +10146,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -10164,6 +10184,7 @@
 "x": 2,
 "y": 0
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -10201,6 +10222,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -10238,6 +10260,7 @@
 "x": 40,
 "y": 19
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -10275,6 +10298,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -10312,6 +10336,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10349,6 +10374,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10391,6 +10417,7 @@
 "x": 38,
 "y": 20
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -10433,6 +10460,7 @@
 "x": 1,
 "y": 0
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -10470,6 +10498,7 @@
 "x": 13,
 "y": 54
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -10507,6 +10536,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10544,6 +10574,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10581,6 +10612,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -10611,6 +10643,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -10648,6 +10681,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -10690,6 +10724,7 @@
 "x": 23,
 "y": 25
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -10717,6 +10752,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "End of 1st"
 },
 {
@@ -10754,6 +10790,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10791,6 +10828,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10828,6 +10866,7 @@
 "x": 3,
 "y": 73
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -10865,6 +10904,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10902,6 +10942,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -10939,6 +10980,7 @@
 "x": 48,
 "y": 10
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -10976,6 +11018,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -11018,6 +11061,7 @@
 "x": 2,
 "y": 1
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -11055,6 +11099,7 @@
 "x": 49,
 "y": 4
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -11092,6 +11137,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -11129,6 +11175,7 @@
 "x": 29,
 "y": 79
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -11166,6 +11213,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11203,6 +11251,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11240,6 +11289,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11277,6 +11327,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11314,6 +11365,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11351,6 +11403,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11388,6 +11441,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11425,6 +11479,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11462,6 +11517,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -11499,6 +11555,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -11536,6 +11593,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -11573,6 +11631,7 @@
 "x": 12,
 "y": 21
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -11603,6 +11662,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -11640,6 +11700,7 @@
 "x": 35,
 "y": 5
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -11677,6 +11738,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -11714,6 +11776,7 @@
 "x": 12,
 "y": -2
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -11751,6 +11814,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -11788,6 +11852,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11825,6 +11890,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11862,6 +11928,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11899,6 +11966,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -11936,6 +12004,7 @@
 "x": 26,
 "y": 10
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -11973,6 +12042,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -12010,6 +12080,7 @@
 "x": 28,
 "y": 83
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -12047,6 +12118,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12084,6 +12156,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12121,6 +12194,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -12151,6 +12225,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -12188,6 +12263,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -12225,6 +12301,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -12262,6 +12339,7 @@
 "x": 33,
 "y": 18
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -12292,6 +12370,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -12329,6 +12408,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12366,6 +12446,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12403,6 +12484,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12440,6 +12522,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12477,6 +12560,7 @@
 "x": 27,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -12507,6 +12591,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -12544,6 +12629,7 @@
 "x": 10,
 "y": 23
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -12581,6 +12667,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -12623,6 +12710,7 @@
 "x": 42,
 "y": 17
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -12660,6 +12748,7 @@
 "x": 20,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -12697,6 +12786,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -12734,6 +12824,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12771,6 +12862,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12808,6 +12900,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12845,6 +12938,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -12882,6 +12976,7 @@
 "x": 20,
 "y": 0
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -12919,6 +13014,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -12956,6 +13052,7 @@
 "x": 44,
 "y": 17
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -12993,6 +13090,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -13030,6 +13128,7 @@
 "x": 35,
 "y": 14
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -13067,6 +13166,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -13104,6 +13204,7 @@
 "x": 23,
 "y": 80
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -13141,6 +13242,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13178,6 +13280,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13215,6 +13318,7 @@
 "x": 32,
 "y": 5
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -13252,6 +13356,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -13289,6 +13394,7 @@
 "x": 15,
 "y": 56
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -13326,6 +13432,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13363,6 +13470,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13400,6 +13508,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13430,6 +13539,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13467,6 +13577,7 @@
 "x": 22,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -13504,6 +13615,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -13541,6 +13653,7 @@
 "x": 22,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -13571,6 +13684,7 @@
 "x": 28,
 "y": 16
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -13608,6 +13722,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -13645,6 +13760,7 @@
 "x": 5,
 "y": 24
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -13682,6 +13798,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13719,6 +13836,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -13756,6 +13874,7 @@
 "x": 15,
 "y": 12
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -13793,6 +13912,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -13830,6 +13950,7 @@
 "x": 20,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -13867,6 +13988,7 @@
 "x": 27,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -13904,6 +14026,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -13941,6 +14064,7 @@
 "x": 28,
 "y": 81
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -13968,6 +14092,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -14005,6 +14130,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -14042,6 +14168,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -14079,6 +14206,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -14116,6 +14244,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -14153,6 +14282,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -14190,6 +14320,7 @@
 "x": 27,
 "y": 29
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -14227,6 +14358,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -14264,6 +14396,7 @@
 "x": 26,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -14294,6 +14427,7 @@
 "x": 15,
 "y": 6
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -14331,6 +14465,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -14368,6 +14503,7 @@
 "x": 44,
 "y": 21
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -14398,6 +14534,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -14435,6 +14572,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -14472,6 +14610,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -14509,6 +14648,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -14546,6 +14686,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -14583,6 +14724,7 @@
 "x": 3,
 "y": 12
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -14620,6 +14762,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -14657,6 +14800,7 @@
 "x": 30,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -14699,6 +14843,7 @@
 "x": 23,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -14729,6 +14874,7 @@
 "x": 22,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -14766,6 +14912,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -14803,6 +14950,7 @@
 "x": 21,
 "y": 12
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -14840,6 +14988,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -14877,6 +15026,7 @@
 "x": 23,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -14914,6 +15064,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Block Shot"
 },
 {
@@ -14951,6 +15102,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -14980,6 +15132,7 @@
 "x": 9,
 "y": 20
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -15017,6 +15170,7 @@
 "x": 23,
 "y": 82
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -15054,6 +15208,7 @@
 "x": 23,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -15091,6 +15246,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15128,6 +15284,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15165,6 +15322,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15202,6 +15360,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15239,6 +15398,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15276,6 +15436,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15313,6 +15474,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15350,6 +15512,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15387,6 +15550,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -15424,6 +15588,7 @@
 "x": 27,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -15461,6 +15626,7 @@
 "x": 2,
 "y": -2
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -15491,6 +15657,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -15528,6 +15695,7 @@
 "x": 2,
 "y": 1
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -15565,6 +15733,7 @@
 "x": 27,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -15602,6 +15771,7 @@
 "x": 43,
 "y": 27
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -15639,6 +15809,7 @@
 "x": 15,
 "y": 38
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -15676,6 +15847,7 @@
 "x": 28,
 "y": 18
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -15713,6 +15885,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -15750,6 +15923,7 @@
 "x": 27,
 "y": 4
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -15792,6 +15966,7 @@
 "x": 25,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -15819,6 +15994,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Halftime"
 },
 {
@@ -15856,6 +16032,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15893,6 +16070,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15930,6 +16108,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -15967,6 +16146,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16004,6 +16184,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16034,6 +16215,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16071,6 +16253,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16108,6 +16291,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16145,6 +16329,7 @@
 "x": 22,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -16187,6 +16372,7 @@
 "x": 23,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -16224,6 +16410,7 @@
 "x": 21,
 "y": 17
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -16261,6 +16448,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -16298,6 +16486,7 @@
 "x": 37,
 "y": 12
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -16335,6 +16524,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -16372,6 +16562,7 @@
 "x": 21,
 "y": 7
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -16409,6 +16600,7 @@
 "x": 26,
 "y": 18
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -16446,6 +16638,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -16483,6 +16676,7 @@
 "x": 42,
 "y": 16
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -16520,6 +16714,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -16557,6 +16752,7 @@
 "x": 23,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -16587,6 +16783,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -16624,6 +16821,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16661,6 +16859,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16698,6 +16897,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16735,6 +16935,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -16772,6 +16973,7 @@
 "x": 28,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -16814,6 +17016,7 @@
 "x": 27,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -16851,6 +17054,7 @@
 "x": 45,
 "y": 14
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -16888,6 +17092,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -16925,6 +17130,7 @@
 "x": 48,
 "y": 2
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -16962,6 +17168,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -16999,6 +17206,7 @@
 "x": 26,
 "y": 81
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -17036,6 +17244,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -17073,6 +17282,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -17110,6 +17320,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -17147,6 +17358,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -17184,6 +17396,7 @@
 "x": 33,
 "y": 23
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -17221,6 +17434,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -17258,6 +17472,7 @@
 "x": 23,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -17295,6 +17510,7 @@
 "x": 27,
 "y": 82
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -17332,6 +17548,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -17369,6 +17586,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -17406,6 +17624,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -17443,6 +17662,7 @@
 "x": 25,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -17480,6 +17700,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -17517,6 +17738,7 @@
 "x": 42,
 "y": 15
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -17554,6 +17776,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -17591,6 +17814,7 @@
 "x": 21,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -17628,6 +17852,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -17665,6 +17890,7 @@
 "x": 35,
 "y": 8
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -17702,6 +17928,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -17739,6 +17966,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -17769,6 +17997,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -17796,6 +18025,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -17833,6 +18063,7 @@
 "x": 21,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -17870,6 +18101,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -17907,6 +18139,7 @@
 "x": 21,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -17944,6 +18177,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -17986,6 +18220,7 @@
 "x": 22,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -18023,6 +18258,7 @@
 "x": 43,
 "y": 18
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -18060,6 +18296,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -18097,6 +18334,7 @@
 "x": 35,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -18134,6 +18372,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -18171,6 +18410,7 @@
 "x": 42,
 "y": 18
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -18208,6 +18448,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -18245,6 +18486,7 @@
 "x": 13,
 "y": 2
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -18282,6 +18524,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18319,6 +18562,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18356,6 +18600,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18393,6 +18638,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18430,6 +18676,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18467,6 +18714,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18504,6 +18752,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18541,6 +18790,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18578,6 +18828,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18608,6 +18859,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18635,6 +18887,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -18672,6 +18925,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18709,6 +18963,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18746,6 +19001,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18783,6 +19039,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -18820,6 +19077,7 @@
 "x": 17,
 "y": 11
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -18857,6 +19115,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -18899,6 +19158,7 @@
 "x": 25,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -18936,6 +19196,7 @@
 "x": 24,
 "y": 57
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -18973,6 +19234,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19010,6 +19272,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19047,6 +19310,7 @@
 "x": 40,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -19084,6 +19348,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -19121,6 +19386,7 @@
 "x": 30,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -19158,6 +19424,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -19195,6 +19462,7 @@
 "x": 26,
 "y": 34
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -19232,6 +19500,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -19274,6 +19543,7 @@
 "x": 24,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -19316,6 +19586,7 @@
 "x": 23,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -19353,6 +19624,7 @@
 "x": 48,
 "y": 5
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -19390,6 +19662,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -19427,6 +19700,7 @@
 "x": 27,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -19464,6 +19738,7 @@
 "x": 24,
 "y": 25
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -19494,6 +19769,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -19531,6 +19807,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19568,6 +19845,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19605,6 +19883,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19642,6 +19921,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19679,6 +19959,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19716,6 +19997,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19746,6 +20028,7 @@
 "x": 20,
 "y": 19
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -19788,6 +20071,7 @@
 "x": 11,
 "y": 21
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -19825,6 +20109,7 @@
 "x": 6,
 "y": 33
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -19862,6 +20147,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19899,6 +20185,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -19936,6 +20223,7 @@
 "x": 20,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -19966,6 +20254,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -20003,6 +20292,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -20040,6 +20330,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -20077,6 +20368,7 @@
 "x": 27,
 "y": 6
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -20114,6 +20406,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -20151,6 +20444,7 @@
 "x": 25,
 "y": 7
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -20188,6 +20482,7 @@
 "x": 32,
 "y": 87
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -20225,6 +20520,7 @@
 "x": 21,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -20262,6 +20558,7 @@
 "x": 33,
 "y": 52
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -20299,6 +20596,7 @@
 "x": 1,
 "y": 0
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -20336,6 +20634,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -20373,6 +20672,7 @@
 "x": 28,
 "y": 0
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -20410,6 +20710,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -20440,6 +20741,7 @@
 "x": 16,
 "y": 23
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -20477,6 +20779,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -20507,6 +20810,7 @@
 "x": 24,
 "y": 11
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -20544,6 +20848,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -20581,6 +20886,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -20618,6 +20924,7 @@
 "x": 17,
 "y": 5
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -20655,6 +20962,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -20697,6 +21005,7 @@
 "x": 6,
 "y": 17
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -20727,6 +21036,7 @@
 "x": 11,
 "y": 78
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -20764,6 +21074,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -20794,6 +21105,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -20831,6 +21143,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -20868,6 +21181,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -20905,6 +21219,7 @@
 "x": 2,
 "y": 2
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -20942,6 +21257,7 @@
 "x": 27,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -20979,6 +21295,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -21006,6 +21323,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "End of 3rd"
 },
 {
@@ -21043,6 +21361,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21080,6 +21399,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21117,6 +21437,7 @@
 "x": 23,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -21154,6 +21475,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -21191,6 +21513,7 @@
 "x": 19,
 "y": 13
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -21228,6 +21551,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -21265,6 +21589,7 @@
 "x": 28,
 "y": 11
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -21302,6 +21627,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -21339,6 +21665,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21376,6 +21703,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21418,6 +21746,7 @@
 "x": 36,
 "y": 24
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -21460,6 +21789,7 @@
 "x": 22,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -21497,6 +21827,7 @@
 "x": 32,
 "y": 24
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -21534,6 +21865,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -21571,6 +21903,7 @@
 "x": 46,
 "y": 13
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -21608,6 +21941,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -21645,6 +21979,7 @@
 "x": 25,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -21675,6 +22010,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -21702,6 +22038,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -21739,6 +22076,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21776,6 +22114,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21813,6 +22152,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21850,6 +22190,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -21887,6 +22228,7 @@
 "x": 21,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -21924,6 +22266,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -21961,6 +22304,7 @@
 "x": 21,
 "y": 14
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -21998,6 +22342,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -22035,6 +22380,7 @@
 "x": 3,
 "y": 11
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -22072,6 +22418,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -22114,6 +22461,7 @@
 "x": 9,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -22151,6 +22499,7 @@
 "x": 29,
 "y": 10
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -22188,6 +22537,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22225,6 +22575,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22262,6 +22613,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22299,6 +22651,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22336,6 +22689,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22373,6 +22727,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22410,6 +22765,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22447,6 +22803,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22484,6 +22841,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22521,6 +22879,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22558,6 +22917,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22595,6 +22955,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -22625,6 +22986,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Timeout"
 },
 {
@@ -22662,6 +23024,7 @@
 "x": 12,
 "y": 22
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -22699,6 +23062,7 @@
 "x": 48,
 "y": 5
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -22736,6 +23100,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -22773,6 +23138,7 @@
 "x": 25,
 "y": 28
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -22810,6 +23176,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -22847,6 +23214,7 @@
 "x": 28,
 "y": 10
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -22884,6 +23252,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -22921,6 +23290,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -22958,6 +23328,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -22995,6 +23366,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -23032,6 +23404,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -23069,6 +23442,7 @@
 "x": 28,
 "y": 1
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -23106,6 +23480,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -23143,6 +23518,7 @@
 "x": 28,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -23180,6 +23556,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -23217,6 +23594,7 @@
 "x": 21,
 "y": 79
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -23254,6 +23632,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -23284,6 +23663,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -23321,6 +23701,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -23358,6 +23739,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -23395,6 +23777,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -23432,6 +23815,7 @@
 "x": 21,
 "y": 2
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -23469,6 +23853,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -23506,6 +23891,7 @@
 "x": 24,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -23543,6 +23929,7 @@
 "x": 27,
 "y": 80
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -23580,6 +23967,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -23617,6 +24005,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -23654,6 +24043,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -23691,6 +24081,7 @@
 "x": 32,
 "y": 85
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -23728,6 +24119,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -23765,6 +24157,7 @@
 "x": 7,
 "y": 16
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -23802,6 +24195,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -23839,6 +24233,7 @@
 "x": 24,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -23876,6 +24271,7 @@
 "x": 27,
 "y": 81
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -23913,6 +24309,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -23950,6 +24347,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -23987,6 +24385,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -24017,6 +24416,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -24054,6 +24454,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -24091,6 +24492,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -24121,6 +24523,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -24158,6 +24561,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -24195,6 +24599,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -24232,6 +24637,7 @@
 "x": 29,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -24269,6 +24675,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -24306,6 +24713,7 @@
 "x": 26,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -24343,6 +24751,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -24380,6 +24789,7 @@
 "x": 8,
 "y": 67
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -24417,6 +24827,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -24454,6 +24865,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -24491,6 +24903,7 @@
 "x": 47,
 "y": 11
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -24528,6 +24941,7 @@
 "x": 21,
 "y": 80
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -24565,6 +24979,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -24602,6 +25017,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -24632,6 +25048,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -24669,6 +25086,7 @@
 "x": 22,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -24706,6 +25124,7 @@
 "x": 18,
 "y": 6
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -24743,6 +25162,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -24780,6 +25200,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -24817,6 +25238,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -24854,6 +25276,7 @@
 "x": 23,
 "y": 73
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -24891,6 +25314,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -24921,6 +25345,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -24958,6 +25383,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -24995,6 +25421,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -25032,6 +25459,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -25074,6 +25502,7 @@
 "x": 26,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -25111,6 +25540,7 @@
 "x": 25,
 "y": 79
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -25148,6 +25578,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -25185,6 +25616,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Substitution"
 },
 {
@@ -25222,6 +25654,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -25259,6 +25692,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -25296,6 +25730,7 @@
 "x": 28,
 "y": 3
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -25333,6 +25768,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -25370,6 +25806,7 @@
 "x": 33,
 "y": 16
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -25407,6 +25844,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -25444,6 +25882,7 @@
 "x": 22,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -25481,6 +25920,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -25518,6 +25958,7 @@
 "x": 25,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -25560,6 +26001,7 @@
 "x": 28,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -25597,6 +26039,7 @@
 "x": 26,
 "y": 22
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -25634,6 +26077,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -25671,6 +26115,7 @@
 "x": 19,
 "y": 27
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -25708,6 +26153,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Turnover"
 },
 {
@@ -25738,6 +26184,7 @@
 "x": 7,
 "y": 23
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -25775,6 +26222,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -25817,6 +26265,7 @@
 "x": 27,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -25854,6 +26303,7 @@
 "x": 23,
 "y": 80
 },
+"pointsAttempted": 0,
 "shortDescription": "Foul"
 },
 {
@@ -25891,6 +26341,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -25928,6 +26379,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 1,
 "shortDescription": "+1 Point"
 },
 {
@@ -25965,6 +26417,7 @@
 "x": 30,
 "y": 5
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -26002,6 +26455,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -26039,6 +26493,7 @@
 "x": 34,
 "y": 24
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -26076,6 +26531,7 @@
 "x": 22,
 "y": 4
 },
+"pointsAttempted": 2,
 "shortDescription": "+2 Points"
 },
 {
@@ -26113,6 +26569,7 @@
 "x": 15,
 "y": 22
 },
+"pointsAttempted": 3,
 "shortDescription": "+3 Points"
 },
 {
@@ -26143,6 +26600,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -26180,6 +26638,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "Rebound"
 },
 {
@@ -26207,6 +26666,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "End of 4th"
 },
 {
@@ -26234,6 +26694,7 @@
 "x": 25,
 "y": 0
 },
+"pointsAttempted": 0,
 "shortDescription": "End of Game"
 }
 ],
@@ -26534,70 +26995,6 @@
 ]
 },
 {
-"team": "Gonzaga",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2250/gonzaga-bulldogs",
-"id": "2250",
-"uid": "s:40~l:54~t:2250",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-0",
-"displayValue": "2-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-02-17T21:15Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2250.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-02-17T21:14Z"
-}
-]
-},
-{
 "team": "Oregon State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/204/oregon-state-beavers",
 "id": "204",
@@ -26722,6 +27119,70 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Gonzaga",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2250/gonzaga-bulldogs",
+"id": "2250",
+"uid": "s:40~l:54~t:2250",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-1",
+"displayValue": "2-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-02-17T21:15Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2250.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-02-17T21:14Z"
 }
 ]
 },
@@ -26854,70 +27315,6 @@
 ]
 },
 {
-"team": "Loyola Marymount",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2351/loyola-marymount-lions",
-"id": "2351",
-"uid": "s:40~l:54~t:2351",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-1",
-"displayValue": "1-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2019-06-03T16:39Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2351.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2019-06-03T16:39Z"
-}
-]
-},
-{
 "team": "San Francisco",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2539/san-francisco-dons",
 "id": "2539",
@@ -26978,6 +27375,70 @@
 "dark"
 ],
 "lastUpdated": "2025-10-23T16:32Z"
+}
+]
+},
+{
+"team": "Loyola Marymount",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2351/loyola-marymount-lions",
+"id": "2351",
+"uid": "s:40~l:54~t:2351",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-2",
+"displayValue": "1-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-06-03T16:39Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2351.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2019-06-03T16:39Z"
 }
 ]
 },
@@ -27059,8 +27520,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-2",
-"displayValue": "1-2"
+"summary": "1-3",
+"displayValue": "1-3"
 },
 {
 "name": "gamesBehind",

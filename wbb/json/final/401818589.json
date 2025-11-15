@@ -38038,7 +38038,7 @@
 },
 {
 "name": "fieldGoalPct",
-"displayValue": "44.8",
+"displayValue": "45",
 "abbreviation": "FG%",
 "label": "Field Goal %"
 },
@@ -38049,7 +38049,7 @@
 },
 {
 "name": "threePointFieldGoalPct",
-"displayValue": "31.0",
+"displayValue": "31",
 "abbreviation": "3P%",
 "label": "Three Point %"
 },
@@ -38060,7 +38060,7 @@
 },
 {
 "name": "freeThrowPct",
-"displayValue": "64.7",
+"displayValue": "65",
 "abbreviation": "FT%",
 "label": "Free Throw %"
 },
@@ -38186,7 +38186,7 @@
 },
 {
 "name": "fieldGoalPct",
-"displayValue": "44.9",
+"displayValue": "45",
 "abbreviation": "FG%",
 "label": "Field Goal %"
 },
@@ -38197,7 +38197,7 @@
 },
 {
 "name": "threePointFieldGoalPct",
-"displayValue": "53.8",
+"displayValue": "54",
 "abbreviation": "3P%",
 "label": "Three Point %"
 },
@@ -38208,7 +38208,7 @@
 },
 {
 "name": "freeThrowPct",
-"displayValue": "71.4",
+"displayValue": "71",
 "abbreviation": "FT%",
 "label": "Free Throw %"
 },
@@ -38441,7 +38441,7 @@
 ]
 },
 {
-"active": true,
+"active": false,
 "athlete": {
 "id": "4565501",
 "uid": "s:40~l:54~a:4565501",
@@ -38490,7 +38490,7 @@
 ]
 },
 {
-"active": true,
+"active": false,
 "athlete": {
 "id": "5311574",
 "uid": "s:40~l:54~a:5311574",
@@ -38539,7 +38539,7 @@
 ]
 },
 {
-"active": true,
+"active": false,
 "athlete": {
 "id": "5311573",
 "uid": "s:40~l:54~a:5311573",
@@ -38588,7 +38588,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "4682955",
 "uid": "s:40~l:54~a:4682955",
@@ -38637,7 +38637,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5174433",
 "uid": "s:40~l:54~a:5174433",
@@ -38735,7 +38735,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5311575",
 "uid": "s:40~l:54~a:5311575",
@@ -38784,7 +38784,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5311572",
 "uid": "s:40~l:54~a:5311572",
@@ -38882,7 +38882,7 @@
 ]
 },
 {
-"active": true,
+"active": false,
 "athlete": {
 "id": "5107471",
 "uid": "s:40~l:54~a:5107471",
@@ -39098,7 +39098,7 @@
 ],
 "athletes": [
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5315640",
 "uid": "s:40~l:54~a:5315640",
@@ -39376,7 +39376,7 @@
 ]
 },
 {
-"active": true,
+"active": false,
 "athlete": {
 "id": "5242183",
 "uid": "s:40~l:54~a:5242183",
@@ -41640,6 +41640,70 @@
 ]
 },
 {
+"team": "Oklahoma",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/201/oklahoma-sooners",
+"id": "201",
+"uid": "s:40~l:54~t:201",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-1",
+"displayValue": "3-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/201.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "Tennessee",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2633/tennessee-lady-volunteers",
 "id": "2633",
@@ -41700,70 +41764,6 @@
 "dark"
 ],
 "lastUpdated": "2022-08-31T21:15Z"
-}
-]
-},
-{
-"team": "Oklahoma",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/201/oklahoma-sooners",
-"id": "201",
-"uid": "s:40~l:54~t:201",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-1",
-"displayValue": "2-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/201.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 }
@@ -42432,8 +42432,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "0-3",
-"displayValue": "0-3"
+"summary": "0-4",
+"displayValue": "0-4"
 },
 {
 "name": "gamesBehind",

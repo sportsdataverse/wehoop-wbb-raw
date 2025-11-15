@@ -32493,7 +32493,7 @@
 },
 {
 "name": "fieldGoalPct",
-"displayValue": "45.5",
+"displayValue": "45",
 "abbreviation": "FG%",
 "label": "Field Goal %"
 },
@@ -32504,7 +32504,7 @@
 },
 {
 "name": "threePointFieldGoalPct",
-"displayValue": "10.0",
+"displayValue": "10",
 "abbreviation": "3P%",
 "label": "Three Point %"
 },
@@ -32515,7 +32515,7 @@
 },
 {
 "name": "freeThrowPct",
-"displayValue": "55.0",
+"displayValue": "55",
 "abbreviation": "FT%",
 "label": "Free Throw %"
 },
@@ -32641,7 +32641,7 @@
 },
 {
 "name": "fieldGoalPct",
-"displayValue": "35.2",
+"displayValue": "35",
 "abbreviation": "FG%",
 "label": "Field Goal %"
 },
@@ -32652,7 +32652,7 @@
 },
 {
 "name": "threePointFieldGoalPct",
-"displayValue": "30.4",
+"displayValue": "30",
 "abbreviation": "3P%",
 "label": "Three Point %"
 },
@@ -32663,7 +32663,7 @@
 },
 {
 "name": "freeThrowPct",
-"displayValue": "95.7",
+"displayValue": "96",
 "abbreviation": "FT%",
 "label": "Free Throw %"
 },
@@ -33837,6 +33837,10 @@
 "text": "Player Card"
 }
 ],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5315261.png",
+"alt": "Reganne Reardon"
+},
 "jersey": "10",
 "position": {
 "name": "Forward",
@@ -34029,6 +34033,10 @@
 "text": "Player Card"
 }
 ],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5315263.png",
+"alt": "Jane Preston"
+},
 "jersey": "12",
 "position": {
 "name": "Forward",
@@ -34095,6 +34103,10 @@
 "text": "Player Card"
 }
 ],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5315264.png",
+"alt": "Landry Sherrer"
+},
 "jersey": "15",
 "position": {
 "name": "Guard",
@@ -34126,6 +34138,10 @@
 "text": "Player Card"
 }
 ],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5315262.png",
+"alt": "Kelly Cramer"
+},
 "jersey": "11",
 "position": {
 "name": "Guard",
@@ -36283,8 +36299,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-0",
-"displayValue": "2-0"
+"summary": "2-1",
+"displayValue": "2-1"
 },
 {
 "name": "gamesBehind",
@@ -36654,70 +36670,6 @@
 ]
 },
 {
-"team": "Canisius",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2099/canisius-golden-griffins",
-"id": "2099",
-"uid": "s:40~l:54~t:2099",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-3",
-"displayValue": "0-3"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2099.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2099.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "Manhattan",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2363/manhattan-jaspers",
 "id": "2363",
@@ -37034,6 +36986,70 @@
 "dark"
 ],
 "lastUpdated": "2023-11-03T22:14Z"
+}
+]
+},
+{
+"team": "Canisius",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2099/canisius-golden-griffins",
+"id": "2099",
+"uid": "s:40~l:54~t:2099",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "0-4",
+"displayValue": "0-4"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2099.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2099.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 }

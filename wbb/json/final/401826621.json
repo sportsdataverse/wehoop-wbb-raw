@@ -35883,7 +35883,7 @@
 },
 {
 "name": "fieldGoalPct",
-"displayValue": "42.6",
+"displayValue": "43",
 "abbreviation": "FG%",
 "label": "Field Goal %"
 },
@@ -35894,7 +35894,7 @@
 },
 {
 "name": "threePointFieldGoalPct",
-"displayValue": "21.1",
+"displayValue": "21",
 "abbreviation": "3P%",
 "label": "Three Point %"
 },
@@ -35905,7 +35905,7 @@
 },
 {
 "name": "freeThrowPct",
-"displayValue": "66.7",
+"displayValue": "67",
 "abbreviation": "FT%",
 "label": "Free Throw %"
 },
@@ -36031,7 +36031,7 @@
 },
 {
 "name": "fieldGoalPct",
-"displayValue": "33.3",
+"displayValue": "33",
 "abbreviation": "FG%",
 "label": "Field Goal %"
 },
@@ -36042,7 +36042,7 @@
 },
 {
 "name": "threePointFieldGoalPct",
-"displayValue": "28.6",
+"displayValue": "29",
 "abbreviation": "3P%",
 "label": "Three Point %"
 },
@@ -36053,7 +36053,7 @@
 },
 {
 "name": "freeThrowPct",
-"displayValue": "71.0",
+"displayValue": "71",
 "abbreviation": "FT%",
 "label": "Free Throw %"
 },
@@ -36309,7 +36309,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5247134",
 "uid": "s:40~l:54~a:5247134",
@@ -36343,7 +36343,7 @@
 ]
 },
 {
-"active": true,
+"active": false,
 "athlete": {
 "id": "5247108",
 "uid": "s:40~l:54~a:5247108",
@@ -36445,7 +36445,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5247096",
 "uid": "s:40~l:54~a:5247096",
@@ -36581,7 +36581,7 @@
 ]
 },
 {
-"active": true,
+"active": false,
 "athlete": {
 "id": "5247097",
 "uid": "s:40~l:54~a:5247097",
@@ -36840,7 +36840,7 @@
 ]
 },
 {
-"active": false,
+"active": true,
 "athlete": {
 "id": "5315143",
 "uid": "s:40~l:54~a:5315143",
@@ -36885,7 +36885,7 @@
 ]
 },
 {
-"active": true,
+"active": false,
 "athlete": {
 "id": "5315137",
 "uid": "s:40~l:54~a:5315137",
@@ -38364,6 +38364,70 @@
 ]
 },
 {
+"team": "South Alabama",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/6/south-alabama-jaguars",
+"id": "6",
+"uid": "s:40~l:54~t:6",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-1",
+"displayValue": "3-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-01-24T22:41Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/6.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-01-24T22:42Z"
+}
+]
+},
+{
 "team": "App State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2026/app-state-mountaineers",
 "id": "2026",
@@ -38552,70 +38616,6 @@
 "dark"
 ],
 "lastUpdated": "2018-11-12T16:44Z"
-}
-]
-},
-{
-"team": "South Alabama",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/6/south-alabama-jaguars",
-"id": "6",
-"uid": "s:40~l:54~t:6",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-1",
-"displayValue": "2-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-01-24T22:41Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/6.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-01-24T22:42Z"
 }
 ]
 },
@@ -38876,70 +38876,6 @@
 ]
 },
 {
-"team": "Louisiana",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/309/louisiana-ragin-cajuns",
-"id": "309",
-"uid": "s:40~l:54~t:309",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-3",
-"displayValue": "0-3"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2019-08-01T17:54Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/309.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2019-08-01T17:55Z"
-}
-]
-},
-{
 "team": "Texas State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/326/texas-state-bobcats",
 "id": "326",
@@ -39000,6 +38936,70 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Louisiana",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/309/louisiana-ragin-cajuns",
+"id": "309",
+"uid": "s:40~l:54~t:309",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "0-4",
+"displayValue": "0-4"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-08-01T17:54Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/309.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2019-08-01T17:55Z"
 }
 ]
 }

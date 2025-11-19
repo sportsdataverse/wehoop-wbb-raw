@@ -28686,7 +28686,7 @@
 "caption": "Tulane Green Wave vs. LSU Tigers - Game Highlights",
 "title": "Tulane Green Wave vs. LSU Tigers - Game Highlights",
 "description": "Tulane Green Wave vs. LSU Tigers - Game Highlights",
-"lastModified": "2025-11-18T04:51:04Z",
+"lastModified": "2025-11-18T14:42:07Z",
 "originalPublishDate": "2025-11-18T04:47:40Z",
 "premium": false,
 "syndicatable": true,
@@ -28707,11 +28707,6 @@
 ]
 },
 "gameId": 401817374,
-"plays": [
-{
-"id": 401817374114493889
-}
-],
 "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1118/ce8901c6-3bf6-4cb0-8622-51afe34cb395/ce8901c6-3bf6-4cb0-8622-51afe34cb395.jpg",
 "images": [
 {
@@ -28750,7 +28745,10 @@
 "web": {
 "href": "https://www.espn.com/video/clip?id=47006331",
 "self": {
-"href": "https://www.espn.com/video/clip?id=47006331"
+"href": "https://www.espn.com/video/clip?id=47006331",
+"dsi": {
+"href": "https://www.espn.com/video/clip?id=c80198d68e963"
+}
 },
 "seo": {
 "href": "https://www.espn.com/video/clip/_/id/47006331"
@@ -28820,39 +28818,10 @@
 },
 "categories": [
 {
-"type": "event",
-"uid": "s:40~l:54~e:401817374",
-"guid": "29d6ef12-ec2f-3669-b7e2-26f9aea87357",
-"description": "LSU Tigers @ Tulane Green Wave",
-"eventId": 401817374,
-"event": {
-"id": 401817374,
-"sport": "basketball",
-"league": "womens-college-basketball",
-"description": "LSU Tigers @ Tulane Green Wave",
-"links": {
-"web": {
-"event": {
-"href": "https://www.espn.com/womens-college-basketball/game/_/gameId/401817374"
-}
-},
-"mobile": {
-"event": {
-"href": "https://www.espn.com/womens-college-basketball/game/_/gameId/401817374"
-}
-}
-}
-}
-},
-{
 "id": 730035,
 "type": "editorialindicator",
 "guid": "765b3968-7a2d-3d80-bded-8ba8b1e1cc03",
 "description": "Verts - Exclude Content"
-},
-{
-"type": "guid",
-"guid": "29d6ef12-ec2f-3669-b7e2-26f9aea87357"
 },
 {
 "type": "guid",
@@ -28866,7 +28835,7 @@
 "tracking": {
 "sportName": "ncw",
 "leagueName": "No League",
-"coverageType": "OnePlay",
+"coverageType": "Promo",
 "trackingName": "LVOD_NCW Highlight (Tulane Green Wave vs. LSU Tigers - Game Highlights) 2025/11/17",
 "trackingId": "dm_20251118_NCW_tulane_green_wave_vs_lsu_tigers_game_highlights"
 },
@@ -29481,6 +29450,70 @@
 "standings": {
 "entries": [
 {
+"team": "Kentucky",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/96/kentucky-wildcats",
+"id": "96",
+"uid": "s:40~l:54~t:96",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-0",
+"displayValue": "6-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/96.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+}
+]
+},
+{
 "team": "Auburn",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2/auburn-tigers",
 "id": "2",
@@ -29597,70 +29630,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-}
-]
-},
-{
-"team": "Kentucky",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/96/kentucky-wildcats",
-"id": "96",
-"uid": "s:40~l:54~t:96",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "5-0",
-"displayValue": "5-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/96.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -29797,6 +29766,70 @@
 "dark"
 ],
 "lastUpdated": "2022-08-30T21:52Z"
+}
+]
+},
+{
+"team": "Ole Miss",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/145/ole-miss-rebels",
+"id": "145",
+"uid": "s:40~l:54~t:145",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-0",
+"displayValue": "4-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-03-17T13:35Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/145.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-03-17T13:36Z"
 }
 ]
 },
@@ -29989,70 +30022,6 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Ole Miss",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/145/ole-miss-rebels",
-"id": "145",
-"uid": "s:40~l:54~t:145",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-0",
-"displayValue": "3-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-03-17T13:35Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/145.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-03-17T13:36Z"
 }
 ]
 },
@@ -30313,6 +30282,70 @@
 ]
 },
 {
+"team": "Missouri",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/142/missouri-tigers",
+"id": "142",
+"uid": "s:40~l:54~t:142",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-1",
+"displayValue": "4-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-03-15T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/142.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-03-15T19:32Z"
+}
+]
+},
+{
 "team": "Oklahoma",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/201/oklahoma-sooners",
 "id": "201",
@@ -30373,70 +30406,6 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Missouri",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/142/missouri-tigers",
-"id": "142",
-"uid": "s:40~l:54~t:142",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-1",
-"displayValue": "3-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-03-15T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/142.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-03-15T19:32Z"
 }
 ]
 },
@@ -30644,70 +30613,6 @@
 ]
 },
 {
-"team": "Temple",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/218/temple-owls",
-"id": "218",
-"uid": "s:40~l:54~t:218",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-1",
-"displayValue": "3-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-09-01T23:35Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/218.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-09-01T23:35Z"
-}
-]
-},
-{
 "team": "Florida Atlantic",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2226/florida-atlantic-owls",
 "id": "2226",
@@ -30836,6 +30741,70 @@
 ]
 },
 {
+"team": "Temple",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/218/temple-owls",
+"id": "218",
+"uid": "s:40~l:54~t:218",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-2",
+"displayValue": "3-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-09-01T23:35Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/218.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-09-01T23:35Z"
+}
+]
+},
+{
 "team": "Charlotte",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2429/charlotte-49ers",
 "id": "2429",
@@ -30960,70 +30929,6 @@
 "dark"
 ],
 "lastUpdated": "2022-08-31T21:07Z"
-}
-]
-},
-{
-"team": "Memphis",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/235/memphis-tigers",
-"id": "235",
-"uid": "s:40~l:54~t:235",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-2",
-"displayValue": "2-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-03-15T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/235.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-03-15T19:32Z"
 }
 ]
 },
@@ -31220,6 +31125,70 @@
 ]
 },
 {
+"team": "Memphis",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/235/memphis-tigers",
+"id": "235",
+"uid": "s:40~l:54~t:235",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-3",
+"displayValue": "2-3"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-03-15T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/235.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-03-15T19:32Z"
+}
+]
+},
+{
 "team": "UTSA",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2636/utsa-roadrunners",
 "id": "2636",
@@ -31297,8 +31266,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-3",
-"displayValue": "1-3"
+"summary": "1-4",
+"displayValue": "1-4"
 },
 {
 "name": "gamesBehind",

@@ -840,8 +840,8 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"14",
-"6-11",
+"12",
+"5-10",
 "0-0",
 "2-5",
 "12",
@@ -889,12 +889,12 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"10",
-"4-9",
+"12",
+"5-10",
 "2-5",
 "0-0",
 "6",
-"2",
+"1",
 "0",
 "2",
 "0",
@@ -943,7 +943,7 @@
 "1-4",
 "0-0",
 "3",
-"4",
+"5",
 "0",
 "2",
 "0",
@@ -1497,15 +1497,15 @@
 "displayName": "Points",
 "leaders": [
 {
-"displayValue": "14",
+"displayValue": "13",
 "athlete": {
-"id": "5239387",
-"uid": "s:40~l:54~a:5239387",
-"guid": "6e778b7a-2898-3cf6-bab1-d36614f633a4",
-"lastName": "Alexander",
-"fullName": "Ciara Alexander",
-"displayName": "Ciara Alexander",
-"shortName": "C. Alexander",
+"id": "5311875",
+"uid": "s:40~l:54~a:5311875",
+"guid": "8d4a852f-3e67-39ff-9ec1-f32922d2ef35",
+"lastName": "Nivar",
+"fullName": "Jasmine Nivar",
+"displayName": "Jasmine Nivar",
+"shortName": "J. Nivar",
 "links": [
 {
 "rel": [
@@ -1513,15 +1513,15 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5239387/ciara-alexander",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5311875/jasmine-nivar",
 "text": "Player Card"
 }
 ],
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5239387.png",
-"alt": "Ciara Alexander"
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5311875.png",
+"alt": "Jasmine Nivar"
 },
-"jersey": "32",
+"jersey": "20",
 "position": {
 "abbreviation": "G"
 },
@@ -1539,8 +1539,8 @@
 "shortDisplayName": "PTS",
 "description": "The number of points scored.",
 "abbreviation": "PTS",
-"value": 14.0,
-"displayValue": "14"
+"value": 13.0,
+"displayValue": "13"
 },
 {
 "name": "fieldGoals",
@@ -1548,8 +1548,8 @@
 "shortDisplayName": "FG",
 "description": "Field Goal makes and attempts.",
 "abbreviation": "FG",
-"value": 0.545455,
-"displayValue": "6/11"
+"value": 0.3,
+"displayValue": "3/10"
 },
 {
 "name": "freeThrows",
@@ -1557,15 +1557,15 @@
 "shortDisplayName": "FT",
 "description": "Free Throw makes and attempts.",
 "abbreviation": "FT",
-"value": 0.4,
-"displayValue": "2/5"
+"value": 1.0,
+"displayValue": "4/4"
 }
 ],
 "mainStat": {
-"value": "14",
+"value": "13",
 "label": "PTS"
 },
-"summary": "6/11 FG, 2/5 FT"
+"summary": "3/10 FG, 4/4 FT"
 }
 ]
 },
@@ -23906,6 +23906,70 @@
 "standings": {
 "entries": [
 {
+"team": "Charleston",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/232/charleston-cougars",
+"id": "232",
+"uid": "s:40~l:54~t:232",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-0",
+"displayValue": "4-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-12-13T21:29Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/232.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-12-13T21:30Z"
+}
+]
+},
+{
 "team": "Drexel",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2182/drexel-dragons",
 "id": "2182",
@@ -23966,70 +24030,6 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Charleston",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/232/charleston-cougars",
-"id": "232",
-"uid": "s:40~l:54~t:232",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-0",
-"displayValue": "3-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-12-13T21:29Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/232.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-12-13T21:30Z"
 }
 ]
 },
@@ -24610,70 +24610,6 @@
 ]
 },
 {
-"team": "Northeastern",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/111/northeastern-huskies",
-"id": "111",
-"uid": "s:40~l:54~t:111",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-3",
-"displayValue": "1-3"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/111.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-12-08T22:16Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/111.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-12-08T22:18Z"
-}
-]
-},
-{
 "team": "William & Mary",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2729/william-mary-tribe",
 "id": "2729",
@@ -24726,6 +24662,70 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2729.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-12-08T22:18Z"
+}
+]
+},
+{
+"team": "Northeastern",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/111/northeastern-huskies",
+"id": "111",
+"uid": "s:40~l:54~t:111",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-4",
+"displayValue": "1-4"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/111.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-12-08T22:16Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/111.png",
 "width": 500,
 "height": 500,
 "alt": "",

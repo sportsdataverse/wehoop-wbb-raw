@@ -53574,3 +53574,47 @@ INFO:__main__:Scraping WBB PBP for 2026...
 INFO:__main__:Number of Games: 943
 INFO:__main__:4.5861173391342165 minutes to download 943 game play-by-plays.
 INFO:__main__:Finished WBB PBP for 2026...
+INFO:__main__:Scraping WBB schedules for year 2026...
+INFO:__main__:2.7903237064679463 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping WBB PBP for 2026...
+INFO:__main__:Number of Games: 996
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+WARNING:sdv.dl_utils:NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646: 404 - Not Found for url (http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646)
+ERROR:sdv.dl_utils:Retry Limit Exceeded: http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646 
+params: {}
+ NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646
+ERROR:sdv.dl_utils:Download Error: http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646 
+params: {}
+ NoESPNDataError: No response for http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event=401826646
+ERROR:__main__:TypeError: game_id = 401826646
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+INFO:__main__:5.041597167650859 minutes to download 996 game play-by-plays.
+INFO:__main__:Finished WBB PBP for 2026...

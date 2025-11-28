@@ -1636,41 +1636,6 @@
 {
 "active": false,
 "athlete": {
-"id": "5109883",
-"uid": "s:40~l:54~a:5109883",
-"guid": "1c55f243-f6e6-3173-80f6-33c2101e32c2",
-"displayName": "Jayda Bowen",
-"shortName": "J. Bowen",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5109883/jayda-bowen",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5109883.png",
-"alt": "Jayda Bowen"
-},
-"jersey": "3",
-"position": {
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G"
-}
-},
-"starter": false,
-"didNotPlay": true,
-"ejected": false,
-"stats": []
-},
-{
-"active": false,
-"athlete": {
 "id": "5109852",
 "uid": "s:40~l:54~a:5109852",
 "guid": "0b095ab3-0490-3122-9fb6-258909a7c342",
@@ -1692,6 +1657,55 @@
 "alt": "Nakia Cheatham"
 },
 "jersey": "2",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"25",
+"24",
+"9-17",
+"1-4",
+"5-7",
+"9",
+"4",
+"1",
+"4",
+"2",
+"4",
+"5",
+"1"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "5109883",
+"uid": "s:40~l:54~a:5109883",
+"guid": "1c55f243-f6e6-3173-80f6-33c2101e32c2",
+"displayName": "Jayda Bowen",
+"shortName": "J. Bowen",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5109883/jayda-bowen",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5109883.png",
+"alt": "Jayda Bowen"
+},
+"jersey": "3",
 "position": {
 "name": "Guard",
 "displayName": "Guard",
@@ -1833,9 +1847,9 @@
 {
 "displayValue": "24",
 "athlete": {
-"id": "5247166",
-"uid": "s:40~l:54~a:5247166",
-"guid": "63801d87-b663-3c63-ba6a-f4e672a51652",
+"id": "5109852",
+"uid": "s:40~l:54~a:5109852",
+"guid": "0b095ab3-0490-3122-9fb6-258909a7c342",
 "lastName": "Cheatham",
 "fullName": "Nakia Cheatham",
 "displayName": "Nakia Cheatham",
@@ -1847,23 +1861,23 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5247166/nakia-cheatham",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5109852/nakia-cheatham",
 "text": "Player Card"
 }
 ],
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5247166.png",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5109852.png",
 "alt": "Nakia Cheatham"
 },
 "jersey": "2",
 "position": {
-"abbreviation": "F"
+"abbreviation": "G"
 },
 "status": {
-"id": "2",
-"name": "Inactive",
-"type": "inactive",
-"abbreviation": "Inactive"
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
 }
 },
 "statistics": [
@@ -1996,9 +2010,9 @@
 {
 "displayValue": "9",
 "athlete": {
-"id": "5247166",
-"uid": "s:40~l:54~a:5247166",
-"guid": "63801d87-b663-3c63-ba6a-f4e672a51652",
+"id": "5109852",
+"uid": "s:40~l:54~a:5109852",
+"guid": "0b095ab3-0490-3122-9fb6-258909a7c342",
 "lastName": "Cheatham",
 "fullName": "Nakia Cheatham",
 "displayName": "Nakia Cheatham",
@@ -2010,23 +2024,23 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5247166/nakia-cheatham",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5109852/nakia-cheatham",
 "text": "Player Card"
 }
 ],
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5247166.png",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5109852.png",
 "alt": "Nakia Cheatham"
 },
 "jersey": "2",
 "position": {
-"abbreviation": "F"
+"abbreviation": "G"
 },
 "status": {
-"id": "2",
-"name": "Inactive",
-"type": "inactive",
-"abbreviation": "Inactive"
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
 }
 },
 "statistics": [
@@ -24133,8 +24147,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "3-1",
-"displayValue": "3-1"
+"summary": "3-2",
+"displayValue": "3-2"
 },
 {
 "name": "gamesBehind",

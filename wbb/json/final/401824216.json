@@ -36197,13 +36197,13 @@
 },
 {
 "name": "totalRebounds",
-"displayValue": "53",
+"displayValue": "54",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
 {
 "name": "offensiveRebounds",
-"displayValue": "22",
+"displayValue": "23",
 "abbreviation": "OR",
 "label": "Offensive Rebounds"
 },
@@ -36233,19 +36233,19 @@
 },
 {
 "name": "turnovers",
-"displayValue": "12",
+"displayValue": "13",
 "abbreviation": "TO",
 "label": "Turnovers"
 },
 {
 "name": "teamTurnovers",
-"displayValue": "1",
+"displayValue": "2",
 "abbreviation": "TTO",
 "label": "Team Turnovers"
 },
 {
 "name": "totalTurnovers",
-"displayValue": "12",
+"displayValue": "13",
 "abbreviation": "ToTO",
 "label": "Total Turnovers"
 },
@@ -37013,10 +37013,10 @@
 "ejected": false,
 "stats": [
 "23",
-"14",
+"15",
 "5-14",
 "0-0",
-"4-7",
+"5-9",
 "11",
 "0",
 "1",
@@ -37454,10 +37454,10 @@
 "ejected": false,
 "stats": [
 "20",
-"10",
+"9",
 "3-5",
 "3-5",
-"1-2",
+"0-0",
 "5",
 "1",
 "1",
@@ -37629,12 +37629,12 @@
 "25-69",
 "6-16",
 "15-29",
-"53",
+"54",
 "18",
-"12",
+"13",
 "9",
 "1",
-"22",
+"23",
 "31",
 "20"
 ]
@@ -39376,70 +39376,6 @@
 ]
 },
 {
-"team": "Buffalo",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2084/buffalo-bulls",
-"id": "2084",
-"uid": "s:40~l:54~t:2084",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-4",
-"displayValue": "1-4"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2019-03-01T22:14Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2084.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2019-03-01T22:14Z"
-}
-]
-},
-{
 "team": "Western Michigan",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2711/western-michigan-broncos",
 "id": "2711",
@@ -39500,6 +39436,70 @@
 "dark"
 ],
 "lastUpdated": "2022-09-09T18:08Z"
+}
+]
+},
+{
+"team": "Buffalo",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2084/buffalo-bulls",
+"id": "2084",
+"uid": "s:40~l:54~t:2084",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-5",
+"displayValue": "1-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-03-01T22:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2084.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2019-03-01T22:14Z"
 }
 ]
 },
@@ -39628,7 +39628,7 @@
 "displayName": "Points",
 "leaders": [
 {
-"displayValue": "14",
+"displayValue": "15",
 "athlete": {
 "id": "5242152",
 "uid": "s:40~l:54~a:5242152",
@@ -39670,8 +39670,8 @@
 "shortDisplayName": "PTS",
 "description": "The number of points scored.",
 "abbreviation": "PTS",
-"value": 14.0,
-"displayValue": "14"
+"value": 15.0,
+"displayValue": "15"
 },
 {
 "name": "fieldGoals",
@@ -39688,15 +39688,15 @@
 "shortDisplayName": "FT",
 "description": "Free Throw makes and attempts.",
 "abbreviation": "FT",
-"value": 0.571429,
-"displayValue": "4/7"
+"value": 0.555556,
+"displayValue": "5/9"
 }
 ],
 "mainStat": {
-"value": "14",
+"value": "15",
 "label": "PTS"
 },
-"summary": "5/14 FG, 4/7 FT"
+"summary": "5/14 FG, 5/9 FT"
 }
 ]
 },

@@ -27172,7 +27172,7 @@
 },
 {
 "name": "turnovers",
-"displayValue": "9",
+"displayValue": "10",
 "abbreviation": "TO",
 "label": "Turnovers"
 },
@@ -27184,7 +27184,7 @@
 },
 {
 "name": "totalTurnovers",
-"displayValue": "9",
+"displayValue": "10",
 "abbreviation": "ToTO",
 "label": "Total Turnovers"
 },
@@ -27308,7 +27308,7 @@
 },
 {
 "name": "steals",
-"displayValue": "2",
+"displayValue": "3",
 "abbreviation": "STL",
 "label": "Steals"
 },
@@ -27502,7 +27502,7 @@
 "2-2",
 "3",
 "1",
-"1",
+"2",
 "0",
 "0",
 "0",
@@ -28100,7 +28100,7 @@
 "8-10",
 "30",
 "15",
-"9",
+"10",
 "3",
 "1",
 "4",
@@ -28426,7 +28426,7 @@
 "3",
 "2",
 "2",
-"1",
+"2",
 "0",
 "1",
 "2",
@@ -28765,7 +28765,7 @@
 "37",
 "10",
 "6",
-"2",
+"3",
 "2",
 "8",
 "29",
@@ -30085,70 +30085,6 @@
 "standings": {
 "entries": [
 {
-"team": "Bradley",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/71/bradley-braves",
-"id": "71",
-"uid": "s:40~l:54~t:71",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-2",
-"displayValue": "3-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/71.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-01-24T18:33Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/71.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-01-24T18:33Z"
-}
-]
-},
-{
 "team": "Murray State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/93/murray-state-racers",
 "id": "93",
@@ -30162,8 +30098,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "3-2",
-"displayValue": "3-2"
+"summary": "4-2",
+"displayValue": "4-2"
 },
 {
 "name": "gamesBehind",
@@ -30213,6 +30149,70 @@
 ]
 },
 {
+"team": "UIC",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/82/uic-flames",
+"id": "82",
+"uid": "s:40~l:54~t:82",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-3",
+"displayValue": "4-3"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/82.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-24T18:33Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/82.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-24T18:33Z"
+}
+]
+},
+{
 "team": "Illinois State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2287/illinois-state-redbirds",
 "id": "2287",
@@ -30226,8 +30226,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "4-3",
-"displayValue": "4-3"
+"summary": "4-4",
+"displayValue": "4-4"
 },
 {
 "name": "gamesBehind",
@@ -30273,6 +30273,70 @@
 "dark"
 ],
 "lastUpdated": "2020-08-31T15:27Z"
+}
+]
+},
+{
+"team": "Bradley",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/71/bradley-braves",
+"id": "71",
+"uid": "s:40~l:54~t:71",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-3",
+"displayValue": "3-3"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/71.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-24T18:33Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/71.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-24T18:33Z"
 }
 ]
 },
@@ -30337,70 +30401,6 @@
 "dark"
 ],
 "lastUpdated": "2020-08-31T15:37Z"
-}
-]
-},
-{
-"team": "UIC",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/82/uic-flames",
-"id": "82",
-"uid": "s:40~l:54~t:82",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-3",
-"displayValue": "3-3"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/82.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-01-24T18:33Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/82.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-01-24T18:33Z"
 }
 ]
 },
@@ -30482,8 +30482,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-3",
-"displayValue": "2-3"
+"summary": "2-4",
+"displayValue": "2-4"
 },
 {
 "name": "gamesBehind",
@@ -30738,8 +30738,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "0-6",
-"displayValue": "0-6"
+"summary": "0-7",
+"displayValue": "0-7"
 },
 {
 "name": "gamesBehind",
@@ -30799,70 +30799,6 @@
 {
 "standings": {
 "entries": [
-{
-"team": "Lindenwood",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2815/lindenwood-lions",
-"id": "2815",
-"uid": "s:40~l:54~t:2815",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "4-1",
-"displayValue": "4-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-01-24T18:01Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2815.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-01-24T18:03Z"
-}
-]
-},
 {
 "team": "Southern Indiana",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/88/southern-indiana-screaming-eagles",
@@ -30988,6 +30924,70 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Lindenwood",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2815/lindenwood-lions",
+"id": "2815",
+"uid": "s:40~l:54~t:2815",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-2",
+"displayValue": "4-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-24T18:01Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2815.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-24T18:03Z"
 }
 ]
 },
@@ -31261,8 +31261,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "1-3",
-"displayValue": "1-3"
+"summary": "1-4",
+"displayValue": "1-4"
 },
 {
 "name": "gamesBehind",
@@ -31453,8 +31453,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "0-5",
-"displayValue": "0-5"
+"summary": "0-6",
+"displayValue": "0-6"
 },
 {
 "name": "gamesBehind",

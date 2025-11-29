@@ -51,19 +51,19 @@
 },
 {
 "name": "totalRebounds",
-"displayValue": "27",
+"displayValue": "36",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
 {
 "name": "offensiveRebounds",
-"displayValue": "9",
+"displayValue": "12",
 "abbreviation": "OR",
 "label": "Offensive Rebounds"
 },
 {
 "name": "defensiveRebounds",
-"displayValue": "18",
+"displayValue": "24",
 "abbreviation": "DR",
 "label": "Defensive Rebounds"
 },
@@ -87,19 +87,19 @@
 },
 {
 "name": "turnovers",
-"displayValue": "32",
+"displayValue": "34",
 "abbreviation": "TO",
 "label": "Turnovers"
 },
 {
 "name": "teamTurnovers",
-"displayValue": "0",
+"displayValue": "2",
 "abbreviation": "TTO",
 "label": "Team Turnovers"
 },
 {
 "name": "totalTurnovers",
-"displayValue": "32",
+"displayValue": "34",
 "abbreviation": "ToTO",
 "label": "Total Turnovers"
 },
@@ -199,19 +199,19 @@
 },
 {
 "name": "totalRebounds",
-"displayValue": "33",
+"displayValue": "38",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
 {
 "name": "offensiveRebounds",
-"displayValue": "11",
+"displayValue": "12",
 "abbreviation": "OR",
 "label": "Offensive Rebounds"
 },
 {
 "name": "defensiveRebounds",
-"displayValue": "22",
+"displayValue": "26",
 "abbreviation": "DR",
 "label": "Defensive Rebounds"
 },
@@ -880,13 +880,13 @@
 "26-62",
 "5-14",
 "8-14",
-"27",
+"36",
 "11",
-"32",
+"34",
 "12",
 "1",
-"9",
-"18",
+"12",
+"24",
 "26"
 ]
 }
@@ -1553,13 +1553,13 @@
 "34-68",
 "5-15",
 "24-31",
-"33",
+"38",
 "13",
 "20",
 "22",
 "4",
-"11",
-"22",
+"12",
+"26",
 "18"
 ]
 }
@@ -2290,8 +2290,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-1",
-"displayValue": "5-1"
+"summary": "5-2",
+"displayValue": "5-2"
 },
 {
 "name": "gamesBehind",
@@ -2354,8 +2354,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "3-2",
-"displayValue": "3-2"
+"summary": "4-2",
+"displayValue": "4-2"
 },
 {
 "name": "gamesBehind",
@@ -2597,70 +2597,6 @@
 ]
 },
 {
-"team": "North Dakota",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/155/north-dakota-fighting-hawks",
-"id": "155",
-"uid": "s:40~l:54~t:155",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "1-6",
-"displayValue": "1-6"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-01-20T22:36Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/155.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-01-20T22:35Z"
-}
-]
-},
-{
 "team": "Omaha",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2437/omaha-mavericks",
 "id": "2437",
@@ -2777,6 +2713,70 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2900.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-20T22:35Z"
+}
+]
+},
+{
+"team": "North Dakota",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/155/north-dakota-fighting-hawks",
+"id": "155",
+"uid": "s:40~l:54~t:155",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-7",
+"displayValue": "1-7"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-20T22:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/155.png",
 "width": 500,
 "height": 500,
 "alt": "",

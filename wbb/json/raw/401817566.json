@@ -2321,221 +2321,7 @@
 ],
 "broadcasts": [],
 "predictor": [],
-"pickcenter": [
-{
-"provider": {
-"id": "58",
-"name": "ESPN BET",
-"priority": 1,
-"logos": [
-{
-"href": "https://a.espncdn.com/i/espnbet/ESPN_Bet_Light.svg",
-"rel": [
-"light"
-]
-},
-{
-"href": "https://a.espncdn.com/i/espnbet/ESPN_Bet_Dark.svg",
-"rel": [
-"dark"
-]
-}
-]
-},
-"details": "LOU -40.5",
-"overUnder": 139.5,
-"spread": -40.5,
-"overOdds": -115.0,
-"underOdds": -115.0,
-"awayTeamOdds": {
-"favorite": false,
-"underdog": true,
-"spreadOdds": -115.0,
-"team": {
-"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2026/teams/2413?lang=en&region=us"
-},
-"teamId": "2413",
-"favoriteAtOpen": false
-},
-"homeTeamOdds": {
-"favorite": true,
-"underdog": false,
-"spreadOdds": -115.0,
-"team": {
-"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2026/teams/97?lang=en&region=us"
-},
-"teamId": "97",
-"favoriteAtOpen": true
-},
-"links": [
-{
-"language": "en-US",
-"rel": [
-"homeSpread",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/4e213c72-9144-401f-ade7-3bbf4dbdf2e7&market_selection_id[0]=508a4736-55dd-434b-acdc-45cc416b5574&odds_numerator[0]=43&odds_denominator[0]=23",
-"text": "Home Point Spread",
-"shortText": "Home Point Spread",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"awaySpread",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/4e213c72-9144-401f-ade7-3bbf4dbdf2e7&market_selection_id[0]=176cb548-0f71-4903-808d-4b644cbb7e2c&odds_numerator[0]=43&odds_denominator[0]=23",
-"text": "Away Point Spread",
-"shortText": "Away Point Spread",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"over",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/4e213c72-9144-401f-ade7-3bbf4dbdf2e7&market_selection_id[0]=4b763430-55bc-4b3e-84aa-1e20f1c523e7&odds_numerator[0]=43&odds_denominator[0]=23",
-"text": "Over Odds",
-"shortText": "Over Odds",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"under",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/4e213c72-9144-401f-ade7-3bbf4dbdf2e7&market_selection_id[0]=cf6daf7e-113a-49fc-9aa5-3b6b146d72f3&odds_numerator[0]=43&odds_denominator[0]=23",
-"text": "Under Odds",
-"shortText": "Under Odds",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"game",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/4e213c72-9144-401f-ade7-3bbf4dbdf2e7",
-"text": "Game",
-"shortText": "Game",
-"isExternal": true,
-"isPremium": false
-}
-],
-"moneyline": {
-"displayName": "Moneyline",
-"shortDisplayName": "ML",
-"home": {
-"close": {
-"odds": "OFF"
-},
-"open": {
-"odds": "OFF"
-}
-},
-"away": {
-"close": {
-"odds": "OFF"
-},
-"open": {
-"odds": "OFF"
-}
-}
-},
-"pointSpread": {
-"displayName": "Spread",
-"shortDisplayName": "Spread",
-"home": {
-"close": {
-"line": "-40.5",
-"odds": "-115",
-"outcome": "WIN",
-"icon": "https://a.espncdn.com/i/espnbet/espn-bet-checkmark-bold.png",
-"iconDark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-checkmark-bold.png"
-},
-"open": {
-"line": "-40.5",
-"odds": "-115"
-}
-},
-"away": {
-"close": {
-"line": "+40.5",
-"odds": "-115",
-"outcome": "LOSS"
-},
-"open": {
-"line": "+40.5",
-"odds": "-115"
-}
-}
-},
-"total": {
-"displayName": "Total",
-"shortDisplayName": "Total",
-"over": {
-"close": {
-"line": "o139.5",
-"odds": "-115",
-"outcome": "WIN",
-"icon": "https://a.espncdn.com/i/espnbet/espn-bet-checkmark-bold.png",
-"iconDark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-checkmark-bold.png"
-},
-"open": {
-"line": "o139.5",
-"odds": "-115"
-}
-},
-"under": {
-"close": {
-"line": "u139.5",
-"odds": "-115",
-"outcome": "LOSS"
-},
-"open": {
-"line": "u139.5",
-"odds": "-115"
-}
-}
-},
-"link": {
-"text": "See All on ESPN BET Sportsbook",
-"language": "en-US",
-"rel": [
-"main",
-"desktop",
-"bets"
-],
-"href": "https://www.espnbet.com'",
-"isExternal": true,
-"isPremium": false
-},
-"header": {
-"logo": {
-"dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
-"light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
-"exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
-"exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
-},
-"text": "ESPN Bet Sportsbook"
-},
-"footer": {
-"disclaimer": "Odds by ESPN BET 21+ Gambling Problem? Call 1-800-GAMBLER"
-}
-}
-],
+"pickcenter": [],
 "againstTheSpread": [
 {
 "team": {
@@ -22334,6 +22120,70 @@
 ]
 },
 {
+"team": "Tennessee Tech",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2635/tennessee-tech-golden-eagles",
+"id": "2635",
+"uid": "s:40~l:54~t:2635",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "5-2",
+"displayValue": "5-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-08-12T21:43Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2635.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2019-08-12T21:43Z"
+}
+]
+},
+{
 "team": "SIU Edwardsville",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2565/siu-edwardsville-cougars",
 "id": "2565",
@@ -22458,70 +22308,6 @@
 "dark"
 ],
 "lastUpdated": "2023-01-24T18:03Z"
-}
-]
-},
-{
-"team": "Tennessee Tech",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2635/tennessee-tech-golden-eagles",
-"id": "2635",
-"uid": "s:40~l:54~t:2635",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "4-2",
-"displayValue": "4-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2019-08-12T21:43Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2635.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2019-08-12T21:43Z"
 }
 ]
 },
@@ -23638,8 +23424,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-4",
-"displayValue": "5-4"
+"summary": "6-4",
+"displayValue": "6-4"
 },
 {
 "name": "gamesBehind",
@@ -23958,8 +23744,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-5",
-"displayValue": "2-5"
+"summary": "3-5",
+"displayValue": "3-5"
 },
 {
 "name": "gamesBehind",

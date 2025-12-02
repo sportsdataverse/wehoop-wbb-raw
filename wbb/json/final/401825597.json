@@ -32538,6 +32538,70 @@
 ]
 },
 {
+"team": "Villanova",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/222/villanova-wildcats",
+"id": "222",
+"uid": "s:40~l:54~t:222",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-2",
+"displayValue": "6-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5,
+"displayValue": "0.5"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-12-09T15:57Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/222.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-12-09T15:58Z"
+}
+]
+},
+{
 "team": "Georgetown",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/46/georgetown-hoyas",
 "id": "46",
@@ -32590,70 +32654,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/46.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-12-09T15:58Z"
-}
-]
-},
-{
-"team": "Villanova",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/222/villanova-wildcats",
-"id": "222",
-"uid": "s:40~l:54~t:222",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "5-2",
-"displayValue": "5-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5,
-"displayValue": "0.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-12-09T15:57Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/222.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -33752,7 +33752,133 @@
 "2": []
 }
 },
-"pickcenter": [],
+"pickcenter": [
+{
+"provider": {
+"id": "100",
+"name": "Draft Kings",
+"priority": 1,
+"logos": [
+{
+"href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+"rel": [
+"light"
+]
+},
+{
+"href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+"rel": [
+"dark"
+]
+}
+]
+},
+"details": "CONN -48.5",
+"overUnder": 133.5,
+"spread": 48.5,
+"overOdds": -110.0,
+"underOdds": -110.0,
+"awayTeamOdds": {
+"favorite": true,
+"underdog": false,
+"spreadOdds": -110.0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2026/teams/41?lang=en&region=us"
+},
+"teamId": "41",
+"favoriteAtOpen": true
+},
+"homeTeamOdds": {
+"favorite": false,
+"underdog": true,
+"spreadOdds": -110.0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2026/teams/2752?lang=en&region=us"
+},
+"teamId": "2752",
+"favoriteAtOpen": false
+},
+"links": [
+{
+"language": "en-US",
+"rel": [
+"homeSpread",
+"desktop",
+"bets"
+],
+"href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33229510%3Foutcomes%3D0HC82431565P4850_1",
+"text": "Home Point Spread",
+"shortText": "Home Point Spread",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"awaySpread",
+"desktop",
+"bets"
+],
+"href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33229510%3Foutcomes%3D0HC82431565N4850_3",
+"text": "Away Point Spread",
+"shortText": "Away Point Spread",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"over",
+"desktop",
+"bets"
+],
+"href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33229510%3Foutcomes%3D0OU82431565O13350_1",
+"text": "Over Odds",
+"shortText": "Over Odds",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"under",
+"desktop",
+"bets"
+],
+"href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33229510%3Foutcomes%3D0OU82431565U13350_3",
+"text": "Under Odds",
+"shortText": "Under Odds",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"game",
+"desktop",
+"bets"
+],
+"href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33229510",
+"text": "Game",
+"shortText": "Game",
+"isExternal": true,
+"isPremium": false
+}
+],
+"header": {
+"logo": {
+"dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
+"light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
+"exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
+"exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
+},
+"text": "Game Odds"
+},
+"footer": {
+"disclaimer": "Odds by DraftKings\nGAMBLING PROBLEM? CALL 1-800-GAMBLER, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nPlease Gamble Responsibly. 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD).\n21+ and present in most states. (18+ DC/KY/NH/WY). Void in ONT/OR/NH. Eligibility restrictions apply. On behalf of Boot Hill Casino & Resort (KS). Terms: sportsbook.draftkings.com/promos."
+}
+}
+],
 "againstTheSpread": [
 {
 "team": {

@@ -37329,8 +37329,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "3-5",
-"displayValue": "3-5"
+"summary": "3-6",
+"displayValue": "3-6"
 },
 {
 "name": "gamesBehind",
@@ -37393,8 +37393,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-6",
-"displayValue": "2-6"
+"summary": "3-6",
+"displayValue": "3-6"
 },
 {
 "name": "gamesBehind",
@@ -38428,8 +38428,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-4",
-"displayValue": "5-4"
+"summary": "6-4",
+"displayValue": "6-4"
 },
 {
 "name": "gamesBehind",
@@ -38748,8 +38748,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-5",
-"displayValue": "2-5"
+"summary": "3-5",
+"displayValue": "3-5"
 },
 {
 "name": "gamesBehind",
@@ -40138,221 +40138,7 @@
 ]
 }
 },
-"pickcenter": [
-{
-"provider": {
-"id": "58",
-"name": "ESPN BET",
-"priority": 1,
-"logos": [
-{
-"href": "https://a.espncdn.com/i/espnbet/ESPN_Bet_Light.svg",
-"rel": [
-"light"
-]
-},
-{
-"href": "https://a.espncdn.com/i/espnbet/ESPN_Bet_Dark.svg",
-"rel": [
-"dark"
-]
-}
-]
-},
-"details": "DUKE -35.5",
-"overUnder": 124.5,
-"spread": -35.5,
-"overOdds": -120.0,
-"underOdds": -110.0,
-"awayTeamOdds": {
-"favorite": false,
-"underdog": true,
-"spreadOdds": -120.0,
-"team": {
-"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2026/teams/2450?lang=en&region=us"
-},
-"teamId": "2450",
-"favoriteAtOpen": false
-},
-"homeTeamOdds": {
-"favorite": true,
-"underdog": false,
-"spreadOdds": -110.0,
-"team": {
-"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2026/teams/150?lang=en&region=us"
-},
-"teamId": "150",
-"favoriteAtOpen": true
-},
-"links": [
-{
-"language": "en-US",
-"rel": [
-"homeSpread",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/e5d15038-6e12-441d-a071-19aa7b0d386b&market_selection_id[0]=f772decb-bc08-4532-9c58-32de57b31c1d&odds_numerator[0]=21&odds_denominator[0]=11",
-"text": "Home Point Spread",
-"shortText": "Home Point Spread",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"awaySpread",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/e5d15038-6e12-441d-a071-19aa7b0d386b&market_selection_id[0]=e4ff65d0-d1c0-4089-b3c2-a6dd25329b28&odds_numerator[0]=11&odds_denominator[0]=6",
-"text": "Away Point Spread",
-"shortText": "Away Point Spread",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"over",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/e5d15038-6e12-441d-a071-19aa7b0d386b&market_selection_id[0]=3acd290d-6a27-4fc9-80ef-fcb2f5c154f9&odds_numerator[0]=11&odds_denominator[0]=6",
-"text": "Over Odds",
-"shortText": "Over Odds",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"under",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/e5d15038-6e12-441d-a071-19aa7b0d386b&market_selection_id[0]=832bf023-3e24-4a90-9bed-b312899f7e63&odds_numerator[0]=21&odds_denominator[0]=11",
-"text": "Under Odds",
-"shortText": "Under Odds",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"game",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/e5d15038-6e12-441d-a071-19aa7b0d386b",
-"text": "Game",
-"shortText": "Game",
-"isExternal": true,
-"isPremium": false
-}
-],
-"moneyline": {
-"displayName": "Moneyline",
-"shortDisplayName": "ML",
-"home": {
-"close": {
-"odds": "OFF"
-},
-"open": {
-"odds": "OFF"
-}
-},
-"away": {
-"close": {
-"odds": "OFF"
-},
-"open": {
-"odds": "OFF"
-}
-}
-},
-"pointSpread": {
-"displayName": "Spread",
-"shortDisplayName": "Spread",
-"home": {
-"close": {
-"line": "-35.5",
-"odds": "-110",
-"outcome": "WIN",
-"icon": "https://a.espncdn.com/i/espnbet/espn-bet-checkmark-bold.png",
-"iconDark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-checkmark-bold.png"
-},
-"open": {
-"line": "-30.5",
-"odds": "-120"
-}
-},
-"away": {
-"close": {
-"line": "+35.5",
-"odds": "-120",
-"outcome": "LOSS"
-},
-"open": {
-"line": "+30.5",
-"odds": "-110"
-}
-}
-},
-"total": {
-"displayName": "Total",
-"shortDisplayName": "Total",
-"over": {
-"close": {
-"line": "o124.5",
-"odds": "-120",
-"outcome": "LOSS"
-},
-"open": {
-"line": "o124.5",
-"odds": "-120"
-}
-},
-"under": {
-"close": {
-"line": "u124.5",
-"odds": "-110",
-"outcome": "WIN",
-"icon": "https://a.espncdn.com/i/espnbet/espn-bet-checkmark-bold.png",
-"iconDark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-checkmark-bold.png"
-},
-"open": {
-"line": "u124.5",
-"odds": "-110"
-}
-}
-},
-"link": {
-"text": "See All on ESPN BET Sportsbook",
-"language": "en-US",
-"rel": [
-"main",
-"desktop",
-"bets"
-],
-"href": "https://www.espnbet.com'",
-"isExternal": true,
-"isPremium": false
-},
-"header": {
-"logo": {
-"dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
-"light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
-"exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
-"exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
-},
-"text": "ESPN Bet Sportsbook"
-},
-"footer": {
-"disclaimer": "Odds by ESPN BET 21+ Gambling Problem? Call 1-800-GAMBLER"
-}
-}
-],
+"pickcenter": [],
 "againstTheSpread": [
 {
 "team": {

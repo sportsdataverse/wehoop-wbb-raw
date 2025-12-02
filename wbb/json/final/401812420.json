@@ -31977,8 +31977,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "0-5",
-"displayValue": "0-5"
+"summary": "0-6",
+"displayValue": "0-6"
 },
 {
 "name": "gamesBehind",
@@ -32884,8 +32884,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-4",
-"displayValue": "5-4"
+"summary": "6-4",
+"displayValue": "6-4"
 },
 {
 "name": "gamesBehind",
@@ -33204,8 +33204,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-5",
-"displayValue": "2-5"
+"summary": "3-5",
+"displayValue": "3-5"
 },
 {
 "name": "gamesBehind",
@@ -34470,221 +34470,7 @@
 ]
 }
 },
-"pickcenter": [
-{
-"provider": {
-"id": "58",
-"name": "ESPN BET",
-"priority": 1,
-"logos": [
-{
-"href": "https://a.espncdn.com/i/espnbet/ESPN_Bet_Light.svg",
-"rel": [
-"light"
-]
-},
-{
-"href": "https://a.espncdn.com/i/espnbet/ESPN_Bet_Dark.svg",
-"rel": [
-"dark"
-]
-}
-]
-},
-"details": "ND -42.5",
-"overUnder": 135.5,
-"spread": -42.5,
-"overOdds": -115.0,
-"underOdds": -115.0,
-"awayTeamOdds": {
-"favorite": false,
-"underdog": true,
-"spreadOdds": -115.0,
-"team": {
-"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2026/teams/161?lang=en&region=us"
-},
-"teamId": "161",
-"favoriteAtOpen": false
-},
-"homeTeamOdds": {
-"favorite": true,
-"underdog": false,
-"spreadOdds": -115.0,
-"team": {
-"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2026/teams/87?lang=en&region=us"
-},
-"teamId": "87",
-"favoriteAtOpen": true
-},
-"links": [
-{
-"language": "en-US",
-"rel": [
-"homeSpread",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/adf0afa3-219c-489e-84c7-6e9272a7c908&market_selection_id[0]=77207cb1-c685-438f-8128-1e680afd38bc&odds_numerator[0]=43&odds_denominator[0]=23",
-"text": "Home Point Spread",
-"shortText": "Home Point Spread",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"awaySpread",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/adf0afa3-219c-489e-84c7-6e9272a7c908&market_selection_id[0]=d3316064-7fd8-4f9f-a374-6fb9e4f034f4&odds_numerator[0]=43&odds_denominator[0]=23",
-"text": "Away Point Spread",
-"shortText": "Away Point Spread",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"over",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/adf0afa3-219c-489e-84c7-6e9272a7c908&market_selection_id[0]=4feac672-cb6d-47df-8849-592da00f0d77&odds_numerator[0]=43&odds_denominator[0]=23",
-"text": "Over Odds",
-"shortText": "Over Odds",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"under",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/adf0afa3-219c-489e-84c7-6e9272a7c908&market_selection_id[0]=3a5cd11e-32b2-4dd5-aeb8-17f900d41938&odds_numerator[0]=43&odds_denominator[0]=23",
-"text": "Under Odds",
-"shortText": "Under Odds",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"game",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/adf0afa3-219c-489e-84c7-6e9272a7c908",
-"text": "Game",
-"shortText": "Game",
-"isExternal": true,
-"isPremium": false
-}
-],
-"moneyline": {
-"displayName": "Moneyline",
-"shortDisplayName": "ML",
-"home": {
-"close": {
-"odds": "OFF"
-},
-"open": {
-"odds": "OFF"
-}
-},
-"away": {
-"close": {
-"odds": "OFF"
-},
-"open": {
-"odds": "OFF"
-}
-}
-},
-"pointSpread": {
-"displayName": "Spread",
-"shortDisplayName": "Spread",
-"home": {
-"close": {
-"line": "-42.5",
-"odds": "-115",
-"outcome": "WIN",
-"icon": "https://a.espncdn.com/i/espnbet/espn-bet-checkmark-bold.png",
-"iconDark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-checkmark-bold.png"
-},
-"open": {
-"line": "-35.5",
-"odds": "-115"
-}
-},
-"away": {
-"close": {
-"line": "+42.5",
-"odds": "-115",
-"outcome": "LOSS"
-},
-"open": {
-"line": "+35.5",
-"odds": "-115"
-}
-}
-},
-"total": {
-"displayName": "Total",
-"shortDisplayName": "Total",
-"over": {
-"close": {
-"line": "o135.5",
-"odds": "-115",
-"outcome": "WIN",
-"icon": "https://a.espncdn.com/i/espnbet/espn-bet-checkmark-bold.png",
-"iconDark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-checkmark-bold.png"
-},
-"open": {
-"line": "o135.5",
-"odds": "-115"
-}
-},
-"under": {
-"close": {
-"line": "u135.5",
-"odds": "-115",
-"outcome": "LOSS"
-},
-"open": {
-"line": "u135.5",
-"odds": "-115"
-}
-}
-},
-"link": {
-"text": "See All on ESPN BET Sportsbook",
-"language": "en-US",
-"rel": [
-"main",
-"desktop",
-"bets"
-],
-"href": "https://www.espnbet.com'",
-"isExternal": true,
-"isPremium": false
-},
-"header": {
-"logo": {
-"dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
-"light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
-"exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
-"exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
-},
-"text": "ESPN Bet Sportsbook"
-},
-"footer": {
-"disclaimer": "Odds by ESPN BET 21+ Gambling Problem? Call 1-800-GAMBLER"
-}
-}
-],
+"pickcenter": [],
 "againstTheSpread": [
 {
 "team": {

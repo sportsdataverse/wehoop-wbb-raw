@@ -2443,255 +2443,7 @@
 }
 ],
 "predictor": [],
-"pickcenter": [
-{
-"provider": {
-"id": "58",
-"name": "ESPN BET",
-"priority": 1,
-"logos": [
-{
-"href": "https://a.espncdn.com/i/espnbet/ESPN_Bet_Light.svg",
-"rel": [
-"light"
-]
-},
-{
-"href": "https://a.espncdn.com/i/espnbet/ESPN_Bet_Dark.svg",
-"rel": [
-"dark"
-]
-}
-]
-},
-"details": "UNC -10.5",
-"overUnder": 130.5,
-"spread": -10.5,
-"overOdds": -115.0,
-"underOdds": -115.0,
-"awayTeamOdds": {
-"favorite": false,
-"underdog": true,
-"moneyLine": 380,
-"spreadOdds": -105.0,
-"team": {
-"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2026/teams/2217?lang=en&region=us"
-},
-"teamId": "2217",
-"favoriteAtOpen": false
-},
-"homeTeamOdds": {
-"favorite": true,
-"underdog": false,
-"moneyLine": -600,
-"spreadOdds": -125.0,
-"team": {
-"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2026/teams/153?lang=en&region=us"
-},
-"teamId": "153",
-"favoriteAtOpen": true
-},
-"links": [
-{
-"language": "en-US",
-"rel": [
-"home",
-"desktop",
-"bets",
-"espn-bet"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/a99ed937-5ad8-40d2-bffb-99c554b9a6cf&market_selection_id[0]=caee469f-cbad-470f-b512-18643e15561f&odds_numerator[0]=7&odds_denominator[0]=6",
-"text": "Home Bet",
-"shortText": "Home Bet",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"away",
-"desktop",
-"bets",
-"espn-bet"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/a99ed937-5ad8-40d2-bffb-99c554b9a6cf&market_selection_id[0]=6a6793be-f8ca-4505-965e-515402b748e0&odds_numerator[0]=24&odds_denominator[0]=5",
-"text": "Away Bet",
-"shortText": "Away Bet",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"homeSpread",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/a99ed937-5ad8-40d2-bffb-99c554b9a6cf&market_selection_id[0]=a24415c9-d859-44d2-9a62-077b0a31ab47&odds_numerator[0]=9&odds_denominator[0]=5",
-"text": "Home Point Spread",
-"shortText": "Home Point Spread",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"awaySpread",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/a99ed937-5ad8-40d2-bffb-99c554b9a6cf&market_selection_id[0]=d5911ed0-f0fc-470a-96f9-f29e81e405c6&odds_numerator[0]=41&odds_denominator[0]=21",
-"text": "Away Point Spread",
-"shortText": "Away Point Spread",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"over",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/a99ed937-5ad8-40d2-bffb-99c554b9a6cf&market_selection_id[0]=3cb2a05d-6e06-4ee8-9b0f-57438fcd8a2b&odds_numerator[0]=43&odds_denominator[0]=23",
-"text": "Over Odds",
-"shortText": "Over Odds",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"under",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/a99ed937-5ad8-40d2-bffb-99c554b9a6cf&market_selection_id[0]=a07ec699-1176-42d6-88c6-7221b93998c8&odds_numerator[0]=43&odds_denominator[0]=23",
-"text": "Under Odds",
-"shortText": "Under Odds",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"game",
-"desktop",
-"bets"
-],
-"href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/basketball/organization/united-states/competition/wncaab/event/a99ed937-5ad8-40d2-bffb-99c554b9a6cf",
-"text": "Game",
-"shortText": "Game",
-"isExternal": true,
-"isPremium": false
-}
-],
-"moneyline": {
-"displayName": "Moneyline",
-"shortDisplayName": "ML",
-"home": {
-"close": {
-"odds": "-600",
-"outcome": "WIN",
-"icon": "https://a.espncdn.com/i/espnbet/espn-bet-checkmark-bold.png",
-"iconDark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-checkmark-bold.png"
-},
-"open": {
-"odds": "-1800"
-}
-},
-"away": {
-"close": {
-"odds": "+380",
-"outcome": "LOSS"
-},
-"open": {
-"odds": "+800"
-}
-}
-},
-"pointSpread": {
-"displayName": "Spread",
-"shortDisplayName": "Spread",
-"home": {
-"close": {
-"line": "-10.5",
-"odds": "-125",
-"outcome": "WIN",
-"icon": "https://a.espncdn.com/i/espnbet/espn-bet-checkmark-bold.png",
-"iconDark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-checkmark-bold.png"
-},
-"open": {
-"line": "-12.5",
-"odds": "-115"
-}
-},
-"away": {
-"close": {
-"line": "+10.5",
-"odds": "-105",
-"outcome": "LOSS"
-},
-"open": {
-"line": "+12.5",
-"odds": "-115"
-}
-}
-},
-"total": {
-"displayName": "Total",
-"shortDisplayName": "Total",
-"over": {
-"close": {
-"line": "o130.5",
-"odds": "-115",
-"outcome": "WIN",
-"icon": "https://a.espncdn.com/i/espnbet/espn-bet-checkmark-bold.png",
-"iconDark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-checkmark-bold.png"
-},
-"open": {
-"line": "o128.5",
-"odds": "-115"
-}
-},
-"under": {
-"close": {
-"line": "u130.5",
-"odds": "-115",
-"outcome": "LOSS"
-},
-"open": {
-"line": "u128.5",
-"odds": "-115"
-}
-}
-},
-"link": {
-"text": "See All on ESPN BET Sportsbook",
-"language": "en-US",
-"rel": [
-"main",
-"desktop",
-"bets"
-],
-"href": "https://www.espnbet.com'",
-"isExternal": true,
-"isPremium": false
-},
-"header": {
-"logo": {
-"dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
-"light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
-"exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
-"exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
-},
-"text": "ESPN Bet Sportsbook"
-},
-"footer": {
-"disclaimer": "Odds by ESPN BET 21+ Gambling Problem? Call 1-800-GAMBLER"
-}
-}
-],
+"pickcenter": [],
 "againstTheSpread": [
 {
 "team": {
@@ -24685,6 +24437,31 @@
 }
 },
 {
+"type": "event",
+"uid": "s:40~l:54~e:401819758",
+"guid": "fb22416a-2523-3ff1-883b-f1e799a898c9",
+"description": "Fairfield Stags @ North Carolina Tar Heels",
+"eventId": 401819758,
+"event": {
+"id": 401819758,
+"sport": "basketball",
+"league": "womens-college-basketball",
+"description": "Fairfield Stags @ North Carolina Tar Heels",
+"links": {
+"web": {
+"event": {
+"href": "https://www.espn.com/womens-college-basketball/game/_/gameId/401819758"
+}
+},
+"mobile": {
+"event": {
+"href": "https://www.espn.com/womens-college-basketball/game/_/gameId/401819758"
+}
+}
+}
+}
+},
+{
 "id": 711824,
 "type": "editorialindicator",
 "guid": "d348c764-47d9-3e31-bd75-d39dfde52c26",
@@ -24772,6 +24549,10 @@
 },
 {
 "type": "guid",
+"guid": "fb22416a-2523-3ff1-883b-f1e799a898c9"
+},
+{
+"type": "guid",
 "guid": "d348c764-47d9-3e31-bd75-d39dfde52c26"
 },
 {
@@ -24854,6 +24635,31 @@
 }
 },
 {
+"type": "event",
+"uid": "s:40~l:54~e:401819758",
+"guid": "fb22416a-2523-3ff1-883b-f1e799a898c9",
+"description": "Fairfield Stags @ North Carolina Tar Heels",
+"eventId": 401819758,
+"event": {
+"id": 401819758,
+"sport": "basketball",
+"league": "womens-college-basketball",
+"description": "Fairfield Stags @ North Carolina Tar Heels",
+"links": {
+"web": {
+"event": {
+"href": "https://www.espn.com/womens-college-basketball/game/_/gameId/401819758"
+}
+},
+"mobile": {
+"event": {
+"href": "https://www.espn.com/womens-college-basketball/game/_/gameId/401819758"
+}
+}
+}
+}
+},
+{
 "id": 9578,
 "type": "league",
 "uid": "s:40~l:54",
@@ -24889,12 +24695,17 @@
 },
 {
 "type": "guid",
+"guid": "fb22416a-2523-3ff1-883b-f1e799a898c9"
+},
+{
+"type": "guid",
 "guid": "45cd175c-f9f2-338b-83b9-6d7d64001733"
 }
 ],
 "keywords": [
 "North Carolina Tar Heels",
 "Fairfield Stags",
+"Fairfield Stags @ North Carolina Tar Heels",
 "NCAA Women's Basketball"
 ],
 "story": "\r\n              CHAPEL HILL, N.C. -- \u2014 Laila Hull hit four 3-pointers and finished with 14 points to lead five North Carolina players scoring in double figures and the 11th-ranked Tar Heels beat Fairfield 82-68 on Saturday in the WBCA Challenge at Michelob ULTRA Arena, home of the WNBA's Las Vegas Aces. \n\n\r\n              Nyla Brooks, Nyla Harris and Ciera Toomey scored 12 points apiece and Indya Nivar added 10 for North Carolina. \n\n\r\n              UNC (3-1) opened the second quarter with a 19-2 run that culminated when Hull hit a 3-pointer that gave the Tar Heels a 30-21 lead with 3:30 left in the first half. The Stags made 3 of 9 from the field and committed nine turnovers as they were outscored 26-6 in the period. \n\n\r\n              Fairfield (3-1) scored 12 of the first 15 second-half points and Kaety L\u2019Amoreaux made a 3-pointer with 4:35 left in the third quarter that trimmed the deficit to 46-43 but Hull answered with a 3 that sparked an 11-0 run to push the lead into double figures for good. \n\n\r\n              Sydni Scott hit a 3-pointer amid an 11-0 run that gave the Stags a 16-7 lead with 2:17 left in the first quarter. \n\n\r\n              Janelle Brown led Fairfield with 16 points on 5-of-5 shooting from the field as well as the free-throw line. L'Amoreaux and Meghan Andersen scored 15 points apiece. \n\n\r\n              Carly Thibault-DuDonis has led the Stags to back-to-back Metro-Atlantic Athletic Conference regular-season and tournament titles. The fourth-year Fairfield coach is the daughter of three-time WNBA coach of the year Mike Thibault, who led the Washington Mystics to the 2019 WNBA title, and the sister of Minnesota Lynx associate head coach Eric Thibault. \n\n\r\n              <hl2>Up next </hl2>\r\n              Fairfield: The Stags host New Haven on Nov. 25. \n\n\r\n              North Carolina: The Tar Heels play Thursday at North Carolina A&T. \n\n\r\n              ------ Get poll alerts and updates on the AP Top 25 throughout the season. Sign up <a href=\"https://www.apnews.com/newsletters\">here</a>. AP women\u2019s college basketball: <a href=\"https://apnews.com/hub/ap-top-25-womens-college-basketball-poll\">https://apnews.com/hub/ap-top-25-womens-college-basketball-poll</a> and <a href=\"https://apnews.com/hub/womens-college-basketball\">https://apnews.com/hub/womens-college-basketball</a>\n\n\r\n",
@@ -27050,8 +26861,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-4",
-"displayValue": "5-4"
+"summary": "6-4",
+"displayValue": "6-4"
 },
 {
 "name": "gamesBehind",
@@ -27370,8 +27181,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-5",
-"displayValue": "2-5"
+"summary": "3-5",
+"displayValue": "3-5"
 },
 {
 "name": "gamesBehind",

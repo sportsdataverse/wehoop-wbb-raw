@@ -35421,6 +35421,70 @@
 ]
 },
 {
+"team": "Tennessee Tech",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2635/tennessee-tech-golden-eagles",
+"id": "2635",
+"uid": "s:40~l:54~t:2635",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "5-2",
+"displayValue": "5-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-08-12T21:43Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2635.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2019-08-12T21:43Z"
+}
+]
+},
+{
 "team": "SIU Edwardsville",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2565/siu-edwardsville-cougars",
 "id": "2565",
@@ -35545,70 +35609,6 @@
 "dark"
 ],
 "lastUpdated": "2023-01-24T18:03Z"
-}
-]
-},
-{
-"team": "Tennessee Tech",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2635/tennessee-tech-golden-eagles",
-"id": "2635",
-"uid": "s:40~l:54~t:2635",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "4-2",
-"displayValue": "4-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2019-08-12T21:43Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2635.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2019-08-12T21:43Z"
 }
 ]
 },
@@ -36725,8 +36725,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-4",
-"displayValue": "5-4"
+"summary": "6-4",
+"displayValue": "6-4"
 },
 {
 "name": "gamesBehind",
@@ -37045,8 +37045,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-5",
-"displayValue": "2-5"
+"summary": "3-5",
+"displayValue": "3-5"
 },
 {
 "name": "gamesBehind",
@@ -38431,7 +38431,104 @@
 "2": []
 }
 },
-"pickcenter": [],
+"pickcenter": [
+{
+"provider": {
+"id": "100",
+"name": "Draft Kings",
+"priority": 1,
+"logos": [
+{
+"href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+"rel": [
+"light"
+]
+},
+{
+"href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+"rel": [
+"dark"
+]
+}
+]
+},
+"details": "LOU -32.5",
+"spread": -32.5,
+"awayTeamOdds": {
+"favorite": false,
+"underdog": true,
+"spreadOdds": -110.0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2026/teams/2197?lang=en&region=us"
+},
+"teamId": "2197",
+"favoriteAtOpen": false
+},
+"homeTeamOdds": {
+"favorite": true,
+"underdog": false,
+"spreadOdds": -110.0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2026/teams/97?lang=en&region=us"
+},
+"teamId": "97",
+"favoriteAtOpen": true
+},
+"links": [
+{
+"language": "en-US",
+"rel": [
+"homeSpread",
+"desktop",
+"bets"
+],
+"href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33218034%3Foutcomes%3D0HC82402371N3250_1",
+"text": "Home Point Spread",
+"shortText": "Home Point Spread",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"awaySpread",
+"desktop",
+"bets"
+],
+"href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33218034%3Foutcomes%3D0HC82402371P3250_3",
+"text": "Away Point Spread",
+"shortText": "Away Point Spread",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"game",
+"desktop",
+"bets"
+],
+"href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33218034",
+"text": "Game",
+"shortText": "Game",
+"isExternal": true,
+"isPremium": false
+}
+],
+"header": {
+"logo": {
+"dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
+"light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
+"exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
+"exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
+},
+"text": "Game Odds"
+},
+"footer": {
+"disclaimer": "Odds by DraftKings\nGAMBLING PROBLEM? CALL 1-800-GAMBLER, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nPlease Gamble Responsibly. 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD).\n21+ and present in most states. (18+ DC/KY/NH/WY). Void in ONT/OR/NH. Eligibility restrictions apply. On behalf of Boot Hill Casino & Resort (KS). Terms: sportsbook.draftkings.com/promos."
+}
+}
+],
 "againstTheSpread": [
 {
 "team": {

@@ -1144,12 +1144,12 @@
 "5-6",
 "2-3",
 "6-6",
-"6",
+"7",
 "0",
 "1",
 "1",
 "0",
-"1",
+"2",
 "5",
 "4"
 ]
@@ -1242,63 +1242,14 @@
 "10-17",
 "4-8",
 "1-2",
-"5",
+"4",
 "3",
 "2",
 "1",
 "1",
-"1",
+"0",
 "4",
 "1"
-]
-},
-{
-"active": false,
-"athlete": {
-"id": "5105768",
-"uid": "s:40~l:54~a:5105768",
-"guid": "98e5f23f-4966-387c-bf2a-7770a2652051",
-"displayName": "Lauren Glazier",
-"shortName": "L. Glazier",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5105768/lauren-glazier",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5105768.png",
-"alt": "Lauren Glazier"
-},
-"jersey": "25",
-"position": {
-"name": "Forward",
-"displayName": "Forward",
-"abbreviation": "F"
-}
-},
-"starter": false,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"2",
-"0",
-"0-1",
-"0-1",
-"0-0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0"
 ]
 },
 {
@@ -1386,8 +1337,8 @@
 "stats": [
 "14",
 "6",
-"3-8",
-"0-3",
+"3-9",
+"0-4",
 "0-1",
 "3",
 "1",
@@ -1482,7 +1433,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"3",
+"5",
 "0",
 "0-0",
 "0-0",
@@ -1517,6 +1468,41 @@
 }
 ],
 "jersey": "6",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"ejected": false,
+"stats": []
+},
+{
+"active": false,
+"athlete": {
+"id": "5105768",
+"uid": "s:40~l:54~a:5105768",
+"guid": "98e5f23f-4966-387c-bf2a-7770a2652051",
+"displayName": "Lauren Glazier",
+"shortName": "L. Glazier",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5105768/lauren-glazier",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5105768.png",
+"alt": "Lauren Glazier"
+},
+"jersey": "25",
 "position": {
 "name": "Forward",
 "displayName": "Forward",
@@ -1857,13 +1843,13 @@
 {
 "displayValue": "7",
 "athlete": {
-"id": "5313393",
-"uid": "s:40~l:54~a:5313393",
-"guid": "78e99d0b-b7ce-3cc5-a052-afeb1d93bc64",
-"lastName": "Ruud",
-"fullName": "Malia Ruud",
-"displayName": "Malia Ruud",
-"shortName": "M. Ruud",
+"id": "5241568",
+"uid": "s:40~l:54~a:5241568",
+"guid": "aca676d5-b31d-3e30-8da7-536f0a63eaa3",
+"lastName": "Abraham",
+"fullName": "Charlotte Abraham",
+"displayName": "Charlotte Abraham",
+"shortName": "C. Abraham",
 "links": [
 {
 "rel": [
@@ -1871,17 +1857,17 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5313393/malia-ruud",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5241568/charlotte-abraham",
 "text": "Player Card"
 }
 ],
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5313393.png",
-"alt": "Malia Ruud"
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5241568.png",
+"alt": "Charlotte Abraham"
 },
-"jersey": "55",
+"jersey": "10",
 "position": {
-"abbreviation": "F"
+"abbreviation": "G"
 },
 "status": {
 "id": "1",
@@ -1906,8 +1892,8 @@
 "shortDisplayName": "DREB",
 "description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
 "abbreviation": "DR",
-"value": 2.0,
-"displayValue": "2"
+"value": 5.0,
+"displayValue": "5"
 },
 {
 "name": "offensiveRebounds",
@@ -1915,15 +1901,15 @@
 "shortDisplayName": "OREB",
 "description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
 "abbreviation": "OR",
-"value": 5.0,
-"displayValue": "5"
+"value": 2.0,
+"displayValue": "2"
 }
 ],
 "mainStat": {
 "value": "7",
 "label": "REB"
 },
-"summary": "2 DREB, 5 OREB"
+"summary": "5 DREB, 2 OREB"
 }
 ]
 }

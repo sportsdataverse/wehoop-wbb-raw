@@ -35240,7 +35240,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"4",
+"5",
 "2",
 "1-2",
 "0-0",
@@ -35301,51 +35301,6 @@
 "1",
 "1",
 "1",
-"0"
-]
-},
-{
-"active": false,
-"athlete": {
-"id": "5312436",
-"uid": "s:40~l:54~a:5312436",
-"guid": "35e52efb-c143-342f-a300-f877b6be5e81",
-"displayName": "Kate Sears",
-"shortName": "K. Sears",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5312436/kate-sears",
-"text": "Player Card"
-}
-],
-"jersey": "13",
-"position": {
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G"
-}
-},
-"starter": false,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"2",
-"0",
-"0-0",
-"0-0",
-"0-0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
 "0"
 ]
 },
@@ -35432,7 +35387,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"3",
+"4",
 "0",
 "0-0",
 "0-0",
@@ -35520,6 +35475,37 @@
 "name": "Forward",
 "displayName": "Forward",
 "abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"ejected": false,
+"stats": []
+},
+{
+"active": false,
+"athlete": {
+"id": "5312436",
+"uid": "s:40~l:54~a:5312436",
+"guid": "35e52efb-c143-342f-a300-f877b6be5e81",
+"displayName": "Kate Sears",
+"shortName": "K. Sears",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5312436/kate-sears",
+"text": "Player Card"
+}
+],
+"jersey": "13",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
 }
 },
 "starter": false,
@@ -36504,6 +36490,22 @@
 "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54&section=odds",
 "text": "Odds"
 }
+],
+"logos": [
+{
+"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
+"rel": [
+"full",
+"dark"
+]
+}
 ]
 },
 "gameNote": "Paradise Jam - Island Division"
@@ -37401,70 +37403,6 @@
 ]
 },
 {
-"team": "West Virginia",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/277/west-virginia-mountaineers",
-"id": "277",
-"uid": "s:40~l:54~t:277",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "6-1",
-"displayValue": "6-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/277.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-09-07T19:32Z"
-}
-]
-},
-{
 "team": "Kansas",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2305/kansas-jayhawks",
 "id": "2305",
@@ -37589,6 +37527,70 @@
 "dark"
 ],
 "lastUpdated": "2023-10-06T14:35Z"
+}
+]
+},
+{
+"team": "West Virginia",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/277/west-virginia-mountaineers",
+"id": "277",
+"uid": "s:40~l:54~t:277",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-2",
+"displayValue": "6-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-09-07T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/277.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-09-07T19:32Z"
 }
 ]
 },
@@ -38641,8 +38643,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-4",
-"displayValue": "5-4"
+"summary": "6-4",
+"displayValue": "6-4"
 },
 {
 "name": "gamesBehind",
@@ -38961,8 +38963,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-5",
-"displayValue": "2-5"
+"summary": "3-5",
+"displayValue": "3-5"
 },
 {
 "name": "gamesBehind",

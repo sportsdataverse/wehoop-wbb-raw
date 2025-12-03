@@ -27302,7 +27302,7 @@
 },
 {
 "name": "assists",
-"displayValue": "10",
+"displayValue": "11",
 "abbreviation": "AST",
 "label": "Assists"
 },
@@ -27320,7 +27320,7 @@
 },
 {
 "name": "turnovers",
-"displayValue": "6",
+"displayValue": "5",
 "abbreviation": "TO",
 "label": "Turnovers"
 },
@@ -27332,7 +27332,7 @@
 },
 {
 "name": "totalTurnovers",
-"displayValue": "6",
+"displayValue": "5",
 "abbreviation": "ToTO",
 "label": "Total Turnovers"
 },
@@ -27350,7 +27350,7 @@
 },
 {
 "name": "turnoverPoints",
-"displayValue": "12",
+"displayValue": "15",
 "abbreviation": "PTS OFF TO",
 "label": "Points Off Turnovers"
 },
@@ -28424,8 +28424,8 @@
 "1-2",
 "1-2",
 "3",
-"2",
-"2",
+"3",
+"1",
 "2",
 "0",
 "1",
@@ -28763,8 +28763,8 @@
 "6-9",
 "24-27",
 "37",
-"10",
-"6",
+"11",
+"5",
 "3",
 "2",
 "8",
@@ -29700,6 +29700,22 @@
 ],
 "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54&section=odds",
 "text": "Odds"
+}
+],
+"logos": [
+{
+"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
+"rel": [
+"full",
+"dark"
+]
 }
 ]
 }
@@ -31184,70 +31200,6 @@
 ]
 },
 {
-"team": "Little Rock",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2031/little-rock-trojans",
-"id": "2031",
-"uid": "s:40~l:54~t:2031",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-4",
-"displayValue": "2-4"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2031.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "Southeast Missouri State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2546/southeast-missouri-state-redhawks",
 "id": "2546",
@@ -31364,6 +31316,70 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2630.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Little Rock",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2031/little-rock-trojans",
+"id": "2031",
+"uid": "s:40~l:54~t:2031",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-5",
+"displayValue": "2-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2031.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -31641,15 +31657,15 @@
 "displayName": "Assists",
 "leaders": [
 {
-"displayValue": "2",
+"displayValue": "3",
 "athlete": {
-"id": "5109979",
-"uid": "s:40~l:54~a:5109979",
-"guid": "64b9b277-2a26-3d54-9268-49054560f944",
-"lastName": "Brownfield",
-"fullName": "Addi Brownfield",
-"displayName": "Addi Brownfield",
-"shortName": "A. Brownfield",
+"id": "5109978",
+"uid": "s:40~l:54~a:5109978",
+"guid": "dee550b2-bbcf-3687-91af-76467fa6c35f",
+"lastName": "Meadows",
+"fullName": "Allie Meadows",
+"displayName": "Allie Meadows",
+"shortName": "A. Meadows",
 "links": [
 {
 "rel": [
@@ -31657,15 +31673,15 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5109979/addi-brownfield",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5109978/allie-meadows",
 "text": "Player Card"
 }
 ],
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5109979.png",
-"alt": "Addi Brownfield"
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5109978.png",
+"alt": "Allie Meadows"
 },
-"jersey": "13",
+"jersey": "4",
 "position": {
 "abbreviation": "G"
 },
@@ -31683,8 +31699,8 @@
 "shortDisplayName": "AST",
 "description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
 "abbreviation": "AST",
-"value": 2.0,
-"displayValue": "2"
+"value": 3.0,
+"displayValue": "3"
 },
 {
 "name": "turnovers",
@@ -31701,8 +31717,8 @@
 "shortDisplayName": "MIN",
 "description": "The total number of minutes played.",
 "abbreviation": "MIN",
-"value": 38.0,
-"displayValue": "38"
+"value": 39.0,
+"displayValue": "39"
 },
 {
 "name": "assistTurnoverRatio",
@@ -31710,15 +31726,15 @@
 "shortDisplayName": "AST/TO",
 "description": "The average number of assists a player or team records per turnover",
 "abbreviation": "AST/TO",
-"value": 2.0,
-"displayValue": "2.0"
+"value": 3.0,
+"displayValue": "3.0"
 }
 ],
 "mainStat": {
-"value": "2",
+"value": "3",
 "label": "AST"
 },
-"summary": "1 TO, 38 MIN"
+"summary": "1 TO, 39 MIN"
 }
 ]
 },

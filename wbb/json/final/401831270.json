@@ -30246,7 +30246,7 @@
 "statistics": [
 {
 "name": "fieldGoalsMade-fieldGoalsAttempted",
-"displayValue": "23-69",
+"displayValue": "23-70",
 "label": "FG"
 },
 {
@@ -30257,12 +30257,12 @@
 },
 {
 "name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-"displayValue": "5-23",
+"displayValue": "5-22",
 "label": "3PT"
 },
 {
 "name": "threePointFieldGoalPct",
-"displayValue": "22",
+"displayValue": "23",
 "abbreviation": "3P%",
 "label": "Three Point %"
 },
@@ -30279,13 +30279,13 @@
 },
 {
 "name": "totalRebounds",
-"displayValue": "39",
+"displayValue": "41",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
 {
 "name": "offensiveRebounds",
-"displayValue": "14",
+"displayValue": "16",
 "abbreviation": "OR",
 "label": "Offensive Rebounds"
 },
@@ -30297,7 +30297,7 @@
 },
 {
 "name": "assists",
-"displayValue": "9",
+"displayValue": "11",
 "abbreviation": "AST",
 "label": "Assists"
 },
@@ -30315,7 +30315,7 @@
 },
 {
 "name": "turnovers",
-"displayValue": "12",
+"displayValue": "13",
 "abbreviation": "TO",
 "label": "Turnovers"
 },
@@ -30327,7 +30327,7 @@
 },
 {
 "name": "totalTurnovers",
-"displayValue": "12",
+"displayValue": "13",
 "abbreviation": "ToTO",
 "label": "Total Turnovers"
 },
@@ -31085,12 +31085,12 @@
 "4-9",
 "0-2",
 "2-4",
-"5",
-"6",
+"3",
+"7",
 "4",
 "2",
 "0",
-"2",
+"0",
 "3",
 "3"
 ]
@@ -31134,12 +31134,12 @@
 "5-14",
 "2-7",
 "1-1",
-"7",
+"6",
 "0",
 "0",
 "2",
 "0",
-"1",
+"0",
 "6",
 "1"
 ]
@@ -31180,8 +31180,8 @@
 "stats": [
 "25",
 "4",
-"2-8",
-"0-2",
+"2-9",
+"0-1",
 "0-0",
 "6",
 "2",
@@ -31232,12 +31232,12 @@
 "5-12",
 "0-0",
 "5-6",
-"6",
-"0",
+"9",
+"1",
 "1",
 "2",
 "2",
-"2",
+"5",
 "4",
 "1"
 ]
@@ -31326,12 +31326,12 @@
 "1-5",
 "0-2",
 "0-0",
-"2",
+"4",
+"0",
+"1",
 "0",
 "0",
-"0",
-"0",
-"2",
+"4",
 "0",
 "3"
 ]
@@ -31618,15 +31618,15 @@
 "totals": [
 "",
 "64",
-"23-69",
-"5-23",
+"23-70",
+"5-22",
 "13-17",
-"39",
-"9",
-"12",
+"41",
+"11",
+"13",
 "15",
 "2",
-"14",
+"16",
 "25",
 "16"
 ]
@@ -32560,6 +32560,22 @@
 ],
 "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54&section=odds",
 "text": "Odds"
+}
+],
+"logos": [
+{
+"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
+"rel": [
+"full",
+"dark"
+]
 }
 ]
 },
@@ -34103,8 +34119,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-3",
-"displayValue": "5-3"
+"summary": "5-4",
+"displayValue": "5-4"
 },
 {
 "name": "gamesBehind",
@@ -34346,6 +34362,70 @@
 ]
 },
 {
+"team": "Seattle U",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2547/seattle-u-redhawks",
+"id": "2547",
+"uid": "s:40~l:54~t:2547",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-5",
+"displayValue": "4-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2547.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2547.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
 "team": "Pacific",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/279/pacific-tigers",
 "id": "279",
@@ -34470,70 +34550,6 @@
 "dark"
 ],
 "lastUpdated": "2023-01-23T20:43Z"
-}
-]
-},
-{
-"team": "Seattle U",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2547/seattle-u-redhawks",
-"id": "2547",
-"uid": "s:40~l:54~t:2547",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-5",
-"displayValue": "3-5"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2547.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2547.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },
@@ -35518,7 +35534,7 @@
 "displayName": "Assists",
 "leaders": [
 {
-"displayValue": "6",
+"displayValue": "7",
 "athlete": {
 "id": "5312236",
 "uid": "s:40~l:54~a:5312236",
@@ -35556,8 +35572,8 @@
 "shortDisplayName": "AST",
 "description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
 "abbreviation": "AST",
-"value": 6.0,
-"displayValue": "6"
+"value": 7.0,
+"displayValue": "7"
 },
 {
 "name": "turnovers",
@@ -35583,12 +35599,12 @@
 "shortDisplayName": "AST/TO",
 "description": "The average number of assists a player or team records per turnover",
 "abbreviation": "AST/TO",
-"value": 1.5,
-"displayValue": "1.5"
+"value": 1.75,
+"displayValue": "1.8"
 }
 ],
 "mainStat": {
-"value": "6",
+"value": "7",
 "label": "AST"
 },
 "summary": "4 TO, 40 MIN"
@@ -35600,15 +35616,15 @@
 "displayName": "Rebounds",
 "leaders": [
 {
-"displayValue": "7",
+"displayValue": "9",
 "athlete": {
-"id": "5239920",
-"uid": "s:40~l:54~a:5239920",
-"guid": "729be921-cb38-3362-adcd-49b8609cdc74",
-"lastName": "Ndiaye",
-"fullName": "Ndate Ndiaye",
-"displayName": "Ndate Ndiaye",
-"shortName": "N. Ndiaye",
+"id": "5174283",
+"uid": "s:40~l:54~a:5174283",
+"guid": "437da35f-09db-3458-99b5-57363f8e5243",
+"lastName": "Collins",
+"fullName": "Rhema Collins",
+"displayName": "Rhema Collins",
+"shortName": "R. Collins",
 "links": [
 {
 "rel": [
@@ -35616,15 +35632,15 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5239920/ndate-ndiaye",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5174283/rhema-collins",
 "text": "Player Card"
 }
 ],
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5239920.png",
-"alt": "Ndate Ndiaye"
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5174283.png",
+"alt": "Rhema Collins"
 },
-"jersey": "14",
+"jersey": "23",
 "position": {
 "abbreviation": "G"
 },
@@ -35642,8 +35658,8 @@
 "shortDisplayName": "REB",
 "description": "The total number of rebounds (offensive and defensive).",
 "abbreviation": "REB",
-"value": 7.0,
-"displayValue": "7"
+"value": 9.0,
+"displayValue": "9"
 },
 {
 "name": "defensiveRebounds",
@@ -35651,8 +35667,8 @@
 "shortDisplayName": "DREB",
 "description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
 "abbreviation": "DR",
-"value": 6.0,
-"displayValue": "6"
+"value": 4.0,
+"displayValue": "4"
 },
 {
 "name": "offensiveRebounds",
@@ -35660,15 +35676,15 @@
 "shortDisplayName": "OREB",
 "description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
 "abbreviation": "OR",
-"value": 1.0,
-"displayValue": "1"
+"value": 5.0,
+"displayValue": "5"
 }
 ],
 "mainStat": {
-"value": "7",
+"value": "9",
 "label": "REB"
 },
-"summary": "6 DREB, 1 OREB"
+"summary": "4 DREB, 5 OREB"
 }
 ]
 }

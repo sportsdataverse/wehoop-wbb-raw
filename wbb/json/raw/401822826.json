@@ -1114,9 +1114,9 @@
 "ejected": false,
 "stats": [
 "30",
-"11",
-"4-12",
-"3-8",
+"14",
+"5-13",
+"4-9",
 "0-0",
 "2",
 "1",
@@ -1302,9 +1302,9 @@
 "ejected": false,
 "stats": [
 "12",
-"7",
-"3-5",
-"1-1",
+"4",
+"2-4",
+"0-0",
 "0-0",
 "0",
 "1",
@@ -1706,15 +1706,15 @@
 "displayName": "Points",
 "leaders": [
 {
-"displayValue": "11",
+"displayValue": "14",
 "athlete": {
-"id": "5315283",
-"uid": "s:40~l:54~a:5315283",
-"guid": "45aeca5a-6749-3951-90d8-7a77911d4d01",
-"lastName": "Koerkenmeier",
-"fullName": "Alyssa Koerkenmeier",
-"displayName": "Alyssa Koerkenmeier",
-"shortName": "A. Koerkenmeier",
+"id": "5315284",
+"uid": "s:40~l:54~a:5315284",
+"guid": "63517ea9-5500-30c8-81f4-6b05e541d440",
+"lastName": "Brown",
+"fullName": "Zhykera Brown",
+"displayName": "Zhykera Brown",
+"shortName": "Z. Brown",
 "links": [
 {
 "rel": [
@@ -1722,13 +1722,13 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5315283/alyssa-koerkenmeier",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5315284/zhykera-brown",
 "text": "Player Card"
 }
 ],
-"jersey": "34",
+"jersey": "35",
 "position": {
-"abbreviation": "C"
+"abbreviation": "G"
 },
 "status": {
 "id": "1",
@@ -1744,8 +1744,8 @@
 "shortDisplayName": "PTS",
 "description": "The number of points scored.",
 "abbreviation": "PTS",
-"value": 11.0,
-"displayValue": "11"
+"value": 14.0,
+"displayValue": "14"
 },
 {
 "name": "fieldGoals",
@@ -1753,8 +1753,8 @@
 "shortDisplayName": "FG",
 "description": "Field Goal makes and attempts.",
 "abbreviation": "FG",
-"value": 0.714286,
-"displayValue": "5/7"
+"value": 0.384615,
+"displayValue": "5/13"
 },
 {
 "name": "freeThrows",
@@ -1762,15 +1762,15 @@
 "shortDisplayName": "FT",
 "description": "Free Throw makes and attempts.",
 "abbreviation": "FT",
-"value": 0.5,
-"displayValue": "1/2"
+"value": 0.0,
+"displayValue": "0/0"
 }
 ],
 "mainStat": {
-"value": "11",
+"value": "14",
 "label": "PTS"
 },
-"summary": "5/7 FG, 1/2 FT"
+"summary": "5/13 FG, 0/0 FT"
 }
 ]
 },
@@ -5188,6 +5188,22 @@
 ],
 "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54&section=odds",
 "text": "Odds"
+}
+],
+"logos": [
+{
+"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-basketball.png",
+"rel": [
+"full",
+"dark"
+]
 }
 ]
 }
@@ -22566,70 +22582,6 @@
 ]
 },
 {
-"team": "Little Rock",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2031/little-rock-trojans",
-"id": "2031",
-"uid": "s:40~l:54~t:2031",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-4",
-"displayValue": "2-4"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2031.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "Southeast Missouri State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2546/southeast-missouri-state-redhawks",
 "id": "2546",
@@ -22746,6 +22698,70 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2630.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Little Rock",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2031/little-rock-trojans",
+"id": "2031",
+"uid": "s:40~l:54~t:2031",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-5",
+"displayValue": "2-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2031.png",
 "width": 500,
 "height": 500,
 "alt": "",

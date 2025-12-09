@@ -34194,6 +34194,18 @@
 "displayValue": "11",
 "abbreviation": "LL",
 "label": "Largest Lead"
+},
+{
+"name": "leadChanges",
+"displayValue": "2",
+"abbreviation": "LC",
+"label": "Lead Changes"
+},
+{
+"name": "leadPercentage",
+"displayValue": "25",
+"abbreviation": "LPCT",
+"label": "Lead Percentage"
 }
 ],
 "displayOrder": 1,
@@ -34342,6 +34354,18 @@
 "displayValue": "17",
 "abbreviation": "LL",
 "label": "Largest Lead"
+},
+{
+"name": "leadChanges",
+"displayValue": "2",
+"abbreviation": "LC",
+"label": "Lead Changes"
+},
+{
+"name": "leadPercentage",
+"displayValue": "72",
+"abbreviation": "LPCT",
+"label": "Lead Percentage"
 }
 ],
 "displayOrder": 2,
@@ -34466,7 +34490,7 @@
 "0-3",
 "0-0",
 "3",
-"0",
+"1",
 "0",
 "0",
 "0",
@@ -34559,12 +34583,12 @@
 "ejected": false,
 "stats": [
 "29",
-"13",
-"5-16",
-"3-11",
+"16",
+"6-17",
+"4-12",
 "0-0",
 "2",
-"1",
+"0",
 "3",
 "2",
 "0",
@@ -34608,9 +34632,9 @@
 "ejected": false,
 "stats": [
 "32",
-"12",
-"4-12",
-"2-5",
+"9",
+"3-11",
+"1-4",
 "2-2",
 "3",
 "4",
@@ -35291,7 +35315,7 @@
 "0-0",
 "6-8",
 "16",
-"4",
+"3",
 "2",
 "2",
 "4",
@@ -35438,7 +35462,7 @@
 "4-7",
 "3-4",
 "2",
-"1",
+"2",
 "3",
 "1",
 "0",
@@ -36905,7 +36929,8 @@
 "leagueName": "NCAA Women's Basketball",
 "coverageType": "OnePlay",
 "trackingName": "NCW_One-Play (Addie Deal with the last basket of the period) 2025/11/30 ESHEET",
-"trackingId": "dm_20251130_NCW_addie_deal_with_the_last_basket_of_the_period"
+"trackingId": "dm_20251130_NCW_addie_deal_with_the_last_basket_of_the_period",
+"program": "Big Ten Network"
 }
 },
 {
@@ -37016,7 +37041,8 @@
 "leagueName": "NCAA Women's Basketball",
 "coverageType": "OnePlay",
 "trackingName": "NCW_One-Play (Taylor McCabe drills the trey) 2025/11/30 ESHEET",
-"trackingId": "dm_20251130_NCW_taylor_mccabe_drills_the_trey"
+"trackingId": "dm_20251130_NCW_taylor_mccabe_drills_the_trey",
+"program": "Big Ten Network"
 }
 }
 ],
@@ -39499,7 +39525,8 @@
 "leagueName": "NCAA Women's Basketball",
 "coverageType": "Final Game Highlight",
 "trackingName": "NCW_One-Play (Fairfield Stags vs. Iowa Hawkeyes: Game Highlights) 2025/11/30 ESHEET",
-"trackingId": "dm_20251130_NCW_fairfield_stags_vs_iowa_hawkeyes_game_highlights"
+"trackingId": "dm_20251130_NCW_fairfield_stags_vs_iowa_hawkeyes_game_highlights",
+"program": "Big Ten Network"
 },
 "contributingPartner": "wsc",
 "contributingSystem": "wsc"
@@ -39989,15 +40016,15 @@
 "displayName": "Points",
 "leaders": [
 {
-"displayValue": "14",
+"displayValue": "16",
 "athlete": {
-"id": "5313584",
-"uid": "s:40~l:54~a:5313584",
-"guid": "e67fa947-62c9-356d-921c-70ab6260c2b2",
-"lastName": "Pham",
-"fullName": "Christina Pham",
-"displayName": "Christina Pham",
-"shortName": "C. Pham",
+"id": "5176862",
+"uid": "s:40~l:54~a:5176862",
+"guid": "fa9253ab-fdb9-302a-a5ff-371dcd29fce9",
+"lastName": "Andersen",
+"fullName": "Meghan Andersen",
+"displayName": "Meghan Andersen",
+"shortName": "M. Andersen",
 "links": [
 {
 "rel": [
@@ -40005,17 +40032,17 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5313584/christina-pham",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5176862/meghan-andersen",
 "text": "Player Card"
 }
 ],
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5313584.png",
-"alt": "Christina Pham"
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5176862.png",
+"alt": "Meghan Andersen"
 },
-"jersey": "30",
+"jersey": "5",
 "position": {
-"abbreviation": "G"
+"abbreviation": "F"
 },
 "status": {
 "id": "1",
@@ -40031,8 +40058,8 @@
 "shortDisplayName": "PTS",
 "description": "The number of points scored.",
 "abbreviation": "PTS",
-"value": 14.0,
-"displayValue": "14"
+"value": 16.0,
+"displayValue": "16"
 },
 {
 "name": "fieldGoals",
@@ -40040,8 +40067,8 @@
 "shortDisplayName": "FG",
 "description": "Field Goal makes and attempts.",
 "abbreviation": "FG",
-"value": 0.714286,
-"displayValue": "5/7"
+"value": 0.352941,
+"displayValue": "6/17"
 },
 {
 "name": "freeThrows",
@@ -40054,10 +40081,10 @@
 }
 ],
 "mainStat": {
-"value": "14",
+"value": "16",
 "label": "PTS"
 },
-"summary": "5/7 FG, 0/0 FT"
+"summary": "6/17 FG, 0/0 FT"
 }
 ]
 },
@@ -40068,13 +40095,13 @@
 {
 "displayValue": "4",
 "athlete": {
-"id": "5176861",
-"uid": "s:40~l:54~a:5176861",
-"guid": "42e88ca5-9e04-33a7-b36e-03b96856b4fc",
-"lastName": "L'Amoreaux",
-"fullName": "Kaety L'Amoreaux",
-"displayName": "Kaety L'Amoreaux",
-"shortName": "K. L'Amoreaux",
+"id": "4704429",
+"uid": "s:40~l:54~a:4704429",
+"guid": "d89fbb41-98d8-3d15-b4c1-065e02251025",
+"lastName": "Brown",
+"fullName": "Janelle Brown",
+"displayName": "Janelle Brown",
+"shortName": "J. Brown",
 "links": [
 {
 "rel": [
@@ -40082,15 +40109,15 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5176861/kaety-lamoreaux",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704429/janelle-brown",
 "text": "Player Card"
 }
 ],
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5176861.png",
-"alt": "Kaety L'Amoreaux"
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704429.png",
+"alt": "Janelle Brown"
 },
-"jersey": "4",
+"jersey": "3",
 "position": {
 "abbreviation": "G"
 },
@@ -40117,8 +40144,8 @@
 "shortDisplayName": "TO",
 "description": "The number of times a player loses possession to the other team.",
 "abbreviation": "TO",
-"value": 0.0,
-"displayValue": "0"
+"value": 2.0,
+"displayValue": "2"
 },
 {
 "name": "minutes",
@@ -40126,8 +40153,8 @@
 "shortDisplayName": "MIN",
 "description": "The total number of minutes played.",
 "abbreviation": "MIN",
-"value": 32.0,
-"displayValue": "32"
+"value": 27.0,
+"displayValue": "27"
 },
 {
 "name": "assistTurnoverRatio",
@@ -40135,15 +40162,15 @@
 "shortDisplayName": "AST/TO",
 "description": "The average number of assists a player or team records per turnover",
 "abbreviation": "AST/TO",
-"value": 0.0,
-"displayValue": "INF"
+"value": 2.0,
+"displayValue": "2.0"
 }
 ],
 "mainStat": {
 "value": "4",
 "label": "AST"
 },
-"summary": "0 TO, 32 MIN"
+"summary": "2 TO, 27 MIN"
 }
 ]
 },

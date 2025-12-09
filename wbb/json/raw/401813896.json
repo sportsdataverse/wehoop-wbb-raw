@@ -144,6 +144,18 @@
 "displayValue": "0",
 "abbreviation": "LL",
 "label": "Largest Lead"
+},
+{
+"name": "leadChanges",
+"displayValue": "0",
+"abbreviation": "LC",
+"label": "Lead Changes"
+},
+{
+"name": "leadPercentage",
+"displayValue": "0",
+"abbreviation": "LPCT",
+"label": "Lead Percentage"
 }
 ],
 "displayOrder": 1,
@@ -166,7 +178,7 @@
 "statistics": [
 {
 "name": "fieldGoalsMade-fieldGoalsAttempted",
-"displayValue": "47-88",
+"displayValue": "47-89",
 "label": "FG"
 },
 {
@@ -199,13 +211,13 @@
 },
 {
 "name": "totalRebounds",
-"displayValue": "59",
+"displayValue": "60",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
 {
 "name": "offensiveRebounds",
-"displayValue": "25",
+"displayValue": "26",
 "abbreviation": "OR",
 "label": "Offensive Rebounds"
 },
@@ -292,6 +304,18 @@
 "displayValue": "63",
 "abbreviation": "LL",
 "label": "Largest Lead"
+},
+{
+"name": "leadChanges",
+"displayValue": "0",
+"abbreviation": "LC",
+"label": "Lead Changes"
+},
+{
+"name": "leadPercentage",
+"displayValue": "98",
+"abbreviation": "LPCT",
+"label": "Lead Percentage"
 }
 ],
 "displayOrder": 2,
@@ -1335,7 +1359,7 @@
 "stats": [
 "8",
 "2",
-"1-3",
+"1-4",
 "0-0",
 "0-0",
 "3",
@@ -1387,12 +1411,12 @@
 "7-9",
 "0-0",
 "3-4",
-"10",
+"11",
 "2",
 "0",
 "2",
 "0",
-"5",
+"6",
 "5",
 "1"
 ]
@@ -1667,15 +1691,15 @@
 "totals": [
 "",
 "113",
-"47-88",
+"47-89",
 "4-16",
 "15-18",
-"59",
+"60",
 "21",
 "11",
 "22",
 "4",
-"25",
+"26",
 "34",
 "12"
 ]
@@ -1955,7 +1979,7 @@
 "displayName": "Rebounds",
 "leaders": [
 {
-"displayValue": "10",
+"displayValue": "11",
 "athlete": {
 "id": "5238305",
 "uid": "s:40~l:54~a:5238305",
@@ -1997,8 +2021,8 @@
 "shortDisplayName": "REB",
 "description": "The total number of rebounds (offensive and defensive).",
 "abbreviation": "REB",
-"value": 10.0,
-"displayValue": "10"
+"value": 11.0,
+"displayValue": "11"
 },
 {
 "name": "defensiveRebounds",
@@ -2015,15 +2039,15 @@
 "shortDisplayName": "OREB",
 "description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
 "abbreviation": "OR",
-"value": 5.0,
-"displayValue": "5"
+"value": 6.0,
+"displayValue": "6"
 }
 ],
 "mainStat": {
-"value": "10",
+"value": "11",
 "label": "REB"
 },
-"summary": "5 DREB, 5 OREB"
+"summary": "5 DREB, 6 OREB"
 }
 ]
 }
@@ -26193,7 +26217,8 @@
 "leagueName": "NCAA Women's Basketball",
 "coverageType": "Final Game Highlight",
 "trackingName": "NCW_One-Play (Marist Red Foxes vs. LSU Tigers: Game Highlights) 2025/11/29 ESHEET",
-"trackingId": "dm_20251129_NCW_marist_red_foxes_vs_lsu_tigers_game_highlights"
+"trackingId": "dm_20251129_NCW_marist_red_foxes_vs_lsu_tigers_game_highlights",
+"program": "NCAA Womens Basketball"
 },
 "contributingPartner": "wsc",
 "contributingSystem": "wsc"
@@ -26458,7 +26483,8 @@
 "leagueName": "NCAA Women's Basketball",
 "coverageType": "OnePlay",
 "trackingName": "NCW_One-Play (Mikaylah Williams makes a great defensive play for the steal) 2025/11/29 ESHEET",
-"trackingId": "dm_20251129_NCW_mikaylah_williams_makes_a_great_defensive_play_for_the_steal"
+"trackingId": "dm_20251129_NCW_mikaylah_williams_makes_a_great_defensive_play_for_the_steal",
+"program": "NCAA Womens Basketball"
 }
 },
 {
@@ -26569,7 +26595,8 @@
 "leagueName": "NCAA Women's Basketball",
 "coverageType": "OnePlay",
 "trackingName": "NCW_One-Play (Divine Bourrage makes a great defensive play for the steal) 2025/11/29 ESHEET",
-"trackingId": "dm_20251129_NCW_divine_bourrage_makes_a_great_defensive_play_for_the_steal"
+"trackingId": "dm_20251129_NCW_divine_bourrage_makes_a_great_defensive_play_for_the_steal",
+"program": "NCAA Womens Basketball"
 }
 },
 {
@@ -26680,7 +26707,8 @@
 "leagueName": "NCAA Women's Basketball",
 "coverageType": "OnePlay",
 "trackingName": "NCW_One-Play (Amiya Joyner with the and-1!) 2025/11/29 ESHEET",
-"trackingId": "dm_20251129_NCW_amiya_joyner_with_the_and1"
+"trackingId": "dm_20251129_NCW_amiya_joyner_with_the_and1",
+"program": "NCAA Womens Basketball"
 }
 },
 {
@@ -26791,7 +26819,8 @@
 "leagueName": "NCAA Women's Basketball",
 "coverageType": "OnePlay",
 "trackingName": "NCW_One-Play (Julia Corsentino sinks the shot at the buzzer) 2025/11/29 ESHEET",
-"trackingId": "dm_20251129_NCW_julia_corsentino_sinks_the_shot_at_the_buzzer"
+"trackingId": "dm_20251129_NCW_julia_corsentino_sinks_the_shot_at_the_buzzer",
+"program": "NCAA Womens Basketball"
 }
 }
 ],

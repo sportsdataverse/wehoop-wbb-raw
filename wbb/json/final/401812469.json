@@ -29308,6 +29308,18 @@
 "displayValue": "10",
 "abbreviation": "LL",
 "label": "Largest Lead"
+},
+{
+"name": "leadChanges",
+"displayValue": "0",
+"abbreviation": "LC",
+"label": "Lead Changes"
+},
+{
+"name": "leadPercentage",
+"displayValue": "0",
+"abbreviation": "LPCT",
+"label": "Lead Percentage"
 }
 ],
 "displayOrder": 1,
@@ -29456,6 +29468,18 @@
 "displayValue": "3",
 "abbreviation": "LL",
 "label": "Largest Lead"
+},
+{
+"name": "leadChanges",
+"displayValue": "0",
+"abbreviation": "LC",
+"label": "Lead Changes"
+},
+{
+"name": "leadPercentage",
+"displayValue": "0",
+"abbreviation": "LPCT",
+"label": "Lead Percentage"
 }
 ],
 "displayOrder": 2,
@@ -30174,7 +30198,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"15",
+"17",
 "5",
 "2-9",
 "1-2",
@@ -30223,7 +30247,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"33",
+"35",
 "22",
 "9-15",
 "0-2",
@@ -30268,7 +30292,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"35",
+"37",
 "4",
 "2-7",
 "0-2",
@@ -30313,7 +30337,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"31",
+"30",
 "6",
 "2-6",
 "0-1",
@@ -30362,7 +30386,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"39",
+"38",
 "12",
 "5-13",
 "0-2",
@@ -30411,7 +30435,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"18",
+"15",
 "2",
 "1-5",
 "0-0",
@@ -30505,7 +30529,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"18",
+"17",
 "2",
 "1-4",
 "0-2",
@@ -31554,8 +31578,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-4",
-"displayValue": "2-4"
+"summary": "3-4",
+"displayValue": "3-4"
 },
 {
 "name": "gamesBehind",
@@ -31601,70 +31625,6 @@
 "dark"
 ],
 "lastUpdated": "2023-01-25T21:35Z"
-}
-]
-},
-{
-"team": "New Haven",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2441/new-haven-chargers",
-"id": "2441",
-"uid": "s:40~l:54~t:2441",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-6",
-"displayValue": "2-6"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2025-09-05T19:03Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2441.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2025-09-05T19:03Z"
 }
 ]
 },
@@ -31729,6 +31689,70 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "New Haven",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2441/new-haven-chargers",
+"id": "2441",
+"uid": "s:40~l:54~t:2441",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-7",
+"displayValue": "2-7"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-09-05T19:03Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2441.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-09-05T19:03Z"
 }
 ]
 },
@@ -32250,8 +32274,8 @@
 "shortDisplayName": "MIN",
 "description": "The total number of minutes played.",
 "abbreviation": "MIN",
-"value": 33.0,
-"displayValue": "33"
+"value": 35.0,
+"displayValue": "35"
 },
 {
 "name": "assistTurnoverRatio",
@@ -32267,7 +32291,7 @@
 "value": "2",
 "label": "AST"
 },
-"summary": "2 TO, 33 MIN"
+"summary": "2 TO, 35 MIN"
 }
 ]
 },

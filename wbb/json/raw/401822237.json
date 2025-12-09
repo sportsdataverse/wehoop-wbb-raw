@@ -144,6 +144,18 @@
 "displayValue": "9",
 "abbreviation": "LL",
 "label": "Largest Lead"
+},
+{
+"name": "leadChanges",
+"displayValue": "0",
+"abbreviation": "LC",
+"label": "Lead Changes"
+},
+{
+"name": "leadPercentage",
+"displayValue": "0",
+"abbreviation": "LPCT",
+"label": "Lead Percentage"
 }
 ],
 "displayOrder": 1,
@@ -292,6 +304,18 @@
 "displayValue": "8",
 "abbreviation": "LL",
 "label": "Largest Lead"
+},
+{
+"name": "leadChanges",
+"displayValue": "0",
+"abbreviation": "LC",
+"label": "Lead Changes"
+},
+{
+"name": "leadPercentage",
+"displayValue": "0",
+"abbreviation": "LPCT",
+"label": "Lead Percentage"
 }
 ],
 "displayOrder": 2,
@@ -1412,55 +1436,6 @@
 ]
 },
 {
-"active": false,
-"athlete": {
-"id": "5312738",
-"uid": "s:40~l:54~a:5312738",
-"guid": "15b027f9-e9d3-315a-9bf3-8a597acd9d1e",
-"displayName": "Payton Richards",
-"shortName": "P. Richards",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5312738/payton-richards",
-"text": "Player Card"
-}
-],
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5312738.png",
-"alt": "Payton Richards"
-},
-"jersey": "1",
-"position": {
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G"
-}
-},
-"starter": false,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"2",
-"0",
-"0-0",
-"0-0",
-"0-0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0"
-]
-},
-{
 "active": true,
 "athlete": {
 "id": "5240251",
@@ -1494,7 +1469,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"19",
+"21",
 "2",
 "1-2",
 "0-0",
@@ -1740,6 +1715,41 @@
 "name": "Forward",
 "displayName": "Forward",
 "abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"ejected": false,
+"stats": []
+},
+{
+"active": false,
+"athlete": {
+"id": "5312738",
+"uid": "s:40~l:54~a:5312738",
+"guid": "15b027f9-e9d3-315a-9bf3-8a597acd9d1e",
+"displayName": "Payton Richards",
+"shortName": "P. Richards",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5312738/payton-richards",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5312738.png",
+"alt": "Payton Richards"
+},
+"jersey": "1",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
 }
 },
 "starter": false,

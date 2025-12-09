@@ -144,6 +144,18 @@
 "displayValue": "32",
 "abbreviation": "LL",
 "label": "Largest Lead"
+},
+{
+"name": "leadChanges",
+"displayValue": "0",
+"abbreviation": "LC",
+"label": "Lead Changes"
+},
+{
+"name": "leadPercentage",
+"displayValue": "98",
+"abbreviation": "LPCT",
+"label": "Lead Percentage"
 }
 ],
 "displayOrder": 1,
@@ -292,6 +304,18 @@
 "displayValue": "0",
 "abbreviation": "LL",
 "label": "Largest Lead"
+},
+{
+"name": "leadChanges",
+"displayValue": "0",
+"abbreviation": "LC",
+"label": "Lead Changes"
+},
+{
+"name": "leadPercentage",
+"displayValue": "0",
+"abbreviation": "LPCT",
+"label": "Lead Percentage"
 }
 ],
 "displayOrder": 2,
@@ -410,7 +434,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"35",
+"29",
 "15",
 "6-10",
 "0-1",
@@ -459,7 +483,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"21",
+"27",
 "6",
 "2-4",
 "0-1",
@@ -508,7 +532,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"24",
+"25",
 "11",
 "5-10",
 "1-5",
@@ -557,7 +581,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"28",
+"27",
 "14",
 "5-6",
 "1-2",
@@ -606,7 +630,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"22",
+"29",
 "11",
 "4-7",
 "3-6",
@@ -802,7 +826,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"18",
+"17",
 "9",
 "3-5",
 "2-3",
@@ -900,7 +924,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"21",
+"15",
 "3",
 "1-3",
 "1-3",
@@ -1151,7 +1175,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"20",
+"25",
 "12",
 "4-7",
 "2-3",
@@ -1200,7 +1224,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"30",
+"28",
 "9",
 "3-14",
 "3-5",
@@ -1245,7 +1269,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"19",
+"24",
 "4",
 "2-10",
 "0-5",
@@ -1290,7 +1314,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"19",
+"29",
 "2",
 "1-3",
 "0-0",
@@ -1335,7 +1359,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"16",
+"22",
 "4",
 "1-4",
 "0-2",
@@ -1384,7 +1408,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"15",
+"7",
 "2",
 "1-1",
 "0-0",
@@ -1429,7 +1453,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"30",
+"25",
 "9",
 "1-6",
 "0-1",
@@ -1478,7 +1502,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"24",
+"18",
 "2",
 "0-2",
 "0-2",
@@ -1527,7 +1551,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"27",
+"22",
 "6",
 "2-6",
 "0-0",
@@ -1904,8 +1928,8 @@
 "shortDisplayName": "MIN",
 "description": "The total number of minutes played.",
 "abbreviation": "MIN",
-"value": 27.0,
-"displayValue": "27"
+"value": 22.0,
+"displayValue": "22"
 },
 {
 "name": "assistTurnoverRatio",
@@ -1921,7 +1945,7 @@
 "value": "3",
 "label": "AST"
 },
-"summary": "3 TO, 27 MIN"
+"summary": "3 TO, 22 MIN"
 }
 ]
 },
@@ -2189,8 +2213,8 @@
 "shortDisplayName": "MIN",
 "description": "The total number of minutes played.",
 "abbreviation": "MIN",
-"value": 22.0,
-"displayValue": "22"
+"value": 29.0,
+"displayValue": "29"
 },
 {
 "name": "assistTurnoverRatio",
@@ -2206,7 +2230,7 @@
 "value": "6",
 "label": "AST"
 },
-"summary": "3 TO, 22 MIN"
+"summary": "3 TO, 29 MIN"
 }
 ]
 },
@@ -24572,8 +24596,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "4-4",
-"displayValue": "4-4"
+"summary": "4-5",
+"displayValue": "4-5"
 },
 {
 "name": "gamesBehind",
@@ -25223,8 +25247,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-4",
-"displayValue": "2-4"
+"summary": "3-4",
+"displayValue": "3-4"
 },
 {
 "name": "gamesBehind",
@@ -25270,70 +25294,6 @@
 "dark"
 ],
 "lastUpdated": "2023-01-25T21:35Z"
-}
-]
-},
-{
-"team": "New Haven",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2441/new-haven-chargers",
-"id": "2441",
-"uid": "s:40~l:54~t:2441",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-6",
-"displayValue": "2-6"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2025-09-05T19:03Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2441.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2025-09-05T19:03Z"
 }
 ]
 },
@@ -25398,6 +25358,70 @@
 "dark"
 ],
 "lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "New Haven",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2441/new-haven-chargers",
+"id": "2441",
+"uid": "s:40~l:54~t:2441",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-7",
+"displayValue": "2-7"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-09-05T19:03Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2441.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-09-05T19:03Z"
 }
 ]
 },

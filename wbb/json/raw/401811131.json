@@ -2345,6 +2345,86 @@
 "isPremium": false
 }
 ],
+"moneyline": {
+"displayName": "Moneyline",
+"shortDisplayName": "ML",
+"home": {
+"close": {
+"odds": "OFF"
+},
+"open": {
+"odds": "OFF"
+}
+},
+"away": {
+"close": {
+"odds": "OFF"
+},
+"open": {
+"odds": "OFF"
+}
+}
+},
+"pointSpread": {
+"displayName": "Spread",
+"shortDisplayName": "Spread",
+"home": {
+"close": {
+"line": "-42.5",
+"odds": "-110"
+},
+"open": {
+"line": "-42.5",
+"odds": "-110"
+}
+},
+"away": {
+"close": {
+"line": "+42.5",
+"odds": "-110"
+},
+"open": {
+"line": "+42.5",
+"odds": "-110"
+}
+}
+},
+"total": {
+"displayName": "Total",
+"shortDisplayName": "Total",
+"over": {
+"close": {
+"line": "o159.5",
+"odds": "-110"
+},
+"open": {
+"line": "o158.5",
+"odds": "-110"
+}
+},
+"under": {
+"close": {
+"line": "u159.5",
+"odds": "-110"
+},
+"open": {
+"line": "u158.5",
+"odds": "-110"
+}
+}
+},
+"link": {
+"text": "See More Odds",
+"language": "en-US",
+"rel": [
+"main",
+"desktop",
+"bets"
+],
+"href": "https://www.draftkings.com",
+"isExternal": true,
+"isPremium": false
+},
 "header": {
 "logo": {
 "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
@@ -6034,7 +6114,7 @@
 "y": 6
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115902885",
@@ -6191,7 +6271,7 @@
 "y": 0
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115903288",
@@ -6267,7 +6347,7 @@
 "y": 22
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115903321",
@@ -6424,7 +6504,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115903551",
@@ -6581,7 +6661,7 @@
 "y": 21
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115903708",
@@ -6890,7 +6970,7 @@
 "y": 1
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115903978",
@@ -7156,7 +7236,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115904217",
@@ -7225,7 +7305,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115904272",
@@ -7301,7 +7381,7 @@
 "y": 15
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115904368",
@@ -7446,7 +7526,7 @@
 "y": 25
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115904492",
@@ -7712,7 +7792,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115905026",
@@ -7781,7 +7861,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115905064",
@@ -8323,7 +8403,7 @@
 "y": 13
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115905609",
@@ -8399,7 +8479,7 @@
 "y": 25
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115905709",
@@ -8551,7 +8631,7 @@
 "y": 15
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115905781",
@@ -8888,7 +8968,7 @@
 "y": 12
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115906798",
@@ -9040,7 +9120,7 @@
 "y": 13
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115906949",
@@ -9116,7 +9196,7 @@
 "y": 15
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115906951",
@@ -9192,7 +9272,7 @@
 "y": 25
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115906998",
@@ -9534,7 +9614,7 @@
 "y": 22
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115907324",
@@ -9722,7 +9802,7 @@
 "y": 14
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115907470",
@@ -9798,7 +9878,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115907506",
@@ -10586,7 +10666,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115908145",
@@ -10700,7 +10780,7 @@
 "y": 26
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115908193",
@@ -10776,7 +10856,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115908195",
@@ -11004,7 +11084,7 @@
 "y": 13
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115908233",
@@ -11080,7 +11160,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115908241",
@@ -11427,7 +11507,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115908352",
@@ -11503,7 +11583,7 @@
 "y": 8
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115908356",
@@ -11579,7 +11659,7 @@
 "y": 20
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115908361",
@@ -11691,7 +11771,7 @@
 "y": 4
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115908433",
@@ -11924,7 +12004,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115908501",
@@ -12000,7 +12080,7 @@
 "y": 4
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115908527",
@@ -12076,7 +12156,7 @@
 "y": 3
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115908529",
@@ -12228,7 +12308,7 @@
 "y": 14
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115908572",
@@ -12456,7 +12536,7 @@
 "y": 16
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115908647",
@@ -12879,7 +12959,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115908781",
@@ -13166,7 +13246,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115909634",
@@ -13437,7 +13517,7 @@
 "y": 17
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115909893",
@@ -13703,7 +13783,7 @@
 "y": 10
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115910107",
@@ -13817,7 +13897,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115910258",
@@ -14202,7 +14282,7 @@
 "y": 26
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115910590",
@@ -14316,7 +14396,7 @@
 "y": 1
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115910627",
@@ -14392,7 +14472,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115910637",
@@ -14886,7 +14966,7 @@
 "y": 12
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115910921",
@@ -15048,7 +15128,7 @@
 "y": 1
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115911021",
@@ -15124,7 +15204,7 @@
 "y": 25
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115911039",
@@ -16029,7 +16109,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115911967",
@@ -16136,7 +16216,7 @@
 "y": 0
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115912085",
@@ -16430,7 +16510,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115915024",
@@ -16506,7 +16586,7 @@
 "y": 26
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115915070",
@@ -16772,7 +16852,7 @@
 "y": 26
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115915291",
@@ -16891,7 +16971,7 @@
 "y": 12
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115915369",
@@ -17482,7 +17562,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115916608",
@@ -17558,7 +17638,7 @@
 "y": 19
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115916744",
@@ -17634,7 +17714,7 @@
 "y": 4
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115916746",
@@ -17900,7 +17980,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115916883",
@@ -18235,7 +18315,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115917084",
@@ -18722,7 +18802,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115917508",
@@ -18905,7 +18985,7 @@
 "y": 22
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115917593",
@@ -19050,7 +19130,7 @@
 "y": 3
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115917664",
@@ -19240,7 +19320,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115917735",
@@ -19309,7 +19389,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115917743",
@@ -19385,7 +19465,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115917819",
@@ -19699,7 +19779,7 @@
 "y": 0
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115917891",
@@ -20181,7 +20261,7 @@
 "y": 9
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115918240",
@@ -20257,7 +20337,7 @@
 "y": 1
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115918245",
@@ -20412,7 +20492,7 @@
 "y": 0
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115918290",
@@ -20488,7 +20568,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115918294",
@@ -20602,7 +20682,7 @@
 "y": 2
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115918302",
@@ -20868,7 +20948,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115918336",
@@ -20937,7 +21017,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115918340",
@@ -21125,7 +21205,7 @@
 "y": 28
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115918400",
@@ -21270,7 +21350,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115918445",
@@ -22030,7 +22110,7 @@
 "y": 13
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115919013",
@@ -22220,7 +22300,7 @@
 "y": 5
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115919126",
@@ -22296,7 +22376,7 @@
 "y": 4
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115919128",
@@ -22410,7 +22490,7 @@
 "y": 5
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115919173",
@@ -22486,7 +22566,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115919175",
@@ -22562,7 +22642,7 @@
 "y": 4
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115919214",
@@ -22821,7 +22901,7 @@
 "y": 2
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115919242",
@@ -22935,7 +23015,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115919324",
@@ -23011,7 +23091,7 @@
 "y": 12
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115919326",
@@ -23353,7 +23433,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115919399",
@@ -23422,7 +23502,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115919436",
@@ -23726,7 +23806,7 @@
 "y": 2
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115919613",
@@ -24013,7 +24093,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115920105",
@@ -24082,7 +24162,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811131115920162",
@@ -24151,7 +24231,7 @@
 "y": 0
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115920197",
@@ -24265,7 +24345,7 @@
 "y": 7
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115920298",
@@ -24341,7 +24421,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115920322",
@@ -24645,7 +24725,7 @@
 "y": -1
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115920418",
@@ -24721,7 +24801,7 @@
 "y": 1
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115920470",
@@ -24835,7 +24915,7 @@
 "y": 12
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115920508",
@@ -24987,7 +25067,7 @@
 "y": -1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115920575",
@@ -25441,7 +25521,7 @@
 "y": 27
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115920707",
@@ -25636,7 +25716,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115920747",
@@ -25862,7 +25942,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115920915",
@@ -25981,7 +26061,7 @@
 "y": 18
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115920968",
@@ -26095,7 +26175,7 @@
 "y": -2
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115920977",
@@ -26278,7 +26358,7 @@
 "y": 1
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115921093",
@@ -26354,7 +26434,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115921095",
@@ -26696,7 +26776,7 @@
 "y": 1
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811131115921287",
@@ -26772,7 +26852,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115921295",
@@ -26886,7 +26966,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811131115921336",

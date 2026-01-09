@@ -313,7 +313,7 @@
 },
 {
 "name": "leadPercentage",
-"displayValue": "100",
+"displayValue": "99",
 "abbreviation": "LPCT",
 "label": "Percent Led"
 }
@@ -2657,6 +2657,86 @@
 "isPremium": false
 }
 ],
+"moneyline": {
+"displayName": "Moneyline",
+"shortDisplayName": "ML",
+"home": {
+"close": {
+"odds": "OFF"
+},
+"open": {
+"odds": "OFF"
+}
+},
+"away": {
+"close": {
+"odds": "OFF"
+},
+"open": {
+"odds": "OFF"
+}
+}
+},
+"pointSpread": {
+"displayName": "Spread",
+"shortDisplayName": "Spread",
+"home": {
+"close": {
+"line": "-43.5",
+"odds": "-110"
+},
+"open": {
+"line": "-37.5",
+"odds": "-110"
+}
+},
+"away": {
+"close": {
+"line": "+43.5",
+"odds": "-110"
+},
+"open": {
+"line": "+37.5",
+"odds": "-110"
+}
+}
+},
+"total": {
+"displayName": "Total",
+"shortDisplayName": "Total",
+"over": {
+"close": {
+"line": "o137.5",
+"odds": "-110"
+},
+"open": {
+"line": "o135.5",
+"odds": "-110"
+}
+},
+"under": {
+"close": {
+"line": "u137.5",
+"odds": "-110"
+},
+"open": {
+"line": "u135.5",
+"odds": "-110"
+}
+}
+},
+"link": {
+"text": "See More Odds",
+"language": "en-US",
+"rel": [
+"main",
+"desktop",
+"bets"
+],
+"href": "https://www.draftkings.com",
+"isExternal": true,
+"isPremium": false
+},
 "header": {
 "logo": {
 "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
@@ -5837,7 +5917,7 @@
 "y": 20
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116012030",
@@ -5913,7 +5993,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116012068",
@@ -6103,7 +6183,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401825606116012368",
@@ -6179,7 +6259,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116012461",
@@ -6369,7 +6449,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116012849",
@@ -6526,7 +6606,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116013041",
@@ -6602,7 +6682,7 @@
 "y": 13
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116013083",
@@ -6678,7 +6758,7 @@
 "y": 17
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116013127",
@@ -6754,7 +6834,7 @@
 "y": 23
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116013267",
@@ -7134,7 +7214,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401825606116013454",
@@ -7497,7 +7577,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116014342",
@@ -7996,7 +8076,7 @@
 "y": 18
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116014840",
@@ -8222,7 +8302,7 @@
 "y": 20
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116015276",
@@ -8564,7 +8644,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116015603",
@@ -8671,7 +8751,7 @@
 "y": -2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116015664",
@@ -8923,7 +9003,7 @@
 "y": 16
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116015903",
@@ -8999,7 +9079,7 @@
 "y": 8
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116015958",
@@ -9769,7 +9849,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116017026",
@@ -9952,7 +10032,7 @@
 "y": 22
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116017119",
@@ -10325,7 +10405,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116017548",
@@ -10477,7 +10557,7 @@
 "y": 7
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116017676",
@@ -10971,7 +11051,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116017965",
@@ -11123,7 +11203,7 @@
 "y": 4
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116018155",
@@ -11736,7 +11816,7 @@
 "y": 7
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116020158",
@@ -11850,7 +11930,7 @@
 "y": 3
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116020226",
@@ -12002,7 +12082,7 @@
 "y": 0
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116020268",
@@ -12382,7 +12462,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401825606116020507",
@@ -12458,7 +12538,7 @@
 "y": 13
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116020632",
@@ -13064,7 +13144,7 @@
 "y": 19
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116021703",
@@ -13216,7 +13296,7 @@
 "y": 18
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116021837",
@@ -13292,7 +13372,7 @@
 "y": 15
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116021873",
@@ -13368,7 +13448,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116021876",
@@ -13672,7 +13752,7 @@
 "y": 1
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116022391",
@@ -13748,7 +13828,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116022451",
@@ -14232,7 +14312,7 @@
 "y": 11
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116025894",
@@ -14308,7 +14388,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116025932",
@@ -14427,7 +14507,7 @@
 "y": 4
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116026192",
@@ -14769,7 +14849,7 @@
 "y": 16
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116026657",
@@ -14921,7 +15001,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401825606116027180",
@@ -14990,7 +15070,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401825606116027184",
@@ -15228,7 +15308,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116027719",
@@ -15406,7 +15486,7 @@
 "y": 15
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116029079",
@@ -15819,7 +15899,7 @@
 "y": 24
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116030651",
@@ -16159,7 +16239,7 @@
 "y": 17
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116031225",
@@ -16278,7 +16358,7 @@
 "y": 4
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116031344",
@@ -16435,7 +16515,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116031483",
@@ -16511,7 +16591,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116031485",
@@ -16732,7 +16812,7 @@
 "y": 4
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116031644",
@@ -17029,7 +17109,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116032346",
@@ -17105,7 +17185,7 @@
 "y": 21
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116032423",
@@ -17181,7 +17261,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116032447",
@@ -17364,7 +17444,7 @@
 "y": 16
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116032673",
@@ -17521,7 +17601,7 @@
 "y": 3
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116032942",
@@ -17732,7 +17812,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116034159",
@@ -17927,7 +18007,7 @@
 "y": 16
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116034392",
@@ -18079,7 +18159,7 @@
 "y": 15
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116034550",
@@ -18155,7 +18235,7 @@
 "y": 1
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116034581",
@@ -18730,7 +18810,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116035381",
@@ -18963,7 +19043,7 @@
 "y": 23
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116035818",
@@ -19115,7 +19195,7 @@
 "y": 3
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116036067",
@@ -19409,7 +19489,7 @@
 "y": 11
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116037389",
@@ -19630,7 +19710,7 @@
 "y": 19
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116037647",
@@ -19863,7 +19943,7 @@
 "y": 20
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116038195",
@@ -20524,7 +20604,7 @@
 "y": 16
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401825606116038787",
@@ -20600,7 +20680,7 @@
 "y": 8
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401825606116038850",
@@ -20752,7 +20832,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401825606116039026",
@@ -21338,8 +21418,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "12-3",
-"displayValue": "12-3"
+"summary": "13-3",
+"displayValue": "13-3"
 },
 {
 "name": "gamesBehind",
@@ -21348,8 +21428,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5,
-"displayValue": "1.5"
+"value": 1.0,
+"displayValue": "1"
 },
 {
 "id": "9",
@@ -21359,8 +21439,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "5-1",
-"displayValue": "5-1"
+"summary": "6-1",
+"displayValue": "6-1"
 }
 ],
 "logo": [
@@ -21402,8 +21482,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-5",
-"displayValue": "10-5"
+"summary": "11-5",
+"displayValue": "11-5"
 },
 {
 "name": "gamesBehind",
@@ -21412,8 +21492,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5,
-"displayValue": "2.5"
+"value": 2.0,
+"displayValue": "2"
 },
 {
 "id": "9",
@@ -21423,8 +21503,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "4-2",
-"displayValue": "4-2"
+"summary": "5-2",
+"displayValue": "5-2"
 }
 ],
 "logo": [
@@ -21466,8 +21546,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-5",
-"displayValue": "10-5"
+"summary": "11-5",
+"displayValue": "11-5"
 },
 {
 "name": "gamesBehind",
@@ -21476,8 +21556,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5,
-"displayValue": "2.5"
+"value": 2.0,
+"displayValue": "2"
 },
 {
 "id": "9",
@@ -21487,8 +21567,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "4-2",
-"displayValue": "4-2"
+"summary": "5-2",
+"displayValue": "5-2"
 }
 ],
 "logo": [
@@ -21594,8 +21674,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "7-8",
-"displayValue": "7-8"
+"summary": "7-9",
+"displayValue": "7-9"
 },
 {
 "name": "gamesBehind",
@@ -21604,8 +21684,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5,
-"displayValue": "3.5"
+"value": 4.0,
+"displayValue": "4"
 },
 {
 "id": "9",
@@ -21615,8 +21695,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "3-3",
-"displayValue": "3-3"
+"summary": "3-4",
+"displayValue": "3-4"
 }
 ],
 "logo": [
@@ -21641,134 +21721,6 @@
 "dark"
 ],
 "lastUpdated": "2023-03-17T13:36Z"
-}
-]
-},
-{
-"team": "Providence",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2507/providence-friars",
-"id": "2507",
-"uid": "s:40~l:54~t:2507",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "9-7",
-"displayValue": "9-7"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4.0,
-"displayValue": "4"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "2-3",
-"displayValue": "2-3"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-03-15T19:32Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2507.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-03-17T15:50Z"
-}
-]
-},
-{
-"team": "Xavier",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2752/xavier-musketeers",
-"id": "2752",
-"uid": "s:40~l:54~t:2752",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "9-6",
-"displayValue": "9-6"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4.5,
-"displayValue": "4.5"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "2-4",
-"displayValue": "2-4"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-12-13T21:29Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2752.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-12-13T21:30Z"
 }
 ]
 },
@@ -21833,6 +21785,134 @@
 "dark"
 ],
 "lastUpdated": "2022-12-09T15:58Z"
+}
+]
+},
+{
+"team": "Providence",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2507/providence-friars",
+"id": "2507",
+"uid": "s:40~l:54~t:2507",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "9-8",
+"displayValue": "9-8"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4.5,
+"displayValue": "4.5"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-4",
+"displayValue": "2-4"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-03-15T19:32Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2507.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-03-17T15:50Z"
+}
+]
+},
+{
+"team": "Xavier",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2752/xavier-musketeers",
+"id": "2752",
+"uid": "s:40~l:54~t:2752",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "9-7",
+"displayValue": "9-7"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5.0,
+"displayValue": "5"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-5",
+"displayValue": "2-5"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-12-13T21:29Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2752.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-12-13T21:30Z"
 }
 ]
 },

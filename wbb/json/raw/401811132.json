@@ -153,7 +153,7 @@
 },
 {
 "name": "leadPercentage",
-"displayValue": "100",
+"displayValue": "99",
 "abbreviation": "LPCT",
 "label": "Percent Led"
 }
@@ -2434,6 +2434,86 @@
 "isPremium": false
 }
 ],
+"moneyline": {
+"displayName": "Moneyline",
+"shortDisplayName": "ML",
+"home": {
+"close": {
+"odds": "+5000"
+},
+"open": {
+"odds": "+5000"
+}
+},
+"away": {
+"close": {
+"odds": "-100000"
+},
+"open": {
+"odds": "-100000"
+}
+}
+},
+"pointSpread": {
+"displayName": "Spread",
+"shortDisplayName": "Spread",
+"home": {
+"close": {
+"line": "+27.5",
+"odds": "-110"
+},
+"open": {
+"line": "+28.5",
+"odds": "-110"
+}
+},
+"away": {
+"close": {
+"line": "-27.5",
+"odds": "-110"
+},
+"open": {
+"line": "-28.5",
+"odds": "-110"
+}
+}
+},
+"total": {
+"displayName": "Total",
+"shortDisplayName": "Total",
+"over": {
+"close": {
+"line": "o137.5",
+"odds": "-110"
+},
+"open": {
+"line": "o136.5",
+"odds": "-110"
+}
+},
+"under": {
+"close": {
+"line": "u137.5",
+"odds": "-110"
+},
+"open": {
+"line": "u136.5",
+"odds": "-110"
+}
+}
+},
+"link": {
+"text": "See More Odds",
+"language": "en-US",
+"rel": [
+"main",
+"desktop",
+"bets"
+],
+"href": "https://www.draftkings.com",
+"isExternal": true,
+"isPremium": false
+},
 "header": {
 "logo": {
 "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
@@ -5832,7 +5912,7 @@
 "y": 21
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116073096",
@@ -6336,7 +6416,7 @@
 "y": 9
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116073515",
@@ -6412,7 +6492,7 @@
 "y": 23
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116073522",
@@ -6564,7 +6644,7 @@
 "y": 12
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116073674",
@@ -6678,7 +6758,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116073780",
@@ -6754,7 +6834,7 @@
 "y": 23
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116073889",
@@ -6868,7 +6948,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116073892",
@@ -7557,7 +7637,7 @@
 "y": 28
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116074496",
@@ -7813,7 +7893,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811132116075185",
@@ -8345,7 +8425,7 @@
 "y": 6
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116075570",
@@ -8421,7 +8501,7 @@
 "y": 22
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116075598",
@@ -8882,7 +8962,7 @@
 "y": 18
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116075996",
@@ -9153,7 +9233,7 @@
 "y": 11
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116076285",
@@ -9447,7 +9527,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116076895",
@@ -9832,7 +9912,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116077234",
@@ -9908,7 +9988,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116077238",
@@ -10276,7 +10356,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116077920",
@@ -10345,7 +10425,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116077988",
@@ -10459,7 +10539,7 @@
 "y": 24
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116078054",
@@ -10535,7 +10615,7 @@
 "y": 3
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116078092",
@@ -10763,7 +10843,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811132116078211",
@@ -10832,7 +10912,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811132116078255",
@@ -10908,7 +10988,7 @@
 "y": 4
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116078280",
@@ -11022,7 +11102,7 @@
 "y": 15
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116078379",
@@ -11098,7 +11178,7 @@
 "y": 3
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116078423",
@@ -11369,7 +11449,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116078741",
@@ -11944,7 +12024,7 @@
 "y": 11
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116079182",
@@ -12058,7 +12138,7 @@
 "y": 12
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116079290",
@@ -12134,7 +12214,7 @@
 "y": 27
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116079303",
@@ -12210,7 +12290,7 @@
 "y": 2
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116079342",
@@ -12821,7 +12901,7 @@
 "y": 23
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116079926",
@@ -13130,7 +13210,7 @@
 "y": 3
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116080119",
@@ -13401,7 +13481,7 @@
 "y": 3
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116080283",
@@ -13743,7 +13823,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811132116080405",
@@ -13819,7 +13899,7 @@
 "y": 15
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116080512",
@@ -15071,7 +15151,7 @@
 "y": 16
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116084062",
@@ -15185,7 +15265,7 @@
 "y": 3
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116084158",
@@ -15836,7 +15916,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116084522",
@@ -16168,7 +16248,7 @@
 "y": 3
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116085355",
@@ -16244,7 +16324,7 @@
 "y": 15
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116085384",
@@ -16434,7 +16514,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116085674",
@@ -16510,7 +16590,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116085699",
@@ -16624,7 +16704,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811132116085857",
@@ -16731,7 +16811,7 @@
 "y": 6
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116085902",
@@ -16807,7 +16887,7 @@
 "y": 18
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116085905",
@@ -16883,7 +16963,7 @@
 "y": 1
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116085923",
@@ -16997,7 +17077,7 @@
 "y": 6
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116086066",
@@ -17111,7 +17191,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116086145",
@@ -17496,7 +17576,7 @@
 "y": 3
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116086358",
@@ -17572,7 +17652,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116086459",
@@ -17686,7 +17766,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811132116086514",
@@ -17793,7 +17873,7 @@
 "y": 4
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116086630",
@@ -17869,7 +17949,7 @@
 "y": 1
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116086649",
@@ -17983,7 +18063,7 @@
 "y": 19
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116086704",
@@ -18128,7 +18208,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811132116086803",
@@ -18197,7 +18277,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811132116086841",
@@ -18463,7 +18543,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811132116087174",
@@ -18952,7 +19032,7 @@
 "y": 22
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116088006",
@@ -19028,7 +19108,7 @@
 "y": 0
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116088076",
@@ -19408,7 +19488,7 @@
 "y": 8
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116088232",
@@ -19527,7 +19607,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116088374",
@@ -19829,7 +19909,7 @@
 "y": 14
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116088685",
@@ -19905,7 +19985,7 @@
 "y": 3
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116088719",
@@ -19981,7 +20061,7 @@
 "y": 1
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116088752",
@@ -20202,7 +20282,7 @@
 "y": 12
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116088883",
@@ -20435,7 +20515,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116089032",
@@ -20744,7 +20824,7 @@
 "y": 3
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116089058",
@@ -21124,7 +21204,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811132116089241",
@@ -21200,7 +21280,7 @@
 "y": 19
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116089243",
@@ -21276,7 +21356,7 @@
 "y": 26
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116089347",
@@ -21960,7 +22040,7 @@
 "y": 5
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116089943",
@@ -22112,7 +22192,7 @@
 "y": 25
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116090148",
@@ -22188,7 +22268,7 @@
 "y": 20
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116090150",
@@ -22264,7 +22344,7 @@
 "y": 2
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116090154",
@@ -22713,7 +22793,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811132116090450",
@@ -22782,7 +22862,7 @@
 "y": 0
 },
 "pointsAttempted": 1,
-"shortDescription": "+1 Point"
+"shortDescription": "Missed FT"
 },
 {
 "id": "401811132116090464",
@@ -22851,7 +22931,7 @@
 "y": 18
 },
 "pointsAttempted": 3,
-"shortDescription": "+3 Points"
+"shortDescription": "Missed 3PT"
 },
 {
 "id": "401811132116090614",
@@ -22927,7 +23007,7 @@
 "y": 12
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116090671",
@@ -23155,7 +23235,7 @@
 "y": 3
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116090872",
@@ -23262,7 +23342,7 @@
 "y": 14
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116090882",
@@ -23338,7 +23418,7 @@
 "y": 4
 },
 "pointsAttempted": 2,
-"shortDescription": "+2 Points"
+"shortDescription": "Missed FG"
 },
 {
 "id": "401811132116090966",
@@ -25003,8 +25083,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "17-0",
-"displayValue": "17-0"
+"summary": "18-0",
+"displayValue": "18-0"
 },
 {
 "name": "gamesBehind",
@@ -25024,8 +25104,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "2-0",
-"displayValue": "2-0"
+"summary": "3-0",
+"displayValue": "3-0"
 }
 ],
 "logo": [
@@ -25067,8 +25147,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-0",
-"displayValue": "15-0"
+"summary": "16-0",
+"displayValue": "16-0"
 },
 {
 "name": "gamesBehind",
@@ -25088,8 +25168,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "2-0",
-"displayValue": "2-0"
+"summary": "3-0",
+"displayValue": "3-0"
 }
 ],
 "logo": [
@@ -25118,70 +25198,6 @@
 ]
 },
 {
-"team": "Kentucky",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/96/kentucky-wildcats",
-"id": "96",
-"uid": "s:40~l:54~t:96",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "15-1",
-"displayValue": "15-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "2-0",
-"displayValue": "2-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2025-12-19T23:48Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/96.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2025-12-19T23:47Z"
-}
-]
-},
-{
 "team": "South Carolina",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2579/south-carolina-gamecocks",
 "id": "2579",
@@ -25195,8 +25211,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-1",
-"displayValue": "15-1"
+"summary": "16-1",
+"displayValue": "16-1"
 },
 {
 "name": "gamesBehind",
@@ -25216,8 +25232,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "2-0",
-"displayValue": "2-0"
+"summary": "3-0",
+"displayValue": "3-0"
 }
 ],
 "logo": [
@@ -25246,70 +25262,6 @@
 ]
 },
 {
-"team": "Oklahoma",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/201/oklahoma-sooners",
-"id": "201",
-"uid": "s:40~l:54~t:201",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "14-1",
-"displayValue": "14-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "2-0",
-"displayValue": "2-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2025-12-19T23:48Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/201.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2025-12-19T23:47Z"
-}
-]
-},
-{
 "team": "Tennessee",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2633/tennessee-lady-volunteers",
 "id": "2633",
@@ -25323,8 +25275,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "10-3",
-"displayValue": "10-3"
+"summary": "11-3",
+"displayValue": "11-3"
 },
 {
 "name": "gamesBehind",
@@ -25344,8 +25296,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "2-0",
-"displayValue": "2-0"
+"summary": "3-0",
+"displayValue": "3-0"
 }
 ],
 "logo": [
@@ -25387,8 +25339,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-1",
-"displayValue": "15-1"
+"summary": "16-1",
+"displayValue": "16-1"
 },
 {
 "name": "gamesBehind",
@@ -25408,8 +25360,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "1-1",
-"displayValue": "1-1"
+"summary": "2-1",
+"displayValue": "2-1"
 }
 ],
 "logo": [
@@ -25438,10 +25390,10 @@
 ]
 },
 {
-"team": "Georgia",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/61/georgia-lady-bulldogs",
-"id": "61",
-"uid": "s:40~l:54~t:61",
+"team": "Kentucky",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/96/kentucky-wildcats",
+"id": "96",
+"uid": "s:40~l:54~t:96",
 "stats": [
 {
 "id": "0",
@@ -25451,8 +25403,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "15-1",
-"displayValue": "15-1"
+"summary": "15-2",
+"displayValue": "15-2"
 },
 {
 "name": "gamesBehind",
@@ -25472,13 +25424,13 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "1-1",
-"displayValue": "1-1"
+"summary": "2-1",
+"displayValue": "2-1"
 }
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -25489,7 +25441,7 @@
 "lastUpdated": "2025-12-19T23:48Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/96.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -25502,10 +25454,10 @@
 ]
 },
 {
-"team": "Mississippi State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/344/mississippi-state-bulldogs",
-"id": "344",
-"uid": "s:40~l:54~t:344",
+"team": "Oklahoma",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/201/oklahoma-sooners",
+"id": "201",
+"uid": "s:40~l:54~t:201",
 "stats": [
 {
 "id": "0",
@@ -25536,13 +25488,13 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "1-1",
-"displayValue": "1-1"
+"summary": "2-1",
+"displayValue": "2-1"
 }
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -25553,7 +25505,7 @@
 "lastUpdated": "2025-12-19T23:48Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/344.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/201.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -25579,8 +25531,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "14-3",
-"displayValue": "14-3"
+"summary": "15-3",
+"displayValue": "15-3"
 },
 {
 "name": "gamesBehind",
@@ -25600,8 +25552,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "1-1",
-"displayValue": "1-1"
+"summary": "2-1",
+"displayValue": "2-1"
 }
 ],
 "logo": [
@@ -25643,8 +25595,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "14-2",
-"displayValue": "14-2"
+"summary": "15-2",
+"displayValue": "15-2"
 },
 {
 "name": "gamesBehind",
@@ -25664,8 +25616,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-2",
-"displayValue": "0-2"
+"summary": "1-2",
+"displayValue": "1-2"
 }
 ],
 "logo": [
@@ -25694,10 +25646,10 @@
 ]
 },
 {
-"team": "Florida",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/57/florida-gators",
-"id": "57",
-"uid": "s:40~l:54~t:57",
+"team": "Georgia",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/61/georgia-lady-bulldogs",
+"id": "61",
+"uid": "s:40~l:54~t:61",
 "stats": [
 {
 "id": "0",
@@ -25707,8 +25659,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "12-5",
-"displayValue": "12-5"
+"summary": "15-2",
+"displayValue": "15-2"
 },
 {
 "name": "gamesBehind",
@@ -25728,8 +25680,200 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-2",
-"displayValue": "0-2"
+"summary": "1-2",
+"displayValue": "1-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-19T23:48Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-19T23:47Z"
+}
+]
+},
+{
+"team": "Mississippi State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/344/mississippi-state-bulldogs",
+"id": "344",
+"uid": "s:40~l:54~t:344",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "14-3",
+"displayValue": "14-3"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.0,
+"displayValue": "2"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "1-2",
+"displayValue": "1-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-19T23:48Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/344.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-19T23:47Z"
+}
+]
+},
+{
+"team": "Texas A&M",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/245/texas-am-aggies",
+"id": "245",
+"uid": "s:40~l:54~t:245",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "8-4",
+"displayValue": "8-4"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.0,
+"displayValue": "2"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "1-2",
+"displayValue": "1-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-19T23:48Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/245.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-19T23:47Z"
+}
+]
+},
+{
+"team": "Florida",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/57/florida-gators",
+"id": "57",
+"uid": "s:40~l:54~t:57",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "12-6",
+"displayValue": "12-6"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.0,
+"displayValue": "3"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-3",
+"displayValue": "0-3"
 }
 ],
 "logo": [
@@ -25771,8 +25915,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "12-5",
-"displayValue": "12-5"
+"summary": "12-6",
+"displayValue": "12-6"
 },
 {
 "name": "gamesBehind",
@@ -25781,8 +25925,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.0,
-"displayValue": "2"
+"value": 3.0,
+"displayValue": "3"
 },
 {
 "id": "9",
@@ -25792,8 +25936,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-2",
-"displayValue": "0-2"
+"summary": "0-3",
+"displayValue": "0-3"
 }
 ],
 "logo": [
@@ -25835,8 +25979,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-5",
-"displayValue": "11-5"
+"summary": "11-6",
+"displayValue": "11-6"
 },
 {
 "name": "gamesBehind",
@@ -25845,8 +25989,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.0,
-"displayValue": "2"
+"value": 3.0,
+"displayValue": "3"
 },
 {
 "id": "9",
@@ -25856,8 +26000,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-2",
-"displayValue": "0-2"
+"summary": "0-3",
+"displayValue": "0-3"
 }
 ],
 "logo": [
@@ -25899,8 +26043,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-6",
-"displayValue": "11-6"
+"summary": "11-7",
+"displayValue": "11-7"
 },
 {
 "name": "gamesBehind",
@@ -25909,8 +26053,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.0,
-"displayValue": "2"
+"value": 3.0,
+"displayValue": "3"
 },
 {
 "id": "9",
@@ -25920,8 +26064,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "0-2",
-"displayValue": "0-2"
+"summary": "0-3",
+"displayValue": "0-3"
 }
 ],
 "logo": [
@@ -25938,70 +26082,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/8.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2025-12-19T23:47Z"
-}
-]
-},
-{
-"team": "Texas A&M",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/245/texas-am-aggies",
-"id": "245",
-"uid": "s:40~l:54~t:245",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "7-4",
-"displayValue": "7-4"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.0,
-"displayValue": "2"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-2",
-"displayValue": "0-2"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2025-12-19T23:48Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/245.png",
 "width": 500,
 "height": 500,
 "alt": "",

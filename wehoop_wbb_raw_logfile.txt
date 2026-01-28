@@ -54276,3 +54276,162 @@ INFO:__main__:Scraping WBB PBP for 2026...
 INFO:__main__:Number of Games: 3802
 INFO:__main__:14.763082766532898 minutes to download 3802 game play-by-plays.
 INFO:__main__:Finished WBB PBP for 2026...
+INFO:__main__:Scraping WBB schedules for year 2026...
+INFO:__main__:3.0131809592247008 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping WBB PBP for 2026...
+INFO:__main__:Number of Games: 3810
+ERROR:__main__:TypeError: game_id = 401819785
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+ERROR:__main__:TypeError: game_id = 401829537
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+ERROR:__main__:TypeError: game_id = 401828793
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+ERROR:__main__:TypeError: game_id = 401828794
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+ERROR:__main__:TypeError: game_id = 401828792
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+ERROR:__main__:TypeError: game_id = 401825232
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+ERROR:__main__:TypeError: game_id = 401819639
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+ERROR:__main__:TypeError: game_id = 401824766
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+ERROR:__main__:TypeError: game_id = 401823200
+ Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "python/scrape_wbb_json.py", line 78, in download_game
+    result = sdv.wbb.helper_wbb_pbp(
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 101, in helper_wbb_pbp
+    pbp_txt, init = helper_wbb_game_data(pbp_txt, init)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/wbb/wbb_pbp.py", line 139, in helper_wbb_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+TypeError: list indices must be integers or slices, not str
+INFO:__main__:17.007588052749632 minutes to download 3810 game play-by-plays.
+INFO:__main__:Finished WBB PBP for 2026...

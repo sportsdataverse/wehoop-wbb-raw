@@ -1726,6 +1726,8 @@
 "clock": 600.0
 },
 "overtime": {
+"displayName": "Quarter",
+"slug": "quarter",
 "clock": 300.0
 }
 },
@@ -21168,8 +21170,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "11-14",
-"displayValue": "11-14"
+"summary": "12-14",
+"displayValue": "12-14"
 },
 {
 "name": "gamesBehind",
@@ -21178,8 +21180,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.0,
-"displayValue": "6"
+"value": 5.5,
+"displayValue": "5.5"
 },
 {
 "id": "9",
@@ -21189,8 +21191,8 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "8-6",
-"displayValue": "8-6"
+"summary": "9-6",
+"displayValue": "9-6"
 }
 ],
 "logo": [
@@ -21475,10 +21477,10 @@
 ]
 },
 {
-"team": "Milwaukee",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/270/milwaukee-panthers",
-"id": "270",
-"uid": "s:40~l:54~t:270",
+"team": "Wright State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2750/wright-state-raiders",
+"id": "2750",
+"uid": "s:40~l:54~t:2750",
 "stats": [
 {
 "id": "0",
@@ -21515,70 +21517,6 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/270.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2019-12-17T15:38Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/270.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2019-12-17T15:38Z"
-}
-]
-},
-{
-"team": "Wright State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2750/wright-state-raiders",
-"id": "2750",
-"uid": "s:40~l:54~t:2750",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "7-18",
-"displayValue": "7-18"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 11.0,
-"displayValue": "11"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "3-11",
-"displayValue": "3-11"
-}
-],
-"logo": [
-{
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2750.png",
 "width": 500,
 "height": 500,
@@ -21603,10 +21541,10 @@
 ]
 },
 {
-"team": "Detroit Mercy",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2174/detroit-mercy-titans",
-"id": "2174",
-"uid": "s:40~l:54~t:2174",
+"team": "Milwaukee",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/270/milwaukee-panthers",
+"id": "270",
+"uid": "s:40~l:54~t:270",
 "stats": [
 {
 "id": "0",
@@ -21616,8 +21554,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-18",
-"displayValue": "5-18"
+"summary": "8-19",
+"displayValue": "8-19"
 },
 {
 "name": "gamesBehind",
@@ -21637,8 +21575,72 @@
 "shortDisplayName": "CONF",
 "description": "Conference Record",
 "type": "vsconf",
-"summary": "3-11",
-"displayValue": "3-11"
+"summary": "4-12",
+"displayValue": "4-12"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/270.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-12-17T15:38Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/270.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2019-12-17T15:38Z"
+}
+]
+},
+{
+"team": "Detroit Mercy",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2174/detroit-mercy-titans",
+"id": "2174",
+"uid": "s:40~l:54~t:2174",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "5-19",
+"displayValue": "5-19"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11.5,
+"displayValue": "11.5"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "3-12",
+"displayValue": "3-12"
 }
 ],
 "logo": [

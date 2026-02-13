@@ -27901,14 +27901,6 @@
 "displayValue": "3-10"
 }
 ],
-"timeoutsUsed": 0,
-"timeoutsRemaining": 0,
-"fouls": {
-"teamFouls": 0,
-"teamFoulsCurrent": 0,
-"foulsToGive": 0,
-"bonusState": "DOUBLE"
-},
 "possession": false
 },
 {
@@ -28138,20 +28130,10 @@
 "displayValue": "10-3"
 }
 ],
-"timeoutsUsed": 0,
-"timeoutsRemaining": 0,
-"fouls": {
-"teamFouls": 0,
-"teamFoulsCurrent": 0,
-"foulsToGive": 0,
-"bonusState": "DOUBLE"
-},
 "possession": false
 }
 ],
 "status": {
-"displayClock": "0:00",
-"period": 4,
 "type": {
 "id": "3",
 "name": "STATUS_FINAL",
@@ -28159,10 +28141,8 @@
 "completed": true,
 "description": "Final",
 "detail": "Final",
-"shortDetail": "Final",
-"statusPrimary": "Final"
-},
-"displayPeriod": "4th"
+"shortDetail": "Final"
+}
 },
 "broadcasts": [
 {
@@ -28589,6 +28569,18 @@
 "links": [
 {
 "rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/game/_/gameId/401827862/army-boston-u",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
 "boxscore",
 "desktop",
 "event"
@@ -28804,6 +28796,8 @@
 "clock": 600.0
 },
 "overtime": {
+"displayName": "Quarter",
+"slug": "quarter",
 "clock": 300.0
 }
 },
@@ -30323,6 +30317,7 @@
 "grass": false,
 "images": []
 },
+"attendance": 330,
 "officials": [
 {
 "fullName": "Elizabeth Kuzmeski",
@@ -30601,14 +30596,6 @@
 "displayValue": "3-10"
 }
 ],
-"timeoutsUsed": 0,
-"timeoutsRemaining": 0,
-"fouls": {
-"teamFouls": 0,
-"teamFoulsCurrent": 0,
-"foulsToGive": 0,
-"bonusState": "DOUBLE"
-},
 "possession": false
 },
 {
@@ -30838,20 +30825,10 @@
 "displayValue": "10-3"
 }
 ],
-"timeoutsUsed": 0,
-"timeoutsRemaining": 0,
-"fouls": {
-"teamFouls": 0,
-"teamFoulsCurrent": 0,
-"foulsToGive": 0,
-"bonusState": "DOUBLE"
-},
 "possession": false
 }
 ],
 "status": {
-"displayClock": "0:00",
-"period": 4,
 "type": {
 "id": "3",
 "name": "STATUS_FINAL",
@@ -30859,10 +30836,8 @@
 "completed": true,
 "description": "Final",
 "detail": "Final",
-"shortDetail": "Final",
-"statusPrimary": "Final"
-},
-"displayPeriod": "4th"
+"shortDetail": "Final"
+}
 },
 "broadcasts": [
 {

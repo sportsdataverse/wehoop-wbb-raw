@@ -1,0 +1,99 @@
+name: Daily WBB Raw Scrape
+
+# Umbrella workflow that runs every per-dataset Python scraper in sequence and
+# commits the cumulative output in a single push. The single push is intentional
+# — wehoop_wbb_data_trigger.yaml watches push events on main and fires the
+# repository_dispatch to wehoop-wbb-data, so one push per day means one
+# downstream dispatch per day.
+#
+# Cadence is staggered ~2h ahead of wehoop-wbb-data/daily_wbb.yml (which fires
+# at 07:00 UTC) so the parser side always sees fresh raw JSON. The month/day
+# windows mirror the in-season ranges used by the data repo's daily workflow
+# so we don't burn compute scraping during the offseason.
+
+on:
+  schedule:
+    - cron: '0 5 18-31 10 *'  # late October (season opens)
+    - cron: '0 5 * 11-12 *'   # November - December
+    - cron: '0 5 * 1-3 *'     # January - March (regular season + conference tourneys)
+    - cron: '0 5 1-12 4 *'    # early April (NCAA tournament tail)
+  workflow_dispatch:
+    inputs:
+      start_year:
+        description: 'Start season year (YYYY, e.g. 2026 for 2025-26)'
+        required: false
+        default: '2026'
+      end_year:
+        description: 'End season year (YYYY, e.g. 2026 for 2025-26)'
+        required: false
+        default: '2026'
+      rescrape:
+        description: 'Force re-scrape of files already on disk'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+jobs:
+  daily_wbb_raw:
+    runs-on: ubuntu-latest
+    env:
+      START_YEAR: ${{ github.event.inputs.start_year || '2026' }}
+      END_YEAR: ${{ github.event.inputs.end_year || '2026' }}
+      RESCRAPE: ${{ github.event.inputs.rescrape || 'false' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.SDV_GH_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+          pip install "sportsdataverse>=0.0.50" tqdm
+
+      - name: Scrape schedules
+        run: python python/scrape_wbb_schedules.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+
+      - name: Scrape per-game JSON (PBP)
+        run: python python/scrape_wbb_json.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+
+      - name: Scrape team rosters
+        run: python python/scrape_wbb_team_rosters.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+
+      - name: Scrape player season stats
+        run: python python/scrape_wbb_player_stats.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+
+      - name: Scrape team season stats
+        run: python python/scrape_wbb_team_stats.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+
+      - name: Scrape standings
+        run: python python/scrape_wbb_standings.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+
+      - name: Scrape per-game rosters
+        run: python python/scrape_wbb_game_rosters.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+
+      - name: Scrape per-game officials
+        run: python python/scrape_wbb_officials.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+
+      - name: Commit any new JSON files
+        run: |
+          git config --local user.name  "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add wbb/
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore(raw): daily scrape $(date -u +%Y-%m-%d) (run ${{ github.run_id }})"
+            git push
+          else
+            echo "No new files to commit"
+          fi

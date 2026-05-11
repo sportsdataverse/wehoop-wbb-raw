@@ -1,4 +1,11 @@
-on: [push, workflow_dispatch]
+# Only fire when the scraped data tree actually changes. Pushes that
+# touch only scripts, workflows, .gitignore, or other repo plumbing
+# should NOT wake the downstream wehoop-wbb-data parser.
+on:
+  push:
+    paths:
+      - 'wbb/**'
+  workflow_dispatch:
 
 name: wehoop WBB Data trigger
 

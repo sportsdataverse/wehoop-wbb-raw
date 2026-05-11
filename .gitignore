@@ -41,3 +41,8 @@ vignettes/*.pdf
 # Python bytecode caches
 __pycache__/
 *.pyc
+
+# Scraper run logs: keep tracked under logs/ (committed by daily_wbb_scraper.sh),
+# ignore *.log anywhere else.
+*.log
+!logs/*.log

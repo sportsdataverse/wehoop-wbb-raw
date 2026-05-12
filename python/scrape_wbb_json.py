@@ -22,7 +22,7 @@ from pathlib import Path
 from tqdm import tqdm
 
 
-logging.basicConfig(level=logging.INFO, filename = 'wehoop_wbb_raw_logfile.txt')
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", filename='wehoop_wbb_raw_logfile.txt')
 logger = logging.getLogger(__name__)
 
 path_to_raw = "wbb/json/raw"

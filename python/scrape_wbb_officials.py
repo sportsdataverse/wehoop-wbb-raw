@@ -46,6 +46,7 @@ logger = logging.getLogger(__name__)
 
 PATH_TO_OUTPUT = "wbb/officials/json"
 PATH_TO_SCHEDULES = "wbb/schedules/parquet"
+MAX_RETRIES = 5
 MAX_THREADS = 8
 
 
@@ -67,7 +68,7 @@ def fetch_game_ids_for_season(season: int) -> list[int]:
     logger.warning(
         f"No schedule parquet at {schedule_path}; falling back to espn_wbb_schedule()"
     )
-    sched = sdv.wbb.espn_wbb_schedule(season=season, groups=50)
+    sched = sdv.wbb.espn_wbb_schedule(season=season, groups=50, num_retries=MAX_RETRIES)
     if hasattr(sched, "to_pandas"):
         sched = sched.to_pandas()
     if "status_type_completed" in sched.columns:
@@ -107,7 +108,8 @@ def download_officials(
         return f"skip {game_id}"
     try:
         raw: dict[str, Any] = espn_wbb_event_officials(
-            game_id=int(game_id), raw=True
+            game_id=int(game_id), raw=True,
+            num_retries=MAX_RETRIES,
         )
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(raw, f, indent=0, sort_keys=False)

@@ -47,6 +47,7 @@ logger = logging.getLogger(__name__)
 PATH_TO_OUTPUT = "wbb/team_stats/json"
 PATH_TO_SCHEDULES = "wbb/schedules/parquet"
 PATH_TO_ROSTERS = "wbb/team_rosters/json"
+MAX_RETRIES = 5
 MAX_THREADS = 8
 
 
@@ -83,7 +84,7 @@ def fetch_team_ids_for_season(season: int) -> list[int]:
         f"No schedule parquet at {schedule_path} and no cached rosters; "
         f"falling back to espn_wbb_teams()"
     )
-    teams = sdv.wbb.espn_wbb_teams(groups=50, return_as_pandas=True)
+    teams = sdv.wbb.espn_wbb_teams(groups=50, return_as_pandas=True, num_retries=MAX_RETRIES)
     return sorted(teams["team_id"].astype(int).tolist())
 
 
@@ -118,7 +119,8 @@ def download_team_stats(
         return f"skip {team_id}"
     try:
         raw: dict[str, Any] = espn_wbb_team_stats(
-            team_id=int(team_id), season=int(season), raw=True
+            team_id=int(team_id), season=int(season), raw=True,
+            num_retries=MAX_RETRIES,
         )
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(raw, f, indent=0, sort_keys=False)

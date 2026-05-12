@@ -30,6 +30,7 @@ path_to_final = "wbb/json/final"
 path_to_errors = "wbb/errors"
 run_processing = True
 rescrape_all = False
+MAX_RETRIES = 5
 MAX_THREADS = 30
 
 def download_game_pbps(games, process, path_to_raw, path_to_final):
@@ -47,7 +48,7 @@ def download_game(game, process, path_to_raw, path_to_final):
     Path(path_to_raw_json).mkdir(parents = True, exist_ok = True)
     Path(path_to_final_json).mkdir(parents = True, exist_ok = True)
     try:
-        g = sdv.wbb.espn_wbb_pbp(game_id = game, raw = True)
+        g = sdv.wbb.espn_wbb_pbp(game_id = game, raw = True, num_retries=MAX_RETRIES)
         with open(f"{path_to_raw_json}{game}.json", "w") as f:
             json.dump(g, f, indent = 0, sort_keys = False)
     except (TypeError) as e:

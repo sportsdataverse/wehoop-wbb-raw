@@ -42,6 +42,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 PATH_TO_OUTPUT = "wbb/standings/json"
+MAX_RETRIES = 5
 # Standings is a single payload per season; default to one worker so
 # concurrent runs across many seasons don't surprise ESPN.
 DEFAULT_THREADS = 1
@@ -54,7 +55,7 @@ def download_standings(
     if out_path.exists() and not rerun_existing:
         return f"skip {season}"
     try:
-        raw: dict[str, Any] = espn_wbb_standings(season=int(season), raw=True)
+        raw: dict[str, Any] = espn_wbb_standings(season=int(season), raw=True, num_retries=MAX_RETRIES)
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(raw, f, indent=0, sort_keys=False)
         return f"ok {season}"

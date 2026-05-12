@@ -51,6 +51,7 @@ logger = logging.getLogger(__name__)
 PATH_TO_OUTPUT = "wbb/game_rosters/json"
 PATH_TO_SCHEDULES = "wbb/schedules/parquet"
 SUMMARY_URL = "http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/summary?event={game_id}"
+MAX_RETRIES = 5
 MAX_THREADS = 8
 
 
@@ -112,7 +113,7 @@ def download_game_rosters(
         return f"skip {game_id}"
     try:
         url = SUMMARY_URL.format(game_id=int(game_id))
-        raw: dict[str, Any] = download(url).json()
+        raw: dict[str, Any] = download(url, num_retries=MAX_RETRIES).json()
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(raw, f, indent=0, sort_keys=False)
         return f"ok {game_id}"

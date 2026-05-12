@@ -24,6 +24,7 @@ logger = logging.getLogger(__name__)
 
 path_to_schedules = "wbb/schedules"
 final_file_name = "wbb/wbb_schedule_master.parquet"
+MAX_RETRIES = 5
 MAX_THREADS = 30
 
 def download_game_schedules(seasons, path_to_schedules):
@@ -35,11 +36,11 @@ def download_game_schedules(seasons, path_to_schedules):
 
 def download_schedule(season, path_to_schedules = None):
     logger.info(f"Scraping WBB schedules for year {season}...")
-    df = sdv.wbb.espn_wbb_calendar(season, return_as_pandas = True)
+    df = sdv.wbb.espn_wbb_calendar(season, return_as_pandas = True, num_retries=MAX_RETRIES)
     calendar = df["dateURL"].str.replace("-","").tolist()
     ev = pd.DataFrame()
     for d in calendar:
-        date_schedule = sdv.wbb.espn_wbb_schedule(dates = d, return_as_pandas = True)
+        date_schedule = sdv.wbb.espn_wbb_schedule(dates = d, return_as_pandas = True, num_retries=MAX_RETRIES)
         ev = pd.concat([ev, date_schedule], axis = 0, ignore_index = True)
     ev = ev[ev["season_type"].isin([2, 3])]
     ev = ev.drop_duplicates(subset=["game_id"], ignore_index = True)

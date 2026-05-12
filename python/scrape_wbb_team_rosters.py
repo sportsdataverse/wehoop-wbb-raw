@@ -41,6 +41,7 @@ logger = logging.getLogger(__name__)
 
 PATH_TO_OUTPUT = "wbb/team_rosters/json"
 PATH_TO_SCHEDULES = "wbb/schedules/parquet"
+MAX_RETRIES = 5
 MAX_THREADS = 8
 
 
@@ -62,7 +63,7 @@ def fetch_team_ids_for_season(season):
     logger.warning(
         f"No schedule parquet at {schedule_path}; falling back to espn_wbb_teams()"
     )
-    teams = sdv.wbb.espn_wbb_teams(return_as_pandas=True)
+    teams = sdv.wbb.espn_wbb_teams(return_as_pandas=True, num_retries=MAX_RETRIES)
     return sorted(teams["team_id"].astype(int).tolist())
 
 
@@ -88,7 +89,7 @@ def download_team_roster(season, team_id, output_dir, rerun_existing):
     if out_path.exists() and not rerun_existing:
         return f"skip {team_id}"
     try:
-        raw = espn_wbb_team_roster(team_id=int(team_id), season=int(season), raw=True)
+        raw = espn_wbb_team_roster(team_id=int(team_id), season=int(season), raw=True, num_retries=MAX_RETRIES)
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(raw, f, indent=0, sort_keys=False)
         return f"ok {team_id}"

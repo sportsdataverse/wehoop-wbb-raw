@@ -36,6 +36,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 PATH_TO_OUTPUT = "wbb/player_season_stats/json"
+MAX_RETRIES = 5
 PATH_TO_ROSTERS = "wbb/team_rosters/json"
 # Player stats endpoint is per-athlete; ESPN rate-limits more aggressively
 # here than on the per-team roster endpoint, so default cores is lower.
@@ -120,7 +121,8 @@ def download_player_stats(season, athlete_id, output_dir, rerun_existing):
         return f"skip {athlete_id}"
     try:
         raw = espn_wbb_player_stats(
-            athlete_id=int(athlete_id), season=int(season), raw=True
+            athlete_id=int(athlete_id), season=int(season), raw=True,
+            num_retries=MAX_RETRIES,
         )
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(raw, f, indent=0, sort_keys=False)

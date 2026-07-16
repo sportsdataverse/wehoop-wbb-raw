@@ -1,13 +1,16 @@
-
 """Scrape ESPN women's-college-basketball athlete season stats.
 
 Output: ``wbb/player_season_stats/json/{season}/{athlete_id}.json`` --
 raw ESPN response. The downstream R parser in ``wehoop-wbb-data`` reads
 these JSONs to build the per-season tidy player-stats frame.
 
-Athlete ids are sourced from the rosters JSONs produced by
-``scrape_wbb_team_rosters.py`` -- run that script first for the same
-``--start_year``/``--end_year`` window.
+Athlete ids are sourced from the ``espn_womens_college_basketball_player_boxscores``
+release on sportsdataverse-data -- the union of every athlete who appeared in
+a box score during the requested season. That release is the authoritative
+"who played in season Y" list; ESPN's ``/teams/{id}/roster`` endpoint ignores
+the ``season`` query param and only ever returns the *current* roster, so it
+cannot supply historical rosters (see the NBA sibling,
+``hoopR-nba-raw/python/scrape_nba_player_stats.py``, for the same pattern).
 
 Requirements:
     Depends on the ``espn_wbb_player_stats`` helper added to
@@ -17,6 +20,7 @@ Requirements:
 import argparse
 import concurrent.futures
 import gc
+import io
 import json
 import logging
 import time
@@ -27,6 +31,7 @@ from tqdm import tqdm
 # Imported direct from the module path because the new helpers are not yet
 # re-exported via sportsdataverse.wbb.__init__.
 from sportsdataverse.wbb.wbb_player_stats import espn_wbb_player_stats
+from sportsdataverse.dl_utils import download
 
 
 logging.basicConfig(
@@ -37,65 +42,39 @@ logger = logging.getLogger(__name__)
 
 PATH_TO_OUTPUT = "wbb/player_season_stats/json"
 MAX_RETRIES = 5
-PATH_TO_ROSTERS = "wbb/team_rosters/json"
+PLAYER_BOX_RELEASE = (
+    "https://github.com/sportsdataverse/sportsdataverse-data/releases/"
+    "download/espn_womens_college_basketball_player_boxscores/player_box_{season}.parquet"
+)
 # Player stats endpoint is per-athlete; ESPN rate-limits more aggressively
 # here than on the per-team roster endpoint, so default cores is lower.
 DEFAULT_THREADS = 4
 
 
-def _athlete_ids_from_roster(payload):
-    """Extract integer athlete ids from one ESPN team-roster response.
-
-    Handles the two shapes ESPN ships:
-      * ``athletes`` is a flat list of athlete dicts; pull ``id`` directly.
-      * ``athletes`` is a list of position-group buckets each carrying an
-        ``items`` array; flatten then pull ``id``.
-    """
-    raw = payload.get("athletes") if isinstance(payload, dict) else None
-    if not isinstance(raw, list) or not raw:
-        return []
-
-    if isinstance(raw[0], dict) and "items" in raw[0]:
-        athletes = []
-        for group in raw:
-            items = group.get("items") or []
-            if isinstance(items, list):
-                athletes.extend(a for a in items if isinstance(a, dict))
-    else:
-        athletes = [a for a in raw if isinstance(a, dict)]
-
-    ids = []
-    for a in athletes:
-        aid = a.get("id")
-        if aid is None:
-            continue
-        try:
-            ids.append(int(aid))
-        except (TypeError, ValueError):
-            continue
-    return ids
-
-
 def fetch_athlete_ids_for_season(season):
-    """Walk ``team_rosters/json/{season}/*.json`` and collect unique athlete ids."""
-    season_dir = Path(f"{PATH_TO_ROSTERS}/{season}")
-    if not season_dir.exists():
-        logger.warning(
-            f"No rosters at {season_dir}; run scrape_wbb_team_rosters.py first."
-        )
-        return []
+    """Read the espn_womens_college_basketball_player_boxscores release
+    parquet for ``season`` and return the unique integer athlete ids that
+    appeared that year. Never raises -- any failure (network, missing
+    season, bad parquet) is logged and yields an empty list so one bad
+    season can't abort a multi-season run."""
+    url = PLAYER_BOX_RELEASE.format(season=int(season))
+    try:
+        import pandas as pd
 
-    seen = set()
-    for roster_path in sorted(season_dir.glob("*.json")):
-        try:
-            with open(roster_path, "r", encoding="utf-8") as f:
-                payload = json.load(f)
-        except Exception as e:
-            logger.warning(f"Could not read {roster_path}: {e!r}")
-            continue
-        for aid in _athlete_ids_from_roster(payload):
-            seen.add(aid)
-    return sorted(seen)
+        resp = download(url)
+        content = resp.content if hasattr(resp, "content") else resp
+        df = pd.read_parquet(io.BytesIO(content), columns=["athlete_id"])
+        ids = sorted(
+            {
+                int(x)
+                for x in df["athlete_id"].dropna().unique()
+                if str(x).strip().isdigit() or isinstance(x, (int, float))
+            }
+        )
+        return ids
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"could not list player_box athletes for {season}: {e!r}")
+        return []
 
 
 def download_player_stats_batch(season, athlete_ids, output_dir, rerun_existing, cores):
@@ -121,16 +100,16 @@ def download_player_stats(season, athlete_id, output_dir, rerun_existing):
         return f"skip {athlete_id}"
     try:
         raw = espn_wbb_player_stats(
-            athlete_id=int(athlete_id), season=int(season), raw=True,
+            athlete_id=int(athlete_id),
+            season=int(season),
+            raw=True,
             num_retries=MAX_RETRIES,
         )
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(raw, f, indent=0, sort_keys=False)
         return f"ok {athlete_id}"
     except Exception as e:
-        logger.warning(
-            f"season={season} athlete_id={athlete_id} failed: {e!r}"
-        )
+        logger.warning(f"season={season} athlete_id={athlete_id} failed: {e!r}")
         return f"err {athlete_id}: {e}"
 
 

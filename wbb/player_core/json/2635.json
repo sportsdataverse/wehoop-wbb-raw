@@ -1,0 +1,66 @@
+{
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/2635?lang=en&region=us",
+"id": "2635",
+"uid": "s:40~l:54~a:2635",
+"guid": "3a7f24f2-f739-ca38-5df1-c548e6def432",
+"type": "basketball",
+"alternateIds": {
+"sdr": "2116753"
+},
+"firstName": "Seimone",
+"lastName": "Augustus",
+"fullName": "Seimone Augustus",
+"displayName": "Seimone Augustus",
+"shortName": "S. Augustus",
+"weight": 174.0,
+"displayWeight": "174 lbs",
+"height": 72.0,
+"displayHeight": "6' 0\"",
+"age": 37,
+"dateOfBirth": "1984-04-30T07:00Z",
+"birthPlace": {
+"city": "Baton Rouge",
+"state": "LA",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"college": {
+"$ref": "http://sports.core.api.espn.com/v2/colleges/99?lang=en&region=us"
+},
+"slug": "seimone-augustus",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
+"position": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/0?lang=en&region=us",
+"id": "0",
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA",
+"leaf": false
+},
+"linked": true,
+"proAthlete": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/695?lang=en&region=us"
+},
+"active": false,
+"draft": {
+"displayText": "Year: 2006 Round: 1 Pick: 1",
+"round": 1,
+"year": 2006,
+"selection": 1
+},
+"status": {
+"id": "2",
+"name": "Inactive",
+"type": "inactive",
+"abbreviation": "Inactive"
+}
+}

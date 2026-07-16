@@ -1,0 +1,213 @@
+{
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/4900096?lang=en&region=us",
+"id": "4900096",
+"uid": "s:40~l:54~a:4900096",
+"guid": "40f80a46-da50-3de3-87d8-1b76523ed2f9",
+"type": "basketball",
+"alternateIds": {
+"sdr": "4900096"
+},
+"firstName": "Lovie",
+"lastName": "Malone",
+"fullName": "Lovie Malone",
+"displayName": "Lovie Malone",
+"shortName": "L. Malone",
+"height": 70.0,
+"displayHeight": "5' 10\"",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4900096/lovie-malone",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/4900096/lovie-malone",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:4900096&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/4900096/lovie-malone",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:4900096&section=gamelog",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/4900096/lovie-malone",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:4900096&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/4900096/lovie-malone",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:4900096&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4900096/lovie-malone",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:4900096",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Dayton",
+"state": "OH",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"slug": "lovie-malone",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4900096.png",
+"alt": "Lovie Malone"
+},
+"jersey": "30",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
+"position": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
+"leaf": false
+},
+"linked": true,
+"team": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2674?lang=en&region=us"
+},
+"experience": {
+"years": 1,
+"displayValue": "Freshman",
+"abbreviation": "FR"
+},
+"active": false,
+"status": {
+"id": "2",
+"name": "Inactive",
+"type": "inactive",
+"abbreviation": "Inactive"
+}
+}

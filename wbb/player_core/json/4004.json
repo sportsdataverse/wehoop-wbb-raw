@@ -1,0 +1,56 @@
+{
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/4004?lang=en&region=us",
+"id": "4004",
+"uid": "s:40~l:54~a:4004",
+"guid": "f096837b-9cc9-223b-bbff-35a8aefbfd21",
+"type": "basketball",
+"alternateIds": {
+"sdr": "2147533"
+},
+"firstName": "Carrie",
+"lastName": "Moore",
+"fullName": "Carrie Moore",
+"displayName": "Carrie Moore",
+"shortName": "C. Moore",
+"height": 69.0,
+"displayHeight": "5' 9\"",
+"birthPlace": {
+"city": "Lathrup Village",
+"state": "MI",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"college": {
+"$ref": "http://sports.core.api.espn.com/v2/colleges/2711?lang=en&region=us"
+},
+"slug": "carrie-moore",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
+"position": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/0?lang=en&region=us",
+"id": "0",
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA",
+"leaf": false
+},
+"linked": true,
+"proAthlete": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/748?lang=en&region=us"
+},
+"active": false,
+"status": {
+"id": "2",
+"name": "Inactive",
+"type": "inactive",
+"abbreviation": "Inactive"
+}
+}

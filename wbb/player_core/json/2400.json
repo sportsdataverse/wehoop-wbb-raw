@@ -1,0 +1,60 @@
+{
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/2400?lang=en&region=us",
+"id": "2400",
+"uid": "s:40~l:54~a:2400",
+"guid": "df7bd1b1-4c0e-fa91-d7c6-58215d14c831",
+"type": "basketball",
+"alternateIds": {
+"sdr": "2069162"
+},
+"firstName": "Michelle",
+"lastName": "Campbell",
+"fullName": "Michelle Campbell",
+"displayName": "Michelle Campbell",
+"shortName": "M. Campbell",
+"weight": 183.0,
+"displayWeight": "183 lbs",
+"height": 74.0,
+"displayHeight": "6' 2\"",
+"age": 30,
+"dateOfBirth": "1984-05-12T07:00Z",
+"birthPlace": {
+"city": "Princeton",
+"state": "NJ",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"college": {
+"$ref": "http://sports.core.api.espn.com/v2/colleges/164?lang=en&region=us"
+},
+"slug": "michelle-campbell",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
+"position": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/0?lang=en&region=us",
+"id": "0",
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA",
+"leaf": false
+},
+"linked": true,
+"proAthlete": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/2069162?lang=en&region=us"
+},
+"active": false,
+"status": {
+"id": "2",
+"name": "Inactive",
+"type": "inactive",
+"abbreviation": "Inactive"
+}
+}

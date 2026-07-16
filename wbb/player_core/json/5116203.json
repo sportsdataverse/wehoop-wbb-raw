@@ -1,0 +1,210 @@
+{
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5116203?lang=en&region=us",
+"id": "5116203",
+"uid": "s:40~l:54~a:5116203",
+"guid": "bbd6d4be-b3d7-3a38-9371-a0a09c80c5af",
+"type": "basketball",
+"alternateIds": {
+"sdr": "5116203"
+},
+"firstName": "Alexis",
+"lastName": "Brown",
+"fullName": "Alexis Brown",
+"displayName": "Alexis Brown",
+"shortName": "A. Brown",
+"height": 65.0,
+"displayHeight": "5' 5\"",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5116203/alexis-brown",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5116203&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5116203/alexis-brown",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5116203&section=gamelog",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5116203/alexis-brown",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5116203&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5116203/alexis-brown",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5116203&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5116203/alexis-brown",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5116203",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Dallas",
+"state": "TX",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"slug": "alexis-brown",
+"jersey": "1",
+"hand": {
+"type": "LEFT",
+"abbreviation": "L",
+"displayValue": "Left"
+},
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
+"position": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/4?lang=en&region=us",
+"id": "4",
+"name": "Point Guard",
+"displayName": "Point Guard",
+"abbreviation": "PG",
+"leaf": true,
+"parent": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us"
+}
+},
+"linked": true,
+"team": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2353?lang=en&region=us"
+},
+"statistics": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5116203/statistics?lang=en&region=us"
+},
+"experience": {
+"years": 4,
+"displayValue": "Senior",
+"abbreviation": "SR"
+},
+"active": true,
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+},
+"statisticslog": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5116203/statisticslog?lang=en&region=us"
+}
+}

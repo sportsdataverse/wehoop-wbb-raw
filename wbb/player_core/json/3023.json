@@ -1,0 +1,66 @@
+{
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/3023?lang=en&region=us",
+"id": "3023",
+"uid": "s:40~l:54~a:3023",
+"guid": "99914daf-240a-2fba-ff01-ea59c0902860",
+"type": "basketball",
+"alternateIds": {
+"sdr": "2118651"
+},
+"firstName": "Candice",
+"lastName": "Dupree",
+"fullName": "Candice Dupree",
+"displayName": "Candice Dupree",
+"shortName": "C. Dupree",
+"weight": 178.0,
+"displayWeight": "178 lbs",
+"height": 74.0,
+"displayHeight": "6' 2\"",
+"age": 41,
+"dateOfBirth": "1984-08-16T07:00Z",
+"birthPlace": {
+"city": "Oklahoma City",
+"state": "OK",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"college": {
+"$ref": "http://sports.core.api.espn.com/v2/colleges/218?lang=en&region=us"
+},
+"slug": "candice-dupree",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
+"position": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/0?lang=en&region=us",
+"id": "0",
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA",
+"leaf": false
+},
+"linked": true,
+"proAthlete": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/689?lang=en&region=us"
+},
+"active": false,
+"draft": {
+"displayText": "Year: 2006 Round: 1 Pick: 6",
+"round": 1,
+"year": 2006,
+"selection": 6
+},
+"status": {
+"id": "2",
+"name": "Inactive",
+"type": "inactive",
+"abbreviation": "Inactive"
+}
+}

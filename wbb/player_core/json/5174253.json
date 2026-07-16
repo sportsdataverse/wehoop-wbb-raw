@@ -1,0 +1,222 @@
+{
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5174253?lang=en&region=us",
+"id": "5174253",
+"uid": "s:40~l:54~a:5174253",
+"guid": "3c0d70b0-7c81-38ea-a401-85f888bfcba5",
+"type": "basketball",
+"alternateIds": {
+"sdr": "5174253"
+},
+"firstName": "Carly",
+"lastName": "Keats",
+"fullName": "Carly Keats",
+"displayName": "Carly Keats",
+"shortName": "C. Keats",
+"height": 67.0,
+"displayHeight": "5' 7\"",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5174253/carly-keats",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5174253/carly-keats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5174253&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5174253/carly-keats",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5174253&section=gamelog",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5174253/carly-keats",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5174253&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5174253/carly-keats",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5174253&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5174253/carly-keats",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5174253",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Philadelphia",
+"state": "MS",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"slug": "carly-keats",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5174253.png",
+"alt": "Carly Keats"
+},
+"jersey": "21",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
+"position": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/4?lang=en&region=us",
+"id": "4",
+"name": "Point Guard",
+"displayName": "Point Guard",
+"abbreviation": "PG",
+"leaf": true,
+"parent": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us"
+}
+},
+"linked": true,
+"team": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2572?lang=en&region=us"
+},
+"statistics": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5174253/statistics?lang=en&region=us"
+},
+"experience": {
+"years": 4,
+"displayValue": "Senior",
+"abbreviation": "SR"
+},
+"active": true,
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+},
+"statisticslog": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5174253/statisticslog?lang=en&region=us"
+}
+}

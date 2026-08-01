@@ -98,6 +98,11 @@ jobs:
       - name: Scrape per-game officials
         run: uv run python python/espn_wbb_09_officials_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
 
+      - name: Build schedule master + coverage index
+        # LAST on purpose: it stamps each season schedule with the has_* capture
+        # flags, which only means anything once steps 02-09 have finished.
+        run: uv run python python/espn_wbb_99_schedule_master_creation.py --start_year "$START_YEAR" --end_year "$END_YEAR"
+
       - name: Commit any new JSON files
         run: |
           git config --local user.name  "github-actions[bot]"

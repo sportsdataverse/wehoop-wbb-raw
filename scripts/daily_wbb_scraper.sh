@@ -66,6 +66,9 @@ do
         run_scraper standings    python3 python/espn_wbb_07_standings_scrape.py           -s $i -e $i -r $RESCRAPE
         run_scraper game_rosters python3 python/espn_wbb_08_game_rosters_scrape.py        -s $i -e $i -r $RESCRAPE
         run_scraper officials    python3 python/espn_wbb_09_officials_scrape.py           -s $i -e $i -r $RESCRAPE
+        # Last: stamps has_* capture flags onto the season schedule, then
+        # unions every season into the master + coverage index.
+        run_scraper master       python3 python/espn_wbb_99_schedule_master_creation.py   -s $i -e $i
         git pull >> /dev/null
         git add wbb/* >> /dev/null
         git pull >> /dev/null

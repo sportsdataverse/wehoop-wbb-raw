@@ -37,6 +37,7 @@ EXPECTED = [
     "espn_wbb_07_standings_scrape.py",
     "espn_wbb_08_game_rosters_scrape.py",
     "espn_wbb_09_officials_scrape.py",
+    "espn_wbb_99_schedule_master_creation.py",
 ]
 
 

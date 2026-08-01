@@ -1,7 +1,6 @@
 import argparse
 import concurrent.futures
 import logging
-import os
 import pyreadr
 import pandas as pd
 import sportsdataverse as sdv
@@ -59,27 +58,25 @@ def main():
         end_year = args.end_year
     years_arr = range(start_year, end_year + 1)
 
-    if args.rescrape == True:
-        t0 = time.time()
-        download_game_schedules(years_arr, path_to_schedules)
-        t1 = time.time()
-        logger.info(
-            f"{(t1 - t0) / 60} minutes to download {len(years_arr)} years of season schedules."
-        )
+    # Schedules are ALWAYS refreshed for the requested seasons. Unlike a game
+    # payload, a season schedule is never "done": scores, status and new games
+    # land every day, so "already on disk" is not a reason to skip it.
+    #
+    # This used to be guarded by `if args.rescrape == True`, which inverted the
+    # flag's meaning everywhere else in the repo (there it means "re-fetch what
+    # is already captured"). It only ever ran because argparse(type=bool) made
+    # rescrape permanently True; with the flag parsed correctly, that guard
+    # would have silently stopped the daily schedule scrape and left main()
+    # rebuilding the master from stale parquets.
+    t0 = time.time()
+    download_game_schedules(years_arr, path_to_schedules)
+    t1 = time.time()
+    logger.info(f"{(t1 - t0) / 60} minutes to download {len(years_arr)} years of season schedules.")
 
-    parquet_files = [
-        pos_parquet.replace(".parquet", "")
-        for pos_parquet in os.listdir(path_to_schedules + "/parquet")
-        if pos_parquet.endswith(".parquet")
-    ]
-    glued_data = pd.DataFrame()
-    for index, js in enumerate(parquet_files):
-        x = pd.read_parquet(
-            f"{path_to_schedules}/parquet/{js}.parquet", engine="auto", columns=None
-        )
-        glued_data = pd.concat([glued_data, x], axis=0)
-    glued_data["status_display_clock"] = glued_data["status_display_clock"].astype(str)
-    glued_data.to_parquet(final_file_name, index=False)
+    # The schedule master used to be glued together here. It moved to
+    # espn_wbb_99_schedule_master_creation.py, which runs LAST: this script is
+    # step 01, so a master built here cannot know what steps 02-09 captured,
+    # and the master's whole job is to record exactly that.
     gc.collect()
 
 

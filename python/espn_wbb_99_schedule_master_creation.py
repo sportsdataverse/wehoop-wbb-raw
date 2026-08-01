@@ -23,7 +23,6 @@ import argparse
 from pathlib import Path
 
 import polars as pl
-
 from wbb_raw_scrape.master import build_coverage, build_master
 from wbb_raw_scrape.schedule import add_capture_columns
 

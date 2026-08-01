@@ -1,13 +1,14 @@
 import argparse
 import concurrent.futures
-import logging
-import pyreadr
-import pandas as pd
-import sportsdataverse as sdv
-import time
 import gc
+import logging
+import time
 from itertools import repeat
 from pathlib import Path
+
+import pandas as pd
+import pyreadr
+import sportsdataverse as sdv
 from wbb_raw_scrape.cli import str2bool
 
 logging.basicConfig(level=logging.INFO, filename="wehoop_wbb_raw_logfile.txt")

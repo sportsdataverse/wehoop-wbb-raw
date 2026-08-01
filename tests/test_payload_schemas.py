@@ -18,7 +18,6 @@ import random
 from pathlib import Path
 
 import pytest
-
 from sportsdataverse.schemas import validate_payload
 
 REPO_ROOT = Path(__file__).resolve().parents[1]

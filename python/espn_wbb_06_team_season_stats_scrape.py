@@ -24,19 +24,17 @@ import gc
 import logging
 import time
 from pathlib import Path
-
-from wbb_raw_scrape.persist import write_payload
 from typing import Any
 
 import pandas as pd
 import sportsdataverse as sdv
-from tqdm import tqdm
 
 # The new module is not yet re-exported from ``sportsdataverse.wbb``, so we
 # import the function directly from its module to avoid relying on the
 # top-level package surface.
 from sportsdataverse.wbb.wbb_team_stats import espn_wbb_team_stats
-
+from tqdm import tqdm
+from wbb_raw_scrape.persist import write_payload
 
 logging.basicConfig(
     level=logging.INFO,

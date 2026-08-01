@@ -23,13 +23,12 @@ from pathlib import Path
 
 import pandas as pd
 import sportsdataverse as sdv
-from tqdm import tqdm
 
 # The new module is not yet re-exported from ``sportsdataverse.wbb``, so we
 # import the function directly from its module to avoid relying on the
 # top-level package surface.
 from sportsdataverse.wbb.wbb_team_roster import espn_wbb_team_roster
-
+from tqdm import tqdm
 
 logging.basicConfig(
     level=logging.INFO,

@@ -29,12 +29,11 @@ from typing import Any
 
 import pandas as pd
 import sportsdataverse as sdv
-from tqdm import tqdm
 
 # The module is not re-exported from ``sportsdataverse.wbb``, so we import the
 # function directly from its module to avoid relying on the top-level surface.
 from sportsdataverse.wbb.wbb_game_officials import espn_wbb_game_officials
-
+from tqdm import tqdm
 
 logging.basicConfig(
     level=logging.INFO,

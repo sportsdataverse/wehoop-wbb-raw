@@ -3,17 +3,17 @@ import concurrent.futures
 import gc
 import json
 import logging
-import numpy as np
 import os
-import pyreadr
-import pandas as pd
-import sportsdataverse as sdv
 import time
 import traceback
 from itertools import repeat
 from pathlib import Path
-from wbb_raw_scrape.cli import str2bool
 
+import numpy as np
+import pandas as pd
+import pyreadr
+import sportsdataverse as sdv
+from wbb_raw_scrape.cli import str2bool
 
 logging.basicConfig(
     level=logging.INFO,

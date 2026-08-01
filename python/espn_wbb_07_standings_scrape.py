@@ -27,13 +27,11 @@ import time
 from pathlib import Path
 from typing import Any
 
-from tqdm import tqdm
-
 # The new module is not yet re-exported from ``sportsdataverse.wbb``, so we
 # import the function directly from its module to avoid relying on the
 # top-level package surface.
 from sportsdataverse.wbb.wbb_standings import espn_wbb_standings
-
+from tqdm import tqdm
 
 logging.basicConfig(
     level=logging.INFO,

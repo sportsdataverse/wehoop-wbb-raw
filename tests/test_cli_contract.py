@@ -7,7 +7,6 @@ entire archive: bash passes the string "false", and `bool("false")` is True.
 from __future__ import annotations
 
 import pytest
-
 from wbb_raw_scrape.cli import season_args, str2bool
 
 

@@ -55,6 +55,16 @@ markers = [
 line-length = 100
 
 [tool.ruff.lint]
+# Pin the rule set explicitly. Relying on ruff's defaults makes the gate
+# version-sensitive: a newer ruff enabled 413 rules here and turned a green
+# tree red without a line of code changing. Local and CI must agree.
+select = [
+    "E4",  # pycodestyle: imports
+    "E7",  # pycodestyle: statement errors
+    "E9",  # pycodestyle: runtime/syntax errors
+    "F",   # pyflakes: dead imports, undefined names, unused locals
+    "I",   # isort: import order
+]
 # Explicit polars bool masks (pl.col("c") == True) are the project convention
 # (see the sdv-py CLAUDE.md "Polars version" section); E712 fights that.
 ignore = ["E712"]

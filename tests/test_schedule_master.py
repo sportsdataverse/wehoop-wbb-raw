@@ -6,7 +6,6 @@ from pathlib import Path
 
 import polars as pl
 import pytest
-
 from wbb_raw_scrape.ids import to_int64, with_int64_ids
 from wbb_raw_scrape.master import build_coverage, build_master
 from wbb_raw_scrape.paths import raw_github_url

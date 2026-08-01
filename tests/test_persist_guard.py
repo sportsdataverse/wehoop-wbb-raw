@@ -14,7 +14,6 @@ import json
 from pathlib import Path
 
 import pytest
-
 from wbb_raw_scrape.persist import is_error_payload, scan_for_error_payloads, write_payload
 
 REPO_ROOT = Path(__file__).resolve().parents[1]

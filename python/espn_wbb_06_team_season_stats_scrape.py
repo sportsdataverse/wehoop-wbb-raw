@@ -21,7 +21,6 @@ from __future__ import annotations
 import argparse
 import concurrent.futures
 import gc
-import json
 import logging
 import time
 from pathlib import Path

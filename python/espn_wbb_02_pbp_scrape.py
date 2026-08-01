@@ -2,23 +2,16 @@ import argparse
 import concurrent.futures
 import gc
 import json
-import http
 import logging
 import numpy as np
 import os
 import pyreadr
-import pyarrow as pa
 import pandas as pd
-import re
 import sportsdataverse as sdv
 import time
 import traceback
-import urllib.request
-from urllib.error import URLError, HTTPError, ContentTooShortError
-from datetime import datetime
-from itertools import chain, starmap, repeat
+from itertools import repeat
 from pathlib import Path
-from tqdm import tqdm
 from wbb_raw_scrape.cli import str2bool
 
 
@@ -61,22 +54,22 @@ def download_game(game, process, path_to_raw, path_to_final):
         g = sdv.wbb.espn_wbb_pbp(game_id=game, raw=True, num_retries=MAX_RETRIES)
         with open(f"{path_to_raw_json}{game}.json", "w") as f:
             json.dump(g, f, indent=0, sort_keys=False)
-    except TypeError as e:
+    except TypeError:
         logger.exception(f"TypeError: game_id = {game}\n {traceback.format_exc()}")
         pass
-    except IndexError as e:
+    except IndexError:
         logger.exception(f"IndexError:  game_id = {game}\n {traceback.format_exc()}")
         pass
-    except KeyError as e:
+    except KeyError:
         logger.exception(f"KeyError: game_id =  game_id = {game}\n {traceback.format_exc()}")
         pass
-    except ValueError as e:
+    except ValueError:
         logger.exception(f"DecodeError: game_id = {game}\n {traceback.format_exc()}")
         pass
-    except AttributeError as e:
+    except AttributeError:
         logger.exception(f"AttributeError: game_id = {game}\n {traceback.format_exc()}")
         pass
-    except Exception as e:
+    except Exception:
         logger.exception(f"Exception: game_id = {game}\n {traceback.format_exc()}")
         pass
     if process == True:
@@ -87,25 +80,25 @@ def download_game(game, process, path_to_raw, path_to_final):
             fp = f"{path_to_final_json}{game}.json"
             with open(fp, "w") as f:
                 json.dump(result, f, indent=0, sort_keys=False)
-        except FileNotFoundError as e:
+        except FileNotFoundError:
             logger.exception(f"FileNotFoundError: game_id = {game}\n {traceback.format_exc()}")
             pass
-        except TypeError as e:
+        except TypeError:
             logger.exception(f"TypeError: game_id = {game}\n {traceback.format_exc()}")
             pass
-        except IndexError as e:
+        except IndexError:
             logger.exception(f"IndexError:  game_id = {game}\n {traceback.format_exc()}")
             pass
-        except KeyError as e:
+        except KeyError:
             logger.exception(f"KeyError: game_id =  game_id = {game}\n {traceback.format_exc()}")
             pass
-        except ValueError as e:
+        except ValueError:
             logger.exception(f"DecodeError: game_id = {game}\n {traceback.format_exc()}")
             pass
-        except AttributeError as e:
+        except AttributeError:
             logger.exception(f"AttributeError: game_id = {game}\n {traceback.format_exc()}")
             pass
-        except Exception as e:
+        except Exception:
             logger.exception(f"Exception: game_id = {game}\n {traceback.format_exc()}")
             pass
 
@@ -168,7 +161,6 @@ def main():
 
         elif len(games) > 0:
             logger.info(f"Number of Games: {len(games)}")
-            bad_schedule_keys = pd.DataFrame()
             t0 = time.time()
             download_game_pbps(games, process, path_to_raw, path_to_final)
             t1 = time.time()

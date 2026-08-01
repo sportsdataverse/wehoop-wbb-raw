@@ -1,22 +1,14 @@
 import argparse
 import concurrent.futures
-import json
-import http
 import logging
 import os
 import pyreadr
-import pyarrow as pa
 import pandas as pd
-import re
 import sportsdataverse as sdv
 import time
-import urllib.request
 import gc
-from urllib.error import URLError, HTTPError, ContentTooShortError
-from datetime import datetime
-from itertools import chain, starmap, repeat
+from itertools import repeat
 from pathlib import Path
-from tqdm import tqdm
 from wbb_raw_scrape.cli import str2bool
 
 logging.basicConfig(level=logging.INFO, filename="wehoop_wbb_raw_logfile.txt")
@@ -88,7 +80,7 @@ def main():
         glued_data = pd.concat([glued_data, x], axis=0)
     glued_data["status_display_clock"] = glued_data["status_display_clock"].astype(str)
     glued_data.to_parquet(final_file_name, index=False)
-    gcol = gc.collect()
+    gc.collect()
 
 
 if __name__ == "__main__":

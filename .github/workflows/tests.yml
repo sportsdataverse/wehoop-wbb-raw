@@ -1,0 +1,36 @@
+name: tests
+
+# Without this, the offline suite only ran inside the nightly scrape, so it
+# gated nothing: a broken import or a reintroduced type=bool would ship and be
+# discovered at 06:30 UTC by a failing cron. These tests touch no network.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          python-version: '3.12'
+          cache-dependency-glob: uv.lock
+
+      - name: Install
+        # --frozen: a PR must not silently re-resolve. The daily workflow is
+        # the only place that runs `uv lock --upgrade`.
+        run: uv sync --frozen --dev
+
+      - name: Tests
+        run: uv run pytest -q
+
+      - name: Lint
+        run: uv run ruff check python tests

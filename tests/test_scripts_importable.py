@@ -1,0 +1,91 @@
+"""Every numbered scraper must import and answer --help.
+
+This is the guard that would have caught two real defects in this repo:
+
+* ``process_wbb_schedules.py`` imported ``schedule_handler``, a module that
+  existed nowhere -- not tracked, not on disk, not in sportsdataverse. The
+  script could never run, and nothing said so.
+* Dropping ``requirements.txt`` for a hand-written ``pyproject.toml`` silently
+  lost ``pyreadr``/``pandas``/``numpy``; every scraper that imported them would
+  have died at import time on the next CI run.
+
+Both are import-time failures, which is exactly what a daily cron discovers at
+5am and a test discovers in one second.
+"""
+
+from __future__ import annotations
+
+import ast
+import importlib.util
+import subprocess
+import sys
+from pathlib import Path
+
+import pytest
+
+PY_DIR = Path(__file__).resolve().parents[1] / "python"
+SCRIPTS = sorted(p for p in PY_DIR.glob("*.py"))
+
+EXPECTED = [
+    "espn_wbb_00_all_scrape.py",
+    "espn_wbb_01_schedules_scrape.py",
+    "espn_wbb_02_pbp_scrape.py",
+    "espn_wbb_03_team_rosters_scrape.py",
+    "espn_wbb_04_player_core_scrape.py",
+    "espn_wbb_05_player_season_stats_scrape.py",
+    "espn_wbb_06_team_season_stats_scrape.py",
+    "espn_wbb_07_standings_scrape.py",
+    "espn_wbb_08_game_rosters_scrape.py",
+    "espn_wbb_09_officials_scrape.py",
+]
+
+
+def test_the_numbered_scripts_are_exactly_what_we_expect():
+    """Numbers are run order. A gap or a stray file means the pipeline and the
+    directory listing have diverged."""
+    assert [p.name for p in SCRIPTS] == EXPECTED
+
+
+@pytest.mark.parametrize("path", SCRIPTS, ids=lambda p: p.name)
+def test_script_imports(path):
+    spec = importlib.util.spec_from_file_location(path.stem, path)
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[path.stem] = module
+    try:
+        spec.loader.exec_module(module)
+    finally:
+        sys.modules.pop(path.stem, None)
+
+
+@pytest.mark.parametrize("path", SCRIPTS, ids=lambda p: p.name)
+def test_script_help_exits_zero(path):
+    proc = subprocess.run(
+        [sys.executable, str(path), "--help"],
+        capture_output=True,
+        text=True,
+        timeout=120,
+    )
+    assert proc.returncode == 0, proc.stderr
+    assert "--start_year" in proc.stdout
+
+
+@pytest.mark.parametrize("path", SCRIPTS, ids=lambda p: p.name)
+def test_no_script_uses_type_bool(path):
+    """``argparse(type=bool)`` is the defect that made every daily run
+    re-download the whole archive: bash passes "false" and bool("false") is
+    True. Nothing may reintroduce it.
+
+    Checked against the AST, not the text -- a comment explaining the
+    antipattern is fine, an ``add_argument(type=bool)`` call is not.
+    """
+    tree = ast.parse(path.read_text(encoding="utf-8"))
+    offenders = [
+        node.lineno
+        for node in ast.walk(tree)
+        if isinstance(node, ast.Call)
+        for kw in node.keywords
+        if kw.arg == "type" and isinstance(kw.value, ast.Name) and kw.value.id == "bool"
+    ]
+    assert offenders == [], (
+        f"{path.name} passes type=bool at line(s) {offenders}; use wbb_raw_scrape.cli.str2bool"
+    )

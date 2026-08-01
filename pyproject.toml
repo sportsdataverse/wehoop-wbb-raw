@@ -9,6 +9,13 @@ dependencies = [
     "pyarrow>=15.0",
     "requests>=2.28",
     "tqdm>=4.66",
+    # Imported directly by the scrapers, not just transitively: pandas/numpy
+    # for the schedule frames, pyreadr to emit the .rds the R side still reads.
+    # These were in the deleted requirements.txt; an import audit of python/*.py
+    # is the check that keeps this list honest.
+    "pandas>=2.0",
+    "numpy>=1.23",
+    "pyreadr>=0.4.7",
     # Reads the raw payload schemas shipped by sportsdataverse.schemas, which
     # imports yaml lazily precisely because it is not an sdv-py runtime dep.
     "pyyaml>=6.0",

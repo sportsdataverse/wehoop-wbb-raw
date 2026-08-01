@@ -41,6 +41,13 @@ where = ["python"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["python"]
+markers = [
+    # Reads the committed wbb/ archive. Deselected in PR CI (`-m "not archive"`),
+    # which sparse-checkouts the code only -- a full checkout of the ~58GB tree
+    # spends 15+ minutes cloning and never reaches the tests. These run in the
+    # daily workflow on the self-hosted runner, which already holds the archive.
+    "archive: requires the committed wbb/ payload tree",
+]
 
 [tool.ruff]
 line-length = 100

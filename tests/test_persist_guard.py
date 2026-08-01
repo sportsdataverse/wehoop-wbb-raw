@@ -98,6 +98,7 @@ def test_scan_reports_unreadable_files(tmp_path):
 # --- the archive itself ------------------------------------------------------
 
 
+@pytest.mark.archive
 @pytest.mark.parametrize(
     "pattern",
     [

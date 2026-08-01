@@ -40,6 +40,9 @@ FAMILIES: list[tuple[str, str]] = [
 # reproducible from the reported path.
 SAMPLE = int(os.environ.get("WBB_SCHEMA_SAMPLE", "40"))
 
+# Every test here reads the committed wbb/ tree, which PR CI does not check out.
+pytestmark = pytest.mark.archive
+
 
 def _sample(pattern: str) -> list[Path]:
     paths = sorted(REPO_ROOT.glob(pattern))

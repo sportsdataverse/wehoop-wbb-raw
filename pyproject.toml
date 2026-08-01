@@ -22,7 +22,9 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = ["pytest>=8.0"]
+# ruff is declared here, not assumed: CI runs `uv run ruff` inside the synced
+# project env, which has no access to a globally-installed tool.
+dev = ["pytest>=8.0", "ruff>=0.6"]
 
 # The scrapers depend on sdv-py helpers that land on main ahead of PyPI.
 [tool.uv.sources]

@@ -1,4 +1,3 @@
-
 """Scrape ESPN women's-college-basketball team season stats per (season, team_id).
 
 Output: ``wbb/team_stats/json/{season}/{team_id}.json`` -- raw ESPN
@@ -26,6 +25,8 @@ import json
 import logging
 import time
 from pathlib import Path
+
+from wbb_raw_scrape.persist import write_payload
 from typing import Any
 
 import pandas as pd
@@ -75,8 +76,7 @@ def fetch_team_ids_for_season(season: int) -> list[int]:
                 continue
         if ids:
             logger.warning(
-                f"No schedule parquet at {schedule_path}; using cached roster ids "
-                f"from {roster_dir}"
+                f"No schedule parquet at {schedule_path}; using cached roster ids from {roster_dir}"
             )
             return sorted(set(ids))
 
@@ -98,9 +98,7 @@ def download_team_stats_batch(
     threads = min(cores, max(1, len(team_ids)))
     with concurrent.futures.ThreadPoolExecutor(max_workers=threads) as executor:
         futs = {
-            executor.submit(
-                download_team_stats, season, tid, output_dir, rerun_existing
-            ): tid
+            executor.submit(download_team_stats, season, tid, output_dir, rerun_existing): tid
             for tid in team_ids
         }
         for fut in tqdm(
@@ -111,30 +109,30 @@ def download_team_stats_batch(
             fut.result()
 
 
-def download_team_stats(
-    season: int, team_id: int, output_dir: Path, rerun_existing: bool
-) -> str:
+def download_team_stats(season: int, team_id: int, output_dir: Path, rerun_existing: bool) -> str:
     out_path = Path(output_dir) / f"{team_id}.json"
     if out_path.exists() and not rerun_existing:
         return f"skip {team_id}"
     try:
         raw: dict[str, Any] = espn_wbb_team_stats(
-            team_id=int(team_id), season=int(season), raw=True,
+            team_id=int(team_id),
+            season=int(season),
+            raw=True,
             num_retries=MAX_RETRIES,
         )
-        with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(raw, f, indent=0, sort_keys=False)
+        # ESPN answers a failure with HTTP 200 and an error BODY, which is not
+        # an exception and so sailed past the handler below straight onto disk.
+        # Because the raw tree is the checkpoint, that made the gap permanent.
+        if not write_payload(out_path, raw):
+            logger.warning(f"season={season} team_id={team_id} refused: provider error body")
+            return f"err {team_id}: provider error body"
         return f"ok {team_id}"
     except Exception as e:
-        logger.warning(
-            f"season={season} team_id={team_id} failed: {e!r}"
-        )
+        logger.warning(f"season={season} team_id={team_id} failed: {e!r}")
         return f"err {team_id}: {e}"
 
 
-def scrape_season(
-    season: int, cores: int, rerun_existing: bool, base_output_dir: str
-) -> None:
+def scrape_season(season: int, cores: int, rerun_existing: bool, base_output_dir: str) -> None:
     output_dir = Path(f"{base_output_dir}/{season}")
     output_dir.mkdir(parents=True, exist_ok=True)
     team_ids = fetch_team_ids_for_season(season)

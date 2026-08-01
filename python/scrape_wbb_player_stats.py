@@ -26,6 +26,8 @@ import logging
 import time
 from pathlib import Path
 
+from wbb_raw_scrape.persist import write_payload
+
 from tqdm import tqdm
 
 # Imported direct from the module path because the new helpers are not yet
@@ -87,9 +89,7 @@ def download_player_stats_batch(season, athlete_ids, output_dir, rerun_existing,
     threads = min(cores, max(1, len(athlete_ids)))
     with concurrent.futures.ThreadPoolExecutor(max_workers=threads) as executor:
         futs = {
-            executor.submit(
-                download_player_stats, season, aid, output_dir, rerun_existing
-            ): aid
+            executor.submit(download_player_stats, season, aid, output_dir, rerun_existing): aid
             for aid in athlete_ids
         }
         for fut in tqdm(
@@ -111,8 +111,12 @@ def download_player_stats(season, athlete_id, output_dir, rerun_existing):
             return_parsed=False,
             num_retries=MAX_RETRIES,
         )
-        with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(raw, f, indent=0, sort_keys=False)
+        # ESPN answers a failure with HTTP 200 and an error BODY, which is not
+        # an exception and so sailed past the handler below straight onto disk.
+        # Because the raw tree is the checkpoint, that made the gap permanent.
+        if not write_payload(out_path, raw):
+            logger.warning(f"season={season} athlete_id={athlete_id} refused: provider error body")
+            return f"err {athlete_id}: provider error body"
         return f"ok {athlete_id}"
     except Exception as e:
         logger.warning(f"season={season} athlete_id={athlete_id} failed: {e!r}")

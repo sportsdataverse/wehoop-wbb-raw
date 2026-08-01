@@ -1,0 +1,105 @@
+import argparse
+import concurrent.futures
+import gc
+import logging
+import time
+from itertools import repeat
+from pathlib import Path
+
+import pandas as pd
+import pyreadr
+import sportsdataverse as sdv
+from wbb_raw_scrape.cli import str2bool
+
+logging.basicConfig(level=logging.INFO, filename="wehoop_wbb_raw_logfile.txt")
+logger = logging.getLogger(__name__)
+
+path_to_schedules = "wbb/schedules"
+final_file_name = "wbb/wbb_schedule_master.parquet"
+MAX_RETRIES = 5
+MAX_THREADS = 30
+
+
+def download_game_schedules(seasons, path_to_schedules):
+    threads = min(MAX_THREADS, len(seasons))
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=threads) as executor:
+        result = list(executor.map(download_schedule, seasons, repeat(path_to_schedules)))
+        return result
+
+
+def download_schedule(season, path_to_schedules=None):
+    logger.info(f"Scraping WBB schedules for year {season}...")
+    df = sdv.wbb.espn_wbb_calendar(season, return_as_pandas=True, num_retries=MAX_RETRIES)
+    calendar = df["dateURL"].str.replace("-", "").tolist()
+    ev = pd.DataFrame()
+    for d in calendar:
+        date_schedule = sdv.wbb.espn_wbb_schedule(
+            dates=d, return_as_pandas=True, num_retries=MAX_RETRIES
+        )
+        ev = pd.concat([ev, date_schedule], axis=0, ignore_index=True)
+    ev = ev[ev["season_type"].isin([2, 3])]
+    ev = ev.drop_duplicates(subset=["game_id"], ignore_index=True)
+
+    Path(f"{path_to_schedules}/parquet").mkdir(parents=True, exist_ok=True)
+    Path(f"{path_to_schedules}/rds").mkdir(parents=True, exist_ok=True)
+    if path_to_schedules is not None:
+        ev.to_parquet(f"{path_to_schedules}/parquet/wbb_schedule_{season}.parquet", index=False)
+        pyreadr.write_rds(f"{path_to_schedules}/rds/wbb_schedule_{season}.rds", ev, compress="gzip")
+
+
+def main():
+    if args.start_year < 2002:
+        start_year = 2002
+    else:
+        start_year = args.start_year
+    if args.end_year is None:
+        end_year = start_year
+    else:
+        end_year = args.end_year
+    years_arr = range(start_year, end_year + 1)
+
+    # Schedules are ALWAYS refreshed for the requested seasons. Unlike a game
+    # payload, a season schedule is never "done": scores, status and new games
+    # land every day, so "already on disk" is not a reason to skip it.
+    #
+    # This used to be guarded by `if args.rescrape == True`, which inverted the
+    # flag's meaning everywhere else in the repo (there it means "re-fetch what
+    # is already captured"). It only ever ran because argparse(type=bool) made
+    # rescrape permanently True; with the flag parsed correctly, that guard
+    # would have silently stopped the daily schedule scrape and left main()
+    # rebuilding the master from stale parquets.
+    t0 = time.time()
+    download_game_schedules(years_arr, path_to_schedules)
+    t1 = time.time()
+    logger.info(f"{(t1 - t0) / 60} minutes to download {len(years_arr)} years of season schedules.")
+
+    # The schedule master used to be glued together here. It moved to
+    # espn_wbb_99_schedule_master_creation.py, which runs LAST: this script is
+    # step 01, so a master built here cannot know what steps 02-09 captured,
+    # and the master's whole job is to record exactly that.
+    gc.collect()
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--start_year",
+        "-s",
+        type=int,
+        required=True,
+        help="Start year of WBB Schedule period (YYYY)",
+    )
+    parser.add_argument("--end_year", "-e", type=int, help="End year of WBB Schedule period (YYYY)")
+    # type=bool is a trap: bash passes the STRING "false" and bool("false") is
+    # True, so `-r false` re-scraped every season on every daily run.
+    parser.add_argument(
+        "--rescrape",
+        "-r",
+        type=str2bool,
+        default=False,
+        help="Re-fetch schedules already on disk (default: false)",
+    )
+    args = parser.parse_args()
+
+    main()

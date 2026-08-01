@@ -1,8 +1,18 @@
-# Only fire when the scraped data tree actually changes. Pushes that
-# touch only scripts, workflows, .gitignore, or other repo plumbing
-# should NOT wake the downstream wehoop-wbb-data parser.
+# Only fire when the scraped data tree actually changes ON MAIN. Pushes that
+# touch only scripts, workflows, .gitignore, or other repo plumbing should NOT
+# wake the downstream wehoop-wbb-data parser.
+#
+# The `branches` filter is load-bearing and was missing: any feature-branch
+# push touching wbb/** dispatched a production data build. Worse, the
+# downstream job derives START_YEAR/END_YEAR by running `grep -oE '[0-9]+'`
+# over the COMMIT MESSAGE, so an ordinary development commit body (which is
+# full of numbers) either fails the run or builds nonsense seasons. Only the
+# bot's "WBB Raw Update (Start: YYYY End: YYYY)" commits are safe input, and
+# those only ever land on main.
 on:
   push:
+    branches:
+      - main
     paths:
       - 'wbb/**'
   workflow_dispatch:

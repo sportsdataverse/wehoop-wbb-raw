@@ -1,0 +1,70 @@
+[project]
+name = "wehoop-wbb-raw-scrape"
+version = "0.1.0"
+description = "ESPN WBB raw payload scrapers for the wehoop-wbb-raw archive."
+requires-python = ">=3.11"
+dependencies = [
+    "sportsdataverse>=0.0.73",
+    "polars>=1.0,<2.0",
+    "pyarrow>=15.0",
+    "requests>=2.28",
+    "tqdm>=4.66",
+    # Imported directly by the scrapers, not just transitively: pandas/numpy
+    # for the schedule frames, pyreadr to emit the .rds the R side still reads.
+    # These were in the deleted requirements.txt; an import audit of python/*.py
+    # is the check that keeps this list honest.
+    "pandas>=2.0",
+    "numpy>=1.23",
+    "pyreadr>=0.4.7",
+    # Reads the raw payload schemas shipped by sportsdataverse.schemas, which
+    # imports yaml lazily precisely because it is not an sdv-py runtime dep.
+    "pyyaml>=6.0",
+]
+
+[dependency-groups]
+# ruff is declared here, not assumed: CI runs `uv run ruff` inside the synced
+# project env, which has no access to a globally-installed tool.
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+# The scrapers depend on sdv-py helpers that land on main ahead of PyPI.
+[tool.uv.sources]
+sportsdataverse = { git = "https://github.com/sportsdataverse/sportsdataverse-py", branch = "main" }
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+# python/ is the source dir, symmetric with R/ in the sibling -data repo. The
+# numbered espn_wbb_NN_*.py entrypoints sit beside the package and are run by
+# path; only the package itself is importable/installable.
+[tool.setuptools.packages.find]
+where = ["python"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["python"]
+markers = [
+    # Reads the committed wbb/ archive. Deselected in PR CI (`-m "not archive"`),
+    # which sparse-checkouts the code only -- a full checkout of the ~58GB tree
+    # spends 15+ minutes cloning and never reaches the tests. These run in the
+    # daily workflow on the self-hosted runner, which already holds the archive.
+    "archive: requires the committed wbb/ payload tree",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+# Pin the rule set explicitly. Relying on ruff's defaults makes the gate
+# version-sensitive: a newer ruff enabled 413 rules here and turned a green
+# tree red without a line of code changing. Local and CI must agree.
+select = [
+    "E4",  # pycodestyle: imports
+    "E7",  # pycodestyle: statement errors
+    "E9",  # pycodestyle: runtime/syntax errors
+    "F",   # pyflakes: dead imports, undefined names, unused locals
+    "I",   # isort: import order
+]
+# Explicit polars bool masks (pl.col("c") == True) are the project convention
+# (see the sdv-py CLAUDE.md "Polars version" section); E712 fights that.
+ignore = ["E712"]

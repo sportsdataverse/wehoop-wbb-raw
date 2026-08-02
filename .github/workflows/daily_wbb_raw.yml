@@ -78,25 +78,25 @@ jobs:
         run: uv run python python/espn_wbb_02_pbp_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
 
       - name: Scrape team rosters
-        run: uv run python python/espn_wbb_03_team_rosters_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+        run: uv run python python/espn_wbb_08_team_rosters_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
 
       - name: Scrape player core
-        run: uv run python python/espn_wbb_04_player_core_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+        run: uv run python python/espn_wbb_09_player_core_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
 
       - name: Scrape player season stats
-        run: uv run python python/espn_wbb_05_player_season_stats_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+        run: uv run python python/espn_wbb_06_player_season_stats_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
 
       - name: Scrape team season stats
-        run: uv run python python/espn_wbb_06_team_season_stats_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+        run: uv run python python/espn_wbb_07_team_season_stats_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
 
       - name: Scrape standings
-        run: uv run python python/espn_wbb_07_standings_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+        run: uv run python python/espn_wbb_03_standings_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
 
       - name: Scrape per-game rosters
-        run: uv run python python/espn_wbb_08_game_rosters_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+        run: uv run python python/espn_wbb_04_game_rosters_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
 
       - name: Scrape per-game officials
-        run: uv run python python/espn_wbb_09_officials_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
+        run: uv run python python/espn_wbb_10_officials_scrape.py --start_year "$START_YEAR" --end_year "$END_YEAR" -r "$RESCRAPE"
 
       - name: Build schedule master + coverage index
         # LAST on purpose: it stamps each season schedule with the has_* capture

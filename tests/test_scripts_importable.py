@@ -26,17 +26,23 @@ import pytest
 PY_DIR = Path(__file__).resolve().parents[1] / "python"
 SCRIPTS = sorted(p for p in PY_DIR.glob("*.py"))
 
+# Renumbered 2026-08-02 to the ecosystem-wide ESPN-raw canon, so a stage number
+# means the same dataset in every -raw repo (nba/mbb/wnba/wbb): 01 schedules,
+# 02 pbp, 03 standings, 04 game_rosters, 05 draft, 06 player_stats,
+# 07 team_stats, 08 team_rosters, 09 player_core, 10+ league extras, 99 master.
+# 05 is an intentional HOLE here (no WBB draft) -- holes are preserved rather
+# than compacted, because cross-repo number semantics beat dense numbering.
 EXPECTED = [
     "espn_wbb_00_all_scrape.py",
     "espn_wbb_01_schedules_scrape.py",
     "espn_wbb_02_pbp_scrape.py",
-    "espn_wbb_03_team_rosters_scrape.py",
-    "espn_wbb_04_player_core_scrape.py",
-    "espn_wbb_05_player_season_stats_scrape.py",
-    "espn_wbb_06_team_season_stats_scrape.py",
-    "espn_wbb_07_standings_scrape.py",
-    "espn_wbb_08_game_rosters_scrape.py",
-    "espn_wbb_09_officials_scrape.py",
+    "espn_wbb_03_standings_scrape.py",
+    "espn_wbb_04_game_rosters_scrape.py",
+    "espn_wbb_06_player_season_stats_scrape.py",
+    "espn_wbb_07_team_season_stats_scrape.py",
+    "espn_wbb_08_team_rosters_scrape.py",
+    "espn_wbb_09_player_core_scrape.py",
+    "espn_wbb_10_officials_scrape.py",
     "espn_wbb_99_schedule_master_creation.py",
 ]
 

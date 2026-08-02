@@ -14,20 +14,24 @@ commits + pushes). Every scraper takes `--start_year/-s`, `--end_year/-e`, and
 **`-r` defaults to false everywhere** — the raw tree is the checkpoint.
 Seasons are end-of-season YYYY (2025 = 2024-25).
 
-Script numbers are run order; 01 writes the season schedule that 02 reads.
+Script numbers are the cross-repo dataset identity (same NN = same dataset in
+nba/mbb/wnba/wbb `-raw`); 05 is an intentional hole (no WBB draft). Real
+dependencies: 01 before 02 (schedule enumerates games), 99 last. The driver
+order is authoritative for execution and is not strictly ascending.
+`wehoop-wbb-data`'s R stage numbers are a SEPARATE namespace.
 
 | # | Script | Raw tree written |
 |---:|---|---|
 | 00 | `espn_wbb_00_all_scrape.py` | runs 01–09 in order |
 | 01 | `espn_wbb_01_schedules_scrape.py` | `wbb/schedules/{parquet,rds}/` |
 | 02 | `espn_wbb_02_pbp_scrape.py` | `wbb/json/{raw,final}/` |
-| 03 | `espn_wbb_03_team_rosters_scrape.py` | `wbb/team_rosters/json/{season}/` |
-| 04 | `espn_wbb_04_player_core_scrape.py` | `wbb/player_core/json/` |
-| 05 | `espn_wbb_05_player_season_stats_scrape.py` | `wbb/player_season_stats/json/{season}/` |
-| 06 | `espn_wbb_06_team_season_stats_scrape.py` | `wbb/team_stats/json/{season}/` |
-| 07 | `espn_wbb_07_standings_scrape.py` | `wbb/standings/json/` |
-| 08 | `espn_wbb_08_game_rosters_scrape.py` | `wbb/game_rosters/json/` |
-| 09 | `espn_wbb_09_officials_scrape.py` | `wbb/officials/json/` |
+| 03 | `espn_wbb_08_team_rosters_scrape.py` | `wbb/team_rosters/json/{season}/` |
+| 04 | `espn_wbb_09_player_core_scrape.py` | `wbb/player_core/json/` |
+| 05 | `espn_wbb_06_player_season_stats_scrape.py` | `wbb/player_season_stats/json/{season}/` |
+| 06 | `espn_wbb_07_team_season_stats_scrape.py` | `wbb/team_stats/json/{season}/` |
+| 07 | `espn_wbb_03_standings_scrape.py` | `wbb/standings/json/` |
+| 08 | `espn_wbb_04_game_rosters_scrape.py` | `wbb/game_rosters/json/` |
+| 09 | `espn_wbb_10_officials_scrape.py` | `wbb/officials/json/` |
 
 ```sh
 bash scripts/daily_wbb_scraper.sh -s 2025 -e 2025 -r false   # full daily flow

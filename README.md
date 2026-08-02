@@ -40,8 +40,22 @@ flowchart TB;
 
 ## Pipeline
 
-Script numbers are run order — `01` writes the season schedule that `02` reads
-to enumerate games. This repo publishes **no release tags**; it is the archive.
+Script numbers are the **ecosystem-wide dataset identity**, not a strict
+execution sequence: `NN` means the same dataset in every ESPN `-raw` repo
+(nba / mbb / wnba / wbb) — 01 schedules, 02 pbp, 03 standings, 04 game_rosters,
+05 draft, 06 player_stats, 07 team_stats, 08 team_rosters, 09 player_core,
+10+ league extras, 99 master. `05` is an intentional hole here (no WBB draft);
+holes are preserved rather than compacted so a number never means two things.
+Execution order lives in `python/espn_wbb_00_all_scrape.py` and
+`scripts/daily_wbb_scraper.sh` — the real dependencies are `01` before `02`
+(the schedule enumerates games) and `99` last (it unions the per-season files);
+the middle stages are independent, so the driver does not run strictly
+ascending (the nba/mbb/wnba drivers don't either).
+
+Numbers are **per-repo-family**: `wehoop-wbb-data`'s `espn_wbb_NN_*_creation.R`
+stages have their own build-order numbering and do NOT correspond to these.
+
+This repo publishes **no release tags**; it is the archive.
 Release tags are published by
 [`wehoop-wbb-data`](https://github.com/sportsdataverse/wehoop-wbb-data).
 
@@ -49,13 +63,13 @@ Release tags are published by
 |---:|---|---|---|
 | 01 | `python/espn_wbb_01_schedules_scrape.py` | `wbb/schedules/{parquet,rds}/` | `schedules` |
 | 02 | `python/espn_wbb_02_pbp_scrape.py` | `wbb/json/{raw,final}/` | `pbp`, `team_box`, `player_box`, `shots` |
-| 03 | `python/espn_wbb_03_team_rosters_scrape.py` | `wbb/team_rosters/json/` | `rosters` |
-| 04 | `python/espn_wbb_04_player_core_scrape.py` | `wbb/player_core/json/` | `player_core` |
-| 05 | `python/espn_wbb_05_player_season_stats_scrape.py` | `wbb/player_season_stats/json/` | `player_season_stats` |
-| 06 | `python/espn_wbb_06_team_season_stats_scrape.py` | `wbb/team_stats/json/` | `team_season_stats` |
-| 07 | `python/espn_wbb_07_standings_scrape.py` | `wbb/standings/json/` | `standings` |
-| 08 | `python/espn_wbb_08_game_rosters_scrape.py` | `wbb/game_rosters/json/` | `game_rosters` |
-| 09 | `python/espn_wbb_09_officials_scrape.py` | `wbb/officials/json/` | `officials` |
+| 03 | `python/espn_wbb_08_team_rosters_scrape.py` | `wbb/team_rosters/json/` | `rosters` |
+| 04 | `python/espn_wbb_09_player_core_scrape.py` | `wbb/player_core/json/` | `player_core` |
+| 05 | `python/espn_wbb_06_player_season_stats_scrape.py` | `wbb/player_season_stats/json/` | `player_season_stats` |
+| 06 | `python/espn_wbb_07_team_season_stats_scrape.py` | `wbb/team_stats/json/` | `team_season_stats` |
+| 07 | `python/espn_wbb_03_standings_scrape.py` | `wbb/standings/json/` | `standings` |
+| 08 | `python/espn_wbb_04_game_rosters_scrape.py` | `wbb/game_rosters/json/` | `game_rosters` |
+| 09 | `python/espn_wbb_10_officials_scrape.py` | `wbb/officials/json/` | `officials` |
 
 Run everything for a season:
 

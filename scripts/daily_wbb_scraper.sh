@@ -59,13 +59,13 @@ do
         git config --local user.name "Github Action"
         run_scraper schedules    python3 python/espn_wbb_01_schedules_scrape.py           -s $i -e $i -r $RESCRAPE
         run_scraper pbp          python3 python/espn_wbb_02_pbp_scrape.py                 -s $i -e $i -r $RESCRAPE
-        run_scraper team_rosters python3 python/espn_wbb_03_team_rosters_scrape.py        -s $i -e $i -r $RESCRAPE
-        run_scraper player_core  python3 python/espn_wbb_04_player_core_scrape.py         -s $i -e $i -r $RESCRAPE
-        run_scraper player_stats python3 python/espn_wbb_05_player_season_stats_scrape.py -s $i -e $i -r $RESCRAPE
-        run_scraper team_stats   python3 python/espn_wbb_06_team_season_stats_scrape.py   -s $i -e $i -r $RESCRAPE
-        run_scraper standings    python3 python/espn_wbb_07_standings_scrape.py           -s $i -e $i -r $RESCRAPE
-        run_scraper game_rosters python3 python/espn_wbb_08_game_rosters_scrape.py        -s $i -e $i -r $RESCRAPE
-        run_scraper officials    python3 python/espn_wbb_09_officials_scrape.py           -s $i -e $i -r $RESCRAPE
+        run_scraper team_rosters python3 python/espn_wbb_08_team_rosters_scrape.py        -s $i -e $i -r $RESCRAPE
+        run_scraper player_core  python3 python/espn_wbb_09_player_core_scrape.py         -s $i -e $i -r $RESCRAPE
+        run_scraper player_stats python3 python/espn_wbb_06_player_season_stats_scrape.py -s $i -e $i -r $RESCRAPE
+        run_scraper team_stats   python3 python/espn_wbb_07_team_season_stats_scrape.py   -s $i -e $i -r $RESCRAPE
+        run_scraper standings    python3 python/espn_wbb_03_standings_scrape.py           -s $i -e $i -r $RESCRAPE
+        run_scraper game_rosters python3 python/espn_wbb_04_game_rosters_scrape.py        -s $i -e $i -r $RESCRAPE
+        run_scraper officials    python3 python/espn_wbb_10_officials_scrape.py           -s $i -e $i -r $RESCRAPE
         # Last: stamps has_* capture flags onto the season schedule, then
         # unions every season into the master + coverage index.
         run_scraper master       python3 python/espn_wbb_99_schedule_master_creation.py   -s $i -e $i

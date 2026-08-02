@@ -32,13 +32,13 @@ HERE = Path(__file__).resolve().parent
 STEPS = [
     "espn_wbb_01_schedules_scrape.py",
     "espn_wbb_02_pbp_scrape.py",
-    "espn_wbb_03_team_rosters_scrape.py",
-    "espn_wbb_04_player_core_scrape.py",
-    "espn_wbb_05_player_season_stats_scrape.py",
-    "espn_wbb_06_team_season_stats_scrape.py",
-    "espn_wbb_07_standings_scrape.py",
-    "espn_wbb_08_game_rosters_scrape.py",
-    "espn_wbb_09_officials_scrape.py",
+    "espn_wbb_08_team_rosters_scrape.py",
+    "espn_wbb_09_player_core_scrape.py",
+    "espn_wbb_06_player_season_stats_scrape.py",
+    "espn_wbb_07_team_season_stats_scrape.py",
+    "espn_wbb_03_standings_scrape.py",
+    "espn_wbb_04_game_rosters_scrape.py",
+    "espn_wbb_10_officials_scrape.py",
 ]
 
 

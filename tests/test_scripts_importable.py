@@ -94,5 +94,5 @@ def test_no_script_uses_type_bool(path):
         if kw.arg == "type" and isinstance(kw.value, ast.Name) and kw.value.id == "bool"
     ]
     assert offenders == [], (
-        f"{path.name} passes type=bool at line(s) {offenders}; use wbb_raw_scrape.cli.str2bool"
+        f"{path.name} passes type=bool at line(s) {offenders}; use sportsdataverse.scrape.espn.cli.str2bool"
     )

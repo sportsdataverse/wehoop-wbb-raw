@@ -23,8 +23,8 @@ import argparse
 from pathlib import Path
 
 import polars as pl
-from wbb_raw_scrape.master import build_coverage, build_master
-from wbb_raw_scrape.schedule import add_capture_columns
+from sportsdataverse.scrape.espn.master import build_coverage, build_master
+from sportsdataverse.scrape.espn.schedule import add_capture_columns
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 LEAGUE = "wbb"

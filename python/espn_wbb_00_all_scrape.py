@@ -24,7 +24,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-from wbb_raw_scrape.cli import season_args
+from sportsdataverse.scrape.espn.cli import season_args
 
 HERE = Path(__file__).resolve().parent
 

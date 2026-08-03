@@ -26,6 +26,7 @@ import time
 from pathlib import Path
 
 from sportsdataverse.dl_utils import download
+from sportsdataverse.scrape.espn.persist import write_payload
 
 # Imported direct from the module path because the new helpers are not yet
 # re-exported via sportsdataverse.wbb.__init__.
@@ -37,7 +38,6 @@ from sportsdataverse.dl_utils import download
 # so do not "simplify" this import.
 from sportsdataverse.wbb import espn_wbb_player_stats_v3
 from tqdm import tqdm
-from wbb_raw_scrape.persist import write_payload
 
 logging.basicConfig(
     level=logging.INFO,

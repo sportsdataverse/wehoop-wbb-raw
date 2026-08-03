@@ -9,7 +9,7 @@ from pathlib import Path
 import pandas as pd
 import pyreadr
 import sportsdataverse as sdv
-from wbb_raw_scrape.cli import str2bool
+from sportsdataverse.scrape.espn.cli import str2bool
 
 logging.basicConfig(level=logging.INFO, filename="wehoop_wbb_raw_logfile.txt")
 logger = logging.getLogger(__name__)

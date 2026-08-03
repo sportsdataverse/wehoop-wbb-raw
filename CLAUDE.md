@@ -70,14 +70,16 @@ ESPN parsing in `sportsdataverse-py`, not here.
 - **Never `argparse(type=bool)`.** bash passes the string `"false"` and
   `bool("false")` is `True`. Two scrapers carried it with `default=True`, so
   every daily run re-downloaded all ~129k game summaries from ESPN. Use
-  `wbb_raw_scrape.cli.str2bool`; `tests/test_scripts_importable.py` has an AST
-  check that fails the build if it comes back.
+  `sportsdataverse.scrape.espn.cli.str2bool`; `tests/test_scripts_importable.py`
+  has an AST check that fails the build if it comes back.
 - **Never persist a provider error body.** ESPN answers failures with HTTP 200
   and an error payload (`{"code":3001,"detail":"timeout..."}` or a Spring-style
   `{"error","message","status",...}`), which is not an exception. 21 such files
   were committed and, because the raw tree is the checkpoint, stayed permanently
-  empty. All writes go through `wbb_raw_scrape.persist.write_payload`, which
-  refuses them and never truncates an existing good capture.
+  empty. All writes go through `sportsdataverse.scrape.espn.persist.write_payload`,
+  which refuses them and never truncates an existing good capture. A 2026-08-03
+  sweep of all four ESPN raw archives with that predicate found 0 poisoned
+  captures here and 52 across the three repos that lacked the guard.
 - Dependencies are `pyproject.toml` + `uv.lock` only. When adding an import,
   add the dependency in the same change — an import audit of `python/*.py` is
   what caught `pyreadr`/`pandas`/`numpy` going missing.

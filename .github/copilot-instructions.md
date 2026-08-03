@@ -58,12 +58,16 @@ a **separate namespace** following build order — the numbers do not correspond
 - Follow the parent SDK's Python conventions: snake_case, 4-space indent.
 - Prefer `pathlib.Path`, `concurrent.futures` for parallelism, `tqdm` for progress.
 - Don't add bespoke ESPN parsing here — call into `sportsdataverse.wbb.*` and persist its output.
-- Cross-cutting concerns live in the shared `python/wbb_raw_scrape/` package
+- Cross-cutting concerns live in `sportsdataverse.scrape.espn`
   (`cli.season_args`/`str2bool`, `paths`, `persist.write_payload`, `ids`,
   `master`, `schedule`), so the numbered scripts stay thin. Add shared logic
-  there, not inline — the other three ESPN raw repos lack this package and
-  inline the same concerns, which is the duplication this repo is the
-  reference implementation against.
+  there — in sdv-py — not inline here. This was `python/wbb_raw_scrape/` until
+  2026-08-03, when it was lifted into sdv-py (PR #332) and parameterized on
+  `LeagueConfig` so the other three ESPN raw repos can share it instead of
+  inlining the same concerns.
+- `add_capture_columns(...)` now takes **`league=` as a required keyword**. A
+  defaulted league is how a well-formed capture lands under the wrong league's
+  tree — wrong data, no error.
 - Keep `requirements.txt` minimal; avoid adding heavy ML/analytical deps.
 
 ## Daily Umbrella Workflow

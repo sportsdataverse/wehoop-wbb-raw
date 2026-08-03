@@ -6,10 +6,10 @@ from pathlib import Path
 
 import polars as pl
 import pytest
-from wbb_raw_scrape.ids import to_int64, with_int64_ids
-from wbb_raw_scrape.master import build_coverage, build_master
-from wbb_raw_scrape.paths import raw_github_url
-from wbb_raw_scrape.schedule import add_capture_columns
+from sportsdataverse.scrape.espn.ids import to_int64, with_int64_ids
+from sportsdataverse.scrape.espn.master import build_coverage, build_master
+from sportsdataverse.scrape.espn.paths import raw_github_url
+from sportsdataverse.scrape.espn.schedule import add_capture_columns
 
 # --- ids ---------------------------------------------------------------------
 
@@ -83,33 +83,33 @@ def _schedule() -> pl.DataFrame:
 
 
 def test_adds_every_column(tmp_path):
-    out = add_capture_columns(_schedule(), root=_tree(tmp_path))
+    out = add_capture_columns(_schedule(), root=_tree(tmp_path), league="wbb")
     for column in NEW_COLUMNS:
         assert column in out.columns
 
 
 def test_urls_emitted_for_every_row_even_when_the_file_is_absent(tmp_path):
-    out = add_capture_columns(_schedule(), root=_tree(tmp_path))
+    out = add_capture_columns(_schedule(), root=_tree(tmp_path), league="wbb")
     assert out["game_json_url"].null_count() == 0
     assert out["game_json_url"][1].endswith("wbb/json/final/401811124.json")
 
 
 def test_has_flags_reflect_what_is_on_disk(tmp_path):
-    out = add_capture_columns(_schedule(), root=_tree(tmp_path))
+    out = add_capture_columns(_schedule(), root=_tree(tmp_path), league="wbb")
     assert out["has_game_json"].to_list() == [True, False]
     assert out["has_game_rosters_json"].to_list() == [True, False]
     assert out["has_officials_json"].to_list() == [False, False]
 
 
 def test_game_id_is_canonicalized_to_int64(tmp_path):
-    out = add_capture_columns(_schedule(), root=_tree(tmp_path))
+    out = add_capture_columns(_schedule(), root=_tree(tmp_path), league="wbb")
     assert out.schema["game_id"] == pl.Int64
 
 
 def test_url_never_contains_a_float_artifact(tmp_path):
     """A float-origin id stringifies as "123.0" and addresses nothing."""
     df = pl.DataFrame({"game_id": [401811123.0]})
-    out = add_capture_columns(df, root=_tree(tmp_path))
+    out = add_capture_columns(df, root=_tree(tmp_path), league="wbb")
     assert ".0.json" not in out["game_json_url"][0]
     assert out["game_json_url"][0].endswith("401811123.json")
 

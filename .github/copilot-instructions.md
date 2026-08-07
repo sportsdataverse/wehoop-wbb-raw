@@ -68,7 +68,10 @@ a **separate namespace** following build order — the numbers do not correspond
 - `add_capture_columns(...)` now takes **`league=` as a required keyword**. A
   defaulted league is how a well-formed capture lands under the wrong league's
   tree — wrong data, no error.
-- Keep `requirements.txt` minimal; avoid adding heavy ML/analytical deps.
+- Deps live in `pyproject.toml` + `uv.lock` (no `requirements.txt`);
+  `sportsdataverse` is pinned to git `main` via `[tool.uv.sources]` and CI
+  installs with `uv sync --frozen --dev`. Keep the dependency list minimal;
+  avoid adding heavy ML/analytical deps.
 
 ## Daily Umbrella Workflow
 

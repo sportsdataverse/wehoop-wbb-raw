@@ -14,7 +14,6 @@ import json
 from pathlib import Path
 
 import pytest
-
 from sportsdataverse.scrape.espn.persist import (
     is_error_payload,
     scan_for_error_payloads,

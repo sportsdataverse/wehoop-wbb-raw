@@ -30,6 +30,10 @@ mkdir -p logs
 PY="$SDV_PY"
 echo "Interpreter: $PY"
 
+# The resolver's last-resort ambient-python fallback is only safe with this
+# check -- see sdv_preflight in scripts/_venv.sh.
+sdv_preflight sportsdataverse.scrape.espn sportsdataverse.wbb
+
 # Scraper failures used to be swallowed: each scraper ran bare, so a crash left
 # the loop running, the partial day got committed, and the job still exited 0.
 # Four scrapers sat dead for two sportsdataverse-py release cycles that way --

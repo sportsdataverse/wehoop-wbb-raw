@@ -194,3 +194,26 @@ raw tree is the scrape checkpoint.
 | [![wehoop_wbb_data_trigger.yaml](https://github.com/sportsdataverse/wehoop-wbb-raw/actions/workflows/wehoop_wbb_data_trigger.yaml/badge.svg)](https://github.com/sportsdataverse/wehoop-wbb-raw/actions/workflows/wehoop_wbb_data_trigger.yaml) | on push / dispatch | 2026-08-24 |
 
 <!-- END GENERATED: status -->
+
+## Consumers
+
+The packages that read what this repo produces:
+
+- **R:** [wehoop](https://wehoop.sportsdataverse.org) — docs at <https://wehoop.sportsdataverse.org>
+- **Python:** [`sportsdataverse.wbb`](https://github.com/sportsdataverse/sportsdataverse-py) — docs at <https://py.sportsdataverse.org>
+
+## Stage inventory
+
+Every numbered pipeline stage in `python/` (auto-listed; run subsets with the `scripts/*.sh` drivers by number or name):
+
+- `python/espn_wbb_00_all_scrape.py`
+- `python/espn_wbb_01_schedules_scrape.py`
+- `python/espn_wbb_02_pbp_scrape.py`
+- `python/espn_wbb_03_standings_scrape.py`
+- `python/espn_wbb_04_game_rosters_scrape.py`
+- `python/espn_wbb_06_player_season_stats_scrape.py`
+- `python/espn_wbb_07_team_season_stats_scrape.py`
+- `python/espn_wbb_08_team_rosters_scrape.py`
+- `python/espn_wbb_09_player_core_scrape.py`
+- `python/espn_wbb_10_officials_scrape.py`
+- `python/espn_wbb_99_schedule_master_creation.py`

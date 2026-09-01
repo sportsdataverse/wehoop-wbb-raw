@@ -160,6 +160,52 @@ raw tree is the scrape checkpoint.
 [ESPN WNBA Player Boxscores](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_player_boxscores)
 
 
+## Repository layout
+
+<!-- BEGIN GENERATED: layout -->
+
+```
+wehoop-wbb-raw/
+├── logs/   # per-run logs (gitignored where large)
+├── ops/   # cron definitions and runbooks
+│   └── oneoff/
+├── python/   # Python pipeline stages, numbered in build order
+│   ├── wbb_raw_scrape/
+│   ├── wehoop_wbb_raw_scrape.egg-info/
+│   ├── espn_wbb_00_all_scrape.py
+│   ├── espn_wbb_01_schedules_scrape.py
+│   ├── espn_wbb_02_pbp_scrape.py
+│   ├── espn_wbb_03_standings_scrape.py
+│   ├── espn_wbb_04_game_rosters_scrape.py
+│   ├── espn_wbb_06_player_season_stats_scrape.py
+│   ├── espn_wbb_07_team_season_stats_scrape.py
+│   ├── espn_wbb_08_team_rosters_scrape.py
+│   ├── espn_wbb_09_player_core_scrape.py
+│   ├── espn_wbb_10_officials_scrape.py
+│   └── espn_wbb_99_schedule_master_creation.py
+├── scripts/   # bash drivers (the daily/weekly entry points)
+│   ├── _venv.sh
+│   └── daily_wbb_scraper.sh
+├── tests/   # test suite
+│   ├── test_cli_contract.py
+│   ├── test_payload_schemas.py
+│   ├── test_persist_guard.py
+│   ├── test_schedule_master.py
+│   └── test_scripts_importable.py
+└── wbb/
+    ├── game_rosters/
+    ├── json/
+    ├── officials/
+    ├── player_core/
+    ├── player_season_stats/
+    ├── schedules/
+    ├── standings/
+    ├── team_rosters/
+    └── team_stats/
+```
+
+<!-- END GENERATED: layout -->
+
 ## Reports & explainers
 
 <!-- BEGIN GENERATED: reports -->

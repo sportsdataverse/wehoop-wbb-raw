@@ -9,6 +9,7 @@ from pathlib import Path
 import pandas as pd
 import pyreadr
 import sportsdataverse as sdv
+from espn_wbb_99_schedule_master_creation import cast_ids_int64
 from sportsdataverse.scrape.espn.cli import str2bool
 
 logging.basicConfig(level=logging.INFO, filename="wehoop_wbb_raw_logfile.txt")
@@ -44,8 +45,12 @@ def download_schedule(season, path_to_schedules=None):
     Path(f"{path_to_schedules}/parquet").mkdir(parents=True, exist_ok=True)
     Path(f"{path_to_schedules}/rds").mkdir(parents=True, exist_ok=True)
     if path_to_schedules is not None:
-        ev.to_parquet(f"{path_to_schedules}/parquet/wbb_schedule_{season}.parquet", index=False)
-        pyreadr.write_rds(f"{path_to_schedules}/rds/wbb_schedule_{season}.rds", ev, compress="gzip")
+        ids = cast_ids_int64(ev)
+        ids.to_parquet(f"{path_to_schedules}/parquet/wbb_schedule_{season}.parquet", index=False)
+        rds = cast_ids_int64(ev, rds=True)
+        pyreadr.write_rds(
+            f"{path_to_schedules}/rds/wbb_schedule_{season}.rds", rds, compress="gzip"
+        )
 
 
 def main():

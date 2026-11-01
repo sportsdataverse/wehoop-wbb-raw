@@ -1,11 +1,11 @@
 {
-"timestamp": "2026-08-19T00:39:35Z",
+"timestamp": "2026-11-01T11:26:39Z",
 "status": "success",
 "season": {
 "year": 2027,
 "displayName": "2026-27",
-"type": 1,
-"name": "Preseason"
+"type": 2,
+"name": "Regular Season"
 },
 "athletes": [
 {
@@ -416,6 +416,214 @@
 }
 ],
 "experience": {
+"years": 2,
+"displayValue": "Sophomore",
+"abbreviation": "SO"
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "5459362",
+"uid": "s:40~l:54~a:5459362",
+"guid": "10f5ff9d-42d9-3526-9530-2b8c71dd02e6",
+"alternateIds": {
+"sdr": "5459362"
+},
+"firstName": "McLayne",
+"lastName": "Bobo",
+"fullName": "McLayne Bobo",
+"displayName": "McLayne Bobo",
+"shortName": "M. Bobo",
+"height": 70.0,
+"displayHeight": "5' 10\"",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5459362/mclayne-bobo",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5459362/mclayne-bobo",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459362&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5459362/mclayne-bobo",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459362&section=gamelog",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5459362/mclayne-bobo",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459362&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5459362/mclayne-bobo",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459362&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5459362/mclayne-bobo",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459362",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Tullahoma",
+"state": "TN",
+"country": "USA",
+"displayText": "Tullahoma, TN"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"slug": "mclayne-bobo",
+"jersey": "4",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
+"position": {
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
+"leaf": false
+},
+"injuries": [],
+"teams": [
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2393?lang=en&region=us"
+}
+],
+"experience": {
 "years": 1,
 "displayValue": "Freshman",
 "abbreviation": "FR"
@@ -428,17 +636,17 @@
 }
 },
 {
-"id": "5178435",
-"uid": "s:40~l:54~a:5178435",
-"guid": "0bc6538d-10e0-3583-9c4b-5ef99c91af08",
+"id": "5459360",
+"uid": "s:40~l:54~a:5459360",
+"guid": "feb40f61-a33e-3304-a559-e041a89cf1aa",
 "alternateIds": {
-"sdr": "5178435"
+"sdr": "5459360"
 },
-"firstName": "Alayna",
-"lastName": "Contreras",
-"fullName": "Alayna Contreras",
-"displayName": "Alayna Contreras",
-"shortName": "A. Contreras",
+"firstName": "Maayan",
+"lastName": "Cohen",
+"fullName": "Maayan Cohen",
+"displayName": "Maayan Cohen",
+"shortName": "M. Cohen",
 "height": 66.0,
 "displayHeight": "5' 6\"",
 "links": [
@@ -449,7 +657,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5178435/alayna-contreras",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5459360/maayan-cohen",
 "text": "Player Card",
 "shortText": "Player Card",
 "isExternal": false,
@@ -462,7 +670,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5178435/alayna-contreras",
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5459360/maayan-cohen",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -476,7 +684,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5178435&section=stats",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459360&section=stats",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -489,7 +697,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5178435/alayna-contreras",
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5459360/maayan-cohen",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -503,7 +711,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5178435&section=gamelog",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459360&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -516,7 +724,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5178435/alayna-contreras",
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5459360/maayan-cohen",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -530,7 +738,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5178435&section=news",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459360&section=news",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -543,7 +751,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5178435/alayna-contreras",
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5459360/maayan-cohen",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -557,7 +765,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5178435&section=bio",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459360&section=bio",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -570,7 +778,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5178435/alayna-contreras",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5459360/maayan-cohen",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -584,7 +792,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5178435",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459360",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -592,29 +800,24 @@
 }
 ],
 "birthPlace": {
-"city": "Minneapolis",
-"state": "MN",
-"country": "USA",
-"displayText": "Minneapolis, MN"
+"city": "Holon",
+"country": "Israel",
+"displayText": "Holon, Israel"
 },
 "birthCountry": {
-"alternateId": "1",
-"abbreviation": "USA"
+"alternateId": "161",
+"abbreviation": "ISR"
 },
-"slug": "alayna-contreras",
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5178435.png",
-"alt": "Alayna Contreras"
-},
-"jersey": "3",
+"slug": "maayan-cohen",
+"jersey": "2",
 "hand": {
-"type": "BOTH",
-"abbreviation": "B",
-"displayValue": "Both"
+"type": "RIGHT",
+"abbreviation": "R",
+"displayValue": "Right"
 },
 "flag": {
-"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-"alt": "USA",
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/isr.png",
+"alt": "Israel",
 "rel": [
 "country-flag"
 ]
@@ -633,221 +836,9 @@
 }
 ],
 "experience": {
-"years": 4,
-"displayValue": "Senior",
-"abbreviation": "SR"
-},
-"status": {
-"id": "1",
-"name": "Active",
-"type": "active",
-"abbreviation": "Active"
-}
-},
-{
-"id": "5239969",
-"uid": "s:40~l:54~a:5239969",
-"guid": "bd531c7d-fcbb-3d87-a7a5-395028c66df7",
-"alternateIds": {
-"sdr": "5239969"
-},
-"firstName": "Savannah",
-"lastName": "Davis",
-"fullName": "Savannah Davis",
-"displayName": "Savannah Davis",
-"shortName": "S. Davis",
-"height": 70.0,
-"displayHeight": "5' 10\"",
-"links": [
-{
-"language": "en-US",
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5239969/savannah-davis",
-"text": "Player Card",
-"shortText": "Player Card",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"stats",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5239969/savannah-davis",
-"text": "Stats",
-"shortText": "Stats",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"stats",
-"sportscenter",
-"app",
-"athlete"
-],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5239969&section=stats",
-"text": "Stats",
-"shortText": "Stats",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"gamelog",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5239969/savannah-davis",
-"text": "Game Log",
-"shortText": "Game Log",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"gamelog",
-"sportscenter",
-"app",
-"athlete"
-],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5239969&section=gamelog",
-"text": "Game Log",
-"shortText": "Game Log",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"news",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5239969/savannah-davis",
-"text": "News",
-"shortText": "News",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"news",
-"sportscenter",
-"app",
-"athlete"
-],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5239969&section=news",
-"text": "News",
-"shortText": "News",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"bio",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5239969/savannah-davis",
-"text": "Bio",
-"shortText": "Bio",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"bio",
-"sportscenter",
-"app",
-"athlete"
-],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5239969&section=bio",
-"text": "Bio",
-"shortText": "Bio",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"overview",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5239969/savannah-davis",
-"text": "Overview",
-"shortText": "Overview",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"overview",
-"sportscenter",
-"app",
-"athlete"
-],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5239969",
-"text": "Overview",
-"shortText": "Overview",
-"isExternal": false,
-"isPremium": false
-}
-],
-"birthPlace": {
-"city": "Mckenzie",
-"state": "TN",
-"country": "USA",
-"displayText": "Mckenzie, TN"
-},
-"birthCountry": {
-"alternateId": "1",
-"abbreviation": "USA"
-},
-"slug": "savannah-davis",
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5239969.png",
-"alt": "Savannah Davis"
-},
-"jersey": "14",
-"flag": {
-"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-"alt": "USA",
-"rel": [
-"country-flag"
-]
-},
-"position": {
-"id": "3",
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G",
-"leaf": false
-},
-"injuries": [],
-"teams": [
-{
-"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2393?lang=en&region=us"
-}
-],
-"experience": {
-"years": 2,
-"displayValue": "Sophomore",
-"abbreviation": "SO"
+"years": 1,
+"displayValue": "Freshman",
+"abbreviation": "FR"
 },
 "status": {
 "id": "1",
@@ -1056,9 +1047,9 @@
 }
 ],
 "experience": {
-"years": 1,
-"displayValue": "Freshman",
-"abbreviation": "FR"
+"years": 2,
+"displayValue": "Sophomore",
+"abbreviation": "SO"
 },
 "status": {
 "id": "1",
@@ -1268,221 +1259,9 @@
 }
 ],
 "experience": {
-"years": 3,
-"displayValue": "Junior",
-"abbreviation": "JR"
-},
-"status": {
-"id": "1",
-"name": "Active",
-"type": "active",
-"abbreviation": "Active"
-}
-},
-{
-"id": "5177809",
-"uid": "s:40~l:54~a:5177809",
-"guid": "514e4715-6852-3231-87f5-e944edcf2a18",
-"alternateIds": {
-"sdr": "5177809"
-},
-"firstName": "Jada",
-"lastName": "Harrison",
-"fullName": "Jada Harrison",
-"displayName": "Jada Harrison",
-"shortName": "J. Harrison",
-"height": 68.0,
-"displayHeight": "5' 8\"",
-"links": [
-{
-"language": "en-US",
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5177809/jada-harrison",
-"text": "Player Card",
-"shortText": "Player Card",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"stats",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5177809/jada-harrison",
-"text": "Stats",
-"shortText": "Stats",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"stats",
-"sportscenter",
-"app",
-"athlete"
-],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5177809&section=stats",
-"text": "Stats",
-"shortText": "Stats",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"gamelog",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5177809/jada-harrison",
-"text": "Game Log",
-"shortText": "Game Log",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"gamelog",
-"sportscenter",
-"app",
-"athlete"
-],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5177809&section=gamelog",
-"text": "Game Log",
-"shortText": "Game Log",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"news",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5177809/jada-harrison",
-"text": "News",
-"shortText": "News",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"news",
-"sportscenter",
-"app",
-"athlete"
-],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5177809&section=news",
-"text": "News",
-"shortText": "News",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"bio",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5177809/jada-harrison",
-"text": "Bio",
-"shortText": "Bio",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"bio",
-"sportscenter",
-"app",
-"athlete"
-],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5177809&section=bio",
-"text": "Bio",
-"shortText": "Bio",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"overview",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5177809/jada-harrison",
-"text": "Overview",
-"shortText": "Overview",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
-"overview",
-"sportscenter",
-"app",
-"athlete"
-],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5177809",
-"text": "Overview",
-"shortText": "Overview",
-"isExternal": false,
-"isPremium": false
-}
-],
-"birthPlace": {
-"city": "Martin",
-"state": "TN",
-"country": "USA",
-"displayText": "Martin, TN"
-},
-"birthCountry": {
-"alternateId": "1",
-"abbreviation": "USA"
-},
-"slug": "jada-harrison",
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5177809.png",
-"alt": "Jada Harrison"
-},
-"jersey": "23",
-"flag": {
-"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-"alt": "USA",
-"rel": [
-"country-flag"
-]
-},
-"position": {
-"id": "3",
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G",
-"leaf": false
-},
-"injuries": [],
-"teams": [
-{
-"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2393?lang=en&region=us"
-}
-],
-"experience": {
-"years": 2,
-"displayValue": "Sophomore",
-"abbreviation": "SO"
+"years": 4,
+"displayValue": "Senior",
+"abbreviation": "SR"
 },
 "status": {
 "id": "1",
@@ -1669,7 +1448,7 @@
 "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5177811.png",
 "alt": "Stanislava Kabernick"
 },
-"jersey": "42",
+"jersey": "24",
 "flag": {
 "href": "https://a.espncdn.com/i/teamlogos/countries/500/rus.png",
 "alt": "Russia",
@@ -1691,9 +1470,9 @@
 }
 ],
 "experience": {
-"years": 2,
-"displayValue": "Sophomore",
-"abbreviation": "SO"
+"years": 3,
+"displayValue": "Junior",
+"abbreviation": "JR"
 },
 "status": {
 "id": "1",
@@ -1703,19 +1482,19 @@
 }
 },
 {
-"id": "5312931",
-"uid": "s:40~l:54~a:5312931",
-"guid": "933d18bc-ae25-377e-9064-1accda3e5f99",
+"id": "5108034",
+"uid": "s:40~l:54~a:5108034",
+"guid": "38f9394e-918c-32e1-b8c6-7e9c4485cbb6",
 "alternateIds": {
-"sdr": "5312931"
+"sdr": "5108034"
 },
-"firstName": "Yu Han",
-"lastName": "Lin",
-"fullName": "Yu Han Lin",
-"displayName": "Yu Han Lin",
-"shortName": "Y. Lin",
-"height": 69.0,
-"displayHeight": "5' 9\"",
+"firstName": "Mya",
+"lastName": "Kone",
+"fullName": "Mya Kone",
+"displayName": "Mya Kone",
+"shortName": "M. Kone",
+"height": 74.0,
+"displayHeight": "6' 2\"",
 "links": [
 {
 "language": "en-US",
@@ -1724,7 +1503,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5312931/yu-han-lin",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5108034/mya-kone",
 "text": "Player Card",
 "shortText": "Player Card",
 "isExternal": false,
@@ -1737,7 +1516,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5312931/yu-han-lin",
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5108034/mya-kone",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -1751,7 +1530,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5312931&section=stats",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5108034&section=stats",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -1764,7 +1543,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5312931/yu-han-lin",
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5108034/mya-kone",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -1778,7 +1557,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5312931&section=gamelog",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5108034&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -1791,7 +1570,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5312931/yu-han-lin",
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5108034/mya-kone",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -1805,7 +1584,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5312931&section=news",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5108034&section=news",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -1818,7 +1597,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5312931/yu-han-lin",
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5108034/mya-kone",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -1832,7 +1611,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5312931&section=bio",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5108034&section=bio",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -1845,7 +1624,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5312931/yu-han-lin",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5108034/mya-kone",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1859,7 +1638,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5312931",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5108034",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1867,24 +1646,27 @@
 }
 ],
 "birthPlace": {
-"city": "Hualien",
-"country": "Taiwan",
-"displayText": "Hualien, Taiwan"
+"city": "Pompano Beach",
+"state": "FL",
+"country": "USA",
+"displayText": "Pompano Beach, FL"
 },
 "birthCountry": {
-"alternateId": "781",
-"abbreviation": "TWN"
+"alternateId": "1",
+"abbreviation": "USA"
 },
-"slug": "yu-han-lin",
+"slug": "mya-kone",
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5312931.png",
-"alt": "Yu Han Lin"
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5108034.png",
+"alt": "Mya Kone"
 },
-"jersey": "1",
-"hand": {
-"type": "LEFT",
-"abbreviation": "L",
-"displayValue": "Left"
+"jersey": "8",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
 },
 "position": {
 "id": "3",
@@ -1900,9 +1682,9 @@
 }
 ],
 "experience": {
-"years": 1,
-"displayValue": "Freshman",
-"abbreviation": "FR"
+"years": 4,
+"displayValue": "Senior",
+"abbreviation": "SR"
 },
 "status": {
 "id": "1",
@@ -2112,9 +1894,9 @@
 }
 ],
 "experience": {
-"years": 1,
-"displayValue": "Freshman",
-"abbreviation": "FR"
+"years": 2,
+"displayValue": "Sophomore",
+"abbreviation": "SO"
 },
 "status": {
 "id": "1",
@@ -2124,19 +1906,19 @@
 }
 },
 {
-"id": "5175724",
-"uid": "s:40~l:54~a:5175724",
-"guid": "a7f6aeb0-879f-39b2-be6d-88fa9ded86fa",
+"id": "5240795",
+"uid": "s:40~l:54~a:5240795",
+"guid": "972fa057-dfb9-3fa0-9533-b2c40ca2e40c",
 "alternateIds": {
-"sdr": "5175724"
+"sdr": "5240795"
 },
-"firstName": "Emily",
-"lastName": "Monson",
-"fullName": "Emily Monson",
-"displayName": "Emily Monson",
-"shortName": "E. Monson",
-"height": 73.0,
-"displayHeight": "6' 1\"",
+"firstName": "Elisa",
+"lastName": "Mehyar",
+"fullName": "Elisa Mehyar",
+"displayName": "Elisa Mehyar",
+"shortName": "E. Mehyar",
+"height": 77.0,
+"displayHeight": "6' 5\"",
 "links": [
 {
 "language": "en-US",
@@ -2145,7 +1927,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5175724/emily-monson",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240795/elisa-mehyar",
 "text": "Player Card",
 "shortText": "Player Card",
 "isExternal": false,
@@ -2158,7 +1940,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5175724/emily-monson",
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5240795/elisa-mehyar",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -2172,7 +1954,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5175724&section=stats",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5240795&section=stats",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -2185,7 +1967,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5175724/emily-monson",
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5240795/elisa-mehyar",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -2199,7 +1981,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5175724&section=gamelog",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5240795&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -2212,7 +1994,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5175724/emily-monson",
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5240795/elisa-mehyar",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -2226,7 +2008,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5175724&section=news",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5240795&section=news",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -2239,7 +2021,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5175724/emily-monson",
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5240795/elisa-mehyar",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -2253,7 +2035,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5175724&section=bio",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5240795&section=bio",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -2266,7 +2048,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5175724/emily-monson",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5240795/elisa-mehyar",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -2280,7 +2062,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5175724",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5240795",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -2288,33 +2070,32 @@
 }
 ],
 "birthPlace": {
-"city": "Murfreesboro",
-"state": "TN",
-"country": "USA",
-"displayText": "Murfreesboro, TN"
+"city": "Copenhagen",
+"country": "Denmark",
+"displayText": "Copenhagen, Denmark"
 },
 "birthCountry": {
-"alternateId": "1",
-"abbreviation": "USA"
+"alternateId": "387",
+"abbreviation": "DEN"
 },
-"slug": "emily-monson",
+"slug": "elisa-mehyar",
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5175724.png",
-"alt": "Emily Monson"
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240795.png",
+"alt": "Elisa Mehyar"
 },
-"jersey": "11",
+"jersey": "16",
 "flag": {
-"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-"alt": "USA",
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/den.png",
+"alt": "Denmark",
 "rel": [
 "country-flag"
 ]
 },
 "position": {
-"id": "3",
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G",
+"id": "2",
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F",
 "leaf": false
 },
 "injuries": [],
@@ -2336,19 +2117,19 @@
 }
 },
 {
-"id": "5312937",
-"uid": "s:40~l:54~a:5312937",
-"guid": "441addeb-e61a-3e6d-8df9-13fbc5b91bfc",
+"id": "5459361",
+"uid": "s:40~l:54~a:5459361",
+"guid": "a0e403df-8b70-3436-b0da-2c9847a3f1d4",
 "alternateIds": {
-"sdr": "5312937"
+"sdr": "5459361"
 },
-"firstName": "Macie",
-"lastName": "Phifer",
-"fullName": "Macie Phifer",
-"displayName": "Macie Phifer",
-"shortName": "M. Phifer",
-"height": 73.0,
-"displayHeight": "6' 1\"",
+"firstName": "Kennedi",
+"lastName": "Neale",
+"fullName": "Kennedi Neale",
+"displayName": "Kennedi Neale",
+"shortName": "K. Neale",
+"height": 70.0,
+"displayHeight": "5' 10\"",
 "links": [
 {
 "language": "en-US",
@@ -2357,7 +2138,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5312937/macie-phifer",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5459361/kennedi-neale",
 "text": "Player Card",
 "shortText": "Player Card",
 "isExternal": false,
@@ -2370,7 +2151,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5312937/macie-phifer",
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5459361/kennedi-neale",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -2384,7 +2165,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5312937&section=stats",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459361&section=stats",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -2397,7 +2178,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5312937/macie-phifer",
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5459361/kennedi-neale",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -2411,7 +2192,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5312937&section=gamelog",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459361&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -2424,7 +2205,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5312937/macie-phifer",
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5459361/kennedi-neale",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -2438,7 +2219,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5312937&section=news",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459361&section=news",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -2451,7 +2232,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5312937/macie-phifer",
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5459361/kennedi-neale",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -2465,7 +2246,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5312937&section=bio",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459361&section=bio",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -2478,7 +2259,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5312937/macie-phifer",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5459361/kennedi-neale",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -2492,7 +2273,7 @@
 "app",
 "athlete"
 ],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5312937",
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5459361",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -2500,21 +2281,22 @@
 }
 ],
 "birthPlace": {
-"city": "New Albany",
-"state": "MS",
+"city": "Strongsville",
+"state": "OH",
 "country": "USA",
-"displayText": "New Albany, MS"
+"displayText": "Strongsville, OH"
 },
 "birthCountry": {
 "alternateId": "1",
 "abbreviation": "USA"
 },
-"slug": "macie-phifer",
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5312937.png",
-"alt": "Macie Phifer"
+"slug": "kennedi-neale",
+"jersey": "3",
+"hand": {
+"type": "BOTH",
+"abbreviation": "B",
+"displayValue": "Both"
 },
-"jersey": "22",
 "flag": {
 "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
 "alt": "USA",
@@ -2536,9 +2318,9 @@
 }
 ],
 "experience": {
-"years": 1,
-"displayValue": "Freshman",
-"abbreviation": "FR"
+"years": 2,
+"displayValue": "Sophomore",
+"abbreviation": "SO"
 },
 "status": {
 "id": "1",
@@ -2726,7 +2508,7 @@
 "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5312932.png",
 "alt": "Carsyn Swaney"
 },
-"jersey": "5",
+"jersey": "11",
 "flag": {
 "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
 "alt": "USA",
@@ -2748,9 +2530,9 @@
 }
 ],
 "experience": {
-"years": 1,
-"displayValue": "Freshman",
-"abbreviation": "FR"
+"years": 2,
+"displayValue": "Sophomore",
+"abbreviation": "SO"
 },
 "status": {
 "id": "1",
@@ -2960,9 +2742,226 @@
 }
 ],
 "experience": {
-"years": 1,
-"displayValue": "Freshman",
-"abbreviation": "FR"
+"years": 2,
+"displayValue": "Sophomore",
+"abbreviation": "SO"
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "5242686",
+"uid": "s:40~l:54~a:5242686",
+"guid": "3b47521f-ccf5-3992-b585-90904f8e6a91",
+"alternateIds": {
+"sdr": "5242686"
+},
+"firstName": "Xai",
+"lastName": "Whitfield",
+"fullName": "Xai Whitfield",
+"displayName": "Xai Whitfield",
+"shortName": "X. Whitfield",
+"height": 69.0,
+"displayHeight": "5' 9\"",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5242686/xai-whitfield",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5242686/xai-whitfield",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5242686&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5242686/xai-whitfield",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5242686&section=gamelog",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5242686/xai-whitfield",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5242686&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5242686/xai-whitfield",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5242686&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5242686/xai-whitfield",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54~a:5242686",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Oxford",
+"state": "AL",
+"country": "USA",
+"displayText": "Oxford, AL"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"slug": "xai-whitfield",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5242686.png",
+"alt": "Xai Whitfield"
+},
+"jersey": "1",
+"hand": {
+"type": "LEFT",
+"abbreviation": "L",
+"displayValue": "Left"
+},
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
+"position": {
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
+"leaf": false
+},
+"injuries": [],
+"teams": [
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2393?lang=en&region=us"
+}
+],
+"experience": {
+"years": 3,
+"displayValue": "Junior",
+"abbreviation": "JR"
 },
 "status": {
 "id": "1",
@@ -2987,6 +2986,9 @@
 "displayName": "Middle Tennessee Blue Raiders",
 "clubhouse": "https://www.espn.com/womens-college-basketball/team/_/id/2393/middle-tennessee-blue-raiders",
 "color": "036eb7",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png"
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
+"recordSummary": "0-0",
+"seasonSummary": "2026-27",
+"standingSummary": "1st in CUSA"
 }
 }

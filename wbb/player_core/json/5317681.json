@@ -170,12 +170,15 @@
 ]
 },
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/2?lang=en&region=us",
-"id": "2",
-"name": "Forward",
-"displayName": "Forward",
-"abbreviation": "F",
-"leaf": false
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/6?lang=en&region=us",
+"id": "6",
+"name": "Power Forward",
+"displayName": "Power Forward",
+"abbreviation": "PF",
+"leaf": true,
+"parent": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/2?lang=en&region=us"
+}
 },
 "linked": true,
 "team": {
@@ -185,9 +188,9 @@
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5317681/statistics?lang=en&region=us"
 },
 "experience": {
-"years": 1,
-"displayValue": "Freshman",
-"abbreviation": "FR"
+"years": 2,
+"displayValue": "Sophomore",
+"abbreviation": "SO"
 },
 "active": true,
 "status": {

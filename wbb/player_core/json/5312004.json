@@ -12,8 +12,8 @@
 "fullName": "McKayla Taylor",
 "displayName": "McKayla Taylor",
 "shortName": "M. Taylor",
-"height": 73.0,
-"displayHeight": "6' 1\"",
+"height": 72.0,
+"displayHeight": "6' 0\"",
 "links": [
 {
 "language": "en-US",
@@ -178,12 +178,7 @@
 "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5312004.png",
 "alt": "McKayla Taylor"
 },
-"jersey": "1",
-"hand": {
-"type": "LEFT",
-"abbreviation": "L",
-"displayValue": "Left"
-},
+"jersey": "22",
 "flag": {
 "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
 "alt": "USA",
@@ -201,7 +196,10 @@
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/59?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2011?lang=en&region=us"
+},
+"statistics": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5312004/statistics?lang=en&region=us"
 },
 "experience": {
 "years": 1,
@@ -214,5 +212,8 @@
 "name": "Active",
 "type": "active",
 "abbreviation": "Active"
+},
+"statisticslog": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5312004/statisticslog?lang=en&region=us"
 }
 }

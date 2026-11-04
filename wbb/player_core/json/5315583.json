@@ -164,9 +164,23 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
+"birthPlace": {
+"city": "Tallin",
+"country": "Estonia"
+},
+"birthCountry": {
+"alternateId": "107",
+"abbreviation": "EST"
+},
 "slug": "katlin-kangur",
 "jersey": "14",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/est.png",
+"alt": "Estonia",
+"rel": [
+"country-flag"
+]
+},
 "position": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
 "id": "3",
@@ -183,9 +197,9 @@
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5315583/statistics?lang=en&region=us"
 },
 "experience": {
-"years": 1,
-"displayValue": "Freshman",
-"abbreviation": "FR"
+"years": 2,
+"displayValue": "Sophomore",
+"abbreviation": "SO"
 },
 "active": true,
 "status": {

@@ -12,6 +12,8 @@
 "fullName": "Jazelle Young",
 "displayName": "Jazelle Young",
 "shortName": "J. Young",
+"height": 74.0,
+"displayHeight": "6' 2\"",
 "links": [
 {
 "language": "en-US",
@@ -162,25 +164,50 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
+"birthPlace": {
+"city": "Chicago",
+"state": "IL",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
 "slug": "jazelle-young",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5182941.png",
+"alt": "Jazelle Young"
+},
+"jersey": "42",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/1?lang=en&region=us",
-"id": "1",
-"name": "Center",
-"displayName": "Center",
-"abbreviation": "C",
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/2?lang=en&region=us",
+"id": "2",
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F",
 "leaf": false
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2350?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/282?lang=en&region=us"
 },
-"active": false,
+"experience": {
+"years": 3,
+"displayValue": "Junior",
+"abbreviation": "JR"
+},
+"active": true,
 "status": {
-"id": "2",
-"name": "Inactive",
-"type": "inactive",
-"abbreviation": "Inactive"
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
 }
 }

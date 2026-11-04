@@ -7,11 +7,13 @@
 "alternateIds": {
 "sdr": "5252501"
 },
-"firstName": "Carleigh",
+"firstName": "Caleigh",
 "lastName": "Adams",
-"fullName": "Carleigh Adams",
-"displayName": "Carleigh Adams",
+"fullName": "Caleigh Adams",
+"displayName": "Caleigh Adams",
 "shortName": "C. Adams",
+"height": 72.0,
+"displayHeight": "6' 0\"",
 "links": [
 {
 "language": "en-US",
@@ -20,7 +22,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5252501/carleigh-adams",
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5252501/caleigh-adams",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -47,7 +49,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5252501/carleigh-adams",
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5252501/caleigh-adams",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -74,7 +76,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5252501/carleigh-adams",
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5252501/caleigh-adams",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -101,7 +103,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5252501/carleigh-adams",
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5252501/caleigh-adams",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -128,7 +130,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5252501/carleigh-adams",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5252501/caleigh-adams",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -149,30 +151,50 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
-"slug": "carleigh-adams",
-"jersey": "23",
+"birthPlace": {
+"city": "Bakersfield",
+"state": "CA",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"slug": "caleigh-adams",
+"jersey": "21",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/74?lang=en&region=us",
-"id": "74",
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH",
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/2?lang=en&region=us",
+"id": "2",
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F",
 "leaf": false
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2025/teams/22?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2772?lang=en&region=us"
 },
 "statistics": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5252501/statistics?lang=en&region=us"
 },
-"active": false,
+"experience": {
+"years": 3,
+"displayValue": "Junior",
+"abbreviation": "JR"
+},
+"active": true,
 "status": {
-"id": "2",
-"name": "Inactive",
-"type": "inactive",
-"abbreviation": "Inactive"
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
 },
 "statisticslog": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5252501/statisticslog?lang=en&region=us"

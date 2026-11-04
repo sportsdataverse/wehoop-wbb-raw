@@ -7,10 +7,10 @@
 "alternateIds": {
 "sdr": "5317677"
 },
-"firstName": "Izzy",
+"firstName": "Isabel",
 "lastName": "Waite",
-"fullName": "Izzy Waite",
-"displayName": "Izzy Waite",
+"fullName": "Isabel Waite",
+"displayName": "Isabel Waite",
 "shortName": "I. Waite",
 "height": 69.0,
 "displayHeight": "5' 9\"",
@@ -22,7 +22,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5317677/izzy-waite",
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5317677/isabel-waite",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -49,7 +49,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5317677/izzy-waite",
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5317677/isabel-waite",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -76,7 +76,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5317677/izzy-waite",
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5317677/isabel-waite",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -103,7 +103,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5317677/izzy-waite",
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5317677/isabel-waite",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -130,7 +130,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5317677/izzy-waite",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5317677/isabel-waite",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -160,7 +160,7 @@
 "alternateId": "1",
 "abbreviation": "USA"
 },
-"slug": "izzy-waite",
+"slug": "isabel-waite",
 "jersey": "1",
 "hand": {
 "type": "LEFT",
@@ -175,12 +175,15 @@
 ]
 },
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
-"id": "3",
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G",
-"leaf": false
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/8?lang=en&region=us",
+"id": "8",
+"name": "Small Forward",
+"displayName": "Small Forward",
+"abbreviation": "SF",
+"leaf": true,
+"parent": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/2?lang=en&region=us"
+}
 },
 "linked": true,
 "team": {
@@ -190,9 +193,9 @@
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5317677/statistics?lang=en&region=us"
 },
 "experience": {
-"years": 1,
-"displayValue": "Freshman",
-"abbreviation": "FR"
+"years": 2,
+"displayValue": "Sophomore",
+"abbreviation": "SO"
 },
 "active": true,
 "status": {

@@ -8,10 +8,10 @@
 "sdr": "5178246"
 },
 "firstName": "Paloma",
-"lastName": "Garcia",
-"fullName": "Paloma Garcia",
-"displayName": "Paloma Garcia",
-"shortName": "P. Garcia",
+"lastName": "Garcia Rosado",
+"fullName": "Paloma Garcia Rosado",
+"displayName": "Paloma Garcia Rosado",
+"shortName": "P. Garcia Rosado",
 "height": 66.0,
 "displayHeight": "5' 6\"",
 "links": [
@@ -22,7 +22,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5178246/paloma-garcia",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5178246/paloma-garcia-rosado",
 "text": "Player Card",
 "shortText": "Player Card",
 "isExternal": false,
@@ -35,7 +35,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5178246/paloma-garcia",
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5178246/paloma-garcia-rosado",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -62,7 +62,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5178246/paloma-garcia",
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5178246/paloma-garcia-rosado",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -89,7 +89,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5178246/paloma-garcia",
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5178246/paloma-garcia-rosado",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -116,7 +116,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5178246/paloma-garcia",
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5178246/paloma-garcia-rosado",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -143,7 +143,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5178246/paloma-garcia",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5178246/paloma-garcia-rosado",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -173,12 +173,12 @@
 "alternateId": "172",
 "abbreviation": "PUR"
 },
-"slug": "paloma-garcia",
+"slug": "paloma-garcia-rosado",
 "headshot": {
 "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5178246.png",
-"alt": "Paloma Garcia"
+"alt": "Paloma Garcia Rosado"
 },
-"jersey": "10",
+"jersey": "8",
 "flag": {
 "href": "https://a.espncdn.com/i/teamlogos/countries/500/pur.png",
 "alt": "Puerto Rico",
@@ -187,24 +187,27 @@
 ]
 },
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
-"id": "3",
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G",
-"leaf": false
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/4?lang=en&region=us",
+"id": "4",
+"name": "Point Guard",
+"displayName": "Point Guard",
+"abbreviation": "PG",
+"leaf": true,
+"parent": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us"
+}
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2771?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2275?lang=en&region=us"
 },
 "statistics": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5178246/statistics?lang=en&region=us"
 },
 "experience": {
-"years": 3,
-"displayValue": "Junior",
-"abbreviation": "JR"
+"years": 4,
+"displayValue": "Senior",
+"abbreviation": "SR"
 },
 "active": true,
 "status": {

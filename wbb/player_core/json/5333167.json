@@ -164,9 +164,28 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
+"birthPlace": {
+"city": "Almere",
+"country": "Netherlands"
+},
+"birthCountry": {
+"alternateId": "101",
+"abbreviation": "NED"
+},
 "slug": "quintilla-hidalgo",
-"jersey": "7",
+"jersey": "3",
+"hand": {
+"type": "BOTH",
+"abbreviation": "B",
+"displayValue": "Both"
+},
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+"alt": "Netherlands",
+"rel": [
+"country-flag"
+]
+},
 "position": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
 "id": "3",

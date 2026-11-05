@@ -165,7 +165,7 @@
 }
 ],
 "birthPlace": {
-"city": "Gavle",
+"city": "Hudiksvall",
 "country": "Sweden"
 },
 "birthCountry": {
@@ -177,7 +177,7 @@
 "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5311618.png",
 "alt": "Elsa Vadfors"
 },
-"jersey": "15",
+"jersey": "18",
 "flag": {
 "href": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
 "alt": "Sweden",
@@ -195,7 +195,10 @@
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/96?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2193?lang=en&region=us"
+},
+"statistics": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5311618/statistics?lang=en&region=us"
 },
 "experience": {
 "years": 1,
@@ -208,5 +211,8 @@
 "name": "Active",
 "type": "active",
 "abbreviation": "Active"
+},
+"statisticslog": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5311618/statisticslog?lang=en&region=us"
 }
 }

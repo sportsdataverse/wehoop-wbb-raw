@@ -7,11 +7,13 @@
 "alternateIds": {
 "sdr": "5262146"
 },
-"firstName": "Brecken",
+"firstName": "Breckan",
 "lastName": "Stewart",
-"fullName": "Brecken Stewart",
-"displayName": "Brecken Stewart",
+"fullName": "Breckan Stewart",
+"displayName": "Breckan Stewart",
 "shortName": "B. Stewart",
+"height": 71.0,
+"displayHeight": "5' 11\"",
 "links": [
 {
 "language": "en-US",
@@ -20,7 +22,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5262146/brecken-stewart",
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5262146/breckan-stewart",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -47,7 +49,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5262146/brecken-stewart",
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5262146/breckan-stewart",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -74,7 +76,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5262146/brecken-stewart",
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5262146/breckan-stewart",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -101,7 +103,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5262146/brecken-stewart",
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5262146/breckan-stewart",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -128,7 +130,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5262146/brecken-stewart",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5262146/breckan-stewart",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -149,15 +151,30 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
-"slug": "brecken-stewart",
-"jersey": "25",
+"birthPlace": {
+"city": "Waukon",
+"state": "IA",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"slug": "breckan-stewart",
+"jersey": "22",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/74?lang=en&region=us",
-"id": "74",
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH",
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/2?lang=en&region=us",
+"id": "2",
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F",
 "leaf": false
 },
 "linked": true,
@@ -166,6 +183,11 @@
 },
 "statistics": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5262146/statistics?lang=en&region=us"
+},
+"experience": {
+"years": 3,
+"displayValue": "Junior",
+"abbreviation": "JR"
 },
 "active": true,
 "status": {

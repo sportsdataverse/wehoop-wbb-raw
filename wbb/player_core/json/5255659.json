@@ -12,8 +12,8 @@
 "fullName": "Chelsea Bishop",
 "displayName": "Chelsea Bishop",
 "shortName": "C. Bishop",
-"height": 70.0,
-"displayHeight": "5' 10\"",
+"height": 69.0,
+"displayHeight": "5' 9\"",
 "links": [
 {
 "language": "en-US",
@@ -164,13 +164,28 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
+"birthPlace": {
+"city": "Flint",
+"state": "MI",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
 "slug": "chelsea-bishop",
 "headshot": {
 "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5255659.png",
 "alt": "Chelsea Bishop"
 },
 "jersey": "11",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
 "position": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
 "id": "3",
@@ -181,17 +196,22 @@
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2025/teams/2199?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/250?lang=en&region=us"
 },
 "statistics": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5255659/statistics?lang=en&region=us"
 },
-"active": false,
+"experience": {
+"years": 3,
+"displayValue": "Junior",
+"abbreviation": "JR"
+},
+"active": true,
 "status": {
-"id": "2",
-"name": "Inactive",
-"type": "inactive",
-"abbreviation": "Inactive"
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
 },
 "statisticslog": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5255659/statisticslog?lang=en&region=us"

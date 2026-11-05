@@ -164,13 +164,27 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
+"birthPlace": {
+"city": "Ljubljana",
+"country": "Slovenia"
+},
+"birthCountry": {
+"alternateId": "178",
+"abbreviation": "SLO"
+},
 "slug": "sara-sambolic",
 "headshot": {
 "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5311564.png",
 "alt": "Sara Sambolic"
 },
 "jersey": "9",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/slo.png",
+"alt": "Slovenia",
+"rel": [
+"country-flag"
+]
+},
 "position": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
 "id": "3",
@@ -187,9 +201,9 @@
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5311564/statistics?lang=en&region=us"
 },
 "experience": {
-"years": 3,
-"displayValue": "Junior",
-"abbreviation": "JR"
+"years": 4,
+"displayValue": "Senior",
+"abbreviation": "SR"
 },
 "active": true,
 "status": {

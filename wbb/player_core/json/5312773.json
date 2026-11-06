@@ -12,8 +12,8 @@
 "fullName": "Sanyiah Littlejohn",
 "displayName": "Sanyiah Littlejohn",
 "shortName": "S. Littlejohn",
-"height": 68.0,
-"displayHeight": "5' 8\"",
+"height": 67.0,
+"displayHeight": "5' 7\"",
 "links": [
 {
 "language": "en-US",
@@ -178,11 +178,11 @@
 "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5312773.png",
 "alt": "Sanyiah Littlejohn"
 },
-"jersey": "1",
+"jersey": "3",
 "hand": {
-"type": "LEFT",
-"abbreviation": "L",
-"displayValue": "Left"
+"type": "BOTH",
+"abbreviation": "B",
+"displayValue": "Both"
 },
 "flag": {
 "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
@@ -192,27 +192,24 @@
 ]
 },
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/4?lang=en&region=us",
-"id": "4",
-"name": "Point Guard",
-"displayName": "Point Guard",
-"abbreviation": "PG",
-"leaf": true,
-"parent": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us"
-}
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
+"leaf": false
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2244?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/48?lang=en&region=us"
 },
 "statistics": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5312773/statistics?lang=en&region=us"
 },
 "experience": {
-"years": 1,
-"displayValue": "Freshman",
-"abbreviation": "FR"
+"years": 2,
+"displayValue": "Sophomore",
+"abbreviation": "SO"
 },
 "active": true,
 "status": {

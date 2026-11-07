@@ -7,11 +7,13 @@
 "alternateIds": {
 "sdr": "5258356"
 },
-"firstName": "Emma",
+"firstName": "Emma Brooke",
 "lastName": "Reiser",
-"fullName": "Emma Reiser",
-"displayName": "Emma Reiser",
+"fullName": "Emma Brooke Reiser",
+"displayName": "Emma Brooke Reiser",
 "shortName": "E. Reiser",
+"height": 68.0,
+"displayHeight": "5' 8\"",
 "links": [
 {
 "language": "en-US",
@@ -20,7 +22,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5258356/emma-reiser",
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5258356/emma-brooke-reiser",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -47,7 +49,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5258356/emma-reiser",
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5258356/emma-brooke-reiser",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -74,7 +76,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5258356/emma-reiser",
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5258356/emma-brooke-reiser",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -101,7 +103,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5258356/emma-reiser",
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5258356/emma-brooke-reiser",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -128,7 +130,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5258356/emma-reiser",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5258356/emma-brooke-reiser",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -149,23 +151,43 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
-"slug": "emma-reiser",
+"birthPlace": {
+"city": "Hudson",
+"state": "FL",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"slug": "emma-brooke-reiser",
 "jersey": "23",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/74?lang=en&region=us",
-"id": "74",
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH",
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
 "leaf": false
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/130229?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2645?lang=en&region=us"
 },
 "statistics": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5258356/statistics?lang=en&region=us"
+},
+"experience": {
+"years": 4,
+"displayValue": "Senior",
+"abbreviation": "SR"
 },
 "active": true,
 "status": {

@@ -7,11 +7,13 @@
 "alternateIds": {
 "sdr": "4598541"
 },
-"firstName": "Ariana",
+"firstName": "Arianna",
 "lastName": "Harper",
-"fullName": "Ariana Harper",
-"displayName": "Ariana Harper",
+"fullName": "Arianna Harper",
+"displayName": "Arianna Harper",
 "shortName": "A. Harper",
+"height": 67.0,
+"displayHeight": "5' 7\"",
 "links": [
 {
 "language": "en-US",
@@ -20,7 +22,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/4598541/ariana-harper",
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/4598541/arianna-harper",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -47,7 +49,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/4598541/ariana-harper",
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/4598541/arianna-harper",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -74,7 +76,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/4598541/ariana-harper",
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/4598541/arianna-harper",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -101,7 +103,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/4598541/ariana-harper",
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/4598541/arianna-harper",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -128,7 +130,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4598541/ariana-harper",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4598541/arianna-harper",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -149,8 +151,29 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
-"slug": "ariana-harper",
+"birthPlace": {
+"city": "Los Angeles",
+"state": "CA",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"slug": "arianna-harper",
+"jersey": "3",
+"hand": {
+"type": "BOTH",
+"abbreviation": "B",
+"displayValue": "Both"
+},
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
 "position": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
 "id": "3",
@@ -161,17 +184,22 @@
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2020/teams/2092?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/116335?lang=en&region=us"
 },
 "statistics": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/4598541/statistics?lang=en&region=us"
 },
-"active": false,
+"experience": {
+"years": 4,
+"displayValue": "Senior",
+"abbreviation": "SR"
+},
+"active": true,
 "status": {
-"id": "2",
-"name": "Inactive",
-"type": "inactive",
-"abbreviation": "Inactive"
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
 },
 "statisticslog": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/4598541/statisticslog?lang=en&region=us"

@@ -174,6 +174,10 @@
 "abbreviation": "AUS"
 },
 "slug": "emma-petrie",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5457382.png",
+"alt": "Emma Petrie"
+},
 "jersey": "17",
 "flag": {
 "href": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
@@ -194,6 +198,9 @@
 "team": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/254?lang=en&region=us"
 },
+"statistics": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5457382/statistics?lang=en&region=us"
+},
 "experience": {
 "years": 1,
 "displayValue": "Freshman",
@@ -205,5 +212,8 @@
 "name": "Active",
 "type": "active",
 "abbreviation": "Active"
+},
+"statisticslog": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5457382/statisticslog?lang=en&region=us"
 }
 }

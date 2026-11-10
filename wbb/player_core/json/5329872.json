@@ -12,6 +12,8 @@
 "fullName": "Mylah Aalse",
 "displayName": "Mylah Aalse",
 "shortName": "M. Aalse",
+"height": 69.0,
+"displayHeight": "5' 9\"",
 "links": [
 {
 "language": "en-US",
@@ -149,9 +151,23 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
+"birthPlace": {
+"city": "Rotterdam",
+"country": "Netherlands"
+},
+"birthCountry": {
+"alternateId": "101",
+"abbreviation": "NED"
+},
 "slug": "mylah-aalse",
-"jersey": "24",
+"jersey": "12",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+"alt": "Netherlands",
+"rel": [
+"country-flag"
+]
+},
 "position": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
 "id": "3",
@@ -168,9 +184,9 @@
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5329872/statistics?lang=en&region=us"
 },
 "experience": {
-"years": 2,
-"displayValue": "Sophomore",
-"abbreviation": "SO"
+"years": 3,
+"displayValue": "Junior",
+"abbreviation": "JR"
 },
 "active": true,
 "status": {

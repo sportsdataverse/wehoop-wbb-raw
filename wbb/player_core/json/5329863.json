@@ -12,6 +12,8 @@
 "fullName": "Shahd Bakkar",
 "displayName": "Shahd Bakkar",
 "shortName": "S. Bakkar",
+"height": 66.0,
+"displayHeight": "5' 6\"",
 "links": [
 {
 "language": "en-US",
@@ -149,9 +151,23 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
+"birthPlace": {
+"city": "Beirut",
+"country": "Lebanon"
+},
+"birthCountry": {
+"alternateId": "645",
+"abbreviation": "LIB"
+},
 "slug": "shahd-bakkar",
 "jersey": "10",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/lib.png",
+"alt": "Lebanon",
+"rel": [
+"country-flag"
+]
+},
 "position": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
 "id": "3",
@@ -168,9 +184,9 @@
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5329863/statistics?lang=en&region=us"
 },
 "experience": {
-"years": 3,
-"displayValue": "Junior",
-"abbreviation": "JR"
+"years": 4,
+"displayValue": "Senior",
+"abbreviation": "SR"
 },
 "active": true,
 "status": {

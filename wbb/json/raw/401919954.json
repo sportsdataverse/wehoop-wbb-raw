@@ -234,13 +234,13 @@
 },
 {
 "name": "steals",
-"displayValue": "28",
+"displayValue": "25",
 "abbreviation": "STL",
 "label": "Steals"
 },
 {
 "name": "blocks",
-"displayValue": "11",
+"displayValue": "9",
 "abbreviation": "BLK",
 "label": "Blocks"
 },
@@ -1611,6 +1611,55 @@
 ]
 },
 {
+"active": true,
+"athlete": {
+"id": "5457128",
+"uid": "s:40~l:54~a:5457128",
+"guid": "cccd0595-6985-3c03-b0bd-1f84370e77b5",
+"displayName": "Amari Byles",
+"shortName": "A. Byles",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5457128/amari-byles",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5457128.png",
+"alt": "Amari Byles"
+},
+"jersey": "24",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"14",
+"4",
+"0-3",
+"0-0",
+"4-6",
+"3",
+"2",
+"1",
+"1",
+"0",
+"1",
+"2",
+"3"
+]
+},
+{
 "active": false,
 "athlete": {
 "id": "5457127",
@@ -1807,45 +1856,6 @@
 ]
 },
 {
-"active": true,
-"athlete": {
-"id": "5457128",
-"uid": "s:40~l:54~a:5457128",
-"guid": "cccd0595-6985-3c03-b0bd-1f84370e77b5",
-"displayName": "Amari Byles",
-"shortName": "A. Byles",
-"headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5457128.png",
-"alt": "Amari Byles"
-},
-"position": {
-"name": "Not Available",
-"displayName": "Not Available",
-"abbreviation": "NA"
-},
-"links": [],
-"jersey": "24"
-},
-"starter": false,
-"didNotPlay": false,
-"ejected": false,
-"stats": [
-"14",
-"4",
-"0-3",
-"0-0",
-"4-6",
-"3",
-"2",
-"1",
-"4",
-"2",
-"1",
-"2",
-"3"
-]
-},
-{
 "active": false,
 "athlete": {
 "id": "5457125",
@@ -1890,8 +1900,8 @@
 "55",
 "27",
 "13",
-"28",
-"11",
+"25",
+"9",
 "20",
 "35",
 "13"
@@ -29502,6 +29512,70 @@
 ]
 },
 {
+"team": "Fairleigh Dickinson",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/161/fairleigh-dickinson-knights",
+"id": "161",
+"uid": "s:40~l:54~t:161",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-2",
+"displayValue": "1-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/161.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-07-14T19:30Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/161.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-07-14T19:30Z"
+}
+]
+},
+{
 "team": "Mercyhurst",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2385/mercyhurst-lakers",
 "id": "2385",
@@ -29630,134 +29704,6 @@
 ]
 },
 {
-"team": "Central Connecticut",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2115/central-connecticut-blue-devils",
-"id": "2115",
-"uid": "s:40~l:54~t:2115",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-2",
-"displayValue": "0-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2115.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2115.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
-"team": "Fairleigh Dickinson",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/161/fairleigh-dickinson-knights",
-"id": "161",
-"uid": "s:40~l:54~t:161",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "0-2",
-"displayValue": "0-2"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/161.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-07-14T19:30Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/161.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-07-14T19:30Z"
-}
-]
-},
-{
 "team": "Le Moyne",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2330/le-moyne-dolphins",
 "id": "2330",
@@ -29818,6 +29764,70 @@
 "dark"
 ],
 "lastUpdated": "2023-08-23T21:03Z"
+}
+]
+},
+{
+"team": "Central Connecticut",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2115/central-connecticut-blue-devils",
+"id": "2115",
+"uid": "s:40~l:54~t:2115",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "0-3",
+"displayValue": "0-3"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2115.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2115.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },

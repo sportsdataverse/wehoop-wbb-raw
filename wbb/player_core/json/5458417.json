@@ -173,6 +173,10 @@
 "abbreviation": "MKD"
 },
 "slug": "anja-nachevska",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5458417.png",
+"alt": "Anja Nachevska"
+},
 "jersey": "44",
 "flag": {
 "href": "https://a.espncdn.com/i/teamlogos/countries/500/mkd.png",
@@ -193,6 +197,9 @@
 "team": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2261?lang=en&region=us"
 },
+"statistics": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5458417/statistics?lang=en&region=us"
+},
 "experience": {
 "years": 1,
 "displayValue": "Freshman",
@@ -204,5 +211,8 @@
 "name": "Active",
 "type": "active",
 "abbreviation": "Active"
+},
+"statisticslog": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5458417/statisticslog?lang=en&region=us"
 }
 }

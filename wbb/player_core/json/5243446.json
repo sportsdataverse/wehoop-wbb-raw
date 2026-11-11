@@ -12,22 +12,9 @@
 "fullName": "Addison Howell",
 "displayName": "Addison Howell",
 "shortName": "A. Howell",
-"height": 67.0,
-"displayHeight": "5' 7\"",
+"height": 68.0,
+"displayHeight": "5' 8\"",
 "links": [
-{
-"language": "en-US",
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5243446/addison-howell",
-"text": "Player Card",
-"shortText": "Player Card",
-"isExternal": false,
-"isPremium": false
-},
 {
 "language": "en-US",
 "rel": [
@@ -178,7 +165,7 @@
 "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5243446.png",
 "alt": "Addison Howell"
 },
-"jersey": "11",
+"jersey": "30",
 "flag": {
 "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
 "alt": "USA",
@@ -196,12 +183,15 @@
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2400?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/130263?lang=en&region=us"
+},
+"statistics": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5243446/statistics?lang=en&region=us"
 },
 "experience": {
-"years": 3,
-"displayValue": "Junior",
-"abbreviation": "JR"
+"years": 4,
+"displayValue": "Senior",
+"abbreviation": "SR"
 },
 "active": true,
 "status": {
@@ -209,5 +199,8 @@
 "name": "Active",
 "type": "active",
 "abbreviation": "Active"
+},
+"statisticslog": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5243446/statisticslog?lang=en&region=us"
 }
 }

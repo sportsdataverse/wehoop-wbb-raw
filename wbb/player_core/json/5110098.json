@@ -12,22 +12,9 @@
 "fullName": "Charity Hinton",
 "displayName": "Charity Hinton",
 "shortName": "C. Hinton",
-"height": 65.0,
-"displayHeight": "5' 5\"",
+"height": 64.0,
+"displayHeight": "5' 4\"",
 "links": [
-{
-"language": "en-US",
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5110098/charity-hinton",
-"text": "Player Card",
-"shortText": "Player Card",
-"isExternal": false,
-"isPremium": false
-},
 {
 "language": "en-US",
 "rel": [
@@ -174,7 +161,12 @@
 "abbreviation": "USA"
 },
 "slug": "charity-hinton",
-"jersey": "4",
+"jersey": "1",
+"hand": {
+"type": "LEFT",
+"abbreviation": "L",
+"displayValue": "Left"
+},
 "flag": {
 "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
 "alt": "USA",
@@ -192,18 +184,18 @@
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2400?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/130263?lang=en&region=us"
 },
 "experience": {
-"years": 1,
-"displayValue": "Freshman",
-"abbreviation": "FR"
+"years": 4,
+"displayValue": "Senior",
+"abbreviation": "SR"
 },
-"active": false,
+"active": true,
 "status": {
-"id": "2",
-"name": "Inactive",
-"type": "inactive",
-"abbreviation": "Inactive"
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
 }
 }

@@ -152,8 +152,8 @@
 }
 ],
 "birthPlace": {
-"city": "Memphis",
-"state": "TN",
+"city": "Byhalia",
+"state": "MS",
 "country": "USA"
 },
 "birthCountry": {
@@ -161,7 +161,7 @@
 "abbreviation": "USA"
 },
 "slug": "cora-causey",
-"jersey": "25",
+"jersey": "11",
 "flag": {
 "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
 "alt": "USA",
@@ -179,7 +179,10 @@
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2170?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/130263?lang=en&region=us"
+},
+"statistics": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5318685/statistics?lang=en&region=us"
 },
 "experience": {
 "years": 3,
@@ -192,5 +195,8 @@
 "name": "Active",
 "type": "active",
 "abbreviation": "Active"
+},
+"statisticslog": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5318685/statisticslog?lang=en&region=us"
 }
 }

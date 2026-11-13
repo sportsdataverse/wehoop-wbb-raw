@@ -1,0 +1,57 @@
+{
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5139?lang=en&region=us",
+"id": "5139",
+"uid": "s:40~l:54~a:5139",
+"guid": "d42e6def-5bf9-6553-d0f6-348a4d4925ed",
+"type": "basketball",
+"alternateIds": {
+"sdr": "2170597"
+},
+"firstName": "Laura",
+"lastName": "Harper",
+"fullName": "Laura Harper",
+"displayName": "Laura Harper",
+"shortName": "L. Harper",
+"weight": 186.0,
+"displayWeight": "186 lbs",
+"height": 77.0,
+"displayHeight": "6' 5\"",
+"age": 39,
+"dateOfBirth": "1986-04-11T08:00Z",
+"birthPlace": {
+"city": "Elkins Park",
+"state": "PA",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"slug": "laura-harper",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
+"position": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/0?lang=en&region=us",
+"id": "0",
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA",
+"leaf": false
+},
+"linked": true,
+"proAthlete": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/790?lang=en&region=us"
+},
+"active": false,
+"status": {
+"id": "2",
+"name": "Inactive",
+"type": "inactive",
+"abbreviation": "Inactive"
+}
+}

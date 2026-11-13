@@ -7,10 +7,10 @@
 "alternateIds": {
 "sdr": "5327088"
 },
-"firstName": "Valarie",
+"firstName": "Valery",
 "lastName": "Velazquez",
-"fullName": "Valarie Velazquez",
-"displayName": "Valarie Velazquez",
+"fullName": "Valery Velazquez",
+"displayName": "Valery Velazquez",
 "shortName": "V. Velazquez",
 "height": 65.0,
 "displayHeight": "5' 5\"",
@@ -22,7 +22,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5327088/valarie-velazquez",
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5327088/valery-velazquez",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -49,7 +49,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5327088/valarie-velazquez",
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5327088/valery-velazquez",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -76,7 +76,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5327088/valarie-velazquez",
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5327088/valery-velazquez",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -103,7 +103,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5327088/valarie-velazquez",
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5327088/valery-velazquez",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -130,7 +130,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5327088/valarie-velazquez",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5327088/valery-velazquez",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -152,14 +152,14 @@
 }
 ],
 "birthPlace": {
-"city": "Baja California Sur",
+"city": "Cabo San Lucas",
 "country": "Mexico"
 },
 "birthCountry": {
 "alternateId": "166",
 "abbreviation": "MEX"
 },
-"slug": "valarie-velazquez",
+"slug": "valery-velazquez",
 "jersey": "22",
 "flag": {
 "href": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
@@ -169,16 +169,22 @@
 ]
 },
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
-"id": "3",
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G",
-"leaf": false
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/6?lang=en&region=us",
+"id": "6",
+"name": "Power Forward",
+"displayName": "Power Forward",
+"abbreviation": "PF",
+"leaf": true,
+"parent": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/2?lang=en&region=us"
+}
 },
 "linked": true,
 "team": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/131817?lang=en&region=us"
+},
+"statistics": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5327088/statistics?lang=en&region=us"
 },
 "experience": {
 "years": 3,
@@ -191,5 +197,8 @@
 "name": "Active",
 "type": "active",
 "abbreviation": "Active"
+},
+"statisticslog": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5327088/statisticslog?lang=en&region=us"
 }
 }

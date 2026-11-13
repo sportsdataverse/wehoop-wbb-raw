@@ -8,10 +8,12 @@
 "sdr": "5252465"
 },
 "firstName": "Rylie",
-"lastName": "Edlefsen",
-"fullName": "Rylie Edlefsen",
-"displayName": "Rylie Edlefsen",
-"shortName": "R. Edlefsen",
+"lastName": "Edlefsen Kessinger",
+"fullName": "Rylie Edlefsen Kessinger",
+"displayName": "Rylie Edlefsen Kessinger",
+"shortName": "R. Edlefsen Kessinger",
+"height": 67.0,
+"displayHeight": "5' 7\"",
 "links": [
 {
 "language": "en-US",
@@ -20,7 +22,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5252465/rylie-edlefsen",
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5252465/rylie-edlefsen-kessinger",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -47,7 +49,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5252465/rylie-edlefsen",
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5252465/rylie-edlefsen-kessinger",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -74,7 +76,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5252465/rylie-edlefsen",
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5252465/rylie-edlefsen-kessinger",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -101,7 +103,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5252465/rylie-edlefsen",
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5252465/rylie-edlefsen-kessinger",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -128,7 +130,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5252465/rylie-edlefsen",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5252465/rylie-edlefsen-kessinger",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -149,15 +151,30 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
-"slug": "rylie-edlefsen",
+"birthPlace": {
+"city": "Blackfoot",
+"state": "ID",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"slug": "rylie-edlefsen-kessinger",
 "jersey": "20",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/74?lang=en&region=us",
-"id": "74",
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH",
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
 "leaf": false
 },
 "linked": true,
@@ -166,6 +183,11 @@
 },
 "statistics": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5252465/statistics?lang=en&region=us"
+},
+"experience": {
+"years": 3,
+"displayValue": "Junior",
+"abbreviation": "JR"
 },
 "active": true,
 "status": {

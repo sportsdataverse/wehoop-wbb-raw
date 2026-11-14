@@ -12,6 +12,8 @@
 "fullName": "Ava Egolf",
 "displayName": "Ava Egolf",
 "shortName": "A. Egolf",
+"height": 70.0,
+"displayHeight": "5' 10\"",
 "links": [
 {
 "language": "en-US",
@@ -149,23 +151,43 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
+"birthPlace": {
+"city": "Claypool",
+"state": "IN",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
 "slug": "ava-egolf",
-"jersey": "4",
+"jersey": "05",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/74?lang=en&region=us",
-"id": "74",
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH",
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
 "leaf": false
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/3067?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2860?lang=en&region=us"
 },
 "statistics": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5257063/statistics?lang=en&region=us"
+},
+"experience": {
+"years": 3,
+"displayValue": "Junior",
+"abbreviation": "JR"
 },
 "active": true,
 "status": {

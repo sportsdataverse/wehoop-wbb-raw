@@ -12,6 +12,8 @@
 "fullName": "Katie Ambrose",
 "displayName": "Katie Ambrose",
 "shortName": "K. Ambrose",
+"height": 66.0,
+"displayHeight": "5' 6\"",
 "links": [
 {
 "language": "en-US",
@@ -149,30 +151,53 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
+"birthPlace": {
+"city": "Naples",
+"state": "FL",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
 "slug": "katie-ambrose",
-"jersey": "11",
+"jersey": "24",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/74?lang=en&region=us",
-"id": "74",
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH",
-"leaf": false
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/4?lang=en&region=us",
+"id": "4",
+"name": "Point Guard",
+"displayName": "Point Guard",
+"abbreviation": "PG",
+"leaf": true,
+"parent": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us"
+}
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/3178?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2353?lang=en&region=us"
 },
 "statistics": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5258751/statistics?lang=en&region=us"
 },
-"active": false,
+"experience": {
+"years": 4,
+"displayValue": "Senior",
+"abbreviation": "SR"
+},
+"active": true,
 "status": {
-"id": "2",
-"name": "Inactive",
-"type": "inactive",
-"abbreviation": "Inactive"
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
 },
 "statisticslog": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5258751/statisticslog?lang=en&region=us"

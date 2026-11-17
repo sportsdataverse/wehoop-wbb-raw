@@ -1370,6 +1370,10 @@
 "text": "Player Card"
 }
 ],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5455214.png",
+"alt": "Jovana Popovic"
+},
 "jersey": "13",
 "position": {
 "name": "Guard",
@@ -1562,6 +1566,10 @@
 "text": "Player Card"
 }
 ],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5455215.png",
+"alt": "Olivia Vukosa"
+},
 "jersey": "25",
 "position": {
 "name": "Center",
@@ -1656,6 +1664,10 @@
 "text": "Player Card"
 }
 ],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5455213.png",
+"alt": "Marine Dursus"
+},
 "jersey": "5",
 "position": {
 "name": "Guard",
@@ -2192,6 +2204,10 @@
 "text": "Player Card"
 }
 ],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5455215.png",
+"alt": "Olivia Vukosa"
+},
 "jersey": "25",
 "position": {
 "name": "Center",
@@ -24392,6 +24408,20 @@
 }
 },
 {
+"id": 41,
+"type": "team",
+"guid": "e844192f-025a-30dd-8a57-005489a33d07",
+"description": "University of Connecticut",
+"sportId": 3170,
+"teamId": 41,
+"team": {
+"id": 41,
+"description": "University of Connecticut",
+"abbreviation": "UConn",
+"shortDisplayName": "UConn"
+}
+},
+{
 "id": 4839,
 "type": "team",
 "uid": "s:40~l:54~t:172",
@@ -24461,6 +24491,7 @@
 "keywords": [
 "NCAA Women's Basketball",
 "UConn Huskies",
+"University of Connecticut",
 "Cornell Big Red",
 "Cornell University",
 "Cornell Big Red @ UConn Huskies"
@@ -24501,70 +24532,6 @@
 {
 "standings": {
 "entries": [
-{
-"team": "Yale",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/43/yale-bulldogs",
-"id": "43",
-"uid": "s:40~l:54~t:43",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "4-0",
-"displayValue": "4-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-03-16T19:55Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/43.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-03-16T19:56Z"
-}
-]
-},
 {
 "team": "Princeton",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/163/princeton-tigers",
@@ -24626,6 +24593,70 @@
 "dark"
 ],
 "lastUpdated": "2023-01-25T22:35Z"
+}
+]
+},
+{
+"team": "Dartmouth",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/159/dartmouth-big-green",
+"id": "159",
+"uid": "s:40~l:54~t:159",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-1",
+"displayValue": "4-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/159.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
 },
@@ -24694,10 +24725,10 @@
 ]
 },
 {
-"team": "Dartmouth",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/159/dartmouth-big-green",
-"id": "159",
-"uid": "s:40~l:54~t:159",
+"team": "Yale",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/43/yale-bulldogs",
+"id": "43",
+"uid": "s:40~l:54~t:43",
 "stats": [
 {
 "id": "0",
@@ -24707,8 +24738,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "3-1",
-"displayValue": "3-1"
+"summary": "4-1",
+"displayValue": "4-1"
 },
 {
 "name": "gamesBehind",
@@ -24734,7 +24765,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -24742,10 +24773,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2018-06-05T12:08Z"
+"lastUpdated": "2022-03-16T19:55Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/159.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/43.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -24753,7 +24784,7 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2018-06-05T12:08Z"
+"lastUpdated": "2022-03-16T19:56Z"
 }
 ]
 },
@@ -25166,8 +25197,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "3-0",
-"displayValue": "3-0"
+"summary": "4-0",
+"displayValue": "4-0"
 },
 {
 "name": "gamesBehind",

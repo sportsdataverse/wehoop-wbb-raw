@@ -229,7 +229,7 @@
 },
 {
 "name": "assists",
-"displayValue": "15",
+"displayValue": "20",
 "abbreviation": "AST",
 "label": "Assists"
 },
@@ -241,7 +241,7 @@
 },
 {
 "name": "blocks",
-"displayValue": "3",
+"displayValue": "4",
 "abbreviation": "BLK",
 "label": "Blocks"
 },
@@ -1118,7 +1118,7 @@
 "0-1",
 "5-6",
 "7",
-"2",
+"3",
 "1",
 "3",
 "2",
@@ -1167,7 +1167,7 @@
 "0-3",
 "2-4",
 "8",
-"2",
+"4",
 "2",
 "2",
 "0",
@@ -1216,7 +1216,7 @@
 "3-7",
 "4-4",
 "7",
-"4",
+"5",
 "2",
 "1",
 "0",
@@ -1265,7 +1265,7 @@
 "1-6",
 "0-0",
 "2",
-"0",
+"1",
 "2",
 "0",
 "0",
@@ -1317,7 +1317,7 @@
 "4",
 "3",
 "0",
-"1",
+"2",
 "8",
 "4",
 "2"
@@ -1716,10 +1716,10 @@
 "7-22",
 "15-21",
 "47",
-"15",
+"20",
 "17",
 "10",
-"3",
+"4",
 "19",
 "28",
 "17"
@@ -1922,16 +1922,16 @@
 "displayName": "Assists",
 "leaders": [
 {
-"displayValue": "4",
-"value": 4.0,
+"displayValue": "5",
+"value": 5.0,
 "athlete": {
-"id": "5176363",
-"uid": "s:40~l:54~a:5176363",
-"guid": "f55cf065-cf04-3e7a-b697-3845b722aa44",
-"lastName": "Henderson",
-"fullName": "Fliss Henderson",
-"displayName": "Fliss Henderson",
-"shortName": "F. Henderson",
+"id": "5241574",
+"uid": "s:40~l:54~a:5241574",
+"guid": "162ed7d9-c7da-3067-ba47-ca31799f0522",
+"lastName": "Broom",
+"fullName": "Mia Broom",
+"displayName": "Mia Broom",
+"shortName": "M. Broom",
 "links": [
 {
 "rel": [
@@ -1939,15 +1939,15 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5176363/fliss-henderson",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5241574/mia-broom",
 "text": "Player Card"
 }
 ],
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5176363.png",
-"alt": "Fliss Henderson"
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5241574.png",
+"alt": "Mia Broom"
 },
-"jersey": "4",
+"jersey": "5",
 "position": {
 "name": "Guard",
 "displayName": "Guard",
@@ -1971,8 +1971,8 @@
 "shortDisplayName": "AST",
 "description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
 "abbreviation": "AST",
-"value": 4.0,
-"displayValue": "4"
+"value": 5.0,
+"displayValue": "5"
 },
 {
 "name": "turnovers",
@@ -1980,8 +1980,8 @@
 "shortDisplayName": "TO",
 "description": "The number of times a player loses possession to the other team.",
 "abbreviation": "TO",
-"value": 3.0,
-"displayValue": "3"
+"value": 2.0,
+"displayValue": "2"
 },
 {
 "name": "minutes",
@@ -1989,8 +1989,8 @@
 "shortDisplayName": "MIN",
 "description": "The total number of minutes played.",
 "abbreviation": "MIN",
-"value": 27.0,
-"displayValue": "27"
+"value": 23.0,
+"displayValue": "23"
 },
 {
 "name": "assistTurnoverRatio",
@@ -1998,15 +1998,15 @@
 "shortDisplayName": "AST/TO",
 "description": "The average number of assists a player or team records per turnover",
 "abbreviation": "AST/TO",
-"value": 1.3333334,
-"displayValue": "1.3"
+"value": 2.5,
+"displayValue": "2.5"
 }
 ],
 "mainStat": {
-"value": "4",
+"value": "5",
 "label": "AST"
 },
-"summary": "3 TO, 27 MIN"
+"summary": "2 TO, 23 MIN"
 }
 ]
 },
@@ -27630,6 +27630,70 @@
 ]
 },
 {
+"team": "Fordham",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2230/fordham-rams",
+"id": "2230",
+"uid": "s:40~l:54~t:2230",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "5-1",
+"displayValue": "5-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2230.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2026-07-01T04:35Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2230.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2026-07-01T04:34Z"
+}
+]
+},
+{
 "team": "Duquesne",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2184/duquesne-dukes",
 "id": "2184",
@@ -27690,134 +27754,6 @@
 "dark"
 ],
 "lastUpdated": "2019-05-17T20:27Z"
-}
-]
-},
-{
-"team": "Fordham",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2230/fordham-rams",
-"id": "2230",
-"uid": "s:40~l:54~t:2230",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "4-1",
-"displayValue": "4-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2230.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2026-07-01T04:35Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2230.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2026-07-01T04:34Z"
-}
-]
-},
-{
-"team": "George Washington",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/45/george-washington-revolutionaries",
-"id": "45",
-"uid": "s:40~l:54~t:45",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-1",
-"displayValue": "3-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2022-12-09T16:51Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/45.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2022-12-09T16:48Z"
 }
 ]
 },
@@ -28014,6 +27950,70 @@
 ]
 },
 {
+"team": "George Washington",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/45/george-washington-revolutionaries",
+"id": "45",
+"uid": "s:40~l:54~t:45",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-2",
+"displayValue": "3-2"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-12-09T16:51Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/45.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2022-12-09T16:48Z"
+}
+]
+},
+{
 "team": "Richmond",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/257/richmond-spiders",
 "id": "257",
@@ -28078,10 +28078,10 @@
 ]
 },
 {
-"team": "Loyola Chicago",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2350/loyola-chicago-ramblers",
-"id": "2350",
-"uid": "s:40~l:54~t:2350",
+"team": "Rhode Island",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/227/rhode-island-rams",
+"id": "227",
+"uid": "s:40~l:54~t:227",
 "stats": [
 {
 "id": "0",
@@ -28091,8 +28091,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-2",
-"displayValue": "2-2"
+"summary": "3-3",
+"displayValue": "3-3"
 },
 {
 "name": "gamesBehind",
@@ -28118,7 +28118,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2350.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/227.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -28126,10 +28126,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2020-08-31T21:06Z"
+"lastUpdated": "2022-12-09T16:51Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2350.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/227.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -28137,7 +28137,7 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2020-08-31T21:06Z"
+"lastUpdated": "2022-12-09T16:48Z"
 }
 ]
 },
@@ -28206,10 +28206,10 @@
 ]
 },
 {
-"team": "Rhode Island",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/227/rhode-island-rams",
-"id": "227",
-"uid": "s:40~l:54~t:227",
+"team": "Loyola Chicago",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2350/loyola-chicago-ramblers",
+"id": "2350",
+"uid": "s:40~l:54~t:2350",
 "stats": [
 {
 "id": "0",
@@ -28246,7 +28246,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/227.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2350.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -28254,10 +28254,10 @@
 "full",
 "default"
 ],
-"lastUpdated": "2022-12-09T16:51Z"
+"lastUpdated": "2020-08-31T21:06Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/227.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2350.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -28265,7 +28265,7 @@
 "full",
 "dark"
 ],
-"lastUpdated": "2022-12-09T16:48Z"
+"lastUpdated": "2020-08-31T21:06Z"
 }
 ]
 },

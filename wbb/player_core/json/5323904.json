@@ -12,6 +12,10 @@
 "fullName": "Codee Roland",
 "displayName": "Codee Roland",
 "shortName": "C. Roland",
+"weight": 135.0,
+"displayWeight": "135 lbs",
+"height": 66.0,
+"displayHeight": "5' 6\"",
 "links": [
 {
 "language": "en-US",
@@ -149,7 +153,15 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
+"birthPlace": {
+"city": "Sulphur Springs",
+"state": "TX",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
 "slug": "codee-roland",
 "jersey": "2",
 "hand": {
@@ -157,12 +169,19 @@
 "abbreviation": "R",
 "displayValue": "Right"
 },
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/4?lang=en&region=us",
-"id": "4",
-"name": "Point Guard",
-"displayName": "Point Guard",
-"abbreviation": "PG",
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/7?lang=en&region=us",
+"id": "7",
+"name": "Shooting Guard",
+"displayName": "Shooting Guard",
+"abbreviation": "SG",
 "leaf": true,
 "parent": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us"
@@ -176,9 +195,9 @@
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5323904/statistics?lang=en&region=us"
 },
 "experience": {
-"years": 1,
-"displayValue": "Freshman",
-"abbreviation": "FR"
+"years": 2,
+"displayValue": "Sophomore",
+"abbreviation": "SO"
 },
 "active": true,
 "status": {

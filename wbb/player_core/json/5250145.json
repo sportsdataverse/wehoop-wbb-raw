@@ -7,11 +7,15 @@
 "alternateIds": {
 "sdr": "5250145"
 },
-"firstName": "Keiera",
+"firstName": "Keiere",
 "lastName": "Jackson",
-"fullName": "Keiera Jackson",
-"displayName": "Keiera Jackson",
+"fullName": "Keiere Jackson",
+"displayName": "Keiere Jackson",
 "shortName": "K. Jackson",
+"weight": 114.0,
+"displayWeight": "114 lbs",
+"height": 65.0,
+"displayHeight": "5' 5\"",
 "links": [
 {
 "language": "en-US",
@@ -20,7 +24,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5250145/keiera-jackson",
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5250145/keiere-jackson",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -47,7 +51,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5250145/keiera-jackson",
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5250145/keiere-jackson",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -74,7 +78,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5250145/keiera-jackson",
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5250145/keiere-jackson",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -101,7 +105,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5250145/keiera-jackson",
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5250145/keiere-jackson",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -128,7 +132,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5250145/keiera-jackson",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5250145/keiere-jackson",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -149,21 +153,39 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
-"slug": "keiera-jackson",
+"birthPlace": {
+"city": "Grand Prairie",
+"state": "TX",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"slug": "keiere-jackson",
 "jersey": "3",
 "hand": {
 "type": "BOTH",
 "abbreviation": "B",
 "displayValue": "Both"
 },
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
-"id": "3",
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G",
-"leaf": false
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/7?lang=en&region=us",
+"id": "7",
+"name": "Shooting Guard",
+"displayName": "Shooting Guard",
+"abbreviation": "SG",
+"leaf": true,
+"parent": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us"
+}
 },
 "linked": true,
 "team": {
@@ -173,9 +195,9 @@
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5250145/statistics?lang=en&region=us"
 },
 "experience": {
-"years": 2,
-"displayValue": "Sophomore",
-"abbreviation": "SO"
+"years": 3,
+"displayValue": "Junior",
+"abbreviation": "JR"
 },
 "active": true,
 "status": {

@@ -12,6 +12,8 @@
 "fullName": "Cassidy Yung",
 "displayName": "Cassidy Yung",
 "shortName": "C. Yung",
+"height": 64.0,
+"displayHeight": "5' 4\"",
 "links": [
 {
 "language": "en-US",
@@ -149,13 +151,28 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
+"birthPlace": {
+"city": "Brooklyn",
+"state": "NY",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
 "slug": "cassidy-yung",
 "jersey": "2",
 "hand": {
 "type": "RIGHT",
 "abbreviation": "R",
 "displayValue": "Right"
+},
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
 },
 "position": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/3?lang=en&region=us",
@@ -173,9 +190,9 @@
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5318832/statistics?lang=en&region=us"
 },
 "experience": {
-"years": 1,
-"displayValue": "Freshman",
-"abbreviation": "FR"
+"years": 2,
+"displayValue": "Sophomore",
+"abbreviation": "SO"
 },
 "active": true,
 "status": {

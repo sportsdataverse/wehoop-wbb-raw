@@ -569,6 +569,40 @@
 {
 "active": true,
 "athlete": {
+"id": "5463710",
+"uid": "s:40~l:54~a:5463710",
+"guid": "c1578b9d-c924-3158-9d41-4d0f5b0e688e",
+"displayName": "Reese Lewis",
+"shortName": "R. Lewis",
+"jersey": "21",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"13",
+"2",
+"0-2",
+"0-0",
+"2-2",
+"6",
+"0",
+"0",
+"0",
+"0",
+"3",
+"3",
+"1"
+]
+},
+{
+"active": true,
+"athlete": {
 "id": "5317748",
 "uid": "s:40~l:54~a:5317748",
 "guid": "38701c26-dcc4-37df-8891-a987fd44fe51",
@@ -871,26 +905,6 @@
 "3",
 "0"
 ]
-},
-{
-"active": true,
-"athlete": {
-"id": "5463710",
-"uid": "s:40~l:54~a:5463710",
-"guid": "c1578b9d-c924-3158-9d41-4d0f5b0e688e",
-"displayName": "Reese Lewis",
-"shortName": "R. Lewis",
-"jersey": "21",
-"position": {
-"name": "Forward",
-"displayName": "Forward",
-"abbreviation": "F"
-}
-},
-"starter": false,
-"didNotPlay": true,
-"ejected": false,
-"stats": []
 },
 {
 "active": false,
@@ -2240,21 +2254,21 @@
 "displayName": "Rebounds",
 "leaders": [
 {
-"displayValue": "5",
-"value": 5.0,
+"displayValue": "6",
+"value": 6.0,
 "athlete": {
-"id": "5259098",
-"uid": "s:40~l:54~a:5259098",
-"guid": "1b58aee5-fe0f-38b7-9764-c38f0ec300bd",
-"lastName": "Shaffer",
-"fullName": "Aliyah Shaffer",
-"displayName": "Aliyah Shaffer",
-"shortName": "A. Shaffer",
-"jersey": "14",
+"id": "5463710",
+"uid": "s:40~l:54~a:5463710",
+"guid": "c1578b9d-c924-3158-9d41-4d0f5b0e688e",
+"lastName": "Lewis",
+"fullName": "Reese Lewis",
+"displayName": "Reese Lewis",
+"shortName": "R. Lewis",
+"jersey": "21",
 "position": {
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G"
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
 },
 "team": {
 "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2476?lang=en&region=us",
@@ -2274,8 +2288,8 @@
 "shortDisplayName": "REB",
 "description": "The total number of rebounds (offensive and defensive).",
 "abbreviation": "REB",
-"value": 5.0,
-"displayValue": "5"
+"value": 6.0,
+"displayValue": "6"
 },
 {
 "name": "defensiveRebounds",
@@ -2283,8 +2297,8 @@
 "shortDisplayName": "DREB",
 "description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
 "abbreviation": "DR",
-"value": 5.0,
-"displayValue": "5"
+"value": 3.0,
+"displayValue": "3"
 },
 {
 "name": "offensiveRebounds",
@@ -2292,15 +2306,15 @@
 "shortDisplayName": "OREB",
 "description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
 "abbreviation": "OR",
-"value": 0.0,
-"displayValue": "0"
+"value": 3.0,
+"displayValue": "3"
 }
 ],
 "mainStat": {
-"value": "5",
+"value": "6",
 "label": "REB"
 },
-"summary": "5 DREB, 0 OREB"
+"summary": "3 DREB, 3 OREB"
 }
 ]
 }
@@ -26376,6 +26390,70 @@
 "standings": {
 "entries": [
 {
+"team": "Missouri State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2623/missouri-state-lady-bears",
+"id": "2623",
+"uid": "s:40~l:54~t:2623",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-1",
+"displayValue": "4-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-23T22:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2623.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-23T22:08Z"
+}
+]
+},
+{
 "team": "Liberty",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2335/liberty-flames",
 "id": "2335",
@@ -26428,70 +26506,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2335.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2025-12-23T22:08Z"
-}
-]
-},
-{
-"team": "Missouri State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2623/missouri-state-lady-bears",
-"id": "2623",
-"uid": "s:40~l:54~t:2623",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-1",
-"displayValue": "3-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2025-12-23T22:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2623.png",
 "width": 500,
 "height": 500,
 "alt": "",

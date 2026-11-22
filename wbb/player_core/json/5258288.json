@@ -7,10 +7,10 @@
 "alternateIds": {
 "sdr": "5258288"
 },
-"firstName": "Kerigan",
+"firstName": "Kerrigan",
 "lastName": "Salmons",
-"fullName": "Kerigan Salmons",
-"displayName": "Kerigan Salmons",
+"fullName": "Kerrigan Salmons",
+"displayName": "Kerrigan Salmons",
 "shortName": "K. Salmons",
 "links": [
 {
@@ -20,7 +20,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5258288/kerigan-salmons",
+"href": "https://www.espn.com/womens-college-basketball/player/stats/_/id/5258288/kerrigan-salmons",
 "text": "Stats",
 "shortText": "Stats",
 "isExternal": false,
@@ -47,7 +47,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5258288/kerigan-salmons",
+"href": "https://www.espn.com/womens-college-basketball/player/gamelog/_/id/5258288/kerrigan-salmons",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -74,7 +74,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5258288/kerigan-salmons",
+"href": "https://www.espn.com/womens-college-basketball/player/news/_/id/5258288/kerrigan-salmons",
 "text": "News",
 "shortText": "News",
 "isExternal": false,
@@ -101,7 +101,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5258288/kerigan-salmons",
+"href": "https://www.espn.com/womens-college-basketball/player/bio/_/id/5258288/kerrigan-salmons",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -128,7 +128,7 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5258288/kerigan-salmons",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5258288/kerrigan-salmons",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -149,15 +149,30 @@
 "isPremium": false
 }
 ],
-"birthPlace": {},
-"slug": "kerigan-salmons",
+"birthPlace": {
+"city": "Crum",
+"state": "WV",
+"country": "USA"
+},
+"birthCountry": {
+"alternateId": "1",
+"abbreviation": "USA"
+},
+"slug": "kerrigan-salmons",
 "jersey": "33",
+"flag": {
+"href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+"alt": "USA",
+"rel": [
+"country-flag"
+]
+},
 "position": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/74?lang=en&region=us",
-"id": "74",
-"name": "Athlete",
-"displayName": "Athlete",
-"abbreviation": "ATH",
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/positions/2?lang=en&region=us",
+"id": "2",
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F",
 "leaf": false
 },
 "linked": true,
@@ -166,6 +181,11 @@
 },
 "statistics": {
 "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5258288/statistics?lang=en&region=us"
+},
+"experience": {
+"years": 4,
+"displayValue": "Senior",
+"abbreviation": "SR"
 },
 "active": true,
 "status": {

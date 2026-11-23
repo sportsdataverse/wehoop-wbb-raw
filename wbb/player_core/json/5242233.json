@@ -18,19 +18,6 @@
 {
 "language": "en-US",
 "rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5242233/allison-ohanlon",
-"text": "Player Card",
-"shortText": "Player Card",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en-US",
-"rel": [
 "stats",
 "desktop",
 "athlete"
@@ -165,7 +152,7 @@
 }
 ],
 "birthPlace": {
-"city": "Duanesburg",
+"city": "Delanson",
 "state": "NY",
 "country": "USA"
 },
@@ -196,18 +183,24 @@
 },
 "linked": true,
 "team": {
-"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2561?lang=en&region=us"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2162?lang=en&region=us"
+},
+"statistics": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5242233/statistics?lang=en&region=us"
 },
 "experience": {
-"years": 1,
-"displayValue": "Freshman",
-"abbreviation": "FR"
+"years": 2,
+"displayValue": "Sophomore",
+"abbreviation": "SO"
 },
-"active": false,
+"active": true,
 "status": {
-"id": "2",
-"name": "Inactive",
-"type": "inactive",
-"abbreviation": "Inactive"
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+},
+"statisticslog": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/5242233/statisticslog?lang=en&region=us"
 }
 }

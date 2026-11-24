@@ -50,7 +50,7 @@
 },
 {
 "name": "totalRebounds",
-"displayValue": "36",
+"displayValue": "35",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
@@ -62,7 +62,7 @@
 },
 {
 "name": "defensiveRebounds",
-"displayValue": "25",
+"displayValue": "24",
 "abbreviation": "DR",
 "label": "Defensive Rebounds"
 },
@@ -86,7 +86,7 @@
 },
 {
 "name": "turnovers",
-"displayValue": "18",
+"displayValue": "17",
 "abbreviation": "TO",
 "label": "Turnovers"
 },
@@ -98,7 +98,7 @@
 },
 {
 "name": "totalTurnovers",
-"displayValue": "18",
+"displayValue": "17",
 "abbreviation": "ToTO",
 "label": "Total Turnovers"
 },
@@ -210,7 +210,7 @@
 },
 {
 "name": "totalRebounds",
-"displayValue": "40",
+"displayValue": "39",
 "abbreviation": "REB",
 "label": "Rebounds"
 },
@@ -222,7 +222,7 @@
 },
 {
 "name": "defensiveRebounds",
-"displayValue": "27",
+"displayValue": "26",
 "abbreviation": "DR",
 "label": "Defensive Rebounds"
 },
@@ -680,7 +680,7 @@
 "0-0",
 "3",
 "2",
-"1",
+"0",
 "1",
 "0",
 "0",
@@ -1023,13 +1023,13 @@
 "21-57",
 "5-10",
 "12-16",
-"36",
+"35",
 "13",
-"18",
+"17",
 "8",
 "3",
 "11",
-"25",
+"24",
 "21"
 ]
 }
@@ -1250,14 +1250,14 @@
 "4-8",
 "0-0",
 "1-2",
-"12",
+"13",
 "0",
 "3",
 "0",
 "0",
 "4",
-"8",
-"3"
+"9",
+"2"
 ]
 },
 {
@@ -1502,7 +1502,7 @@
 "0",
 "0",
 "1",
-"0"
+"1"
 ]
 },
 {
@@ -1736,13 +1736,13 @@
 "26-64",
 "6-24",
 "10-18",
-"40",
+"39",
 "15",
 "14",
 "7",
 "2",
 "13",
-"27",
+"26",
 "16"
 ]
 }
@@ -2047,8 +2047,8 @@
 "displayName": "Rebounds",
 "leaders": [
 {
-"displayValue": "12",
-"value": 12.0,
+"displayValue": "13",
+"value": 13.0,
 "athlete": {
 "id": "5239703",
 "uid": "s:40~l:54~a:5239703",
@@ -2096,8 +2096,8 @@
 "shortDisplayName": "REB",
 "description": "The total number of rebounds (offensive and defensive).",
 "abbreviation": "REB",
-"value": 12.0,
-"displayValue": "12"
+"value": 13.0,
+"displayValue": "13"
 },
 {
 "name": "defensiveRebounds",
@@ -2105,8 +2105,8 @@
 "shortDisplayName": "DREB",
 "description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
 "abbreviation": "DR",
-"value": 8.0,
-"displayValue": "8"
+"value": 9.0,
+"displayValue": "9"
 },
 {
 "name": "offensiveRebounds",
@@ -2119,10 +2119,10 @@
 }
 ],
 "mainStat": {
-"value": "12",
+"value": "13",
 "label": "REB"
 },
-"summary": "8 DREB, 4 OREB"
+"summary": "9 DREB, 4 OREB"
 }
 ]
 }
@@ -24283,8 +24283,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-4",
-"displayValue": "2-4"
+"summary": "2-5",
+"displayValue": "2-5"
 },
 {
 "name": "gamesBehind",
@@ -24729,6 +24729,134 @@
 ]
 },
 {
+"team": "Michigan",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/130/michigan-wolverines",
+"id": "130",
+"uid": "s:40~l:54~t:130",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-0",
+"displayValue": "6-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2026-01-08T23:30Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/130.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-23T01:44Z"
+}
+]
+},
+{
+"team": "Michigan State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/127/michigan-state-spartans",
+"id": "127",
+"uid": "s:40~l:54~t:127",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-0",
+"displayValue": "6-0"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-23T01:44Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/127.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2026-01-05T20:05Z"
+}
+]
+},
+{
 "team": "Minnesota",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/135/minnesota-golden-gophers",
 "id": "135",
@@ -24985,134 +25113,6 @@
 ]
 },
 {
-"team": "Michigan",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/130/michigan-wolverines",
-"id": "130",
-"uid": "s:40~l:54~t:130",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "5-0",
-"displayValue": "5-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2026-01-08T23:30Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/130.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2025-12-23T01:44Z"
-}
-]
-},
-{
-"team": "Michigan State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/127/michigan-state-spartans",
-"id": "127",
-"uid": "s:40~l:54~t:127",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "5-0",
-"displayValue": "5-0"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2025-12-23T01:44Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/127.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2026-01-05T20:05Z"
-}
-]
-},
-{
 "team": "Illinois",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/356/illinois-fighting-illini",
 "id": "356",
@@ -25165,6 +25165,70 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/356.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-23T01:44Z"
+}
+]
+},
+{
+"team": "Iowa",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes",
+"id": "2294",
+"uid": "s:40~l:54~t:2294",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-1",
+"displayValue": "6-1"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-23T01:44Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2294.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -25305,10 +25369,10 @@
 ]
 },
 {
-"team": "Iowa",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes",
-"id": "2294",
-"uid": "s:40~l:54~t:2294",
+"team": "USC",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/30/usc-trojans",
+"id": "30",
+"uid": "s:40~l:54~t:30",
 "stats": [
 {
 "id": "0",
@@ -25345,7 +25409,7 @@
 ],
 "logo": [
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -25356,7 +25420,7 @@
 "lastUpdated": "2025-12-23T01:44Z"
 },
 {
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2294.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/30.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -25421,70 +25485,6 @@
 },
 {
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/120.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2025-12-23T01:44Z"
-}
-]
-},
-{
-"team": "USC",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/30/usc-trojans",
-"id": "30",
-"uid": "s:40~l:54~t:30",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "4-1",
-"displayValue": "4-1"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2025-12-23T01:44Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/30.png",
 "width": 500,
 "height": 500,
 "alt": "",
@@ -25638,8 +25638,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "3-4",
-"displayValue": "3-4"
+"summary": "4-4",
+"displayValue": "4-4"
 },
 {
 "name": "gamesBehind",

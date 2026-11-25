@@ -484,8 +484,8 @@
 "ejected": false,
 "stats": [
 "38",
-"18",
-"6-14",
+"20",
+"7-15",
 "0-2",
 "6-6",
 "8",
@@ -724,7 +724,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"11",
+"12",
 "3",
 "1-5",
 "1-3",
@@ -774,8 +774,8 @@
 "ejected": false,
 "stats": [
 "21",
-"7",
-"3-6",
+"5",
+"2-5",
 "1-2",
 "0-0",
 "3",
@@ -1450,7 +1450,7 @@
 "didNotPlay": false,
 "ejected": false,
 "stats": [
-"14",
+"13",
 "0",
 "0-6",
 "0-6",
@@ -2101,16 +2101,16 @@
 "displayName": "Points",
 "leaders": [
 {
-"displayValue": "18",
-"value": 18.0,
+"displayValue": "20",
+"value": 20.0,
 "athlete": {
-"id": "5242701",
-"uid": "s:40~l:54~a:5242701",
-"guid": "5ec7fbb0-db0b-3e6b-a4c1-b9238f9e476b",
-"lastName": "Davis",
-"fullName": "Madison Davis",
-"displayName": "Madison Davis",
-"shortName": "M. Davis",
+"id": "5110061",
+"uid": "s:40~l:54~a:5110061",
+"guid": "8e9c6cee-b22d-394e-a0ca-eb1ac893e808",
+"lastName": "Nicastro",
+"fullName": "Mia Nicastro",
+"displayName": "Mia Nicastro",
+"shortName": "M. Nicastro",
 "links": [
 {
 "rel": [
@@ -2118,19 +2118,19 @@
 "desktop",
 "athlete"
 ],
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/5242701/madison-davis",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/5110061/mia-nicastro",
 "text": "Player Card"
 }
 ],
 "headshot": {
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5242701.png",
-"alt": "Madison Davis"
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5110061.png",
+"alt": "Mia Nicastro"
 },
-"jersey": "1",
+"jersey": "22",
 "position": {
-"name": "Guard",
-"displayName": "Guard",
-"abbreviation": "G"
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
 },
 "team": {
 "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/womens-college-basketball/seasons/2027/teams/2710?lang=en&region=us",
@@ -2150,8 +2150,8 @@
 "shortDisplayName": "PTS",
 "description": "The number of points scored.",
 "abbreviation": "PTS",
-"value": 18.0,
-"displayValue": "18"
+"value": 20.0,
+"displayValue": "20"
 },
 {
 "name": "fieldGoals",
@@ -2159,8 +2159,8 @@
 "shortDisplayName": "FG",
 "description": "Field Goal makes and attempts.",
 "abbreviation": "FG",
-"value": 0.636364,
-"displayValue": "7/11"
+"value": 0.466667,
+"displayValue": "7/15"
 },
 {
 "name": "freeThrows",
@@ -2169,14 +2169,14 @@
 "description": "Free Throw makes and attempts.",
 "abbreviation": "FT",
 "value": 1.0,
-"displayValue": "2/2"
+"displayValue": "6/6"
 }
 ],
 "mainStat": {
-"value": "18",
+"value": "20",
 "label": "PTS"
 },
-"summary": "7/11 FG, 2/2 FT"
+"summary": "7/15 FG, 6/6 FT"
 }
 ]
 },
@@ -22345,8 +22345,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-1",
-"displayValue": "5-1"
+"summary": "6-1",
+"displayValue": "6-1"
 },
 {
 "name": "gamesBehind",
@@ -22409,8 +22409,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "5-2",
-"displayValue": "5-2"
+"summary": "5-3",
+"displayValue": "5-3"
 },
 {
 "name": "gamesBehind",
@@ -22524,6 +22524,134 @@
 ]
 },
 {
+"team": "UT Martin",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2630/ut-martin-skyhawks",
+"id": "2630",
+"uid": "s:40~l:54~t:2630",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-5",
+"displayValue": "3-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2630.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2630.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Southeast Missouri State",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/2546/southeast-missouri-state-redhawks",
+"id": "2546",
+"uid": "s:40~l:54~t:2546",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-6",
+"displayValue": "3-6"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-12-13T21:29Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2546.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-12-13T21:30Z"
+}
+]
+},
+{
 "team": "Tennessee State",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2634/tennessee-state-lady-tigers",
 "id": "2634",
@@ -22588,70 +22716,6 @@
 ]
 },
 {
-"team": "UT Martin",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2630/ut-martin-skyhawks",
-"id": "2630",
-"uid": "s:40~l:54~t:2630",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-5",
-"displayValue": "2-5"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2630.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2630.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2018-06-05T12:08Z"
-}
-]
-},
-{
 "team": "Lindenwood",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/2815/lindenwood-lions",
 "id": "2815",
@@ -22665,8 +22729,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "2-6",
-"displayValue": "2-6"
+"summary": "2-7",
+"displayValue": "2-7"
 },
 {
 "name": "gamesBehind",
@@ -22712,70 +22776,6 @@
 "dark"
 ],
 "lastUpdated": "2023-01-24T18:03Z"
-}
-]
-},
-{
-"team": "Southeast Missouri State",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/2546/southeast-missouri-state-redhawks",
-"id": "2546",
-"uid": "s:40~l:54~t:2546",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "2-6",
-"displayValue": "2-6"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-12-13T21:29Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2546.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-12-13T21:30Z"
 }
 ]
 },
@@ -22996,8 +22996,8 @@
 "shortDisplayName": "Season",
 "description": "Overall Record",
 "type": "total",
-"summary": "3-2",
-"displayValue": "3-2"
+"summary": "4-2",
+"displayValue": "4-2"
 },
 {
 "name": "gamesBehind",
@@ -23175,70 +23175,6 @@
 ]
 },
 {
-"team": "Kansas City",
-"link": "https://www.espn.com/womens-college-basketball/team/_/id/140/kansas-city-roos",
-"id": "140",
-"uid": "s:40~l:54~t:140",
-"stats": [
-{
-"id": "0",
-"name": "overall",
-"abbreviation": "Season",
-"displayName": "Team Season Record",
-"shortDisplayName": "Season",
-"description": "Overall Record",
-"type": "total",
-"summary": "3-4",
-"displayValue": "3-4"
-},
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.0,
-"displayValue": "-"
-},
-{
-"id": "9",
-"name": "vs. Conf.",
-"abbreviation": "VS CONF",
-"displayName": "CONF",
-"shortDisplayName": "CONF",
-"description": "Conference Record",
-"type": "vsconf",
-"summary": "0-0",
-"displayValue": "0-0"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/140.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-01-20T22:36Z"
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/140.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"lastUpdated": "2023-01-20T22:35Z"
-}
-]
-},
-{
 "team": "Oral Roberts",
 "link": "https://www.espn.com/womens-college-basketball/team/_/id/198/oral-roberts-golden-eagles",
 "id": "198",
@@ -23299,6 +23235,70 @@
 "dark"
 ],
 "lastUpdated": "2023-03-15T19:32Z"
+}
+]
+},
+{
+"team": "Kansas City",
+"link": "https://www.espn.com/womens-college-basketball/team/_/id/140/kansas-city-roos",
+"id": "140",
+"uid": "s:40~l:54~t:140",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "Season",
+"displayName": "Team Season Record",
+"shortDisplayName": "Season",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-5",
+"displayValue": "3-5"
+},
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"id": "9",
+"name": "vs. Conf.",
+"abbreviation": "VS CONF",
+"displayName": "CONF",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/140.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-01-20T22:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/140.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2023-01-20T22:35Z"
 }
 ]
 },
